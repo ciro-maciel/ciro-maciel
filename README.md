@@ -1,4 +1,4 @@
-### Hello! 👋My name is <strong style='font-size:18px'>Ciro</strong>.
+### Hello! 👋 My name is Ciro
 
 
 Software engineer. Experienced team member, always collaborating to achieve the stated objectives. 
