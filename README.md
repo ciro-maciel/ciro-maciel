@@ -1,4 +1,11 @@
-### Hi there 👋
+### Hello! 👋My name is <strong style='font-size:18px'>Ciro</strong>.
+
+
+Software engineer. Experienced team member, always collaborating to achieve the stated objectives. 
+
+Keeping it simple, I know how to explain a technical issue in simple terms, whether for a client or a team member, self organized.
+
+
 
 <!--
 **ciro-maciel/ciro-maciel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
