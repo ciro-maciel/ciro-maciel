@@ -14,7 +14,7 @@ Connect with me via [instagram](https://www.instagram.com/ciro.maciel/) or [link
 - <a href="https://go2work.click/" target="_blank">Workspace</a> - simple, how Everything should be
 
 
-##### Open Source
+#### Open Source
 - <a href="" target="_blank">uniQue</a> - SaaS starter kit, foundation for your **business**
 - <a href="https://github.com/rili-saas/template-front-end-react.js-application" target="_blank">Front-end React.js Application</a> - template code for RiLi products
 - <a href="https://github.com/rili-saas/template-back-end-node.js-services" target="_blank">Back-end Node.js Services</a> - template code for RiLi products
@@ -22,7 +22,7 @@ Connect with me via [instagram](https://www.instagram.com/ciro.maciel/) or [link
 - <a href="https://github.com/ciro-maciel/utility" target="_blank">utility</a> - utility package for development Applications
 
 
-##### Mindset Changes
+#### Mindset Changes
 - [Dez bons conselhos de meu pai](https://amzn.to/3dgMgym)
 - [Dieta de Gladiadores](https://www.netflix.com/br/title/81157840)
 - [What the Health](https://www.netflix.com/br/title/80174177)
