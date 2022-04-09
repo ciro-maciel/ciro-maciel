@@ -5,7 +5,17 @@ Software engineer. Experienced team member, always collaborating to achieve the 
 
 Keeping it simple, I know how to explain a technical issue in simple terms, whether for a client or a team member, self organized.
 
+Connect with me via [instagram](https://www.instagram.com/ciro.maciel/), [github](https://github.com/ciro-maciel) or [linkedin](https://www.linkedin.com/in/ciro-maciel/).
 
+#### Mindset Changes
+
+- [Dez bons conselhos de meu pai](https://amzn.to/3dgMgym)
+- [Dieta de Gladiadores](https://www.netflix.com/br/title/81157840)
+- [What the Health](https://www.netflix.com/br/title/80174177)
+- [Os 7 Hábitos das Pessoas Altamente Eficazes](https://amzn.to/3plKmid)
+- [12 Regras Para a Vida: Um Antídoto Para o Caos](https://amzn.to/3u0ug0X)
+- [Sprint. O Método Usado no Google](https://amzn.to/3aqQWjn)
+- [Receita Previsível](https://amzn.to/37gCNTI)
 
 <!--
 **ciro-maciel/ciro-maciel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
