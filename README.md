@@ -5,7 +5,7 @@ Software engineer. Experienced team member, always collaborating to achieve the 
 
 Keeping it simple, I know how to explain a technical issue in simple terms, whether for a client or a team member, self organized.
 
-Connect with me via [instagram](https://www.instagram.com/ciro.maciel/), [github](https://github.com/ciro-maciel) or [linkedin](https://www.linkedin.com/in/ciro-maciel/).
+Connect with me via [instagram](https://www.instagram.com/ciro.maciel/) or [linkedin](https://www.linkedin.com/in/ciro-maciel/).
 
 #### Mindset Changes
 
