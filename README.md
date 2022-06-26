@@ -15,10 +15,7 @@ Connect with me via [instagram](https://www.instagram.com/ciro.maciel/) or [link
 
 
 #### Open Source
-- <a href="" target="_blank">uniQue</a> - SaaS starter kit, foundation for your **business**
-- <a href="https://github.com/rili-saas/template-front-end-react.js-application" target="_blank">Front-end React.js Application</a> - template code for RiLi products
-- <a href="https://github.com/rili-saas/template-back-end-node.js-services" target="_blank">Back-end Node.js Services</a> - template code for RiLi products
-- <a href="https://github.com/rili-saas/template-back-end-node.js-graphql" target="_blank">Back-end Node.js GraphQL</a> - template code for RiLi products
+- <a href="https://github.com/rili-saas-unique" target="_blank">uniQue</a> - SaaS starter kit, foundation for your **business**
 - <a href="https://github.com/ciro-maciel/utility" target="_blank">utility</a> - utility package for development Applications
 
 
