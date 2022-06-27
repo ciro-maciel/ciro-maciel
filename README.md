@@ -7,6 +7,7 @@ Keeping it simple, I know how to explain a technical issue in simple terms, whet
 
 Connect with me via [instagram](https://www.instagram.com/ciro.maciel/) or [linkedin](https://www.linkedin.com/in/ciro-maciel/).
 
+<!--
 #### our Projects
 - <a href="https://webshot.click/" target="_blank">webShot</a> - take Screenshots of web pages
 - <a href="https://formson.click/" target="_blank">Foms</a> - powerful forms Anywhere
@@ -17,6 +18,7 @@ Connect with me via [instagram](https://www.instagram.com/ciro.maciel/) or [link
 #### Open Source
 - <a href="https://github.com/rili-saas-unique" target="_blank">uniQue</a> - SaaS starter kit, foundation for your **business**
 - <a href="https://github.com/ciro-maciel/utility" target="_blank">utility</a> - utility package for development Applications
+-->
 
 
 #### Mindset Changes
