@@ -2,18 +2,10 @@
 
 **Construir é de todos. As ferramentas e o saber é que não eram.**
 
-Faço software há mais de vinte anos. Hoje construo, sozinho e com agentes, os blocos que uma ideia
-precisa para existir de verdade. E mostro como usar.
-
-| | |
-|---:|---|
-| **16** | produtos no ar, em quatro linhas |
-| **1.738** | commits nos últimos 30 dias, meus e dos agentes que trabalham comigo, em 12 repositórios |
-| **18** | ferramentas grátis, 5 delas apps de Mac |
-| **6** | livros publicados |
-| **1** | pessoa |
-
-<sub>Contado em 13/10/2026 pelo inventário que roda todo dia sobre os repositórios.</sub>
+Faço software há mais de **vinte anos**. Hoje construo, sozinho e com agentes, os blocos que uma ideia
+precisa para existir de verdade. São **16 produtos no ar**, em **quatro linhas**; **18 ferramentas
+grátis**, **5 delas apps de Mac**; **6 livros publicados**; e o **primeiro projeto de código aberto**.
+Tudo feito por **uma pessoa**. E eu mostro como usar.
 
 ## As linhas
 
