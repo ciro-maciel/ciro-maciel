@@ -6,16 +6,7 @@ Faço software há mais de **vinte anos**. Hoje construo, sozinho e com agentes,
 
 **As linhas.** [Infrastructure](https://myinfrastructure.click/?ref=github-profile), a infraestrutura que os agentes já sabem operar · [Operations](https://myoperations.click/?ref=github-profile), o que acontece no que você colocou no ar · [Customers](https://mycustomers.click/?ref=github-profile), onde cada pessoa está · [Marketing](https://mymarketing.click/?ref=github-profile), o que trouxe cada pessoa.
 
-**Código aberto.** Seis apps nativos para Mac, MIT, assinados e notarizados pela Apple:
-
-| App | O que faz |
-| --- | --- |
-| [Cleaner](https://github.com/ciro-maciel/cleaner) | O limpador que mostra antes de apagar: regras legíveis e 7 dias de quarentena |
-| [Screenshots](https://github.com/ciro-maciel/screenshots) | Captura, anotação e gravação de tela, sem nada sair do Mac |
-| [Speech to Text](https://github.com/ciro-maciel/speech-to-text) | Ditado por atalho, com o Whisper rodando no Mac |
-| [Assistant](https://github.com/ciro-maciel/voice-assistant) | O Claude Code por voz: chame pelo nome, peça, ouça a resposta |
-| [Windows](https://github.com/ciro-maciel/windows) | Janelas no lugar com um atalho ou levando até a borda |
-| [Text to Speech](https://github.com/ciro-maciel/text-to-speech) | Selecione um texto em qualquer app e ouça |
+**Código aberto.** Seis apps nativos para Mac, grátis, MIT, assinados e notarizados pela Apple, em inglês e português: [Cleaner](https://github.com/ciro-maciel/cleaner), o limpador que mostra antes de apagar · [Screenshots](https://github.com/ciro-maciel/screenshots), captura, anotação e gravação de tela · [Speech to Text](https://github.com/ciro-maciel/speech-to-text), ditado por atalho com o Whisper no Mac · [Assistant](https://github.com/ciro-maciel/voice-assistant), o Claude Code por voz · [Windows](https://github.com/ciro-maciel/windows), janelas no lugar com um atalho · [Text to Speech](https://github.com/ciro-maciel/text-to-speech), selecione um texto e ouça.
 
 De graça também: [ferramentas](https://ciromaciel.click/tools?ref=github-profile), [extensões do VS Code](https://open-vsx.org/namespace/ciro-maciel) e os [livros](https://ciromaciel.click/books?ref=github-profile).
 
