@@ -1,0 +1,68 @@
+# Ciro Cesar Maciel — aberto para inteligência artificial, de propósito.
+#
+# Este site bloqueava GPTBot, ChatGPT-User, CCBot, anthropic-ai e Claude-Web.
+# Era a contradição que os outros dois sites já tinham corrigido: a
+# pessoa que constrói infraestrutura operada por agentes não pode dizer a
+# esses mesmos agentes que não leiam a página sobre ela. Pior que a
+# contradição, o efeito prático — ficar de fora da resposta de quem faz
+# exatamente a pergunta que interessa.
+#
+# Os bots estão nomeados um a um em vez de cobertos pelo `*` porque permissão
+# explícita é declaração; ausência de bloqueio é só descuido que funcionou.
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://ciromaciel.click/sitemap.xml
+# The same addresses in the other formats Google and Bing read: one per line,
+# and the feeds of what changed most recently (scripts/sitemap-dates.js).
+Sitemap: https://ciromaciel.click/sitemap.txt
+Sitemap: https://ciromaciel.click/feed.xml
+Sitemap: https://ciromaciel.click/atom.xml
+
+# O ponto de entrada para quem lê como máquina (llmstxt.org): quem é, o que
+# existe, onde está e — o que importa tanto quanto — o que este site NÃO faz.
+# Ele existe porque a permissão acima sozinha não bastava: este site é uma SPA,
+# e um fetch na home devolve uma div vazia. Convidar o agente e entregar isso
+# seria pior do que não convidar.
+#
+#   /llms.txt            o site inteiro, em uma página
+#
+# A referência do PRODUTO é outra, e não mora aqui:
+# https://myinfrastructure.click/llms.txt
+
+# A spec do design system em formato legível por máquina. /design-system é uma
+# SPA: um agente que faz fetch nela recebe uma div vazia, então as três rotas
+# abaixo servem a mesma informação como texto. São geradas no build a partir
+# dos mesmos módulos que a página renderiza (plugins/agent-spec-plugin.js).
+#
+#   /llms-design.txt     índice curto, no padrão llmstxt.org
+#   /design-system.txt   a especificação completa em Markdown
+#   /design-system.json  os mesmos dados, estruturados

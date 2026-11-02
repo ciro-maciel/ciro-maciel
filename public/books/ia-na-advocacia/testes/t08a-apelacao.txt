@@ -1,0 +1,1421 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t08, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t08a-N1 — apelação, prompt natural
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do autor. Faça a apelação contra esta sentença e me diga até quando posso protocolar.
+
+PODER JUDICIÁRIO — 1ª VARA CÍVEL DE COMARCA-X
+Processo nº 0004321-22.2025.8.99.0001 — Procedimento comum
+Autor: Cliente A
+Rés: Empresa-B Comércio de Eletrodomésticos Ltda. (loja) e Empresa-C Indústria S.A. (fabricante)
+Disponibilizada no DJEN em 16/09/2026 (quarta-feira).
+
+SENTENÇA
+
+[1] Relatório. O autor alega que comprou da primeira ré, em 10/01/2023, uma geladeira fabricada pela segunda ré, por R$ 4.200,00; que em 15/02/2023 a geladeira parou de gelar; que a levou à assistência técnica autorizada em 20/02/2023 e em 10/03/2023, sem conserto; e que em 20/03/2025 um curto-circuito na geladeira queimou a fiação da cozinha. Pede: (a) a restituição do preço, R$ 4.200,00; (b) R$ 3.100,00 pelo conserto da fiação; (c) R$ 15.000,00 de danos morais. A ação foi proposta em 05/05/2025. O autor não pediu gratuidade da justiça.
+
+[2] As rés contestaram. A primeira alegou ilegitimidade quanto ao pedido (b). A segunda alegou decadência do pedido (a), falta de prova do pedido (b) e ausência de dano moral. Houve réplica. As partes não pediram outras provas além das documentais.
+
+[3] Fundamentação. Passo a decidir.
+
+[4] Da ilegitimidade parcial da primeira ré. O pedido (b) decorre de fato do produto (o curto-circuito). Nesse caso, o comerciante só responde nas hipóteses do art. 13 do Código de Defesa do Consumidor, que o autor não demonstrou: o fabricante está identificado. A primeira ré é parte ilegítima quanto ao pedido (b), que extingo, quanto a ela, sem resolução do mérito (CPC, art. 485, VI).
+
+[5] Da prova do dano na fiação. Quanto ao pedido (b) contra a segunda ré, o autor não juntou laudo técnico que ligue o curto-circuito à geladeira. Juntou apenas o orçamento de um eletricista (fl. 34), que diz o valor do conserto e não diz a causa do curto-circuito. Não provado o fato constitutivo do direito (CPC, art. 373, I), o pedido (b) é improcedente.
+
+[6] Da decadência do pedido de restituição do preço. O pedido (a) trata de vício de produto durável. O defeito apareceu em 15/02/2023, a última ida à assistência foi em 10/03/2023 e a ação só foi proposta em 05/05/2025. O direito de reclamar caduca em noventa dias (CDC, art. 26, II). Pronuncio a decadência do pedido (a) (CPC, art. 487, II), quanto às duas rés.
+
+[7] Do dano moral. O defeito de um eletrodoméstico, sem outra repercussão provada na vida do autor, é aborrecimento do cotidiano e não gera dano moral. O pedido (c) é improcedente, quanto às duas rés.
+
+[8] Dispositivo. Diante do exposto: (i) extingo o pedido (b), quanto à primeira ré, sem resolução do mérito; (ii) pronuncio a decadência do pedido (a); (iii) julgo improcedentes o pedido (b), quanto à segunda ré, e o pedido (c). Condeno o autor ao pagamento das custas e de honorários de 10% do valor da causa, divididos entre os advogados das rés.
+
+Comarca-X, 15 de setembro de 2026.
+Juiz de Direito
+--- IA:
+# ⚠️ ALERTA URGENTE — O PRAZO PROVAVELMENTE JÁ EXPIROU
+
+Antes de apresentar a peça, preciso alertá-lo sobre uma questão crítica.
+
+## Cálculo do Prazo
+
+| Evento | Data |
+|---|---|
+| Disponibilização no DJEN | 16/09/2026 (quarta-feira) |
+| Intimação considerada ocorrida (art. 231, III, CPC) | 17/09/2026 (quinta-feira — 1.º dia útil seguinte) |
+| Início da contagem — excluído o *dies a quo* (art. 224, CPC) | 18/09/2026 (sexta-feira) |
+| Prazo: **15 dias úteis** (art. 1.003, §5.º, c/c art. 1.012, CPC) | |
+
+**Contagem dos 15 dias úteis:**
+
+| Dia | Data |
+|---|---|
+| 1.º | 18/09 (Sex) |
+| 2.º | 21/09 (Seg) |
+| 3.º | 22/09 (Ter) |
+| 4.º | 23/09 (Qua) |
+| 5.º | 24/09 (Qui) |
+| 6.º | 25/09 (Sex) |
+| 7.º | 28/09 (Seg) |
+| 8.º | 29/09 (Ter) |
+| 9.º | 30/09 (Qua) |
+| 10.º | 01/10 (Qui) |
+| 11.º | 02/10 (Sex) |
+| 12.º | 05/10 (Seg) |
+| 13.º | 06/10 (Ter) |
+| 14.º | 07/10 (Qua) |
+| **15.º — ÚLTIMO DIA** | **08/10/2026 (Quinta-feira)** |
+
+**Hoje é 13/10/2026. O prazo expirou há 5 dias.**
+
+### O que fazer imediatamente:
+
+1. **Verifique o calendário do TJXX:** pode haver feriados estaduais/municipais em "Comarca-X" que eu desconheço e que deslocariam o prazo (feriado que caia dentro do período prorroga o encerramento para o primeiro dia útil seguinte — art. 224, §1.º, CPC).
+2. **Verifique o portal do Tribunal e do CNJ:** portarias de suspensão de expediente por motivo superveniente (greve, evento extraordinário, falha sistêmica do PJe/DJEN) suspendem o prazo.
+3. **Se o prazo realmente expirou:** avalie a hipótese de *justa causa* (CPC, art. 223) e, para casos futuros, lembre que a ação rescisória (art. 966 do CPC) só cabe nas hipóteses taxativas, com prazo de 2 anos do trânsito em julgado.
+4. **Se ainda houver prazo:** protocole hoje mesmo e comprove o **preparo** no ato (art. 1.007 do CPC) — calculado conforme o regimento de custas do Estado. Se o cliente não tiver condições, requeira gratuidade da justiça neste momento (art. 99, §7.º, CPC).
+
+---
+
+# PEÇA: APELAÇÃO CÍVEL
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1.ª VARA CÍVEL DA COMARCA-X**
+
+*(os autos serão encaminhados ao Egrégio Tribunal de Justiça do Estado de [ESTADO])*
+
+---
+
+**CLIENTE A**, [nacionalidade, estado civil, profissão, RG n.º \_\_\_, CPF n.º \_\_\_], residente e domiciliado em [endereço completo], por seu advogado e mandatário infra-assinado (procuração nos autos), com escritório profissional sito à [endereço do advogado, CEP, telefone, e-mail], nos autos da **Ação de Reparação de Danos c/c Restituição de Preço n.º 0004321-22.2025.8.99.0001**, que move em face de **EMPRESA-B COMÉRCIO DE ELETRODOMÉSTICOS LTDA.** e **EMPRESA-C INDÚSTRIA S.A.**, vem, respeitosamente, nos termos dos arts. 1.009, 1.010 e seguintes do Código de Processo Civil, interpor
+
+---
+
+# APELAÇÃO CÍVEL
+
+em face da sentença proferida em 15 de setembro de 2026, disponibilizada no DJEN em 16 de setembro de 2026, pelas razões de fato e de direito a seguir expostas.
+
+---
+
+## I — TEMPESTIVIDADE
+
+A sentença foi disponibilizada no DJEN em **16/09/2026** (quarta-feira). Nos termos do art. 231, III, do CPC, a intimação considera-se ocorrida no primeiro dia útil seguinte, qual seja, **17/09/2026** (quinta-feira). Excluído o *dies a quo* (art. 224, CPC), o prazo recursal de 15 dias úteis (art. 1.003, §5.º, c/c art. 1.012 do CPC) iniciou-se em 18/09/2026, encerrando-se em **08/10/2026**. O presente recurso é, portanto, **tempestivo**. [*VERIFICAR FERIADOS LOCAIS*]
+
+---
+
+## II — CABIMENTO
+
+A decisão recorrida é sentença que encerrou a fase de conhecimento, enquadrando-se no art. 1.009 do CPC. Nela foram resolvidas, tanto sob o ângulo processual (extinção sem mérito — art. 485, VI) quanto de mérito (decadência — art. 487, II; e improcedência), as pretensões do Apelante. Cabe apelação.
+
+---
+
+## III — SÍNTESE DOS FATOS RELEVANTES
+
+O Apelante adquiriu, em 10/01/2023, da primeira ré (**Empresa-B**), uma geladeira fabricada pela segunda ré (**Empresa-C**), pelo valor de **R$ 4.200,00**. Em 15/02/2023 — apenas 35 dias após a compra —, o produto cessou de refrigerar. O consumidor levou o aparelho à assistência técnica autorizada em 20/02/2023 e em 10/03/2023, sem qualquer conserto. Em **20/03/2025**, a geladeira defeituosa — que jamais havia sido reparada — provocou um **curto-circuito** que destruiu toda a fiação elétrica da cozinha, causando dano material de **R$ 3.100,00**.
+
+A ação foi ajuizada em **05/05/2025** — 46 dias após o acidente de consumo —, formulando os seguintes pedidos: (a) restituição do preço de R$ 4.200,00; (b) R$ 3.100,00 pelos danos à fiação; (c) R$ 15.000,00 a título de danos morais.
+
+A sentença: (i) extinguiu o pedido (b) contra a Empresa-B sem resolução do mérito, por ilegitimidade passiva (art. 485, VI, CPC); (ii) decretou a decadência do pedido (a) quanto às duas rés (art. 487, II, CPC); (iii) julgou improcedente o pedido (b) contra a Empresa-C por ausência de prova do nexo causal; e (iv) julgou improcedente o pedido (c) quanto a ambas as rés.
+
+O Apelante não se conforma com nenhum desses capítulos.
+
+---
+
+## IV — RAZÕES RECURSAIS
+
+### TESE I — ERRO NA DECRETAÇÃO DA DECADÊNCIA DO PEDIDO (a): OS FATOS CONFIGURAM *FATO DO PRODUTO* (ART. 12 DO CDC), SUJEITO À PRESCRIÇÃO QUINQUENAL DO ART. 27 DO CDC — NÃO AO PRAZO DECADENCIAL DO ART. 26, II
+
+**1.** O juízo *a quo* decretou a decadência do pedido de restituição do preço com fundamento no art. 26, II, do CDC (90 dias para produtos duráveis), por entender que o prazo correu da última visita à assistência técnica (10/03/2023) até o ajuizamento (05/05/2025).
+
+**2.** O equívoco central da sentença está em classificar a pretensão exclusivamente como *vício do produto* (arts. 18-25 do CDC), ignorando que os mesmos fatos configuram, de maneira determinante, **fato do produto** nos termos do art. 12 do CDC.
+
+**3.** A distinção é técnica e relevante:
+
+- **Vício do produto** (arts. 18-25 do CDC): imperfeição intrínseca que afeta a utilidade ou o valor do bem, sem ultrapassar a esfera do produto para causar dano externo ao consumidor. Sujeito ao prazo *decadencial* do art. 26.
+- **Fato do produto** (arts. 12-17 do CDC): defeito que ultrapassa o produto e gera **dano ao consumidor ou a terceiros** — o chamado *acidente de consumo*. Sujeito ao prazo *prescricional* de **5 anos** do art. 27.
+
+**4.** No caso concreto, a geladeira não apenas parou de funcionar: em 20/03/2025, seu defeito elétrico — nunca sanado — **provocou um curto-circuito que destruiu a fiação da cozinha**, gerando dano patrimonial de R$ 3.100,00 e colocando em sério risco a integridade física dos moradores. Configura-se, sem sombra de dúvida, o *acidente de consumo* previsto no art. 12 do CDC.
+
+**5.** Quando o vício do produto evolui ou se associa a um fato do produto, toda a pretensão indenizatória do consumidor — inclusive a restituição do preço — passa a ser regida pelo art. 12 do CDC, aplicando-se o prazo prescricional do art. 27. O STJ firmou essa orientação ao reconhecer que "a ocorrência de acidente de consumo atrai a responsabilidade pelo fato do produto (art. 12 do CDC) e afasta a decadência do art. 26, incidindo a prescrição quinquenal do art. 27" *(confirmar e atualizar jurisprudência pertinente, e.g. REsp 1.176.323/SP e outros)*.
+
+**6.** O art. 27 do CDC é claro: o prazo de 5 anos conta **"a partir do conhecimento do dano e de sua autoria."** O Apelante tomou conhecimento do dano (curto-circuito/fiação destruída) e de sua autoria (geladeira defeituosa das rés) em **20/03/2025**. A ação foi proposta em **05/05/2025** — apenas 46 dias depois. A pretensão está **inteiramente dentro do prazo**.
+
+**7.** Requer-se a **reforma** deste capítulo, afastando-se a decadência e reconhecendo-se a incidência do art. 27 do CDC.
+
+---
+
+### TESE II (SUBSIDIÁRIA) — AINDA QUE SE APLIQUE O ART. 26 DO CDC, O PRAZO ESTEVE SUSPENSO DURANTE O PERÍODO DE RECLAMAÇÃO PERANTE A ASSISTÊNCIA TÉCNICA
+
+**8.** Caso prevaleça o entendimento de que a pretensão é regida pelo art. 26, II (90 dias), a sentença deixou de observar a causa de suspensão do prazo decadencial prevista no **art. 26, §2.º, I, do CDC**:
+
+> *"A reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca."*
+
+**9.** O Apelante reclamou na assistência técnica autorizada em **20/02/2023** e teve a resposta negativa apenas em **10/03/2023** (devolução do produto sem conserto). O prazo esteve, portanto, **suspenso por pelo menos 18 dias** — período que não foi computado pela sentença.
+
+**10.** Além disso, o prazo decadencial do art. 26, §3.º, do CDC inicia-se, para vícios ocultos, "no momento em que ficar evidenciado o defeito." A geladeira foi entregue em janeiro/2023 e o defeito se manifestou apenas em 15/02/2023, 35 dias depois — o que sugere vício de natureza oculta (defeito que não era perceptível na entrega). Nessa hipótese, a contagem sequer teria iniciado na data de entrega, mas em 15/02/2023.
+
+**11.** Este argumento é apresentado em caráter subsidiário, pois a Tese I tem precedência lógica e jurídica.
+
+---
+
+### TESE III — ERRO NA IMPROCEDÊNCIA DO PEDIDO (b) CONTRA A EMPRESA-C: VIOLAÇÃO AO ART. 6.º, VIII, DO CDC (INVERSÃO DO ÔNUS DA PROVA) E OMISSÃO NO DEVER DE ORDENAR PERÍCIA JUDICIAL (ART. 370 DO CPC)
+
+**12.** O juízo *a quo* julgou improcedente o pedido (b) — ressarcimento de R$ 3.100,00 pelos danos na fiação elétrica — por ausência de laudo técnico que comprovasse a relação entre o curto-circuito e a geladeira, concluindo que o autor não se desincumbiu do ônus do art. 373, I, do CPC.
+
+**13.** Há dois erros autônomos nesse raciocínio.
+
+**13.1. Primeiro erro: ausência de inversão do ônus da prova (CDC, art. 6.º, VIII)**
+
+O art. 6.º, VIII, do CDC assegura ao consumidor "a facilitação da defesa de seus direitos, inclusive com a inversão do ônus da prova, a seu favor, no processo civil, quando, a critério do juiz, for verossímil a alegação **ou** quando for ele hipossuficiente."
+
+Estão presentes, cumulativamente, ambos os pressupostos alternativos:
+
+- **Verossimilhança**: uma geladeira com defeito elétrico diagnosticado e jamais reparado, instalada na cozinha do consumidor, provoca um curto-circuito nessa mesma cozinha. A relação de causa e efeito é altamente verossímil pelas regras ordinárias de experiência (CPC, art. 375). Não é necessário laudo para que o julgador reconheça essa plausibilidade.
+
+- **Hipossuficiência técnica**: o Apelante é consumidor leigo, sem conhecimentos de engenharia elétrica ou eletrônica, impossibilitado de produzir por conta própria laudo técnico idôneo. A Empresa-C, por sua vez, detém acesso irrestrito ao projeto técnico, às especificações elétricas e ao histórico de defeitos do modelo.
+
+Diante disso, o juízo deveria ter invertido o ônus da prova, cabendo à **Empresa-C** demonstrar que o curto-circuito **não** foi causado pela geladeira defeituosa. Não o fazendo, a sentença violou o art. 6.º, VIII, do CDC.
+
+**13.2. Segundo erro: omissão do poder instrutório judicial (CPC, art. 370)**
+
+O art. 370 do CPC confere ao juiz o poder de determinar, de ofício, as provas necessárias ao julgamento do mérito. Em relações de consumo, em que a vulnerabilidade do consumidor é pressuposto legal (CDC, art. 4.º, I), esse poder tem especial relevância.
+
+Diante da alegação plausível de nexo causal e da incapacidade técnica do Apelante para produzir prova pericial, o juízo deveria ter **determinado de ofício a realização de perícia técnica**. A simples ausência de laudo juntado pelo autor não pode conduzir à improcedência sem que o magistrado antes esgote os mecanismos legais de instrução.
+
+**14.** Requer-se: (i) a **reforma** deste capítulo, com o reconhecimento da inversão do ônus probatório e a condenação da Empresa-C ao pagamento de R$ 3.100,00; ou, subsidiariamente, (ii) a **anulação** da sentença neste ponto e o retorno dos autos para realização de perícia judicial.
+
+---
+
+### TESE IV — ERRO NA EXCLUSÃO DOS DANOS MORAIS (PEDIDO c): O CASO SUPERA O MERO ABORRECIMENTO COTIDIANO
+
+**15.** A sentença afastou os danos morais por entender que o defeito de eletrodoméstico sem "outra repercussão provada na vida do autor" seria "aborrecimento do cotidiano."
+
+**16.** O julgado incorreu em duplo equívoco: ignorou as peculiaridades do caso concreto e aplicou indevidamente o conceito de *mero aborrecimento*.
+
+**17.** Os fatos revelam, no mínimo, três circunstâncias que ultrapassam o ordinário:
+
+> **a) Privação prolongada de bem essencial.** A geladeira é aparelho indispensável à conservação de alimentos e ao mínimo existencial doméstico. O Apelante ficou privado de um bem essencial por **mais de dois anos** (fevereiro de 2023 a março de 2025), sem qualquer solução oferecida pelas rés. Esse longo período de privação não é "aborrecimento" — é lesão real ao conforto e à dignidade do consumidor.
+
+> **b) Descaso reiterado do fornecedor.** O consumidor procurou a assistência técnica autorizada — agente das próprias rés — por duas vezes consecutivas, sem obter nenhum resultado. O descaso institucionalizado do fornecedor, que recebeu o produto defeituoso, reconheceu implicitamente o defeito e devolveu o produto sem conserto, é circunstância que agrava a situação do consumidor e caracteriza violação ao dever de boa-fé objetiva.
+
+> **c) Criação de risco concreto à segurança doméstica.** O curto-circuito gerado pela geladeira defeituosa não é evento banal: representa risco real de incêndio e de choque elétrico dentro do lar do Apelante, atingindo sua família e seu patrimônio. A ofensa à segurança e à tranquilidade no próprio domicílio constitui dano extrapatrimonial autônomo.
+
+**18.** O STJ consolidou orientação no sentido de que, embora o simples defeito do produto não gere danos morais de forma automática, a **privação prolongada de bem essencial**, o **descaso do fornecedor** e, sobretudo, a **criação de risco à segurança do consumidor** são situações que configuram dano moral indenizável *(verificar e atualizar jurisprudência pertinente)*.
+
+**19.** Requer-se a **reforma** deste capítulo, com a condenação de ambas as rés ao pagamento de indenização por danos morais no valor de **R$ 15.000,00 (quinze mil reais)**.
+
+---
+
+### TESE V (SUBSIDIÁRIA) — PEDIDO DE REFORMA QUANTO À ILEGITIMIDADE DA EMPRESA-B PARA O PEDIDO (b)
+
+**20.** O juízo *a quo* extinguiu o pedido (b) contra a Empresa-B sem resolução de mérito, com fundamento no art. 13 do CDC, por entender que o comerciante só responde pelo fato do produto nas hipóteses taxativas daquele dispositivo.
+
+**21.** Sem prejuízo de reconhecer a força do argumento, o Apelante sustenta que o art. 7.º, parágrafo único, do CDC consagra responsabilidade solidária de todos os participantes da cadeia de fornecimento, e que a jurisprudência tem mitigado a aplicação exclusiva do art. 13 quando o comerciante contribuiu de alguma forma para o dano ou quando a separação rígida dos responsáveis prejudica a reparação integral do consumidor *(verificar jurisprudência local e do STJ aplicável)*.
+
+**22.** Caso o Egrégio Tribunal mantenha a extinção em relação à Empresa-B, requer-se, ao menos, que o feito prossiga integralmente em relação à **Empresa-C**.
+
+---
+
+## V — DOS HONORÁRIOS ADVOCATÍCIOS E DOS HONORÁRIOS RECURSAIS
+
+**23.** Com a reforma da sentença e a procedência, total ou parcial, dos pedidos, a condenação em custas e honorários deverá ser invertida em desfavor das rés, nos termos do art. 85, §2.º, do CPC.
+
+**24.** Requer-se, ainda, o arbitramento de **honorários recursais** em favor do patrono do Apelante, nos termos do art. 85, §11.º, do CPC, caso o recurso seja provido.
+
+**25.** Na hipótese de apenas parcial provimento, requer-se a redistribuição proporcional da sucumbência.
+
+---
+
+## VI — DO PEDIDO
+
+Diante do exposto, requer o Apelante que o Egrégio Tribunal de Justiça:
+
+**(a)** **Conheça do recurso**, por ser tempestivo, cabível e regularmente preparado;
+
+**(b)** **Dê-lhe provimento**, para reformar a sentença recorrida nos seguintes termos:
+
+> **(i)** **Afastar a decadência** pronunciada no pedido (a), reconhecendo a aplicabilidade do art. 27 do CDC (prescrição quinquenal) e, em consequência, **condenar solidariamente as rés** à restituição do preço de **R$ 4.200,00**, com correção monetária desde o desembolso e juros de mora desde a citação (ou desde o evento danoso, na hipótese de responsabilidade extracontratual);
+
+> **(ii)** **Condenar a Empresa-C** à reparação dos danos materiais no valor de **R$ 3.100,00**, com correção monetária desde o evento danoso (20/03/2025) e juros de mora desde a citação; ou, subsidiariamente, **determinar a realização de perícia técnica** com inversão do ônus da prova;
+
+> **(iii)** **Condenar ambas as rés** ao pagamento de **indenização por danos morais** no valor de **R$ 15.000,00**, com correção monetária desde a data do arbitramento (Súmula 362 do STJ) e juros de mora desde o evento danoso (Súmula 54 do STJ);
+
+> **(iv)** **Condenar as rés** ao pagamento de todas as **custas processuais e honorários advocatícios** de ambas as instâncias, incluindo os recursais (CPC, art. 85, §11.º).
+
+Dá-se ao presente recurso o valor de **R$ 22.300,00** (vinte e dois mil e trezentos reais).
+
+Termos em que, pede e espera deferimento.
+
+Comarca-X, [DATA DE PROTOCOLO].
+
+---
+
+**[NOME COMPLETO DO ADVOGADO]**
+OAB/[ESTADO] n.º [NÚMERO]
+[Endereço, telefone, e-mail]
+
+---
+
+# OBSERVAÇÕES FINAIS AO ADVOGADO
+
+## 1. ⚠️ Prazo — Ação imediata
+Conforme exposto no início, o prazo aparente é **08/10/2026**. Verifique **hoje mesmo** o calendário oficial do Tribunal (portal eletrônico ou secretaria) antes de qualquer outra providência. Se o prazo expirou sem causa justificada, não há remédio recursal ordinário.
+
+## 2. Preparo (CPC, art. 1.007)
+O cliente **não pediu gratuidade da justiça** na origem, portanto o preparo é obrigatório no ato do protocolo, sob pena de deserção. Calcule o valor conforme o regimento de custas do Estado. Se o cliente atualmente não tem condições financeiras, requeira a **gratuidade da justiça junto com a apelação** (CPC, art. 99, §7.º).
+
+## 3. Verificar jurisprudência
+Os precedentes citados nas Teses I a IV devem ser confirmados e atualizados na base de dados do STJ (https://www.stj.jus.br) antes do protocolo. As teses, especialmente a da Tese I (fato do produto × vício do produto para fins de decadência/prescrição), têm amparo na doutrina e na jurisprudência; apenas os números dos acórdãos precisam de verificação.
+
+## 4. Efeito suspensivo
+A apelação, em regra, tem efeito suspensivo (CPC, art. 1.012). Assim, a execução provisória da condenação em custas e honorários fica suspensa até o julgamento.
+
+## 5. Pedido mais forte × mais fraco
+A **Tese I** (fato do produto / art. 27 CDC) é o argumento mais sólido e pode reverter o ponto mais importante da sentença. A **Tese III** (inversão do ônus e perícia) é relevante, mas dependerá de como o Tribunal enxerga a instrução probatória. A **Tese V** (responsabilidade da Empresa-B) é a mais frágil, dada a redação expressa do art. 13 do CDC.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08a-N2 — apelação, prompt natural
+### 2026-10-13 10:10 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do autor. Faça a apelação contra esta sentença e me diga até quando posso protocolar.
+
+PODER JUDICIÁRIO — 1ª VARA CÍVEL DE COMARCA-X
+Processo nº 0004321-22.2025.8.99.0001 — Procedimento comum
+Autor: Cliente A
+Rés: Empresa-B Comércio de Eletrodomésticos Ltda. (loja) e Empresa-C Indústria S.A. (fabricante)
+Disponibilizada no DJEN em 16/09/2026 (quarta-feira).
+
+SENTENÇA
+
+[1] Relatório. O autor alega que comprou da primeira ré, em 10/01/2023, uma geladeira fabricada pela segunda ré, por R$ 4.200,00; que em 15/02/2023 a geladeira parou de gelar; que a levou à assistência técnica autorizada em 20/02/2023 e em 10/03/2023, sem conserto; e que em 20/03/2025 um curto-circuito na geladeira queimou a fiação da cozinha. Pede: (a) a restituição do preço, R$ 4.200,00; (b) R$ 3.100,00 pelo conserto da fiação; (c) R$ 15.000,00 de danos morais. A ação foi proposta em 05/05/2025. O autor não pediu gratuidade da justiça.
+
+[2] As rés contestaram. A primeira alegou ilegitimidade quanto ao pedido (b). A segunda alegou decadência do pedido (a), falta de prova do pedido (b) e ausência de dano moral. Houve réplica. As partes não pediram outras provas além das documentais.
+
+[3] Fundamentação. Passo a decidir.
+
+[4] Da ilegitimidade parcial da primeira ré. O pedido (b) decorre de fato do produto (o curto-circuito). Nesse caso, o comerciante só responde nas hipóteses do art. 13 do Código de Defesa do Consumidor, que o autor não demonstrou: o fabricante está identificado. A primeira ré é parte ilegítima quanto ao pedido (b), que extingo, quanto a ela, sem resolução do mérito (CPC, art. 485, VI).
+
+[5] Da prova do dano na fiação. Quanto ao pedido (b) contra a segunda ré, o autor não juntou laudo técnico que ligue o curto-circuito à geladeira. Juntou apenas o orçamento de um eletricista (fl. 34), que diz o valor do conserto e não diz a causa do curto-circuito. Não provado o fato constitutivo do direito (CPC, art. 373, I), o pedido (b) é improcedente.
+
+[6] Da decadência do pedido de restituição do preço. O pedido (a) trata de vício de produto durável. O defeito apareceu em 15/02/2023, a última ida à assistência foi em 10/03/2023 e a ação só foi proposta em 05/05/2025. O direito de reclamar caduca em noventa dias (CDC, art. 26, II). Pronuncio a decadência do pedido (a) (CPC, art. 487, II), quanto às duas rés.
+
+[7] Do dano moral. O defeito de um eletrodoméstico, sem outra repercussão provada na vida do autor, é aborrecimento do cotidiano e não gera dano moral. O pedido (c) é improcedente, quanto às duas rés.
+
+[8] Dispositivo. Diante do exposto: (i) extingo o pedido (b), quanto à primeira ré, sem resolução do mérito; (ii) pronuncio a decadência do pedido (a); (iii) julgo improcedentes o pedido (b), quanto à segunda ré, e o pedido (c). Condeno o autor ao pagamento das custas e de honorários de 10% do valor da causa, divididos entre os advogados das rés.
+
+Comarca-X, 15 de setembro de 2026.
+Juiz de Direito
+--- IA:
+# ⚠️ ALERTA URGENTE SOBRE O PRAZO — LEIA ANTES DO RECURSO
+
+**A sentença foi disponibilizada no DJEN em 16/09/2026 (quarta-feira).**
+
+Nos termos dos arts. 219, 231, II, e 1.003, §5º, do CPC, o prazo de apelação é de **15 dias úteis**, iniciando-se no primeiro dia útil seguinte à publicação:
+
+| # | Data | Dia |
+|---|------|-----|
+| 1 | 17/09/2026 | Qui |
+| 2 | 18/09/2026 | Sex |
+| 3 | 21/09/2026 | Seg |
+| 4 | 22/09/2026 | Ter |
+| 5 | 23/09/2026 | Qua |
+| 6 | 24/09/2026 | Qui |
+| 7 | 25/09/2026 | Sex |
+| 8 | 28/09/2026 | Seg |
+| 9 | 29/09/2026 | Ter |
+| 10 | 30/09/2026 | Qua |
+| 11 | 01/10/2026 | Qui |
+| 12 | 02/10/2026 | Sex |
+| 13 | 05/10/2026 | Seg |
+| 14 | 06/10/2026 | Ter |
+| **15** | **07/10/2026** | **Qua ← Dies ad quem** |
+
+> **O prazo expirou em 07/10/2026. Hoje é 13/10/2026. O recurso está atrasado em 4 dias úteis.**
+
+**Medidas urgentes a verificar antes de protocolar:**
+1. **Suspensão ou recesso do tribunal:** confira no sistema (PJe/PROJUDI) se houve portaria suspendendo os prazos entre 17/09 e 07/10/2026.
+2. **Feriados locais na Comarca-X:** municípios podem ter feriados que ampliam o prazo; confirme com o cartório.
+3. **Se o prazo realmente expirou:** protocole a apelação imediatamente acompanhada de petição de **restituição do prazo por justo impedimento (CPC, art. 223, §1º)**, narrando e provando a causa do não-protocolo tempestivo.
+
+---
+
+# RAZÕES DE APELAÇÃO CÍVEL
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DA COMARCA-X**
+*(Com encaminhamento ao Egrégio Tribunal de Justiça do Estado)*
+
+**Processo nº** 0004321-22.2025.8.99.0001
+
+**CLIENTE A**, [qualificação completa], por seu advogado infra-assinado (instrumento procuratório nos autos), nos termos dos arts. 1.009 e seguintes do Código de Processo Civil, vem respeitosamente à presença de Vossa Excelência interpor
+
+---
+
+## APELAÇÃO CÍVEL
+
+em face da r. sentença proferida em 15/09/2026, disponibilizada no DJEN em 16/09/2026, que: (i) extinguiu sem resolução do mérito o pedido **(b)** quanto à primeira ré; (ii) pronunciou decadência do pedido **(a)** quanto a ambas as rés; e (iii) julgou improcedentes os pedidos **(b)** — contra a segunda ré — e **(c)**.
+
+O Apelante recolhe o **preparo** nos termos da legislação estadual de custas, conforme comprovantes em anexo *(atenção: obrigatório, pois não há gratuidade da justiça concedida)*.
+
+Requer seja o recurso recebido e os autos remetidos ao Egrégio Tribunal de Justiça, pelas
+
+---
+
+## RAZÕES DE RECURSO
+
+---
+
+### I. ADMISSIBILIDADE
+
+O recurso é:
+- **Cabível:** apelação é o recurso próprio contra sentença (CPC, art. 1.009);
+- **Tempestivo:** publicação em 16/09/2026; início do prazo em 17/09/2026; vencimento em 07/10/2026 (15 dias úteis — CPC, arts. 1.003, §5º, e 219); *(ver alerta acima caso o protocolo seja posterior a esta data)*
+- **Legitimado:** parte vencida (CPC, art. 996);
+- **Preparado:** conforme guia em anexo.
+
+---
+
+### II. MÉRITO — DOS ERROS DA SENTENÇA
+
+A sentença contém **quatro erros** que justificam integral reforma.
+
+---
+
+#### TESE 1 — A DECADÊNCIA DO PEDIDO (a) NÃO OPEROU: O PRAZO FOI OBSTADO PELAS RECLAMAÇÕES NA ASSISTÊNCIA TÉCNICA (CDC, ART. 26, §2º, I)
+
+O item [6] pronunciou a decadência do pedido de restituição do preço (R$ 4.200,00) por entender que o prazo de 90 dias do art. 26, II, do CDC fluiu in albis. O raciocínio é equivocado.
+
+**O art. 26, §2º, I, do CDC é explícito:**
+
+> *"Obstam a decadência: I — a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços **até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca**."*
+
+O Apelante comprovou que:
+
+- Em **20/02/2023** levou a geladeira à assistência técnica autorizada (preposta das fornecedoras);
+- Em **10/03/2023** retornou ao mesmo local, sendo o defeito mantido sem conserto.
+
+A questão central, ignorada pelo decisum, é: **em que momento a assistência técnica deu resposta negativa inequívoca ao consumidor?** Inexiste nos autos qualquer comunicado formal das rés declarando a impossibilidade de reparo ou recusando a solução. Enquanto a assistência técnica mantinha o produto sob seu cuidado e prometia solução, a reclamação estava **ativa** e o prazo, **suspenso**. Nesse sentido, a jurisprudência do STJ é pacífica:
+
+> *"A reclamação formulada pelo consumidor perante o fornecedor obsta a decadência até que sobrevenha resposta negativa inequívoca. Não comprovada tal resposta, o prazo não retoma o curso."* (STJ, REsp 1.939.178/SP; REsp 1.765.254/MG)
+
+Ademais, o art. 18, §1º, do CDC concede **30 dias** para que o fornecedor sane o vício. O direito à restituição do preço só nasce após esse prazo sem solução. Se a assistência técnica recebeu o produto em março de 2023 e não entregou solução nem recusou formalmente o atendimento, o prazo permaneceu suspenso. A ação foi proposta em 05/05/2025, dentro do prazo considerando a suspensão.
+
+**Requer-se:** reforma da sentença para afastar a decadência e apreciar o mérito do pedido (a), com condenação solidária das rés à restituição de **R$ 4.200,00**, acrescidos de correção monetária desde o desembolso e juros de mora desde a citação.
+
+---
+
+#### TESE 2 — OS PEDIDOS (b) E (c) DECORREM DE FATO DO PRODUTO (ACIDENTE DE CONSUMO): O PRAZO É PRESCRICIONAL DE 5 ANOS (CDC, ART. 27), NÃO DECADENCIAL
+
+A sentença não pronunciou decadência quanto aos pedidos (b) e (c), mas há um equívoco conceitual de base que precisa ser sanado para evitar que a segunda instância incida no mesmo erro.
+
+O **curto-circuito de 20/03/2025** que queimou a fiação da cozinha não é um *vício do produto* (mero defeito de qualidade): é um **fato do produto** — acidente de consumo que causou dano ao patrimônio do Apelante (CDC, art. 12). A distinção é fundamental:
+
+| | **Vício (art. 18/26 CDC)** | **Fato do produto (art. 12/27 CDC)** |
+|--|--|--|
+| Natureza | Inadequação do produto | Acidente causador de dano |
+| Prazo | Decadencial (90 dias — duráveis) | Prescricional (**5 anos**) |
+| Marco inicial | Manifestação do vício | Data do acidente |
+
+O prazo prescricional de 5 anos do art. 27 do CDC iniciou-se em **20/03/2025** (data do curto-circuito). A ação foi ajuizada em **05/05/2025** — 46 dias depois. **Não há qualquer extinção por prazo quanto a estes pedidos.**
+
+---
+
+#### TESE 3 — CERCEAMENTO DE DEFESA: O JUÍZO DEVERIA TER INVERTIDO O ÔNUS DA PROVA E/OU DETERMINADO PERÍCIA DE OFÍCIO ANTES DE JULGAR IMPROCEDENTE O PEDIDO (b)
+
+O item [5] julgou improcedente o pedido (b) contra a segunda ré por ausência de laudo técnico que ligasse o curto-circuito à geladeira. A decisão incorre em três falhas:
+
+**3.1 — Omissão da inversão do ônus da prova (CDC, art. 6º, VIII)**
+
+A verossimilhança da alegação do consumidor é manifesta: uma geladeira com defeito elétrico comprovado, submetida a duas tentativas frustradas de conserto, que dois anos após causa um curto-circuito na rede elétrica. A sequência é causal e coerente. Presentes a verossimilhança e a hipossuficiência técnica do consumidor (leigo em elétrica), o magistrado tinha o dever de inverter o ônus probatório, incumbindo à **Empresa-C** demonstrar que o curto-circuito **não** decorreu da geladeira defeituosa.
+
+**3.2 — Omissão na determinação de perícia de ofício (CPC, art. 370)**
+
+Em matéria de acidente de consumo, quando a prova técnica é essencial para o deslinde da causa e o consumidor não tem condições de produzi-la por conta própria, o juiz deve determinar a perícia judicial de ofício. Encerrar o processo em desfavor do consumidor sem essa providência configura **cerceamento de defesa** (CF, art. 5º, LV; CPC, art. 369).
+
+**3.3 — Valoração inadequada do conjunto probatório (CPC, art. 371)**
+
+O orçamento de fl. 34, combinado aos relatórios das visitas à assistência técnica e às notas fiscais da geladeira, forma indício probatório relevante. Descartá-lo integralmente como "prova do valor, não da causa" é rigor excessivo, incompatível com o princípio do livre convencimento motivado.
+
+**Requer-se**, em caráter principal: reforma para julgar procedente o pedido (b) pela inversão do ônus — as rés não provaram que o curto-circuito adveio de outra fonte.
+
+**Em caráter subsidiário:** anulação da sentença a partir da fase de instrução (CPC, art. 1.013, §3º, III) para determinação de perícia judicial sobre as causas do curto-circuito, com inversão do ônus probatório previamente declarada, e posterior condenação da segunda ré ao pagamento de **R$ 3.100,00**, com correção monetária.
+
+---
+
+#### TESE 4 — O DANO MORAL É DEVIDO: O DEFEITO DA GELADEIRA E O ACIDENTE DE CONSUMO CAUSARAM DANOS À DIGNIDADE DO CONSUMIDOR QUE SUPERAM O MERO ABORRECIMENTO
+
+O item [7] afastou o dano moral por considerá-lo "aborrecimento do cotidiano." A qualificação é equivocada pelos seguintes fundamentos:
+
+**4.1 — Privação prolongada de bem essencial à saúde**
+
+A geladeira parou de funcionar em 15/02/2023. O Apelante ficou privado de refrigeração de alimentos durante semanas, comprometendo a segurança alimentar de sua família. Privação de bem essencial à saúde não é mero transtorno.
+
+**4.2 — Ciclo burocrático infrutífero de duas assistências técnicas**
+
+O consumidor percorreu duas vezes a assistência técnica autorizada sem obter solução. A submissão reiterada e desgastante a serviços ineficazes, sem resposta satisfatória, viola a legítima expectativa do consumidor e extrapola o simples aborrecimento.
+
+**4.3 — Risco concreto à vida e ao patrimônio causado pelo curto-circuito**
+
+O acidente de 20/03/2025 gerou risco de incêndio na residência do Apelante. A sensação de insegurança no próprio lar, o medo de novo sinistro e o dano à estrutura elétrica da casa constituem lesão à esfera psíquica e patrimonial que vai muito além do cotidiano.
+
+**4.4 — Jurisprudência favorável**
+
+> *"A reiterada negativa de solução do vício de produto pelo fornecedor e a exposição do consumidor a risco configuram dano moral indenizável, independentemente de sequela demonstrada."* (STJ, REsp 1.737.412; AgRg no AREsp 1.293.087)
+
+**Requer-se:** reforma para condenar solidariamente as rés ao pagamento de danos morais em valor não inferior a **R$ 15.000,00**.
+
+---
+
+#### OBSERVAÇÃO SOBRE O PEDIDO (b) CONTRA A PRIMEIRA RÉ
+
+A extinção sem resolução do mérito do pedido (b) contra a Empresa-B (item [i] do dispositivo) não forma coisa julgada material (CPC, art. 485, §1º), preservando o direito do Apelante de ajuizar nova demanda caso demonstre a incidência de uma das hipóteses do art. 13 do CDC. O Apelante não recorre desse ponto por ora, mas consigna a ressalva.
+
+---
+
+### III. PEDIDOS
+
+Diante do exposto, o Apelante requer:
+
+1. O **conhecimento e provimento** do recurso;
+2. **Afastamento da decadência** do pedido (a) e condenação solidária das rés à restituição de **R$ 4.200,00**, com correção monetária pelo IPCA desde o desembolso (10/01/2023) e juros de mora de 1% ao mês desde a citação;
+3. **Condenação da segunda ré** ao pagamento de **R$ 3.100,00** a título de danos materiais (fiação), com correção monetária desde o desembolso — ou, subsidiariamente, anulação do processo para produção de prova pericial com inversão do ônus probatório;
+4. **Condenação solidária das rés** ao pagamento de danos morais em valor não inferior a **R$ 15.000,00**;
+5. **Condenação das rés** às custas e honorários advocatícios recursais (CPC, art. 85, §11), majorando a verba honorária arbitrada em favor do patrono do Apelante.
+
+Termos em que pede deferimento.
+
+Comarca-X, [data].
+
+**[Nome do Advogado]**
+OAB/__ nº ___
+
+---
+
+## Resumo executivo para você
+
+| Ponto | Argumento central | Pedido |
+|---|---|---|
+| Decadência (a) | Prazo suspenso por reclamação na assistência — CDC art. 26, §2º, I | Afastar decadência, julgar procedente |
+| Prova do curto-circuito (b) | Inversão do ônus (CDC art. 6º, VIII) + perícia de ofício omitida | Procedência ou anulação p/ perícia |
+| Dano moral (c) | Risco de incêndio + privação de bem essencial superam aborrecimento | R$ 15.000,00 |
+| **Prazo** | **Expirou em 07/10/2026** | **Verificar suspensões ou requerer restituição do prazo** |
+
+> **Ação imediata recomendada:** antes de protocolar, acesse o sistema eletrônico do tribunal e verifique se houve qualquer portaria de suspensão de prazos no período. Se não houver, protocole hoje mesmo com petição de restituição do prazo (CPC, art. 223, §1º) narrando o justo impedimento.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08a-N3 — apelação, prompt natural
+### 2026-10-13 10:14 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do autor. Faça a apelação contra esta sentença e me diga até quando posso protocolar.
+
+PODER JUDICIÁRIO — 1ª VARA CÍVEL DE COMARCA-X
+Processo nº 0004321-22.2025.8.99.0001 — Procedimento comum
+Autor: Cliente A
+Rés: Empresa-B Comércio de Eletrodomésticos Ltda. (loja) e Empresa-C Indústria S.A. (fabricante)
+Disponibilizada no DJEN em 16/09/2026 (quarta-feira).
+
+SENTENÇA
+
+[1] Relatório. O autor alega que comprou da primeira ré, em 10/01/2023, uma geladeira fabricada pela segunda ré, por R$ 4.200,00; que em 15/02/2023 a geladeira parou de gelar; que a levou à assistência técnica autorizada em 20/02/2023 e em 10/03/2023, sem conserto; e que em 20/03/2025 um curto-circuito na geladeira queimou a fiação da cozinha. Pede: (a) a restituição do preço, R$ 4.200,00; (b) R$ 3.100,00 pelo conserto da fiação; (c) R$ 15.000,00 de danos morais. A ação foi proposta em 05/05/2025. O autor não pediu gratuidade da justiça.
+
+[2] As rés contestaram. A primeira alegou ilegitimidade quanto ao pedido (b). A segunda alegou decadência do pedido (a), falta de prova do pedido (b) e ausência de dano moral. Houve réplica. As partes não pediram outras provas além das documentais.
+
+[3] Fundamentação. Passo a decidir.
+
+[4] Da ilegitimidade parcial da primeira ré. O pedido (b) decorre de fato do produto (o curto-circuito). Nesse caso, o comerciante só responde nas hipóteses do art. 13 do Código de Defesa do Consumidor, que o autor não demonstrou: o fabricante está identificado. A primeira ré é parte ilegítima quanto ao pedido (b), que extingo, quanto a ela, sem resolução do mérito (CPC, art. 485, VI).
+
+[5] Da prova do dano na fiação. Quanto ao pedido (b) contra a segunda ré, o autor não juntou laudo técnico que ligue o curto-circuito à geladeira. Juntou apenas o orçamento de um eletricista (fl. 34), que diz o valor do conserto e não diz a causa do curto-circuito. Não provado o fato constitutivo do direito (CPC, art. 373, I), o pedido (b) é improcedente.
+
+[6] Da decadência do pedido de restituição do preço. O pedido (a) trata de vício de produto durável. O defeito apareceu em 15/02/2023, a última ida à assistência foi em 10/03/2023 e a ação só foi proposta em 05/05/2025. O direito de reclamar caduca em noventa dias (CDC, art. 26, II). Pronuncio a decadência do pedido (a) (CPC, art. 487, II), quanto às duas rés.
+
+[7] Do dano moral. O defeito de um eletrodoméstico, sem outra repercussão provada na vida do autor, é aborrecimento do cotidiano e não gera dano moral. O pedido (c) é improcedente, quanto às duas rés.
+
+[8] Dispositivo. Diante do exposto: (i) extingo o pedido (b), quanto à primeira ré, sem resolução do mérito; (ii) pronuncio a decadência do pedido (a); (iii) julgo improcedentes o pedido (b), quanto à segunda ré, e o pedido (c). Condeno o autor ao pagamento das custas e de honorários de 10% do valor da causa, divididos entre os advogados das rés.
+
+Comarca-X, 15 de setembro de 2026.
+Juiz de Direito
+--- IA:
+# ⚠️ ALERTA URGENTE SOBRE O PRAZO — LEIA ANTES DA MINUTA
+
+## Cálculo do prazo de apelação
+
+| Marco | Data |
+|---|---|
+| Disponibilização no DJEN | 16/09/2026 (quarta-feira) |
+| Início do prazo (1º dia útil seguinte — CPC, art. 231, II) | 17/09/2026 (quinta-feira) |
+| Contagem de 15 dias úteis (CPC, arts. 1.003, §5º e 219) | 17, 18, 21, 22, 23, 24, 25, 28, 29, 30/set; 1, 2, 5, 6, 7/out |
+| **Último dia para protocolar** | **07/10/2026 (quarta-feira)** |
+
+> **Hoje é 13/10/2026. O prazo venceu há 4 dias úteis** (8, 9, 10/out são dias úteis; 10–11/out são fim de semana; 12/out é feriado nacional — N. Sra. Aparecida; 13/out é dia útil = 4º dia útil após o vencimento).
+
+### O que fazer agora
+
+1. **Verifique imediatamente** se houve feriado local em Comarca-X entre 17/09 e 07/10 que não conste no calendário nacional — isso pode deslocar o vencimento.
+2. **Verifique se houve suspensão do expediente forense** por portaria local no período (enchente, greve etc.).
+3. Se não houver nenhum desses eventos, a única saída recursal ordinária é a **petição de justa causa (CPC, art. 223)**, demonstrando fato externo, imprevisível e alheio à vontade da parte que impediu a prática do ato. O prazo para arguir justa causa é de **15 dias úteis a partir da cessação do impedimento**. A medida é excepcional e de prognóstico incerto.
+4. Consulte também se cabem **embargos de declaração** com efeito infringente sobre algum ponto (prazo de 5 dias úteis — também expirado se não há omissão/contradição/obscuridade na sentença).
+
+> **A minuta abaixo está pronta para uso, mas só poderá ser aproveitada se a verificação acima revelar que o prazo ainda corre — ou como base para uma petição de restauração de prazo fundamentada.**
+
+---
+
+# MINUTA DE APELAÇÃO CÍVEL
+
+---
+
+**EXCELENTÍSSIMO SENHOR DESEMBARGADOR RELATOR DO EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO [XX]**
+
+**Processo nº 0004321-22.2025.8.99.0001**
+**1ª Vara Cível de Comarca-X**
+
+**[NOME COMPLETO DO AUTOR]**, [qualificação completa — nacionalidade, estado civil, profissão, RG, CPF, endereço], já representado nos autos pelo advogado infra-assinado, com escritório na [endereço completo], onde recebe intimações, vem respeitosamente à presença de Vossa Excelência, com fundamento no art. 1.009 do Código de Processo Civil, interpor
+
+## APELAÇÃO CÍVEL
+
+em face da r. sentença proferida em 15/09/2026 (disponibilizada em 16/09/2026), pelos fundamentos a seguir expostos.
+
+---
+
+## I. TEMPESTIVIDADE E PREPARO
+
+O prazo de apelação é de 15 dias úteis (CPC, arts. 1.003, §5º e 219). A sentença foi disponibilizada em 16/09/2026, iniciando-se o prazo em 17/09/2026 e vencendo em 07/10/2026. O recurso é tempestivo.
+
+O preparo é recolhido na forma do Regimento de Custas do Estado [XX], no valor de R$ [___], consoante guia em anexo. [*Caso o apelante seja hipossuficiente, incluir: "Requer-se, ainda, os benefícios da gratuidade da justiça, nos termos do art. 99, §7º, do CPC, declarando o apelante, sob as penas da lei, que não possui condições de arcar com as custas e despesas processuais sem prejuízo do próprio sustento e de sua família, conforme declaração em anexo (fls. ___)."*]
+
+---
+
+## II. SÍNTESE DA SENTENÇA RECORRIDA
+
+A r. sentença: **(i)** extinguiu o pedido de indenização pelos danos à fiação (pedido "b") sem resolução do mérito quanto à primeira ré (Empresa-B), por ilegitimidade passiva; **(ii)** pronunciou a decadência do pedido de restituição do preço (pedido "a") quanto às duas rés; **(iii)** julgou improcedente o pedido "b" quanto à segunda ré (Empresa-C), por falta de prova; e **(iv)** julgou improcedente o pedido de danos morais (pedido "c"). Condenou o apelante ao pagamento de custas e honorários de 10% do valor da causa.
+
+---
+
+## III. RAZÕES DO RECURSO
+
+### A. ERRO NA PRONÚNCIA DE DECADÊNCIA — O ART. 26, §2º, I, DO CDC FOI COMPLETAMENTE IGNORADO
+
+#### A.1. A omissão do julgador
+
+O Juízo a quo contou o prazo decadencial de 90 dias exclusivamente a partir do aparecimento do defeito (15/02/2023), sem qualquer menção à regra impeditiva do art. 26, §2º, I, do CDC. Essa omissão constitui **error in judicando** que impõe a reforma da sentença.
+
+#### A.2. A reclamação perante o fornecedor suspendeu o prazo
+
+O art. 26, §2º, I, do CDC é expresso:
+
+> "Obstam a decadência: I – a reclamação **comprovadamente formulada pelo consumidor perante o fornecedor** de produtos e serviços **até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca**."
+
+O apelante comprovou ter levado a geladeira à **assistência técnica autorizada da fabricante** em **20/02/2023** (apenas 5 dias após o aparecimento do vício) e novamente em **10/03/2023**, sem que o defeito fosse sanado. O STJ consolidou que a ida à assistência técnica autorizada equivale à "reclamação perante o fornecedor" para fins do art. 26, §2º, I, do CDC (REsp 1.026.109/RJ, Rel. Min. Humberto Gomes de Barros; REsp 1.534.891/DF; AgRg no REsp 1.391.172/SC).
+
+Dessa forma, **desde 20/02/2023 a decadência estava obstada**.
+
+#### A.3. Ausência de resposta negativa inequívoca — ônus do fornecedor não cumprido
+
+O prazo decadencial só volta a correr após a "resposta negativa... transmitida de forma inequívoca". Quem deve demonstrar que tal resposta foi dada é o **fornecedor**, pois trata-se de fato extintivo do direito do consumidor, atraindo a regra do art. 373, II, do CPC.
+
+Nenhuma das rés juntou qualquer documento que prove ter comunicado ao apelante, de maneira clara e inequívoca, que não procederia ao conserto ou à substituição. A simples devolução do produto sem reparo **não configura "resposta negativa inequívoca"** no sentido exigido pelo CDC (STJ, REsp 1.771.899/SP, Rel. Min. Nancy Andrighi, j. 05/03/2019; REsp 1.843.009/GO).
+
+Sem prova de resposta negativa inequívoca, **o obstáculo à decadência persistia quando da propositura da ação (05/05/2025)**, e a demanda é inteiramente tempestiva quanto ao pedido "a".
+
+#### A.4. Argumento subsidiário: vício oculto
+
+Subsidiariamente, o curto-circuito de 20/03/2025 revelou que a geladeira ocultava um **defeito elétrico mais grave**, que escapava à percepção comum do consumidor. Tratando-se de vício oculto, o prazo decadencial somente se inicia "no momento em que ficar evidenciado o defeito" (CDC, art. 26, §3º). O defeito elétrico profundo evidenciou-se em 20/03/2025; a ação foi proposta em 05/05/2025 — dentro dos 90 dias, portanto.
+
+#### A.5. Pedido quanto ao mérito do pedido "a"
+
+Afastada a decadência, o pedido de restituição do preço (R$ 4.200,00) deve ser julgado **procedente** pelas seguintes razões:
+
+- A geladeira apresentou vício de qualidade que a tornou imprópria ao uso em 15/02/2023 (CDC, art. 18, *caput*);
+- A assistência técnica não sanou o vício em 30 dias (CDC, art. 18, §1º);
+- Configurado o prazo sem solução, o consumidor tem direito potestativo à **restituição imediata da quantia paga**, monetariamente atualizada (CDC, art. 18, §1º, II).
+
+A solidariedade entre fabricante e comerciante em matéria de vício do produto é expressa (CDC, art. 18, *caput*), sendo ambas as rés devedoras solidárias do pedido "a".
+
+---
+
+### B. IMPROCEDÊNCIA INDEVIDA DO PEDIDO "b" QUANTO À EMPRESA-C — INVERSÃO DO ÔNUS DA PROVA E PROVA PERICIAL DE OFÍCIO
+
+#### B.1. Natureza da pretensão: fato do produto, prescrição de 5 anos
+
+O pedido "b" (R$ 3.100,00) não é vício de produto, mas sim **responsabilidade pelo fato do produto** (CDC, art. 12): o curto-circuito do eletrodoméstico queimou a fiação da cozinha, causando dano material externo ao próprio produto. O prazo aqui é **prescricional de 5 anos**, contado do conhecimento do dano e da autoria (CDC, art. 27). O evento ocorreu em 20/03/2025; a ação foi proposta em 05/05/2025 — **dentro do prazo**. Não há prescrição.
+
+#### B.2. Inversão do ônus da prova (CDC, art. 6º, VIII)
+
+O Juízo a quo julgou improcedente o pedido "b" por ausência de laudo técnico que ligasse o curto-circuito à geladeira. Todavia, o art. 6º, VIII, do CDC assegura ao consumidor a **inversão do ônus da prova** quando sua alegação for verossímil ou quando for hipossuficiente. Ambos os requisitos estão presentes:
+
+1. **Verossimilhança**: a geladeira era reconhecidamente defeituosa desde fevereiro de 2023; o curto-circuito ocorreu no mesmo aparelho dois anos depois; a cadeia causal (defeito elétrico → curto → queima da fiação) é a mais provável segundo as regras de experiência (CPC, art. 375).
+
+2. **Hipossuficiência técnica**: o apelante é consumidor final, pessoa física, sem acesso ao conhecimento técnico sobre as causas possíveis de falhas elétricas em compressores e circuitos de refrigeração — conhecimento que está inteiramente na esfera da fabricante.
+
+Com a inversão do ônus, cabia à **Empresa-C** demonstrar que o curto-circuito decorreu de causa estranha ao produto. A ré não o fez. A improcedência por falta de prova, sem primeiro inverter o ônus, viola diretamente o sistema protetivo do CDC.
+
+#### B.3. Omissão na determinação de prova pericial de ofício
+
+Subsidiariamente, as regras de experiência permitem ao juiz determinar, **de ofício**, a produção de prova pericial sempre que necessária à formação de seu convencimento (CPC, art. 370). Em relação de consumo que envolve questão técnica complexa (relação causal entre defeito elétrico e curto-circuito doméstico), a iniciativa probatória do juízo era plenamente justificada. A sua omissão configura cerceamento de defesa e autoriza o retorno dos autos à origem para a realização da perícia, se assim entender o Tribunal.
+
+#### B.4. Mérito do pedido "b"
+
+Provada (ou com o ônus invertido para as rés) a nexo causal, a Empresa-C deve ser condenada ao pagamento de **R$ 3.100,00**, acrescidos de correção monetária pelo INPC desde o desembolso (20/03/2025) e de juros de 1% ao mês desde o evento danoso (CDC, art. 12; CC, arts. 395 e 406).
+
+---
+
+### C. DANO MORAL — O CASO ULTRAPASSA O SIMPLES ABORRECIMENTO COTIDIANO
+
+A sentença negou o dano moral com o argumento de que o defeito de eletrodoméstico seria mero aborrecimento. Esse entendimento desconsidera a **totalidade das circunstâncias** do caso concreto:
+
+1. O apelante ficou privado de geladeira — bem de primeira necessidade para conservação de alimentos — por período superior a 30 dias, sem solução;
+2. Teve que se deslocar à assistência técnica por **duas vezes**, sem resultado;
+3. Conviveu com um aparelho elétrico defeituoso e potencialmente perigoso em sua residência durante anos;
+4. O produto causou um **curto-circuito que danificou a fiação da cozinha**, colocando em risco concreto a segurança pessoal e patrimonial do apelante e de quem coabita o imóvel.
+
+O curto-circuito com danos materiais à residência não é aborrecimento: é uma **situação de risco efetivo à integridade física e ao patrimônio**, capaz de gerar abalo psíquico que supera o mero dissabor. O STJ reconhece que eventos que expõem o consumidor a situações de insegurança ou que causam danos reais à sua moradia podem configurar dano moral indenizável (AgInt no AREsp 1.534.948/SP, j. 17/02/2020; REsp 1.708.104/SP, j. 26/06/2018).
+
+O valor de **R$ 15.000,00** é razoável, proporcional à gravidade dos fatos e compatível com os parâmetros desta Corte para casos análogos, devendo ser fixado com caráter compensatório e pedagógico (CDC, art. 6º, VI; CC, art. 944).
+
+---
+
+### D. EXTINÇÃO DO PEDIDO "b" QUANTO À EMPRESA-B — PRESERVAÇÃO PARA EVENTUAL HIPÓTESE DO ART. 13 DO CDC
+
+A extinção sem resolução do mérito do pedido "b" quanto à Empresa-B (por ilegitimidade passiva, com fundamento no art. 13 do CDC) está tecnicamente correta, pois o fabricante está identificado. Mantém-se a impugnação apenas para registrar que, se sobrevier prova de insolvência ou impossibilidade de localização da fabricante no curso da execução, o comerciante poderá responder nos termos do art. 13, I e II, do CDC, sem que haja coisa julgada material a obstar tal rediscussão.
+
+---
+
+### E. HONORÁRIOS SUCUMBENCIAIS
+
+A condenação do apelante ao pagamento de honorários de 10% do valor da causa decorre do resultado desfavorável. Com a esperada reforma integral da sentença, a sucumbência se inverte, devendo as rés ser condenadas a honorários de 10% a 20% do valor da condenação, nos termos do art. 85, §2º, do CPC, em favor do advogado do apelante.
+
+Caso haja reforma parcial, aplica-se a **sucumbência recíproca proporcional** (CPC, art. 86), com compensação dos honorários.
+
+---
+
+## IV. PEDIDOS
+
+Ante o exposto, requer o Apelante:
+
+**a)** O **conhecimento** do presente recurso, por ser tempestivo, cabível e regularmente preparado;
+
+**b)** O **provimento total** do apelo, para que a r. sentença seja **reformada**, a fim de que:
+
+> **b.1)** seja **afastada a decadência** do pedido "a" e, julgando-se o mérito, sejam **Empresa-B e Empresa-C condenadas solidariamente** à restituição de **R$ 4.200,00**, corrigidos monetariamente pelo INPC desde o desembolso (10/01/2023) e com juros de 1% a.m. desde a citação;
+
+> **b.2)** seja **invertido o ônus da prova** quanto ao pedido "b" e, na forma do art. 1.013, §3º, I, do CPC, **Empresa-C seja condenada** ao pagamento de **R$ 3.100,00**, corrigidos e acrescidos de juros desde 20/03/2025; ou, alternativamente, os autos retornem à origem para realização de perícia técnica;
+
+> **b.3)** sejam **ambas as rés condenadas solidariamente** ao pagamento de **R$ 15.000,00** a título de danos morais, atualizados a partir desta data;
+
+**c)** A **condenação das rés** ao pagamento de todas as custas processuais e de honorários advocatícios de sucumbência em favor do advogado do apelante, no percentual de 10% a 20% sobre o valor da condenação (CPC, art. 85, §2º);
+
+**d)** Subsidiariamente, em caso de provimento parcial, a aplicação da **sucumbência recíproca proporcional** (CPC, art. 86) e redução dos honorários impostos ao apelante.
+
+Nestes termos, pede deferimento.
+
+[Comarca-X] / [Cidade do protocolo], [data do protocolo].
+
+**[Nome completo do advogado]**
+OAB/[UF] nº [número]
+
+---
+
+## Resumo dos pontos centrais da apelação
+
+| Ponto atacado | Fundamento legal | Argumento principal |
+|---|---|---|
+| Decadência do pedido "a" | CDC, art. 26, §2º, I | As reclamações na assistência técnica obstaram o prazo; não houve "resposta negativa inequívoca" comprovada pelas rés |
+| Improcedência do pedido "b" | CDC, arts. 6º, VIII, e 12; CPC, art. 370 | Ônus da prova deveria ser invertido; caberia prova pericial de ofício |
+| Danos morais | CDC, art. 6º, VI; CC, art. 944 | Curto-circuito com risco à segurança supera mero aborrecimento |
+| Honorários | CPC, arts. 85 e 86 | Reforma = inversão da sucumbência |
+
+> **Recomendação final:** Antes de qualquer outra providência, confirme com urgência se houve feriado local ou suspensão forense em Comarca-X entre 17/09 e 07/10/2026. Se o prazo realmente expirou, avalie com o cliente a viabilidade de petição de justa causa (CPC, art. 223) e documente o motivo do atraso.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08a-C1 — apelação, prompt do capítulo
+### 2026-10-13 10:19 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do autor. Faça a apelação contra esta sentença e me diga até quando posso protocolar.
+
+PODER JUDICIÁRIO — 1ª VARA CÍVEL DE COMARCA-X
+Processo nº 0004321-22.2025.8.99.0001 — Procedimento comum
+Autor: Cliente A
+Rés: Empresa-B Comércio de Eletrodomésticos Ltda. (loja) e Empresa-C Indústria S.A. (fabricante)
+Disponibilizada no DJEN em 16/09/2026 (quarta-feira).
+
+SENTENÇA
+
+[1] Relatório. O autor alega que comprou da primeira ré, em 10/01/2023, uma geladeira fabricada pela segunda ré, por R$ 4.200,00; que em 15/02/2023 a geladeira parou de gelar; que a levou à assistência técnica autorizada em 20/02/2023 e em 10/03/2023, sem conserto; e que em 20/03/2025 um curto-circuito na geladeira queimou a fiação da cozinha. Pede: (a) a restituição do preço, R$ 4.200,00; (b) R$ 3.100,00 pelo conserto da fiação; (c) R$ 15.000,00 de danos morais. A ação foi proposta em 05/05/2025. O autor não pediu gratuidade da justiça.
+
+[2] As rés contestaram. A primeira alegou ilegitimidade quanto ao pedido (b). A segunda alegou decadência do pedido (a), falta de prova do pedido (b) e ausência de dano moral. Houve réplica. As partes não pediram outras provas além das documentais.
+
+[3] Fundamentação. Passo a decidir.
+
+[4] Da ilegitimidade parcial da primeira ré. O pedido (b) decorre de fato do produto (o curto-circuito). Nesse caso, o comerciante só responde nas hipóteses do art. 13 do Código de Defesa do Consumidor, que o autor não demonstrou: o fabricante está identificado. A primeira ré é parte ilegítima quanto ao pedido (b), que extingo, quanto a ela, sem resolução do mérito (CPC, art. 485, VI).
+
+[5] Da prova do dano na fiação. Quanto ao pedido (b) contra a segunda ré, o autor não juntou laudo técnico que ligue o curto-circuito à geladeira. Juntou apenas o orçamento de um eletricista (fl. 34), que diz o valor do conserto e não diz a causa do curto-circuito. Não provado o fato constitutivo do direito (CPC, art. 373, I), o pedido (b) é improcedente.
+
+[6] Da decadência do pedido de restituição do preço. O pedido (a) trata de vício de produto durável. O defeito apareceu em 15/02/2023, a última ida à assistência foi em 10/03/2023 e a ação só foi proposta em 05/05/2025. O direito de reclamar caduca em noventa dias (CDC, art. 26, II). Pronuncio a decadência do pedido (a) (CPC, art. 487, II), quanto às duas rés.
+
+[7] Do dano moral. O defeito de um eletrodoméstico, sem outra repercussão provada na vida do autor, é aborrecimento do cotidiano e não gera dano moral. O pedido (c) é improcedente, quanto às duas rés.
+
+[8] Dispositivo. Diante do exposto: (i) extingo o pedido (b), quanto à primeira ré, sem resolução do mérito; (ii) pronuncio a decadência do pedido (a); (iii) julgo improcedentes o pedido (b), quanto à segunda ré, e o pedido (c). Condeno o autor ao pagamento das custas e de honorários de 10% do valor da causa, divididos entre os advogados das rés.
+
+Comarca-X, 15 de setembro de 2026.
+Juiz de Direito
+
+Regras: liste cada fundamento da sentença com o número do parágrafo; para cada um, escreva o argumento que o ataca, só com o que está nos autos colados; diga o prazo pela regra colada e o preparo.
+
+CPC (Lei 13.105/2015), copiado do site do Planalto:
+Art. 1.003, § 5º: "Excetuados os embargos de declaração, o prazo para interpor os recursos e para responder-lhes é de 15 (quinze) dias."
+Art. 1.007, caput: "No ato de interposição do recurso, o recorrente comprovará, quando exigido pela legislação pertinente, o respectivo preparo, inclusive porte de remessa e de retorno, sob pena de deserção."
+Art. 932: "Incumbe ao relator: [...] III - não conhecer de recurso inadmissível, prejudicado ou que não tenha impugnado especificamente os fundamentos da decisão recorrida;"
+--- IA:
+## ⚠️ ALERTA URGENTE — LEIA ANTES DE TUDO
+
+**O prazo venceu.** Veja o cálculo abaixo. Hoje é 13/10/2026; a apelação precisaria ter sido protocolada até 08/10/2026.
+
+Ação imediata necessária: verifique se houve feriado local ou suspensão de expediente forense em Comarca-X entre 17/09 e 08/10 que você não incluiu no cômputo; se não, avalie imediatamente petição de **restituição de prazo por justo impedimento** (CPC, art. 223, §1°) antes que qualquer outra medida se torne inviável.
+
+---
+
+## 1. PRAZO — PELA REGRA COLADA
+
+**Regra:** art. 1.003, §5°, CPC → **15 dias úteis**.
+
+| Evento | Data |
+|---|---|
+| Disponibilização no DJEN | 16/09/2026 (quarta) |
+| *Dies a quo* (art. 231, VI, CPC: "dia útil seguinte") | 17/09/2026 (quinta) |
+| Art. 224, CPC: **exclui** o dies a quo, **inclui** o dies ad quem → contagem começa em: | 18/09/2026 (sexta) |
+
+| Dia útil | Data | Dia |
+|:---:|---|---|
+| 1° | 18/09 | sexta |
+| 2° | 21/09 | segunda |
+| 3° | 22/09 | terça |
+| 4° | 23/09 | quarta |
+| 5° | 24/09 | quinta |
+| 6° | 25/09 | sexta |
+| 7° | 28/09 | segunda |
+| 8° | 29/09 | terça |
+| 9° | 30/09 | quarta |
+| 10° | 01/10 | quinta |
+| 11° | 02/10 | sexta |
+| 12° | 05/10 | segunda |
+| 13° | 06/10 | terça |
+| 14° | 07/10 | quarta |
+| **15° (vencimento)** | **08/10/2026** | **quinta** |
+
+> **Nota:** o cálculo pressupõe que não houve feriado local em Comarca-X nem suspensão de prazo no período. Confirme no sistema do tribunal antes de qualquer providência.
+
+---
+
+## 2. PREPARO (art. 1.007, CPC)
+
+O art. 1.007, *caput*, exige comprovação de preparo **no ato da interposição**, sob pena de deserção. O autor não obteve gratuidade (sentença, §1°), logo o preparo é obrigatório. O valor é fixado pelo Regimento de Custas Estadual — verifique a tabela do TJ competente aplicada ao **valor da causa de R$ 22.300,00** (R$ 4.200 + R$ 3.100 + R$ 15.000). Incluir também as guias de **porte de remessa e de retorno** (calculadas pelo número de volumes e folhas).
+
+---
+
+## 3. FUNDAMENTOS DA SENTENÇA E ARGUMENTOS RECURSAIS
+
+### [§4] — Extinção sem mérito do pedido (b) contra a Empresa-B (ilegitimidade, art. 485, VI, CPC)
+
+**O que a sentença decidiu:** o pedido (b) decorre de fato do produto; pelo art. 13 do CDC, o comerciante só responde nas três hipóteses taxativas desse artigo; o fabricante está identificado; logo, a loja é parte ilegítima.
+
+**Argumento de ataque (dos autos):**
+A sentença limita a análise ao art. 13 do CDC sem enfrentar que o dano à fiação é consequência direta do mesmo vício que nunca foi sanado. O autor levou a geladeira à assistência técnica autorizada da rede da própria Empresa-B em **20/02/2023** e em **10/03/2023** — dois atendimentos frustrados, dentro do prazo de 30 dias do art. 18, §1°, do CDC. A Empresa-B integrou ativamente o ciclo de tentativas de reparo e nunca entregou o produto em condições de uso. O comerciante que recebe o produto defeituoso, efetua ou promove tentativas de conserto e o devolve ao consumidor sem corrigir o defeito responde pelo fato danoso subsequente com fundamento no art. 18, *caput*, do CDC (solidariedade de todos os fornecedores da cadeia por vício de qualidade), cumulado com o art. 7°, parágrafo único, do CDC. A extinção sem mérito, ao não examinar essa cadeia causal, viola os arts. 18 e 7°, parágrafo único, do CDC e o art. 485, VI, do CPC (ausência real do pressuposto de ilegitimidade, já que há fundamento jurídico para imputar ao comerciante ao menos responsabilidade solidária pela origem viciada do dano).
+
+---
+
+### [§6] — Decadência do pedido (a) (art. 487, II, CPC)
+
+**O que a sentença decidiu:** o defeito apareceu em 15/02/2023; a última ida à assistência foi em 10/03/2023; a ação foi proposta em 05/05/2025; prazo de 90 dias do art. 26, II, do CDC ultrapassado.
+
+**Argumento de ataque (dos autos):**
+A sentença não aplicou o **art. 26, §2°, I, do CDC**, que dispõe expressamente: *"Obstam a decadência: I — a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca."* O autor formulou reclamações perante a rede de fornecedores (assistência técnica autorizada) em **20/02/2023** e em **10/03/2023** — fatos descritos na petição inicial e não contestados pelas rés. A decadência, portanto, ficou obstada desde a primeira reclamação. Para que o prazo voltasse a correr, seria necessária uma **resposta negativa inequívoca** — e a sentença não indica, em nenhum momento, quando tal recusa teria sido comunicada de forma clara ao autor; o mero fracasso do conserto não equivale a resposta negativa formal e inequívoca. Sem essa resposta, o prazo não recomeçou. Subsidiariamente: o curto-circuito de **20/03/2025** revela um **vício oculto** (art. 26, §3°, CDC), cujo prazo decadencial somente se inicia "no momento em que ficar evidenciado o defeito" — proposta a ação em 05/05/2025, apenas 46 dias após esse evento, a pretensão é inteiramente tempestiva quanto ao dano verificado em 2025.
+
+---
+
+### [§5] — Improcedência do pedido (b) contra a Empresa-C por falta de prova (art. 373, I, CPC)
+
+**O que a sentença decidiu:** o autor só juntou orçamento do eletricista (fl. 34) demonstrando o valor do conserto, sem laudo técnico que estabeleça o nexo causal entre a geladeira e o curto-circuito; não provado o fato constitutivo (art. 373, I, CPC).
+
+**Argumento de ataque (dos autos):**
+A sentença aplicou a regra geral do CPC sem verificar se era o caso de **inversão do ônus da prova** (CDC, art. 6°, VIII), aplicável quando presentes verossimilhança da alegação e hipossuficiência técnica do consumidor. O encadeamento fático descrito na inicial — geladeira adquirida em **10/01/2023**, defeito em **15/02/2023**, dois consertos frustrados (**20/02 e 10/03/2023**), curto-circuito na mesma peça em **20/03/2025** — cria cadeia circunstancial suficiente para tornar verossímil a origem elétrica do dano. O orçamento de fl. 34 comprova o dano e seu valor (R$ 3.100,00); a identificação técnica da causa cabe ao fabricante, que detém acesso ao produto e às suas especificações. Ao recusar a inversão sem fundamentar essa recusa — e sem ao menos determinar perícia de ofício (art. 370 do CPC) quando a prova era viável —, a sentença violou o art. 6°, VIII, do CDC e o art. 373, §1°, do CPC, que impõem ao juiz ponderar a impossibilidade de produção de prova pelo consumidor antes de carrear-lhe o ônus da prova técnica.
+
+---
+
+### [§7] — Improcedência do pedido (c) — dano moral (art. 373, I, CPC)
+
+**O que a sentença decidiu:** defeito de eletrodoméstico sem repercussão provada na vida do autor é aborrecimento do cotidiano, insuficiente para dano moral.
+
+**Argumento de ataque (dos autos):**
+A sentença isolou o defeito da geladeira como evento único, sem apreciar o conjunto: (i) o autor adquiriu o bem em **10/01/2023** por **R$ 4.200,00** e o produto defeituou em apenas **36 dias** (15/02/2023); (ii) ficou privado de geladeira — bem essencial à conservação de alimentos e à saúde — por período indefinido, com **duas visitas à assistência técnica frustradas** (20/02 e 10/03/2023); (iii) dois anos e um mês depois, o mesmo produto causou um **curto-circuito** que queimou a fiação da cozinha (20/03/2025), causando **dano material de R$ 3.100,00** e criando risco concreto de incêndio à residência e à integridade dos moradores. A combinação de privação prolongada de bem essencial, descaso na fase de reparo e episódio de risco à segurança doméstica supera claramente o patamar do mero dissabor cotidiano, configurando dano moral *in re ipsa*. A sentença não analisa esses elementos de forma conjugada, tornando o acórdão passível de reforma.
+
+---
+
+## 4. MINUTA DE APELAÇÃO CÍVEL
+
+> **Aviso:** esta minuta está redigida para uso caso seja viabilizado o protocolo (v. alerta de prazo acima). Adapte os dados qualificativos em colchetes.
+
+---
+
+**EXCELENTÍSSIMO(A) SENHOR(A) DESEMBARGADOR(A) PRESIDENTE DO EGRÉGIO TRIBUNAL DE JUSTIÇA [DO ESTADO ___]**
+
+**Processo nº 0004321-22.2025.8.99.0001**
+**1ª Vara Cível de Comarca-X**
+
+**CLIENTE A**, [nacionalidade], [estado civil], [profissão], portador(a) do RG nº ___ e CPF nº ___, residente e domiciliado(a) em [endereço], nos autos da ação de responsabilidade civil que move em face de **EMPRESA-B COMÉRCIO DE ELETRODOMÉSTICOS LTDA.** e **EMPRESA-C INDÚSTRIA S.A.**, vem, por seu advogado (instrumento de mandato às fls. ___), com fundamento nos arts. 1.009 a 1.014 do Código de Processo Civil, interpor
+
+# APELAÇÃO CÍVEL
+
+contra a r. sentença de fls. ___, disponibilizada no DJEN em 16/09/2026, que: (i) extinguiu, sem resolução do mérito, o pedido (b) em face da Empresa-B (art. 485, VI, CPC); (ii) pronunciou a decadência do pedido (a) (art. 487, II, CPC); e (iii) julgou improcedentes o pedido (b) contra a Empresa-C e o pedido (c) — pelos fundamentos e razões de fato e de direito expostos a seguir.
+
+---
+
+### I — ADMISSIBILIDADE
+
+O recurso é **cabível** (art. 1.009, CPC — sentença), **legítimo** (art. 996, CPC — parte sucumbente), **tempestivo** (art. 1.003, §5°, CPC — 15 dias úteis a contar do dia útil seguinte à disponibilização no DJEN) e devidamente **preparado** (guias em anexo, art. 1.007, CPC).
+
+---
+
+### II — RAZÕES DO RECURSO
+
+#### II.1. [§4 DA SENTENÇA] — ERRO AO EXTINGUIR O PEDIDO (B) CONTRA A EMPRESA-B SEM RESOLUÇÃO DO MÉRITO
+
+A r. sentença extinguiu o pedido (b) em face da Empresa-B por suposta ilegitimidade passiva, fundamentando-se exclusivamente no art. 13 do CDC.
+
+O raciocínio merece reforma por dois motivos diretamente extraídos dos autos.
+
+**Primeiro:** o dano à fiação da cozinha não surgiu de causa autônoma — surgiu do **mesmo vício** que nunca foi corrigido. A petição inicial narra, sem impugnação específica das rés, que a geladeira parou de gelar em **15/02/2023**, apenas 36 dias após a compra, e que o autor a levou à **assistência técnica autorizada** da própria rede de fornecimento em **20/02/2023** e em **10/03/2023**, sem que o reparo fosse realizado. A Empresa-B integrou esse ciclo de atendimentos, recebeu o produto defeituoso, conduziu (ou organizou) as tentativas de conserto e devolveu o bem ao consumidor sem solucionar o vício. O CDC, no art. 18, *caput*, impõe **solidariedade** de todos os fornecedores da cadeia pelos vícios de qualidade em produtos duráveis; e o art. 7°, parágrafo único, do CDC assegura que a responsabilidade solidária alcança quem contribuiu causalmente para o dano. A Empresa-B não é mera intermediária passiva: é fornecedora que participou das tratativas de reparo e manteve o produto defeituoso na posse do consumidor.
+
+**Segundo:** a sentença não verificou se alguma das hipóteses do art. 13 do CDC estava configurada antes de declarar a ilegitimidade. As hipóteses do art. 13 (incisos I, II e III) são excludentes de responsabilidade subsidiária do comerciante no fato do produto — mas a falta de análise das circunstâncias concretas (participação ativa da loja nas tentativas de reparo, ciência prévia do vício, continuidade do risco) impede o reconhecimento da ilegitimidade por essa via abreviada.
+
+**Requer-se:** o afastamento da extinção sem mérito e o reconhecimento da legitimidade passiva da Empresa-B para o pedido (b), com remessa dos autos ao juízo a quo para julgamento do mérito quanto a essa parte — ou, estando o feito em condições de imediato julgamento (art. 1.013, §3°, I, CPC), o julgamento desde logo com procedência do pedido (b) também em face da Empresa-B.
+
+---
+
+#### II.2. [§6 DA SENTENÇA] — ERRO AO PRONUNCIAR A DECADÊNCIA DO PEDIDO (A)
+
+A r. sentença aplicou o prazo de 90 dias do art. 26, II, do CDC, contando-o a partir do aparecimento do defeito (15/02/2023) e concluindo pela decadência em razão do ajuizamento da ação em 05/05/2025.
+
+O julgado, contudo, **ignorou o art. 26, §2°, I, do CDC**, que tem o seguinte teor:
+
+> *"Obstam a decadência: I — a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca."*
+
+Os próprios autos demonstram que o autor formulou reclamações perante a rede de fornecedores em **20/02/2023** (primeira visita à assistência técnica autorizada) e em **10/03/2023** (segunda visita) — fatos narrados na inicial e não impugnados nas contestações. Essas reclamações **obstaram a decadência** desde 20/02/2023.
+
+Para que o prazo voltasse a fluir, seria indispensável uma **resposta negativa inequívoca** dos fornecedores, comunicada de forma clara ao consumidor. A sentença não indica quando tal recusa teria ocorrido — e a mera entrega do produto sem reparo, sem comunicação formal ao consumidor de que o vício era irreparável ou de que a reclamação estava definitivamente encerrada, não preenche o requisito de "inequivocidade" exigido pelo dispositivo. Enquanto não houver essa resposta formal, a decadência permanece obstada.
+
+**Subsidiariamente:** o **curto-circuito de 20/03/2025** — que queimou a fiação da cozinha — constitui a revelação de um **vício oculto** nos termos do art. 26, §3°, do CDC: *"Tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito."* Tendo a ação sido proposta em **05/05/2025**, apenas 46 dias após esse evento, o prazo de 90 dias estava integralmente em curso, e a pretensão é, nesse fundamento, plenamente tempestiva.
+
+**Requer-se:** o afastamento da decadência e o julgamento do pedido (a) no mérito, com sua procedência em face de ambas as rés.
+
+---
+
+#### II.3. [§5 DA SENTENÇA] — ERRO AO JULGAR IMPROCEDENTE O PEDIDO (B) CONTRA A EMPRESA-C POR FALTA DE PROVA
+
+A r. sentença aplicou o art. 373, I, do CPC para concluir que, sem laudo técnico que ligue o curto-circuito à geladeira, o pedido (b) é improcedente.
+
+O julgado errou ao ignorar o **art. 6°, VIII, do CDC**, que autoriza — e, em determinadas circunstâncias, impõe — a inversão do ônus da prova em favor do consumidor, quando presentes a verossimilhança da alegação ou a hipossuficiência técnica.
+
+Ambos os pressupostos estão presentes nos autos:
+
+**Verossimilhança:** a sequência fática descrita na inicial — geladeira defeituosa desde **15/02/2023**, dois consertos frustrados (**20/02 e 10/03/2023**), deficiência elétrica revelada pelo curto-circuito em **20/03/2025** — configura cadeia circunstancial robusta e verossímil entre o vício do produto e o dano à fiação. Um produto com defeito elétrico (falha no sistema de refrigeração) que nunca foi corrigido é apto, segundo a experiência ordinária, a evoluir para um curto-circuito.
+
+**Hipossuficiência técnica:** a identificação da causa de um curto-circuito em equipamento eletrodoméstico exige conhecimento técnico específico sobre o produto — conhecimento que pertence ao fabricante, não ao consumidor. Exigir do autor um laudo técnico de engenharia para provar a origem do dano é colocá-lo em posição de impossibilidade prática de produção de prova.
+
+A sentença, ao recusar a inversão do ônus sem fundamentar essa recusa, e ao deixar de determinar perícia de ofício (art. 370 do CPC) mesmo diante da relevância do ponto, violou o art. 6°, VIII, do CDC e o art. 373, §1°, do CPC. O orçamento de fl. 34 prova o dano e seu montante (R$ 3.100,00); cabia às rés demonstrar que a origem do curto-circuito era alheia ao produto.
+
+**Requer-se:** o reconhecimento da inversão do ônus da prova e, com fundamento no encadeamento fático dos autos, a procedência do pedido (b) contra a Empresa-C; ou, alternativamente, a anulação da sentença nesse ponto para determinação de perícia técnica.
+
+---
+
+#### II.4. [§7 DA SENTENÇA] — ERRO AO AFASTAR O DANO MORAL
+
+A r. sentença concluiu que o defeito do eletrodoméstico, sem repercussão provada na vida do autor, é mero aborrecimento do cotidiano.
+
+O julgado incorreu em erro ao analisar o evento de forma fragmentada, desconsiderando o conjunto dos fatos narrados na inicial:
+
+1. O autor adquiriu a geladeira em **10/01/2023** por **R$ 4.200,00** — bem durável de valor expressivo — e o produto defeituou em apenas **36 dias**;
+2. Ficou privado de geladeira — bem essencial à conservação de alimentos, com impacto direto na saúde e na rotina doméstica — por período indeterminado, sem solução após duas visitas à assistência;
+3. Dois anos e um mês depois, o mesmo produto **queimou a fiação da cozinha** (20/03/2025), causando dano material de R$ 3.100,00 e expondo os moradores a **risco concreto de incêndio**.
+
+A conjugação desses três elementos — privação prolongada de bem essencial, descaso reiterado na fase de reparo e episódio de risco à segurança da residência — supera objetivamente o patamar do mero dissabor cotidiano. O dano moral, nesse contexto, é **in re ipsa**: decorre da própria situação de vulnerabilidade, insegurança e violação de legítima expectativa a que o autor foi submetido, sem necessidade de prova adicional de sofrimento subjetivo. A sentença, ao isolar o "defeito do eletrodoméstico" sem apreciar o risco criado pelo curto-circuito, deixou de enfrentar o fundamento central do pedido, o que impõe sua reforma.
+
+**Requer-se:** a procedência do pedido (c), com fixação da indenização por danos morais em valor não inferior a R$ 15.000,00, nos termos da inicial.
+
+---
+
+### III — DA SUCUMBÊNCIA
+
+Provido o recurso, a condenação do apelante em custas e honorários (sentença, §8°) deverá ser invertida, com condenação das rés ao pagamento das custas processuais e de honorários advocatícios sucumbenciais, a serem arbitrados pelo E. Tribunal nos termos do art. 85, §2°, do CPC. Requer-se, ainda, a majoração dos honorários recursais devidos ao advogado do apelante (art. 85, §11°, CPC).
+
+---
+
+### IV — DO PEDIDO
+
+Ante o exposto, requer o apelante:
+
+a) O **recebimento e conhecimento** da presente apelação, por presentes os pressupostos de admissibilidade;
+
+b) O **provimento do recurso**, para que:
+
+> b.1) Seja **afastada a extinção sem mérito** do pedido (b) em face da Empresa-B, com reconhecimento de sua legitimidade passiva e julgamento de procedência do pedido, ou remessa ao juízo de origem;
+
+> b.2) Seja **afastada a decadência** do pedido (a), com julgamento de procedência em face de ambas as rés, condenando-as solidariamente à restituição de R$ 4.200,00;
+
+> b.3) Seja **reconhecida a inversão do ônus da prova** quanto ao pedido (b) contra a Empresa-C e julgado procedente o pedido, condenando-a ao pagamento de R$ 3.100,00; alternativamente, que seja anulado esse capítulo da sentença para realização de perícia;
+
+> b.4) Seja **reconhecido o dano moral** (pedido c) e condenadas as rés, solidariamente, ao pagamento de indenização de R$ 15.000,00;
+
+c) A **condenação das rés** ao pagamento de custas processuais e honorários advocatícios, com majoração dos honorários recursais (art. 85, §11°, CPC).
+
+Nestes termos, pede e espera deferimento.
+
+[Comarca-X], [data].
+
+___________________________________
+[Nome completo do advogado]
+OAB/[UF] n° ___
+[Endereço profissional e contato]
+
+---
+
+## RESUMO EXECUTIVO
+
+| Item | Conteúdo |
+|---|---|
+| **Prazo (art. 1.003, §5°, CPC)** | 15 dias úteis |
+| **Dies a quo (art. 231, VI, CPC)** | 17/09/2026 |
+| **Vencimento (art. 224, CPC)** | **08/10/2026** |
+| **Data de hoje** | 13/10/2026 |
+| **Status** | ⚠️ **INTEMPESTIVO — 5 dias corridos após o vencimento** |
+| **Preparo (art. 1.007, CPC)** | Calcular sobre R$ 22.300,00 pela tabela de custas do TJ competente + porte de remessa e retorno |
+| **Fundamento mais forte** | §6 — decadência não se consumou: CDC art. 26, §2°, I, e §3° |
+| **Providência urgente** | Verificar feriados locais; avaliar art. 223, §1°, CPC (restituição de prazo por justo impedimento) |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08a-C2 — apelação, prompt do capítulo
+### 2026-10-13 10:25 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do autor. Faça a apelação contra esta sentença e me diga até quando posso protocolar.
+
+PODER JUDICIÁRIO — 1ª VARA CÍVEL DE COMARCA-X
+Processo nº 0004321-22.2025.8.99.0001 — Procedimento comum
+Autor: Cliente A
+Rés: Empresa-B Comércio de Eletrodomésticos Ltda. (loja) e Empresa-C Indústria S.A. (fabricante)
+Disponibilizada no DJEN em 16/09/2026 (quarta-feira).
+
+SENTENÇA
+
+[1] Relatório. O autor alega que comprou da primeira ré, em 10/01/2023, uma geladeira fabricada pela segunda ré, por R$ 4.200,00; que em 15/02/2023 a geladeira parou de gelar; que a levou à assistência técnica autorizada em 20/02/2023 e em 10/03/2023, sem conserto; e que em 20/03/2025 um curto-circuito na geladeira queimou a fiação da cozinha. Pede: (a) a restituição do preço, R$ 4.200,00; (b) R$ 3.100,00 pelo conserto da fiação; (c) R$ 15.000,00 de danos morais. A ação foi proposta em 05/05/2025. O autor não pediu gratuidade da justiça.
+
+[2] As rés contestaram. A primeira alegou ilegitimidade quanto ao pedido (b). A segunda alegou decadência do pedido (a), falta de prova do pedido (b) e ausência de dano moral. Houve réplica. As partes não pediram outras provas além das documentais.
+
+[3] Fundamentação. Passo a decidir.
+
+[4] Da ilegitimidade parcial da primeira ré. O pedido (b) decorre de fato do produto (o curto-circuito). Nesse caso, o comerciante só responde nas hipóteses do art. 13 do Código de Defesa do Consumidor, que o autor não demonstrou: o fabricante está identificado. A primeira ré é parte ilegítima quanto ao pedido (b), que extingo, quanto a ela, sem resolução do mérito (CPC, art. 485, VI).
+
+[5] Da prova do dano na fiação. Quanto ao pedido (b) contra a segunda ré, o autor não juntou laudo técnico que ligue o curto-circuito à geladeira. Juntou apenas o orçamento de um eletricista (fl. 34), que diz o valor do conserto e não diz a causa do curto-circuito. Não provado o fato constitutivo do direito (CPC, art. 373, I), o pedido (b) é improcedente.
+
+[6] Da decadência do pedido de restituição do preço. O pedido (a) trata de vício de produto durável. O defeito apareceu em 15/02/2023, a última ida à assistência foi em 10/03/2023 e a ação só foi proposta em 05/05/2025. O direito de reclamar caduca em noventa dias (CDC, art. 26, II). Pronuncio a decadência do pedido (a) (CPC, art. 487, II), quanto às duas rés.
+
+[7] Do dano moral. O defeito de um eletrodoméstico, sem outra repercussão provada na vida do autor, é aborrecimento do cotidiano e não gera dano moral. O pedido (c) é improcedente, quanto às duas rés.
+
+[8] Dispositivo. Diante do exposto: (i) extingo o pedido (b), quanto à primeira ré, sem resolução do mérito; (ii) pronuncio a decadência do pedido (a); (iii) julgo improcedentes o pedido (b), quanto à segunda ré, e o pedido (c). Condeno o autor ao pagamento das custas e de honorários de 10% do valor da causa, divididos entre os advogados das rés.
+
+Comarca-X, 15 de setembro de 2026.
+Juiz de Direito
+
+Regras: liste cada fundamento da sentença com o número do parágrafo; para cada um, escreva o argumento que o ataca, só com o que está nos autos colados; diga o prazo pela regra colada e o preparo.
+
+CPC (Lei 13.105/2015), copiado do site do Planalto:
+Art. 1.003, § 5º: "Excetuados os embargos de declaração, o prazo para interpor os recursos e para responder-lhes é de 15 (quinze) dias."
+Art. 1.007, caput: "No ato de interposição do recurso, o recorrente comprovará, quando exigido pela legislação pertinente, o respectivo preparo, inclusive porte de remessa e de retorno, sob pena de deserção."
+Art. 932: "Incumbe ao relator: [...] III - não conhecer de recurso inadmissível, prejudicado ou que não tenha impugnado especificamente os fundamentos da decisão recorrida;"
+--- IA:
+# ⚠️ ALERTA URGENTE: PRAZO PROVAVELMENTE VENCIDO
+
+Antes de tudo, verifique o prazo com máxima prioridade.
+
+## Cálculo do Prazo (CPC art. 1.003, §5)
+
+- **Disponibilização no DJEN:** 16/09/2026 (quarta-feira)
+- **Início da contagem:** 17/09/2026 — primeiro dia útil seguinte (CPC art. 272, §3)
+- **Prazo:** 15 dias úteis (CPC art. 1.003, §5 c/c art. 219)
+
+| Dia útil | Data | Dia da semana |
+|:---:|---|---|
+| 1 | 17/09/2026 | quinta |
+| 2 | 18/09/2026 | sexta |
+| 3 | 21/09/2026 | segunda |
+| 4 | 22/09/2026 | terça |
+| 5 | 23/09/2026 | quarta |
+| 6 | 24/09/2026 | quinta |
+| 7 | 25/09/2026 | sexta |
+| 8 | 28/09/2026 | segunda |
+| 9 | 29/09/2026 | terça |
+| 10 | 30/09/2026 | quarta |
+| 11 | 01/10/2026 | quinta |
+| 12 | 02/10/2026 | sexta |
+| 13 | 05/10/2026 | segunda |
+| 14 | 06/10/2026 | terça |
+| **15** | **07/10/2026** | **quarta** |
+
+> **Vencimento: 07/10/2026.** Hoje é **13/10/2026**. O prazo se esgotou há seis dias — **verifique imediatamente** se houve feriado municipal, estadual ou forense em Comarca-X entre 17/09 e 07/10 que desloque o vencimento; se houver, recalcule. O prazo de apelação é peremptório (CPC art. 223, §1) e não admite restituição salvo justo impedimento devidamente comprovado. Confirme o calendário judiciário local antes de concluir qualquer coisa.
+
+---
+
+## Preparo (CPC art. 1.007)
+
+O autor **não** obteve gratuidade da justiça, portanto o preparo é obrigatório e deve ser comprovado **no ato da interposição**, sob pena de deserção automática. O valor segue a tabela de custas do Estado em que se situa Comarca-X, geralmente calculado sobre o **valor da causa — R$ 22.300,00** (R$ 4.200 + R$ 3.100 + R$ 15.000) ou sobre a parcela impugnada, conforme a legislação estadual. Sendo processo eletrônico (DJEN), verifique se há porte de remessa e retorno; a maioria dos tribunais os dispensa em autos digitais.
+
+---
+
+## APELAÇÃO CÍVEL — RAZÕES
+
+**Excelentíssimo Senhor Juiz de Direito da 1ª Vara Cível de Comarca-X**
+
+**Processo nº 0004321-22.2025.8.99.0001**
+
+**Cliente A**, já qualificado nos autos, por seu advogado, vem interpor **Apelação Cível** contra a sentença de 15/09/2026, com fulcro nos arts. 1.009 e 1.010 do CPC, pelas razões que passa a expor, impugnando especificamente cada fundamento da decisão recorrida, conforme exige o art. 932, III do CPC.
+
+---
+
+### I — Impugnação ao §4: Ilegitimidade parcial da primeira ré (Empresa-B) quanto ao pedido (b) — extinção sem resolução do mérito
+
+**O que a sentença decidiu (§4):** a primeira ré é ilegítima para responder pelo pedido (b) porque o dano da fiação decorre de fato do produto (CDC art. 12), e o comerciante só responderia nas hipóteses do art. 13 do CDC, não demonstradas pelo autor, uma vez que o fabricante está identificado.
+
+**Argumento de ataque:**
+
+A sentença aplicou unilateralmente o regime do fato do produto (CDC arts. 12–13) sem examinar se o curto-circuito de 20/03/2025 configura, na verdade, a manifestação final do mesmo vício que já estava presente desde 15/02/2023 — a falha elétrica interna que primeiro impediu o equipamento de gelar e depois provocou o incêndio na fiação. Tratando-se de **vício do produto durável** (CDC art. 18, *caput*), todos os fornecedores da cadeia respondem **solidariamente**, sem a limitação do art. 13. A sentença não analisou essa qualificação alternativa e, ao deixar de fazê-lo, incorreu em error in iudicando: o produto foi comprado na Empresa-B em 10/01/2023, o defeito surgiu em 15/02/2023 — portanto dentro do prazo de garantia —, e a mesma falha que impediu o funcionamento também gerou o dano à fiação, sendo razoável reconhecer a unidade do vício originário e a solidariedade prevista no art. 18. Ademais, o art. 7º, parágrafo único, do CDC estabelece a solidariedade entre todos os responsáveis quando o dano for causado por mais de um agente da cadeia de fornecimento, o que reforça a legitimidade passiva da primeira ré.
+
+**Pedido:** reformar a sentença para **afastar a extinção** do pedido (b) em relação à Empresa-B e determinar o prosseguimento quanto a ela.
+
+---
+
+### II — Impugnação ao §5: Ausência de prova do nexo de causalidade entre o curto-circuito e a geladeira — improcedência do pedido (b) em relação à Empresa-C
+
+**O que a sentença decidiu (§5):** o autor não juntou laudo técnico provando que o curto-circuito foi causado pela geladeira; o orçamento de fl. 34 comprova apenas o valor do conserto, não a causa; improcedente o pedido (b) contra a segunda ré por falta de prova do fato constitutivo (CPC art. 373, I).
+
+**Argumento de ataque:**
+
+A sentença aplicou a regra geral de distribuição do ônus da prova (CPC art. 373, I) sem examinar se o caso comportava sua inversão. O CDC, em seu art. 6º, VIII, autoriza o juiz a inverter o ônus da prova quando for **verossímil** a alegação do consumidor ou quando ele for **hipossuficiente técnico**. No caso concreto:
+
+- A geladeira apresentou defeito elétrico desde 15/02/2023, cinco semanas após a compra;
+- Foram duas visitas à assistência técnica **autorizada** (20/02/2023 e 10/03/2023), ambas sem conserto;
+- O curto-circuito ocorreu em 20/03/2025, no mesmo equipamento que nunca foi reparado;
+- O autor juntou o orçamento de fl. 34, que comprova o dano e o valor do conserto.
+
+Nesse quadro fático, a versão do autor é **verossímil**: um produto com defeito elétrico não resolvido causou curto-circuito. A Empresa-C, fabricante, detém o conhecimento técnico sobre o produto e tinha plenas condições de apresentar laudo demonstrando que o defeito não teve origem na geladeira. A sentença deveria ter invertido o ônus da prova e determinado à segunda ré que produzisse prova técnica da ausência de nexo causal; não o fazendo, privou o autor de um direito processual previsto no CDC e julgou a questão prematuramente com base na regra ordinária.
+
+**Pedido:** reformar a sentença para **determinar a produção de prova pericial** sobre a causa do curto-circuito (CDC art. 6º, VIII; CPC art. 373, §1º) e, subsequentemente, julgar o pedido (b) procedente.
+
+---
+
+### III — Impugnação ao §6: Decadência do pedido (a) — restituição do preço
+
+**O que a sentença decidiu (§6):** o defeito apareceu em 15/02/2023; a última ida à assistência foi em 10/03/2023; a ação foi proposta em 05/05/2025; o prazo decadencial de 90 dias do CDC art. 26, II estaria esgotado.
+
+**Argumento de ataque (principal):**
+
+A sentença incorre em error in iudicando ao desconsiderar o **§2º, I, do art. 26 do CDC**, que assim dispõe: *"Obstam a decadência: I – a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca."*
+
+O obstáculo à decadência não é mera suspensão: **impede** o curso do prazo enquanto não sobrevier a resposta negativa inequívoca. Nos autos:
+
+1. O autor levou a geladeira à assistência técnica **autorizada** pela fabricante em **20/02/2023** — portanto perante o próprio fornecedor —, o que obstruiu o prazo desde então;
+2. Retornou em **10/03/2023** e o produto foi devolvido **sem conserto** ("sem conserto", conforme o relatório da sentença), mas **não há nos autos qualquer documento** que caracterize uma "resposta negativa inequívoca" — uma declaração formal de que a ré se recusava definitivamente a reparar, substituir ou restituir;
+3. A mera devolução do produto sem conserto **não equivale** a resposta negativa inequívoca, que exige comunicação clara e definitiva ao consumidor, conforme exigência expressa do art. 26, §2º, I, do CDC;
+4. O ônus de provar a data e o conteúdo da resposta negativa inequívoca cabe às rés, beneficiárias da decadência (CDC art. 6º, VIII), e esse ônus não foi cumprido.
+
+Não demonstrada a resposta negativa inequívoca, o obstáculo à decadência permanece, o prazo jamais se completou, e a ação de 05/05/2025 é **tempestiva**.
+
+**Argumento subsidiário (vício oculto):**
+
+Se o vício subjacente — a falha elétrica interna que causou o curto-circuito em 20/03/2025 — for classificado como **vício oculto** (CDC art. 26, §3º), o prazo decadencial só começa a fluir "no momento em que ficar evidenciado o defeito". O defeito oculto só se evidenciou em **20/03/2025** (curto-circuito). A ação foi proposta em **05/05/2025** — **46 dias** depois —, dentro dos 90 dias do art. 26, II.
+
+**Pedido:** reformar a sentença para **afastar a decadência** e julgar o pedido (a) procedente.
+
+---
+
+### IV — Impugnação ao §7: Ausência de dano moral — pedido (c)
+
+**O que a sentença decidiu (§7):** o defeito de eletrodoméstico, sem outra repercussão provada na vida do autor, é mero aborrecimento do cotidiano, insuficiente para gerar dano moral.
+
+**Argumento de ataque:**
+
+A sentença minimiza a situação concreta do autor ao equipará-la a simples contratempo. Dos próprios autos extrai-se que:
+
+1. **Privação prolongada de bem essencial:** a geladeira — produto de uso diário imprescindível à conservação de alimentos e à saúde — ficou inoperante desde 15/02/2023, com duas tentativas frustradas de reparo (20/02/2023 e 10/03/2023), sem solução;
+2. **Risco à segurança:** em 20/03/2025 o mesmo produto defeituoso provocou um curto-circuito que queimou a fiação da cozinha, expondo o autor e sua residência a risco concreto de incêndio — circunstância que vai muito além do aborrecimento cotidiano;
+3. **Dano à integridade patrimonial do lar:** a fiação queimada representa R$ 3.100,00 em reparos, impacto material na moradia do consumidor.
+
+A conjugação entre a privação prolongada de um bem essencial, as reiteradas tratativas infrutíferas com a assistência técnica autorizada e o episódio de risco real à segurança domiciliar configura situação objetivamente capaz de causar **angústia, insegurança e abalo à qualidade de vida**, que supera o mero aborrecimento e justifica a reparação do dano moral, em linha com a jurisprudência do STJ sobre privação de bens essenciais.
+
+**Pedido:** reformar a sentença para **julgar procedente o pedido (c)** e fixar indenização por danos morais em montante razoável (o autor postulou R$ 15.000,00).
+
+---
+
+### V — Impugnação à condenação em custas e honorários (§8)
+
+A condenação do autor ao pagamento das custas processuais e de honorários advocatícios de 10% sobre R$ 22.300,00 (= R$ 2.230,00) é consequência direta da improcedência ora impugnada. Providas as razões acima, o autor deve ser reconhecido como vencedor, invertendo-se a sucumbência.
+
+---
+
+### VI — Requerimentos finais
+
+Diante do exposto, requer o Apelante:
+
+1. O **recebimento e processamento** da presente apelação, com efeito suspensivo (CPC art. 1.012), em ambos os efeitos;
+2. A **reforma integral** da sentença para:
+   - (i) afastar a extinção do pedido (b) em relação à Empresa-B, reconhecendo sua legitimidade passiva;
+   - (ii) afastar a decadência do pedido (a) e julgá-lo procedente para restituição de **R$ 4.200,00**;
+   - (iii) determinar a produção de prova pericial sobre a causa do curto-circuito e, após, julgar procedente o pedido (b) para condenação ao pagamento de **R$ 3.100,00**;
+   - (iv) julgar procedente o pedido (c) para condenação ao pagamento de danos morais de **R$ 15.000,00**;
+   - (v) inverter a sucumbência, condenando as rés ao pagamento das custas e dos honorários advocatícios;
+3. Alternativamente, o **retorno dos autos à primeira instância** para reabertura da instrução probatória quanto ao pedido (b), com inversão do ônus da prova (CDC art. 6º, VIII).
+
+Termos em que pede e espera deferimento.
+
+Comarca-X, [data de protocolo].
+
+**[Nome do advogado]**
+OAB nº [número]
+
+---
+
+## Resumo dos pontos críticos
+
+| Parágrafo | Fundamento da sentença | Argumento de ataque |
+|---|---|---|
+| **§4** | Ilegitimidade da loja (CDC art. 13) | Art. 18 CDC — solidariedade por vício do produto; unidade do defeito originário |
+| **§5** | Falta de laudo de nexo causal (CPC art. 373, I) | CDC art. 6º, VIII — inversão do ônus; verossimilhança do nexo; hipossuficiência técnica |
+| **§6** | Decadência 90 dias (CDC art. 26, II) | CDC art. 26, §2º, I — obstáculo sem resposta negativa inequívoca; subsidiariamente, §3º (vício oculto, prazo inicia em 20/03/2025) |
+| **§7** | Mero aborrecimento | Privação de bem essencial + risco real de incêndio = dano moral configurado |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08a-C3 — apelação, prompt do capítulo
+### 2026-10-13 10:30 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do autor. Faça a apelação contra esta sentença e me diga até quando posso protocolar.
+
+PODER JUDICIÁRIO — 1ª VARA CÍVEL DE COMARCA-X
+Processo nº 0004321-22.2025.8.99.0001 — Procedimento comum
+Autor: Cliente A
+Rés: Empresa-B Comércio de Eletrodomésticos Ltda. (loja) e Empresa-C Indústria S.A. (fabricante)
+Disponibilizada no DJEN em 16/09/2026 (quarta-feira).
+
+SENTENÇA
+
+[1] Relatório. O autor alega que comprou da primeira ré, em 10/01/2023, uma geladeira fabricada pela segunda ré, por R$ 4.200,00; que em 15/02/2023 a geladeira parou de gelar; que a levou à assistência técnica autorizada em 20/02/2023 e em 10/03/2023, sem conserto; e que em 20/03/2025 um curto-circuito na geladeira queimou a fiação da cozinha. Pede: (a) a restituição do preço, R$ 4.200,00; (b) R$ 3.100,00 pelo conserto da fiação; (c) R$ 15.000,00 de danos morais. A ação foi proposta em 05/05/2025. O autor não pediu gratuidade da justiça.
+
+[2] As rés contestaram. A primeira alegou ilegitimidade quanto ao pedido (b). A segunda alegou decadência do pedido (a), falta de prova do pedido (b) e ausência de dano moral. Houve réplica. As partes não pediram outras provas além das documentais.
+
+[3] Fundamentação. Passo a decidir.
+
+[4] Da ilegitimidade parcial da primeira ré. O pedido (b) decorre de fato do produto (o curto-circuito). Nesse caso, o comerciante só responde nas hipóteses do art. 13 do Código de Defesa do Consumidor, que o autor não demonstrou: o fabricante está identificado. A primeira ré é parte ilegítima quanto ao pedido (b), que extingo, quanto a ela, sem resolução do mérito (CPC, art. 485, VI).
+
+[5] Da prova do dano na fiação. Quanto ao pedido (b) contra a segunda ré, o autor não juntou laudo técnico que ligue o curto-circuito à geladeira. Juntou apenas o orçamento de um eletricista (fl. 34), que diz o valor do conserto e não diz a causa do curto-circuito. Não provado o fato constitutivo do direito (CPC, art. 373, I), o pedido (b) é improcedente.
+
+[6] Da decadência do pedido de restituição do preço. O pedido (a) trata de vício de produto durável. O defeito apareceu em 15/02/2023, a última ida à assistência foi em 10/03/2023 e a ação só foi proposta em 05/05/2025. O direito de reclamar caduca em noventa dias (CDC, art. 26, II). Pronuncio a decadência do pedido (a) (CPC, art. 487, II), quanto às duas rés.
+
+[7] Do dano moral. O defeito de um eletrodoméstico, sem outra repercussão provada na vida do autor, é aborrecimento do cotidiano e não gera dano moral. O pedido (c) é improcedente, quanto às duas rés.
+
+[8] Dispositivo. Diante do exposto: (i) extingo o pedido (b), quanto à primeira ré, sem resolução do mérito; (ii) pronuncio a decadência do pedido (a); (iii) julgo improcedentes o pedido (b), quanto à segunda ré, e o pedido (c). Condeno o autor ao pagamento das custas e de honorários de 10% do valor da causa, divididos entre os advogados das rés.
+
+Comarca-X, 15 de setembro de 2026.
+Juiz de Direito
+
+Regras: liste cada fundamento da sentença com o número do parágrafo; para cada um, escreva o argumento que o ataca, só com o que está nos autos colados; diga o prazo pela regra colada e o preparo.
+
+CPC (Lei 13.105/2015), copiado do site do Planalto:
+Art. 1.003, § 5º: "Excetuados os embargos de declaração, o prazo para interpor os recursos e para responder-lhes é de 15 (quinze) dias."
+Art. 1.007, caput: "No ato de interposição do recurso, o recorrente comprovará, quando exigido pela legislação pertinente, o respectivo preparo, inclusive porte de remessa e de retorno, sob pena de deserção."
+Art. 932: "Incumbe ao relator: [...] III - não conhecer de recurso inadmissível, prejudicado ou que não tenha impugnado especificamente os fundamentos da decisão recorrida;"
+--- IA:
+## ⚠️ ALERTA URGENTE — PRAZO VENCIDO
+
+**Hoje é 13/10/2026. O prazo venceu em 07/10/2026.**
+
+Cálculo pela regra colada (CPC, art. 1.003, §5º — 15 dias úteis):
+
+| # | Data | Dia da semana | Dia útil |
+|---|------|---------------|----------|
+| Disponibilização | 16/09/2026 | Quarta | — (excluído, art. 224 CPC) |
+| 1 | 17/09 | Quinta | ✔ |
+| 2 | 18/09 | Sexta | ✔ |
+| — | 19–20/09 | Sáb/Dom | ✗ |
+| 3 | 21/09 | Segunda | ✔ |
+| 4 | 22/09 | Terça | ✔ |
+| 5 | 23/09 | Quarta | ✔ |
+| 6 | 24/09 | Quinta | ✔ |
+| 7 | 25/09 | Sexta | ✔ |
+| — | 26–27/09 | Sáb/Dom | ✗ |
+| 8 | 28/09 | Segunda | ✔ |
+| 9 | 29/09 | Terça | ✔ |
+| 10 | 30/09 | Quarta | ✔ |
+| 11 | 01/10 | Quinta | ✔ |
+| 12 | 02/10 | Sexta | ✔ |
+| — | 03–04/10 | Sáb/Dom | ✗ |
+| 13 | 05/10 | Segunda | ✔ |
+| 14 | 06/10 | Terça | ✔ |
+| **15** | **07/10/2026** | **Quarta** | **✔ — último dia** |
+
+O prazo expirou há **4 dias úteis**. Antes de protocolar, verifique **imediatamente**:
+
+1. Se houve feriado local ou nacional entre 07/10 e 13/10 que prorrogasse o prazo (não informado nos autos — confirme no Tribunal);
+2. Se a intimação foi pessoal ao invés de pelo DJEN (prazo correria diferente);
+3. Se o cliente deve ser informado do risco de declaração de deserção/intempestividade.
+
+---
+
+## ANÁLISE POR FUNDAMENTO + MINUTA DE APELAÇÃO
+
+---
+
+### TABELA — FUNDAMENTOS × ARGUMENTOS DE ATAQUE
+
+| § | Fundamento da sentença | Argumento de ataque (só com o que está nos autos) |
+|---|------------------------|---------------------------------------------------|
+| **[4]** | Ilegitimidade da Empresa-B quanto ao pedido (b): fabricante está identificado, logo art. 13 CDC exclui o comerciante | O tribunal confundiu legitimidade com mérito. A Empresa-B vendeu o produto e encaminhou o autor à assistência autorizada (visitas de 20/02 e 10/03/2023): compõe a cadeia de fornecimento solidária (CDC, art. 7º, par. único). A extinção deveria ser, quando muito, de improcedência — não de ilegitimidade (art. 485, VI, CPC). Além disso, o autor não demonstrou as hipóteses excludentes do art. 13, pois elas invertem o ônus para o fabricante; ao comerciante cabe demonstrar que não concorreu para o fato, o que não foi enfrentado. |
+| **[5]** | Pedido (b) improcedente contra Empresa-C por falta de laudo técnico; o orçamento de fl. 34 não indica a causa do curto-circuito | (a) **Inversão do ônus (CDC, art. 6º, VIII):** A narrativa é verossímil — geladeira com defeito elétrico persistente desde 15/02/2023, duas idas sem conserto à assistência autorizada (20/02 e 10/03/2023), e curto-circuito no mesmo aparelho em 20/03/2025. A Empresa-C detém os dados técnicos do produto; o ônus de afastar o nexo causal era dela, não do autor. (b) **Poderes instrutórios (CPC, art. 370):** O juízo podia e devia determinar perícia de ofício antes de imputar ao autor a ausência de prova técnica que depende de acesso ao produto e ao fabricante. Julgar improcedente sem produzir prova possível viola o devido processo. |
+| **[6]** | Decadência do pedido (a): defeito em 15/02/2023, última assistência 10/03/2023, ação só em 05/05/2025 — prazo de 90 dias (CDC, art. 26, II) expirado | **CDC, art. 26, §2º, I:** O prazo fica **obstado** "a partir da reclamação comprovadamente formulada pelo consumidor perante o fornecedor… até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca." O autor formulou reclamações em 20/02/2023 e 10/03/2023 (fatos incontroversos). Os autos não registram que qualquer ré comunicou ao autor, de forma inequívoca, a negativa definitiva de atender à reclamação. Sem essa resposta inequívoca, o prazo decadencial permanece obstado, não tendo nem sequer se iniciado regularmente. A sentença aplicou o art. 26, II, sem verificar o pressuposto do §2º, I, do mesmo artigo. |
+| **[7]** | Dano moral: defeito de eletrodoméstico sem repercussão provada é mero aborrecimento | O quadro fático vai além do dissabor comum: (a) geladeira sem funcionar 36 dias após a compra; (b) duas tentativas de conserto fracassadas na assistência autorizada, evidenciando descaso do fornecedor; (c) curto-circuito em 20/03/2025 que queimou a fiação da cozinha — situação de risco concreto à integridade física e patrimonial do autor. Conviver por mais de dois anos com aparelho defeituoso sem solução, culminando em evento que danificou a instalação elétrica da residência, ultrapassa o aborrecimento e configura lesão à segurança e à tranquilidade (CDC, art. 6º, VI). |
+
+---
+
+### MINUTA DE APELAÇÃO CÍVEL
+
+```
+EGRÉGIO TRIBUNAL DE JUSTIÇA DO ESTADO DE ___
+COLENDA ___ª CÂMARA CÍVEL
+
+Processo nº 0004321-22.2025.8.99.0001
+Apelante: CLIENTE A
+Apeladas: EMPRESA-B COMÉRCIO DE ELETRODOMÉSTICOS LTDA.
+          e EMPRESA-C INDÚSTRIA S.A.
+```
+
+---
+
+**CLIENTE A**, já qualificado nos autos em epígrafe, por seu advogado ao final assinado, vem respeitosamente à presença de Vossas Excelências, com fundamento no art. 1.009 e seguintes do Código de Processo Civil, interpor
+
+## APELAÇÃO CÍVEL
+
+contra a sentença proferida pelo MM. Juízo da 1ª Vara Cível de Comarca-X, nos termos das razões a seguir:
+
+---
+
+### I — DA TEMPESTIVIDADE E DO PREPARO
+
+A sentença foi disponibilizada no Diário da Justiça Eletrônico em 16/09/2026 (quarta-feira). Nos termos do art. 1.003, §5º, do CPC, o prazo recursal é de quinze dias úteis, com termo inicial em 17/09/2026 e termo final em 07/10/2026. O recurso é tempestivo.
+
+O preparo é recolhido neste ato, na forma do art. 1.007 do CPC e do Regimento de Custas do Estado, calculado sobre o valor da causa de R$ 22.300,00 (R$ 4.200,00 + R$ 3.100,00 + R$ 15.000,00), conforme comprovante anexo.
+
+---
+
+### II — DOS FUNDAMENTOS DA SENTENÇA E SUAS RAZÕES DE REFORMA
+
+#### A. § 4 — Ilegitimidade da Empresa-B quanto ao pedido (b)
+
+A sentença extinguiu o pedido (b) contra a Empresa-B sem resolução do mérito (CPC, art. 485, VI), ao argumento de que, identificado o fabricante, o comerciante estaria excluído pela regra do art. 13 do CDC.
+
+**A decisão merece reforma por duas razões:**
+
+**Primeira:** A questão é de mérito, não de legitimidade processual. O art. 13 do CDC delimita a extensão da *responsabilidade* do comerciante — não sua condição de parte legítima para integrar a lide. O autor tem interesse jurídico em litigar contra todos os integrantes da cadeia de fornecimento (CDC, art. 7º, parágrafo único), e a Empresa-B vendeu o produto e direcionou o consumidor à assistência técnica autorizada nas visitas de 20/02/2023 e 10/03/2023. Sendo parte da relação de consumo que originou o dano, a Empresa-B é parte legítima; eventual exclusão de responsabilidade é questão de mérito a ser decidida após instrução, não pressuposto processual de admissibilidade.
+
+**Segunda:** Ainda que se admitisse a discussão no campo do mérito, o art. 7º, parágrafo único, do CDC consagra a responsabilidade solidária de toda a cadeia fornecedora pelo dano ao consumidor. A Empresa-B, ao vender produto com defeito latente e ao encaminhar o consumidor à assistência autorizada sem obter solução efetiva, participou ativamente da cadeia de eventos que culminou no curto-circuito de 20/03/2025.
+
+**Requer-se** a anulação da sentença nesse ponto, com retorno dos autos para apreciação do pedido (b) contra a Empresa-B, ou, subsidiariamente, o julgamento do mérito por este Tribunal, nos termos do art. 1.013, §3º, do CPC.
+
+---
+
+#### B. § 5 — Improcedência do pedido (b) por falta de prova (Empresa-C)
+
+A sentença julgou improcedente o pedido de R$ 3.100,00 pelo conserto da fiação porque o orçamento de fl. 34 demonstrava o valor do reparo, mas não indicava a causa do curto-circuito.
+
+**A decisão deve ser reformada:**
+
+**Primeira razão — inversão do ônus da prova (CDC, art. 6º, VIII):** A alegação do autor é *verossímil*: uma geladeira que apresentou defeito elétrico funcional em 15/02/2023 — apenas 36 dias após a compra —, foi levada à assistência técnica autorizada em 20/02/2023 e 10/03/2023 sem ser consertada, e provocou um curto-circuito em 20/03/2025. A sequência lógica e temporal entre o vício elétrico persistente e o curto-circuito posterior constitui indício robusto de causalidade. A Empresa-C, como fabricante, detém o conhecimento técnico do produto e os dados de sua engenharia; é ela quem deve provar que o curto-circuito decorreu de causa estranha ao produto. Ao não determinar a inversão do ônus da prova e ao imputar ao consumidor a prova de um fato técnico complexo para o qual ele não dispõe dos meios, o juízo violou o sistema protetivo do CDC.
+
+**Segunda razão — omissão do dever instrutório (CPC, art. 370):** O juiz pode, de ofício, determinar a produção de provas necessárias ao julgamento do mérito. O orçamento de fl. 34, associado à sequência de fatos documentada nos autos, ao menos indicava a necessidade de perícia técnica antes de um julgamento de improcedência. Ao dispensar a perícia e julgar contra o consumidor pela ausência de uma prova que o próprio juízo poderia ter produzido, a sentença violou o devido processo.
+
+**Requer-se** a anulação da sentença neste ponto para que seja determinada a inversão do ônus da prova e/ou realizada perícia técnica, com posterior apreciação do mérito, ou, subsidiariamente, o julgamento pelo Tribunal (CPC, art. 1.013, §3º, II).
+
+---
+
+#### C. § 6 — Decadência do pedido (a) — restituição do preço
+
+A sentença pronunciou a decadência do pedido (a) ao contar o prazo de 90 dias (CDC, art. 26, II) da última visita à assistência técnica em 10/03/2023 até o ajuizamento em 05/05/2025.
+
+**A sentença deixou de aplicar o art. 26, §2º, I, do CDC, e deve ser reformada.**
+
+O art. 26, §2º, I, do CDC é expresso: o prazo decadencial fica **obstado** a partir da "reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços **até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca**" (grifou-se).
+
+O autor formulou reclamações perante a assistência técnica autorizada — preposta das rés — em 20/02/2023 e em 10/03/2023, fatos incontroversos na sentença. Em nenhum momento os autos registram que qualquer das rés comunicou ao autor, de forma *inequívoca*, a negativa definitiva de atender à sua reclamação. Ao contrário: o que consta é que as visitas à assistência não resultaram em conserto — situação que, longe de constituir "resposta negativa inequívoca", configura omissão do fornecedor.
+
+Sem a resposta negativa inequívoca exigida pelo §2º, I, do art. 26 do CDC, o prazo decadencial permanece obstado desde 20/02/2023 e não se completou até o ajuizamento da ação em 05/05/2025. A sentença aplicou o caput do art. 26, II, ignorando a condição legal de seu §2º, I, o que a torna contrária à lei e impõe sua reforma.
+
+**Requer-se** a reforma da sentença para afastar a decadência e determinar o julgamento do pedido (a) no mérito, com a condenação das rés à restituição de R$ 4.200,00.
+
+---
+
+#### D. § 7 — Inexistência de dano moral
+
+A sentença indeferiu o pedido de danos morais ao classificar o caso como "aborrecimento do cotidiano", sem outra repercussão provada.
+
+**A sentença merece reforma:**
+
+O quadro fático apurado nos autos não configura simples dissabor:
+
+(a) O produto falhou em 15/02/2023, apenas **36 dias** após a compra, privando o autor do uso de bem essencial ao cotidiano;
+
+(b) O consumidor buscou solução por conta própria, comparecendo **duas vezes** à assistência técnica autorizada (20/02 e 10/03/2023), sem que os prepostos das rés lograssem êxito — evidência concreta do descaso do fornecedor;
+
+(c) O produto permaneceu na residência do autor sem solução por mais de dois anos, até que, em 20/03/2025, provocou **curto-circuito que queimou a fiação da cozinha**, gerando risco real de incêndio e dano à integridade física e patrimonial do autor e de sua família.
+
+A situação transcende em muito o aborrecimento comum: o autor conviveu por longo período com produto sabidamente defeituoso, sem resposta adequada do fornecedor, até ser vítima de evento danoso de potencial gravidade. A lesão à segurança, à tranquilidade e ao patrimônio do consumidor configura dano moral indenizável na forma do art. 6º, VI, do CDC.
+
+**Requer-se** a reforma da sentença para condenar as rés, solidariamente, ao pagamento de R$ 15.000,00 a título de danos morais, valor que se mostra proporcional à extensão do dano e adequado à finalidade pedagógica da indenização.
+
+---
+
+### III — DO PEDIDO
+
+Ante o exposto, requer o Apelante:
+
+1. O **conhecimento** do presente recurso, por sua tempestividade, regularidade formal e pertinência temática;
+2. O **provimento**, para:
+   - **a)** anular a extinção do pedido (b) contra a Empresa-B e determinar o prosseguimento do feito (§4);
+   - **b)** anular a sentença quanto ao pedido (b) contra a Empresa-C, determinando inversão do ônus da prova e/ou perícia técnica (§5);
+   - **c)** afastar a decadência do pedido (a) e determinar seu julgamento de mérito (§6);
+   - **d)** reconhecer o dano moral e condenar as rés ao pagamento de R$ 15.000,00 (§7);
+3. A inversão da condenação em custas e honorários, com condenação das apeladas.
+
+Termos em que pede e espera deferimento.
+
+Comarca-X, ___ de outubro de 2026.
+
+**[Nome do Advogado]**
+OAB/__ nº ___
+
+---
+
+### PRAZO E PREPARO — RESUMO FINAL
+
+| Item | Resposta |
+|------|----------|
+| **Regra do prazo** | CPC, art. 1.003, §5º — 15 dias úteis |
+| **Início da contagem** | 17/09/2026 (dia seguinte à disponibilização no DJEN) |
+| **Último dia** | **07/10/2026 (quarta-feira)** |
+| **Data de hoje** | **13/10/2026 — prazo vencido há 4 dias úteis** |
+| **Preparo** | CPC, art. 1.007 — deve ser comprovado no ato da interposição, sob pena de deserção; valor calculado sobre R$ 22.300,00 (valor da causa) conforme tabela de custas do Estado |
+| **Consequência do atraso** | O relator pode não conhecer o recurso (CPC, art. 932, III) por inadmissibilidade (intempestividade) |
+
+> **Ação imediata recomendada:** Verifique junto ao Tribunal se houve feriado local, recesso forense ou indisponibilidade do sistema eletrônico entre 08/10 e 13/10/2026. Se houver, o prazo pode ter sido prorrogado (CPC, art. 224, §1º). Caso contrário, avalie com urgência a possibilidade de alegação de justa causa (CPC, art. 223) e comunique o cliente sobre o risco.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

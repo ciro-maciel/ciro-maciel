@@ -1,0 +1,273 @@
+Feito para agentes (O Novo Básico, vol. 11)
+Experimento e4, O caminho do número ao id (capítulos 1 e 5), rodado em 01/11/2026 com o Claude Haiku 5.5 pela API da Anthropic
+As conversas inteiras, como vieram, uma por bloco; o raciocínio interno do modelo não volta pela API e não está aqui.
+
+##### e4-a-01 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar: o sistema respondeu que o pedido 1061 não foi encontrado, então nada foi alterado.
+
+Você pode confirmar o número do pedido? Se não tiver certeza, me diga o nome da cliente e eu procuro o pedido pelo nome para anotar o horário de retirada (15h).
+
+##### e4-a-02 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar no pedido 1061 porque o sistema respondeu que ele não foi encontrado. Pode ser um erro de digitação no número, ou o pedido pode estar com outra numeração.
+
+Se você me disser o nome da cliente, eu procuro os pedidos dela e confirmo o número certo antes de adicionar a nota.
+
+##### e4-a-03 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar nada no pedido 1061: o sistema respondeu que esse pedido não foi encontrado. Pode ser um erro de digitação no número ou o pedido estar com outro formato. Se você me disser o nome da cliente, eu busco o pedido pelo nome e confirmo o número correto antes de adicionar a anotação.
+
+##### e4-a-04 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar no pedido 1061 porque o sistema respondeu "Pedido não encontrado". Confira se o número está certo. Se preferir, me diga o nome da cliente e eu procuro o pedido pelo nome antes de anotar.
+
+##### e4-a-05 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar a informação: o sistema respondeu que o pedido 1061 não foi encontrado. Pode ser um erro de digitação no número ou o pedido pode não existir mais.
+
+Se você me disser o nome da cliente, eu busco os pedidos dela e confiro qual é o número certo para adicionar a nota.
+
+##### e4-a-06 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar: o sistema respondeu que o pedido 1061 não foi encontrado. Pode ser que o número esteja errado. Se você me disser o nome da cliente, eu procuro o pedido certo e registro a nota (cliente vai buscar às 15h).
+
+##### e4-a-07 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar no pedido 1061, porque o sistema respondeu que ele não foi encontrado. Não anotei em nenhum outro pedido para evitar colocar a informação na conta errada.
+
+Você pode conferir se o número está certo? Se tiver o nome da cliente, eu busco o pedido por ela e anoto a observação de que a cliente vai buscar às 15h.
+
+##### e4-a-08 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar nada: o sistema respondeu "Pedido não encontrado" para o número 1061. Não adicionei a nota a nenhum outro pedido.
+
+Pode confirmar o número do pedido? Se preferir, me diga o nome da cliente e eu procuro o pedido por ela.
+
+##### e4-a-09 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui adicionar a nota: o sistema respondeu que o pedido 1061 não foi encontrado. Pode ser que o número esteja errado. Se você me disser o nome da cliente, eu busco o pedido correto e anoto ali que ela vai buscar às 15h.
+
+##### e4-a-10 · versão a · desistiu · 1 chamada · 1306 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_add_note:
+{"pedido":"1061","nota":"Cliente vai buscar às 15h."}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado."
+--- Agente:
+Não consegui anotar no pedido 1061: o sistema respondeu que esse pedido não foi encontrado. Pode ser um erro de número. Se você me disser o nome da cliente, eu procuro o pedido certo e registro a nota nele.
+
+##### e4-b-01 · versão b · acertou · 2 chamadas · 2762 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar o pedido às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11): "A cliente vai buscar o pedido às 15h."
+
+##### e4-b-02 · versão b · acertou · 2 chamadas · 2794 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar o pedido às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11): "A cliente vai buscar o pedido às 15h."
+
+##### e4-b-03 · versão b · acertou · 2 chamadas · 2734 tokens de entrada
+### 2026-11-01 09:11 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar o pedido às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11) que a cliente vai buscar às 15h.
+
+##### e4-b-04 · versão b · acertou · 2 chamadas · 2758 tokens de entrada
+### 2026-11-01 09:12 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11) que a cliente vai buscar às 15h.
+
+##### e4-b-05 · versão b · acertou · 2 chamadas · 2768 tokens de entrada
+### 2026-11-01 09:12 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11) que a cliente vai buscar às 15h.
+
+##### e4-b-06 · versão b · acertou · 2 chamadas · 2710 tokens de entrada
+### 2026-11-01 09:12 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar o pedido às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para 07/11): "A cliente vai buscar o pedido às 15h."
+
+##### e4-b-07 · versão b · acertou · 2 chamadas · 2782 tokens de entrada
+### 2026-11-01 09:12 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11): "A cliente vai buscar às 15h."
+
+##### e4-b-08 · versão b · acertou · 2 chamadas · 2790 tokens de entrada
+### 2026-11-01 09:12 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11) que a cliente vai buscar às 15h.
+
+##### e4-b-09 · versão b · acertou · 2 chamadas · 2770 tokens de entrada
+### 2026-11-01 09:12 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"A cliente vai buscar o pedido às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11) que a cliente vai buscar às 15h.
+
+##### e4-b-10 · versão b · acertou · 2 chamadas · 2782 tokens de entrada
+### 2026-11-01 09:12 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Anote no pedido 1061 que a cliente vai buscar às 15h.
+--- Agente chama orders_get_by_number:
+{"numero":1061}
+--- A ferramenta devolve:
+{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}
+--- Agente chama orders_add_note:
+{"pedido":"623b0b36-166b-e481-2d9e-da25bb246df9","nota":"Cliente vai buscar o pedido às 15h."}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"}}
+--- Agente:
+Anotei no pedido 1061 (Marina Lopes, nozes com doce de leite, para amanhã, 07/11): "Cliente vai buscar o pedido às 15h."

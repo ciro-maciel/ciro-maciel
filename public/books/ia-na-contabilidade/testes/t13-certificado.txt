@@ -1,0 +1,1665 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t13, rodado em 09/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:03 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Aconteceram estas seis situações esta semana. O que eu faço em cada uma?
+
+1) Uma cliente, dona de uma clínica de estética, quer deixar o certificado e-CNPJ A1 dela aqui no escritório, com a senha, "para facilitar".
+2) Um ex-funcionário, que saiu há dois meses, ainda tem no notebook pessoal uma cópia da pasta com os arquivos dos certificados A1 de 60 clientes e as senhas.
+3) O financeiro de uma distribuidora cliente recebeu no WhatsApp um áudio com a voz do sócio pedindo um Pix urgente de R$ 48.700,00, hoje, para um "fornecedor novo". Ele quer saber se paga.
+4) Chegou no WhatsApp do escritório uma mensagem: "CRC - anuidade 2027 com 30% de desconto até sexta, pague pelo Pix abaixo".
+5) Um cliente MEI pagou R$ 350,00 por Pix "à contadora", que pediu uma "Decore registrada" para liberar um empréstimo. Ninguém do escritório pediu isso.
+6) A caixa de e-mail do escritório mandou ontem, sem ninguém daqui saber, um e-mail com um link de "boleto atualizado" para todos os clientes.
+--- IA:
+# Análise das Seis Situações
+
+---
+
+## 1 — e-CNPJ A1 da cliente "guardado" no escritório
+
+**❌ Não aceite. Recuse formalmente e por escrito.**
+
+O certificado A1 fica em arquivo no computador e a senha é o único fator de autenticação. Quem tem os dois, **é juridicamente a empresa** perante a Receita, e-CAC, bancos e cartórios.
+
+**O que fazer:**
+- Explique à cliente que o escritório ficaria **co-responsável por qualquer uso indevido**, inclusive emissão de NF fraudulenta, contratos, procurações
+- Registre a recusa por e-mail para ter prova
+- Ofereça alternativas reais:
+  - Migrar para **certificado A3** (token físico ou cartão) — a senha fica com ela, o hardware fica com ela
+  - Ou usar **procuração eletrônica no e-CAC**, que dá acesso ao escritório sem transferir o certificado
+- Se ela insistir, coloque em contrato o que o escritório **não faz** com o certificado
+
+---
+
+## 2 — Ex-funcionário com 60 certificados A1 e senhas no notebook pessoal
+
+**🚨 Situação crítica — acionar imediatamente, hoje.**
+
+Isso é um **incidente de segurança com dados pessoais** e provavelmente viola a **LGPD (Lei 13.709/2018)**.
+
+**Passo a passo:**
+
+| Prioridade | Ação |
+|---|---|
+| **1ª** | Contatar o ex-funcionário agora, exigir exclusão imediata e comprovação (print, termo assinado) |
+| **2ª** | **Revogar todos os 60 certificados comprometidos** nas ACs emissoras (Serasa, Certisign, Soluti etc.) e emitir novos |
+| **3ª** | Comunicar os 60 clientes — eles precisam saber e devem ser quem decide revogar ou não |
+| **4ª** | Verificar se o escritório tem obrigação de notificar a **ANPD** (prazo: 72h a partir do conhecimento do incidente, se houver risco relevante) |
+| **5ª** | Registrar **Boletim de Ocorrência** por posse indevida de dados sigilosos |
+| **6ª** | Acionar advogado para avaliar responsabilidade civil |
+| **7ª** | Revisar todo o processo interno: quem tem acesso, onde ficam arquivados, política de offboarding |
+
+> ⚠️ Não espere o ex-funcionário "fazer algo errado" para agir. O dano reputacional e legal já existe.
+
+---
+
+## 3 — Áudio no WhatsApp com voz do sócio pedindo Pix de R$ 48.700,00
+
+**❌ Não pague. É golpe com altíssima probabilidade.**
+
+Isso é o **"golpe da voz clonada"** — tecnologia de IA reproduz a voz de qualquer pessoa com poucos segundos de áudio (de stories, vídeos, ligações gravadas). É o crime financeiro que mais cresce no Brasil em 2024-2026.
+
+**O que o financeiro deve fazer:**
+
+1. **Não efetue o pagamento** sob nenhuma hipótese antes de confirmar
+2. Ligue agora para o sócio no **número que já estava salvo antes desta mensagem**, não no número que enviou o áudio
+3. Se não conseguir falar, acione outro canal: outro sócio, presencialmente, e-mail corporativo
+4. Documente tudo (print da conversa, áudio salvo)
+5. Se confirmado golpe: **Boletim de Ocorrência**, comunicar o banco (pode haver reversão se agir rápido), comunicar o sócio para que ele avise seus contatos
+
+> 🔴 **Regra de ouro:** qualquer pagamento urgente, novo, fora do fluxo normal e pedido por canal informal = **parar e ligar para confirmar**.
+
+---
+
+## 4 — WhatsApp oferecendo "anuidade CRC 2027 com 30% de desconto"
+
+**❌ Golpe. Não clique, não pague, não responda.**
+
+O CRC **não envia cobranças por WhatsApp** com Pix avulso. Esse é um golpe clássico de engenharia social direcionado a contadores.
+
+**O que fazer:**
+- Delete a mensagem e bloqueie o número
+- Acesse o site oficial do seu CRC estadual e verifique a situação real da anuidade
+- **Denuncie ao CRC** (eles costumam querer rastrear esses casos)
+- Avise outros profissionais do escritório para não caírem no mesmo golpe
+- Se quiser registrar: **Boletim de Ocorrência** por estelionato
+
+---
+
+## 5 — MEI pagou R$ 350,00 para falso "contador" pedindo "Decore registrada"
+
+**🚨 Seu escritório está sendo falsamente representado. Aja em duas frentes.**
+
+**Para proteger o escritório:**
+- Emita imediatamente uma nota/comunicado formal negando qualquer cobrança desse tipo
+- Envie para **todos os clientes** por e-mail e WhatsApp: *"Nosso escritório nunca cobra via Pix pessoal para emissão de Decore ou qualquer documento. Se receber algo assim, entre em contato conosco antes de pagar."*
+- Registre **BO por uso indevido de nome comercial/estelionato**
+- Comunique ao **CRC** — eles têm interesse em combater isso
+
+**Para ajudar o cliente MEI:**
+- Oriente-o a registrar **BO por estelionato** com a chave Pix usada
+- A chave Pix pode ser consultada pelo banco e eventualmente rastreada
+- Se o pagamento foi recente, o banco pode tentar o **MED (Mecanismo Especial de Devolução)** — prazo máximo de 80 dias a partir do pagamento
+- Explique que a **Decore** é um documento emitido pelo contador registrado no CRC, jamais "vendida" por Pix
+
+---
+
+## 6 — E-mail corporativo do escritório enviou phishing para todos os clientes
+
+**🚨 Emergência. O e-mail foi comprometido. Aja nos próximos minutos.**
+
+**Ações imediatas (agora):**
+
+| Ordem | Ação |
+|---|---|
+| **1ª** | **Trocar a senha** do e-mail imediatamente — em todos os dispositivos |
+| **2ª** | Ativar **autenticação em dois fatores (MFA)** se ainda não tiver |
+| **3ª** | Verificar e revogar **sessões ativas e aplicativos** conectados à conta |
+| **4ª** | **Avisar TODOS os clientes agora** — por e-mail (de outro endereço se possível) e WhatsApp: *"Identificamos que nosso e-mail foi comprometido ontem. O e-mail com link de boleto NÃO partiu de nós. Não clique, não pague."* |
+| **5ª** | Verificar com o provedor (Google Workspace, Microsoft 365 etc.) **logs de acesso** — de onde veio o acesso indevido |
+| **6ª** | Varrer todos os computadores do escritório com antivírus/antimalware atualizado |
+| **7ª** | Registrar **BO** |
+| **8ª** | Verificar obrigação de notificação à **ANPD** (dados de clientes foram usados indevidamente — provavelmente se enquadra) |
+
+> ⚠️ Clientes que clicaram no link podem ter tido dados roubados ou malware instalado. Oriente-os a escanear os dispositivos e monitorar movimentações bancárias.
+
+---
+
+## Resumo Executivo
+
+| # | Situação | Classificação | Urgência |
+|---|---|---|---|
+| 1 | Certificado da cliente no escritório | Risco legal e contratual | Alta — resolva antes de aceitar |
+| 2 | Ex-funcionário com 60 certificados | Incidente LGPD / crime | 🔴 Crítica — hoje |
+| 3 | Áudio falso pedindo Pix | Golpe de voz clonada | 🔴 Crítica — não pagar |
+| 4 | WhatsApp falso do CRC | Phishing | Média — delete e denuncie |
+| 5 | Falso contador cobrando MEI | Estelionato usando seu nome | Alta — BO + avisar clientes |
+| 6 | E-mail hackeado | Incidente de segurança / LGPD | 🔴 Crítica — agir agora |
+
+Se quiser, posso ajudar a redigir alguma comunicação específica para clientes ou detalhar alguma dessas situações.
+
+--- Você:
+Agora monte o checklist para trocar os certificados dos clientes que estão guardados aqui no escritório por procuração eletrônica.
+--- IA:
+# Checklist: Migração de Certificados A1 Armazenados → Procuração Eletrônica
+
+---
+
+## ⚙️ FASE 0 — Preparação Interna do Escritório
+*Antes de contatar qualquer cliente*
+
+### Certificado e acesso do próprio escritório
+- [ ] Confirmar que o e-CNPJ do escritório está **válido e acessível** (é ele que será cadastrado como procurador)
+- [ ] Confirmar que o e-CPF do(s) sócio(s)/contador(es) responsáveis também está válido, se for usado como procurador pessoa física
+- [ ] Testar login no **e-CAC** com o certificado do escritório antes de iniciar qualquer migração
+- [ ] Verificar validade de todos os certificados do escritório — se vencer em menos de 90 dias, renovar agora
+
+### Plataformas que precisarão de procuração (mapeie todas)
+
+| Plataforma | Aceita Procuração Eletrônica? | Obs. |
+|---|---|---|
+| e-CAC (Receita Federal) | ✅ Sim | Principal — cobre a maioria dos serviços federais |
+| eSocial | ✅ Sim | Procuração própria dentro do portal |
+| EFD-Reinf | ✅ Sim | Vinculada ao eSocial |
+| PGFN / Regularize | ✅ Sim | Procuração e-CAC válida |
+| SEFAZ Estadual | ⚠️ Varia por estado | Verificar o estado de cada cliente |
+| Prefeitura / ISS | ⚠️ Varia por município | Verificar caso a caso |
+| Simples Nacional / PGDAS | ✅ Sim | Via e-CAC |
+| FGTS Digital | ✅ Sim | Procuração própria |
+
+- [ ] Para cada plataforma relevante, confirmar o fluxo de cadastro de procurador no estado/município dos seus clientes
+
+---
+
+## 📋 FASE 1 — Inventário dos Clientes
+
+- [ ] Listar **todos os clientes** que têm certificado A1 armazenado no escritório
+- [ ] Para cada cliente, registrar:
+
+| Campo | Informação a levantar |
+|---|---|
+| Nome / Razão Social | |
+| CNPJ / CPF | |
+| Tipo de certificado (e-CNPJ / e-CPF) | |
+| AC emissora (Serasa, Certisign, Soluti, etc.) | |
+| Data de validade do certificado | |
+| Plataformas em que o certificado é usado hoje | |
+| Responsável pelo cliente no escritório | |
+| Contato direto do cliente (nome + telefone + e-mail) | |
+
+- [ ] Classificar a lista em grupos de prioridade:
+  - 🔴 **Urgente:** certificados que vencem em menos de 90 dias (migrar primeiro)
+  - 🟡 **Normal:** válidos por mais de 90 dias
+  - 🟢 **Observação:** clientes que precisam de tratamento especial (MEI, PF, holding, etc.)
+
+- [ ] Identificar clientes que **não têm acesso à internet ou certificado próprio** — esses podem precisar de solução alternativa (ver Fase 5)
+
+---
+
+## 📣 FASE 2 — Comunicação com os Clientes
+
+- [ ] Elaborar comunicado padrão explicando:
+  - O que muda (e o que **não** muda para o cliente no dia a dia)
+  - Por que o escritório está fazendo essa mudança (segurança, LGPD, boas práticas)
+  - O que o cliente precisará fazer (basicamente: fazer login uma vez para cadastrar a procuração)
+  - Prazo para concluir a migração
+
+> 💡 **Sugestão de texto para o comunicado:**
+> *"Estamos atualizando nossa forma de acessar os sistemas fiscais em seu nome. Em vez de manter uma cópia do seu certificado aqui, passaremos a usar a Procuração Eletrônica — um mecanismo oficial da Receita Federal que nos dá o mesmo acesso, de forma mais segura e em conformidade com a LGPD. Precisaremos de aproximadamente 10 minutos com você (presencialmente ou por vídeo) para cadastrar a procuração. Entraremos em contato para agendar."*
+
+- [ ] Enviar comunicado por **e-mail** (com confirmação de leitura se possível)
+- [ ] Reforçar por **WhatsApp** para clientes que normalmente respondem por lá
+- [ ] Registrar data de envio e canal utilizado para cada cliente
+
+---
+
+## 🔐 FASE 3 — Cadastro das Procurações (por cliente)
+
+*Repetir este bloco para cada cliente da lista*
+
+### No e-CAC (Receita Federal)
+
+- [ ] Agendar sessão com o cliente (presencial, vídeo ou orientar passo a passo por telefone)
+- [ ] O **cliente** acessa o e-CAC com o certificado ou login GOV.BR (nível Prata ou Ouro)
+- [ ] Caminho no e-CAC: **"Outros > Procurações > Cadastrar Procuração"**
+- [ ] Preencher os dados do procurador:
+  - CNPJ do escritório de contabilidade **ou** CPF do contador responsável
+  - Selecionar os serviços autorizados (marcar apenas o necessário — princípio do menor privilégio)
+  - Definir prazo de validade (recomendado: **2 anos**, com lembrete de renovação)
+- [ ] Confirmar o cadastro com o certificado do cliente
+- [ ] **Testar imediatamente** o acesso com o certificado do escritório antes de encerrar a sessão
+- [ ] Documentar: data do cadastro, validade, serviços autorizados, quem acompanhou
+
+### No eSocial (se aplicável)
+- [ ] Cliente acessa **esocial.gov.br**
+- [ ] Caminho: **"Empresa > Procurações > Nova Procuração"**
+- [ ] Cadastrar o CNPJ ou CPF do escritório
+- [ ] Definir perfil de acesso e validade
+- [ ] Testar acesso com certificado do escritório
+- [ ] Documentar
+
+### EFD-Reinf (se aplicável)
+- [ ] A procuração do eSocial geralmente cobre — confirmar no portal
+- [ ] Documentar
+
+### SEFAZ Estadual (se aplicável)
+- [ ] Acessar o portal da SEFAZ do estado do cliente
+- [ ] Seguir o fluxo específico de credenciamento de contador/procurador daquele estado
+- [ ] Documentar
+
+### FGTS Digital (se aplicável)
+- [ ] Cliente acessa **fgts.gov.br**
+- [ ] Cadastrar procuração para o escritório
+- [ ] Documentar
+
+### Prefeitura / ISS (se aplicável)
+- [ ] Verificar fluxo específico do município
+- [ ] Documentar
+
+---
+
+## ✅ FASE 4 — Testes e Validação
+
+*Para cada cliente, após o cadastro de todas as procurações*
+
+- [ ] Acessar o e-CAC com o certificado do escritório e confirmar que o cliente aparece na lista de representados
+- [ ] Abrir ao menos **uma funcionalidade real** que o escritório usa para esse cliente (ex: consulta de débitos, DCTF, certidão) e confirmar acesso
+- [ ] Fazer o mesmo nos demais portais onde a procuração foi cadastrada
+- [ ] Registrar resultado do teste (✅ OK / ❌ Falhou + motivo)
+- [ ] Se falhou: identificar causa (serviço não incluído na procuração, perfil insuficiente, etc.) e corrigir antes de avançar
+
+---
+
+## 🗑️ FASE 5 — Desativação Segura dos Certificados Armazenados
+
+*Somente após confirmar que a procuração está funcionando 100%*
+
+- [ ] **Nunca deletar o certificado antes de testar e validar a procuração**
+- [ ] Para cada cliente com migração confirmada:
+  - [ ] Deletar o arquivo do certificado A1 (`.pfx` / `.p12`) dos servidores e computadores do escritório
+  - [ ] Deletar a senha correspondente de planilhas, gestores de senha ou anotações
+  - [ ] Verificar se há cópias em: HD externo, pen drive, e-mail, nuvem (Google Drive, OneDrive, etc.) — deletar todas
+  - [ ] Confirmar exclusão e registrar data
+- [ ] Ao final, confirmar que **nenhum certificado de cliente** permanece armazenado no escritório
+- [ ] Orientar o cliente a fazer o mesmo se ele tiver enviado o certificado por e-mail ou WhatsApp para o escritório em algum momento
+
+> ⚠️ **Clientes sem acesso à internet ou sem certificado válido:**
+> Nesses casos, a solução não é manter o certificado no escritório — as opções são:
+> - Emitir certificado **A3** (token) para o cliente, que fica sob guarda **dele**
+> - Verificar se o cliente consegue GOV.BR nível Prata/Ouro para usar no e-CAC sem certificado
+> - Para casos muito específicos, consultar o CRC sobre as opções regulatórias
+
+---
+
+## 📁 FASE 6 — Documentação, LGPD e Processos Internos
+
+### Documentação por cliente
+- [ ] Criar ou atualizar a ficha de cada cliente com:
+  - Plataformas onde há procuração ativa
+  - Data de cadastro e validade de cada procuração
+  - Responsável pelo relacionamento no escritório
+  - Data de exclusão do certificado armazenado
+
+### Controle de vencimentos
+- [ ] Criar alerta/lembrete com **90 dias de antecedência** para renovação de cada procuração
+- [ ] Criar alerta para vencimento dos certificados **dos clientes** (para avisá-los com tempo de renovar)
+- [ ] Criar alerta para vencimento dos certificados **do próprio escritório**
+
+### Conformidade LGPD
+- [ ] Atualizar o **Inventário de Dados (ROPA)** do escritório — registrar que dados de acesso de clientes não são mais armazenados localmente
+- [ ] Atualizar a **Política de Segurança da Informação** do escritório
+- [ ] Documentar a migração como evidência de boas práticas em caso de auditoria ou sinistro
+
+### Processos internos
+- [ ] Atualizar o **manual de onboarding** de novos clientes: a partir de agora, o padrão é procuração eletrônica, nunca armazenamento de certificado
+- [ ] Treinar toda a equipe no novo fluxo
+- [ ] Definir responsável pela manutenção e renovação das procurações
+
+---
+
+## 📊 Painel de Acompanhamento da Migração
+
+Use uma planilha simples com estas colunas:
+
+| Cliente | CNPJ/CPF | Comunicado enviado | Sessão agendada | e-CAC ✅ | eSocial ✅ | SEFAZ ✅ | Outros ✅ | Certificado deletado | Data conclusão |
+|---|---|---|---|---|---|---|---|---|---|
+| ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+
+---
+
+## 🗓️ Prazo Sugerido
+
+| Fase | Prazo recomendado |
+|---|---|
+| Fases 0 e 1 (preparação + inventário) | Semana 1 |
+| Fase 2 (comunicação) | Semana 1 |
+| Fase 3 e 4 — clientes 🔴 urgentes | Semanas 2 e 3 |
+| Fase 3 e 4 — demais clientes | Semanas 3 a 6 |
+| Fase 5 (exclusão dos certificados) | Ao longo, conforme validação |
+| Fase 6 (documentação final) | Semana 7 |
+
+---
+
+> 💡 **Dica final:** ao concluir a migração de cada cliente, envie uma confirmação curta para ele: *"Procuração eletrônica cadastrada com sucesso. Seu certificado foi removido dos nossos sistemas."* — isso reforça confiança e comprova diligência se algum dia for questionado.
+
+Quer que eu gere também o modelo de comunicado para os clientes ou a planilha de controle?
+
+### 2026-10-09 23:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Aconteceram estas seis situações esta semana. O que eu faço em cada uma?
+
+1) Uma cliente, dona de uma clínica de estética, quer deixar o certificado e-CNPJ A1 dela aqui no escritório, com a senha, "para facilitar".
+2) Um ex-funcionário, que saiu há dois meses, ainda tem no notebook pessoal uma cópia da pasta com os arquivos dos certificados A1 de 60 clientes e as senhas.
+3) O financeiro de uma distribuidora cliente recebeu no WhatsApp um áudio com a voz do sócio pedindo um Pix urgente de R$ 48.700,00, hoje, para um "fornecedor novo". Ele quer saber se paga.
+4) Chegou no WhatsApp do escritório uma mensagem: "CRC - anuidade 2027 com 30% de desconto até sexta, pague pelo Pix abaixo".
+5) Um cliente MEI pagou R$ 350,00 por Pix "à contadora", que pediu uma "Decore registrada" para liberar um empréstimo. Ninguém do escritório pediu isso.
+6) A caixa de e-mail do escritório mandou ontem, sem ninguém daqui saber, um e-mail com um link de "boleto atualizado" para todos os clientes.
+--- IA:
+# Análise das Seis Situações — Escritório de Contabilidade
+
+---
+
+## 1. 🔑 Cliente quer deixar o e-CNPJ A1 com senha no escritório
+
+**O que é o problema:** O certificado A1 é um arquivo que, combinado com a senha, dá poderes plenos de assinatura e acesso em nome da empresa (Receita, eSocial, SEFAZ, NFe, etc.). Quem tem os dois, **é juridicamente a empresa**.
+
+**O que fazer:**
+
+- ❌ **Não aceite** nas condições propostas
+- Explique à cliente que, pelas regras ICP-Brasil, **ela é a única responsável pela guarda da chave privada** — compartilhar viola os termos de uso do certificado
+- Sob a **LGPD**, o escritório se tornaria processador de dado altamente sensível sem a estrutura adequada
+- **Ofereça alternativas seguras:**
+  - Certificado **A3** (token/cartão): exige presença física, não dá para copiar
+  - **Procuração eletrônica no e-CAC** para o escritório agir em nome do cliente sem precisar do certificado
+  - Se o escritório de fato precisar operar o A1 do cliente, formalize com **contrato de processamento de dados (LGPD)**, cofre criptografado (ex.: Bitwarden, KeePass com acesso restrito) e **log de acesso** — nunca pasta aberta com senha em TXT
+
+---
+
+## 2. ⚠️ Ex-funcionário com cópia de 60 certificados A1 + senhas
+
+**O que é o problema:** Isso é um **incidente de segurança ativo e grave**. Aquele ex-funcionário pode assinar documentos fiscais, acessar sistemas e agir juridicamente como cada um desses 60 clientes — agora, neste momento.
+
+**O que fazer — com urgência, nesta ordem:**
+
+| Prioridade | Ação |
+|---|---|
+| 🔴 Imediato | Contatar o ex-funcionário **formalmente por escrito** (e-mail + WhatsApp com confirmação de leitura) exigindo deleção comprovada de todos os arquivos |
+| 🔴 Imediato | **Revogar os 60 certificados** junto às ACs emissoras (Serasa, Certisign, Soluti, etc.) — revogação é gratuita e imediata |
+| 🔴 Imediato | **Avisar todos os 60 clientes** individualmente, com clareza sobre o risco |
+| 🟠 48h | Notificar a **ANPD** (Autoridade Nacional de Proteção de Dados) — incidentes com risco relevante aos titulares têm prazo legal de comunicação |
+| 🟠 48h | Registrar **Boletim de Ocorrência** (pode ser online) por violação de sigilo/dado pessoal |
+| 🟡 Esta semana | Revisar todo o processo de **offboarding**: revogar acessos no dia do desligamento, assinar termo de confidencialidade, recolher equipamentos |
+
+---
+
+## 3. 🎙️ Áudio no WhatsApp com "voz do sócio" pedindo Pix de R$ 48.700
+
+**O que é o problema:** Isso tem todas as características de **golpe por clonagem de voz com IA (deepfake de áudio)** — tecnologia acessível, barata e amplamente usada em fraudes corporativas em 2025/2026.
+
+**Sinais de alerta presentes:**
+- Pedido por WhatsApp (canal informal)
+- Valor alto e número quebrado
+- "Fornecedor novo" (sem histórico verificável)
+- Urgência ("hoje")
+
+**O que fazer:**
+
+- ❌ **NÃO PAGAR** em hipótese alguma antes de confirmar
+- O financeiro deve ligar **imediatamente para o sócio em um número conhecido e salvo previamente** (não o número que enviou o áudio)
+- Se não conseguir falar, **não paga** — simples assim
+- Registrar BO se confirmada a tentativa de fraude
+- Orientar o cliente a criar um **protocolo interno**: qualquer Pix acima de determinado valor exige confirmação por **dois canais diferentes** (ex.: áudio + ligação, ou ligação + aprovação no sistema interno)
+
+---
+
+## 4. 📱 WhatsApp no escritório: "CRC — anuidade 2027 com 30% de desconto via Pix"
+
+**O que é o problema:** Golpe de **phishing/smishing** com impersonação do CRC.
+
+**Sinais de alerta:**
+- CRC não envia cobranças por WhatsApp com Pix aleatório
+- Desconto agressivo + prazo curto = pressão para não pensar
+- Chave Pix desconhecida
+
+**O que fazer:**
+
+- ❌ **Não pagar**
+- ❌ **Não clicar** em nenhum link que possa estar na mensagem
+- Verificar anuidade diretamente no **site oficial do CRC do seu estado**
+- **Reportar ao CRC** (eles têm interesse em combater isso)
+- Alertar colegas de outros escritórios — esse tipo de golpe costuma ser em massa
+
+---
+
+## 5. 💸 MEI pagou R$ 350 por Pix "à contadora" por uma "Decore registrada"
+
+**O que é o problema:** Alguém está **se passando pelo seu escritório** para aplicar golpe nos seus clientes. A "Decore" (Declaração Comprobatória de Percepção de Rendimentos) é um documento real — mas **nenhum registro prévio pago é necessário** para emiti-la.
+
+**O que fazer:**
+
+| Para o cliente lesado | Para o escritório |
+|---|---|
+| Orientar a **ligar imediatamente para o banco** e solicitar acionamento do **MED (Mecanismo Especial de Devolução)** — quanto mais rápido, maior a chance de reversão | Registrar **BO por estelionato e uso indevido de identidade profissional** |
+| Registrar BO por estelionato | Comunicar o **CRC** — é possível que o número de registro de algum contador esteja sendo usado indevidamente |
+| Guardar prints de tudo | **Avisar TODOS os clientes** imediatamente que o escritório nunca pede Pix direto para "liberar" documentos |
+| | Investigar como o golpista obteve a lista de clientes |
+
+---
+
+## 6. 📧 E-mail do escritório enviou link de "boleto falso" para todos os clientes — sozinho
+
+**O que é o problema:** A conta de e-mail do escritório foi **comprometida (hackeada)**. Um atacante usou as credenciais para enviar phishing em nome do escritório para toda a base de clientes. Isso é simultaneamente um **crime, um incidente de segurança e um incidente LGPD**.
+
+**O que fazer — agora, nesta ordem:**
+
+```
+PASSO 1 — CONTENÇÃO (próximos minutos)
+├── Trocar SENHA do e-mail imediatamente
+├── Ativar AUTENTICAÇÃO EM DOIS FATORES (2FA)
+└── Verificar e revogar sessões/dispositivos ativos desconhecidos
+
+PASSO 2 — COMUNICAÇÃO (próxima hora)
+└── Enviar e-mail a TODOS os clientes:
+    "Desconsiderem o e-mail enviado ontem com link de boleto.
+     Nossa conta foi comprometida. Não cliquem no link.
+     Estamos apurando o ocorrido."
+
+PASSO 3 — INVESTIGAÇÃO (hoje)
+├── Verificar se há malware nos computadores do escritório
+├── Checar se outras contas usam a mesma senha (trocar todas)
+└── Verificar quais dados eram acessíveis por aquela conta
+
+PASSO 4 — CONFORMIDADE LGPD (em até 72h)
+└── Avaliar notificação à ANPD
+    (dados de clientes foram expostos/usados sem autorização)
+
+PASSO 5 — PASSO ESTRUTURAL (esta semana)
+└── Contratar ou consultar especialista em segurança da informação
+```
+
+---
+
+## 📋 Resumo Executivo
+
+| # | Situação | Risco | Ação Principal |
+|---|---|---|---|
+| 1 | Certificado A1 da cliente | Alto | Recusar; propor A3 ou procuração e-CAC |
+| 2 | Ex-funcionário com 60 certificados | **Crítico** | Revogar certificados + avisar clientes + ANPD + BO |
+| 3 | Áudio deepfake pedindo Pix | **Crítico** | Não pagar; confirmar por ligação direta |
+| 4 | WhatsApp falso do CRC | Médio | Não pagar; reportar ao CRC |
+| 5 | Impersonação da contadora | Alto | BO + MED bancário + avisar todos os clientes |
+| 6 | E-mail hackeado | **Crítico** | Trocar senha + 2FA + avisar clientes + LGPD |
+
+> **Observação importante:** As situações 2 e 6 configuram potencialmente **incidentes de segurança com obrigação de notificação à ANPD** nos termos do Art. 48 da LGPD. Recomendo consultar um advogado especializado em proteção de dados para avaliar os prazos e a extensão da comunicação necessária.
+
+--- Você:
+Agora monte o checklist para trocar os certificados dos clientes que estão guardados aqui no escritório por procuração eletrônica.
+--- IA:
+# Checklist — Migração de Certificados A1 Guardados no Escritório para Procuração Eletrônica
+
+---
+
+## ⚙️ FASE 0 — Levantamento e Planejamento
+
+### 0.1 Mapeamento da base
+
+- [ ] Listar todos os clientes que têm certificado A1 guardado no escritório
+- [ ] Para cada cliente, registrar:
+  - [ ] Razão social e CNPJ/CPF
+  - [ ] Tipo de cliente (PJ Lucro Real / Presumido / Simples / MEI / PF)
+  - [ ] Regime tributário
+  - [ ] Quais sistemas o escritório acessa com o certificado dele (e-CAC, eSocial, SEFAZ estadual, Prefeitura, NF-e, etc.)
+  - [ ] Vencimento do certificado A1 atual
+  - [ ] Contato direto do responsável legal (nome, telefone, e-mail)
+
+- [ ] Montar planilha de controle com todos os campos acima + coluna de status da migração
+
+### 0.2 Mapeamento dos sistemas utilizados
+
+- [ ] Identificar, por cliente, quais sistemas aceitam procuração eletrônica e quais ainda exigem certificado:
+
+| Sistema | Aceita procuração eletrônica? | Observação |
+|---|---|---|
+| e-CAC (Receita Federal) | ✅ Sim | Principal — cobre a maioria dos serviços federais |
+| eSocial | ✅ Sim | Via procuração no e-CAC ou credencial própria |
+| EFD-Reinf | ✅ Sim | Via e-CAC |
+| Simples Nacional / MEI | ✅ Sim | Via e-CAC |
+| FGTS Digital | ✅ Sim | Via e-CAC |
+| DTE (Domicílio Tributário Eletrônico) | ✅ Sim | Via e-CAC |
+| SEFAZ estadual | ⚠️ Varia por estado | Verificar individualmente |
+| NF-e / NFS-e | ⚠️ Varia | Emissor autorizado — regra diferente |
+| Prefeitura / ISS | ⚠️ Varia por município | Verificar individualmente |
+| Certidões negativas automáticas | ✅ Sim | Via e-CAC |
+
+> ⚠️ **Atenção:** Para sistemas estaduais e municipais, pesquise o procedimento específico de cada ente antes de revogar qualquer certificado.
+
+### 0.3 Verificação do escritório
+
+- [ ] Confirmar que o CNPJ do escritório contábil possui certificado A1 ou A3 **próprio** válido (é ele que receberá as procurações)
+- [ ] Confirmar que o escritório está habilitado no e-CAC com cadastro de representante legal atualizado
+- [ ] Definir se as procurações serão outorgadas para o **CNPJ do escritório** ou para o **CPF de cada contador responsável** (recomendado: CNPJ, para evitar dependência de pessoa física)
+
+---
+
+## 📋 FASE 1 — Preparação Interna do Escritório
+
+- [ ] Definir o **responsável pelo projeto** de migração
+- [ ] Definir **prazo geral de conclusão** (sugestão: 30 a 45 dias úteis)
+- [ ] Preparar **modelo de comunicação** para os clientes (e-mail + carta/ofício)
+- [ ] Preparar **tutorial simples** de como o cliente concede a procuração no e-CAC (prints de tela ou vídeo curto — muitos clientes nunca acessaram o portal)
+- [ ] Preparar **modelo de Termo de Autorização/Serviço** interno documentando a relação (para fins de LGPD e comprovação de mandato)
+- [ ] Definir onde e como as procurações ativas serão registradas internamente (planilha, sistema de gestão, etc.)
+- [ ] Configurar cofre de senhas seguro (ex.: Bitwarden Business, 1Password Teams) para eventual gestão controlada de acessos — **sem mais pastas abertas**
+
+---
+
+## 📣 FASE 2 — Comunicação com os Clientes
+
+- [ ] Enviar comunicado oficial a todos os clientes da lista explicando:
+  - Por que a mudança está sendo feita (segurança, LGPD, boas práticas)
+  - O que muda para eles na prática (nada no serviço — só o mecanismo de acesso)
+  - O que precisarão fazer (conceder a procuração)
+  - Prazo para concluir
+  - Canal de suporte para dúvidas
+
+- [ ] Confirmar recebimento do comunicado por cada cliente
+- [ ] Identificar clientes que **não têm conta gov.br com nível Prata ou Ouro** e nem certificado próprio → eles precisarão regularizar o acesso antes de conceder a procuração (ver Fase 3.1)
+- [ ] Agendar atendimento individual (presencial ou videochamada) para clientes com dificuldade técnica
+
+---
+
+## 🔐 FASE 3 — Concessão das Procurações Eletrônicas
+
+### 3.1 Pré-requisito do cliente (antes de conceder)
+
+Para outorgar procuração no e-CAC, o cliente precisa de **uma das seguintes formas de autenticação**:
+
+- [ ] Certificado digital próprio (A1 ou A3) — OU —
+- [ ] Conta **gov.br nível Prata ou Ouro**
+
+> Para clientes sem nenhuma das duas opções:
+> - [ ] Orientar a criar/elevar conta gov.br (via aplicativo gov.br + validação facial ou biometria)
+> - [ ] Ou, como alternativa, ir presencialmente a uma unidade da Receita Federal com documento de identidade para outorgar a procuração
+
+### 3.2 Passo a passo da outorga no e-CAC (cliente executa, escritório orienta)
+
+- [ ] Cliente acessa **[eCAC](https://cav.receita.fazenda.gov.br)** com certificado ou gov.br
+- [ ] Navegar: **Outros Serviços → Procuração Eletrônica → Cadastrar Procuração**
+- [ ] Preencher:
+  - [ ] CNPJ/CPF do **outorgado** = CNPJ do escritório contábil
+  - [ ] **Serviços autorizados** — selecionar conforme necessidade do cliente (ver lista abaixo)
+  - [ ] **Período de validade** — sugestão: máximo permitido (verificar limite atual; historicamente 2 anos)
+  - [ ] Confirmar e salvar
+
+#### Serviços recomendados para marcar (verifique por tipo de cliente):
+
+| Serviço | PJ Geral | MEI | PF |
+|---|---|---|---|
+| Declarações, demonstrativos e arquivos | ✅ | ✅ | ✅ |
+| Consulta e alteração de dados cadastrais | ✅ | ✅ | ✅ |
+| Parcelamentos | ✅ | ✅ | ✅ |
+| Compensação e restituição | ✅ | ✅ | ✅ |
+| Simples Nacional | ✅ | ✅ | ❌ |
+| eSocial | ✅ | ✅ | ❌ |
+| EFD-Reinf | ✅ | ❌ | ❌ |
+| FGTS Digital | ✅ | ✅ | ❌ |
+| Certidões | ✅ | ✅ | ✅ |
+| DTE (Domicílio Tributário) | ✅ | ✅ | ✅ |
+
+- [ ] Solicitar ao cliente que **envie print da tela de confirmação** da procuração cadastrada
+- [ ] Escritório verifica no próprio e-CAC se a procuração aparece como ativa
+
+### 3.3 Sistemas estaduais e municipais
+
+- [ ] Para cada estado com SEFAZ: verificar o procedimento específico de credenciamento do contador e realizar o cadastro
+- [ ] Para emissão de NF-e: cadastrar o CNPJ do escritório como **emissor/transmissor autorizado** no sistema do cliente (não confundir com procuração — é um cadastro de autorização técnica separado)
+- [ ] Para prefeituras com NFS-e: verificar se aceitam procuração ou credencial própria e proceder conforme cada portal
+- [ ] Documentar o resultado de cada sistema na planilha de controle
+
+---
+
+## 🗑️ FASE 4 — Revogação e Descarte dos Certificados A1 Armazenados
+
+> ⚠️ **Esta fase só começa depois que a procuração eletrônica do cliente está ativa e testada (Fase 5).**
+
+- [ ] Para cada cliente com procuração confirmada e testada:
+  - [ ] **Deletar permanentemente** o arquivo do certificado A1 dos computadores/servidores do escritório
+  - [ ] Deletar de **backups locais** onde o arquivo estiver
+  - [ ] Deletar de **nuvens** onde eventualmente estiver (Google Drive, OneDrive, etc.)
+  - [ ] Deletar de **e-mails** onde possa ter sido enviado
+  - [ ] Usar software de deleção segura se necessário (ex.: Eraser para Windows)
+  - [ ] Registrar data e responsável pela deleção na planilha de controle
+
+- [ ] Decidir, junto ao cliente, se o certificado A1 dele deve ser **revogado** junto à AC emissora:
+  - Revogar se: o certificado esteve exposto ou pode ter sido copiado sem controle
+  - Manter (sem guardar no escritório) se: o cliente ainda usa em outros contextos e a exposição foi controlada
+
+- [ ] Para os certificados **revogados**: comunicar ao cliente que precisará emitir novo certificado para uso pessoal
+
+---
+
+## ✅ FASE 5 — Validação e Testes
+
+- [ ] Para cada cliente migrado, o escritório testa o acesso via procuração **antes** de descartar o certificado:
+  - [ ] Acessar e-CAC como representante do cliente e verificar serviços disponíveis
+  - [ ] Testar envio de uma declaração ou consulta de débitos
+  - [ ] Verificar eSocial se aplicável
+  - [ ] Verificar EFD-Reinf se aplicável
+  - [ ] Verificar sistemas estaduais/municipais conforme mapeamento
+
+- [ ] Registrar resultado do teste (OK / Pendência) na planilha de controle
+- [ ] Resolver pendências antes de avançar para a Fase 4
+
+---
+
+## 📁 FASE 6 — Documentação, LGPD e Encerramento
+
+- [ ] Arquivar **comprovante de cada procuração** concedida (print ou PDF do e-CAC)
+- [ ] Arquivar **Termo de Autorização/Serviço** assinado por cada cliente
+- [ ] Registrar no sistema de gestão do escritório: "Acesso via procuração eletrônica — vigência até [data]"
+- [ ] Criar **alerta de vencimento** para cada procuração (renovar com antecedência de 60 dias)
+- [ ] Atualizar o **contrato de prestação de serviços** e o **Aviso de Privacidade (LGPD)** dos clientes, refletindo a nova forma de acesso
+- [ ] Documentar o **incidente do ex-funcionário** (situação 2) como motivação formal para esta migração — útil em eventual auditoria ANPD
+- [ ] Registrar que os certificados foram deletados e de quem era a responsabilidade
+
+---
+
+## 📊 Planilha de Controle Sugerida
+
+| Cliente | CNPJ | Sistemas | Venc. Certificado | Contato | Procuração e-CAC | Sistemas Estaduais/Munic. | Teste OK | Certificado Deletado | Observações |
+|---|---|---|---|---|---|---|---|---|---|
+| ... | ... | ... | ... | ... | ⬜ Pendente | ⬜ Pendente | ⬜ | ⬜ | |
+
+---
+
+## 🗓️ Cronograma Sugerido
+
+```
+Semana 1     → Fases 0 e 1 (levantamento + preparação interna)
+Semanas 2–3  → Fase 2 (comunicação) + início da Fase 3
+Semanas 3–5  → Fase 3 completa (concessão das procurações)
+Semana 5     → Fase 5 (testes)
+Semana 6     → Fase 4 (descarte dos certificados) + Fase 6 (documentação)
+```
+
+---
+
+> **Lembrete crítico:** Nunca descarte o certificado antes de testar e confirmar que a procuração está funcionando. A ordem correta é sempre: **conceder → testar → descartar**.
+
+### 2026-10-09 23:08 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Aconteceram estas seis situações esta semana. O que eu faço em cada uma?
+
+1) Uma cliente, dona de uma clínica de estética, quer deixar o certificado e-CNPJ A1 dela aqui no escritório, com a senha, "para facilitar".
+2) Um ex-funcionário, que saiu há dois meses, ainda tem no notebook pessoal uma cópia da pasta com os arquivos dos certificados A1 de 60 clientes e as senhas.
+3) O financeiro de uma distribuidora cliente recebeu no WhatsApp um áudio com a voz do sócio pedindo um Pix urgente de R$ 48.700,00, hoje, para um "fornecedor novo". Ele quer saber se paga.
+4) Chegou no WhatsApp do escritório uma mensagem: "CRC - anuidade 2027 com 30% de desconto até sexta, pague pelo Pix abaixo".
+5) Um cliente MEI pagou R$ 350,00 por Pix "à contadora", que pediu uma "Decore registrada" para liberar um empréstimo. Ninguém do escritório pediu isso.
+6) A caixa de e-mail do escritório mandou ontem, sem ninguém daqui saber, um e-mail com um link de "boleto atualizado" para todos os clientes.
+--- IA:
+# Análise das Seis Situações — Escritório de Contabilidade
+
+---
+
+## 1 — Cliente quer deixar o e-CNPJ A1 com senha no escritório
+
+**🔴 Recuse. Isso cria risco jurídico grave para o escritório e para ela.**
+
+- O certificado A1 + senha equivale a uma **assinatura ilimitada** em nome dela. Qualquer uso indevido — por funcionário, invasor ou acidente — é responsabilidade de quem detém o arquivo.
+- Guardar certificado de terceiro com senha pode caracterizar **violação da Resolução CFC nº 1.535/2018** e das regras da ICP-Brasil.
+- **O que oferecer no lugar:**
+  - Procuração eletrônica no **e-CAC** (para acesso à RFB em nome dela, sem precisar do certificado físico).
+  - Procuração em papel com poderes específicos para os serviços necessários.
+- Registre a recusa por escrito (e-mail ou contrato).
+
+---
+
+## 2 — Ex-funcionário com certificados A1 e senhas de 60 clientes
+
+**🔴 Emergência. Acione agora — isso é um incidente de segurança e viola a LGPD.**
+
+**Ações imediatas (nas próximas horas):**
+
+| Passo | O que fazer |
+|---|---|
+| 1 | Notifique o ex-funcionário **por escrito** (WhatsApp + e-mail + AR) exigindo a exclusão imediata e comprovada de todos os arquivos |
+| 2 | **Revogue e reemita** os 60 certificados — considere todos comprometidos |
+| 3 | Notifique os 60 clientes sobre o incidente (obrigação prevista no **art. 48 da LGPD**) |
+| 4 | Reporte o incidente à **ANPD** se houver risco relevante aos titulares |
+| 5 | Consulte um advogado — pode configurar apropriação indébita de dados e violação de sigilo profissional |
+| 6 | Reveja o processo interno: certificados A1 não deveriam ficar em pastas compartilhadas acessíveis a todos |
+
+---
+
+## 3 — Áudio no WhatsApp com "voz do sócio" pedindo Pix de R$ 48.700
+
+**🔴 Não pague. Golpe por clonagem de voz com IA — muito comum em 2025/2026.**
+
+- Áudios podem ser gerados em segundos com amostras de voz de redes sociais ou chamadas anteriores.
+- **Sinais clássicos do golpe:** urgência, valor alto, fornecedor novo, canal informal (WhatsApp).
+
+**O que orientar o financeiro:**
+
+1. **Não execute o pagamento.**
+2. Ligue para o sócio em um número já conhecido e salvo — não responda pelo mesmo chat.
+3. Confirme por outro canal (pessoalmente, e-mail corporativo).
+4. Se confirmado golpe, registre **Boletim de Ocorrência** (pode ser online: delegaciadigital.sp.gov.br ou equivalente no estado).
+5. O distribuidor deve implementar uma política simples: **nenhum pagamento acima de X reais sem confirmação dupla por canal diferente do que originou o pedido.**
+
+---
+
+## 4 — WhatsApp oferecendo "anuidade CRC 2027 com 30% de desconto"
+
+**🔴 Golpe. Não pague. Não clique. Não encaminhe.**
+
+- O CRC **não cobra anuidade por WhatsApp com chave Pix avulsa**.
+- Toda comunicação oficial é por boleto enviado ao e-mail cadastrado ou disponível no portal do CRC do seu estado.
+
+**Ações:**
+
+1. Bloqueie e denuncie o número.
+2. Verifique sua situação **diretamente no site do CRC do seu estado**.
+3. **Reporte o número ao próprio CRC** — eles precisam saber para alertar outros profissionais.
+4. Avise colegas de outros escritórios.
+
+---
+
+## 5 — MEI pagou R$ 350 a golpista que se passou pelo escritório
+
+**🔴 Alguém está se passando pelo seu escritório. Isso é estelionato e uso indevido de identidade profissional.**
+
+**Para o cliente MEI:**
+
+1. Informe imediatamente que o escritório **não fez esse pedido** — é fraude.
+2. Oriente-o a acionar o banco **agora**: o **MED (Mecanismo Especial de Devolução do Pix)** permite solicitar ressarcimento em casos de fraude — quanto mais rápido, maior a chance.
+3. Registro de **Boletim de Ocorrência** em nome do cliente.
+
+**Para o escritório:**
+
+1. Registre também um **BO por uso indevido do nome do escritório** (estelionato e falsa identidade).
+2. Verifique se a chave Pix usada pelo golpista tem alguma relação com dados do escritório vazados.
+3. **Comunique todos os clientes** por canal verificável (e-mail, carta) alertando sobre o golpe e reforçando que cobranças sempre virão por meios previamente acordados.
+4. Avalie comunicar ao **CRC** para registro.
+
+---
+
+## 6 — E-mail do escritório enviou links de "boleto falso" para todos os clientes
+
+**🔴 A conta de e-mail foi comprometida. Trate como incidente ativo agora.**
+
+**Resposta imediata (próximos 30 minutos):**
+
+1. **Troque a senha do e-mail agora** e encerre todas as sessões ativas.
+2. Ative (ou verifique) a **autenticação em dois fatores (2FA)**.
+3. Acesse as configurações do e-mail e **verifique regras de encaminhamento ocultas** — atacantes costumam criar filtros para copiar tudo que chega.
+
+**Nas próximas horas:**
+
+4. **Avise todos os clientes imediatamente** que o e-mail foi comprometido, que o link enviado é malicioso e que não devem clicar — use outro canal (WhatsApp, telefone).
+5. Verifique se algum cliente já clicou e oriente-os a verificar seus dispositivos com antivírus.
+6. Escaneie todos os computadores do escritório em busca de **malware/keylogger** (o comprometimento pode ter partido de uma máquina interna).
+7. Registre **Boletim de Ocorrência** por crime cibernético (Lei nº 14.155/2021).
+8. Avalie se há obrigação de notificação à **ANPD** (dado o volume de clientes afetados, provavelmente há).
+9. Contrate ou consulte um **profissional de segurança da informação** para auditoria.
+
+---
+
+## Resumo Executivo
+
+| # | Situação | Risco Principal | Urgência |
+|---|---|---|---|
+| 1 | Certificado A1 da cliente | Responsabilidade jurídica | Médio |
+| 2 | Ex-funcionário com 60 certificados | LGPD + certificados comprometidos | 🔴 Crítico |
+| 3 | Áudio deepfake pedindo Pix | Fraude financeira iminente | 🔴 Crítico |
+| 4 | Golpe de anuidade CRC | Prejuízo financeiro | Alto |
+| 5 | Impersonação do escritório | Reputação + estelionato | 🔴 Crítico |
+| 6 | E-mail hackeado | Dados + reputação + LGPD | 🔴 Crítico |
+
+Se precisar de modelos de comunicado para clientes ou de checklist detalhado para alguma das situações, é só pedir.
+
+--- Você:
+Agora monte o checklist para trocar os certificados dos clientes que estão guardados aqui no escritório por procuração eletrônica.
+--- IA:
+# Checklist: Substituição de Certificados A1 por Procuração Eletrônica
+
+---
+
+## ⚙️ Como usar este checklist
+Replique a **Fase 3 em diante** para cada cliente. As fases 0, 1 e 2 são feitas uma única vez, internamente.
+
+---
+
+## FASE 0 — Mapeamento interno
+> *Antes de contatar qualquer cliente, o escritório precisa saber exatamente o que tem.*
+
+- [ ] Levantar a lista completa de clientes cujos certificados A1 estão armazenados no escritório
+- [ ] Para cada cliente, registrar:
+  - Nome / Razão Social
+  - CPF ou CNPJ
+  - Regime tributário (MEI, Simples, Lucro Presumido, Lucro Real)
+  - Sistemas acessados com o certificado dele (e-CAC, eSocial, SEFAZ estadual, prefeitura, outros)
+  - Data de vencimento do certificado atual
+- [ ] Identificar quais sistemas **aceitam procuração eletrônica** e quais ainda exigem certificado direto *(ver tabela no final)*
+- [ ] Verificar se o certificado e-CNPJ do **próprio escritório** está válido e com prazo suficiente — ele será o instrumento de acesso após a procuração
+
+---
+
+## FASE 1 — Preparação jurídica e contratual
+
+- [ ] Revisar ou elaborar cláusula no **contrato de prestação de serviços** contemplando:
+  - Acesso por procuração eletrônica como forma padrão
+  - Responsabilidade do cliente por manter o Gov.br ativo e atualizado
+  - Prazo de renovação da procuração (sugerido: 12 meses antes do vencimento)
+- [ ] Definir para quem a procuração será outorgada:
+  - ✅ Preferível: **CNPJ do escritório** (acesso não fica preso a um funcionário)
+  - Alternativa: CPF do contador responsável por cada cliente
+- [ ] Definir os **serviços mínimos necessários** para cada perfil de cliente (não selecionar tudo — princípio do menor privilégio)
+- [ ] Criar pasta/planilha de controle com: data de cadastro da procuração, data de vencimento, quem cadastrou, sistemas cobertos
+
+---
+
+## FASE 2 — Comunicação com os clientes
+
+- [ ] Redigir comunicado explicando:
+  - Por que o escritório está fazendo essa mudança (segurança, LGPD, boas práticas)
+  - O que o cliente precisará fazer (basicamente: ter Gov.br ativo ou comparecer presencialmente)
+  - Que o certificado A1 dele **não será mais necessário** ficar guardado no escritório
+- [ ] Enviar o comunicado por **e-mail com confirmação de leitura** (não apenas WhatsApp)
+- [ ] Classificar clientes por perfil de dificuldade:
+  - **Verde:** já tem Gov.br nível Ouro ou certificado próprio ativo → processo remoto
+  - **Amarelo:** tem Gov.br mas nível Prata → pode precisar de orientação para elevar o nível
+  - **Vermelho:** sem Gov.br ou sem certificado → agendar atendimento presencial/videoconferência assistida
+- [ ] Agendar os atendimentos dos clientes "vermelho" com prioridade
+
+---
+
+## FASE 3 — Cadastro da procuração eletrônica *(repetir por cliente)*
+
+### 3.1 — Pré-requisito: Gov.br do cliente
+
+- [ ] Verificar se o cliente tem conta Gov.br ativa
+- [ ] Verificar o **nível da conta**:
+  - **Nível Ouro** → ideal, equivale ao certificado para a maioria dos serviços
+  - **Nível Prata** → funciona para muitos serviços, mas pode ter limitações
+  - **Nível Bronze** → insuficiente — orientar o cliente a elevar o nível
+- [ ] Se necessário, orientar o cliente a elevar o nível pelo app Gov.br (biometria facial + validação de bases como INSS, TSE, DENATRAN)
+
+> 💡 Se o cliente **tiver certificado A1 ou A3 próprio**, ele mesmo pode outorgar a procuração diretamente no e-CAC sem depender do Gov.br.
+
+---
+
+### 3.2 — Outorga da procuração no e-CAC (Receita Federal)
+
+*O cliente executa — com sua assistência remota ou presencial.*
+
+- [ ] Acessar: **ecac.receita.fazenda.gov.br** → entrar com Gov.br ou certificado do cliente
+- [ ] Navegar: **Outros serviços → Procurações → Cadastrar Procuração**
+- [ ] Preencher os dados do outorgado (escritório):
+  - CNPJ do escritório
+  - Razão social
+- [ ] Selecionar os **serviços a delegar** conforme perfil do cliente:
+
+| Serviço | MEI | Simples | Lucro Presumido/Real |
+|---|:---:|:---:|:---:|
+| Consulta/Declaração IRPF | ✓ | — | — |
+| PGDAS-D / Simples Nacional | — | ✓ | — |
+| DCTFWeb | — | ✓ | ✓ |
+| eSocial | ✓ | ✓ | ✓ |
+| EFD-Reinf | — | ✓ | ✓ |
+| Certidões (CND) | ✓ | ✓ | ✓ |
+| Parcelamentos | ✓ | ✓ | ✓ |
+| Caixa Postal e-CAC | ✓ | ✓ | ✓ |
+| SPED (ECF, ECD) | — | — | ✓ |
+
+- [ ] Definir o **prazo de validade** da procuração (máximo: 5 anos — recomendado: 2 anos para facilitar revisões)
+- [ ] Confirmar e salvar — o sistema gera um número de protocolo
+- [ ] Registrar o protocolo na planilha de controle do escritório
+
+---
+
+### 3.3 — Outros sistemas (conforme necessidade do cliente)
+
+- [ ] **eSocial** (se não coberto pela procuração e-CAC): acessar esocial.gov.br → Empresas → adicionar procurador
+- [ ] **FGTS Digital**: verificar acesso via e-CAC ou Gov.br da empresa
+- [ ] **SEFAZ estadual**: verificar se o estado do cliente aceita procuração eletrônica no sistema estadual (NF-e, SPED ICMS) — procedimento varia por UF
+- [ ] **Prefeitura / NFS-e**: verificar sistema municipal — muitos ainda exigem certificado direto ou login/senha próprio do cliente
+- [ ] **Simples Nacional (PGDAS)**: coberto pela procuração e-CAC se o serviço foi selecionado
+- [ ] **CNPJ Gov.br** (novo portal de abertura/alteração de empresas): verificar se é necessário acesso separado
+
+---
+
+### 3.4 — Validação do acesso (escritório testa após o cadastro)
+
+- [ ] Acessar o e-CAC **com o certificado do escritório** → "Entrar com certificado digital" → selecionar "Acessar como procurador"
+- [ ] Selecionar o CNPJ/CPF do cliente na lista de representados
+- [ ] Confirmar que os serviços delegados aparecem acessíveis
+- [ ] Testar pelo menos um serviço real (ex: consultar situação fiscal, abrir caixa postal)
+- [ ] Registrar na planilha: ✅ acesso validado + data
+
+---
+
+## FASE 4 — Descarte seguro dos certificados
+
+*Só execute após confirmar que o acesso por procuração está funcionando para todos os sistemas necessários do cliente.*
+
+- [ ] Localizar o(s) arquivo(s) do certificado A1 do cliente (extensões .pfx, .p12, .cer)
+- [ ] **Deletar com ferramenta de exclusão segura** — não basta jogar na lixeira:
+  - Windows: Eraser (gratuito) ou `cipher /w:pasta`
+  - Mac: Secure Empty Trash ou `rm -P arquivo`
+- [ ] Verificar se há cópias em:
+  - Backup em nuvem (Google Drive, OneDrive, Dropbox)
+  - Backup local (HD externo, NAS)
+  - E-mails antigos com o arquivo em anexo
+  - Outros computadores do escritório
+- [ ] Deletar o registro da senha em qualquer lugar onde esteja anotada (planilha, post-it, gestor de senhas)
+- [ ] Documentar a exclusão: data, responsável, confirmação *(guarde isso — pode ser necessário em eventual auditoria LGPD)*
+- [ ] Informar o cliente que o arquivo foi eliminado do escritório
+
+---
+
+## FASE 5 — Atualização de processos internos
+
+- [ ] Atualizar o **manual de procedimentos interno** — remover referências a "usar certificado do cliente"
+- [ ] Treinar a equipe: nenhum colaborador deve solicitar certificado A1 de cliente, por nenhum motivo
+- [ ] Configurar **alerta na planilha de controle** para renovação de procurações com 60 dias de antecedência
+- [ ] Verificar se o **certificado e-CNPJ do escritório** cobre o período de todas as procurações cadastradas (se o certificado do escritório vencer, todos os acessos por procuração ficam bloqueados)
+- [ ] Definir responsável e substituto para renovações periódicas
+
+---
+
+## FASE 6 — Manutenção contínua
+
+| Frequência | Tarefa |
+|---|---|
+| Mensal | Verificar na planilha procurações vencendo nos próximos 60 dias |
+| A cada renovação | Refazer o processo da Fase 3 com o cliente |
+| A cada troca de sócio/funcionário | Rever quais procurações estão em CPF de pessoa específica |
+| Anual | Revisar se os serviços delegados ainda batem com o escopo do contrato |
+| A qualquer saída de funcionário | Verificar se ele tinha acesso por certificado próprio e revogar imediatamente |
+
+---
+
+## ⚠️ Sistemas que podem ainda exigir certificado direto
+
+> Para esses casos, a solução não é guardar o certificado — é combinar um procedimento com o cliente para acesso pontual e acompanhado.
+
+| Sistema | Situação |
+|---|---|
+| SEFAZ de alguns estados (ICMS, GIA) | Verificar por UF — muitos já migraram para Gov.br |
+| Prefeituras com sistema próprio de NFS-e | Frequentemente usam login+senha do cliente, não certificado |
+| Conectividade Social (CAIXA / FGTS antigo) | Verificar se já migrou para FGTS Digital |
+| Bancos (token da empresa) | Nunca deve ser operado pelo escritório sem procuração específica |
+| Junta Comercial (alguns estados) | Verificar se aceita certificado do escritório como procurador |
+
+---
+
+> 📁 **Entregável sugerido:** mantenha uma aba por cliente na planilha de controle com: sistemas mapeados, data da procuração, data de vencimento, quem validou o acesso e data do descarte do certificado. Isso serve tanto para gestão interna quanto como evidência em caso de auditoria da LGPD.
+
+### 2026-10-09 23:10 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Aconteceram estas seis situações esta semana. O que eu faço em cada uma? Use as regras coladas abaixo.
+
+1) Uma cliente, dona de uma clínica de estética, quer deixar o certificado e-CNPJ A1 dela aqui no escritório, com a senha, "para facilitar".
+2) Um ex-funcionário, que saiu há dois meses, ainda tem no notebook pessoal uma cópia da pasta com os arquivos dos certificados A1 de 60 clientes e as senhas.
+3) O financeiro de uma distribuidora cliente recebeu no WhatsApp um áudio com a voz do sócio pedindo um Pix urgente de R$ 48.700,00, hoje, para um "fornecedor novo". Ele quer saber se paga.
+4) Chegou no WhatsApp do escritório uma mensagem: "CRC - anuidade 2027 com 30% de desconto até sexta, pague pelo Pix abaixo".
+5) Um cliente MEI pagou R$ 350,00 por Pix "à contadora", que pediu uma "Decore registrada" para liberar um empréstimo. Ninguém do escritório pediu isso.
+6) A caixa de e-mail do escritório mandou ontem, sem ninguém daqui saber, um e-mail com um link de "boleto atualizado" para todos os clientes.
+
+As regras, como estão nas fontes:
+- O uso do certificado do escritório para os clientes "é permitido apenas aos escritórios de contabilidade que já tenham sido previamente autorizados por seus clientes, mediante estabelecimento de procuração eletrônica, que deve ser cadastrada através da opção de atendimento Procuração Eletrônica do e-CAC" (Receita Federal, perguntas sobre certificados digitais).
+- Procuração no e-CAC (gov.br, "Cadastrar ou cancelar procuração para acesso ao e-CAC"): "Você pode escolher quais serviços o representante digital procurador digital poderá acessar. Se selecionar todos, ele também terá acesso a novos serviços que forem adicionados no futuro." "A autorização de acesso (procuração digital) é válida por até 5 anos ou pelo tempo definido pelo outorgante." Dá para consultar e cancelar em "Minhas Autorizações de acesso" e restringir, "limitando os processos aos quais a pessoa autorizada terá acesso" (Receita, Procurações).
+- Certificado (ITI, perguntas frequentes): "A chave privada e sua senha de acesso não devem ser compartilhadas com ninguém"; "é perfeitamente possível que o responsável de uso de um certificado digital de pessoa jurídica solicite diretamente a revogação do respectivo certificado, independentemente da prévia autorização ou participação da pessoa jurídica titular."
+- Decore: "a Decore é emitida pelo sistema do próprio Conselho, e deve, obrigatoriamente, ser assinada com certificado digital pelo profissional da contabilidade" (CFC, 2022).
+- Regra do escritório: ordem de pagamento só se confirma por outro número já conhecido, nunca pelo canal que fez o pedido.
+--- IA:
+# Orientação para as Seis Situações
+
+---
+
+## 1 — Cliente quer deixar o e-CNPJ A1 com vocês
+
+**Não aceite o certificado nem a senha.**
+
+A regra do ITI é direta: *"a chave privada e sua senha de acesso não devem ser compartilhadas com ninguém."* O que a cliente quer fazer, mesmo que de boa-fé, é proibido e cria risco jurídico para ela e para o escritório.
+
+**O que fazer no lugar:**
+- Explique que o caminho correto é a **Procuração Eletrônica no e-CAC**
+- Com ela, o escritório recebe acesso legal aos serviços necessários, sem tocar no certificado dela
+- A procuração pode ser **limitada aos serviços específicos** que vocês precisam usar e tem validade de até 5 anos — ou menos, se ela preferir
+- Ela pode consultar, restringir ou cancelar a qualquer momento em "Minhas Autorizações de acesso"
+
+---
+
+## 2 — Ex-funcionário com certificados e senhas de 60 clientes no notebook pessoal
+
+**Situação crítica. Agir hoje.**
+
+Há dados extremamente sensíveis de 60 clientes fora do controle do escritório. O risco é de uso indevido, responsabilização por vazamento (LGPD) e danos irreparáveis aos clientes.
+
+**Passo a passo:**
+
+| Prioridade | Ação |
+|---|---|
+| 🔴 Imediato | Contatar o ex-funcionário **formalmente** (e-mail com confirmação de leitura) exigindo a exclusão comprovada dos arquivos |
+| 🔴 Imediato | **Revogar todos os 60 certificados A1 comprometidos** — o ITI confirma que o responsável pode solicitar a revogação diretamente, sem depender da empresa titular |
+| 🔴 Imediato | **Avisar os 60 clientes** sobre o ocorrido e orientar a emissão de novos certificados |
+| 🟡 Curto prazo | Registrar **boletim de ocorrência** e avaliar com advogado a responsabilidade do ex-funcionário |
+| 🟡 Curto prazo | Revisar processo interno — certificados A1 não deveriam ficar em pastas acessíveis a qualquer funcionário sem controle de acesso |
+
+---
+
+## 3 — Áudio no WhatsApp com "voz do sócio" pedindo Pix de R$ 48.700,00
+
+**Não pagar. Confirmar antes.**
+
+A regra do escritório resolve esse caso: *"ordem de pagamento só se confirma por outro número já conhecido, nunca pelo canal que fez o pedido."*
+
+Isso é exatamente um golpe de **clonagem de voz por IA** — tecnologia acessível, barata e cada vez mais usada. O áudio pode soar idêntico ao sócio e ainda assim ser falso.
+
+**O que orientar o financeiro da distribuidora:**
+1. **Não pagar**
+2. Ligar para o sócio em um número que já estava na agenda **antes** desse pedido chegar
+3. Se o sócio confirmar pessoalmente: aí sim segue o processo normal de aprovação
+4. Se não conseguir confirmar: não paga e escala para a diretoria
+
+> ⚠️ Alerte também que "urgência" e "fornecedor novo" são sinais clássicos desse tipo de golpe — servem para pressionar e impedir a verificação.
+
+---
+
+## 4 — WhatsApp no escritório: "CRC — anuidade 2027 com 30% de desconto, pague pelo Pix"
+
+**Golpe. Não pagar. Denunciar.**
+
+O CRC não cobra anuidades por WhatsApp nem por Pix enviado em mensagem. Aplica-se a mesma lógica da regra interna: nunca confirme nem pague por um canal não oficial.
+
+**Ações:**
+- Ignorar a mensagem e **não clicar em nenhum link**
+- Confirmar situação real da anuidade diretamente no site ou telefone oficial do CRC do seu estado
+- **Encaminhar a mensagem ao CRC** para que eles tomem conhecimento e alertem outros profissionais
+- Alertar os profissionais do escritório para não cair na mesma mensagem
+
+---
+
+## 5 — Cliente MEI pagou R$ 350,00 por "Decore registrada" para empréstimo
+
+**Fraude contra o cliente. Agir com urgência.**
+
+Dois pontos deixam isso claro:
+- Ninguém do escritório pediu o pagamento
+- A Decore **é emitida pelo sistema do próprio Conselho e assinada digitalmente pelo contador** — não há cobrança prévia de "taxa" para emiti-la. Quem cobrou R$ 350,00 está aplicando um golpe
+
+**O que fazer:**
+1. **Orientar o cliente a registrar boletim de ocorrência** imediatamente
+2. Contatar o banco/fintech onde fez o Pix para **tentar o bloqueio/devolução** (MED — Mecanismo Especial de Devolução do Banco Central)
+3. **Emitir a Decore verdadeira** se o escritório for o responsável pela contabilidade do cliente — pelo sistema do CFC, sem custo adicional para ele
+4. Denunciar o caso ao **CRC/CFC**, pois alguém está se passando por contador
+5. **Alertar todos os demais clientes** sobre esse golpe circulando
+
+---
+
+## 6 — E-mail do escritório disparou links de "boleto atualizado" para todos os clientes sem ninguém saber
+
+**Conta comprometida. Emergência de segurança.**
+
+Isso indica que a caixa de e-mail do escritório foi **invadida** e está sendo usada para aplicar phishing nos seus próprios clientes — usando a credibilidade do escritório como isca.
+
+**Ações imediatas (nas próximas horas):**
+
+| Urgência | Ação |
+|---|---|
+| 🔴 Agora | **Trocar a senha do e-mail** e de todos os serviços que usam esse endereço |
+| 🔴 Agora | **Ativar autenticação em dois fatores** na conta de e-mail |
+| 🔴 Agora | **Comunicar TODOS os clientes** para ignorar o e-mail e não clicar no link — use outro canal (WhatsApp, ligação) |
+| 🔴 Agora | Verificar se algum cliente já clicou ou pagou algo |
+| 🟡 Hoje | Rodar antivírus/antimalware em todas as máquinas do escritório — pode haver um keylogger ou trojan que capturou a senha |
+| 🟡 Hoje | Verificar regras de redirecionamento criadas na caixa de e-mail (atacantes costumam criar cópias ocultas) |
+| 🟡 Esta semana | Comunicar o incidente conforme exige a **LGPD** — houve exposição de dados de clientes. Avaliar com advogado a necessidade de notificar a ANPD |
+| 🟡 Esta semana | Registrar boletim de ocorrência |
+
+---
+
+## Resumo executivo
+
+| # | Situação | Classificação | Ação principal |
+|---|---|---|---|
+| 1 | Certificado da cliente no escritório | ⚠️ Risco evitável | Recusar; fazer procuração no e-CAC |
+| 2 | Ex-funcionário com 60 certificados | 🔴 Crise ativa | Revogar certificados + avisar clientes hoje |
+| 3 | Áudio falso pedindo Pix | 🔴 Golpe em andamento | Não pagar; confirmar por canal conhecido |
+| 4 | WhatsApp do "CRC" | ⚠️ Phishing | Ignorar; denunciar ao CRC |
+| 5 | Cobrança falsa de Decore | 🔴 Fraude consumada | BO + MED + emitir Decore real |
+| 6 | E-mail disparado sem autorização | 🔴 Invasão ativa | Trocar senha agora + avisar clientes |
+
+--- Você:
+Agora monte o checklist para trocar os certificados dos clientes que estão guardados aqui no escritório por procuração eletrônica.
+--- IA:
+# Checklist — Migração de Certificados Guardados no Escritório para Procuração Eletrônica no e-CAC
+
+---
+
+## FASE 1 — Levantamento interno
+*Fazer antes de contatar qualquer cliente*
+
+- [ ] Listar todos os clientes cujo certificado A1 está guardado no escritório (nome, CNPJ, validade do certificado)
+- [ ] Para cada cliente, registrar quais serviços no e-CAC são acessados com o certificado dele (ex.: DCTF, eSocial, SPED, Caixa Postal, Simples Nacional etc.)
+- [ ] Verificar se o escritório já possui e-CNPJ próprio válido — ele será usado para acessar o e-CAC como representante após a procuração estar ativa
+- [ ] Verificar se o e-CNPJ do escritório está próximo do vencimento e renovar antes de iniciar o processo
+- [ ] Definir internamente quais serviços pedir em cada procuração — só o necessário para cada cliente, não "selecionar todos" por padrão
+- [ ] Preparar modelo de comunicado ao cliente explicando a mudança (veja sugestão no final)
+
+---
+
+## FASE 2 — Contato com o cliente
+*Para cada cliente da lista*
+
+- [ ] Explicar por que o modelo atual (certificado + senha guardados no escritório) é irregular e representa risco para ele
+- [ ] Explicar o que é a procuração eletrônica no e-CAC e que ela substitui com segurança e legalidade
+- [ ] Confirmar que o cliente possui **conta gov.br nível Prata ou Ouro**, ou **certificado digital próprio** — ambos são necessários para ele cadastrar a procuração
+  - [ ] Se não tiver: orientar a criar/elevar o nível da conta gov.br antes de agendar o próximo passo
+- [ ] Combinar data e canal para fazer o cadastro (pode ser por videochamada acompanhando o cliente, ou presencialmente)
+
+---
+
+## FASE 3 — Cadastro da procuração no e-CAC
+*O cliente faz; o escritório pode acompanhar*
+
+- [ ] Cliente acessa **gov.br → e-CAC → aba "Procurações"** (ou busca por "Procuração Eletrônica")
+- [ ] Seleciona **"Cadastrar Procuração"**
+- [ ] Informa o **CNPJ do escritório** como procurador
+- [ ] Seleciona **somente os serviços necessários** para aquele cliente — não marcar "todos os serviços" sem necessidade justificada
+- [ ] Define o **prazo de validade** (máximo 5 anos; recomendar prazo compatível com o contrato de prestação de serviços)
+- [ ] Confirma e assina o cadastro com o certificado ou conta gov.br dele
+- [ ] **Tirar print ou salvar o comprovante** da procuração cadastrada
+
+---
+
+## FASE 4 — Validação pelo escritório
+
+- [ ] Acessar o e-CAC com o e-CNPJ do escritório e confirmar que a procuração do cliente aparece ativa
+- [ ] Testar o acesso a pelo menos um dos serviços autorizados
+- [ ] Verificar se todos os serviços que o escritório precisa para aquele cliente estão incluídos na procuração
+  - [ ] Se faltou algum serviço: solicitar ao cliente que acesse "Minhas Autorizações de Acesso" e edite a procuração para incluir o serviço faltante
+- [ ] Registrar na ficha do cliente: data do cadastro, prazo de validade, lista de serviços autorizados
+
+---
+
+## FASE 5 — Descarte seguro do certificado e da senha
+*Só executar após validação da procuração*
+
+- [ ] Devolver o arquivo do certificado A1 ao cliente (ou deletar a cópia do escritório, com confirmação do cliente)
+- [ ] Excluir permanentemente a senha do certificado de todos os sistemas, planilhas, e-mails e anotações do escritório
+- [ ] Confirmar com o cliente que ele está com o arquivo do certificado A1 e a senha em posse exclusiva dele
+- [ ] Se o certificado estiver próximo do vencimento (menos de 60 dias): orientar o cliente a renovar antes de devolver, para não ficar sem acesso a serviços que ainda precisem de certificado fora do e-CAC
+
+---
+
+## FASE 6 — Controle contínuo
+
+- [ ] Criar alerta no sistema do escritório para **90 dias antes do vencimento** de cada procuração
+- [ ] Criar alerta para **90 dias antes do vencimento** do e-CNPJ do próprio escritório
+- [ ] Revisar anualmente se os serviços autorizados em cada procuração ainda correspondem ao que é preciso
+- [ ] A cada renovação de contrato com o cliente, verificar se o prazo da procuração cobre o novo período
+
+---
+
+## FASE 7 — Encerramento do processo geral
+
+- [ ] Confirmar que **100% dos clientes da lista inicial** tiveram certificados descartados e procurações ativas
+- [ ] Registrar formalmente (ata interna ou e-mail) que o escritório não guarda mais certificados nem senhas de clientes
+- [ ] Comunicar a equipe sobre o novo fluxo: qualquer acesso ao e-CAC de cliente passa pelo e-CNPJ do escritório via procuração
+
+---
+
+## Modelo de comunicado ao cliente
+
+> *"Prezado(a) [Nome],*
+>
+> *Informamos que estamos atualizando nossa forma de acesso aos serviços da Receita Federal em seu nome. A partir de agora, utilizaremos a **Procuração Eletrônica no e-CAC**, que é o modelo autorizado pela Receita Federal para escritórios de contabilidade. Com isso, não será mais necessário manter o seu certificado digital ou senha conosco.*
+>
+> *Esse modelo é mais seguro para você: os acessos ficam registrados, você pode consultar e revogar a qualquer momento, e sua chave privada permanece exclusivamente em seu poder.*
+>
+> *Para concluir a migração, precisamos de aproximadamente 15 minutos com você [por videochamada / presencialmente] para cadastrar a autorização. Podemos agendar para [data/hora sugerida]?"*
+
+---
+
+## Resumo visual das fases
+
+```
+FASE 1          FASE 2          FASE 3          FASE 4
+Levantar   →   Contatar   →   Cadastrar   →   Validar
+clientes       cliente        procuração       acesso
+                              no e-CAC
+
+FASE 5          FASE 6          FASE 7
+Descartar  →   Monitorar  →   Encerrar
+certificado    vencimentos     processo
+e senha                        geral
+```
+
+### 2026-10-09 23:12 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Aconteceram estas seis situações esta semana. O que eu faço em cada uma? Use as regras coladas abaixo.
+
+1) Uma cliente, dona de uma clínica de estética, quer deixar o certificado e-CNPJ A1 dela aqui no escritório, com a senha, "para facilitar".
+2) Um ex-funcionário, que saiu há dois meses, ainda tem no notebook pessoal uma cópia da pasta com os arquivos dos certificados A1 de 60 clientes e as senhas.
+3) O financeiro de uma distribuidora cliente recebeu no WhatsApp um áudio com a voz do sócio pedindo um Pix urgente de R$ 48.700,00, hoje, para um "fornecedor novo". Ele quer saber se paga.
+4) Chegou no WhatsApp do escritório uma mensagem: "CRC - anuidade 2027 com 30% de desconto até sexta, pague pelo Pix abaixo".
+5) Um cliente MEI pagou R$ 350,00 por Pix "à contadora", que pediu uma "Decore registrada" para liberar um empréstimo. Ninguém do escritório pediu isso.
+6) A caixa de e-mail do escritório mandou ontem, sem ninguém daqui saber, um e-mail com um link de "boleto atualizado" para todos os clientes.
+
+As regras, como estão nas fontes:
+- O uso do certificado do escritório para os clientes "é permitido apenas aos escritórios de contabilidade que já tenham sido previamente autorizados por seus clientes, mediante estabelecimento de procuração eletrônica, que deve ser cadastrada através da opção de atendimento Procuração Eletrônica do e-CAC" (Receita Federal, perguntas sobre certificados digitais).
+- Procuração no e-CAC (gov.br, "Cadastrar ou cancelar procuração para acesso ao e-CAC"): "Você pode escolher quais serviços o representante digital procurador digital poderá acessar. Se selecionar todos, ele também terá acesso a novos serviços que forem adicionados no futuro." "A autorização de acesso (procuração digital) é válida por até 5 anos ou pelo tempo definido pelo outorgante." Dá para consultar e cancelar em "Minhas Autorizações de acesso" e restringir, "limitando os processos aos quais a pessoa autorizada terá acesso" (Receita, Procurações).
+- Certificado (ITI, perguntas frequentes): "A chave privada e sua senha de acesso não devem ser compartilhadas com ninguém"; "é perfeitamente possível que o responsável de uso de um certificado digital de pessoa jurídica solicite diretamente a revogação do respectivo certificado, independentemente da prévia autorização ou participação da pessoa jurídica titular."
+- Decore: "a Decore é emitida pelo sistema do próprio Conselho, e deve, obrigatoriamente, ser assinada com certificado digital pelo profissional da contabilidade" (CFC, 2022).
+- Regra do escritório: ordem de pagamento só se confirma por outro número já conhecido, nunca pelo canal que fez o pedido.
+--- IA:
+# O que fazer em cada situação
+
+---
+
+## 1 — Cliente quer deixar o certificado A1 e a senha no escritório
+
+**Não aceite.** A regra do ITI é clara: a chave privada e a senha não devem ser compartilhadas com ninguém. Aceitar isso expõe o escritório a responsabilidades graves.
+
+**O caminho correto já existe:** oriente a cliente a cadastrar uma **procuração eletrônica no e-CAC**, autorizando o escritório apenas nos serviços necessários, pelo prazo que ela definir (até 5 anos). Ela pode restringir, consultar e cancelar quando quiser. O escritório opera com segurança e sem precisar tocar no certificado dela.
+
+---
+
+## 2 — Ex-funcionário com 60 certificados A1 e senhas no notebook pessoal
+
+**Situação crítica. Aja hoje.**
+
+- **Revogar todos os 60 certificados imediatamente.** O ITI confirma que o responsável pelo certificado pode solicitar a revogação direto, sem precisar da autorização prévia do titular. Notifique cada cliente e oriente a emissão de novo certificado.
+- **Notificar os clientes** do incidente — além de ser ético, é obrigação pela **LGPD** (vazamento de dados pessoais/sensíveis).
+- **Notificar a ANPD** se o volume e a natureza dos dados exigirem (60 empresas é um incidente relevante).
+- **Enviar ao ex-funcionário uma notificação formal** (por escrito, com AR ou e-mail rastreável) exigindo a exclusão imediata de todos os arquivos e confirmação disso.
+- Avaliar com advogado a possibilidade de **medida judicial** caso ele não coopere.
+
+---
+
+## 3 — Áudio no WhatsApp com "voz do sócio" pedindo Pix de R$ 48.700,00
+
+**Não pague.** Este é o golpe clássico de **voz clonada por IA**, e o valor já está na faixa usada para driblar limites.
+
+Aplique a regra do escritório: **confirme a ordem por outro canal já conhecido** — ligue para o celular cadastrado do sócio ou fale pessoalmente. Nunca confirme pelo mesmo WhatsApp que fez o pedido.
+
+Oriente o financeiro da distribuidora a:
+1. Não executar o Pix até a confirmação direta com o sócio.
+2. Registrar o áudio e o número como evidência.
+3. Implementar internamente a regra de dupla confirmação para pagamentos acima de determinado valor.
+
+---
+
+## 4 — WhatsApp oferecendo anuidade do CRC com 30% de desconto via Pix
+
+**Não pague e não repasse o Pix.** É golpe.
+
+- O CRC **não envia cobranças por WhatsApp**.
+- Aplique a mesma regra: confirme pelo canal oficial do seu CRC regional (site ou telefone conhecido).
+- Denuncie o número ao próprio CRC e, se possível, ao Ministério Público ou à delegacia de crimes cibernéticos.
+
+---
+
+## 5 — Cliente MEI pagou R$ 350,00 a um falso contador por uma "Decore registrada"
+
+O cliente foi vítima de um **golpe de estelionato com falsidade ideológica**: alguém se passou por profissional do escritório.
+
+Duas informações importantes para orientar o cliente:
+- A **Decore é gratuita**, emitida pelo sistema do próprio CFC e assinada com certificado digital pelo contador registrado — nunca se paga para "liberar" uma.
+- Nenhum profissional legítimo cobra Pix avulso por esse serviço.
+
+**Ações imediatas:**
+1. **Boletim de Ocorrência** — o cliente deve registrar hoje.
+2. O escritório deve **denunciar a fraude ao CRC** (uso indevido do nome do profissional/escritório).
+3. Tentar o **ressarcimento junto ao banco** via MED (Mecanismo Especial de Devolução do Pix) — prazo curto, agir rápido.
+4. Emitir a Decore correta, sem custo, pelo sistema do CFC.
+
+---
+
+## 6 — E-mail do escritório disparou sozinho um link de "boleto" para todos os clientes
+
+**A caixa de e-mail foi comprometida.** Trate como incidente de segurança ativo.
+
+**Agora:**
+- Troque a senha do e-mail **imediatamente** e ative autenticação de dois fatores (2FA).
+- Envie uma **comunicação urgente a todos os clientes** avisando para **não clicar no link** e deletar o e-mail.
+- Verifique o histórico de acesso da conta (IP, horários) para saber a extensão da invasão.
+
+**Nas próximas horas:**
+- Rode antivírus/antimalware em todas as máquinas do escritório.
+- Verifique se outros dados foram acessados ou exfiltrados (certificados, arquivos de clientes).
+- Avalie se o incidente configura **violação de dados sob a LGPD** — se sim, notificação à ANPD e aos titulados afetados pode ser obrigatória.
+- Considere acionar um profissional de segurança da informação para varredura completa.
+
+---
+
+**Resumo de prioridade:**
+
+| # | Urgência | Ação principal |
+|---|----------|---------------|
+| 6 | 🔴 Agora | Trocar senha, alertar clientes, varredura |
+| 2 | 🔴 Hoje | Revogar 60 certificados, notificar clientes |
+| 3 | 🔴 Hoje | Não pagar; confirmar com o sócio por canal conhecido |
+| 5 | 🟠 Hoje | BO + MED + denúncia ao CRC |
+| 1 | 🟡 Esta semana | Recusar certificado; configurar procuração e-CAC |
+| 4 | 🟡 Esta semana | Ignorar/denunciar; confirmar com CRC pelo canal oficial |
+
+--- Você:
+Agora monte o checklist para trocar os certificados dos clientes que estão guardados aqui no escritório por procuração eletrônica.
+--- IA:
+# Checklist — Migração de Certificados A1 para Procuração Eletrônica
+
+---
+
+## Fase 1 — Levantamento interno (escritório)
+
+- [ ] Listar **todos os clientes** que têm certificado A1 guardado no escritório (nome, CNPJ, tipo: MEI / Simples / Lucro Presumido / Lucro Real)
+- [ ] Registrar, para cada um: **data de validade do certificado** e **quais serviços do e-CAC** o escritório acessa em nome deles
+- [ ] Verificar se o certificado **e-CNPJ do escritório** está válido — é ele que aparecerá como procurador
+- [ ] Definir um **conjunto padrão de serviços** a solicitar na procuração por tipo de cliente (ver sugestão abaixo)
+- [ ] Estabelecer uma **data-limite interna** para concluir a migração de todos os clientes
+
+> **Sugestão de serviços por perfil:**
+> | Perfil | Serviços mínimos sugeridos |
+> |--------|---------------------------|
+> | MEI | SIMEI, PGMEI, emissão de DAS |
+> | Simples Nacional | Simples Nacional, PGDAS-D, DCTFWeb |
+> | Lucro Presumido / Real | SPED, ECF, DCTFWeb, Parcelamentos, Caixa Postal |
+> | Todos | Consulta de situação fiscal, Caixa Postal Eletrônica |
+
+---
+
+## Fase 2 — Comunicação aos clientes
+
+- [ ] Redigir uma **mensagem clara e simples** explicando:
+  - Por que o escritório está fazendo essa mudança
+  - O que o cliente precisa fazer (conceder a procuração)
+  - O prazo para concluir
+  - Que após a migração o certificado dele **não ficará mais armazenado** no escritório
+- [ ] Enviar pelo canal principal de cada cliente (e-mail ou WhatsApp)
+- [ ] Marcar quem confirmou recebimento e quem não respondeu
+- [ ] Ter um roteiro de resposta para dúvidas frequentes ("Vou perder acesso a alguma coisa?" — Não. "Preciso pagar algo?" — Não.)
+
+---
+
+## Fase 3 — O cliente concede a procuração no e-CAC
+
+> Esta fase é executada **pelo próprio cliente** — pode ser feita com suporte remoto do escritório (tela compartilhada ou vídeo).
+
+- [ ] Cliente acessa **gov.br → e-CAC** (https://cav.receita.fazenda.gov.br)
+- [ ] Faz login com:
+  - Conta gov.br nível **Ouro ou Prata** (sem precisar de certificado), **ou**
+  - Próprio **certificado digital** (e-CPF ou e-CNPJ)
+- [ ] No e-CAC, acessa **"Outros serviços" → "Procuração Eletrônica"** (ou pesquisa "Procuração" na barra de busca)
+- [ ] Clica em **"Cadastrar Procuração"**
+- [ ] Preenche os dados do **outorgado (o escritório):**
+  - CNPJ do escritório
+  - Nome/razão social
+- [ ] Seleciona os **serviços a autorizar** (conforme definido na Fase 1)
+  - ⚠️ Se marcar "Todos os serviços", a autorização valerá inclusive para serviços futuros que forem adicionados ao e-CAC
+- [ ] Define o **prazo de validade** (máximo: 5 anos — use o máximo para evitar renovações frequentes)
+- [ ] Confirma e **salva o comprovante** (PDF ou print)
+- [ ] Encaminha o comprovante ao escritório
+
+---
+
+## Fase 4 — Validação pelo escritório
+
+- [ ] Acessar o e-CAC com o certificado do escritório e confirmar que a procuração **aparece ativa** em "Procurações Recebidas"
+- [ ] Testar acesso a **pelo menos um serviço** autorizado para aquele cliente
+- [ ] Marcar o cliente como **"migrado"** na lista da Fase 1
+- [ ] Arquivar o comprovante da procuração (PDF) na pasta digital do cliente
+
+---
+
+## Fase 5 — Descarte seguro dos certificados A1 armazenados
+
+> Só execute esta fase **após confirmar** que a procuração está ativa e testada.
+
+- [ ] Deletar o arquivo do certificado A1 do cliente dos servidores e computadores do escritório
+- [ ] Deletar senhas salvas em planilhas, gerenciadores de senha locais ou anotações físicas
+- [ ] Verificar backups e nuvem — excluir cópias de lá também
+- [ ] Confirmar que **nenhuma senha** do cliente ficou armazenada em qualquer sistema do escritório
+- [ ] Registrar internamente a data do descarte
+
+---
+
+## Fase 6 — Controle contínuo
+
+- [ ] Criar uma **planilha de controle das procurações** com:
+  - Nome/CNPJ do cliente
+  - Data de início e data de vencimento da procuração
+  - Serviços autorizados
+  - Responsável pelo relacionamento
+
+- [ ] Configurar **alertas de vencimento** com 60 e 30 dias de antecedência
+
+- [ ] Incluir no processo de **offboarding de clientes:** cancelar a procuração em "Minhas Autorizações de Acesso" no e-CAC assim que o contrato encerrar
+
+- [ ] Incluir no processo de **onboarding de novos clientes:** a concessão da procuração é etapa obrigatória antes de qualquer acesso
+
+---
+
+## Resumo visual das fases
+
+```
+[1] Levantamento → [2] Comunicação → [3] Cliente concede
+       ↓                                       ↓
+[6] Monitoramento ← [5] Descarte ← [4] Escritório valida
+```
+
+---
+
+> **Prioridade imediata:** os 60 clientes do incidente com o ex-funcionário (situação 2) devem passar por esta Fase 3 em paralelo com a revogação dos certificados — assim que o certificado novo for emitido, a procuração já pode ser cadastrada e o escritório não perde acesso a nenhum serviço.
+
+### 2026-10-09 23:13 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Aconteceram estas seis situações esta semana. O que eu faço em cada uma? Use as regras coladas abaixo.
+
+1) Uma cliente, dona de uma clínica de estética, quer deixar o certificado e-CNPJ A1 dela aqui no escritório, com a senha, "para facilitar".
+2) Um ex-funcionário, que saiu há dois meses, ainda tem no notebook pessoal uma cópia da pasta com os arquivos dos certificados A1 de 60 clientes e as senhas.
+3) O financeiro de uma distribuidora cliente recebeu no WhatsApp um áudio com a voz do sócio pedindo um Pix urgente de R$ 48.700,00, hoje, para um "fornecedor novo". Ele quer saber se paga.
+4) Chegou no WhatsApp do escritório uma mensagem: "CRC - anuidade 2027 com 30% de desconto até sexta, pague pelo Pix abaixo".
+5) Um cliente MEI pagou R$ 350,00 por Pix "à contadora", que pediu uma "Decore registrada" para liberar um empréstimo. Ninguém do escritório pediu isso.
+6) A caixa de e-mail do escritório mandou ontem, sem ninguém daqui saber, um e-mail com um link de "boleto atualizado" para todos os clientes.
+
+As regras, como estão nas fontes:
+- O uso do certificado do escritório para os clientes "é permitido apenas aos escritórios de contabilidade que já tenham sido previamente autorizados por seus clientes, mediante estabelecimento de procuração eletrônica, que deve ser cadastrada através da opção de atendimento Procuração Eletrônica do e-CAC" (Receita Federal, perguntas sobre certificados digitais).
+- Procuração no e-CAC (gov.br, "Cadastrar ou cancelar procuração para acesso ao e-CAC"): "Você pode escolher quais serviços o representante digital procurador digital poderá acessar. Se selecionar todos, ele também terá acesso a novos serviços que forem adicionados no futuro." "A autorização de acesso (procuração digital) é válida por até 5 anos ou pelo tempo definido pelo outorgante." Dá para consultar e cancelar em "Minhas Autorizações de acesso" e restringir, "limitando os processos aos quais a pessoa autorizada terá acesso" (Receita, Procurações).
+- Certificado (ITI, perguntas frequentes): "A chave privada e sua senha de acesso não devem ser compartilhadas com ninguém"; "é perfeitamente possível que o responsável de uso de um certificado digital de pessoa jurídica solicite diretamente a revogação do respectivo certificado, independentemente da prévia autorização ou participação da pessoa jurídica titular."
+- Decore: "a Decore é emitida pelo sistema do próprio Conselho, e deve, obrigatoriamente, ser assinada com certificado digital pelo profissional da contabilidade" (CFC, 2022).
+- Regra do escritório: ordem de pagamento só se confirma por outro número já conhecido, nunca pelo canal que fez o pedido.
+--- IA:
+# O que fazer em cada situação
+
+---
+
+## 1 · Cliente quer deixar o certificado A1 e a senha no escritório
+
+**Não aceite.** O ITI é explícito: *"a chave privada e sua senha de acesso não devem ser compartilhadas com ninguém."* Guardar o arquivo A1 + senha de terceiros é exatamente isso.
+
+**O caminho correto:**
+- Peça à cliente que cadastre uma **procuração eletrônica no e-CAC** em nome do escritório.
+- Na hora do cadastro, selecione **apenas os serviços necessários** (a Receita permite restringir o escopo).
+- A validade pode ser definida pela própria cliente (até 5 anos) e ela pode cancelar quando quiser em "Minhas Autorizações de acesso".
+- Assim o escritório acessa o e-CAC legalmente, sem jamais tocar no certificado dela.
+
+---
+
+## 2 · Ex-funcionário com cópia dos 60 certificados A1 e senhas
+
+Isso é uma **violação de dados ativa** (LGPD, art. 48). Aja hoje:
+
+| Passo | O que fazer |
+|---|---|
+| **1 – Notificar** | Comunique os 60 clientes imediatamente sobre o incidente. |
+| **2 – Revogar** | Solicite a revogação de todos os 60 certificados junto à AC emissora. O ITI confirma que o responsável pelo uso pode revogar **sem precisar da autorização prévia do titular**. |
+| **3 – Reemitir** | Oriente cada cliente a emitir um novo certificado. |
+| **4 – Ex-funcionário** | Exija por escrito a exclusão dos arquivos e documente. Se necessário, acione advogado para notificação formal. |
+| **5 – Processo interno** | Revise: senhas nunca devem ser salvas junto ao arquivo A1; acesso a pastas sensíveis deve ser revogado no desligamento. |
+
+---
+
+## 3 · Financeiro recebeu áudio no WhatsApp com "voz do sócio" pedindo Pix de R$ 48.700,00
+
+**Não pague.** Aplica-se diretamente a regra do escritório:
+
+> *"Ordem de pagamento só se confirma por outro número já conhecido, nunca pelo canal que fez o pedido."*
+
+Além disso, áudios com voz clonada por IA são o golpe mais comum de 2024–2026 no Brasil.
+
+**O que orientar o financeiro:**
+1. **Ligue agora** para o sócio no número cadastrado (não responda no mesmo WhatsApp).
+2. Se não conseguir falar, **não pague** — nenhum fornecedor legítimo aceita somente "hoje".
+3. Se confirmar que é golpe, registre **BO** e preserve o áudio como prova.
+
+---
+
+## 4 · Mensagem no WhatsApp do escritório: "CRC – anuidade 2027 com 30% de desconto, pague pelo Pix"
+
+**Golpe. Não pague.**
+
+- O CRC não cobra anuidades por WhatsApp com link de Pix avulso.
+- Pela mesma regra interna: nunca confirme nem pague pelo canal que fez o pedido.
+
+**Ações:**
+1. Consulte boleto/anuidade **direto no portal oficial do seu CRC**.
+2. Encaminhe a mensagem para o setor de fiscalização do CRC para registro.
+3. Alerte os demais funcionários do escritório.
+
+---
+
+## 5 · Cliente MEI pagou R$ 350,00 por Pix "à contadora" para uma "Decore registrada"
+
+**Fraude com uso indevido do nome do escritório.**
+
+A regra do CFC é clara: a Decore *"é emitida pelo sistema do próprio Conselho e deve, obrigatoriamente, ser assinada com certificado digital pelo profissional da contabilidade."* Nenhum profissional cobra Pix avulso para "liberar" uma Decore — ela sai direto do sistema do CRC, sem taxa separada ao cliente.
+
+**O que fazer:**
+1. **Informe o cliente** formalmente que ninguém do escritório fez esse pedido.
+2. Oriente-o a **registrar BO** e acionar o banco para tentativa de estorno.
+3. Registre uma **denúncia no CRC** por uso indevido do nome do escritório/profissão.
+4. Avise os demais clientes (comunicado curto) de que ninguém do escritório cobrará Pix para emitir Decore.
+
+---
+
+## 6 · O e-mail do escritório enviou sozinho um link de "boleto atualizado" para todos os clientes
+
+**A conta de e-mail foi comprometida (invasão).** Trate como incidente de segurança grave agora:
+
+| Ordem | Ação imediata |
+|---|---|
+| **1** | **Mude a senha** da conta e ative **autenticação de dois fatores** imediatamente. |
+| **2** | **Avise todos os clientes** por outro canal (WhatsApp, ligação) que o e-mail foi falso — **não cliquem no link**. |
+| **3** | Verifique se algum cliente clicou ou pagou; se sim, acione-os individualmente. |
+| **4** | Rode antivírus/antimalware em todas as máquinas do escritório. |
+| **5** | Verifique regras de encaminhamento e filtros na caixa (invasores costumam criar redirecionamentos ocultos). |
+| **6** | Notifique a **ANPD** se houver confirmação de dados de clientes vazados (LGPD, art. 48 — prazo de 72 h). |
+| **7** | Registre **BO** para documentar o incidente. |
+
+---
+
+### Resumo executivo
+
+| # | Natureza | Ação principal |
+|---|---|---|
+| 1 | Procedimento errado | Recusar; fazer procuração e-CAC |
+| 2 | Vazamento de dados | Revogar 60 certificados + notificar clientes hoje |
+| 3 | Golpe do áudio/deepfake | Não pagar; ligar para sócio em número conhecido |
+| 4 | Phishing de CRC | Não pagar; verificar no portal oficial |
+| 5 | Fraude com nome do escritório | BO + denúncia CRC + avisar clientes |
+| 6 | Conta de e-mail hackeada | Trocar senha + 2FA + avisar todos os clientes agora |
+
+--- Você:
+Agora monte o checklist para trocar os certificados dos clientes que estão guardados aqui no escritório por procuração eletrônica.
+--- IA:
+# Checklist — Migração de Certificados A1 para Procuração Eletrônica no e-CAC
+
+---
+
+## Fase 1 · Levantamento interno
+*Fazer antes de qualquer contato com clientes*
+
+- [ ] Listar **todos os clientes** cujos certificados A1 estão guardados no escritório (nome, CNPJ, AC emissora, data de vencimento do certificado)
+- [ ] Verificar, para cada um, **quais serviços do e-CAC** o escritório realmente usa em nome desse cliente (DCTF, eSocial, Simples Nacional, PGFN etc.)
+- [ ] Confirmar que o **certificado e-CNPJ do próprio escritório** está válido e acessível — ele é necessário para o escritório operar como procurador
+- [ ] Definir o **prazo de validade padrão** que será pedido em cada procuração (máximo 5 anos; sugestão: alinhar ao contrato de prestação de serviços)
+- [ ] Designar **quem no escritório** vai conduzir o processo (responsável técnico + backup)
+
+---
+
+## Fase 2 · Comunicação com os clientes
+
+- [ ] Elaborar comunicado explicando:
+  - Por que o modelo atual (guardar o A1) é proibido pelo ITI
+  - O que é a procuração eletrônica e o que muda na prática para o cliente
+  - Que o escritório continuará fazendo tudo como antes, só o acesso muda
+- [ ] Enviar o comunicado **por escrito** (e-mail ou carta) para o responsável legal de cada empresa cliente — não apenas para o financeiro ou operador
+- [ ] Incluir no comunicado o **prazo limite** para concluir a migração
+- [ ] Registrar data de envio e confirmação de leitura (acuse de recebimento ou leitura de e-mail)
+
+---
+
+## Fase 3 · Cadastro da procuração no e-CAC
+*Repetir para cada cliente*
+
+### 3a · Preparação por cliente
+- [ ] Confirmar nome e CPF/CNPJ do **representante legal** que vai outorgar a procuração
+- [ ] Verificar se esse representante tem **certificado digital válido** (precisa para acessar o e-CAC e assinar a procuração)
+- [ ] Se o representante não tiver certificado próprio válido, orientá-lo a emitir um **antes** de prosseguir
+- [ ] Levantar a lista de serviços do e-CAC a autorizar para esse cliente específico — **só o necessário**, nunca "todos" por padrão
+
+### 3b · Execução no e-CAC
+- [ ] Representante legal acessa **gov.br → e-CAC → Procuração Eletrônica → Cadastrar**
+- [ ] Informar o **CNPJ do escritório** como procurador
+- [ ] Selecionar **apenas os serviços** levantados no passo anterior
+- [ ] Definir **data de início e data de fim** da procuração
+- [ ] Confirmar e assinar com o certificado digital do outorgante
+- [ ] Gerar e salvar o **comprovante de cadastro**
+
+### 3c · Verificação após cadastro
+- [ ] Escritório acessa e-CAC com seu próprio certificado e confirma que a procuração aparece em **"Minhas Autorizações de Acesso"**
+- [ ] Testar ao menos **um serviço real** do cliente para confirmar que o acesso funciona
+- [ ] Arquivar o comprovante na pasta do cliente (físico ou GED)
+
+---
+
+## Fase 4 · Descarte dos certificados A1 armazenados
+
+- [ ] Somente após confirmar que a procuração está ativa e funcionando, **excluir o arquivo A1** do servidor/pasta do escritório
+- [ ] Excluir também qualquer **planilha, bloco de notas ou e-mail** que contenha a senha do certificado desse cliente
+- [ ] Se o arquivo estiver em backup, garantir que a próxima rotina de backup **sobrescreva ou exclua** o arquivo antigo
+- [ ] Registrar data e responsável pela exclusão
+
+---
+
+## Fase 5 · Controle contínuo
+
+- [ ] Criar planilha ou tarefa no sistema do escritório com:
+  - Cliente | CNPJ | Data de início da procuração | Data de vencimento | Serviços autorizados | Responsável interno
+- [ ] Programar **alerta com 60 dias de antecedência** ao vencimento de cada procuração para solicitar renovação ao cliente
+- [ ] Revisar o escopo de serviços autorizados sempre que houver **mudança no contrato** com o cliente
+- [ ] Em caso de **rescisão de contrato**, cancelar imediatamente a procuração pelo e-CAC (Minhas Autorizações de Acesso → Cancelar)
+- [ ] Incluir no checklist de **desligamento de funcionários** a revogação de qualquer acesso a procurações ou certificados
+
+---
+
+## Resumo de responsabilidades
+
+| Etapa | Quem faz |
+|---|---|
+| Levantamento e comunicado | Escritório |
+| Emissão de certificado próprio (se necessário) | Cliente |
+| Cadastro da procuração no e-CAC | Cliente (representante legal) |
+| Verificação e teste de acesso | Escritório |
+| Exclusão do A1 armazenado | Escritório |
+| Monitoramento de vencimentos | Escritório |
+| Cancelamento em caso de rescisão | Escritório |
+
+---
+
+> **Ponto de atenção:** clientes que **não tiverem certificado digital próprio** travam o processo — mapeie-os ainda na Fase 1 e resolva isso em paralelo, antes de chegar à Fase 3.
+

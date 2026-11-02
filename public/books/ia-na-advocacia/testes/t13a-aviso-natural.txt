@@ -1,0 +1,200 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t13, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t13a-N1 — aviso, natural
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Escreva um aviso para os clientes do escritório sobre o golpe do falso advogado.
+--- IA:
+# Aviso aos Clientes — Golpe do Falso Advogado
+
+---
+
+## ⚠️ ATENÇÃO: COMUNICADO IMPORTANTE DE SEGURANÇA
+
+**Prezados Clientes,**
+
+Vimos por meio deste comunicado alertá-los sobre uma prática fraudulenta que tem se tornado cada vez mais comum: o **golpe do falso advogado**.
+
+---
+
+### Como funciona o golpe?
+
+Criminosos entram em contato com clientes — geralmente por **telefone, WhatsApp ou e-mail** — se passando por advogados ou funcionários de escritórios de advocacia. Eles costumam:
+
+- Alegar que há uma **urgência no seu processo** (prazo a vencer, risco de penhora, ordem judicial etc.);
+- Solicitar **pagamentos imediatos** via PIX, transferência bancária ou boleto, muitas vezes em nome de taxas, custas judiciais ou honorários;
+- Pedir **dados pessoais, documentos ou senhas** com pretexto de dar andamento ao caso;
+- Utilizar **nomes reais de advogados** do escritório para passar credibilidade.
+
+---
+
+### Como se proteger?
+
+✅ **Desconfie de contatos não esperados**, mesmo que o interlocutor cite seu nome ou detalhes do seu processo.
+
+✅ **Nunca realize pagamentos** sem antes confirmar diretamente com o escritório pelos canais oficiais.
+
+✅ **Ligue ou compareça pessoalmente** ao escritório para confirmar qualquer solicitação urgente.
+
+✅ **Não compartilhe senhas, documentos ou dados bancários** por telefone ou aplicativos de mensagens.
+
+✅ Em caso de dúvida, **encerre a comunicação imediatamente** e entre em contato conosco.
+
+---
+
+### Nossos canais oficiais de atendimento
+
+> 📞 **Telefone:** *(inserir número)*
+> 📧 **E-mail:** *(inserir e-mail oficial)*
+> 🌐 **Site:** *(inserir endereço do site)*
+> 📍 **Endereço:** *(inserir endereço físico)*
+
+---
+
+> 🔴 **Lembre-se:** Nosso escritório **jamais solicitará pagamentos urgentes por WhatsApp** nem pedirá transferências para contas de terceiros sem comunicação prévia e formal.
+
+Se você suspeitar que foi vítima desse golpe, **registre um Boletim de Ocorrência** e nos comunique imediatamente.
+
+Contamos com a sua atenção e vigilância.
+
+**Atenciosamente,**
+*(Nome do Escritório)*
+*(Cidade, data)*
+
+---
+
+*Este comunicado foi enviado a todos os nossos clientes como medida preventiva. Caso receba mensagens suspeitas em nome do escritório, não hesite em nos contatar.*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t13a-N2 — aviso, natural
+### 2026-10-13 10:02 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Escreva um aviso para os clientes do escritório sobre o golpe do falso advogado.
+--- IA:
+# Aviso aos Clientes
+
+---
+
+## ⚠️ ALERTA: GOLPE DO FALSO ADVOGADO
+
+Prezados clientes,
+
+Comunicamos, com urgência, que temos recebido relatos de **pessoas se passando por advogados deste escritório** com o objetivo de obter vantagens financeiras indevidas.
+
+---
+
+### Como o golpe funciona
+
+Criminosos entram em contato — por telefone, WhatsApp ou e-mail — fingindo ser advogados ou representantes do escritório. Em geral, solicitam:
+
+- Pagamentos de taxas, custas ou honorários por meios não oficiais (Pix, transferência para conta pessoal, etc.);
+- Documentos pessoais e sigilosos;
+- Informações sobre processos em andamento.
+
+---
+
+### Como se proteger
+
+✅ **Confirme sempre** qualquer solicitação diretamente conosco pelos canais oficiais antes de realizar qualquer pagamento ou fornecer documentos.
+
+✅ **Desconfie** de contatos não solicitados, mesmo que a pessoa demonstre conhecer detalhes do seu processo.
+
+✅ **Nunca realize pagamentos** para contas pessoais ou mediante solicitação feita exclusivamente por mensagem.
+
+✅ **Verifique** o número de inscrição na OAB do profissional que entrou em contato pelo site **cna.oab.org.br**.
+
+---
+
+### Nossos canais oficiais
+
+> 📞 **(XX) XXXX-XXXX**
+> 📧 **contato@escritorio.exemplo**
+> 🌐 **www.escritorio.com.br**
+
+---
+
+Caso tenha recebido alguma abordagem suspeita, entre em contato imediatamente conosco e registre um **Boletim de Ocorrência** junto à Delegacia de Crimes Cibernéticos.
+
+Contamos com sua atenção e vigilância.
+
+Atenciosamente,
+
+**[Nome do Escritório]**
+*Advocacia e Consultoria Jurídica*
+
+---
+*Escritório não se responsabiliza por negociações realizadas fora dos canais acima informados.*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t13a-N3 — aviso, natural
+### 2026-10-13 10:02 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Escreva um aviso para os clientes do escritório sobre o golpe do falso advogado.
+--- IA:
+# Aviso aos Clientes — Golpe do Falso Advogado
+
+---
+
+## ⚠️ ATENÇÃO: ALERTA DE SEGURANÇA
+
+**Prezados Clientes,**
+
+Comunicamos, com caráter de **urgência**, que tomamos conhecimento de uma prática criminosa em que **indivíduos se passam por advogados deste escritório** para aplicar golpes financeiros e obter informações pessoais de clientes.
+
+---
+
+### Como o golpe funciona
+
+Os fraudadores costumam:
+
+- Entrar em contato **por telefone, WhatsApp ou e-mail** fingindo ser advogado do escritório;
+- Informar sobre uma **suposta atualização processual, acordo ou decisão judicial favorável**;
+- Solicitar o pagamento de **custas, taxas, depósitos ou honorários** para "liberar" valores ou dar continuidade ao processo;
+- Pedir **dados pessoais e bancários** do cliente;
+- Usar nomes reais de advogados do escritório para parecer legítimos.
+
+---
+
+### Como se proteger
+
+✅ **Sempre confirme** qualquer contato diretamente conosco pelos nossos canais oficiais antes de tomar qualquer atitude.
+
+✅ **Nunca realize transferências ou pagamentos** sem antes verificar a solicitação pessoalmente ou por meio de contato iniciado por você mesmo.
+
+✅ **Desconfie de urgências** — golpistas usam pressão para impedir que você reflita.
+
+✅ **Não compartilhe** documentos, senhas ou dados bancários por mensagem.
+
+---
+
+### Nossos canais oficiais
+
+> 📞 **Telefone:** *(inserir número)*
+> 📧 **E-mail:** *(inserir e-mail oficial)*
+> 🌐 **Site:** *(inserir endereço)*
+> 📍 **Endereço:** *(inserir endereço físico)*
+
+---
+
+### Em caso de suspeita
+
+Se você recebeu qualquer contato suspeito em nome deste escritório, **não responda, não pague e não forneça dados**. Entre em contato conosco **imediatamente** e registre um **Boletim de Ocorrência** pelo site da Delegacia Eletrônica do seu estado.
+
+---
+
+*Sua segurança é nossa prioridade. Este escritório **jamais solicitará pagamentos por mensagem ou aplicativos de terceiros** sem comunicação formal prévia.*
+
+**Atenciosamente,**
+*(Nome do Escritório)*
+*(Data)*
+
+---
+
+> 💡 **Dica:** Salve nossos contatos oficiais na sua agenda agora mesmo para facilitar a verificação em caso de dúvida.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

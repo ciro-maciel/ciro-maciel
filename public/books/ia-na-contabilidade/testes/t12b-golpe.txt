@@ -1,0 +1,362 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t12b, rodado em 09/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:35 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Trabalho num escritório de contabilidade. Os clientes me mandaram estas seis mensagens e cartas (sem os links e sem os dados deles). Para cada uma, diga quais dos sinais oficiais colados abaixo aparecem; não diga se é verdadeira: diga em que serviço oficial o cliente confere (e-CAC, DTE-SN, Meu Imposto de Renda, Portal do Simples), entrando por conta própria, não pelo que veio na mensagem.
+
+Mensagem 1 (carta pelo Correio, recebida pela Cliente A):
+"MINISTÉRIO DA FAZENDA - RECEITA FEDERAL. Prezada contribuinte [nome], CPF [CPF]. Sua Declaração de Ajuste Anual do Imposto sobre a Renda da Pessoa Física 2026, ano-calendário 2025, está retida em malha fiscal. Para saber o motivo da retenção, consulte o serviço Meu Imposto de Renda, no site da Receita Federal ou no aplicativo, com sua conta gov.br nível prata ou ouro. Se houver erro nas informações declaradas, apresente declaração retificadora. Não é preciso comparecer a uma unidade da Receita Federal. Corrigir as informações antes de ser intimado evita multas."
+
+Mensagem 2 (e-mail recebido pelo Cliente B):
+"De: Receita Federal do Brasil <[retirado]>
+Assunto: Pendência fiscal no CPF [CPF]
+Identificamos pendência na sua declaração. Regularize em até 48 horas para evitar o bloqueio do CPF: [link retirado]"
+
+Mensagem 3 (carta com guia, recebida pelo Cliente C):
+"DOCUMENTO DE ARRECADAÇÃO DO SIMPLES NACIONAL - DAS. Período de apuração: 08/2026. Valor: R$ 1.874,32. Pague em até 5 dias para evitar multa de até 225%. Pagamento somente por Pix: [QR Code]. Beneficiário: SN ARRECADACAO DIGITAL LTDA, CNPJ 41.872.305/0001-10."
+
+Mensagem 4 (WhatsApp recebido pelo Cliente D):
+"SIMPLES NACIONAL - AVISO: o CNPJ [CNPJ] será SUSPENSO hoje às 18h por débitos em aberto. Regularize agora: [link retirado]"
+
+Mensagem 5 (o Cliente E mandou um print e disse que "chegou da Receita"):
+"TERMO DE EXCLUSÃO DO SIMPLES NACIONAL Nº [número]. Contribuinte: [nome], CNPJ [CNPJ]. Fica o contribuinte ciente de que será excluído do Simples Nacional a partir de 01/01/2027, por possuir débitos com a Receita Federal, conforme o Relatório de Pendências. A exclusão não ocorrerá se a totalidade dos débitos for regularizada no prazo de 90 (noventa) dias contados da ciência deste termo. Contestação: 20 dias úteis da ciência."
+
+Mensagem 6 (carta recebida pelo Cliente F):
+"RECEITA FEDERAL - TERMO DE INTIMAÇÃO FISCAL Nº [número]. Fica o contribuinte INTIMADO a regularizar seus dados cadastrais e apresentar o livro-caixa de 2025 no prazo de 20 (vinte) dias, sob pena de multa e inaptidão do CNPJ. Acesse o processo em [link retirado] com o código [código]."
+
+Os sinais oficiais (com a fonte e a data):
+- "A Receita Federal não envia e-mails com links ou solicita direcionamento para páginas não oficiais." Criminosos já enviaram mensagens que escondem o remetente verdadeiro e mostram "um endereço de e-mail legítimo da Receita Federal" (notícia da Receita, 23/04/2025).
+- "Receita Federal não utiliza SMS nem WhatsApp em seus procedimentos de cobrança de débitos." (Receita Federal)
+- Pix do DAS: "verificar se o destino do pagamento que consta na prévia do PIX é o CNPJ 00.394.460/0058-87. Qualquer outro é fraudulento." "O domínio de acesso ao serviço deve conter receita.fazenda.gov.br no link." (Portal do Simples Nacional, 30/07/2024). Já houve guia falsa do Simples em que o Pix era a "única opção no documento falso", com "ameaça de multa altíssima de até 225%" (Portal do Simples Nacional, 16/03/2022).
+- Termo de exclusão do Simples: os termos são disponibilizados no "Domicílio Tributário Eletrônico do Simples Nacional e MEI (DTE-SN)" e podem ser acessados "pelo Portal do Simples Nacional, por meio do DTE-SN, ou pelo Portal e-CAC"; o contribuinte tem "90 dias da data de ciência do Termo de Exclusão para regularizar seus débitos" (Portal do Simples Nacional, 2026).
+- Malha do IRPF: a pendência se consulta no serviço "Meu Imposto de Renda", com conta gov.br prata ou ouro (Receita, Projeto Cartas 2026).
+- Cartas falsas de "Intimação para regularização de dados cadastrais", com o logotipo da Receita, levam a site falso; "O atendimento está disponível por meio do e-CAC" (notícia da Receita, 11/03/2025).
+--- IA:
+## Análise das seis mensagens
+
+---
+
+### Mensagem 1 — Carta (Cliente A) | Malha do IRPF
+
+**Sinais oficiais que aparecem:**
+- ✅ Malha do IRPF se consulta no **"Meu Imposto de Renda"**, com conta gov.br nível prata ou ouro — exatamente o que a carta orienta.
+
+**Onde conferir:**
+> **Meu Imposto de Renda** — no site oficial da Receita Federal (`receita.fazenda.gov.br`) ou pelo aplicativo, acessando com a própria conta gov.br. **Não usar nenhum link da carta.**
+
+---
+
+### Mensagem 2 — E-mail (Cliente B) | Pendência no CPF com link
+
+**Sinais oficiais que aparecem:**
+- 🚩 **"A Receita Federal não envia e-mails com links"** — este e-mail contém link.
+- 🚩 Criminosos já enviaram mensagens mostrando **endereço de remetente aparentemente legítimo** (`[retirado]` é exatamente o modelo citado na notícia de 23/04/2025).
+
+**Onde conferir:**
+> **e-CAC** (`cav.receita.fazenda.gov.br`), acessando diretamente com conta gov.br, na Caixa Postal ou em "Serviços do CPF". **Não clicar no link do e-mail.**
+
+---
+
+### Mensagem 3 — Carta com guia DAS (Cliente C) | Pix suspeito
+
+**Sinais oficiais que aparecem:**
+- 🚩 **Pix com CNPJ diferente de `00.394.460/0058-87`** — o beneficiário indicado ("SN ARRECADACAO DIGITAL LTDA", CNPJ `41.872.305/0001-10`) é diferente do CNPJ oficial; qualquer outro é **fraudulento**.
+- 🚩 **Pix como "única opção de pagamento"** — padrão identificado nas guias falsas do Simples.
+- 🚩 **Ameaça de multa de até 225%** — sinal apontado especificamente pelo Portal do Simples Nacional (16/03/2022) como característico de guias falsas.
+
+**Onde conferir:**
+> **Portal do Simples Nacional** (`simples.receita.fazenda.gov.br`), gerando o DAS original pelo PGDAS-D. Conferir na prévia do Pix se o destino é o CNPJ `00.394.460/0058-87`. **Não pagar a guia recebida.**
+
+---
+
+### Mensagem 4 — WhatsApp (Cliente D) | Ameaça de suspensão do CNPJ
+
+**Sinais oficiais que aparecem:**
+- 🚩 **"A Receita Federal não utiliza SMS nem WhatsApp"** em procedimentos de cobrança de débitos — esta mensagem chegou por WhatsApp.
+- 🚩 Contém link para regularização.
+
+**Onde conferir:**
+> **Portal do Simples Nacional** (`simples.receita.fazenda.gov.br`) — situação do CNPJ e eventuais débitos. Também pode ser consultado no **e-CAC**. **Não acessar o link do WhatsApp.**
+
+---
+
+### Mensagem 5 — Print (Cliente E) | Termo de Exclusão do Simples Nacional
+
+**Sinais oficiais que aparecem:**
+- ✅ **Prazo de 90 dias** para regularizar os débitos após a ciência do Termo — confere com o prazo oficial.
+- ✅ **Prazo de 20 dias úteis** para contestação — formato compatível com o documento oficial.
+- ℹ️ O sinal oficial indica que os Termos de Exclusão são disponibilizados no **DTE-SN** e acessíveis pelo Portal do Simples Nacional ou pelo e-CAC — o cliente deve confirmar a autenticidade lá.
+
+**Onde conferir:**
+> **DTE-SN (Domicílio Tributário Eletrônico do Simples Nacional)**, acessado pelo **Portal do Simples Nacional** ou pelo **e-CAC**, com conta gov.br. O termo autêntico estará na caixa postal do DTE-SN. **Não confiar apenas no print.**
+
+---
+
+### Mensagem 6 — Carta de Intimação Fiscal (Cliente F) | Link com código
+
+**Sinais oficiais que aparecem:**
+- 🚩 **Cartas falsas de "Intimação para regularização de dados cadastrais"** com logotipo da Receita que levam a site falso — descrição exata do que foi recebido (intimação + dados cadastrais + livro-caixa + link com código).
+- 🚩 **"O atendimento está disponível por meio do e-CAC"** — ou seja, intimações legítimas não redirecionam para links externos com código.
+
+**Onde conferir:**
+> **e-CAC** (`cav.receita.fazenda.gov.br`), na Caixa Postal, acessando diretamente com conta gov.br. Se houver intimação real, ela estará lá. **Não acessar o link nem inserir o código recebido na carta.**
+
+--- Você:
+O cliente da guia do Simples (mensagem 3) perguntou se pode pagar pelo QR Code da própria guia, que é mais rápido. E a cliente da carta do imposto de renda (mensagem 1) quer saber até quando ela tem de responder. O que eu digo a cada um?
+--- IA:
+### Cliente C — Guia do Simples: pode usar o QR Code?
+
+**Não.** O QR Code é exatamente o problema: ao escaneá-lo, a prévia do Pix mostrará o CNPJ do beneficiário fraudulento (`41.872.305/0001-10`), não o oficial (`00.394.460/0058-87`). O dinheiro iria direto para os golpistas — e o DAS real continuaria em aberto, com a multa e os juros correndo normalmente.
+
+O que ele precisa fazer é descartar essa guia por completo e gerar um DAS novo diretamente no **Portal do Simples Nacional**, onde o Pix gerado terá o CNPJ correto.
+
+---
+
+### Cliente A — Carta da malha: qual o prazo?
+
+A carta não fixa uma data-limite. O que ela sinaliza é que existe uma **janela** — o período em que a contribuinte ainda pode agir por conta própria, antes de receber uma intimação formal. Uma vez intimada, passam a valer prazos rígidos e multa mínima de 75%.
+
+Na prática, o recado é: **quanto antes, melhor.** O que você diz a ela:
+
+1. Acesse o **Meu Imposto de Renda** agora para ver qual informação gerou a retenção.
+2. Se houver erro na declaração, entregue a **retificadora o quanto antes** — isso encerra a pendência sem multa.
+3. Se ela entender que a declaração está correta, é recomendável que você (contadora) avalie a documentação antes de qualquer resposta à Receita.
+
+O prazo exato para a situação específica dela vai aparecer no próprio serviço **Meu Imposto de Renda**, mas não há motivo para esperar.
+
+### 2026-10-09 23:36 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Trabalho num escritório de contabilidade. Os clientes me mandaram estas seis mensagens e cartas (sem os links e sem os dados deles). Para cada uma, diga quais dos sinais oficiais colados abaixo aparecem; não diga se é verdadeira: diga em que serviço oficial o cliente confere (e-CAC, DTE-SN, Meu Imposto de Renda, Portal do Simples), entrando por conta própria, não pelo que veio na mensagem.
+
+Mensagem 1 (carta pelo Correio, recebida pela Cliente A):
+"MINISTÉRIO DA FAZENDA - RECEITA FEDERAL. Prezada contribuinte [nome], CPF [CPF]. Sua Declaração de Ajuste Anual do Imposto sobre a Renda da Pessoa Física 2026, ano-calendário 2025, está retida em malha fiscal. Para saber o motivo da retenção, consulte o serviço Meu Imposto de Renda, no site da Receita Federal ou no aplicativo, com sua conta gov.br nível prata ou ouro. Se houver erro nas informações declaradas, apresente declaração retificadora. Não é preciso comparecer a uma unidade da Receita Federal. Corrigir as informações antes de ser intimado evita multas."
+
+Mensagem 2 (e-mail recebido pelo Cliente B):
+"De: Receita Federal do Brasil <[retirado]>
+Assunto: Pendência fiscal no CPF [CPF]
+Identificamos pendência na sua declaração. Regularize em até 48 horas para evitar o bloqueio do CPF: [link retirado]"
+
+Mensagem 3 (carta com guia, recebida pelo Cliente C):
+"DOCUMENTO DE ARRECADAÇÃO DO SIMPLES NACIONAL - DAS. Período de apuração: 08/2026. Valor: R$ 1.874,32. Pague em até 5 dias para evitar multa de até 225%. Pagamento somente por Pix: [QR Code]. Beneficiário: SN ARRECADACAO DIGITAL LTDA, CNPJ 41.872.305/0001-10."
+
+Mensagem 4 (WhatsApp recebido pelo Cliente D):
+"SIMPLES NACIONAL - AVISO: o CNPJ [CNPJ] será SUSPENSO hoje às 18h por débitos em aberto. Regularize agora: [link retirado]"
+
+Mensagem 5 (o Cliente E mandou um print e disse que "chegou da Receita"):
+"TERMO DE EXCLUSÃO DO SIMPLES NACIONAL Nº [número]. Contribuinte: [nome], CNPJ [CNPJ]. Fica o contribuinte ciente de que será excluído do Simples Nacional a partir de 01/01/2027, por possuir débitos com a Receita Federal, conforme o Relatório de Pendências. A exclusão não ocorrerá se a totalidade dos débitos for regularizada no prazo de 90 (noventa) dias contados da ciência deste termo. Contestação: 20 dias úteis da ciência."
+
+Mensagem 6 (carta recebida pelo Cliente F):
+"RECEITA FEDERAL - TERMO DE INTIMAÇÃO FISCAL Nº [número]. Fica o contribuinte INTIMADO a regularizar seus dados cadastrais e apresentar o livro-caixa de 2025 no prazo de 20 (vinte) dias, sob pena de multa e inaptidão do CNPJ. Acesse o processo em [link retirado] com o código [código]."
+
+Os sinais oficiais (com a fonte e a data):
+- "A Receita Federal não envia e-mails com links ou solicita direcionamento para páginas não oficiais." Criminosos já enviaram mensagens que escondem o remetente verdadeiro e mostram "um endereço de e-mail legítimo da Receita Federal" (notícia da Receita, 23/04/2025).
+- "Receita Federal não utiliza SMS nem WhatsApp em seus procedimentos de cobrança de débitos." (Receita Federal)
+- Pix do DAS: "verificar se o destino do pagamento que consta na prévia do PIX é o CNPJ 00.394.460/0058-87. Qualquer outro é fraudulento." "O domínio de acesso ao serviço deve conter receita.fazenda.gov.br no link." (Portal do Simples Nacional, 30/07/2024). Já houve guia falsa do Simples em que o Pix era a "única opção no documento falso", com "ameaça de multa altíssima de até 225%" (Portal do Simples Nacional, 16/03/2022).
+- Termo de exclusão do Simples: os termos são disponibilizados no "Domicílio Tributário Eletrônico do Simples Nacional e MEI (DTE-SN)" e podem ser acessados "pelo Portal do Simples Nacional, por meio do DTE-SN, ou pelo Portal e-CAC"; o contribuinte tem "90 dias da data de ciência do Termo de Exclusão para regularizar seus débitos" (Portal do Simples Nacional, 2026).
+- Malha do IRPF: a pendência se consulta no serviço "Meu Imposto de Renda", com conta gov.br prata ou ouro (Receita, Projeto Cartas 2026).
+- Cartas falsas de "Intimação para regularização de dados cadastrais", com o logotipo da Receita, levam a site falso; "O atendimento está disponível por meio do e-CAC" (notícia da Receita, 11/03/2025).
+--- IA:
+## Análise por mensagem
+
+---
+
+### Mensagem 1 — Carta (Cliente A)
+
+**Sinais que aparecem:**
+- Sinal da malha do IRPF: a carta orienta consultar o serviço **Meu Imposto de Renda** com conta gov.br nível prata ou ouro — exatamente o canal descrito no "Projeto Cartas 2026" da Receita.
+
+**Onde o cliente confere, por conta própria:**
+**Meu Imposto de Renda** — no site `receita.fazenda.gov.br` (aba "Meu Imposto de Renda / Extrato da DIRPF") ou no aplicativo "Meu Imposto de Renda", fazendo login com a própria conta gov.br, sem usar nenhum link da carta.
+
+---
+
+### Mensagem 2 — E-mail (Cliente B)
+
+**Sinais que aparecem:**
+- Sinal sobre e-mails com links: a Receita Federal não envia e-mails com links nem solicita acesso a páginas não oficiais; criminosos já utilizaram endereços que exibem aparência de remetente legítimo (`[retirado]` é exatamente esse padrão, conforme notícia de 23/04/2025).
+
+**Onde o cliente confere, por conta própria:**
+**e-CAC** — acessando diretamente `cav.receita.fazenda.gov.br`, com conta gov.br, e verificando se há de fato alguma pendência ou notificação em nome do CPF, sem clicar em nenhum link do e-mail.
+
+---
+
+### Mensagem 3 — Carta com guia (Cliente C)
+
+**Sinais que aparecem:**
+- Sinal do Pix do DAS: o CNPJ beneficiário indicado (`41.872.305/0001-10`) é diferente do único válido para o DAS (`00.394.460/0058-87`); qualquer outro é fraudulento.
+- Adicionalmente, dois elementos do padrão já documentado pelo Portal do Simples (16/03/2022) estão presentes: Pix como **única opção de pagamento** no documento e **ameaça de multa de até 225%**.
+
+**Onde o cliente confere, por conta própria:**
+**Portal do Simples Nacional** — acessando diretamente `www8.receita.fazenda.gov.br/SimplesNacional` e gerando o DAS legítimo pelo PGDAS-D ou consultando os débitos em aberto, sem usar o QR Code recebido.
+
+---
+
+### Mensagem 4 — WhatsApp (Cliente D)
+
+**Sinais que aparecem:**
+- Sinal do WhatsApp: a Receita Federal **não utiliza SMS nem WhatsApp** em seus procedimentos de cobrança de débitos.
+
+**Onde o cliente confere, por conta própria:**
+**Portal do Simples Nacional** (para verificar a situação do CNPJ e eventuais débitos) e/ou **e-CAC** — acessando diretamente pelos endereços oficiais, sem usar o link recebido no WhatsApp.
+
+---
+
+### Mensagem 5 — Print (Cliente E)
+
+**Sinais que aparecem:**
+- Sinal do Termo de Exclusão do Simples Nacional: os termos são disponibilizados no **DTE-SN** e acessíveis pelo Portal do Simples Nacional ou pelo e-CAC; o prazo para regularização é de **90 dias da ciência** — dado que consta no próprio print.
+
+**Onde o cliente confere, por conta própria:**
+**DTE-SN** (Domicílio Tributário Eletrônico do Simples Nacional e MEI) — acessando pelo Portal do Simples Nacional em `www8.receita.fazenda.gov.br/SimplesNacional` ou pelo e-CAC, com a conta gov.br do responsável, para verificar se o termo consta de fato na caixa postal oficial.
+
+---
+
+### Mensagem 6 — Carta (Cliente F)
+
+**Sinais que aparecem:**
+- Sinal das cartas falsas de "Intimação para regularização de dados cadastrais": a Receita documentou (11/03/2025) que circulam cartas com esse exato tema, com logotipo oficial, direcionando para site falso; o canal legítimo para acompanhar intimações é o **e-CAC**.
+
+**Onde o cliente confere, por conta própria:**
+**e-CAC** — acessando diretamente `cav.receita.fazenda.gov.br`, entrando em "Processos Digitais" (e-Processo) ou "Caixa Postal", e verificando se há de fato uma intimação ou processo aberto vinculado ao CNPJ, sem usar o link nem o código informados na carta.
+
+--- Você:
+O cliente da guia do Simples (mensagem 3) perguntou se pode pagar pelo QR Code da própria guia, que é mais rápido. E a cliente da carta do imposto de renda (mensagem 1) quer saber até quando ela tem de responder. O que eu digo a cada um?
+--- IA:
+## Cliente C — guia do Simples (Mensagem 3)
+
+**Não pode usar o QR Code da guia recebida.**
+
+O motivo já foi identificado na análise anterior: o CNPJ do beneficiário no documento é **41.872.305/0001-10**, e o único CNPJ válido para receber o pagamento do DAS é **00.394.460/0058-87**. Pagar pelo QR Code dessa guia significa transferir o dinheiro para um terceiro — o valor **não quita o débito** com o Simples Nacional e dificilmente é recuperado.
+
+O que fazer: gerar um novo DAS diretamente no **Portal do Simples Nacional** (`www8.receita.fazenda.gov.br/SimplesNacional`) e, antes de confirmar o Pix, checar na prévia do pagamento se o CNPJ destinatário é exatamente `00.394.460/0058-87`.
+
+---
+
+## Cliente A — carta do IRPF (Mensagem 1)
+
+**A carta não fixa prazo.** Ela informa a retenção em malha e orienta a consultar o **Meu Imposto de Renda**, mas não estabelece uma data-limite.
+
+O que dizer à cliente: enquanto não houver uma intimação formal, ela pode apresentar a retificadora a qualquer momento — e a própria carta reforça isso ("corrigir antes de ser intimado evita multas"). O prazo só passa a correr a partir do momento em que ela for efetivamente intimada, e aí normalmente são **30 dias**.
+
+Portanto, o conselho prático é não esperar: ela deve acessar o **Meu Imposto de Renda** agora para ver o motivo exato da retenção, e corrigir o quanto antes — justamente para que a intimação (com prazo) não chegue antes da retificadora.
+
+### 2026-10-09 23:38 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Trabalho num escritório de contabilidade. Os clientes me mandaram estas seis mensagens e cartas (sem os links e sem os dados deles). Para cada uma, diga quais dos sinais oficiais colados abaixo aparecem; não diga se é verdadeira: diga em que serviço oficial o cliente confere (e-CAC, DTE-SN, Meu Imposto de Renda, Portal do Simples), entrando por conta própria, não pelo que veio na mensagem.
+
+Mensagem 1 (carta pelo Correio, recebida pela Cliente A):
+"MINISTÉRIO DA FAZENDA - RECEITA FEDERAL. Prezada contribuinte [nome], CPF [CPF]. Sua Declaração de Ajuste Anual do Imposto sobre a Renda da Pessoa Física 2026, ano-calendário 2025, está retida em malha fiscal. Para saber o motivo da retenção, consulte o serviço Meu Imposto de Renda, no site da Receita Federal ou no aplicativo, com sua conta gov.br nível prata ou ouro. Se houver erro nas informações declaradas, apresente declaração retificadora. Não é preciso comparecer a uma unidade da Receita Federal. Corrigir as informações antes de ser intimado evita multas."
+
+Mensagem 2 (e-mail recebido pelo Cliente B):
+"De: Receita Federal do Brasil <[retirado]>
+Assunto: Pendência fiscal no CPF [CPF]
+Identificamos pendência na sua declaração. Regularize em até 48 horas para evitar o bloqueio do CPF: [link retirado]"
+
+Mensagem 3 (carta com guia, recebida pelo Cliente C):
+"DOCUMENTO DE ARRECADAÇÃO DO SIMPLES NACIONAL - DAS. Período de apuração: 08/2026. Valor: R$ 1.874,32. Pague em até 5 dias para evitar multa de até 225%. Pagamento somente por Pix: [QR Code]. Beneficiário: SN ARRECADACAO DIGITAL LTDA, CNPJ 41.872.305/0001-10."
+
+Mensagem 4 (WhatsApp recebido pelo Cliente D):
+"SIMPLES NACIONAL - AVISO: o CNPJ [CNPJ] será SUSPENSO hoje às 18h por débitos em aberto. Regularize agora: [link retirado]"
+
+Mensagem 5 (o Cliente E mandou um print e disse que "chegou da Receita"):
+"TERMO DE EXCLUSÃO DO SIMPLES NACIONAL Nº [número]. Contribuinte: [nome], CNPJ [CNPJ]. Fica o contribuinte ciente de que será excluído do Simples Nacional a partir de 01/01/2027, por possuir débitos com a Receita Federal, conforme o Relatório de Pendências. A exclusão não ocorrerá se a totalidade dos débitos for regularizada no prazo de 90 (noventa) dias contados da ciência deste termo. Contestação: 20 dias úteis da ciência."
+
+Mensagem 6 (carta recebida pelo Cliente F):
+"RECEITA FEDERAL - TERMO DE INTIMAÇÃO FISCAL Nº [número]. Fica o contribuinte INTIMADO a regularizar seus dados cadastrais e apresentar o livro-caixa de 2025 no prazo de 20 (vinte) dias, sob pena de multa e inaptidão do CNPJ. Acesse o processo em [link retirado] com o código [código]."
+
+Os sinais oficiais (com a fonte e a data):
+- "A Receita Federal não envia e-mails com links ou solicita direcionamento para páginas não oficiais." Criminosos já enviaram mensagens que escondem o remetente verdadeiro e mostram "um endereço de e-mail legítimo da Receita Federal" (notícia da Receita, 23/04/2025).
+- "Receita Federal não utiliza SMS nem WhatsApp em seus procedimentos de cobrança de débitos." (Receita Federal)
+- Pix do DAS: "verificar se o destino do pagamento que consta na prévia do PIX é o CNPJ 00.394.460/0058-87. Qualquer outro é fraudulento." "O domínio de acesso ao serviço deve conter receita.fazenda.gov.br no link." (Portal do Simples Nacional, 30/07/2024). Já houve guia falsa do Simples em que o Pix era a "única opção no documento falso", com "ameaça de multa altíssima de até 225%" (Portal do Simples Nacional, 16/03/2022).
+- Termo de exclusão do Simples: os termos são disponibilizados no "Domicílio Tributário Eletrônico do Simples Nacional e MEI (DTE-SN)" e podem ser acessados "pelo Portal do Simples Nacional, por meio do DTE-SN, ou pelo Portal e-CAC"; o contribuinte tem "90 dias da data de ciência do Termo de Exclusão para regularizar seus débitos" (Portal do Simples Nacional, 2026).
+- Malha do IRPF: a pendência se consulta no serviço "Meu Imposto de Renda", com conta gov.br prata ou ouro (Receita, Projeto Cartas 2026).
+- Cartas falsas de "Intimação para regularização de dados cadastrais", com o logotipo da Receita, levam a site falso; "O atendimento está disponível por meio do e-CAC" (notícia da Receita, 11/03/2025).
+--- IA:
+## Mensagem 1 — Cliente A (carta pelo Correio, malha fiscal IRPF)
+
+**Sinal que aparece:**
+> *Malha do IRPF* — a pendência se consulta no serviço **Meu Imposto de Renda**, com conta gov.br prata ou ouro.
+
+A carta descreve exatamente esse procedimento (menciona "Meu Imposto de Renda", "conta gov.br nível prata ou ouro", sem links e sem exigir comparecimento presencial).
+
+**Onde o cliente confere por conta própria:**
+**Meu Imposto de Renda** — no site da Receita Federal (receita.fazenda.gov.br) ou no aplicativo, entrando com a conta gov.br dele, sem usar qualquer link da carta.
+
+---
+
+## Mensagem 2 — Cliente B (e-mail com link)
+
+**Sinais que aparecem:**
+> *E-mail com link* — "A Receita Federal não envia e-mails com links ou solicita direcionamento para páginas não oficiais"; criminosos já enviaram mensagens exibindo endereços aparentemente legítimos da Receita Federal (como *[retirado]*).
+
+O remetente exibido e o domínio do link não são garantia de origem oficial.
+
+**Onde o cliente confere por conta própria:**
+**Meu Imposto de Renda** (se a suposta pendência for na declaração IRPF) — acessando diretamente receita.fazenda.gov.br com a conta gov.br, nunca pelo link do e-mail. Para pendências fiscais gerais no CPF, o acesso é pelo **e-CAC**, também digitando o endereço diretamente.
+
+---
+
+## Mensagem 3 — Cliente C (guia DAS com Pix)
+
+**Sinais que aparecem:**
+> *Pix do DAS fraudulento* — três elementos simultâneos:
+> 1. O CNPJ de destino do Pix é **41.872.305/0001-10**, e não o oficial **00.394.460/0058-87** (qualquer outro CNPJ é fraudulento);
+> 2. O Pix aparece como **única opção de pagamento** no documento;
+> 3. A ameaça é de **"multa de até 225%"** — exatamente o alerta do Portal do Simples Nacional de 2022.
+
+**Onde o cliente confere por conta própria:**
+**Portal do Simples Nacional** (receita.fazenda.gov.br) — o cliente gera o DAS legítimo diretamente no portal, conferindo na prévia do Pix se o CNPJ de destino é 00.394.460/0058-87.
+
+---
+
+## Mensagem 4 — Cliente D (WhatsApp)
+
+**Sinal que aparece:**
+> *WhatsApp/SMS* — "A Receita Federal não utiliza SMS nem WhatsApp em seus procedimentos de cobrança de débitos."
+
+**Onde o cliente confere por conta própria:**
+**Portal do Simples Nacional** — o cliente acessa diretamente (receita.fazenda.gov.br) para verificar a situação real do CNPJ e eventuais débitos em aberto, sem clicar em nada que veio pelo WhatsApp.
+
+---
+
+## Mensagem 5 — Cliente E (print do Termo de Exclusão do Simples)
+
+**Sinal que aparece:**
+> *Termo de Exclusão do Simples Nacional* — os termos são disponibilizados no **Domicílio Tributário Eletrônico do Simples Nacional e MEI (DTE-SN)**, acessível pelo Portal do Simples Nacional ou pelo e-CAC; o prazo para regularizar é de **90 dias contados da ciência** do termo — o mesmo prazo citado na mensagem.
+
+**Onde o cliente confere por conta própria:**
+**DTE-SN** — acessado pelo **Portal do Simples Nacional** (receita.fazenda.gov.br → DTE-SN) ou pelo **e-CAC**, com a conta gov.br do cliente, para verificar se o termo consta no domicílio tributário oficial dele.
+
+---
+
+## Mensagem 6 — Cliente F (carta de "Intimação Fiscal" com link)
+
+**Sinal que aparece:**
+> *Carta falsa de intimação para regularização* — "Cartas falsas de 'Intimação para regularização de dados cadastrais', com o logotipo da Receita, levam a site falso"; o alerta da Receita (11/03/2025) indica que "o atendimento está disponível por meio do **e-CAC**".
+
+A carta combina os elementos descritos no alerta: logotipo da Receita, exigência de dados cadastrais/livros, link com código de acesso.
+
+**Onde o cliente confere por conta própria:**
+**e-CAC** — o cliente acessa diretamente (cav.receita.fazenda.gov.br) com a conta gov.br, para verificar se existe de fato algum processo, intimação ou pendência cadastral em nome do CNPJ dele, sem usar o link nem o código enviados na carta.
+
+--- Você:
+O cliente da guia do Simples (mensagem 3) perguntou se pode pagar pelo QR Code da própria guia, que é mais rápido. E a cliente da carta do imposto de renda (mensagem 1) quer saber até quando ela tem de responder. O que eu digo a cada um?
+--- IA:
+## Cliente C — guia do Simples (Mensagem 3)
+
+**Não deve usar o QR Code da guia recebida.**
+
+O sinal de alerta mais direto já está na própria prévia do Pix: antes de confirmar qualquer pagamento, o aplicativo do banco mostra o CNPJ do beneficiário. Nessa guia o CNPJ é **41.872.305/0001-10**, e o único CNPJ legítimo para o DAS é o **00.394.460/0058-87**. Pagar pelo QR Code dessa guia enviaria o dinheiro para terceiros, não para o Simples Nacional.
+
+O que orientar: o cliente deve gerar um novo DAS diretamente no **Portal do Simples Nacional** (receita.fazenda.gov.br), e só então pagar — conferindo na prévia do Pix, antes de confirmar, se o CNPJ de destino é o oficial.
+
+---
+
+## Cliente A — carta do imposto de renda (Mensagem 1)
+
+**A carta não fixa prazo.** Ela informa que a declaração está retida em malha e orienta a verificar o motivo no **Meu Imposto de Renda** — é lá que aparecerá a situação atualizada e, se houver algum prazo correndo, ele estará registrado.
+
+O que orientar: a urgência prática não vem de um prazo da carta, mas do próprio processo — enquanto não há intimação formal, a cliente pode apresentar declaração retificadora sem multa; depois de intimada, a multa passa a ser devida. A carta inclusive avisa isso: *"Corrigir as informações antes de ser intimado evita multas."* Por isso, quanto antes ela (ou você pelo procuração no e-CAC) verificar o motivo da retenção no **Meu Imposto de Renda**, melhor.
+

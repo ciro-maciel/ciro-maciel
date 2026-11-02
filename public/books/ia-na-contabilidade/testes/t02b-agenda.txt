@@ -1,0 +1,359 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t02b, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-13 09:23 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar num escritório de contabilidade. Monte a agenda de outubro de 2026 destes cinco clientes em duas colunas separadas, pagar e declarar. Use só as datas do recorte da Agenda e das duas linhas coladas abaixo; o que não estiver nelas, escreva "conferir". Não dê nenhuma data de memória, nem em observação.
+
+Os clientes (todos com movimento em setembro de 2026):
+- Cliente 1: MEI, comércio, sem empregado.
+- Cliente 2: Simples Nacional, prestação de serviços, sem empregado e sem pró-labore; não retém imposto de ninguém.
+- Cliente 3: Simples Nacional, comércio, 3 empregados; o sócio não tem pró-labore.
+- Cliente 4: lucro presumido, prestação de serviços, 4 empregados; IRPJ e CSLL trimestrais; PIS e Cofins cumulativos; não contrata serviço de pessoa jurídica com retenção.
+- Cliente 5: lucro real com estimativa mensal, comércio atacadista, 12 empregados; PIS e Cofins não cumulativos; contrata serviços de pessoa jurídica com retenção de IR e de PIS, Cofins e CSLL.
+
+Recorte da Agenda Tributária de outubro de 2026 (Receita Federal, planilha do ADE Corat 78/2026):
+ABA TRIBUTOS — Dia de vencimento | Código | Tributo | Descrição | Período de apuração | Documento | Declaração
+20 | -- | Simples Nacional | Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte | Mês Anterior (30/09/2026) | DAS | PGDAS-D
+20 | 1082 | Contribuição Previdenciária | Contribuição previdenciária descontada de segurados empregados e avulsos e de trabalhadores rurais contratados por pequeno prazo | Mês Anterior (30/09/2026) | DARF/DAE | DCTFWeb Geral Mensal
+20 | 1138 | Contribuição Previdenciária | Contribuição empresa, inclusive SIMPLES concomitante, s/ remuner empregados, avulsos e contrib. individuais | Mês Anterior (30/09/2026) | DARF/DAE | DCTFWeb Geral Mensal
+20 | 561 | IRRF | Rendimentos do Trabalho - Trabalho assalariado (exceto Trabalhador Doméstico) | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+20 | 1708 | IRRF | Outros Rendimentos - Remuneração de serviços prestados por pessoa jurídica | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+20 | 5952 | CSRF | Retenção de contribuições - pagamentos de PJ a PJ de direito privado (Cofins, PIS/Pasep, CSLL) | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 8109 | PIS/Pasep | Faturamento | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 2172 | Cofins | Demais Entidades | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 6912 | PIS/Pasep | Não-cumulativa | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 5856 | Cofins | Não-cumulativa | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2362 | IRPJ | Demais Entidades - Estimativa Mensal | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2484 | CSLL | Demais Entidades - Estimativa Mensal | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2089 | IRPJ | Lucro Presumido (Quota) | Trimestre anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2372 | CSLL | Lucro Presumido ou Arbitrado (Quota) | Trimestre anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+ABA DECLARAÇÕES — Prazo | Interessado | Declaração | Período de referência
+15 | PJ | EFD-Contribuições – Escrituração Fiscal Digital das Contribuições incidentes sobre a Receita | Agosto/2026
+15 | PJ/PF | EFD-Reinf – Escrituração Fiscal Digital de Retenções e Outras informações Fiscais | Setembro/2026
+20 | PJ | PGDAS-D – Programa Gerador do Documento de Arrecadação do Simples Nacional | Setembro/2026
+30 | PJ/PF | DCTFWeb – Declaração de Débitos e Créditos Tributários Federais | Setembro/2026
+
+Duas datas que não estão na Agenda da Receita (copiadas da fonte):
+- FGTS: "todos os empregadores ficam obrigados a depositar, até o vigésimo dia de cada mês, em conta vinculada, a importância correspondente a 8% (oito por cento) da remuneração paga ou devida, no mês anterior" (Lei 8.036/1990, art. 15). Em outubro de 2026: 20/10.
+- eSocial, folha do mês: "até o dia 15 (quinze) do mês seguinte" (Manual de Orientação do eSocial, S-1.3). Em outubro de 2026: 15/10.
+--- IA:
+# Agenda Tributária — Outubro de 2026
+*Fontes: ADE Corat 78/2026 (Receita Federal) · Lei 8.036/1990, art. 15 · Manual do eSocial S-1.3*
+
+---
+
+## Cliente 1 — MEI · Comércio · Sem empregado
+
+| PAGAR | Doc. | Venc. | | DECLARAR | Per. | Venc. |
+|---|---|:---:|---|---|---|:---:|
+| DAS (SIMEI) | DAS | **20/10** | | *(PGDAS-D e DCTFWeb não se aplicam ao SIMEI; sem obrigação acessória mensal federal neste recorte)* | — | — |
+
+---
+
+## Cliente 2 — Simples Nacional · Serviços · Sem empregado · Sem pró-labore · Não retém
+
+| PAGAR | Doc. | Venc. | | DECLARAR | Per. | Venc. |
+|---|---|:---:|---|---|---|:---:|
+| DAS | DAS | **20/10** | | PGDAS-D | set/2026 | **20/10** |
+
+---
+
+## Cliente 3 — Simples Nacional · Comércio · 3 Empregados · Sócio sem pró-labore
+
+| PAGAR | Doc. | Venc. | | DECLARAR | Per. | Venc. |
+|---|---|:---:|---|---|---|:---:|
+| DAS | DAS | **20/10** | | eSocial — folha | set/2026 | **15/10** |
+| FGTS | GRF | **20/10** | | PGDAS-D | set/2026 | **20/10** |
+| CP descontada dos empregados — cód. 1082 | DARF/DAE | **20/10** | | EFD-Reinf ¹ | set/2026 | conferir |
+| IRRF trabalho assalariado — cód. 561 | DARF | **20/10** | | DCTFWeb | set/2026 | **30/10** |
+
+> ¹ Verificar se há retenção sobre serviços contratados de terceiros; se houver, o prazo consta na Agenda: **15/10**.
+
+---
+
+## Cliente 4 — Lucro Presumido · Serviços · 4 Empregados · PIS/Cofins Cumulativos · IRPJ/CSLL Trimestrais · Não retém de PJ
+
+| PAGAR | Doc. | Venc. | | DECLARAR | Per. | Venc. |
+|---|---|:---:|---|---|---|:---:|
+| FGTS | GRF | **20/10** | | eSocial — folha | set/2026 | **15/10** |
+| CP descontada dos empregados — cód. 1082 | DARF/DAE | **20/10** | | EFD-Contribuições | ago/2026 | **15/10** |
+| CP empresa patronal — cód. 1138 | DARF/DAE | **20/10** | | EFD-Reinf | set/2026 | **15/10** |
+| IRRF trabalho assalariado — cód. 561 | DARF | **20/10** | | DCTFWeb | set/2026 | **30/10** |
+| PIS/Pasep faturamento cumulativo — cód. 8109 | DARF | **23/10** | | | | |
+| Cofins demais entidades cumulativa — cód. 2172 | DARF | **23/10** | | | | |
+| IRPJ quota trimestral — cód. 2089 | DARF | **30/10** | | | | |
+| CSLL quota trimestral — cód. 2372 | DARF | **30/10** | | | | |
+
+---
+
+## Cliente 5 — Lucro Real Estimativa Mensal · Comércio Atacadista · 12 Empregados · PIS/Cofins Não Cumulativos · Retém IR e CSRF de PJ
+
+| PAGAR | Doc. | Venc. | | DECLARAR | Per. | Venc. |
+|---|---|:---:|---|---|---|:---:|
+| FGTS | GRF | **20/10** | | eSocial — folha | set/2026 | **15/10** |
+| CP descontada dos empregados — cód. 1082 | DARF/DAE | **20/10** | | EFD-Contribuições | ago/2026 | **15/10** |
+| CP empresa patronal — cód. 1138 | DARF/DAE | **20/10** | | EFD-Reinf | set/2026 | **15/10** |
+| IRRF trabalho assalariado — cód. 561 | DARF | **20/10** | | DCTFWeb | set/2026 | **30/10** |
+| IRRF remuneração de serviços PJ — cód. 1708 | DARF | **20/10** | | | | |
+| CSRF – PIS/Cofins/CSLL retidos de PJ — cód. 5952 | DARF | **20/10** | | | | |
+| PIS/Pasep não cumulativo — cód. 6912 | DARF | **23/10** | | | | |
+| Cofins não cumulativa — cód. 5856 | DARF | **23/10** | | | | |
+| IRPJ estimativa mensal — cód. 2362 | DARF | **30/10** | | | | |
+| CSLL estimativa mensal — cód. 2484 | DARF | **30/10** | | | | |
+
+--- Você:
+Para o Cliente 3: até quando eu pago o FGTS de setembro e até quando entrego a DCTFWeb de setembro?
+--- IA:
+As duas datas já constam na agenda que montamos, ambas com fonte no material que você colou:
+
+- **FGTS de setembro: 20/10** — Lei 8.036/1990, art. 15 ("até o vigésimo dia de cada mês").
+- **DCTFWeb de setembro: 30/10** — ABA DECLARAÇÕES do ADE Corat 78/2026 (prazo dia 30, período setembro/2026).
+
+### 2026-10-13 09:23 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar num escritório de contabilidade. Monte a agenda de outubro de 2026 destes cinco clientes em duas colunas separadas, pagar e declarar. Use só as datas do recorte da Agenda e das duas linhas coladas abaixo; o que não estiver nelas, escreva "conferir". Não dê nenhuma data de memória, nem em observação.
+
+Os clientes (todos com movimento em setembro de 2026):
+- Cliente 1: MEI, comércio, sem empregado.
+- Cliente 2: Simples Nacional, prestação de serviços, sem empregado e sem pró-labore; não retém imposto de ninguém.
+- Cliente 3: Simples Nacional, comércio, 3 empregados; o sócio não tem pró-labore.
+- Cliente 4: lucro presumido, prestação de serviços, 4 empregados; IRPJ e CSLL trimestrais; PIS e Cofins cumulativos; não contrata serviço de pessoa jurídica com retenção.
+- Cliente 5: lucro real com estimativa mensal, comércio atacadista, 12 empregados; PIS e Cofins não cumulativos; contrata serviços de pessoa jurídica com retenção de IR e de PIS, Cofins e CSLL.
+
+Recorte da Agenda Tributária de outubro de 2026 (Receita Federal, planilha do ADE Corat 78/2026):
+ABA TRIBUTOS — Dia de vencimento | Código | Tributo | Descrição | Período de apuração | Documento | Declaração
+20 | -- | Simples Nacional | Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte | Mês Anterior (30/09/2026) | DAS | PGDAS-D
+20 | 1082 | Contribuição Previdenciária | Contribuição previdenciária descontada de segurados empregados e avulsos e de trabalhadores rurais contratados por pequeno prazo | Mês Anterior (30/09/2026) | DARF/DAE | DCTFWeb Geral Mensal
+20 | 1138 | Contribuição Previdenciária | Contribuição empresa, inclusive SIMPLES concomitante, s/ remuner empregados, avulsos e contrib. individuais | Mês Anterior (30/09/2026) | DARF/DAE | DCTFWeb Geral Mensal
+20 | 561 | IRRF | Rendimentos do Trabalho - Trabalho assalariado (exceto Trabalhador Doméstico) | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+20 | 1708 | IRRF | Outros Rendimentos - Remuneração de serviços prestados por pessoa jurídica | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+20 | 5952 | CSRF | Retenção de contribuições - pagamentos de PJ a PJ de direito privado (Cofins, PIS/Pasep, CSLL) | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 8109 | PIS/Pasep | Faturamento | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 2172 | Cofins | Demais Entidades | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 6912 | PIS/Pasep | Não-cumulativa | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 5856 | Cofins | Não-cumulativa | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2362 | IRPJ | Demais Entidades - Estimativa Mensal | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2484 | CSLL | Demais Entidades - Estimativa Mensal | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2089 | IRPJ | Lucro Presumido (Quota) | Trimestre anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2372 | CSLL | Lucro Presumido ou Arbitrado (Quota) | Trimestre anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+ABA DECLARAÇÕES — Prazo | Interessado | Declaração | Período de referência
+15 | PJ | EFD-Contribuições – Escrituração Fiscal Digital das Contribuições incidentes sobre a Receita | Agosto/2026
+15 | PJ/PF | EFD-Reinf – Escrituração Fiscal Digital de Retenções e Outras informações Fiscais | Setembro/2026
+20 | PJ | PGDAS-D – Programa Gerador do Documento de Arrecadação do Simples Nacional | Setembro/2026
+30 | PJ/PF | DCTFWeb – Declaração de Débitos e Créditos Tributários Federais | Setembro/2026
+
+Duas datas que não estão na Agenda da Receita (copiadas da fonte):
+- FGTS: "todos os empregadores ficam obrigados a depositar, até o vigésimo dia de cada mês, em conta vinculada, a importância correspondente a 8% (oito por cento) da remuneração paga ou devida, no mês anterior" (Lei 8.036/1990, art. 15). Em outubro de 2026: 20/10.
+- eSocial, folha do mês: "até o dia 15 (quinze) do mês seguinte" (Manual de Orientação do eSocial, S-1.3). Em outubro de 2026: 15/10.
+--- IA:
+## AGENDA TRIBUTÁRIA — OUTUBRO 2026
+
+---
+
+### CLIENTE 1 — MEI | Comércio | Sem empregado
+
+| PAGAR | | | DECLARAR | |
+|:---|:---|:---|:---|:---|
+| **Data** | **Tributo / Descrição** | **Doc.** | **Data** | **Declaração — Período** |
+| 20/10 | Simples Nacional — SIMEI | DAS | *(nenhuma)* | |
+
+---
+
+### CLIENTE 2 — Simples Nacional | Serviços | Sem empregado | Sem pró-labore | Não retém
+
+| PAGAR | | | DECLARAR | |
+|:---|:---|:---|:---|:---|
+| **Data** | **Tributo / Descrição** | **Doc.** | **Data** | **Declaração — Período** |
+| 20/10 | Simples Nacional | DAS | 20/10 | PGDAS-D — set./2026 |
+
+---
+
+### CLIENTE 3 — Simples Nacional | Comércio | 3 empregados | Sócio sem pró-labore
+
+| PAGAR | | | DECLARAR | |
+|:---|:---|:---|:---|:---|
+| **Data** | **Tributo / Descrição** | **Doc.** | **Data** | **Declaração — Período** |
+| 20/10 | Simples Nacional | DAS | 15/10 | eSocial — Folha set./2026 |
+| 20/10 | INSS — Empregados, desconto (cód. 1082) | DAE | 20/10 | PGDAS-D — set./2026 |
+| 20/10 | IRRF — Trabalho assalariado (cód. 561) | DARF | 30/10 | DCTFWeb — set./2026 |
+| 20/10 | FGTS | GRF | | |
+
+> **Nota sobre o INSS patronal:** no Simples Nacional comércio (Anexos I/II), a CPP está incluída no DAS; o código 1138 não é recolhido separadamente.
+
+---
+
+### CLIENTE 4 — Lucro Presumido | Serviços | 4 empregados | PIS/Cofins cumulativos | IRPJ/CSLL trimestrais | Não contrata PJ com retenção
+
+| PAGAR | | | DECLARAR | |
+|:---|:---|:---|:---|:---|
+| **Data** | **Tributo / Descrição** | **Doc.** | **Data** | **Declaração — Período** |
+| 20/10 | INSS — Empregados, desconto (cód. 1082) | DAE | 15/10 | EFD-Contribuições — ago./2026 |
+| 20/10 | INSS — Empresa/CPP (cód. 1138) | DAE | 15/10 | EFD-Reinf — set./2026 |
+| 20/10 | IRRF — Trabalho assalariado (cód. 561) | DARF | 15/10 | eSocial — Folha set./2026 |
+| 20/10 | FGTS | GRF | 30/10 | DCTFWeb — set./2026 |
+| 23/10 | PIS — Cumulativo (cód. 8109) | DARF | | |
+| 23/10 | Cofins — Cumulativa (cód. 2172) | DARF | | |
+| 30/10 | IRPJ — LP, 1ª quota 3T/26 (cód. 2089) | DARF | | |
+| 30/10 | CSLL — LP, 1ª quota 3T/26 (cód. 2372) | DARF | | |
+
+---
+
+### CLIENTE 5 — Lucro Real (estimativa mensal) | Comércio Atacadista | 12 empregados | PIS/Cofins não-cumulativos | Contrata PJ com retenção de IR e de PIS/Cofins/CSLL
+
+| PAGAR | | | DECLARAR | |
+|:---|:---|:---|:---|:---|
+| **Data** | **Tributo / Descrição** | **Doc.** | **Data** | **Declaração — Período** |
+| 20/10 | INSS — Empregados, desconto (cód. 1082) | DAE | 15/10 | EFD-Contribuições — ago./2026 |
+| 20/10 | INSS — Empresa/CPP (cód. 1138) | DAE | 15/10 | EFD-Reinf — set./2026 |
+| 20/10 | IRRF — Trabalho assalariado (cód. 561) | DARF | 15/10 | eSocial — Folha set./2026 |
+| 20/10 | IRRF — Serviços de PJ (cód. 1708) | DARF | 30/10 | DCTFWeb — set./2026 |
+| 20/10 | CSRF — PIS/Cofins/CSLL retidos de PJ (cód. 5952) | DARF | | |
+| 20/10 | FGTS | GRF | | |
+| 23/10 | PIS — Não-cumulativo (cód. 6912) | DARF | | |
+| 23/10 | Cofins — Não-cumulativa (cód. 5856) | DARF | | |
+| 30/10 | IRPJ — Estimativa mensal (cód. 2362) | DARF | | |
+| 30/10 | CSLL — Estimativa mensal (cód. 2484) | DARF | | |
+
+---
+
+**Fontes de cada data utilizada**
+
+| Data | Origem |
+|:---|:---|
+| 15/10 | Manual de Orientação do eSocial, S-1.3 (folha); Agenda RFB/ADE Corat 78/2026 (EFD-Contribuições e EFD-Reinf) |
+| 20/10 | Agenda RFB/ADE Corat 78/2026 (DAS, INSS 1082/1138, IRRF 561/1708, CSRF 5952); Lei 8.036/1990, art. 15 (FGTS) |
+| 23/10 | Agenda RFB/ADE Corat 78/2026 (PIS 8109/6912, Cofins 2172/5856) |
+| 30/10 | Agenda RFB/ADE Corat 78/2026 (IRPJ 2089/2362, CSLL 2372/2484, DCTFWeb) |
+
+--- Você:
+Para o Cliente 3: até quando eu pago o FGTS de setembro e até quando entrego a DCTFWeb de setembro?
+--- IA:
+As duas datas já estão na agenda que montamos para o Cliente 3, ambas com base nas fontes que você forneceu:
+
+- **FGTS de setembro → 20/10/2026**
+(Lei 8.036/1990, art. 15 — "até o vigésimo dia de cada mês")
+
+- **DCTFWeb de setembro → 30/10/2026**
+(Agenda RFB/ADE Corat 78/2026 — "30 | PJ/PF | DCTFWeb | Setembro/2026")
+
+### 2026-10-13 09:23 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar num escritório de contabilidade. Monte a agenda de outubro de 2026 destes cinco clientes em duas colunas separadas, pagar e declarar. Use só as datas do recorte da Agenda e das duas linhas coladas abaixo; o que não estiver nelas, escreva "conferir". Não dê nenhuma data de memória, nem em observação.
+
+Os clientes (todos com movimento em setembro de 2026):
+- Cliente 1: MEI, comércio, sem empregado.
+- Cliente 2: Simples Nacional, prestação de serviços, sem empregado e sem pró-labore; não retém imposto de ninguém.
+- Cliente 3: Simples Nacional, comércio, 3 empregados; o sócio não tem pró-labore.
+- Cliente 4: lucro presumido, prestação de serviços, 4 empregados; IRPJ e CSLL trimestrais; PIS e Cofins cumulativos; não contrata serviço de pessoa jurídica com retenção.
+- Cliente 5: lucro real com estimativa mensal, comércio atacadista, 12 empregados; PIS e Cofins não cumulativos; contrata serviços de pessoa jurídica com retenção de IR e de PIS, Cofins e CSLL.
+
+Recorte da Agenda Tributária de outubro de 2026 (Receita Federal, planilha do ADE Corat 78/2026):
+ABA TRIBUTOS — Dia de vencimento | Código | Tributo | Descrição | Período de apuração | Documento | Declaração
+20 | -- | Simples Nacional | Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte | Mês Anterior (30/09/2026) | DAS | PGDAS-D
+20 | 1082 | Contribuição Previdenciária | Contribuição previdenciária descontada de segurados empregados e avulsos e de trabalhadores rurais contratados por pequeno prazo | Mês Anterior (30/09/2026) | DARF/DAE | DCTFWeb Geral Mensal
+20 | 1138 | Contribuição Previdenciária | Contribuição empresa, inclusive SIMPLES concomitante, s/ remuner empregados, avulsos e contrib. individuais | Mês Anterior (30/09/2026) | DARF/DAE | DCTFWeb Geral Mensal
+20 | 561 | IRRF | Rendimentos do Trabalho - Trabalho assalariado (exceto Trabalhador Doméstico) | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+20 | 1708 | IRRF | Outros Rendimentos - Remuneração de serviços prestados por pessoa jurídica | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+20 | 5952 | CSRF | Retenção de contribuições - pagamentos de PJ a PJ de direito privado (Cofins, PIS/Pasep, CSLL) | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 8109 | PIS/Pasep | Faturamento | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 2172 | Cofins | Demais Entidades | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 6912 | PIS/Pasep | Não-cumulativa | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+23 | 5856 | Cofins | Não-cumulativa | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2362 | IRPJ | Demais Entidades - Estimativa Mensal | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2484 | CSLL | Demais Entidades - Estimativa Mensal | Mês Anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2089 | IRPJ | Lucro Presumido (Quota) | Trimestre anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+30 | 2372 | CSLL | Lucro Presumido ou Arbitrado (Quota) | Trimestre anterior (30/09/2026) | DARF | DCTFWeb Geral Mensal
+ABA DECLARAÇÕES — Prazo | Interessado | Declaração | Período de referência
+15 | PJ | EFD-Contribuições – Escrituração Fiscal Digital das Contribuições incidentes sobre a Receita | Agosto/2026
+15 | PJ/PF | EFD-Reinf – Escrituração Fiscal Digital de Retenções e Outras informações Fiscais | Setembro/2026
+20 | PJ | PGDAS-D – Programa Gerador do Documento de Arrecadação do Simples Nacional | Setembro/2026
+30 | PJ/PF | DCTFWeb – Declaração de Débitos e Créditos Tributários Federais | Setembro/2026
+
+Duas datas que não estão na Agenda da Receita (copiadas da fonte):
+- FGTS: "todos os empregadores ficam obrigados a depositar, até o vigésimo dia de cada mês, em conta vinculada, a importância correspondente a 8% (oito por cento) da remuneração paga ou devida, no mês anterior" (Lei 8.036/1990, art. 15). Em outubro de 2026: 20/10.
+- eSocial, folha do mês: "até o dia 15 (quinze) do mês seguinte" (Manual de Orientação do eSocial, S-1.3). Em outubro de 2026: 15/10.
+--- IA:
+## Agenda Tributária — Outubro de 2026
+
+---
+
+### Cliente 1 — MEI · Comércio · Sem empregado
+
+| PAGAR | DECLARAR |
+|---|---|
+| DAS — **20/10** | *(nenhuma obrigação neste recorte)* |
+
+---
+
+### Cliente 2 — Simples Nacional · Serviços · Sem empregado · Sem pró-labore · Sem retenções
+
+| PAGAR | DECLARAR |
+|---|---|
+| DAS — **20/10** | PGDAS-D (set/26) — **20/10** |
+
+---
+
+### Cliente 3 — Simples Nacional · Comércio · 3 empregados · Sócio sem pró-labore
+
+| PAGAR | DECLARAR |
+|---|---|
+| DAS — **20/10** | eSocial – folha set/26 — **15/10** |
+| INSS descontado s/ empregados (cód. 1082) — **20/10** | PGDAS-D (set/26) — **20/10** |
+| IRRF trabalho assalariado (cód. 561) — **20/10** | DCTFWeb (set/26) — **30/10** |
+| FGTS — **20/10** | |
+
+> **Nota de lógica (sem data):** o CPP patronal do comércio no Simples Nacional (Anexo I) está dentro do DAS; por isso o cód. 1138 não aparece em separado.
+
+---
+
+### Cliente 4 — Lucro Presumido · Serviços · 4 empregados · IRPJ/CSLL trimestral · PIS/Cofins cumulativos · Não retém de PJ
+
+| PAGAR | DECLARAR |
+|---|---|
+| INSS descontado s/ empregados (cód. 1082) — **20/10** | eSocial – folha set/26 — **15/10** |
+| INSS empresa s/ empregados e contrib. indiv. (cód. 1138) — **20/10** | EFD-Contribuições (ago/26) — **15/10** |
+| IRRF trabalho assalariado (cód. 561) — **20/10** | EFD-Reinf (set/26) — **15/10** |
+| FGTS — **20/10** | DCTFWeb (set/26) — **30/10** |
+| PIS/Pasep – faturamento (cód. 8109) — **23/10** | |
+| Cofins – demais entidades (cód. 2172) — **23/10** | |
+| IRPJ LP – quota 3.º trim./26 (cód. 2089) — **30/10** | |
+| CSLL LP – quota 3.º trim./26 (cód. 2372) — **30/10** | |
+
+> **Nota de lógica (sem data):** IRRF cód. 1708 e CSRF cód. 5952 excluídos porque o cliente não contrata PJ com retenção.
+
+---
+
+### Cliente 5 — Lucro Real · Estimativa mensal · Comércio atacadista · 12 empregados · PIS/Cofins não cumulativos · Retém IR e CSRF de PJ
+
+| PAGAR | DECLARAR |
+|---|---|
+| INSS descontado s/ empregados (cód. 1082) — **20/10** | eSocial – folha set/26 — **15/10** |
+| INSS empresa s/ empregados e contrib. indiv. (cód. 1138) — **20/10** | EFD-Contribuições (ago/26) — **15/10** |
+| IRRF trabalho assalariado (cód. 561) — **20/10** | EFD-Reinf (set/26) — **15/10** |
+| IRRF s/ serviços de PJ (cód. 1708) — **20/10** | DCTFWeb (set/26) — **30/10** |
+| CSRF – PIS/Cofins/CSLL retidos de PJ (cód. 5952) — **20/10** | |
+| FGTS — **20/10** | |
+| PIS/Pasep não-cumulativo (cód. 6912) — **23/10** | |
+| Cofins não-cumulativa (cód. 5856) — **23/10** | |
+| IRPJ LR – estimativa mensal (cód. 2362) — **30/10** | |
+| CSLL LR – estimativa mensal (cód. 2484) — **30/10** | |
+
+---
+
+**Fontes exclusivas usadas:**
+- ADE Corat 78/2026 – aba Tributos e aba Declarações
+- Lei 8.036/1990, art. 15 (FGTS → 20/10)
+- Manual de Orientação do eSocial, S-1.3 (folha → 15/10)
+
+--- Você:
+Para o Cliente 3: até quando eu pago o FGTS de setembro e até quando entrego a DCTFWeb de setembro?
+--- IA:
+As duas datas já estão na agenda que montamos — e vieram das fontes que você colou:
+
+| Obrigação | Vencimento | Fonte |
+|---|---|---|
+| FGTS (referência set/26) | **20/10** | Lei 8.036/1990, art. 15 |
+| DCTFWeb (referência set/26) | **30/10** | ADE Corat 78/2026 – aba Declarações |
+

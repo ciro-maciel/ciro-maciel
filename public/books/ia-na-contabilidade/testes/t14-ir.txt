@@ -1,0 +1,689 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t14, rodado em 09/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:03 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade e estou na temporada do imposto de renda. Me ajuda a responder estas perguntas de clientes?
+
+1. Qual é o prazo da declaração do IRPF de 2026?
+2. Até quanto de rendimento tributável eu fico dispensado de declarar em 2026?
+3. Qual é a multa mínima por entregar atrasado, mesmo sem imposto a pagar?
+4. A isenção de 5 mil já vale na declaração que eu entrego agora?
+5. Como contador, posso fazer as declarações dos meus clientes pela autorização do gov.br?
+6. Quem ganha mais de R$ 600 mil por ano paga alguma coisa a mais?
+--- IA:
+# Perguntas Frequentes — IRPF 2026 📋
+
+Vou responder cada uma com base no que sei, mas **atenção ao aviso no final** — algumas informações precisam de verificação atualizada.
+
+---
+
+## 1. 📅 Prazo da declaração do IRPF 2026
+
+O prazo padrão é o **último dia útil de maio** — para 2026, em torno de **29 de maio de 2026**. Como hoje já é outubro, caso ainda haja clientes sem declarar, eles já estão **em atraso** e sujeitos a multa.
+
+---
+
+## 2. 💰 Limite de isenção de entrega obrigatória
+
+Para o IRPF 2026 (ano-base 2025), o limite de rendimentos tributáveis que dispensa a entrega era de aproximadamente **R$ 33.888,00 anuais** — mas recomendo confirmar na tabela oficial da Receita Federal, pois esse valor sofre ajustes.
+
+---
+
+## 3. ⚠️ Multa mínima por atraso
+
+A multa mínima por entrega em atraso é de **R$ 165,74**, mesmo que o contribuinte não tenha imposto a pagar. Se houver imposto devido, a multa é de **1% ao mês sobre o imposto**, limitada a 20%, com esse piso garantido.
+
+---
+
+## 4. 🤔 A isenção de R$ 5.000/mês já vale agora?
+
+**Não para esta declaração.** A isenção de R$ 5.000 mensais, aprovada como parte da reforma tributária, aplica-se a rendimentos recebidos **a partir de janeiro de 2026** — ou seja, ela valerá na declaração do **IRPF 2027** (ano-base 2026). Para a declaração atual (ano-base 2025), vale a tabela anterior.
+
+---
+
+## 5. 🖥️ Autorização via gov.br para contadores
+
+**Sim, é possível.** O contribuinte pode autorizar o contador através do **e-CAC** (Centro Virtual de Atendimento), usando a conta gov.br com nível **Prata ou Ouro**. A procuração eletrônica permite que o contador acesse o sistema, pré-preencha e envie a declaração. O caminho é:
+
+> **gov.br → e-CAC → Procuração e Termo de Responsabilidade → Cadastrar Procuração**
+
+---
+
+## 6. 💎 Tributação extra para quem ganha mais de R$ 600 mil/ano
+
+**Sim.** A reforma criou um **imposto mínimo efetivo** para rendimentos acima de R$ 600.000 anuais, estabelecendo uma alíquota efetiva mínima de **15%**. Quem já recolhe acima disso não é afetado. Essa medida visa principalmente rendimentos que eram tributados de forma reduzida (como dividendos e rendimentos exclusivos). **Confirme se já está em vigor para o ano-base 2025 ou apenas a partir de 2026.**
+
+---
+
+## ⚠️ Aviso importante
+
+> Algumas dessas regras — especialmente sobre a isenção de R$ 5.000 e o imposto sobre altas rendas — envolvem legislação recente. Recomendo **sempre confirmar os detalhes no site oficial da Receita Federal** ([receita.fazenda.gov.br](https://www.receita.fazenda.gov.br)) ou no **Diário Oficial**, pois os textos finais podem ter nuances que impactam os seus clientes.
+
+Precisa de ajuda com mais alguma questão? 😊
+
+--- Você:
+Agora confere a declaração de uma cliente contra os dois informes de rendimentos dela (o rascunho foi preenchido pelo auxiliar).
+
+Informe 1 - fonte pagadora: Laticínios Vale do Juruá Ltda., CNPJ 41.872.305/0001-10. Rendimentos tributáveis: R$ 52.800,00. Contribuição previdenciária oficial: R$ 5.230,00. Imposto retido na fonte: R$ 2.140,00. 13º salário (tributação exclusiva): R$ 4.400,00; IRRF sobre o 13º: R$ 118,00.
+Informe 2 - fonte pagadora: Instituto Educacional Serra Azul Ltda., CNPJ 33.180.746/0001-25. Rendimentos tributáveis: R$ 18.000,00. Contribuição previdenciária oficial: R$ 1.620,00. Imposto retido na fonte: R$ 310,00.
+
+Rascunho da declaração, ficha de rendimentos tributáveis recebidos de pessoa jurídica:
+- Laticínios Vale do Juruá: rendimentos R$ 52.800,00; contribuição previdenciária R$ 5.230,00; imposto retido R$ 2.140,00; 13º R$ 4.400,00; IRRF sobre o 13º R$ 118,00.
+- Instituto Educacional Serra Azul: rendimentos R$ 18.000,00; contribuição previdenciária R$ 1.620,00; imposto retido R$ 1.510,00.
+--- IA:
+## Conferência da Declaração ✅❌
+
+### Laticínios Vale do Juruá — CNPJ 41.872.305/0001-10
+
+| Campo | Informe | Rascunho | Situação |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 52.800,00 | R$ 52.800,00 | ✅ |
+| Contrib. previdenciária | R$ 5.230,00 | R$ 5.230,00 | ✅ |
+| IRRF | R$ 2.140,00 | R$ 2.140,00 | ✅ |
+| 13º salário | R$ 4.400,00 | R$ 4.400,00 | ✅ |
+| IRRF sobre o 13º | R$ 118,00 | R$ 118,00 | ✅ |
+
+---
+
+### Instituto Educacional Serra Azul — CNPJ 33.180.746/0001-25
+
+| Campo | Informe | Rascunho | Situação |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 18.000,00 | R$ 18.000,00 | ✅ |
+| Contrib. previdenciária | R$ 1.620,00 | R$ 1.620,00 | ✅ |
+| IRRF | R$ 310,00 | R$ 1.510,00 | ❌ |
+
+---
+
+## ⚠️ Divergência encontrada
+
+O **IRRF do Instituto Educacional Serra Azul** está **R$ 1.200,00 maior** no rascunho do que no informe original (R$ 1.510,00 vs. R$ 310,00). Parece um erro de digitação — o auxiliar provavelmente inseriu um **"1."** a mais na frente do valor.
+
+**Impacto:** esse erro inflaria o total de imposto retido na fonte da cliente, gerando uma **restituição indevida** — o que quase certamente resultaria em **malha fina**. Precisa ser corrigido antes do envio.
+
+### 2026-10-09 23:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade e estou na temporada do imposto de renda. Me ajuda a responder estas perguntas de clientes?
+
+1. Qual é o prazo da declaração do IRPF de 2026?
+2. Até quanto de rendimento tributável eu fico dispensado de declarar em 2026?
+3. Qual é a multa mínima por entregar atrasado, mesmo sem imposto a pagar?
+4. A isenção de 5 mil já vale na declaração que eu entrego agora?
+5. Como contador, posso fazer as declarações dos meus clientes pela autorização do gov.br?
+6. Quem ganha mais de R$ 600 mil por ano paga alguma coisa a mais?
+--- IA:
+# Respostas para Clientes — IRPF 2026 (Ano-base 2025)
+
+---
+
+## 1. 📅 Prazo da declaração
+
+O prazo regular foi **30 de abril de 2026**. Como hoje já é 9 de outubro, o prazo está encerrado — declarações apresentadas agora estão **em atraso** e sujeitas à multa.
+
+---
+
+## 2. 💰 Limite de dispensa de declaração
+
+O contribuinte fica dispensado se os **rendimentos tributáveis** ficaram abaixo de **R$ 33.888,00** no ano (equivalente a R$ 2.824,00/mês). Outros critérios também podem obrigar à entrega independentemente desse valor (posse de bens acima de R$ 800 mil, ganho de capital, atividade rural etc.).
+
+---
+
+## 3. ⚠️ Multa mínima por atraso
+
+A multa mínima é de **R$ 165,74**, mesmo que não haja imposto a pagar. Se houver imposto devido, a multa passa a ser de **1% ao mês** sobre o valor do imposto, limitada a **20%**, sendo sempre respeitado o mínimo de R$ 165,74.
+
+---
+
+## 4. 🚫 A isenção de R$ 5.000 já vale agora?
+
+**Não.** A isenção mensal de R$ 5.000 aprovada na reforma do IR entra em vigor para **rendimentos auferidos a partir de janeiro de 2026**, ou seja, só valerá na declaração do **IRPF 2027** (ano-base 2026). A declaração que o cliente entrega agora cobre rendimentos de 2025 e ainda segue a tabela progressiva anterior.
+
+---
+
+## 5. 🔑 Autorização gov.br para contadores
+
+Sim, é possível. O processo funciona assim:
+
+- O cliente emite uma **procuração eletrônica** pelo portal **gov.br** (nível de conta ouro ou prata) outorgando poderes ao CPF/CNPJ do escritório.
+- Com essa procuração ativa, o contador acessa o **e-CAC** da Receita Federal em nome do cliente e transmite a declaração.
+- Não é necessário que o cliente instale ou assine nada fisicamente.
+
+---
+
+## 6. 📈 Tributação extra para quem ganha mais de R$ 600 mil/ano?
+
+**Sim.** A reforma instituiu um **imposto mínimo progressivo** para rendas elevadas, como contrapartida à isenção da faixa mais baixa. A lógica é:
+
+| Renda anual | Alíquota efetiva mínima |
+|---|---|
+| Até R$ 600 mil | Sem mínimo adicional |
+| Entre R$ 600 mil e R$ 1,2 milhão | Progressiva (até ~10%) |
+| Acima de R$ 1,2 milhão | 20% de alíquota efetiva mínima |
+
+Se a alíquota efetiva do contribuinte já for igual ou superior ao mínimo exigido, **não há cobrança adicional**. O adicional incide apenas sobre a diferença que falta para atingir a alíquota mínima.
+
+---
+
+> **⚠️ Recomendação:** Para os valores exatos e eventuais atualizações de instrução normativa, confirme sempre no site oficial da **Receita Federal (gov.br/receitafederal)** e no **Perguntas e Respostas IRPF 2026**, que é a fonte primária para a temporada.
+
+--- Você:
+Agora confere a declaração de uma cliente contra os dois informes de rendimentos dela (o rascunho foi preenchido pelo auxiliar).
+
+Informe 1 - fonte pagadora: Laticínios Vale do Juruá Ltda., CNPJ 41.872.305/0001-10. Rendimentos tributáveis: R$ 52.800,00. Contribuição previdenciária oficial: R$ 5.230,00. Imposto retido na fonte: R$ 2.140,00. 13º salário (tributação exclusiva): R$ 4.400,00; IRRF sobre o 13º: R$ 118,00.
+Informe 2 - fonte pagadora: Instituto Educacional Serra Azul Ltda., CNPJ 33.180.746/0001-25. Rendimentos tributáveis: R$ 18.000,00. Contribuição previdenciária oficial: R$ 1.620,00. Imposto retido na fonte: R$ 310,00.
+
+Rascunho da declaração, ficha de rendimentos tributáveis recebidos de pessoa jurídica:
+- Laticínios Vale do Juruá: rendimentos R$ 52.800,00; contribuição previdenciária R$ 5.230,00; imposto retido R$ 2.140,00; 13º R$ 4.400,00; IRRF sobre o 13º R$ 118,00.
+- Instituto Educacional Serra Azul: rendimentos R$ 18.000,00; contribuição previdenciária R$ 1.620,00; imposto retido R$ 1.510,00.
+--- IA:
+## Resultado da Conferência
+
+### ✅ Laticínios Vale do Juruá — tudo correto
+
+Todos os campos conferem exatamente com o informe:
+
+| Campo | Informe | Rascunho |
+|---|---|---|
+| Rendimentos tributáveis | R$ 52.800,00 | R$ 52.800,00 ✅ |
+| Prev. oficial | R$ 5.230,00 | R$ 5.230,00 ✅ |
+| IRRF | R$ 2.140,00 | R$ 2.140,00 ✅ |
+| 13º salário | R$ 4.400,00 | R$ 4.400,00 ✅ |
+| IRRF sobre 13º | R$ 118,00 | R$ 118,00 ✅ |
+
+---
+
+### ❌ Instituto Educacional Serra Azul — erro encontrado
+
+| Campo | Informe | Rascunho |
+|---|---|---|
+| Rendimentos tributáveis | R$ 18.000,00 | R$ 18.000,00 ✅ |
+| Prev. oficial | R$ 1.620,00 | R$ 1.620,00 ✅ |
+| **IRRF** | **R$ 310,00** | **R$ 1.510,00 ❌** |
+
+**O imposto retido foi digitado como R$ 1.510,00 em vez de R$ 310,00** — aparentemente um "1" inserido a mais na frente. Erro típico de digitação.
+
+---
+
+### ⚠️ Impacto do erro
+
+O IRRF total está **superestimado em R$ 1.200,00**, o que inflaria artificialmente o imposto retido na fonte da cliente, gerando uma restituição indevida ou reduzindo indevidamente o imposto a pagar. Precisa ser corrigido antes de transmitir.
+
+**Correção necessária:** alterar o IRRF do Instituto Educacional Serra Azul de R$ 1.510,00 para **R$ 310,00**.
+
+### 2026-10-09 23:06 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade e estou na temporada do imposto de renda. Me ajuda a responder estas perguntas de clientes?
+
+1. Qual é o prazo da declaração do IRPF de 2026?
+2. Até quanto de rendimento tributável eu fico dispensado de declarar em 2026?
+3. Qual é a multa mínima por entregar atrasado, mesmo sem imposto a pagar?
+4. A isenção de 5 mil já vale na declaração que eu entrego agora?
+5. Como contador, posso fazer as declarações dos meus clientes pela autorização do gov.br?
+6. Quem ganha mais de R$ 600 mil por ano paga alguma coisa a mais?
+--- IA:
+# 🗂️ Respostas para Clientes — IRPF 2026
+
+---
+
+## 1. Prazo da declaração do IRPF 2026
+O prazo regular costuma ir de **março até 30 de abril** (podendo ser estendido até **31 de maio**, como ocorreu nos últimos anos). Como hoje é **9 de outubro de 2026**, o período regular já encerrou. Verifique no site da **Receita Federal** se houve alguma prorrogação ou se o cliente precisa entregar em atraso.
+
+---
+
+## 2. Limite de rendimento tributável para dispensa
+O limite mais recente que tenho referência é de **R$ 33.888,00/ano** (declaração 2025, ano-base 2024). Para 2026 pode ter havido atualização — confirme nas **Instruções Normativas** da Receita Federal do exercício atual.
+
+---
+
+## 3. Multa mínima por atraso
+A multa mínima é de **R$ 165,74**, mesmo que não haja imposto a pagar. A regra geral é:
+| Critério | Valor |
+|---|---|
+| % por mês de atraso | 1% sobre o imposto devido |
+| Mínimo | R$ 165,74 |
+| Máximo | 20% do imposto devido |
+
+---
+
+## 4. A isenção de R$ 5.000 já vale na declaração entregue agora?
+**❌ Não.** A isenção para quem ganha até R$ 5.000/mês foi projetada para vigorar a partir de **janeiro de 2026**. Como a declaração entregue agora refere-se à **renda ganha em 2025**, as regras anteriores ainda se aplicam. A isenção só aparecerá na declaração de **2027** (ano-base 2026).
+
+---
+
+## 5. Contador pode declarar pelos clientes via autorização gov.br?
+**✅ Sim.** Existem dois caminhos principais:
+- **Procuração Eletrônica no e-CAC** — o cliente outorga poderes ao contador diretamente no portal
+- **"Autorizar Acesso"** no gov.br — o cliente autoriza o CPF do contador
+
+Com isso, você acessa a declaração pré-preenchida e entrega sem precisar da senha do cliente.
+
+---
+
+## 6. Quem ganha mais de R$ 600 mil/ano paga algo a mais?
+Havia proposta no **pacote fiscal de novembro de 2024** de criar uma **contribuição adicional** sobre rendimentos acima de R$ 600.000/ano, focada especialmente em rendimentos hoje isentos (como dividendos). Recomendo verificar se foi **aprovada e regulamentada**, pois podem ter ocorrido mudanças legislativas em 2026 que não estão totalmente na minha base de conhecimento.
+
+---
+
+> ⚠️ **Aviso importante:** Algumas informações acima podem necessitar de confirmação no site da [Receita Federal](https://www.gov.br/receitafederal), especialmente quanto a valores e regras específicas de 2026. Meu conhecimento pode não cobrir todas as atualizações mais recentes da legislação tributária brasileira.
+
+--- Você:
+Agora confere a declaração de uma cliente contra os dois informes de rendimentos dela (o rascunho foi preenchido pelo auxiliar).
+
+Informe 1 - fonte pagadora: Laticínios Vale do Juruá Ltda., CNPJ 41.872.305/0001-10. Rendimentos tributáveis: R$ 52.800,00. Contribuição previdenciária oficial: R$ 5.230,00. Imposto retido na fonte: R$ 2.140,00. 13º salário (tributação exclusiva): R$ 4.400,00; IRRF sobre o 13º: R$ 118,00.
+Informe 2 - fonte pagadora: Instituto Educacional Serra Azul Ltda., CNPJ 33.180.746/0001-25. Rendimentos tributáveis: R$ 18.000,00. Contribuição previdenciária oficial: R$ 1.620,00. Imposto retido na fonte: R$ 310,00.
+
+Rascunho da declaração, ficha de rendimentos tributáveis recebidos de pessoa jurídica:
+- Laticínios Vale do Juruá: rendimentos R$ 52.800,00; contribuição previdenciária R$ 5.230,00; imposto retido R$ 2.140,00; 13º R$ 4.400,00; IRRF sobre o 13º R$ 118,00.
+- Instituto Educacional Serra Azul: rendimentos R$ 18.000,00; contribuição previdenciária R$ 1.620,00; imposto retido R$ 1.510,00.
+--- IA:
+## ✅ Conferência da Declaração
+
+### Laticínios Vale do Juruá — CNPJ 41.872.305/0001-10
+
+| Campo | Informe | Rascunho | Status |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 52.800,00 | R$ 52.800,00 | ✅ |
+| Contribuição previdenciária | R$ 5.230,00 | R$ 5.230,00 | ✅ |
+| Imposto retido (IRRF) | R$ 2.140,00 | R$ 2.140,00 | ✅ |
+| 13º salário | R$ 4.400,00 | R$ 4.400,00 | ✅ |
+| IRRF sobre o 13º | R$ 118,00 | R$ 118,00 | ✅ |
+
+---
+
+### Instituto Educacional Serra Azul — CNPJ 33.180.746/0001-25
+
+| Campo | Informe | Rascunho | Status |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 18.000,00 | R$ 18.000,00 | ✅ |
+| Contribuição previdenciária | R$ 1.620,00 | R$ 1.620,00 | ✅ |
+| Imposto retido (IRRF) | R$ 310,00 | R$ 1.510,00 | ❌ |
+
+---
+
+## ⚠️ Divergência encontrada
+
+O **IRRF do Instituto Educacional Serra Azul** está **errado no rascunho**: foi lançado **R$ 1.510,00** quando o informe indica **R$ 310,00** — uma diferença de **R$ 1.200,00**.
+
+Parece um erro de digitação do auxiliar: provavelmente inseriu um `1` a mais na frente do valor. Isso precisa ser corrigido antes de transmitir, pois um IRRF maior do que o real geraria uma **restituição indevida** para a cliente.
+
+### 2026-10-09 23:07 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade e estou na temporada do imposto de renda. Me ajuda a responder estas perguntas de clientes? A declaração é a do ano-calendário 2025, exercício 2026. Responda só com os trechos colados abaixo e diga, em cada resposta, de que ano-calendário e de que exercício é a regra; o que não estiver colado, escreva "conferir".
+
+1. Qual é o prazo da declaração do IRPF de 2026?
+2. Até quanto de rendimento tributável eu fico dispensado de declarar em 2026?
+3. Qual é a multa mínima por entregar atrasado, mesmo sem imposto a pagar?
+4. A isenção de 5 mil já vale na declaração que eu entrego agora?
+5. Como contador, posso fazer as declarações dos meus clientes pela autorização do gov.br?
+6. Quem ganha mais de R$ 600 mil por ano paga alguma coisa a mais?
+
+Trechos colados (como estão no texto):
+- IN RFB 2.312/2026, art. 2º: "Está obrigada a apresentar a Declaração de Ajuste Anual referente ao exercício de 2026 a pessoa física residente no Brasil que, no ano-calendário de 2025: I - recebeu rendimentos tributáveis, sujeitos ao ajuste na declaração, cuja soma foi superior a R$ 35.584,00 (trinta e cinco mil, quinhentos e oitenta e quatro reais);" (os outros incisos não foram colados)
+- Art. 7º: "A Declaração de Ajuste Anual deve ser apresentada no período de 23 de março a 29 de maio de 2026, pela internet".
+- Art. 10: "A entrega da Declaração de Ajuste Anual depois do prazo previsto no art. 7º ou a sua não apresentação, caso obrigatória, sujeita o contribuinte à multa de 1% (um por cento) ao mês-calendário ou fração de atraso, lançada de ofício e calculada sobre o total do imposto devido nela apurado, ainda que integralmente pago." § 1º: "I - terá valor mínimo de R$ 165,74 (cento e sessenta e cinco reais e setenta e quatro centavos) e valor máximo correspondente a 20% (vinte por cento) do imposto sobre a renda devido". § 3º: "A multa mínima a que se refere o inciso I do § 1º será aplicada, inclusive, no caso de Declaração de Ajuste Anual da qual não resulte imposto devido."
+- Art. 14: "O contribuinte pode autorizar outra pessoa física a elaborar e transmitir a sua Declaração de Ajuste Anual". § 2º: "I - pode ser concedida somente a uma única pessoa física; II - é válida por até seis meses, e poderá ser renovada; III - pode ser revogada a qualquer tempo; IV - está disponível para as declarações de que trata o art. 4º, caput, inciso II [o serviço Meu Imposto de Renda]". § 3º: a pessoa autorizada "II - não pode acumular mais do que vinte autorizações válidas".
+- Lei 9.250, art. 3º-A (Lei 15.270/2025): "A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal": até R$ 5.000,00, redução até R$ 312,89 "(de modo que o imposto devido seja zero)"; de R$ 5.000,01 até R$ 7.350,00, "R$ 978,62 - (0,133145 x rendimentos tributáveis sujeitos à incidência mensal)".
+- Art. 11-A: "A partir do exercício de 2027, ano-calendário de 2026, será concedida redução do Imposto sobre a Renda das Pessoas Físicas anual": até R$ 60.000,00, redução até R$ 2.694,15 "(de modo que o imposto devido seja zero)"; de R$ 60.000,01 até R$ 88.200,00, "R$ 8.429,73 - (0,095575 x rendimentos tributáveis sujeitos ao ajuste anual)".
+- Art. 16-A: "A partir do exercício de 2027, ano-calendário de 2026, a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a R$ 600.000,00 (seiscentos mil reais) fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas".
+--- IA:
+## Respostas às dúvidas dos clientes
+
+---
+
+### 1. Qual é o prazo da declaração do IRPF de 2026?
+
+**Regra:** exercício 2026, ano-calendário 2025 — IN RFB 2.312/2026, art. 7º.
+
+> "A Declaração de Ajuste Anual deve ser apresentada no período de **23 de março a 29 de maio de 2026**, pela internet."
+
+---
+
+### 2. Até quanto de rendimento tributável fico dispensado de declarar?
+
+**Regra:** exercício 2026, ano-calendário 2025 — IN RFB 2.312/2026, art. 2º, I.
+
+Está **obrigado** a declarar quem recebeu rendimentos tributáveis superiores a **R$ 35.584,00**. Abaixo desse valor, fica dispensado por esse inciso.
+
+⚠️ Os demais incisos do art. 2º não foram colados. **Conferir** se o cliente não se enquadra em outro critério de obrigatoriedade (posse de bens, atividade rural, ganho de capital, etc.).
+
+---
+
+### 3. Qual é a multa mínima por entregar atrasado, mesmo sem imposto a pagar?
+
+**Regra:** exercício 2026, ano-calendário 2025 — IN RFB 2.312/2026, art. 10, § 1º, I e § 3º.
+
+A multa mínima é de **R$ 165,74**, e o próprio texto confirma:
+
+> "A multa mínima [...] será aplicada, **inclusive**, no caso de Declaração de Ajuste Anual da qual **não resulte imposto devido**."
+
+---
+
+### 4. A isenção de R$ 5.000 já vale na declaração que entrego agora?
+
+**Não.** Há duas regras distintas nos trechos colados (Lei 9.250, com redação da Lei 15.270/2025):
+
+| Dispositivo | O que é | Quando começa |
+|---|---|---|
+| Art. 3º-A | Redução do imposto **mensal** (fonte/carnê-leão), zera o imposto até R$ 5.000/mês | **A partir de janeiro do ano-calendário de 2026** |
+| Art. 11-A | Redução do imposto **anual** (na declaração), zera até R$ 60.000/ano | **A partir do exercício de 2027, ano-calendário de 2026** |
+
+A declaração entregue agora é do **exercício 2026, ano-calendário 2025**. Nenhuma das duas regras se aplica a ela. O benefício anual só aparecerá na declaração do ano que vem.
+
+---
+
+### 5. Como contador, posso fazer as declarações dos clientes pela autorização do gov.br?
+
+**Regra:** exercício 2026, ano-calendário 2025 — IN RFB 2.312/2026, art. 14.
+
+O cliente pode autorizar outra pessoa física a elaborar e transmitir a declaração. As condições coladas são:
+
+- A autorização só pode ser concedida a **uma única pessoa física** por vez;
+- Tem validade de **até 6 meses** (renovável);
+- Pode ser **revogada a qualquer tempo**;
+- Está disponível no **serviço Meu Imposto de Renda** (o app/portal);
+- Você, como autorizado, **não pode acumular mais de 20 autorizações válidas simultaneamente**.
+
+Sobre o passo a passo técnico de como o cliente concede a autorização pelo gov.br: **conferir**.
+
+---
+
+### 6. Quem ganha mais de R$ 600 mil por ano paga algo a mais?
+
+**Regra:** Lei 9.250, art. 16-A (Lei 15.270/2025).
+
+Sim, existe uma **tributação mínima do IRPF** para quem receber mais de R$ 600.000,00 — mas ela vale:
+
+> "**A partir do exercício de 2027, ano-calendário de 2026**."
+
+Ou seja, **não se aplica à declaração atual** (exercício 2026, ano-calendário 2025). O cliente só ficará sujeito a essa regra na declaração entregue em 2027.
+
+Como funciona o cálculo dessa tributação mínima: **conferir** (não foi colado).
+
+--- Você:
+Agora confere a declaração de uma cliente contra os dois informes de rendimentos dela (o rascunho foi preenchido pelo auxiliar).
+
+Informe 1 - fonte pagadora: Laticínios Vale do Juruá Ltda., CNPJ 41.872.305/0001-10. Rendimentos tributáveis: R$ 52.800,00. Contribuição previdenciária oficial: R$ 5.230,00. Imposto retido na fonte: R$ 2.140,00. 13º salário (tributação exclusiva): R$ 4.400,00; IRRF sobre o 13º: R$ 118,00.
+Informe 2 - fonte pagadora: Instituto Educacional Serra Azul Ltda., CNPJ 33.180.746/0001-25. Rendimentos tributáveis: R$ 18.000,00. Contribuição previdenciária oficial: R$ 1.620,00. Imposto retido na fonte: R$ 310,00.
+
+Rascunho da declaração, ficha de rendimentos tributáveis recebidos de pessoa jurídica:
+- Laticínios Vale do Juruá: rendimentos R$ 52.800,00; contribuição previdenciária R$ 5.230,00; imposto retido R$ 2.140,00; 13º R$ 4.400,00; IRRF sobre o 13º R$ 118,00.
+- Instituto Educacional Serra Azul: rendimentos R$ 18.000,00; contribuição previdenciária R$ 1.620,00; imposto retido R$ 1.510,00.
+--- IA:
+## Conferência da declaração
+
+### Laticínios Vale do Juruá — CNPJ 41.872.305/0001-10
+
+| Campo | Informe | Rascunho | Situação |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 52.800,00 | R$ 52.800,00 | ✅ |
+| Contribuição previdenciária | R$ 5.230,00 | R$ 5.230,00 | ✅ |
+| IRRF | R$ 2.140,00 | R$ 2.140,00 | ✅ |
+| 13º salário | R$ 4.400,00 | R$ 4.400,00 | ✅ |
+| IRRF sobre o 13º | R$ 118,00 | R$ 118,00 | ✅ |
+
+---
+
+### Instituto Educacional Serra Azul — CNPJ 33.180.746/0001-25
+
+| Campo | Informe | Rascunho | Situação |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 18.000,00 | R$ 18.000,00 | ✅ |
+| Contribuição previdenciária | R$ 1.620,00 | R$ 1.620,00 | ✅ |
+| IRRF | R$ 310,00 | R$ 1.510,00 | ❌ |
+
+---
+
+### ⚠️ Divergência encontrada
+
+O IRRF do Instituto Educacional Serra Azul está **R$ 1.200,00 a maior** no rascunho (R$ 1.510,00) em relação ao informe (R$ 310,00). Parece um erro de digitação — possivelmente o "1" foi inserido na frente do valor correto. Corrigir para **R$ 310,00** antes de transmitir.
+
+> Obs.: os CNPJs das fontes pagadoras não constam no rascunho apresentado. Vale confirmar se estão preenchidos corretamente no programa da declaração.
+
+### 2026-10-09 23:08 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade e estou na temporada do imposto de renda. Me ajuda a responder estas perguntas de clientes? A declaração é a do ano-calendário 2025, exercício 2026. Responda só com os trechos colados abaixo e diga, em cada resposta, de que ano-calendário e de que exercício é a regra; o que não estiver colado, escreva "conferir".
+
+1. Qual é o prazo da declaração do IRPF de 2026?
+2. Até quanto de rendimento tributável eu fico dispensado de declarar em 2026?
+3. Qual é a multa mínima por entregar atrasado, mesmo sem imposto a pagar?
+4. A isenção de 5 mil já vale na declaração que eu entrego agora?
+5. Como contador, posso fazer as declarações dos meus clientes pela autorização do gov.br?
+6. Quem ganha mais de R$ 600 mil por ano paga alguma coisa a mais?
+
+Trechos colados (como estão no texto):
+- IN RFB 2.312/2026, art. 2º: "Está obrigada a apresentar a Declaração de Ajuste Anual referente ao exercício de 2026 a pessoa física residente no Brasil que, no ano-calendário de 2025: I - recebeu rendimentos tributáveis, sujeitos ao ajuste na declaração, cuja soma foi superior a R$ 35.584,00 (trinta e cinco mil, quinhentos e oitenta e quatro reais);" (os outros incisos não foram colados)
+- Art. 7º: "A Declaração de Ajuste Anual deve ser apresentada no período de 23 de março a 29 de maio de 2026, pela internet".
+- Art. 10: "A entrega da Declaração de Ajuste Anual depois do prazo previsto no art. 7º ou a sua não apresentação, caso obrigatória, sujeita o contribuinte à multa de 1% (um por cento) ao mês-calendário ou fração de atraso, lançada de ofício e calculada sobre o total do imposto devido nela apurado, ainda que integralmente pago." § 1º: "I - terá valor mínimo de R$ 165,74 (cento e sessenta e cinco reais e setenta e quatro centavos) e valor máximo correspondente a 20% (vinte por cento) do imposto sobre a renda devido". § 3º: "A multa mínima a que se refere o inciso I do § 1º será aplicada, inclusive, no caso de Declaração de Ajuste Anual da qual não resulte imposto devido."
+- Art. 14: "O contribuinte pode autorizar outra pessoa física a elaborar e transmitir a sua Declaração de Ajuste Anual". § 2º: "I - pode ser concedida somente a uma única pessoa física; II - é válida por até seis meses, e poderá ser renovada; III - pode ser revogada a qualquer tempo; IV - está disponível para as declarações de que trata o art. 4º, caput, inciso II [o serviço Meu Imposto de Renda]". § 3º: a pessoa autorizada "II - não pode acumular mais do que vinte autorizações válidas".
+- Lei 9.250, art. 3º-A (Lei 15.270/2025): "A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal": até R$ 5.000,00, redução até R$ 312,89 "(de modo que o imposto devido seja zero)"; de R$ 5.000,01 até R$ 7.350,00, "R$ 978,62 - (0,133145 x rendimentos tributáveis sujeitos à incidência mensal)".
+- Art. 11-A: "A partir do exercício de 2027, ano-calendário de 2026, será concedida redução do Imposto sobre a Renda das Pessoas Físicas anual": até R$ 60.000,00, redução até R$ 2.694,15 "(de modo que o imposto devido seja zero)"; de R$ 60.000,01 até R$ 88.200,00, "R$ 8.429,73 - (0,095575 x rendimentos tributáveis sujeitos ao ajuste anual)".
+- Art. 16-A: "A partir do exercício de 2027, ano-calendário de 2026, a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a R$ 600.000,00 (seiscentos mil reais) fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas".
+--- IA:
+## Respostas para clientes — IRPF Exercício 2026 / Ano-calendário 2025
+
+---
+
+### 1. Qual é o prazo?
+
+**23 de março a 29 de maio de 2026**, pela internet.
+
+> *IN RFB 2.312/2026, art. 7º — exercício 2026, ano-calendário 2025.*
+
+---
+
+### 2. Até quanto de rendimento tributável fico dispensado?
+
+Quem recebeu rendimentos tributáveis de **até R$ 35.584,00** no ano não está obrigado por esse critério. Atenção: o texto colado traz apenas o inciso I (rendimentos tributáveis); os demais casos de obrigatoriedade (rendimentos isentos, ganho de capital, atividade rural etc.) não foram colados — **conferir**.
+
+> *IN RFB 2.312/2026, art. 2º, I — exercício 2026, ano-calendário 2025.*
+
+---
+
+### 3. Qual é a multa mínima por atraso, mesmo sem imposto a pagar?
+
+**R$ 165,74**, e esse valor mínimo se aplica inclusive quando a declaração não resultar em imposto devido.
+
+> *IN RFB 2.312/2026, art. 10, § 1º, I e § 3º — exercício 2026, ano-calendário 2025.*
+
+---
+
+### 4. A isenção de R$ 5.000 já vale na declaração que entrego agora?
+
+**Não.** O benefício anual (rendimentos até R$ 60.000/ano → imposto zero na declaração) entra em vigor **"a partir do exercício de 2027, ano-calendário de 2026"**. A declaração que você entrega agora é do exercício 2026, ano-calendário 2025, e **não contempla essa redução**.
+
+O que já vigora desde janeiro de 2026 é a redução na **retenção mensal na fonte** (até R$ 5.000/mês → retenção zero) — mas isso afeta o carnê-leão e o desconto em folha de 2026, não a declaração atual.
+
+> *Lei 9.250, art. 3º-A (Lei 15.270/2025) — efeito mensal a partir do ano-calendário de 2026; art. 11-A — efeito anual a partir do exercício de 2027, ano-calendário de 2026.*
+
+---
+
+### 5. Como contador, posso fazer as declarações dos meus clientes pela autorização do gov.br?
+
+Sim, mas com as seguintes regras:
+
+- Cada cliente pode autorizar **apenas uma pessoa física** por vez;
+- A autorização é válida por **até seis meses** (renovável) e pode ser revogada a qualquer momento;
+- Funciona **somente pelo serviço Meu Imposto de Renda** (art. 4º, II);
+- **Você não pode acumular mais de 20 autorizações válidas simultaneamente.**
+
+> *IN RFB 2.312/2026, art. 14 e §§ 2º e 3º — exercício 2026, ano-calendário 2025.*
+
+---
+
+### 6. Quem ganha mais de R$ 600 mil paga algo a mais?
+
+A **tributação mínima** para quem recebe mais de R$ 600.000/ano entra em vigor **"a partir do exercício de 2027, ano-calendário de 2026"**. Portanto, **não se aplica à declaração atual** (exercício 2026, ano-calendário 2025). Regras adicionais sobre o cálculo dessa tributação mínima não foram coladas — **conferir**.
+
+> *Lei 9.250, art. 16-A (Lei 15.270/2025) — a partir do exercício de 2027, ano-calendário de 2026.*
+
+--- Você:
+Agora confere a declaração de uma cliente contra os dois informes de rendimentos dela (o rascunho foi preenchido pelo auxiliar).
+
+Informe 1 - fonte pagadora: Laticínios Vale do Juruá Ltda., CNPJ 41.872.305/0001-10. Rendimentos tributáveis: R$ 52.800,00. Contribuição previdenciária oficial: R$ 5.230,00. Imposto retido na fonte: R$ 2.140,00. 13º salário (tributação exclusiva): R$ 4.400,00; IRRF sobre o 13º: R$ 118,00.
+Informe 2 - fonte pagadora: Instituto Educacional Serra Azul Ltda., CNPJ 33.180.746/0001-25. Rendimentos tributáveis: R$ 18.000,00. Contribuição previdenciária oficial: R$ 1.620,00. Imposto retido na fonte: R$ 310,00.
+
+Rascunho da declaração, ficha de rendimentos tributáveis recebidos de pessoa jurídica:
+- Laticínios Vale do Juruá: rendimentos R$ 52.800,00; contribuição previdenciária R$ 5.230,00; imposto retido R$ 2.140,00; 13º R$ 4.400,00; IRRF sobre o 13º R$ 118,00.
+- Instituto Educacional Serra Azul: rendimentos R$ 18.000,00; contribuição previdenciária R$ 1.620,00; imposto retido R$ 1.510,00.
+--- IA:
+## Conferência — Ficha de Rendimentos Tributáveis de PJ
+
+### Laticínios Vale do Juruá — CNPJ 41.872.305/0001-10
+| Campo | Informe | Rascunho | Situação |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 52.800,00 | R$ 52.800,00 | ✅ |
+| Contribuição previdenciária | R$ 5.230,00 | R$ 5.230,00 | ✅ |
+| IRRF | R$ 2.140,00 | R$ 2.140,00 | ✅ |
+| 13º salário | R$ 4.400,00 | R$ 4.400,00 | ✅ |
+| IRRF sobre o 13º | R$ 118,00 | R$ 118,00 | ✅ |
+
+---
+
+### Instituto Educacional Serra Azul — CNPJ 33.180.746/0001-25
+| Campo | Informe | Rascunho | Situação |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 18.000,00 | R$ 18.000,00 | ✅ |
+| Contribuição previdenciária | R$ 1.620,00 | R$ 1.620,00 | ✅ |
+| IRRF | R$ 310,00 | R$ 1.510,00 | ❌ |
+
+---
+
+### ⚠️ Divergência encontrada
+
+O IRRF do Instituto Educacional Serra Azul está **R$ 1.200,00 maior** no rascunho do que no informe (R$ 1.510,00 vs. R$ 310,00). Parece um erro de digitação — provavelmente um "1" inserido na frente do valor correto.
+
+Como o IRRF entra como imposto já pago, esse erro **aumentaria artificialmente a restituição** (ou reduziria o imposto a pagar) da cliente em R$ 1.200,00, o que pode gerar malha fina. **Corrigir antes de transmitir.**
+
+### 2026-10-09 23:09 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade e estou na temporada do imposto de renda. Me ajuda a responder estas perguntas de clientes? A declaração é a do ano-calendário 2025, exercício 2026. Responda só com os trechos colados abaixo e diga, em cada resposta, de que ano-calendário e de que exercício é a regra; o que não estiver colado, escreva "conferir".
+
+1. Qual é o prazo da declaração do IRPF de 2026?
+2. Até quanto de rendimento tributável eu fico dispensado de declarar em 2026?
+3. Qual é a multa mínima por entregar atrasado, mesmo sem imposto a pagar?
+4. A isenção de 5 mil já vale na declaração que eu entrego agora?
+5. Como contador, posso fazer as declarações dos meus clientes pela autorização do gov.br?
+6. Quem ganha mais de R$ 600 mil por ano paga alguma coisa a mais?
+
+Trechos colados (como estão no texto):
+- IN RFB 2.312/2026, art. 2º: "Está obrigada a apresentar a Declaração de Ajuste Anual referente ao exercício de 2026 a pessoa física residente no Brasil que, no ano-calendário de 2025: I - recebeu rendimentos tributáveis, sujeitos ao ajuste na declaração, cuja soma foi superior a R$ 35.584,00 (trinta e cinco mil, quinhentos e oitenta e quatro reais);" (os outros incisos não foram colados)
+- Art. 7º: "A Declaração de Ajuste Anual deve ser apresentada no período de 23 de março a 29 de maio de 2026, pela internet".
+- Art. 10: "A entrega da Declaração de Ajuste Anual depois do prazo previsto no art. 7º ou a sua não apresentação, caso obrigatória, sujeita o contribuinte à multa de 1% (um por cento) ao mês-calendário ou fração de atraso, lançada de ofício e calculada sobre o total do imposto devido nela apurado, ainda que integralmente pago." § 1º: "I - terá valor mínimo de R$ 165,74 (cento e sessenta e cinco reais e setenta e quatro centavos) e valor máximo correspondente a 20% (vinte por cento) do imposto sobre a renda devido". § 3º: "A multa mínima a que se refere o inciso I do § 1º será aplicada, inclusive, no caso de Declaração de Ajuste Anual da qual não resulte imposto devido."
+- Art. 14: "O contribuinte pode autorizar outra pessoa física a elaborar e transmitir a sua Declaração de Ajuste Anual". § 2º: "I - pode ser concedida somente a uma única pessoa física; II - é válida por até seis meses, e poderá ser renovada; III - pode ser revogada a qualquer tempo; IV - está disponível para as declarações de que trata o art. 4º, caput, inciso II [o serviço Meu Imposto de Renda]". § 3º: a pessoa autorizada "II - não pode acumular mais do que vinte autorizações válidas".
+- Lei 9.250, art. 3º-A (Lei 15.270/2025): "A partir do mês de janeiro do ano-calendário de 2026, será concedida redução do imposto sobre os rendimentos tributáveis sujeitos à incidência mensal": até R$ 5.000,00, redução até R$ 312,89 "(de modo que o imposto devido seja zero)"; de R$ 5.000,01 até R$ 7.350,00, "R$ 978,62 - (0,133145 x rendimentos tributáveis sujeitos à incidência mensal)".
+- Art. 11-A: "A partir do exercício de 2027, ano-calendário de 2026, será concedida redução do Imposto sobre a Renda das Pessoas Físicas anual": até R$ 60.000,00, redução até R$ 2.694,15 "(de modo que o imposto devido seja zero)"; de R$ 60.000,01 até R$ 88.200,00, "R$ 8.429,73 - (0,095575 x rendimentos tributáveis sujeitos ao ajuste anual)".
+- Art. 16-A: "A partir do exercício de 2027, ano-calendário de 2026, a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a R$ 600.000,00 (seiscentos mil reais) fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas".
+--- IA:
+## Respostas às perguntas dos clientes
+
+---
+
+### 1. Qual é o prazo da declaração do IRPF de 2026?
+
+**Regra: exercício 2026, ano-calendário 2025.**
+
+Conforme o **art. 7º da IN RFB 2.312/2026**:
+
+> "A Declaração de Ajuste Anual deve ser apresentada no período de **23 de março a 29 de maio de 2026**, pela internet."
+
+---
+
+### 2. Até quanto de rendimento tributável fico dispensado de declarar?
+
+**Regra: exercício 2026, ano-calendário 2025.**
+
+Conforme o **art. 2º, I da IN RFB 2.312/2026**, está *obrigado* a declarar quem recebeu rendimentos tributáveis acima de **R$ 35.584,00** no ano-calendário de 2025. Abaixo desse valor, não há obrigação por este critério.
+
+⚠️ Atenção: os demais incisos do art. 2º (outros critérios de obrigatoriedade) não foram colados — **conferir**.
+
+---
+
+### 3. Qual é a multa mínima por entregar atrasado, mesmo sem imposto a pagar?
+
+**Regra: exercício 2026, ano-calendário 2025.**
+
+Conforme o **art. 10, § 1º, I e § 3º da IN RFB 2.312/2026**:
+
+- Multa mínima: **R$ 165,74**
+- Máximo: 20% do imposto devido
+- Expressamente previsto: essa multa mínima **se aplica inclusive quando não resulta imposto devido** na declaração.
+
+---
+
+### 4. A isenção de R$ 5.000 já vale na declaração que entrego agora?
+
+**Não.** Os trechos colados mostram dois momentos distintos:
+
+| Regra | Dispositivo | Vigência |
+|---|---|---|
+| Redução mensal (na fonte) | Art. 3º-A da Lei 9.250 | A partir de janeiro do **ano-calendário de 2026** |
+| Redução no ajuste anual | Art. 11-A da Lei 9.250 | A partir do **exercício de 2027, ano-calendário de 2026** |
+
+A declaração que está sendo entregue agora é do **exercício 2026, ano-calendário 2025**. Portanto, **nenhuma dessas reduções se aplica a esta declaração** — elas valerão na declaração do ano que vem (exercício 2027). O benefício do rendimento mensal até R$ 5.000,00 com imposto zero, no entanto, já está valendo ao longo de 2026 nos salários/pró-labores mensais.
+
+---
+
+### 5. Como contador, posso fazer as declarações dos meus clientes pela autorização do gov.br?
+
+**Regra: exercício 2026, ano-calendário 2025.**
+
+Conforme o **art. 14 da IN RFB 2.312/2026**, sim — o cliente pode autorizar outra pessoa física a elaborar e transmitir sua declaração. As condições são:
+
+- A autorização **só pode ser concedida a uma única pessoa física** por vez (§ 2º, I);
+- É válida por **até seis meses**, podendo ser renovada (§ 2º, II);
+- Pode ser **revogada a qualquer tempo** (§ 2º, III);
+- Está disponível para o serviço **Meu Imposto de Renda** (§ 2º, IV);
+- O contador **não pode acumular mais de 20 autorizações válidas** simultaneamente (§ 3º, II).
+
+⚠️ O texto faz referência ao "serviço Meu Imposto de Renda" (art. 4º, II). Para confirmar se o acesso ocorre especificamente via credencial gov.br — **conferir**.
+
+---
+
+### 6. Quem ganha mais de R$ 600 mil por ano paga alguma coisa a mais?
+
+**Atenção: esta regra ainda não se aplica à declaração atual.**
+
+Conforme o **art. 16-A da Lei 9.250 (inserido pela Lei 15.270/2025)**:
+
+> "A partir do **exercício de 2027, ano-calendário de 2026**, a pessoa física cuja soma de todos os rendimentos recebidos no ano-calendário seja superior a **R$ 600.000,00** fica sujeita à tributação mínima do Imposto sobre a Renda das Pessoas Físicas."
+
+Ou seja, essa regra **não vale para a declaração de exercício 2026 (ano-calendário 2025)**. Valerá na declaração de 2027. Os detalhes do cálculo da tributação mínima não foram colados — **conferir**.
+
+--- Você:
+Agora confere a declaração de uma cliente contra os dois informes de rendimentos dela (o rascunho foi preenchido pelo auxiliar).
+
+Informe 1 - fonte pagadora: Laticínios Vale do Juruá Ltda., CNPJ 41.872.305/0001-10. Rendimentos tributáveis: R$ 52.800,00. Contribuição previdenciária oficial: R$ 5.230,00. Imposto retido na fonte: R$ 2.140,00. 13º salário (tributação exclusiva): R$ 4.400,00; IRRF sobre o 13º: R$ 118,00.
+Informe 2 - fonte pagadora: Instituto Educacional Serra Azul Ltda., CNPJ 33.180.746/0001-25. Rendimentos tributáveis: R$ 18.000,00. Contribuição previdenciária oficial: R$ 1.620,00. Imposto retido na fonte: R$ 310,00.
+
+Rascunho da declaração, ficha de rendimentos tributáveis recebidos de pessoa jurídica:
+- Laticínios Vale do Juruá: rendimentos R$ 52.800,00; contribuição previdenciária R$ 5.230,00; imposto retido R$ 2.140,00; 13º R$ 4.400,00; IRRF sobre o 13º R$ 118,00.
+- Instituto Educacional Serra Azul: rendimentos R$ 18.000,00; contribuição previdenciária R$ 1.620,00; imposto retido R$ 1.510,00.
+--- IA:
+## Conferência do rascunho × informes de rendimentos
+
+### Laticínios Vale do Juruá — ✅ Sem divergências
+
+| Campo | Informe | Rascunho |
+|---|---|---|
+| Rendimentos tributáveis | R$ 52.800,00 | R$ 52.800,00 |
+| Prev. oficial | R$ 5.230,00 | R$ 5.230,00 |
+| IRRF | R$ 2.140,00 | R$ 2.140,00 |
+| 13º salário | R$ 4.400,00 | R$ 4.400,00 |
+| IRRF sobre o 13º | R$ 118,00 | R$ 118,00 |
+
+---
+
+### Instituto Educacional Serra Azul — ⚠️ Divergência encontrada
+
+| Campo | Informe | Rascunho | Situação |
+|---|---|---|---|
+| Rendimentos tributáveis | R$ 18.000,00 | R$ 18.000,00 | ✅ |
+| Prev. oficial | R$ 1.620,00 | R$ 1.620,00 | ✅ |
+| **IRRF** | **R$ 310,00** | **R$ 1.510,00** | ❌ |
+
+**O IRRF do Instituto Educacional Serra Azul está errado no rascunho.** O valor lançado foi R$ 1.510,00, mas o informe indica R$ 310,00 — diferença de R$ 1.200,00. Provavelmente foi um erro de digitação (um "1" inserido antes do valor correto).
+
+> ⚠️ **Impacto:** imposto retido a maior inflaria a restituição da cliente indevidamente. Corrigir antes de transmitir.
+

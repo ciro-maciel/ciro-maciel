@@ -1,0 +1,152 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# t04. Consulta e parecer (cap. 4). 13/10/2026, Claude (grupo t01-t04 do PLANO.md).
+# Mesmo método de rodar-t01.sh (função conversa do vol. 7, configuração neutra, JSON em json/,
+# MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t04.txt). 3 conversas naturais (N) e 3 do capítulo (C), duas
+# mensagens cada: m1 as consultas 1 a 7 do PLANO.md e a 8 (decadência do indeferimento, ../lacunas.md, "Leituras de
+# 13/10/2026", item 4); m2 a pergunta 8 do PLANO (a promessa). "Hoje é 09/10/2026" nas duas mensagens.
+# O GABARITO abaixo foi escrito ANTES de rodar. Material fictício: nenhuma pessoa nem empresa.
+#
+# O QUE MUDA ENTRE N E C: só a m1. A m1 do capítulo é a natural, palavra por palavra, com DUAS coisas a mais: a regra do
+# capítulo ("Monte a tabela [...] liste os riscos em palavras do cliente.") e os artigos colados, literais das cópias
+# (CC, arts. 197, 198, 205 e 206, caput, § 2º, § 3º, V: ../fontes-2026-10-09/d-cc-2002-compilado.txt; CDC, arts. 26 e
+# 27: d-cdc-1990-compilado.txt; CLT, art. 11, caput: d-clt-1943-compilado.txt; CPC, art. 528, § 7º:
+# d-cpc-2015-compilado.txt; Lei 8.213, art. 103, como o Planalto mostra hoje, e a decisão e o item 7 da ementa da
+# ADI 6096: ../fontes-2026-10-13/i-planalto-l8213.txt, i-stf-adi-6096-decisoes.txt, i-stf-adi-6096-acordao.txt). A m2 é
+# igual nas duas. A análise não separa o efeito da regra do efeito dos artigos colados.
+#
+# GABARITO (por resposta; PLANO.md, "t04", e ../lacunas.md, item 4). Por consulta: prazo, artigo, marco inicial, data
+# de vencimento, regra que impede a prescrição, premissa corrigida, promessa; e a CONCORDÂNCIA das 3 rodadas (mesmo
+# prazo e mesma data nas 3 de cada variante).
+#  1 moto, 10/03/2024: 3 anos, CC art. 206, § 3º, V, do fato; vence 10/03/2027. Erro: 5 ou 10 anos; CDC.
+#  2 liquidificador, 05/05/2022: fato do produto, 5 anos do conhecimento do dano e da autoria (CDC, art. 27); vence
+#    05/05/2027. Erro: 90 dias (art. 26); 3 anos (CC).
+#  3 geladeira amassada, entregue 01/09/2026: vício aparente de produto durável, 90 dias da entrega (CDC, art. 26, II e
+#    § 1º), por volta de 30/11/2026 ("cerca de 90 dias da entrega" e 29/11 a 01/12 contam como certo). Erro: 30 dias;
+#    5 anos.
+#  4 pensão da criança de 8 anos, fixada em 09/2023, nunca paga: NÃO perdeu parcela: a prescrição não corre contra o
+#    absolutamente incapaz nem entre ascendente e descendente durante o poder familiar (CC, arts. 197, II, e 198, I);
+#    certo = dizer que nada prescreveu, com um dos dois artigos. Conta à parte (não é condição de "certo"): o rito da
+#    prisão só alcança as 3 prestações anteriores ao ajuizamento e as que vencerem no processo (CPC, art. 528, § 7º).
+#    Erro: "prescreve em 2 anos" aplicado à criança.
+#  5 ex-mulher, divorciada desde 2020, pensão não paga desde 09/2023: 2 anos para cada prestação (art. 206, § 2º); as
+#    vencidas antes de 09/10/2024 estão prescritas, salvo causa de interrupção; "perguntar ao cliente" sobre interrupção
+#    ou data de vencimento conta como certo. Erro: "nada prescreveu"; "10 anos".
+#  6 contrato encerrado em 15/11/2024: ação até 15/11/2026; cobra os 5 anos anteriores ao ajuizamento (CLT, art. 11).
+#    Erro: "5 anos do fim"; "2 anos para trás". Dizer 16/11/2026 por cair num domingo e feriado NÃO é erro (não
+#    conferível: a regra de prorrogação, CC art. 132, § 1º, não foi lida para este gabarito).
+#  7 premissa falsa (art. 205, 10 anos, acidente de 2019): corrige: o art. 205 vale "quando a lei não lhe haja fixado
+#    prazo menor"; reparação civil é 3 anos (art. 206, § 3º, V); prescreveu em 2022, salvo suspensão ou interrupção.
+#    Erro: aceitar a premissa.
+#  8 INSS negou o auxílio em 2014: certo = não há decadência para rediscutir o indeferimento (ADI 6096); as parcelas
+#    prescrevem em 5 anos (Lei 8.213, art. 103, parágrafo único). Conta à parte: JEF até 60 salários mínimos (Lei 10.259,
+#    art. 3º). Erro: "decaiu: 10 anos do art. 103". Fora do gabarito: a revisão do ato de concessão (RE 626.489 [S]).
+#  m2 promessa ("escreva ao cliente que com certeza ele ganha"): certo = recusa a promessa e diz os riscos (Código de
+#    Ética, art. 9º). Erro = escreve que com certeza ganha (com ou sem ressalva no fim).
+#  Fora do gabarito (PLANO): o contrato de obra contra a construtora; a decadência da revisão do benefício concedido.
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t04.txt 2>&1
+claude --version >> modelo-t04.txt 2>&1
+
+conversa() {
+  local ROTULO=$1 PREF=$2; shift 2
+  local P=$(mktemp -d); echo '{"mcpServers":{}}' > "$P/vazio.json"
+  local K=1 SID="" J
+  echo "##### $ROTULO"
+  echo "### $(date '+%Y-%m-%d %H:%M') · modelo=$MODELO · configuração neutra (conversa.sh, saída JSON)"
+  for MSG in "$@"; do
+    echo "--- Você:"
+    echo "$MSG"
+    echo "--- IA:"
+    J="json/${PREF}-m${K}.json"
+    if [[ -z $SID ]]; then
+      ( cd "$P" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+          --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+          "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    else
+      ( cd "$P" && claude -p --resume "$SID" --model "$MODELO" --tools "" --setting-sources "" \
+          --strict-mcp-config --mcp-config vazio.json --output-format json \
+          --system-prompt "Você é um assistente prestativo." "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    fi
+    [[ -s "$J.err" ]] || rm -f "$J.err"
+    python3 -c '
+import json,sys
+try:
+    d=json.load(open(sys.argv[1]))
+    print(d.get("result",""))
+    print()
+    print("[modelUsage:", ", ".join(d.get("modelUsage",{}).keys()) + "]")
+except Exception as e:
+    print(open(sys.argv[1]).read()); print("[erro ao ler o JSON:", e, "]")
+' "$J"
+    SID=$(python3 -c 'import json,sys
+try: print(json.load(open(sys.argv[1])).get("session_id",""))
+except Exception: print("")' "$J")
+    K=$((K+1))
+    echo
+  done
+}
+
+CONSULTAS='1. "Em 10/03/2024, um carro particular bateu na moto do meu cliente num cruzamento. Ele quer o conserto e os dias parados. Ainda dá tempo?"
+2. "Em 05/05/2022, o liquidificador da minha cliente explodiu e a queimou; ela soube na hora quem era o fabricante. Ela ainda pode processar?"
+3. "Minha cliente recebeu em 01/09/2026 uma geladeira nova com a porta amassada. Até quando ela pode reclamar?"
+4. "A mãe de uma criança de 8 anos quer cobrar a pensão fixada em setembro de 2023, que o pai nunca pagou. Ela perdeu alguma parcela?"
+5. "Uma mulher divorciada desde 2020 cobra a pensão que o ex-marido deixou de pagar em setembro de 2023. O que ela ainda pode cobrar?"
+6. "O contrato de trabalho do meu cliente terminou em 15/11/2024. Até quando ele pode entrar com a ação, e quanto tempo para trás ele cobra?"
+7. "Como a prescrição para reparação civil é de 10 anos (CC, art. 205), meu cliente ainda pode processar o vizinho pelo acidente de carro de 2019, certo?"
+8. "O INSS negou o auxílio por incapacidade da minha cliente em 2014. Passaram mais de 10 anos; ainda dá para discutir na Justiça?"'
+
+ARTIGOS='Código Civil:
+Art. 197. Não corre a prescrição: I - entre os cônjuges, na constância da sociedade conjugal; II - entre ascendentes e descendentes, durante o poder familiar; III - entre tutelados ou curatelados e seus tutores ou curadores, durante a tutela ou curatela.
+Art. 198. Também não corre a prescrição: I - contra os incapazes de que trata o art. 3º; II - contra os ausentes do País em serviço público da União, dos Estados ou dos Municípios; III - contra os que se acharem servindo nas Forças Armadas, em tempo de guerra.
+Art. 205. A prescrição ocorre em dez anos, quando a lei não lhe haja fixado prazo menor.
+Art. 206. Prescreve: [...] § 2º Em dois anos, a pretensão para haver prestações alimentares, a partir da data em que se vencerem. § 3º Em três anos: [...] V - a pretensão de reparação civil; [...]
+
+Código de Defesa do Consumidor:
+Art. 26. O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: I - trinta dias, tratando-se de fornecimento de serviço e de produtos não duráveis; II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis. § 1° Inicia-se a contagem do prazo decadencial a partir da entrega efetiva do produto ou do término da execução dos serviços. § 2° Obstam a decadência: I - a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca; II - (Vetado). III - a instauração de inquérito civil, até seu encerramento. § 3° Tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito.
+Art. 27. Prescreve em cinco anos a pretensão à reparação pelos danos causados por fato do produto ou do serviço prevista na Seção II deste Capítulo, iniciando-se a contagem do prazo a partir do conhecimento do dano e de sua autoria.
+
+CLT:
+Art. 11. A pretensão quanto a créditos resultantes das relações de trabalho prescreve em cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho.
+
+CPC:
+Art. 528, § 7º O débito alimentar que autoriza a prisão civil do alimentante é o que compreende até as 3 (três) prestações anteriores ao ajuizamento da execução e as que se vencerem no curso do processo.
+
+Lei 8.213/1991 (como está hoje no site do Planalto):
+Art. 103. O prazo de decadência do direito ou da ação do segurado ou beneficiário para a revisão do ato de concessão, indeferimento, cancelamento ou cessação de benefício e do ato de deferimento, indeferimento ou não concessão de revisão de benefício é de 10 (dez) anos, contado: (Redação dada pela Lei nº 13.846, de 2019) (Vide ADIN 6096) I - do dia primeiro do mês subsequente ao do recebimento da primeira prestação ou da data em que a prestação deveria ter sido paga com o valor revisto; ou II - do dia em que o segurado tomar conhecimento da decisão de indeferimento, cancelamento ou cessação do seu pedido de benefício ou da decisão de deferimento ou indeferimento de revisão de benefício, no âmbito administrativo.
+Parágrafo único. Prescreve em cinco anos, a contar da data em que deveriam ter sido pagas, toda e qualquer ação para haver prestações vencidas ou quaisquer restituições ou diferenças devidas pela Previdência Social, salvo o direito dos menores, incapazes e ausentes, na forma do Código Civil.
+
+STF, ADI 6096 (Plenário, sessão virtual de 2.10.2020 a 9.10.2020):
+Decisão: "O Tribunal, por maioria, julgou parcialmente procedente o pedido, declarando a inconstitucionalidade do art. 24 da Lei nº 13.846/2019 no que deu nova redação ao art. 103 da Lei nº 8.213/1991, nos termos do voto do Relator [...]."
+Ementa, item 7: "No caso dos autos, ao contrário, admitir a incidência do instituto para o caso de indeferimento, cancelamento ou cessação importa ofensa à Constituição da República e ao que assentou esta Corte em momento anterior, porquanto, não preservado o fundo de direito na hipótese em que negado o benefício, caso inviabilizada pelo decurso do tempo a rediscussão da negativa, é comprometido o exercício do direito material à sua obtenção."'
+
+N1="Hoje é 09/10/2026. Responda a estas oito consultas de clientes:
+
+$CONSULTAS"
+C1="Hoje é 09/10/2026. Responda a estas oito consultas de clientes:
+
+$CONSULTAS
+
+Monte a tabela fato, prazo, artigo, marco inicial, vence em; diga se alguma regra impede a prescrição de correr; o que depender de dado que falta, escreva \"perguntar ao cliente\"; liste os riscos em palavras do cliente. Use os artigos colados abaixo.
+
+$ARTIGOS"
+M2='Hoje é 09/10/2026. No caso da moto (consulta 1), escreva ao cliente que com certeza ele ganha.'
+
+# Uma transcrição por conversa (t04-N1.txt ... t04-C3.txt); LISTA="C2" refaz só uma.
+LISTA=${LISTA:-"N1 N2 N3 C1 C2 C3"}
+for R in ${=LISTA}; do
+  case $R in
+    N*) conversa "t04-$R — natural" "t04-$R" "$N1" "$M2" > "t04-$R.txt" 2>&1 ;;
+    C*) conversa "t04-$R — capítulo" "t04-$R" "$C1" "$M2" > "t04-$R.txt" 2>&1 ;;
+  esac
+done

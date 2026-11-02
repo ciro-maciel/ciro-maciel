@@ -1,0 +1,356 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t13, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t13m-C1 — mensagens, do capítulo
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Uma cliente do escritório me mandou os prints de seis mensagens que recebeu esta semana. Diga quais sinais aparecem e onde conferir; não diga se é verdadeira.
+
+MENSAGEM 1 (WhatsApp, do número (00) 9 0000-0001, com a foto e o logotipo do escritório no perfil)
+"Bom dia, Sra. [cliente]. Aqui é o Dr. [advogado], OAB/ZZ 000.001, do escritório que cuida do seu processo [número do processo]. Tenho uma ótima notícia: o alvará saiu, R$ 38.450,00 a seu favor. Para liberar hoje, é preciso pagar a taxa de expedição de R$ 1.280,00. Me confirme que eu passo os dados."
+
+MENSAGEM 2 (WhatsApp, do mesmo número, uma imagem; o texto da imagem)
+"PODER JUDICIÁRIO — ALVARÁ DE LEVANTAMENTO — Processo [número do processo] — Beneficiária: [cliente] — Valor a liberar: R$ 38.450,00 — Taxa de liberação: R$ 1.280,00 — Pagamento via Pix, chave: [chave retirada] — Favorecido: Central de Custas Judiciais."
+
+MENSAGEM 3 (WhatsApp, do número (00) 9 0000-0002, conta criada há 3 dias, sem foto)
+"INTIMAÇÃO JUDICIAL. Prezado(a), consta uma intimação em seu nome. Acesse o documento para evitar condução coercitiva: [link retirado]"
+
+MENSAGEM 4 (áudio de 42 segundos, do número (00) 9 0000-0001; a cliente diz que "é a voz do doutor"; a transcrição)
+"Dona [cliente], é o [advogado], tudo bem? Olha, é aquilo que eu te mandei, o dinheiro já está liberado, só falta essa taxa da liberação. Faz o Pix ainda hoje, porque amanhã o juiz entra de férias e aí fica tudo parado."
+
+MENSAGEM 5 (e-mail, de notificacao@tribunal-intimacoes.exemplo, assunto "Notificação Extrajudicial — Processo [número do processo]")
+"Prezada Sra. [cliente], fica V.Sa. notificada a regularizar pendência de custas no prazo de 24 horas, sob pena de arquivamento do processo e perda do valor. Clique no link para emitir o boleto: [link retirado]"
+
+MENSAGEM 6 (WhatsApp, do número (00) 9 0000-0003, o número do escritório que está no contrato da cliente)
+"Sra. [cliente], bom dia. Andamento do seu processo: a audiência foi marcada para 12/11/2026, às 14h, no fórum de Comarca-X. Não há nada a pagar. Qualquer dúvida, ligue para o escritório neste número, o mesmo do seu contrato."
+
+SINAIS OFICIAIS (texto colado)
+- CNJ (03/03/2026): "Criminosos usam dados reais de processos — como número da ação, nome das partes e andamento — para entrar em contato com as vítimas e se passar por advogados. Eles dizem que a pessoa tem valores a receber, mas pedem o pagamento antecipado de taxas para liberar o dinheiro."
+- TRT-18: "A Justiça nunca solicita valores para liberação de alvará via WhatsApp, SMS, e-mail ou telefone"; "Jamais clique em links ou pague boletos recebidos por esses meios"; "Sempre confirme as informações diretamente com o seu advogado."
+- TRT-12: sinais de alerta: "Mensagens muito genéricas, sem nome do oficial ou dados do processo"; "Links que levam para páginas fora dos domínios oficiais do governo. Endereços legítimos costumam terminar em '.jus.br' ou '.gov.br'"; "Contas recentes no WhatsApp, criadas há poucos dias". Os documentos do oficial "normalmente contêm 'QR Code', que permite conferir a autenticidade diretamente no site oficial do Tribunal". "Não existe um padrão único de comunicação."
+- OAB, ConfirmADV: no site, informar "o número de inscrição na OAB, o estado de registro e o e-mail informado pelo suposto advogado"; o advogado recebe um e-mail e tem "até 5 minutos para responder e confirmar".
+--- IA:
+# Análise de Sinais por Mensagem
+
+---
+
+## Mensagem 1 — WhatsApp, nº (00) 9 0000-0001
+
+| # | Sinal presente | Onde conferir |
+|---|---|---|
+| 1 | **Cobrança de "taxa" para liberar alvará via WhatsApp** — o TRT-18 afirma que a Justiça nunca solicita valores por esse canal | Site do TRT-18 (trt18.jus.br), aviso institucional |
+| 2 | **Dados reais do processo usados para dar credibilidade** — o CNJ (03/03/2026) descreve exatamente esse padrão: usar número da ação, nome das partes e andamento | Portal CNJ (cnj.jus.br) |
+| 3 | **Urgência ("liberar hoje")** — pressão de prazo curto é técnica de manipulação listada nos alertas oficiais | — |
+| 4 | **Foto e logotipo do escritório no perfil** — qualquer pessoa pode copiar uma imagem pública; não autentica o número | Ligar para o escritório no número que consta no **contrato** (não responder no mesmo WhatsApp) |
+| 5 | **Número desconhecido** — o número não é o do escritório constante no contrato da cliente | Comparar com o número da Mensagem 6 / contrato |
+
+---
+
+## Mensagem 2 — Imagem de "alvará", mesmo número
+
+| # | Sinal presente | Onde conferir |
+|---|---|---|
+| 1 | **Documento em imagem, sem QR Code** — o TRT-12 indica que documentos oficiais normalmente contêm QR Code para verificação de autenticidade | Site do tribunal de origem do processo (.jus.br) — consultar autenticidade de documentos |
+| 2 | **Pagamento via Pix para "Central de Custas Judiciais"** — custas judiciais são recolhidas por GRU, DARE, guias estaduais ou boleto com código de barras oficial; não por Pix para conta de pessoa física/jurídica genérica | Tabela de custas do tribunal competente (.jus.br) |
+| 3 | **Favorecido com nome genérico e não oficial** | — |
+| 4 | **TRT-18**: "Jamais pague boletos ou faça transferências recebidos por esses meios" | Site do TRT-18 |
+
+---
+
+## Mensagem 3 — WhatsApp, nº (00) 9 0000-0002, conta criada há 3 dias
+
+| # | Sinal presente | Onde conferir |
+|---|---|---|
+| 1 | **Conta criada há 3 dias** — o TRT-12 elenca "contas recentes no WhatsApp, criadas há poucos dias" como sinal de alerta | Nas informações do contato no próprio WhatsApp |
+| 2 | **Sem foto de perfil** — junto com a criação recente, reforça o padrão de conta descartável | — |
+| 3 | **Mensagem genérica** — não cita nome do oficial de justiça, vara, comarca nem dados específicos do processo; o TRT-12 aponta isso como alerta | — |
+| 4 | **Link externo para "acessar documento"** — o TRT-12 alerta sobre links fora dos domínios `.jus.br` ou `.gov.br`; o TRT-18 orienta a jamais clicar | Verificar o domínio do link **antes** de clicar (sem abrir); endereços legítimos terminam em `.jus.br` ou `.gov.br` |
+| 5 | **Ameaça de "condução coercitiva"** — recurso de intimidação para forçar ação imediata | — |
+
+---
+
+## Mensagem 4 — Áudio de 42 segundos, mesmo nº (00) 9 0000-0001
+
+| # | Sinal presente | Onde conferir |
+|---|---|---|
+| 1 | **Reforço do pedido de Pix** — mesmo conteúdo das mensagens escritas anteriores, agora em áudio | — |
+| 2 | **Urgência artificial ("amanhã o juiz entra de férias")** — prazo inventado para pressionar pagamento imediato; férias de magistrado não impedem levantamento de valores já deferidos dessa forma | — |
+| 3 | **Áudio pode ser gerado por IA (clonagem de voz)** — tecnologia de síntese de voz permite reproduzir timbre de pessoas conhecidas com poucos segundos de amostra; o reconhecimento auditivo não autentica identidade | Ligar diretamente para o escritório no número do **contrato** e falar com o advogado |
+| 4 | **Vem do mesmo número não contratual** — reforça o sinal identificado na Mensagem 1 | Número do contrato / Mensagem 6 |
+
+---
+
+## Mensagem 5 — E-mail de `notificacao@tribunal-intimacoes.exemplo`
+
+| # | Sinal presente | Onde conferir |
+|---|---|---|
+| 1 | **Domínio do remetente não é `.jus.br` nem `.gov.br`** — o TRT-12 indica que endereços legítimos terminam nesses domínios; `tribunal-intimacoes.exemplo` é domínio privado sem vinculação oficial | Checar o endereço completo do remetente no cabeçalho do e-mail |
+| 2 | **Prazo de 24 horas sob pena de "perda do valor"** — urgência extrema combinada com ameaça de prejuízo financeiro | — |
+| 3 | **Link para emitir boleto** — o TRT-18 orienta a jamais clicar em links ou pagar boletos recebidos por e-mail | Verificar domínio do link antes de abrir; acessar o portal do tribunal diretamente pela barra de endereço |
+| 4 | **Comunicação oficial por e-mail não solicitado** — intimações processuais são publicadas no Diário de Justiça Eletrônico ou enviadas pelo sistema do tribunal ao cadastro do advogado; não chegam por e-mail genérico pedindo pagamento | Portal do processo no tribunal competente (.jus.br); advogado da causa |
+
+---
+
+## Mensagem 6 — WhatsApp, nº (00) 9 0000-0003 (número do contrato)
+
+| # | Sinal (ou ausência dele) | Onde conferir |
+|---|---|---|
+| 1 | **Nenhum pagamento solicitado** — ausência do padrão de cobrança presente nas demais mensagens | — |
+| 2 | **Vem do número que consta no contrato da cliente** | Comparar com o contrato físico/digital |
+| 3 | **Orienta a ligar para o escritório para confirmar** — conduta alinhada com a recomendação do TRT-18 ("confirme diretamente com seu advogado") | Ligar para esse mesmo número ou para outro contato já conhecido do escritório |
+| 4 | **Data e local da audiência** — pode ser conferida no andamento processual | Portal do processo no tribunal (.jus.br) ou sistema PJe/e-SAJ com login do advogado |
+
+---
+
+## Quadro-resumo: onde verificar cada ponto
+
+| O que verificar | Onde |
+|---|---|
+| Andamento real do processo (alvará, audiência, custas) | Portal do tribunal competente — `.jus.br` — com número do processo |
+| Autenticidade de documento com QR Code | Site oficial indicado no próprio QR Code (domínio `.jus.br`) |
+| Domínio de e-mail ou link recebido | Cabeçalho do e-mail / hover no link — checar se termina em `.jus.br` ou `.gov.br` |
+| Se o advogado é quem diz ser | OAB **ConfirmADV** (oab.org.br/confirmadv) — nº de inscrição + estado + e-mail; o advogado tem até 5 min para confirmar |
+| Número de inscrição na OAB | Portal OAB (oab.org.br) — consulta pública de advogados |
+| Conta de WhatsApp recente | Informações do contato no aplicativo |
+| Alertas institucionais sobre golpes | CNJ (cnj.jus.br), TRT-18 (trt18.jus.br), TRT-12 (trt12.jus.br) |
+
+---
+
+> **Nota de método:** nenhuma das verificações acima deve ser feita respondendo às próprias mensagens recebidas. O contato de confirmação deve ser iniciado **pela cliente**, usando números e endereços obtidos de fontes independentes (contrato, site oficial do tribunal, site da OAB).
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t13m-C2 — mensagens, do capítulo
+### 2026-10-13 10:02 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Uma cliente do escritório me mandou os prints de seis mensagens que recebeu esta semana. Diga quais sinais aparecem e onde conferir; não diga se é verdadeira.
+
+MENSAGEM 1 (WhatsApp, do número (00) 9 0000-0001, com a foto e o logotipo do escritório no perfil)
+"Bom dia, Sra. [cliente]. Aqui é o Dr. [advogado], OAB/ZZ 000.001, do escritório que cuida do seu processo [número do processo]. Tenho uma ótima notícia: o alvará saiu, R$ 38.450,00 a seu favor. Para liberar hoje, é preciso pagar a taxa de expedição de R$ 1.280,00. Me confirme que eu passo os dados."
+
+MENSAGEM 2 (WhatsApp, do mesmo número, uma imagem; o texto da imagem)
+"PODER JUDICIÁRIO — ALVARÁ DE LEVANTAMENTO — Processo [número do processo] — Beneficiária: [cliente] — Valor a liberar: R$ 38.450,00 — Taxa de liberação: R$ 1.280,00 — Pagamento via Pix, chave: [chave retirada] — Favorecido: Central de Custas Judiciais."
+
+MENSAGEM 3 (WhatsApp, do número (00) 9 0000-0002, conta criada há 3 dias, sem foto)
+"INTIMAÇÃO JUDICIAL. Prezado(a), consta uma intimação em seu nome. Acesse o documento para evitar condução coercitiva: [link retirado]"
+
+MENSAGEM 4 (áudio de 42 segundos, do número (00) 9 0000-0001; a cliente diz que "é a voz do doutor"; a transcrição)
+"Dona [cliente], é o [advogado], tudo bem? Olha, é aquilo que eu te mandei, o dinheiro já está liberado, só falta essa taxa da liberação. Faz o Pix ainda hoje, porque amanhã o juiz entra de férias e aí fica tudo parado."
+
+MENSAGEM 5 (e-mail, de notificacao@tribunal-intimacoes.exemplo, assunto "Notificação Extrajudicial — Processo [número do processo]")
+"Prezada Sra. [cliente], fica V.Sa. notificada a regularizar pendência de custas no prazo de 24 horas, sob pena de arquivamento do processo e perda do valor. Clique no link para emitir o boleto: [link retirado]"
+
+MENSAGEM 6 (WhatsApp, do número (00) 9 0000-0003, o número do escritório que está no contrato da cliente)
+"Sra. [cliente], bom dia. Andamento do seu processo: a audiência foi marcada para 12/11/2026, às 14h, no fórum de Comarca-X. Não há nada a pagar. Qualquer dúvida, ligue para o escritório neste número, o mesmo do seu contrato."
+
+SINAIS OFICIAIS (texto colado)
+- CNJ (03/03/2026): "Criminosos usam dados reais de processos — como número da ação, nome das partes e andamento — para entrar em contato com as vítimas e se passar por advogados. Eles dizem que a pessoa tem valores a receber, mas pedem o pagamento antecipado de taxas para liberar o dinheiro."
+- TRT-18: "A Justiça nunca solicita valores para liberação de alvará via WhatsApp, SMS, e-mail ou telefone"; "Jamais clique em links ou pague boletos recebidos por esses meios"; "Sempre confirme as informações diretamente com o seu advogado."
+- TRT-12: sinais de alerta: "Mensagens muito genéricas, sem nome do oficial ou dados do processo"; "Links que levam para páginas fora dos domínios oficiais do governo. Endereços legítimos costumam terminar em '.jus.br' ou '.gov.br'"; "Contas recentes no WhatsApp, criadas há poucos dias". Os documentos do oficial "normalmente contêm 'QR Code', que permite conferir a autenticidade diretamente no site oficial do Tribunal". "Não existe um padrão único de comunicação."
+- OAB, ConfirmADV: no site, informar "o número de inscrição na OAB, o estado de registro e o e-mail informado pelo suposto advogado"; o advogado recebe um e-mail e tem "até 5 minutos para responder e confirmar".
+--- IA:
+# Análise de Sinais — Mensagens Recebidas pela Cliente
+
+> **Nota metodológica:** Os itens abaixo descrevem *sinais observáveis* em cada mensagem e *onde verificar cada um deles*, conforme os alertas oficiais fornecidos. Nenhuma mensagem é classificada como verdadeira ou falsa.
+
+---
+
+## MENSAGEM 1 — WhatsApp, número (00) 9 0000-0001
+
+| Sinal observado | Fonte do alerta | Onde verificar |
+|---|---|---|
+| Pedido de pagamento antecipado de "taxa de expedição" para liberar alvará | CNJ (03/03/2026): esse é exatamente o padrão descrito — "dizem que a pessoa tem valores a receber, mas pedem pagamento antecipado de taxas" | Tabela de custas do tribunal competente, disponível no site oficial (.jus.br) |
+| Canal usado: WhatsApp | TRT-18: "A Justiça nunca solicita valores para liberação de alvará via WhatsApp" | — |
+| Urgência: "liberar **hoje**" | CNJ e TRT-18 implicitamente; pressão temporal impede verificação | — |
+| Usa dados reais do processo (nome, número, valor) | CNJ: "criminosos usam dados reais de processos para entrar em contato com as vítimas" | Consultar andamento do processo no portal do tribunal (.jus.br) para confirmar se o alvará consta no sistema |
+| Número **diferente** do número do escritório que está no contrato da cliente (este é o (00) 9 0000-0001; o do contrato aparece na Mensagem 6) | — | Comparar com o número registrado no contrato e/ou no site do escritório |
+| Suposto advogado identificado com número OAB/ZZ 000.001 | — | OAB **ConfirmADV** (confirmadv.oab.org.br): informar número de inscrição + estado + e-mail que o remetente usou; o advogado real tem até 5 minutos para confirmar |
+
+---
+
+## MENSAGEM 2 — WhatsApp, imagem de suposto alvará
+
+| Sinal observado | Fonte do alerta | Onde verificar |
+|---|---|---|
+| Documento enviado como **imagem** via WhatsApp, fora do sistema judicial | TRT-18: comunicação legítima não ocorre por esse canal para solicitar pagamento | Acessar o processo no portal do tribunal (.jus.br) e verificar se o alvará consta nos autos |
+| Cobrança de "taxa de liberação" paga via **Pix** | TRT-18: "A Justiça nunca solicita valores via WhatsApp"; Pix não é modalidade de pagamento de custas judiciais oficiais | Tabela de custas do tribunal; guias oficiais são emitidas pelo próprio sistema processual |
+| Favorecido: **"Central de Custas Judiciais"** — entidade não identificada | — | Pesquisar se essa denominação existe no tribunal competente (site .jus.br) |
+| Ausência de **QR Code** de autenticidade no documento | TRT-12: documentos oficiais "normalmente contêm QR Code que permite conferir a autenticidade diretamente no site oficial do Tribunal" | Caso houvesse QR Code, lê-lo no portal do tribunal; na ausência dele, buscar o documento diretamente nos autos eletrônicos |
+
+---
+
+## MENSAGEM 3 — WhatsApp, número (00) 9 0000-0002
+
+| Sinal observado | Fonte do alerta | Onde verificar |
+|---|---|---|
+| Conta criada **há 3 dias** | TRT-12: "Contas recentes no WhatsApp, criadas há poucos dias" são sinal de alerta | Tocar no nome do contato no WhatsApp → "Ver no WhatsApp" → data de criação do perfil |
+| Sem foto de perfil | TRT-12 (sinal combinado com conta recente) | — |
+| Texto **genérico**: não cita nome do oficial de justiça, vara, juízo nem comarca | TRT-12: "Mensagens muito genéricas, sem nome do oficial ou dados do processo" | Consultar intimações no portal processual (PJe, e-SAJ ou equivalente .jus.br) com o número do processo |
+| **Link** externo para acessar suposto documento | TRT-12: "Links que levam para páginas fora dos domínios oficiais"; TRT-18: "Jamais clique em links" | Verificar se o domínio do link termina em **.jus.br** ou **.gov.br** antes de qualquer clique — se não terminar, não acessar |
+| Ameaça de **"condução coercitiva"** para criar urgência | — | Consultar intimações reais no Diário de Justiça Eletrônico (DJe) do tribunal competente |
+
+---
+
+## MENSAGEM 4 — Áudio de 42 segundos, número (00) 9 0000-0001
+
+| Sinal observado | Fonte do alerta | Onde verificar |
+|---|---|---|
+| Pedido de Pix por **áudio** | TRT-18: nenhum canal não oficial — incluindo áudio de WhatsApp — é meio legítimo para solicitar pagamento de custas | — |
+| Pressão temporal artificial: **"amanhã o juiz entra de férias e tudo fica parado"** | CNJ/TRT-18 implicitamente; argumento de urgência para impedir que a cliente consulte o escritório ou o tribunal | Verificar agenda/férias do juiz no portal do tribunal (.jus.br) → consulta de magistrados |
+| **Áudio não é documento** oficial; voz pode ser reproduzida ou gerada artificialmente | TRT-12: "Não existe um padrão único de comunicação" — mas nenhum ato processual vinculante é praticado por áudio de WhatsApp | Confirmar por ligação para o número **do contrato** (Mensagem 6) ou presencialmente no escritório |
+| **Mesmo número** da Mensagem 1, diferente do número do contrato | — | Comparar com o número registrado no contrato da cliente |
+
+---
+
+## MENSAGEM 5 — E-mail, remetente notificacao@tribunal-intimacoes.exemplo
+
+| Sinal observado | Fonte do alerta | Onde verificar |
+|---|---|---|
+| Domínio **"tribunal-intimacoes.exemplo"** não é .jus.br nem .gov.br | TRT-12: "Endereços legítimos costumam terminar em '.jus.br' ou '.gov.br'" | Verificar o domínio completo do remetente; tribunais brasileiros operam exclusivamente em .jus.br ou .gov.br |
+| E-mail solicitando **pagamento** de custas | TRT-18: "A Justiça nunca solicita valores para liberação de alvará via... e-mail" | — |
+| Prazo de **24 horas** + ameaça de "arquivamento e perda do valor" | Pressão artificial típica do padrão descrito pelo CNJ | Consultar situação real do processo no portal do tribunal (.jus.br) |
+| **Link** para emissão de boleto | TRT-18: "Jamais clique em links ou pague boletos recebidos por esses meios" | Guias de custas legítimas são geradas dentro do próprio sistema processual, com acesso pelo portal do tribunal |
+
+---
+
+## MENSAGEM 6 — WhatsApp, número (00) 9 0000-0003 (número do contrato)
+
+| Sinal observado | Fonte do alerta | Onde verificar |
+|---|---|---|
+| Ausência de pedido de pagamento — "**Não há nada a pagar**" | TRT-18: este é o comportamento esperado em comunicação legítima sobre andamento processual | — |
+| Vem do **número registrado no contrato** da cliente | — | Comparar com o contrato firmado com o escritório |
+| Dados **específicos**: data (12/11/2026), horário (14h), comarca | TRT-12: ausência de genericidade (ao contrário da Mensagem 3) | Consultar andamento do processo no portal do tribunal (.jus.br) para confirmar a audiência |
+| Orienta a confirmar pelo **mesmo número do contrato** | Boa prática de segurança indicada pelo TRT-18 | Ligar para o escritório nesse número para confirmar |
+| Ausência de link externo, urgência ou ameaça | TRT-12 e TRT-18 implicitamente | — |
+
+---
+
+## Resumo dos canais de verificação
+
+| O que verificar | Onde |
+|---|---|
+| Andamento do processo, alvarás, intimações e audiências | Portal do tribunal competente — domínio **.jus.br** |
+| Publicação de intimações | Diário de Justiça Eletrônico (DJe) — **.jus.br** |
+| Autenticidade de documento com QR Code | Leitura do QR Code → site oficial do tribunal |
+| Existência e registro do advogado | **OAB ConfirmADV** — confirmadv.oab.org.br |
+| Tabela de custas e modalidades de pagamento aceitas | Site do tribunal competente — **.jus.br** |
+| Qualquer dúvida sobre as mensagens | Ligar para o escritório **no número do contrato** (o mesmo da Mensagem 6) |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t13m-C3 — mensagens, do capítulo
+### 2026-10-13 10:03 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Uma cliente do escritório me mandou os prints de seis mensagens que recebeu esta semana. Diga quais sinais aparecem e onde conferir; não diga se é verdadeira.
+
+MENSAGEM 1 (WhatsApp, do número (00) 9 0000-0001, com a foto e o logotipo do escritório no perfil)
+"Bom dia, Sra. [cliente]. Aqui é o Dr. [advogado], OAB/ZZ 000.001, do escritório que cuida do seu processo [número do processo]. Tenho uma ótima notícia: o alvará saiu, R$ 38.450,00 a seu favor. Para liberar hoje, é preciso pagar a taxa de expedição de R$ 1.280,00. Me confirme que eu passo os dados."
+
+MENSAGEM 2 (WhatsApp, do mesmo número, uma imagem; o texto da imagem)
+"PODER JUDICIÁRIO — ALVARÁ DE LEVANTAMENTO — Processo [número do processo] — Beneficiária: [cliente] — Valor a liberar: R$ 38.450,00 — Taxa de liberação: R$ 1.280,00 — Pagamento via Pix, chave: [chave retirada] — Favorecido: Central de Custas Judiciais."
+
+MENSAGEM 3 (WhatsApp, do número (00) 9 0000-0002, conta criada há 3 dias, sem foto)
+"INTIMAÇÃO JUDICIAL. Prezado(a), consta uma intimação em seu nome. Acesse o documento para evitar condução coercitiva: [link retirado]"
+
+MENSAGEM 4 (áudio de 42 segundos, do número (00) 9 0000-0001; a cliente diz que "é a voz do doutor"; a transcrição)
+"Dona [cliente], é o [advogado], tudo bem? Olha, é aquilo que eu te mandei, o dinheiro já está liberado, só falta essa taxa da liberação. Faz o Pix ainda hoje, porque amanhã o juiz entra de férias e aí fica tudo parado."
+
+MENSAGEM 5 (e-mail, de notificacao@tribunal-intimacoes.exemplo, assunto "Notificação Extrajudicial — Processo [número do processo]")
+"Prezada Sra. [cliente], fica V.Sa. notificada a regularizar pendência de custas no prazo de 24 horas, sob pena de arquivamento do processo e perda do valor. Clique no link para emitir o boleto: [link retirado]"
+
+MENSAGEM 6 (WhatsApp, do número (00) 9 0000-0003, o número do escritório que está no contrato da cliente)
+"Sra. [cliente], bom dia. Andamento do seu processo: a audiência foi marcada para 12/11/2026, às 14h, no fórum de Comarca-X. Não há nada a pagar. Qualquer dúvida, ligue para o escritório neste número, o mesmo do seu contrato."
+
+SINAIS OFICIAIS (texto colado)
+- CNJ (03/03/2026): "Criminosos usam dados reais de processos — como número da ação, nome das partes e andamento — para entrar em contato com as vítimas e se passar por advogados. Eles dizem que a pessoa tem valores a receber, mas pedem o pagamento antecipado de taxas para liberar o dinheiro."
+- TRT-18: "A Justiça nunca solicita valores para liberação de alvará via WhatsApp, SMS, e-mail ou telefone"; "Jamais clique em links ou pague boletos recebidos por esses meios"; "Sempre confirme as informações diretamente com o seu advogado."
+- TRT-12: sinais de alerta: "Mensagens muito genéricas, sem nome do oficial ou dados do processo"; "Links que levam para páginas fora dos domínios oficiais do governo. Endereços legítimos costumam terminar em '.jus.br' ou '.gov.br'"; "Contas recentes no WhatsApp, criadas há poucos dias". Os documentos do oficial "normalmente contêm 'QR Code', que permite conferir a autenticidade diretamente no site oficial do Tribunal". "Não existe um padrão único de comunicação."
+- OAB, ConfirmADV: no site, informar "o número de inscrição na OAB, o estado de registro e o e-mail informado pelo suposto advogado"; o advogado recebe um e-mail e tem "até 5 minutos para responder e confirmar".
+--- IA:
+# Sinais de alerta identificados nas mensagens
+
+---
+
+## MENSAGEM 1 — WhatsApp, número (00) 9 0000-0001
+
+| # | Sinal observado | Onde conferir |
+|---|---|---|
+| 1 | **Pedido de pagamento antecipado de taxa para liberar alvará** ("para liberar hoje, é preciso pagar a taxa de expedição") | CNJ (03/03/2026): criminosos pedem "pagamento antecipado de taxas para liberar o dinheiro" |
+| 2 | **Cobrança via WhatsApp** | TRT-18: "A Justiça nunca solicita valores para liberação de alvará via WhatsApp" |
+| 3 | **Urgência artificial** ("liberar *hoje*") | TRT-18 e CNJ: pressão de tempo é característica relatada nos alertas |
+| 4 | **Número diferente do que consta no contrato** (o contrato da cliente corresponde ao número da Mensagem 6) | Comparar com o número registrado no contrato de honorários |
+| 5 | **Identidade do advogado não verificada de forma independente** | OAB ConfirmADV: informar número de inscrição, estado e e-mail; o advogado tem até 5 minutos para confirmar pelo site |
+
+---
+
+## MENSAGEM 2 — Imagem ("alvará") enviada pelo mesmo número
+
+| # | Sinal observado | Onde conferir |
+|---|---|---|
+| 1 | **Documento recebido por WhatsApp, não por canal oficial** | TRT-18: "Jamais clique em links ou pague boletos recebidos por esses meios" |
+| 2 | **Cobrança via Pix** para conta chamada "Central de Custas Judiciais" | TRT-18 e CNJ: alvarás não são liberados mediante Pix enviado por mensagem |
+| 3 | **Ausência de QR Code de autenticidade** no documento | TRT-12: documentos legítimos "normalmente contêm QR Code que permite conferir a autenticidade diretamente no site oficial do Tribunal" |
+| 4 | **Documento não veio de portal com domínio oficial** (.jus.br ou .gov.br) | TRT-12: "endereços legítimos costumam terminar em '.jus.br' ou '.gov.br'" |
+
+---
+
+## MENSAGEM 3 — WhatsApp, número (00) 9 0000-0002, conta com 3 dias, sem foto
+
+| # | Sinal observado | Onde conferir |
+|---|---|---|
+| 1 | **Conta criada há 3 dias** | TRT-12 lista como sinal de alerta: "Contas recentes no WhatsApp, criadas há poucos dias" |
+| 2 | **Sem foto de perfil** | TRT-12 |
+| 3 | **Mensagem genérica** — não informa nome do oficial, vara, juiz, nem detalhes processuais | TRT-12: "Mensagens muito genéricas, sem nome do oficial ou dados do processo" |
+| 4 | **Link de acesso ao documento** — destino desconhecido | TRT-12: "Links que levam para páginas fora dos domínios oficiais"; TRT-18: "Jamais clique em links recebidos por esses meios" |
+| 5 | **Ameaça de condução coercitiva** para criar urgência | TRT-18 e CNJ: pressão e ameaça são recursos relatados |
+| 6 | **Número diferente do escritório** (não é o do contrato) | Comparar com contrato |
+
+---
+
+## MENSAGEM 4 — Áudio, mesmo número da Mensagem 1
+
+| # | Sinal observado | Onde conferir |
+|---|---|---|
+| 1 | **Pedido de pagamento via Pix** reforçado por áudio | TRT-18: a Justiça não solicita valores via WhatsApp ou telefone |
+| 2 | **Urgência artificial com prazo inventado** ("amanhã o juiz entra de férias e aí fica tudo parado") | CNJ e TRT-18: pressão de tempo é mecanismo relatado em golpes desta natureza |
+| 3 | **Áudio não substitui verificação independente da identidade** — vozes podem ser reproduzidas ou manipuladas | OAB ConfirmADV: a confirmação da identidade do advogado deve ser feita pelo portal, não pelo próprio canal que iniciou o contato |
+| 4 | **Mesmo número não cadastrado no contrato** | Comparar com contrato |
+
+> **Nota sobre o áudio:** o fato de a cliente reconhecer a voz não elimina os outros sinais. A verificação recomendada pela OAB é feita por canal independente (ConfirmADV), não pelo mesmo número.
+
+---
+
+## MENSAGEM 5 — E-mail de `notificacao@tribunal-intimacoes.exemplo`
+
+| # | Sinal observado | Onde conferir |
+|---|---|---|
+| 1 | **Domínio do remetente não é oficial** — não termina em `.jus.br` nem `.gov.br` | TRT-12: "endereços legítimos costumam terminar em '.jus.br' ou '.gov.br'" |
+| 2 | **Link para emitir boleto** em domínio desconhecido | TRT-12 e TRT-18: não clicar em links recebidos por e-mail fora de portais oficiais |
+| 3 | **Prazo artificial de 24 horas** com ameaça de arquivamento e "perda do valor" | CNJ e TRT-18: urgência e ameaça de perda são padrões relatados |
+| 4 | **"Notificação Extrajudicial"** — denominação incomum em contexto de processo judicial já em curso | Verificar andamento processual no portal do tribunal pelo número do processo (domínio .jus.br) |
+
+---
+
+## MENSAGEM 6 — WhatsApp, número do contrato da cliente
+
+| # | Sinal observado | Onde conferir |
+|---|---|---|
+| 1 | **Número coincide com o do contrato** — sem discrepância | Contrato de honorários |
+| 2 | **Não há nenhum pedido de pagamento** | TRT-18 e TRT-12: ausência de cobrança é consistente com comunicação legítima de andamento |
+| 3 | **Informações verificáveis e específicas** (data, hora, comarca) | Portal do tribunal (domínio .jus.br) — o andamento pode ser conferido pelo número do processo |
+| 4 | **Orienta a ligar para o escritório** para confirmar — não solicita ação imediata por link ou Pix | TRT-18: recomenda confirmar "diretamente com o seu advogado" |
+
+---
+
+## Resumo dos canais de verificação independente
+
+| Canal | O que verifica | Como acessar |
+|---|---|---|
+| **OAB ConfirmADV** | Se o advogado que entrou em contato é realmente inscrito e confirmou a mensagem | Site da OAB — informar número de inscrição, estado e e-mail; aguardar resposta do advogado em até 5 min |
+| **Portal do Tribunal (.jus.br)** | Andamento real do processo, existência do alvará, intimações pendentes | Pesquisa por número do processo no site oficial do tribunal competente |
+| **QR Code do documento** | Autenticidade de peças processuais | Leitor de QR Code apontado para o documento físico ou PDF baixado do portal oficial |
+| **Número do contrato** | Se o contato partiu do escritório real | Ligar para o número registrado no contrato — não retornar para o número que enviou a mensagem suspeita |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

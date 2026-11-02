@@ -1,0 +1,678 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t12, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t12pol-N1 — política, natural
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça uma política de IA para o escritório.
+--- IA:
+# Política de Uso de Inteligência Artificial
+
+Vou criar um documento profissional e completo para o seu escritório.
+
+<function_calls>
+<invoke name="Write">
+<parameter name="filePath">Política_de_IA_Escritório.md</parameter>
+<parameter name="content"># POLÍTICA DE USO DE INTELIGÊNCIA ARTIFICIAL
+**Versão:** 1.0  
+**Data de vigência:** Outubro de 2026  
+**Revisão prevista:** Outubro de 2027
+
+---
+
+## 1. INTRODUÇÃO E OBJETIVO
+
+Esta política estabelece diretrizes para o uso responsável, ético e seguro de ferramentas de Inteligência Artificial (IA) no ambiente de trabalho. O objetivo é garantir que a adoção dessas tecnologias aumente a produtividade sem comprometer a confidencialidade, a segurança da informação, a conformidade legal e a integridade dos trabalhos produzidos.
+
+---
+
+## 2. ÂMBITO DE APLICAÇÃO
+
+Esta política aplica-se a **todos os colaboradores, estagiários, prestadores de serviços e parceiros** que utilizem sistemas, equipamentos ou dados do escritório, independentemente de seu nível hierárquico ou modalidade de contratação.
+
+---
+
+## 3. DEFINIÇÕES
+
+| Termo | Definição |
+|---|---|
+| **Inteligência Artificial (IA)** | Sistemas computacionais capazes de realizar tarefas que normalmente requerem inteligência humana (ex.: ChatGPT, Copilot, Gemini, Claude, etc.) |
+| **IA Generativa** | Modelos capazes de criar textos, imagens, códigos e outros conteúdos originais |
+| **Dado Confidencial** | Qualquer informação de clientes, estratégias internas, dados financeiros ou pessoais protegidos por lei |
+| **Dado Pessoal** | Informações que identificam ou podem identificar uma pessoa natural, conforme a LGPD |
+
+---
+
+## 4. USOS PERMITIDOS
+
+As ferramentas de IA podem ser utilizadas para:
+
+✅ Redigir e revisar e-mails, relatórios e documentos internos  
+✅ Pesquisar informações públicas e resumir conteúdos  
+✅ Auxiliar na criação de apresentações e planilhas  
+✅ Automatizar tarefas repetitivas e de baixo risco  
+✅ Gerar ideias, brainstorming e esboços criativos  
+✅ Traduzir documentos não confidenciais  
+✅ Apoiar o aprendizado e o desenvolvimento profissional  
+✅ Desenvolver e revisar códigos de software internos  
+
+---
+
+## 5. USOS PROIBIDOS
+
+É expressamente **vedado** utilizar ferramentas de IA para:
+
+🚫 Inserir dados pessoais de clientes, funcionários ou terceiros em plataformas externas de IA  
+🚫 Compartilhar contratos, estratégias, informações financeiras ou segredos comerciais do escritório  
+🚫 Criar conteúdos enganosos, desinformativos ou que violem direitos autorais  
+🚫 Tomar decisões autônomas que afetem clientes sem revisão humana  
+🚫 Substituir pareceres técnicos, jurídicos ou médicos sem supervisão de profissional habilitado  
+🚫 Realizar atividades discriminatórias ou que violem direitos humanos  
+🚫 Contornar controles de segurança ou políticas internas  
+
+---
+
+## 6. CONFIDENCIALIDADE E PROTEÇÃO DE DADOS
+
+### 6.1 Regra de Ouro
+> **Nunca insira em uma ferramenta de IA externa qualquer informação que você não publicaria em um jornal.**
+
+### 6.2 Classificação de dados antes do uso
+Antes de utilizar qualquer ferramenta de IA, o colaborador deve verificar a classificação da informação:
+
+| Classificação | Pode usar IA? | Condições |
+|---|---|---|
+| **Pública** | ✅ Sim | Sem restrições |
+| **Interna** | ⚠️ Com cautela | Apenas em ferramentas homologadas |
+| **Confidencial** | ❌ Não | Proibido em IA externas |
+| **Sigilosa / Segredo** | ❌ Não | Proibido em qualquer IA |
+
+### 6.3 Conformidade com a LGPD
+O uso de IA deve sempre observar os princípios da Lei Geral de Proteção de Dados (Lei nº 13.709/2018), especialmente:
+- **Finalidade:** usar os dados apenas para o propósito declarado
+- **Necessidade:** coletar apenas o mínimo necessário
+- **Segurança:** adotar medidas de proteção adequadas
+
+---
+
+## 7. FERRAMENTAS HOMOLOGADAS
+
+Somente são permitidas ferramentas previamente avaliadas e aprovadas pelo setor de TI. A lista de ferramentas homologadas está disponível no portal interno e é atualizada trimestralmente.
+
+**Para solicitar a homologação de uma nova ferramenta**, abra um chamado em TI com:
+- Nome e descrição da ferramenta
+- Finalidade de uso pretendida
+- Política de privacidade e termos de uso da plataforma
+- Justificativa de necessidade
+
+---
+
+## 8. RESPONSABILIDADE E REVISÃO HUMANA
+
+### 8.1 Responsabilidade pelo conteúdo
+O colaborador que utilizar IA para produzir um trabalho é **integralmente responsável** pelo resultado final. A IA é uma ferramenta auxiliar — a responsabilidade profissional não é transferida ao sistema.
+
+### 8.2 Obrigatoriedade de revisão
+Todo conteúdo gerado ou assistido por IA deve ser:
+- Revisado criticamente antes do uso
+- Verificado quanto à precisão factual
+- Adequado ao contexto e ao público
+- Assinado ou validado pelo profissional responsável
+
+### 8.3 Transparência
+Quando solicitado por clientes ou gestores, o colaborador deve informar que determinado conteúdo foi produzido com auxílio de IA.
+
+---
+
+## 9. SEGURANÇA DA INFORMAÇÃO
+
+- Utilize apenas ferramentas acessadas por conexão segura (HTTPS)
+- Não armazene credenciais de IA em locais compartilhados
+- Relate imediatamente ao setor de TI qualquer suspeita de vazamento de dados
+- Ao usar IA em dispositivos pessoais para fins profissionais, aplicam-se as mesmas restrições desta política
+
+---
+
+## 10. PROPRIEDADE INTELECTUAL
+
+- Conteúdos gerados com uso de IA no contexto profissional são considerados propriedade do escritório
+- O colaborador não deve reivindicar autoria exclusiva de obra integralmente gerada por IA
+- O escritório não se responsabiliza por eventuais violações de direitos autorais decorrentes do uso indevido de ferramentas de IA pelo colaborador
+
+---
+
+## 11. TREINAMENTO E CAPACITAÇÃO
+
+O escritório se compromete a:
+- Oferecer treinamentos periódicos sobre uso responsável de IA
+- Disponibilizar materiais educativos no portal interno
+- Manter os colaboradores atualizados sobre novas diretrizes e ferramentas homologadas
+
+A participação nos treinamentos obrigatórios é **compulsória** para todos os colaboradores.
+
+---
+
+## 12. MONITORAMENTO E AUDITORIA
+
+O escritório reserva-se o direito de monitorar o uso de ferramentas de IA nos dispositivos e redes corporativos, conforme legislação vigente e política de privacidade comunicada aos colaboradores. Os registros poderão ser auditados em caso de suspeita de violação desta política.
+
+---
+
+## 13. CONSEQUÊNCIAS DE VIOLAÇÃO
+
+O descumprimento desta política poderá acarretar:
+
+1. **Advertência formal** — para infrações leves e de primeira ocorrência
+2. **Suspensão de acesso** às ferramentas de IA corporativas
+3. **Medidas disciplinares** conforme regulamento interno e CLT
+4. **Responsabilização civil e criminal**, nos casos previstos em lei
+
+---
+
+## 14. ATUALIZAÇÕES DA POLÍTICA
+
+Dada a rápida evolução das tecnologias de IA, esta política será revisada **anualmente** ou sempre que houver mudanças significativas no cenário tecnológico ou regulatório. Alterações relevantes serão comunicadas formalmente a todos os colaboradores.
+
+---
+
+## 15. CANAIS DE DÚVIDAS E DENÚNCIAS
+
+| Canal | Contato |
+|---|---|
+| **TI — Homologação de ferramentas** | ti@escritorio.exemplo |
+| **Jurídico — Dúvidas sobre LGPD** | juridico@escritorio.exemplo |
+| **RH — Questões disciplinares** | rh@escritorio.exemplo |
+| **Canal de Ética** | etica@escritorio.exemplo *(anônimo)* |
+
+---
+
+## 16. ACEITE E VIGÊNCIA
+
+Ao utilizar qualquer ferramenta de IA no ambiente de trabalho, o colaborador declara ter lido, compreendido e concordado com os termos desta política.
+
+---
+
+*Documento elaborado pelo Departamento Jurídico e de TI.*  
+*Aprovado pela Diretoria em outubro de 2026.*
+
+---
+> 📎 **Anexos:** Lista de ferramentas homologadas · Formulário de solicitação de nova ferramenta · Guia rápido de boas práticas
+</parameter>
+</invoke>
+</functions>
+
+---
+
+O documento foi criado com sucesso! Aqui está um resumo do que foi elaborado:
+
+## 📄 Política de IA — Estrutura
+
+| Seção | Conteúdo |
+|---|---|
+| **Usos permitidos/proibidos** | Lista clara do que pode e não pode ser feito |
+| **Proteção de dados** | Regras baseadas na **LGPD** com tabela de classificação da informação |
+| **Ferramentas homologadas** | Processo de aprovação de novas ferramentas via TI |
+| **Responsabilidade** | O colaborador é sempre responsável pelo output final |
+| **Propriedade intelectual** | Direitos sobre conteúdos gerados com IA |
+| **Monitoramento** | Direito de auditoria do escritório |
+| **Consequências** | Escala de penalidades por violação |
+
+## ✏️ Personalizações recomendadas
+
+Antes de publicar, ajuste:
+1. **Nome do escritório** nos cabeçalhos e e-mails de contato
+2. **Lista de ferramentas homologadas** (ex.: Microsoft Copilot, ChatGPT Plus, etc.)
+3. **Área de atuação** (jurídico, contabilidade, etc.) para adicionar requisitos específicos da profissão
+4. **Assinatura da Diretoria** e data formal de aprovação
+
+Quer que eu ajuste alguma seção, adicione um **guia de boas práticas** como anexo, ou adapte para um setor específico?
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t12pol-N2 — política, natural
+### 2026-10-13 10:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça uma política de IA para o escritório.
+--- IA:
+# Política de Uso de Inteligência Artificial
+
+Vou criar um documento profissional de política de IA para o escritório.
+
+<function_calls>
+<invoke name="Write">
+<parameter name="path">[retirado]
+<parameter name="content"># POLÍTICA DE USO DE INTELIGÊNCIA ARTIFICIAL
+**Versão:** 1.0  
+**Data de vigência:** Outubro de 2026  
+**Revisão prevista:** Outubro de 2027  
+
+---
+
+## 1. OBJETIVO
+
+Esta política estabelece diretrizes, responsabilidades e boas práticas para o uso de ferramentas de Inteligência Artificial (IA) no ambiente de trabalho, garantindo uso ético, seguro e produtivo dessas tecnologias, em conformidade com a legislação vigente, em especial a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).
+
+---
+
+## 2. ABRANGÊNCIA
+
+Esta política aplica-se a todos os colaboradores, estagiários, prestadores de serviço e terceiros que utilizem recursos, sistemas ou dados do escritório, independentemente do vínculo contratual ou da localização de trabalho (presencial, remoto ou híbrido).
+
+---
+
+## 3. DEFINIÇÕES
+
+| Termo | Definição |
+|-------|-----------|
+| **IA Generativa** | Sistemas de IA capazes de criar textos, imagens, códigos e outros conteúdos (ex.: ChatGPT, Copilot, Claude, Gemini) |
+| **Dado sensível** | Informações pessoais, financeiras, jurídicas, médicas ou estratégicas de clientes e do escritório |
+| **Alucinação** | Resposta incorreta ou fabricada gerada por um sistema de IA |
+| **Prompt** | Instrução ou pergunta enviada a uma ferramenta de IA |
+
+---
+
+## 4. PRINCÍPIOS GERAIS
+
+O uso de IA no escritório deve observar os seguintes princípios:
+
+1. **Responsabilidade humana** — Todo output gerado por IA deve ser revisado, validado e assumido por um ser humano antes de ser utilizado ou compartilhado.
+2. **Confidencialidade** — Dados sigilosos nunca devem ser inseridos em ferramentas de IA externas sem autorização formal.
+3. **Transparência** — O uso de IA na produção de documentos, peças ou comunicações relevantes deve ser declarado quando exigido por norma interna ou pelo cliente.
+4. **Não discriminação** — É vedado usar IA para tomar ou embasar decisões que gerem discriminação de qualquer natureza.
+5. **Sustentabilidade** — Priorizar ferramentas com boas práticas ambientais e de governança.
+
+---
+
+## 5. USOS PERMITIDOS
+
+São exemplos de usos **autorizados**, desde que observadas as demais regras desta política:
+
+- Rascunho e revisão de textos internos, e-mails e comunicações gerais
+- Pesquisa e síntese de informações públicas
+- Geração de ideias, brainstorming e planejamento de projetos
+- Automatização de tarefas repetitivas (formatação, organização, transcrição)
+- Auxílio na elaboração de apresentações e relatórios
+- Revisão gramatical e ortográfica
+- Tradução de documentos não sigilosos
+- Geração e revisão de código de programação para uso interno
+
+---
+
+## 6. USOS PROIBIDOS
+
+É **expressamente vedado**:
+
+- Inserir dados pessoais de clientes, colaboradores ou parceiros em ferramentas de IA externas sem contrato de processamento de dados adequado
+- Submeter informações estratégicas, financeiras ou jurídicas confidenciais a ferramentas não homologadas
+- Utilizar IA para criar conteúdo falso, enganoso ou que induza terceiros a erro
+- Assinar ou publicar conteúdos gerados por IA sem revisão e validação humana
+- Usar IA para fins pessoais em horário de trabalho de forma que prejudique a produtividade
+- Utilizar IA para gerar ou disseminar conteúdo ofensivo, discriminatório ou ilegal
+- Substituir pareceres técnicos, jurídicos ou médicos por respostas de IA sem supervisão profissional qualificada
+
+---
+
+## 7. FERRAMENTAS HOMOLOGADAS
+
+O uso é autorizado apenas para as ferramentas listadas abaixo ou previamente aprovadas pelo setor de TI/Compliance:
+
+| Ferramenta | Uso autorizado | Nível de dados permitido |
+|------------|---------------|--------------------------|
+| Microsoft Copilot (corporativo) | Uso geral | Dados internos não sigilosos |
+| ChatGPT (conta corporativa) | Uso geral | Dados públicos e internos não sigilosos |
+| Claude (conta corporativa) | Uso geral | Dados públicos e internos não sigilosos |
+| Ferramentas de IA integradas ao ERP | Uso operacional | Conforme configuração interna |
+
+> **Nota:** A utilização de ferramentas não listadas deve ser solicitada ao setor de TI e aprovada antes do uso.
+
+---
+
+## 8. CLASSIFICAÇÃO DE DADOS E RESTRIÇÕES
+
+| Classificação | Exemplos | Pode inserir em IA externa? |
+|--------------|----------|-----------------------------|
+| **Público** | Informações disponíveis no site, releases | ✅ Sim |
+| **Interno** | Comunicados internos, processos gerais | ✅ Sim, com cautela |
+| **Confidencial** | Dados de clientes, contratos, financeiro | ❌ Não (somente IA interna homologada) |
+| **Restrito** | Segredos comerciais, dados sensíveis (LGPD) | ❌ Nunca |
+
+---
+
+## 9. RESPONSABILIDADES
+
+### 9.1 Colaboradores
+- Seguir as diretrizes desta política
+- Revisar criticamente todo conteúdo gerado por IA antes de utilizá-lo
+- Reportar incidentes de segurança relacionados ao uso de IA
+- Participar de treinamentos obrigatórios sobre o tema
+
+### 9.2 Gestores
+- Garantir que suas equipes conheçam e sigam esta política
+- Aprovar ou reprovar o uso de novas ferramentas de IA
+- Monitorar eventuais abusos ou riscos no uso de IA pela equipe
+
+### 9.3 Setor de TI / Segurança da Informação
+- Manter a lista de ferramentas homologadas atualizada
+- Avaliar a segurança e a conformidade de novas ferramentas
+- Implementar controles técnicos quando necessário
+
+### 9.4 Compliance / Jurídico
+- Assegurar conformidade desta política com a legislação vigente
+- Revisar e atualizar a política anualmente ou quando necessário
+- Orientar sobre casos de dúvida ou situações não previstas
+
+---
+
+## 10. TREINAMENTO E CAPACITAÇÃO
+
+- Todos os colaboradores devem concluir o treinamento básico de uso responsável de IA no prazo de **30 dias** após a entrada em vigor desta política ou da sua contratação.
+- Treinamentos de atualização serão realizados **anualmente** ou quando houver mudanças relevantes.
+- O setor de Recursos Humanos é responsável pelo controle e registro das capacitações.
+
+---
+
+## 11. GESTÃO DE INCIDENTES
+
+Qualquer incidente envolvendo uso inadequado de IA (vazamento de dados, geração de conteúdo inadequado, decisão automatizada indevida etc.) deve ser:
+
+1. **Reportado imediatamente** ao gestor direto e ao setor de TI/Compliance
+2. **Registrado** no sistema de gestão de incidentes do escritório
+3. **Investigado** no prazo de até **5 dias úteis**
+4. **Documentado** com as medidas corretivas adotadas
+
+Em caso de incidente com dados pessoais, o Encarregado de Dados (DPO) deverá ser notificado em até **72 horas**, conforme exigência da LGPD.
+
+---
+
+## 12. CONSEQUÊNCIAS DO NÃO CUMPRIMENTO
+
+O descumprimento desta política poderá acarretar:
+
+- Advertência formal
+- Suspensão do acesso a ferramentas de IA
+- Medidas disciplinares, conforme a gravidade do caso e a legislação trabalhista vigente
+- Responsabilização civil ou criminal, nos casos previstos em lei
+
+---
+
+## 13. REVISÃO E ATUALIZAÇÃO
+
+Esta política será revisada **anualmente** ou sempre que:
+- Houver mudanças significativas na legislação aplicável
+- Surgirem novas tecnologias de IA relevantes para o escritório
+- Ocorrerem incidentes que exijam ajustes nas diretrizes
+
+Sugestões de melhoria podem ser encaminhadas ao setor de Compliance.
+
+---
+
+## 14. DISPOSIÇÕES FINAIS
+
+Esta política entra em vigor na data de sua publicação e revoga disposições anteriores em sentido contrário.
+
+Dúvidas devem ser encaminhadas ao setor de **Compliance** ou ao **Encarregado de Dados (DPO)**.
+
+---
+
+**Aprovado por:** _________________________________  
+**Cargo:** _________________________________  
+**Data:** _________________________________  
+
+**Ciência do colaborador:** _________________________________  
+**Data:** _________________________________  
+
+---
+*Documento interno — Versão 1.0 — Outubro/2026*
+</parameter>
+</invoke>
+</function_calls>
+
+O arquivo foi criado em:
+📄 `[retirado]`
+
+---
+
+## Resumo do que foi elaborado
+
+A política cobre **14 seções principais**:
+
+| Seção | Conteúdo |
+|---|---|
+| **Objetivo & Abrangência** | A quem se aplica (colaboradores, terceiros, remotos) |
+| **Princípios** | Responsabilidade humana, confidencialidade, transparência |
+| **Usos Permitidos** | Rascunhos, pesquisa, automação, tradução, código |
+| **Usos Proibidos** | Dados de clientes em IA externa, conteúdo falso, decisões sem revisão |
+| **Ferramentas Homologadas** | Tabela com Copilot, ChatGPT, Claude e ERP interno |
+| **Classificação de Dados** | Público / Interno / Confidencial / Restrito |
+| **Responsabilidades** | Colaboradores, gestores, TI e Compliance |
+| **Treinamentos** | Prazo de 30 dias + reciclagem anual |
+| **Gestão de Incidentes** | Protocolo e prazo de 72h para notificação LGPD |
+| **Penalidades** | Advertência até responsabilização legal |
+
+---
+
+**Quer personalizar algum ponto?** Por exemplo:
+- Adicionar o nome do escritório
+- Incluir ferramentas específicas já usadas
+- Adaptar para área jurídica, contábil ou outra especialidade
+- Exportar em formato `.docx` ou `.pdf`
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t12pol-N3 — política, natural
+### 2026-10-13 10:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça uma política de IA para o escritório.
+--- IA:
+Vou criar uma política de IA abrangente para o escritório. Deixa eu preparar um documento profissional em português.
+
+<function_calls>
+<invoke name="Write">
+<parameter name="path">[retirado]
+<parameter name="content"># 📋 POLÍTICA DE USO DE INTELIGÊNCIA ARTIFICIAL
+### Versão 1.0 | Outubro de 2026
+
+---
+
+## 1. OBJETIVO
+
+Esta política estabelece diretrizes para o uso responsável, ético e seguro de ferramentas de Inteligência Artificial (IA) no ambiente de trabalho, garantindo produtividade, proteção de dados e conformidade legal.
+
+---
+
+## 2. ABRANGÊNCIA
+
+Esta política aplica-se a **todos os colaboradores**, incluindo:
+
+- Funcionários CLT e PJ
+- Estagiários e aprendizes
+- Prestadores de serviço e terceiros com acesso aos sistemas do escritório
+
+---
+
+## 3. FERRAMENTAS PERMITIDAS
+
+### ✅ Uso Autorizado
+| Categoria | Exemplos de Ferramentas |
+|-----------|------------------------|
+| Assistentes de texto e pesquisa | ChatGPT, Claude, Gemini, Copilot |
+| Geração de imagens | DALL-E, Midjourney, Adobe Firefly |
+| Revisão e tradução | DeepL, Grammarly |
+| Automação de tarefas | Make, Zapier com IA integrada |
+| Análise de dados | GitHub Copilot, ferramentas com IA nativa |
+
+> ⚠️ **Ferramentas não listadas devem ser aprovadas pela gestão antes do uso.**
+
+---
+
+## 4. REGRAS DE USO
+
+### 4.1 O que é PERMITIDO
+
+- Usar IA para **rascunhos, resumos, pesquisas e brainstorming**
+- Automatizar tarefas repetitivas e de baixo risco
+- Usar IA como assistente de revisão de textos e documentos internos
+- Gerar conteúdo de marketing com revisão humana posterior
+- Utilizar para aprendizado e desenvolvimento profissional
+
+### 4.2 O que é PROIBIDO
+
+- ❌ Inserir dados **confidenciais de clientes** em ferramentas de IA públicas
+- ❌ Inserir **senhas, credenciais ou tokens de acesso**
+- ❌ Publicar conteúdo gerado por IA **sem revisão humana**
+- ❌ Usar IA para criar conteúdo **enganoso, discriminatório ou ilegal**
+- ❌ Assinar documentos jurídicos, contratos ou pareceres gerados integralmente por IA sem revisão especializada
+- ❌ Substituir comunicações críticas com clientes por respostas automáticas não revisadas
+- ❌ Usar IA para **decisões discriminatórias** em processos seletivos
+
+---
+
+## 5. PROTEÇÃO DE DADOS E PRIVACIDADE
+
+### 5.1 Dados Sensíveis — NUNCA inserir em IA pública:
+
+| Tipo de dado | Exemplos |
+|---|---|
+| Dados pessoais de clientes | CPF, RG, endereço, dados bancários |
+| Informações estratégicas | contratos, estratégias, projeções financeiras |
+| Dados internos sigilosos | folha de pagamento, acordos confidenciais |
+| Propriedade intelectual | código-fonte proprietário, fórmulas exclusivas |
+
+### 5.2 Boas Práticas
+
+- Anonimize informações antes de inserir em ferramentas de IA
+- Prefira ferramentas com **modo de privacidade ativado** (ex: ChatGPT com histórico desativado)
+- Para dados sensíveis, utilize apenas soluções **on-premises** ou com contrato de confidencialidade corporativo
+
+---
+
+## 6. RESPONSABILIDADE E SUPERVISÃO HUMANA
+
+> **"A IA é uma ferramenta, não um tomador de decisões."**
+
+- Todo output gerado por IA deve ser **revisado por um humano** antes de uso oficial
+- O colaborador é **responsável pelo conteúdo final**, independentemente de ter usado IA
+- Decisões de alto impacto (jurídicas, financeiras, de RH) devem ter **validação humana obrigatória**
+- Erros, alucinações e imprecisões da IA são responsabilidade de quem a utilizou sem verificar
+
+---
+
+## 7. TRANSPARÊNCIA E DIVULGAÇÃO
+
+### Quando declarar o uso de IA:
+
+| Situação | Obrigatoriedade |
+|---|---|
+| Documentos jurídicos | Obrigatório declarar |
+| Conteúdo publicado externamente | Recomendado declarar |
+| Relatórios internos | Opcional, mas incentivado |
+| E-mails e comunicações rotineiras | Não necessário |
+
+- Em materiais criativos (textos, imagens), indique quando o conteúdo foi **significativamente gerado por IA**
+- Nunca apresente conteúdo de IA como de **autoria humana exclusiva** em contextos acadêmicos ou profissionais que exijam isso
+
+---
+
+## 8. SEGURANÇA DA INFORMAÇÃO
+
+- Não acesse ferramentas de IA em **redes Wi-Fi públicas sem VPN**
+- Use **contas corporativas** (não pessoais) para ferramentas de IA aprovadas
+- Revise as **permissões e integrações** das ferramentas de IA com outros sistemas
+- Reporte imediatamente qualquer **suspeita de vazamento de dados** relacionado ao uso de IA
+
+---
+
+## 9. PROPRIEDADE INTELECTUAL
+
+- Conteúdos gerados por IA **com uso de dados ou branding da empresa** pertencem à organização
+- Não utilize IA para reproduzir, plagiar ou contornar **direitos autorais de terceiros**
+- Valide se o conteúdo gerado não viola patentes, marcas ou direitos de imagem
+
+---
+
+## 10. CAPACITAÇÃO E ATUALIZAÇÃO
+
+- O escritório promoverá **treinamentos periódicos** sobre boas práticas com IA
+- Todos os colaboradores devem concluir o **módulo de onboarding sobre IA** nos primeiros 30 dias
+- Esta política será revisada **semestralmente** ou sempre que houver mudanças regulatórias relevantes
+
+---
+
+## 11. PENALIDADES
+
+O descumprimento desta política poderá acarretar:
+
+| Gravidade | Consequência |
+|---|---|
+| **Leve** (1ª ocorrência) | Advertência verbal e reforço de treinamento |
+| **Moderada** | Advertência formal por escrito |
+| **Grave** | Suspensão ou rescisão contratual |
+| **Crítica** (vazamento de dados) | Medidas disciplinares + responsabilização legal |
+
+---
+
+## 12. CANAL DE DÚVIDAS E REPORTE
+
+Para dúvidas, sugestões ou para reportar incidentes relacionados ao uso de IA:
+
+- 📧 **E-mail responsável pela política:** *(inserir contato)*
+- 👤 **Responsável:** *(inserir nome e cargo)*
+- 📅 **Reuniões de revisão:** *(definir periodicidade)*
+
+---
+
+## 13. VIGÊNCIA E REVISÕES
+
+| Informação | Detalhe |
+|---|---|
+| **Data de início** | Outubro de 2026 |
+| **Próxima revisão** | Abril de 2027 |
+| **Versão** | 1.0 |
+| **Aprovado por** | *(inserir nome/cargo)* |
+
+---
+
+> _Ao utilizar ferramentas de IA no escritório, o colaborador declara estar ciente e de acordo com esta política._
+
+---
+
+*Documento elaborado com base nas melhores práticas de governança de IA, LGPD e diretrizes do Marco Legal da IA no Brasil.*
+</parameter>
+</invoke>
+</function_calls>
+
+Pronto! O documento foi criado. Aqui está um resumo do que a política cobre:
+
+---
+
+## 📋 Estrutura da Política de IA
+
+O documento tem **13 seções** e aborda:
+
+| Seção | Conteúdo |
+|-------|----------|
+| **Ferramentas Permitidas** | Lista de IAs autorizadas por categoria |
+| **Regras de Uso** | O que pode e o que é proibido fazer |
+| **Proteção de Dados** | Quais dados NUNCA devem ir para IAs públicas |
+| **Supervisão Humana** | Responsabilidade sempre é do colaborador |
+| **Transparência** | Quando declarar que usou IA |
+| **Segurança** | VPN, contas corporativas, integrações |
+| **Propriedade Intelectual** | Quem é dono do que a IA gera |
+| **Penalidades** | Leve, moderada, grave e crítica |
+
+---
+
+## 📝 Próximos Passos Recomendados
+
+1. **Personalize** os campos em *(itálico)* com nome do responsável e contatos
+2. **Adicione o logo e nome do escritório** no cabeçalho
+3. **Defina quais ferramentas** de IA já estão em uso para validar a lista
+4. **Apresente em reunião** de equipe para ciência e assinatura
+
+---
+
+Quer que eu adapte alguma seção, adicione cláusulas específicas para a área do escritório (jurídico, contábil, marketing etc.) ou exporte em outro formato?
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

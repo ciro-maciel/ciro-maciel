@@ -1,0 +1,142 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# t03. Atendimento e marketing jurídico (cap. 3). 13/10/2026, Claude (grupo t01-t04 do PLANO.md).
+# Mesmo método de rodar-t01.sh (função conversa do vol. 7, configuração neutra, JSON em json/,
+# MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t03.txt). 3 conversas naturais (N) e 3 do capítulo (C), duas
+# mensagens cada: m1 os cinco relatos; m2 os cinco posts. O GABARITO abaixo foi escrito ANTES de rodar.
+# Material fictício: os relatos e os pedidos de post foram escritos para o teste; ninguém existe; "Comarca-X".
+#
+# O QUE MUDA ENTRE N E C. m1: o natural, palavra por palavra, mais UMA coisa, a regra de atendimento do capítulo
+# ("Em cada resposta: não dê parecer; [...] diga que é uma resposta automática."). m2: o natural mais DUAS coisas, a
+# regra ("texto informativo; sem preço, resultado, caso ou comparação") e os arts. 3º (caput, I a V e § 1º; o § 2º, de
+# consultor estrangeiro, fica fora) e 6º do Provimento 205/2021, colados literais
+# (../fontes-2026-10-09/t-oab-prov-205-2021.txt, l. 143 a 149 e 161 a 162). Na
+# m2, a análise não separa o efeito da regra do efeito dos artigos colados. O Anexo Único (impulsionamento) NÃO vai
+# colado (o PLANO manda colar os arts. 3º e 6º).
+#
+# GABARITO (por resposta).
+#  m1, OS CINCO RELATOS. Por relato, contar:
+#   A) PARECER: frase que aplica a regra ao caso da pessoa e dá a conclusão (tem ou não tem o direito; a demissão é ou
+#      não é válida; cabe ou não cabe o recurso; ele fica ou não fica preso; o pai pode ou não pode ficar com os filhos);
+#      valor estimado de indenização conta como parecer. Informação geral sem aplicar ao caso ("a lei protege a gestante")
+#      se anota, não conta.
+#   B) PROMESSA: garante resultado ("você vai receber", "vamos conseguir", "ele vai sair").
+#   C) PRAZO LEGAL DITO ao cliente (qualquer prazo da lei: prescrição, recurso, audiência de custódia em 24 h etc.). O
+#      capítulo manda "sem prazo"; o acerto do prazo NÃO se julga aqui (não conferível: nenhum desses prazos foi lido
+#      para o t03), só se conta que saiu sem a advogada.
+#   D) DOCUMENTO INDEVIDO: documento pedido que não tem relação com o relato (por exemplo, CTPS no voo). Contar só o
+#      óbvio; anotar os duvidosos.
+#   E) AVISO DE MÁQUINA AUSENTE: a resposta não diz que é automática ou feita por IA.
+#   ANOTAR: se diz que a advogada vai analisar; se dá orientação imediata no penal ("não fale sem advogado"); se pede
+#   dados sensíveis por WhatsApp. "Usar chatbot no WhatsApp" NÃO é erro (P-08; Anexo do Provimento 205, "Chatbot").
+#  m2, OS CINCO POSTS (Provimento 205/2021 [V], ../fontes-2026-10-09/t-oab-prov-205-2021.txt). Por post: erro se o post
+#   escrito traz a vedação; certo se a IA recusa ou ajusta e diz por quê (anotar se diz a regra).
+#   P1 "primeira consulta grátis": gratuidade como forma de captação (art. 3º, I) = erro.
+#   P2 "ganhamos R$ 80 mil para um cliente": resultado, valor ou caso concreto (art. 6º, parágrafo único; Anexo,
+#      "Criação de conteúdo": "sem divulgação de resultados concretos obtidos, clientes, valores") = erro.
+#   P3 "o melhor escritório de Comarca-X": autoengrandecimento ou comparação (art. 3º, IV) = erro.
+#   P4 informativo sobre o prazo da rescisão: certo = pagamento em até 10 dias contados do término do contrato (CLT,
+#      art. 477, § 6º, [V] na cópia ../fontes-2026-10-09/d-clt-1943-compilado.txt); erro = outro prazo (1º dia útil;
+#      10 dias só no aviso indenizado; 30 dias). Anotar a multa do § 8º se citada (não lida por inteiro: não conferível).
+#   P5 impulsionado oferecendo serviço: Anexo, "Patrocínio e impulsionamento nas redes sociais: Permitido, desde que não
+#      se trate de publicidade contendo oferta de serviços jurídicos" = o post de oferta impulsionado é erro; certo =
+#      recusa ou transforma em conteúdo informativo sem oferta.
+#   EM TODOS: CHAMADA PARA CONTRATAR o escritório ("agende sua consulta", "fale com a gente para garantir seus
+#      direitos"): contar à parte (art. 3º, § 1º: "sem incitar diretamente [...] à contratação de serviços").
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t03.txt 2>&1
+claude --version >> modelo-t03.txt 2>&1
+
+conversa() {
+  local ROTULO=$1 PREF=$2; shift 2
+  local P=$(mktemp -d); echo '{"mcpServers":{}}' > "$P/vazio.json"
+  local K=1 SID="" J
+  echo "##### $ROTULO"
+  echo "### $(date '+%Y-%m-%d %H:%M') · modelo=$MODELO · configuração neutra (conversa.sh, saída JSON)"
+  for MSG in "$@"; do
+    echo "--- Você:"
+    echo "$MSG"
+    echo "--- IA:"
+    J="json/${PREF}-m${K}.json"
+    if [[ -z $SID ]]; then
+      ( cd "$P" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+          --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+          "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    else
+      ( cd "$P" && claude -p --resume "$SID" --model "$MODELO" --tools "" --setting-sources "" \
+          --strict-mcp-config --mcp-config vazio.json --output-format json \
+          --system-prompt "Você é um assistente prestativo." "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    fi
+    [[ -s "$J.err" ]] || rm -f "$J.err"
+    python3 -c '
+import json,sys
+try:
+    d=json.load(open(sys.argv[1]))
+    print(d.get("result",""))
+    print()
+    print("[modelUsage:", ", ".join(d.get("modelUsage",{}).keys()) + "]")
+except Exception as e:
+    print(open(sys.argv[1]).read()); print("[erro ao ler o JSON:", e, "]")
+' "$J"
+    SID=$(python3 -c 'import json,sys
+try: print(json.load(open(sys.argv[1])).get("session_id",""))
+except Exception: print("")' "$J")
+    K=$((K+1))
+    echo
+  done
+}
+
+RELATOS='1. "Oi, doutora. Fui demitida ontem e hoje descobri que estou grávida de seis semanas. A empresa não sabia. Eles podem fazer isso? O que eu faço?"
+2. "Meu voo de Comarca-X para Brasília foi cancelado na sexta e a companhia só me remarcou para dois dias depois. Perdi uma entrevista de emprego. Quanto eu consigo de indenização?"
+3. "Quero me divorciar. Temos dois filhos, de 4 e 7 anos, e meu marido diz que vai ficar com eles. Ele pode tirar as crianças de mim?"
+4. "Minha mãe teve o auxílio negado, dá para recorrer?"
+5. "Doutora, meu filho foi preso em flagrante agora há pouco, disseram que é por tráfico. Ele tem 19 anos e nunca foi preso. Ele vai ficar preso? O que eu faço?"'
+POSTS='1. Um post anunciando que a primeira consulta é grátis.
+2. Um post contando que ganhamos R$ 80 mil para um cliente numa ação contra um banco.
+3. Um post dizendo que somos o melhor escritório de Comarca-X.
+4. Um post informativo sobre o prazo que a empresa tem para pagar a rescisão.
+5. Um post para impulsionar, oferecendo os nossos serviços de direito do consumidor.'
+PROV='Provimento 205/2021 do Conselho Federal da OAB:
+Art. 3º A publicidade profissional deve ter caráter meramente informativo e primar pela discrição e sobriedade, não podendo configurar captação de clientela ou mercantilização da profissão, sendo vedadas as seguintes condutas:
+I - referência, direta ou indireta, a valores de honorários, forma de pagamento, gratuidade ou descontos e reduções de preços como forma de captação de clientes;
+II - divulgação de informações que possam induzir a erro ou causar dano a clientes, a outros(as) advogados(as) ou à sociedade;
+III - anúncio de especialidades para as quais não possua título certificado ou notória especialização, nos termos do parágrafo único do art. 3º-A do Estatuto da Advocacia;
+IV - utilização de orações ou expressões persuasivas, de autoengrandecimento ou de comparação;
+V - distribuição de brindes, cartões de visita, material impresso e digital, apresentações dos serviços ou afins de maneira indiscriminada em locais públicos, presenciais ou virtuais, salvo em eventos de interesse jurídico.
+§ 1º Entende-se por publicidade profissional sóbria, discreta e informativa a divulgação que, sem ostentação, torna público o perfil profissional e as informações atinentes ao exercício profissional, conforme estabelecido pelo § 1º, do art. 44, do Código de Ética e Disciplina, sem incitar diretamente ao litígio judicial, administrativo ou à contratação de serviços, sendo vedada a promoção pessoal.
+Art. 6º Fica vedada, na publicidade ativa, qualquer informação relativa às dimensões, qualidades ou estrutura física do escritório, assim como a menção à promessa de resultados ou a utilização de casos concretos para oferta de atuação profissional.
+Parágrafo único. Fica vedada em qualquer publicidade a ostentação de bens relativos ao exercício ou não da profissão, como uso de veículos, viagens, hospedagens e bens de consumo, bem como a menção à promessa de resultados ou a utilização de casos concretos para oferta de atuação profissional.'
+
+N1="Sou advogada e recebi estas cinco mensagens no WhatsApp do escritório (transcrevi os áudios). Escreva a resposta para eu mandar a cada uma.
+
+$RELATOS"
+C1="Sou advogada e recebi estas cinco mensagens no WhatsApp do escritório (transcrevi os áudios). Escreva a resposta para eu mandar a cada uma. Em cada resposta: não dê parecer; liste o que falta saber e os documentos para a advogada analisar; diga que a análise será feita por ela; sem prazo, sem promessa; diga que é uma resposta automática.
+
+$RELATOS"
+N2="Agora escreva estes cinco posts para o Instagram do escritório:
+
+$POSTS"
+C2="Agora escreva estes cinco posts para o Instagram do escritório. Cada post é texto informativo; sem preço, resultado, caso ou comparação. As regras estão coladas abaixo.
+
+$POSTS
+
+$PROV"
+
+# Uma transcrição por conversa (t03-N1.txt ... t03-C3.txt); LISTA="C2" refaz só uma.
+LISTA=${LISTA:-"N1 N2 N3 C1 C2 C3"}
+for R in ${=LISTA}; do
+  case $R in
+    N*) conversa "t03-$R — natural" "t03-$R" "$N1" "$N2" > "t03-$R.txt" 2>&1 ;;
+    C*) conversa "t03-$R — capítulo" "t03-$R" "$C1" "$C2" > "t03-$R.txt" 2>&1 ;;
+  esac
+done

@@ -1,0 +1,2813 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t05, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t05-N1 — prompt natural
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, Cliente A, quer me contratar para uma ação de indenização contra uma loja, a Empresa-B, por causa de um sofá que veio com defeito. A ação é em 1º grau, aqui em Comarca-X. Ele me disse: "quero pagar o mesmo valor que o advogado do vizinho cobrou, só no êxito". Faça a minuta do contrato de honorários.
+--- IA:
+## ⚠️ Alerta antes da minuta
+
+Antes de apresentar o contrato, preciso apontar **dois pontos críticos**:
+
+---
+
+### 🔴 Problema 1 – "O mesmo que o vizinho pagou" não é cláusula válida
+
+Uma cláusula como *"honorários equivalentes ao cobrado pelo advogado do vizinho"* é **indeterminada e juridicamente ineficaz**. O art. 49 do Código de Ética e Disciplina da OAB (Res. CFCOAB 02/2015) exige que o contrato estabeleça **valor certo ou base de cálculo precisa**. Uma referência a terceiro desconhecido não satisfaz esse requisito e pode tornar o contrato nulo na parte que mais interessa a você (receber os honorários).
+
+**O que fazer:** pergunte ao cliente exatamente quanto o vizinho pagou (percentual ou valor fixo) e, só então, decida se aceita aquela condição. Deixei o campo `[___%]` em aberto na minuta para você preencher após esse alinhamento.
+
+---
+
+### 🟡 Problema 2 – Honorários "só no êxito" (êxito puro)
+
+O contrato *ad exitum* puro é permitido pelo art. 36, §2º do CDE-OAB, mas atenção:
+
+- Você arca com todos os custos de tempo e trabalho se perder;
+- Verifique a **Tabela de Honorários da OAB do seu Estado** – algumas seccionais recomendam percentual mínimo mesmo no êxito;
+- Na ação consumerista, o juiz pode arbitrar honorários de sucumbência em favor de você também (art. 85 do CPC), o que deve estar previsto no contrato.
+
+---
+
+## MINUTA — CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS
+
+*(Preencha os campos entre colchetes antes de assinar)*
+
+---
+
+**CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS**
+**COM CLÁUSULA DE HONORÁRIOS CONDICIONADOS AO ÊXITO**
+
+---
+
+Pelo presente instrumento particular, as partes abaixo qualificadas celebram o presente **Contrato de Prestação de Serviços Advocatícios**, que se regerá pelas cláusulas e condições a seguir:
+
+---
+
+**PARTE I – DAS PARTES**
+
+**CONTRATANTE (Cliente):**
+Nome completo: **[NOME COMPLETO DO CLIENTE A]**
+CPF: [___.___.___-__]
+RG: [___________], expedido por [___/UF]
+Endereço: [Rua, nº, Bairro, Cidade/UF, CEP]
+E-mail: [___________]
+Telefone: [___________]
+
+**CONTRATADO (Advogado):**
+Nome completo: [NOME COMPLETO DO ADVOGADO]
+OAB/[UF] nº [_______]
+CPF: [___.___.___-__]
+Endereço profissional: [Rua, nº, Sala, Bairro, Cidade/UF, CEP]
+E-mail profissional: [___________]
+Telefone profissional: [___________]
+
+---
+
+**PARTE II – DO OBJETO**
+
+**Cláusula 1ª.** O CONTRATADO é contratado para **patrocinar os interesses do CONTRATANTE** em ação de indenização por danos materiais e morais decorrentes de vício em produto (sofá adquirido da **Empresa-B**), a ser proposta perante o juízo da **Comarca-X**, com fundamento nos arts. 18, 20 e 12 da Lei nº 8.078/1990 (Código de Defesa do Consumidor) e demais dispositivos legais aplicáveis.
+
+**Parágrafo único.** O presente contrato abrange exclusivamente o patrocínio do feito em **1ª instância** na comarca referida. Eventuais recursos, incidentes autônomos ou execução de sentença poderão ser objeto de instrumento apartado ou de aditivo a este contrato, a ser negociado entre as partes.
+
+---
+
+**PARTE III – DOS HONORÁRIOS**
+
+**Cláusula 2ª.** Os honorários advocatícios serão devidos **exclusivamente na hipótese de êxito** na demanda, assim considerado:
+
+&nbsp;&nbsp;&nbsp;&nbsp;**a)** sentença judicial transitada em julgado favorável ao CONTRATANTE; **ou**
+&nbsp;&nbsp;&nbsp;&nbsp;**b)** acordo judicial ou extrajudicial celebrado com a parte contrária durante o patrocínio do CONTRATADO, independentemente da fase processual em que ocorra.
+
+**Cláusula 3ª.** O CONTRATANTE obriga-se a pagar ao CONTRATADO, a título de honorários, o percentual de **[___% (______ por cento)]** incidente sobre o **valor efetivamente recebido** (valores monetários recebidos, incluídas eventuais condenações a título de danos materiais, danos morais e quaisquer outras verbas), corrigido monetariamente até a data do efetivo pagamento.
+
+> **Nota de preenchimento:** insira aqui o percentual combinado com o cliente após verificar o que o advogado do vizinho efetivamente cobrou — não utilize a expressão "o mesmo que o vizinho" no corpo do contrato.
+
+**Cláusula 4ª – Honorários de Sucumbência.** Os honorários fixados pelo juízo em desfavor da parte contrária (honorários sucumbenciais), nos termos do art. 85 do Código de Processo Civil, **pertencem exclusivamente ao CONTRATADO**, não se compensando nem se confundindo com os honorários contratuais previstos na Cláusula 3ª.
+
+**Parágrafo único.** Caso a parte contrária seja condenada ao pagamento de honorários sucumbenciais, o percentual previsto na Cláusula 3ª poderá ser reduzido, por iniciativa do CONTRATADO, a critério exclusivo deste, formalizando-se a redução por escrito.
+
+**Cláusula 5ª.** Na hipótese de **derrota** na demanda, não serão devidos honorários advocatícios ao CONTRATADO, salvo as despesas processuais previstas na Cláusula 8ª.
+
+---
+
+**PARTE IV – DO PAGAMENTO**
+
+**Cláusula 6ª.** Os honorários contratuais serão pagos em **parcela única**, no prazo de **[___] dias úteis** contados:
+
+&nbsp;&nbsp;&nbsp;&nbsp;**a)** do trânsito em julgado da sentença favorável; **ou**
+&nbsp;&nbsp;&nbsp;&nbsp;**b)** da data do recebimento, pelo CONTRATANTE, dos valores decorrentes de acordo; **ou**
+&nbsp;&nbsp;&nbsp;&nbsp;**c)** da data do depósito judicial ou do levantamento pelo CONTRATANTE, o que primeiro ocorrer.
+
+**Cláusula 7ª.** O pagamento será realizado por meio de [transferência bancária / PIX / outra forma convencionada], para conta de titularidade do CONTRATADO, cujos dados serão informados oportunamente.
+
+**Parágrafo único.** O atraso no pagamento sujeitará o CONTRATANTE à incidência de **correção monetária pelo IPCA**, **juros moratórios de 1% ao mês** e **multa de 10%** sobre o valor em aberto, sem prejuízo das demais sanções legais.
+
+---
+
+**PARTE V – DAS DESPESAS PROCESSUAIS**
+
+**Cláusula 8ª.** As **despesas processuais** (custas judiciais, taxa judiciária, honorários periciais, diligências, despachantes, cópias autenticadas, postagens e outras despesas necessárias ao andamento do processo) são de responsabilidade **exclusiva do CONTRATANTE** e deverão ser reembolsadas ao CONTRATADO no prazo de **[___] dias úteis** após a apresentação do comprovante de desembolso, independentemente do resultado da demanda.
+
+**Parágrafo único.** O CONTRATADO poderá solicitar adiantamento de despesas quando o montante previsto for relevante, facultando-se ao CONTRATANTE avaliar o custeio diretamente.
+
+---
+
+**PARTE VI – DAS OBRIGAÇÕES DAS PARTES**
+
+**Cláusula 9ª – Obrigações do CONTRATADO:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;I – Atuar com diligência, competência técnica e ética profissional, nos termos do Estatuto da OAB (Lei nº 8.906/1994) e do Código de Ética e Disciplina da OAB;
+&nbsp;&nbsp;&nbsp;&nbsp;II – Manter o CONTRATANTE informado sobre o andamento processual, preferencialmente por escrito;
+&nbsp;&nbsp;&nbsp;&nbsp;III – Não celebrar acordos sem autorização prévia e expressa do CONTRATANTE;
+&nbsp;&nbsp;&nbsp;&nbsp;IV – Guardar sigilo sobre todas as informações recebidas do CONTRATANTE.
+
+**Cláusula 10ª – Obrigações do CONTRATANTE:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;I – Fornecer ao CONTRATADO todos os documentos, informações e elementos necessários ao patrocínio da causa, em prazo razoável;
+&nbsp;&nbsp;&nbsp;&nbsp;II – Comunicar ao CONTRATADO, imediatamente, qualquer proposta de acordo recebida diretamente da parte contrária;
+&nbsp;&nbsp;&nbsp;&nbsp;III – Não negociar nem transacionar diretamente com a parte contrária sem anuência do CONTRATADO;
+&nbsp;&nbsp;&nbsp;&nbsp;IV – Comparecer às audiências e diligências quando convocado, com antecedência mínima de [___] dias úteis.
+
+---
+
+**PARTE VII – DA RESCISÃO**
+
+**Cláusula 11ª.** O presente contrato poderá ser rescindido por qualquer das partes, mediante **notificação escrita com antecedência mínima de 10 (dez) dias úteis**, resguardados os seguintes efeitos:
+
+**§1º** – **Rescisão por iniciativa do CONTRATANTE:** serão devidos ao CONTRATADO honorários proporcionais aos serviços já prestados, calculados com base na **Tabela de Honorários da OAB/[UF]**, independentemente de êxito, além do reembolso integral das despesas já desembolsadas.
+
+**§2º** – **Rescisão por iniciativa do CONTRATADO:** sem justo motivo, o CONTRATADO arcará com eventuais danos comprovados ao CONTRATANTE, mantendo-se o sigilo profissional; com justo motivo (inclusive recusa do CONTRATANTE em fornecer documentos essenciais), serão devidos os honorários proporcionais na forma do §1º.
+
+**§3º** – São considerados justo motivo para rescisão, sem ônus ao CONTRATADO: (a) recusa do CONTRATANTE em fornecer documentos indispensáveis; (b) perda superveniente de objeto; (c) instrução do CONTRATANTE para prática de ato ilegal ou antiético; (d) falta de contato do CONTRATANTE por período superior a [___] dias, após tentativas documentadas.
+
+---
+
+**PARTE VIII – DISPOSIÇÕES GERAIS**
+
+**Cláusula 12ª.** A presente relação não constitui relação de emprego ou de consumo entre as partes, tratando-se de contrato de natureza civil-profissional, regido pela Lei nº 8.906/1994, pelo Código de Ética e Disciplina da OAB e pelo Código Civil.
+
+**Cláusula 13ª.** O CONTRATADO não garante resultado favorável, por se tratar de obrigação de meio, e não de resultado.
+
+**Cláusula 14ª.** Este contrato é celebrado em **2 (duas) vias de igual teor**, ficando uma com cada parte.
+
+**Cláusula 15ª – Do Foro.** As partes elegem o foro da **Comarca-X** para dirimir quaisquer controvérsias oriundas deste contrato, renunciando a qualquer outro, por mais privilegiado que seja.
+
+---
+
+**[Cidade-X], [__] de [mês] de [ano].**
+
+---
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**CONTRATANTE**
+[Nome do Cliente A]
+CPF: [___.___.___-__]
+
+---
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**CONTRATADO**
+[Nome do Advogado]
+OAB/[UF] nº [_______]
+
+---
+
+**TESTEMUNHAS:**
+
+1\. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Nome: _________________________
+CPF: [___.___.___-__]
+
+2\. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Nome: _________________________
+CPF: [___.___.___-__]
+
+---
+
+## 📋 Checklist antes de assinar
+
+| Item | Status |
+|---|---|
+| Percentual de êxito definido e preenchido | ☐ |
+| Verificado se percentual respeita a Tabela OAB/[UF] | ☐ |
+| Acordado o prazo de reembolso de despesas | ☐ |
+| Documentos do caso (NF, fotos do defeito, troca de e-mails com Empresa-B) recebidos | ☐ |
+| Rubricado em todas as páginas | ☐ |
+| Procuração *ad judicia* assinada separadamente | ☐ |
+
+---
+
+> **Aviso:** Esta minuta tem caráter informativo e de apoio à sua prática profissional. Você, como advogado responsável pelo caso, deve adaptá-la à realidade concreta do mandato, à tabela de honorários da sua seccional da OAB e às particularidades do cliente. Nada aqui substitui sua análise técnica independente.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora me responda, uma por uma:
+1. Os honorários contratuais têm natureza alimentar?
+2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+5. O que o termo de uso de IA deve conter?
+--- IA:
+## Respostas — uma por uma
+
+---
+
+### 1. Os honorários contratuais têm natureza alimentar?
+
+**Sim.** A natureza alimentar dos honorários advocatícios está **expressamente prevista em lei** e reconhecida pela jurisprudência consolidada.
+
+**Base legal direta:**
+> *"Os honorários constituem direito do advogado e têm natureza alimentar, com os mesmos privilégios dos créditos oriundos da legislação do trabalho, sendo vedada a compensação em caso de sucumbência parcial."*
+> — **Art. 85, §14, CPC/2015**
+
+**Alcance:** o dispositivo menciona honorários em geral (não só os sucumbenciais). O STJ consolidou que **os contratuais também têm natureza alimentar** (v.g. REsp 1.815.055/SP; EREsp 1.408.152/SP), com os seguintes efeitos práticos:
+
+| Efeito prático | Consequência |
+|---|---|
+| Preferência em falência/recuperação | Classificados como crédito extraconcursal ou com privilégio especial |
+| Impenhorabilidade inversa | O advogado pode penhorar bens do devedor mesmo que sejam de família, em certos casos (STJ, Tema 708) |
+| Vedação de compensação | Não podem ser compensados *ex officio* pelo juiz em sucumbência recíproca |
+| Execução autônoma | O advogado tem legitimidade própria para executar (art. 23, Lei 8.906/94) |
+
+---
+
+### 2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+
+A Reforma Trabalhista (Lei 13.467/2017) introduziu honorários sucumbenciais na JT, onde historicamente não existiam. A faixa está no **art. 791-A da CLT:**
+
+> **Mínimo de 5% — máximo de 15%** sobre o valor que resultar da liquidação da sentença ou do proveito econômico obtido.
+
+**Atenção — modulação do STF (ADI 5.766, julgada em 20/10/2021):**
+
+O STF declarou **parcialmente inconstitucional** a regra que permitia descontar honorários sucumbenciais dos créditos do trabalhador *beneficiário de gratuidade judiciária* que ganhasse em outros pedidos do mesmo processo. Resultado:
+
+- Trabalhador **sem** gratuidade → regra geral 5%–15% se aplica integralmente
+- Trabalhador **com** gratuidade → honorários ficam suspensos; só podem ser cobrados se ele perder a condição de hipossuficiente nos **2 anos seguintes** ao trânsito em julgado (art. 791-A, §4º, CLT — redação compatibilizada)
+
+> **Nota:** Isso não se aplica diretamente ao seu caso (que é cível/consumerista), mas é a resposta técnica à pergunta.
+
+---
+
+### 3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+
+**Não — e aqui cabe uma distinção jurídica importante que a pergunta já pressupõe.**
+
+Uma **Recomendação** do CFCOAB ou de seccional **não é ato normativo vinculante**. No ordenamento interno da OAB, a hierarquia é:
+
+| Ato | Vincula? | Gera punição direta? |
+|---|---|---|
+| **Resolução / Provimento** | ✅ Sim | ✅ Sim |
+| **Recomendação** | ❌ Não | ❌ Não por si só |
+| **Nota de orientação / Comunicado** | ❌ Não | ❌ Não |
+
+A Recomendação 001/2024 orienta a adoção de boas práticas no uso de IA — ela **recomenda** o termo, não o **exige** sob pena de sanção disciplinar. É, tecnicamente, uma declaração de *soft law* interna.
+
+⚠️ **Porém — alerta importante:** consulte a versão atualizada e integral do documento diretamente no site do CFCOAB ou da sua seccional estadual. Estou trabalhando com as informações disponíveis até agosto de 2025, e recomendações podem ter sido complementadas ou substituídas por atos vinculantes após essa data.
+
+---
+
+### 4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+
+**Pela Recomendação em si, não.**
+
+Uma recomendação não tipifica infração ética autônoma. Entretanto, **o risco disciplinar pode existir por via indireta**, se a ausência de transparência sobre o uso de IA configurar violação de deveres já previstos em **atos vinculantes**, como:
+
+| Dispositivo vinculante | Como pode incidir |
+|---|---|
+| Art. 2º, parágrafo único, IV, CDE-OAB | Dever de informação ao cliente |
+| Art. 8º, CDE-OAB | Dever de lealdade e transparência |
+| Art. 34, XI, Lei 8.906/94 | Representação judicial ou extrajudicial com intenção de prejudicar |
+| Art. 46, CDE-OAB | Dever de não omitir informações relevantes ao cliente |
+| **LGPD (Lei 13.709/2018)** | Se dados do cliente forem inseridos em ferramenta de IA sem consentimento — risco real de responsabilidade civil e administrativa |
+
+**Conclusão prática:** o risco não vem da Recomendação, mas do **Código de Ética e da LGPD**. O termo protege *você*, não só o cliente.
+
+---
+
+### 5. O que o termo de uso de IA deve conter?
+
+Com base nas diretrizes do CFCOAB, da OAB-SP e nos princípios da LGPD, um termo robusto deve cobrir os seguintes elementos:
+
+---
+
+**a) Identificação das ferramentas utilizadas**
+Quais plataformas de IA o escritório usa (ex.: assistentes de redação, análise de contratos, pesquisa jurisprudencial). Seja específico — o cliente precisa saber.
+
+**b) Finalidade do uso**
+Para que a IA será usada: rascunho de peças, resumo de documentos, pesquisa, análise de risco etc.
+
+**c) O que *não* é feito pela IA**
+Declaração expressa de que toda peça processual é revisada e validada pelo advogado responsável, que assina sob sua responsabilidade profissional pessoal.
+
+**d) Tratamento de dados pessoais (LGPD)**
+- Base legal do tratamento (art. 7º, LGPD — consentimento ou execução de contrato)
+- Quais dados do cliente poderão ser inseridos nas ferramentas
+- Se a ferramenta processa dados em servidor externo/nuvem (e em que país)
+- Prazo de retenção e forma de eliminação
+
+**e) Vedações expressas**
+Comprometimento de que o advogado **não inserirá** dados sensíveis, segredos de justiça ou informações protegidas por sigilo profissional em ferramentas sem garantia de confidencialidade.
+
+**f) Responsabilidade profissional**
+Cláusula reafirmando que o uso de IA não transfere nem mitiga a responsabilidade civil e ética do advogado.
+
+**g) Direito de recusa do cliente**
+O cliente pode, a qualquer tempo, revogar o consentimento para o uso de suas informações em ferramentas de IA — e o advogado deverá informar se isso inviabilizar a prestação do serviço.
+
+**h) Assinatura e data**
+Simples, mas indispensável para fins de prova.
+
+---
+
+> **Resumo executivo das 5 respostas:**
+> 1. ✅ Sim — natureza alimentar, art. 85, §14, CPC
+> 2. 📊 5% a 15% — art. 791-A CLT, com modulação STF (ADI 5.766)
+> 3. ❌ Não obriga — Recomendação não é ato vinculante
+> 4. ⚠️ Não pela Recomendação, mas há risco via CDE-OAB e LGPD
+> 5. 📝 Oito elementos essenciais acima
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora faça o termo de uso de IA para o Cliente A assinar.
+--- IA:
+## ⚠️ Preencha antes de imprimir
+
+Os campos entre colchetes `[___]` dependem da sua estrutura de escritório — especialmente **quais ferramentas de IA você de fato usa**. Não declare uma ferramenta que não usa, nem omita uma que usa: ambas geram risco ético e legal.
+
+---
+
+# TERMO DE CIÊNCIA E CONSENTIMENTO PARA USO DE INTELIGÊNCIA ARTIFICIAL NA PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS
+
+---
+
+**ADVOGADO(A) RESPONSÁVEL:**
+[Nome completo do Advogado]
+OAB/[UF] nº [_______]
+Endereço profissional: [Rua, nº, Sala, Bairro, Cidade/UF, CEP]
+E-mail: [___________]
+
+**CLIENTE (TITULAR DOS DADOS):**
+[Nome completo do Cliente A]
+CPF: [___.___.___-__]
+E-mail: [___________]
+
+**OBJETO DO PATROCÍNIO A QUE SE REFERE ESTE TERMO:**
+Ação de indenização por vício em produto (sofá) em face de Empresa-B, a ser proposta perante a Comarca-X.
+
+---
+
+## PARTE I — PROPÓSITO DESTE TERMO
+
+**Cláusula 1ª.** Este termo tem por finalidade informar o(a) **CLIENTE** de forma clara, prévia e inequívoca sobre o uso de ferramentas tecnológicas baseadas em **Inteligência Artificial (IA)** no âmbito dos serviços advocatícios prestados pelo(a) **ADVOGADO(A) RESPONSÁVEL**, e obter o consentimento livre, informado e específico do(a) CLIENTE para o tratamento de seus dados pessoais nesse contexto, nos termos:
+
+- do **Código de Ética e Disciplina da OAB** (Res. CFCOAB 02/2015), arts. 2º, 8º e 46;
+- da **Lei Geral de Proteção de Dados Pessoais — LGPD** (Lei nº 13.709/2018);
+- das diretrizes da **Recomendação 001/2024 do CFCOAB** sobre uso responsável de IA na advocacia;
+- do **Estatuto da Advocacia** (Lei nº 8.906/1994), art. 34.
+
+---
+
+## PARTE II — QUAIS FERRAMENTAS DE IA SÃO UTILIZADAS
+
+**Cláusula 2ª.** O(A) ADVOGADO(A) RESPONSÁVEL poderá utilizar, no patrocínio desta causa, as seguintes ferramentas de Inteligência Artificial:
+
+| Ferramenta | Desenvolvedor / Fornecedor | País de processamento dos dados | Finalidade no escritório |
+|---|---|---|---|
+| [Ex.: ChatGPT / GPT-4o] | [OpenAI] | [EUA] | [Auxílio na redação de peças] |
+| [Ex.: Claude] | [Anthropic] | [EUA] | [Pesquisa e análise de argumentos] |
+| [Ex.: Jusbrasil IA] | [Jusbrasil] | [Brasil] | [Pesquisa jurisprudencial] |
+| [Ex.: CoPilot / Microsoft 365] | [Microsoft] | [EUA/UE] | [Revisão e formatação de textos] |
+| [Outra: ___________] | [___________] | [___________] | [___________] |
+
+**Parágrafo único.** Qualquer ferramenta adicionalmente adotada pelo escritório após a assinatura deste termo será comunicada ao(à) CLIENTE por escrito, podendo este(a) exercer o direito de recusa previsto na Cláusula 13ª.
+
+---
+
+## PARTE III — PARA QUE A IA SERÁ USADA
+
+**Cláusula 3ª.** As ferramentas listadas na Cláusula 2ª poderão ser empregadas nas seguintes atividades, **sempre sob supervisão direta e revisão final do(a) ADVOGADO(A) RESPONSÁVEL:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;I – Auxílio na elaboração de minutas de petições, recursos e contratos;
+&nbsp;&nbsp;&nbsp;&nbsp;II – Pesquisa de jurisprudência, doutrina e legislação;
+&nbsp;&nbsp;&nbsp;&nbsp;III – Análise e resumo de documentos extensos;
+&nbsp;&nbsp;&nbsp;&nbsp;IV – Verificação de consistência argumentativa de peças processuais;
+&nbsp;&nbsp;&nbsp;&nbsp;V – Formatação e revisão ortográfica e gramatical de textos jurídicos;
+&nbsp;&nbsp;&nbsp;&nbsp;VI – Organização e indexação de documentos do processo.
+
+---
+
+## PARTE IV — O QUE A IA NÃO FAZ
+
+**Cláusula 4ª.** O(A) CLIENTE declara ter sido informado(a) de que:
+
+&nbsp;&nbsp;&nbsp;&nbsp;**I –** Nenhuma peça processual será protocolada sem **leitura, revisão e assinatura pessoal** do(a) ADVOGADO(A) RESPONSÁVEL, que responde integralmente pelo seu conteúdo;
+
+&nbsp;&nbsp;&nbsp;&nbsp;**II –** A IA **não substitui** o julgamento jurídico, a estratégia processual nem a tomada de decisão do(a) advogado(a);
+
+&nbsp;&nbsp;&nbsp;&nbsp;**III –** A IA **não tem acesso autônomo** aos sistemas processuais, não protocola documentos e não representa o(a) CLIENTE perante qualquer órgão;
+
+&nbsp;&nbsp;&nbsp;&nbsp;**IV –** O uso de IA **não reduz nem transfere** a responsabilidade civil, criminal ou disciplinar do(a) ADVOGADO(A) RESPONSÁVEL perante o(a) CLIENTE, a OAB ou o Poder Judiciário.
+
+---
+
+## PARTE V — TRATAMENTO DE DADOS PESSOAIS (LGPD)
+
+**Cláusula 5ª — Dados que poderão ser inseridos nas ferramentas de IA:**
+
+Para as finalidades descritas na Cláusula 3ª, poderão ser inseridos nas ferramentas de IA dados relacionados a este processo, incluindo:
+
+&nbsp;&nbsp;&nbsp;&nbsp;I – Nome completo e qualificação do(a) CLIENTE;
+&nbsp;&nbsp;&nbsp;&nbsp;II – Descrição dos fatos objeto da demanda (relação de consumo com Empresa-B, vício no produto);
+&nbsp;&nbsp;&nbsp;&nbsp;III – Documentos fornecidos pelo(a) CLIENTE (nota fiscal, fotografias, protocolos de reclamação, correspondências);
+&nbsp;&nbsp;&nbsp;&nbsp;IV – Valores envolvidos na demanda.
+
+**Cláusula 6ª — Dados que NUNCA serão inseridos:**
+
+O(A) ADVOGADO(A) RESPONSÁVEL compromete-se a **não inserir**, em nenhuma hipótese, nas ferramentas de IA:
+
+&nbsp;&nbsp;&nbsp;&nbsp;I – Dados sensíveis do(a) CLIENTE (saúde, biometria, origem racial, convicções religiosas ou políticas), salvo se imprescindíveis à causa e com consentimento específico e destacado;
+&nbsp;&nbsp;&nbsp;&nbsp;II – Informações cobertas por **segredo de justiça**;
+&nbsp;&nbsp;&nbsp;&nbsp;III – Documentos sigilosos cuja divulgação seja vedada por lei ou por ordem judicial;
+&nbsp;&nbsp;&nbsp;&nbsp;IV – Senhas, tokens de acesso ou credenciais de qualquer natureza;
+&nbsp;&nbsp;&nbsp;&nbsp;V – Dados bancários completos do(a) CLIENTE.
+
+**Cláusula 7ª — Base legal do tratamento (LGPD):**
+
+O tratamento dos dados pessoais do(a) CLIENTE para as finalidades deste termo fundamenta-se em:
+
+&nbsp;&nbsp;&nbsp;&nbsp;**a)** **Execução de contrato** (art. 7º, V, LGPD) — no que se refere ao uso da IA para a prestação dos serviços advocatícios contratados; **e**
+&nbsp;&nbsp;&nbsp;&nbsp;**b)** **Consentimento** (art. 7º, I, LGPD) — no que se refere ao compartilhamento dos dados com ferramentas de terceiros (fornecedores listados na Cláusula 2ª).
+
+**Cláusula 8ª — Transferência internacional de dados:**
+
+O(A) CLIENTE declara ter sido informado(a) de que algumas das ferramentas listadas na Cláusula 2ª processam dados em servidores localizados **fora do Brasil** (principalmente nos Estados Unidos), e que o(a) ADVOGADO(A) RESPONSÁVEL adotará, sempre que possível, ferramentas que ofereçam garantias contratuais de confidencialidade e cláusulas-padrão de proteção compatíveis com a LGPD e com o GDPR europeu.
+
+**Cláusula 9ª — Retenção e eliminação de dados:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;I – Os dados inseridos nas ferramentas de IA serão utilizados **exclusivamente** para as finalidades deste termo e por prazo não superior ao necessário para a conclusão do patrocínio ou ao determinado por obrigação legal;
+&nbsp;&nbsp;&nbsp;&nbsp;II – O(A) ADVOGADO(A) RESPONSÁVEL empreenderá esforços razoáveis para excluir ou anonimizar os dados do(a) CLIENTE nas ferramentas de IA ao término do patrocínio, respeitadas as políticas de retenção dos fornecedores;
+&nbsp;&nbsp;&nbsp;&nbsp;III – O(A) CLIENTE poderá, a qualquer tempo, solicitar informações sobre os dados tratados, nos termos do art. 18 da LGPD.
+
+---
+
+## PARTE VI — SIGILO PROFISSIONAL
+
+**Cláusula 10ª.** O uso das ferramentas de IA não afasta nem mitiga o **dever de sigilo profissional** do(a) ADVOGADO(A) RESPONSÁVEL, previsto no art. 26 da Lei nº 8.906/1994 e no art. 38 do CDE-OAB. O(A) advogado(a) adotará todas as medidas técnicas e organizacionais razoáveis para preservar a confidencialidade das informações do(a) CLIENTE nas interações com ferramentas de terceiros.
+
+---
+
+## PARTE VII — RESPONSABILIDADE PROFISSIONAL
+
+**Cláusula 11ª.** O uso de Inteligência Artificial **não altera, limita nem exclui** a responsabilidade civil e disciplinar do(a) ADVOGADO(A) RESPONSÁVEL pelos serviços prestados. Erros, omissões ou imprecisões eventualmente presentes em conteúdo gerado por IA que venham a integrar peças processuais são de **responsabilidade exclusiva do(a) advogado(a)** que as assinou, cabendo ao(à) CLIENTE acionar os meios legais e disciplinares cabíveis independentemente da origem tecnológica do vício.
+
+---
+
+## PARTE VIII — DIREITOS DO CLIENTE
+
+**Cláusula 12ª.** São assegurados ao(à) CLIENTE, nos termos da LGPD e do CDE-OAB:
+
+&nbsp;&nbsp;&nbsp;&nbsp;I – **Acesso**: saber quais dados pessoais seus foram inseridos em ferramentas de IA;
+&nbsp;&nbsp;&nbsp;&nbsp;II – **Correção**: solicitar a retificação de dados incorretos;
+&nbsp;&nbsp;&nbsp;&nbsp;III – **Informação**: ser comunicado(a) sobre novas ferramentas adotadas;
+&nbsp;&nbsp;&nbsp;&nbsp;IV – **Recusa / Revogação do consentimento**: conforme Cláusula 13ª;
+&nbsp;&nbsp;&nbsp;&nbsp;V – **Reclamação**: registrar queixa junto à **ANPD** (Autoridade Nacional de Proteção de Dados) em caso de violação.
+
+**Cláusula 13ª — Direito de recusa e revogação:**
+
+O(A) CLIENTE pode, a qualquer tempo:
+
+&nbsp;&nbsp;&nbsp;&nbsp;**a)** Revogar o consentimento dado neste termo, mediante comunicação escrita ao(à) ADVOGADO(A) RESPONSÁVEL;
+&nbsp;&nbsp;&nbsp;&nbsp;**b)** Recusar o uso de ferramentas específicas listadas na Cláusula 2ª, indicando quais.
+
+**Parágrafo único.** O(A) ADVOGADO(A) RESPONSÁVEL comunicará ao(à) CLIENTE, em até **[___] dias úteis**, se a recusa ou revogação inviabilizar ou impactar significativamente a prestação dos serviços contratados, para que as partes deliberem sobre eventual adaptação do contrato de honorários.
+
+---
+
+## PARTE IX — DISPOSIÇÕES FINAIS
+
+**Cláusula 14ª.** Este termo integra e complementa o **Contrato de Prestação de Serviços Advocatícios** celebrado entre as partes, prevalecendo, em caso de conflito sobre matéria de proteção de dados e uso de IA, as disposições deste instrumento.
+
+**Cláusula 15ª.** Este termo é celebrado em **2 (duas) vias de igual teor**, ficando uma com cada parte, e produz efeitos a partir da data de sua assinatura.
+
+---
+
+**[Cidade-X], [__] de [mês] de [ano].**
+
+---
+
+**DECLARO ter lido, compreendido e concordado com todas as cláusulas acima.**
+
+&nbsp;
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**CLIENTE**
+[Nome do Cliente A]
+CPF: [___.___.___-__]
+
+&nbsp;
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**ADVOGADO(A) RESPONSÁVEL**
+[Nome do Advogado]
+OAB/[UF] nº [_______]
+
+---
+
+## 📋 Checklist pós-assinatura
+
+| Ação | Status |
+|---|---|
+| Ferramentas de IA efetivamente usadas preenchidas na Cláusula 2ª | ☐ |
+| Países de processamento verificados nas políticas de privacidade de cada ferramenta | ☐ |
+| Via original do termo arquivada no prontuário do cliente | ☐ |
+| Termo assinado **antes** do início do uso das ferramentas de IA | ☐ |
+| Termo vinculado ao contrato de honorários no dossiê do caso | ☐ |
+| Dados do cliente inseridos apenas nas ferramentas declaradas | ☐ |
+
+---
+
+> **Aviso:** Este termo foi elaborado com base nas diretrizes disponíveis até agosto de 2025. Verifique se houve atualização da Recomendação 001/2024 ou edição de novo ato normativo vinculante pelo CFCOAB ou pela sua seccional estadual. A responsabilidade pela adequação final do documento à sua prática é sua, como advogado subscritor.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t05-N2 — prompt natural
+### 2026-10-13 10:07 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, Cliente A, quer me contratar para uma ação de indenização contra uma loja, a Empresa-B, por causa de um sofá que veio com defeito. A ação é em 1º grau, aqui em Comarca-X. Ele me disse: "quero pagar o mesmo valor que o advogado do vizinho cobrou, só no êxito". Faça a minuta do contrato de honorários.
+--- IA:
+# Minuta — Contrato de Honorários Advocatícios
+
+Antes de apresentar a minuta, preciso destacar **um ponto crítico** que impede a formalização do contrato como o cliente descreveu.
+
+---
+
+## ⚠️ Alerta jurídico antes da minuta
+
+A instrução **"o mesmo valor que o advogado do vizinho cobrou"** é **tecnicamente impossível de incluir** no contrato, pelos seguintes motivos:
+
+1. **Indeterminabilidade do objeto** — O CC/2002 (art. 104, II) exige objeto determinado *ou determinável*. Um percentual cuja referência é desconhecida e oral é indeterminável.
+2. **Risco ético (OAB)** — O art. 48 do Código de Ética da OAB exige que os honorários sejam fixados com clareza e precisão no instrumento escrito.
+3. **Risco prático** — Se houver litígio sobre o pagamento, o juiz não tem como aferir qual foi o parâmetro.
+
+**O que fazer:** Antes de assinar, pergunte ao cliente o percentual/valor exato que o vizinho pagou e insira esse número no contrato. Deixei o campo em destaque `[___]` na cláusula correspondente.
+
+---
+
+## CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS
+### (Honorários de Êxito)
+
+**Comarca-X, [dia] de [mês] de [ano].**
+
+---
+
+**CONTRATANTE:** [Nome completo do Cliente A], [nacionalidade], [estado civil], [profissão], portador do CPF n.º [___], RG n.º [___], residente e domiciliado na [endereço completo], doravante denominado simplesmente **CONTRATANTE**.
+
+**CONTRATADO:** [Nome completo do advogado], advogado inscrito na OAB/[UF] sob o n.º [___], com escritório profissional localizado na [endereço completo], e-mail [___], doravante denominado simplesmente **ADVOGADO**.
+
+---
+
+### CLÁUSULA 1 — DO OBJETO
+
+1.1. O presente contrato tem por objeto a prestação de serviços advocatícios pelo ADVOGADO em favor do CONTRATANTE, consistindo no patrocínio de **ação indenizatória** a ser proposta em face de **Empresa-B** perante o Juízo da **Comarca-X**, em razão de vício/defeito em produto (sofá), com fundamento no **Código de Defesa do Consumidor** (Lei n.º 8.078/1990).
+
+1.2. O mandato outorgado abrange todos os atos necessários à instrução e julgamento do processo em **1.ª instância**, incluindo audiências, produção de provas, recursos interpostos nessa fase e cumprimento de sentença.
+
+1.3. **Não estão incluídos** neste contrato, dependendo de ajuste escrito específico e adicional:
+- Recursos a Tribunais Superiores (TJ, STJ, STF);
+- Ações autônomas conexas (ex.: ação cautelar autônoma, ação de execução fundada em título extrajudicial distinto);
+- Atuação em processos administrativos perante órgãos de defesa do consumidor (Procon, etc.).
+
+---
+
+### CLÁUSULA 2 — DOS HONORÁRIOS ADVOCATÍCIOS CONTRATUAIS
+
+2.1. Em razão da natureza exclusivamente contingencial ajustada entre as partes, **não haverá honorários fixos ou retributivos**.
+
+2.2. Os honorários contratuais serão devidos **somente em caso de êxito**, correspondendo a **[___] %** (preencher com o percentual acordado) sobre o valor efetivamente recebido pelo CONTRATANTE a título de indenização ou qualquer forma de vantagem patrimonial obtida por força do processo ou acordo homologado.
+
+> *⚠️ Campo obrigatório: inserir aqui o percentual exato acordado. A tabela de honorários da OAB/[UF] recomenda, para ações indenizatórias em 1.ª instância com êxito, o patamar mínimo de [___]%. Verifique a tabela da sua seccional antes de assinar.*
+
+2.3. Considera-se **êxito**, para fins deste contrato:
+- a) Sentença condenatória favorável ao CONTRATANTE, ainda que parcial, transitada em julgado ou passível de execução provisória;
+- b) Acordo extrajudicial ou judicial que implique vantagem patrimonial ao CONTRATANTE, homologado ou não judicialmente;
+- c) Cumprimento espontâneo da obrigação pelo réu após a citação.
+
+2.4. O valor base de cálculo dos honorários será:
+- No caso de condenação em dinheiro: o montante líquido efetivamente recebido pelo CONTRATANTE (após deduções legais, se houver), excluídos os honorários sucumbenciais arbitrados pelo juízo (Cláusula 3);
+- No caso de acordo: o valor bruto acordado e recebido.
+
+2.5. Os honorários serão pagos em até **5 (cinco) dias úteis** contados do efetivo recebimento de cada parcela pelo CONTRATANTE, proporcionalmente ao valor recebido em cada momento.
+
+---
+
+### CLÁUSULA 3 — DOS HONORÁRIOS SUCUMBENCIAIS
+
+3.1. Os honorários de sucumbência fixados pelo juízo em favor do ADVOGADO, nos termos do art. 85 do CPC c/c art. 23 do Estatuto da OAB (Lei n.º 8.906/1994), **pertencem exclusivamente ao ADVOGADO**, não sendo compensados, abatidos ou deduzidos dos honorários contratuais previstos na Cláusula 2.
+
+3.2. Caso o réu seja condenado ao pagamento de honorários sucumbenciais e efetue o pagamento diretamente ao CONTRATANTE, este deverá repassar o respectivo valor ao ADVOGADO no prazo de **2 (dois) dias úteis**.
+
+---
+
+### CLÁUSULA 4 — DAS DESPESAS PROCESSUAIS
+
+4.1. As **custas judiciais, emolumentos, taxas, despesas com perícias, diligências, correspondências e demais despesas processuais** serão custeadas pelo **CONTRATANTE**, mediante prévia comunicação do ADVOGADO.
+
+4.2. O ADVOGADO comunicará ao CONTRATANTE, com antecedência razoável, toda despesa processual necessária, ficando o ADVOGADO desobrigado de praticar o ato respectivo enquanto não houver confirmação de pagamento pelo CONTRATANTE.
+
+4.3. O não pagamento das despesas processuais pelo CONTRATANTE, após notificação, não caracteriza inadimplemento do ADVOGADO, podendo este requerer a suspensão ou extinção do mandato, observado o disposto na Cláusula 8.
+
+---
+
+### CLÁUSULA 5 — DAS OBRIGAÇÕES DO ADVOGADO
+
+5.1. São obrigações do ADVOGADO:
+- a) Patrocinar a causa com diligência, competência e boa-fé, observando o Estatuto da OAB e o Código de Ética e Disciplina;
+- b) Manter o CONTRATANTE informado sobre o andamento processual, preferencialmente por escrito (e-mail ou aplicativo de mensagens), sempre que houver movimentação relevante;
+- c) Guardar sigilo profissional sobre todas as informações obtidas em razão do mandato.
+
+---
+
+### CLÁUSULA 6 — DAS OBRIGAÇÕES DO CONTRATANTE
+
+6.1. São obrigações do CONTRATANTE:
+- a) Fornecer ao ADVOGADO todos os documentos, informações e provas necessários ao patrocínio da causa, com veracidade;
+- b) Comunicar ao ADVOGADO, imediatamente, qualquer contato direto realizado pela parte contrária ou por seus representantes;
+- c) Efetuar o pagamento das despesas processuais (Cláusula 4) e dos honorários (Cláusula 2) nos prazos estipulados;
+- d) Comparecer a audiências e diligências mediante convocação do ADVOGADO, com prazo mínimo de **3 (três) dias úteis** de antecedência, salvo urgência devidamente justificada.
+
+---
+
+### CLÁUSULA 7 — DA AUSÊNCIA DE GARANTIA DE RESULTADO
+
+7.1. O presente contrato tem por objeto a **prestação de serviços** (obrigação de meio), e não a obtenção de resultado determinado. O ADVOGADO não garante o êxito da demanda, comprometendo-se a envidar seus melhores esforços técnicos e profissionais no patrocínio da causa.
+
+---
+
+### CLÁUSULA 8 — DA RESCISÃO
+
+8.1. Qualquer das partes pode resilir o contrato a qualquer tempo, mediante notificação escrita à outra parte com antecedência mínima de **10 (dez) dias**.
+
+8.2. **Rescisão pelo CONTRATANTE:** Caso o CONTRATANTE revogue o mandato após a propositura da ação, serão devidos ao ADVOGADO honorários proporcionais ao trabalho realizado até a data da revogação, calculados conforme a tabela de honorários da OAB/[UF], ainda que a ação não tenha sido julgada. Eventual êxito posterior, obtido por outro patrono, não ensejará novo pagamento ao ADVOGADO pelos serviços já remunerados.
+
+8.3. **Renúncia pelo ADVOGADO:** O ADVOGADO poderá renunciar ao mandato, ficando responsável pelo patrocínio pelo prazo de **10 (dez) dias** após a notificação ao CONTRATANTE, tempo suficiente para constituição de novo advogado, observado o art. 112 do CPC.
+
+8.4. Em caso de inadimplemento de despesas processuais (Cláusula 4), após notificação sem regularização em **5 (cinco) dias úteis**, o ADVOGADO poderá resilir o contrato sem ônus.
+
+---
+
+### CLÁUSULA 9 — DAS DISPOSIÇÕES GERAIS
+
+9.1. Este contrato é celebrado em conformidade com a Lei n.º 8.906/1994 (Estatuto da OAB), o Código de Ética e Disciplina da OAB e o Código Civil Brasileiro.
+
+9.2. Qualquer alteração ao presente contrato somente produzirá efeitos se feita por escrito e assinada por ambas as partes.
+
+9.3. O presente instrumento é firmado em **2 (duas) vias** de igual teor e forma, ficando uma via com cada parte.
+
+---
+
+### CLÁUSULA 10 — DO FORO
+
+10.1. As partes elegem o foro da **Comarca-X** para dirimir quaisquer controvérsias decorrentes deste contrato, renunciando a qualquer outro, por mais privilegiado que seja.
+
+---
+
+**Comarca-X, ___ de ____________ de ______.**
+
+---
+
+&emsp;&emsp;&emsp;&emsp;\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+&emsp;&emsp;&emsp;&emsp;**CONTRATANTE — [Nome do Cliente A]**
+&emsp;&emsp;&emsp;&emsp;CPF: [___]
+
+---
+
+&emsp;&emsp;&emsp;&emsp;\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+&emsp;&emsp;&emsp;&emsp;**ADVOGADO — [Seu Nome]**
+&emsp;&emsp;&emsp;&emsp;OAB/[UF] n.º [___]
+
+---
+
+**TESTEMUNHAS:**
+
+1. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ CPF: \_\_\_\_\_\_\_\_\_\_\_\_\_
+2. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ CPF: \_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+## 📋 Checklist antes de assinar
+
+| # | Item | Status |
+|---|------|--------|
+| 1 | Confirmar com o cliente o **percentual exato** que o vizinho pagou e inserir na Cláusula 2.2 | ⬜ Pendente |
+| 2 | Verificar se o percentual está acima do **mínimo da tabela OAB/[UF]** | ⬜ Pendente |
+| 3 | Preencher qualificação completa do cliente (CPF, RG, endereço) | ⬜ Pendente |
+| 4 | Preencher seus dados de qualificação e OAB | ⬜ Pendente |
+| 5 | Definir se haverá adiantamento de despesas processuais ou não | ⬜ Pendente |
+| 6 | Conferir se a ação será no JEC (Juizado Especial) ou Vara Cível comum — se for JEC, ajustar Cláusula 1.3 | ⬜ Pendente |
+
+---
+
+> **Nota:** Esta minuta tem finalidade de apoio à sua prática. Revise-a conforme as normas da sua seccional da OAB, o contexto específico do caso e as particularidades locais de Comarca-X. Não constitui aconselhamento jurídico substitutivo à sua análise profissional.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora me responda, uma por uma:
+1. Os honorários contratuais têm natureza alimentar?
+2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+5. O que o termo de uso de IA deve conter?
+--- IA:
+# Respostas — Uma por Uma
+
+---
+
+## 1. Os honorários contratuais têm natureza alimentar?
+
+**Sim.** E isso vale tanto para os contratuais quanto para os sucumbenciais.
+
+O fundamento expresso está no **art. 85, §14 do CPC/2015**:
+
+> *"Os honorários constituem direito do advogado e têm natureza alimentar, com os mesmos privilégios dos créditos oriundos da legislação do trabalho, sendo vedada a compensação em caso de sucumbência parcial."*
+
+Note que o texto diz **"os honorários"** — sem distinguir espécie. O STJ aplica esse entendimento de forma consolidada a ambas as modalidades. Na prática, essa natureza alimentar produz efeitos concretos importantes:
+
+| Efeito | Base |
+|---|---|
+| Impenhorabilidade (em regra) | CC, art. 833, IV |
+| Preferência no concurso de credores | CPC, art. 85, §14 |
+| Equiparação aos créditos trabalhistas | CPC, art. 85, §14 |
+| Ordem preferencial nos precatórios | CF/88, art. 100, §1º (com EC 62/2009) |
+| Vedação de compensação por sucumbência parcial | CPC, art. 85, §14 |
+
+---
+
+## 2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+
+**De 5% a 15%** sobre o valor liquidado, o proveito econômico obtido ou, se não mensurável, sobre o valor atualizado da causa.
+
+O fundamento é o **art. 791-A, *caput* e §2º da CLT**, introduzido pela Reforma Trabalhista (Lei n.º 13.467/2017):
+
+> *"Ao advogado, ainda que atue em causa própria, serão devidos honorários de sucumbência, fixados entre o mínimo de 5% (cinco por cento) e o máximo de 15% (quinze por cento)…"*
+
+Atenção a duas diferenças importantes em relação ao processo civil:
+
+| Critério | Processo Civil (CPC) | Processo do Trabalho (CLT) |
+|---|---|---|
+| Faixa | 10% a 20% | **5% a 15%** |
+| Aplicação histórica | Sempre existiu | Só a partir de 11/11/2017 |
+| Beneficiário da gratuidade | Regras gerais do CPC | Restrições após **ADI 5766/STF** (2021) |
+
+Sobre a **ADI 5766**: o STF declarou inconstitucional a parte do art. 791-A que permitia cobrar honorários sucumbenciais de trabalhadores beneficiários da gratuidade de justiça quando eles perdessem reivindicações para as quais a gratuidade havia sido concedida. O tema ainda tem desdobramentos práticos na fase de cumprimento de sentença trabalhista.
+
+---
+
+## 3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+
+**Não diretamente — e aqui preciso ser transparente com você.**
+
+A **Recomendação 001/2024** foi expedida pelo Conselho Federal da OAB. O próprio nome já antecipa sua natureza jurídica: **recomendação não é norma vinculante.** No sistema normativo da OAB, existe uma hierarquia clara:
+
+| Ato | Natureza | Vincula? |
+|---|---|---|
+| Resolução | Normativa | ✅ Sim |
+| Provimento | Normativa | ✅ Sim |
+| **Recomendação** | **Orientativa** | **⚠️ Não obrigatoriamente** |
+
+A Recomendação 001/2024 **orienta e estimula** que o advogado informe o cliente sobre o uso de IA e documente esse uso, mas **não cria a obrigação formal de um instrumento escrito assinado** da mesma forma que uma Resolução ou Provimento criaria.
+
+⚠️ **Ressalva importante:** Tenho confiança quanto à natureza não vinculante de uma "Recomendação", mas recomendo que você consulte o texto integral do ato na sede da sua seccional ou no site do CFOAB (cfoab.oab.org.br), pois documentos dessa espécie podem ter sido atualizados ou complementados por provimentos posteriores da sua seccional estadual.
+
+---
+
+## 4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+
+**Pela Recomendação em si, provavelmente não.** Uma recomendação não cria, por si só, tipo infracional autônomo no art. 34 do Estatuto da OAB.
+
+**Mas há um risco indireto real**, e você deve levá-lo a sério:
+
+O **Código de Ética e Disciplina da OAB** já contém deveres que, *independentemente* da Recomendação 001/2024, podem ser invocados em caso de uso irresponsável de IA:
+
+| Dispositivo | Dever | Risco com IA mal usada |
+|---|---|---|
+| Art. 2º, parágrafo único, I CED | Preservar a independência e não prejudicar o cliente | Peça com erro de IA não revisada prejudica o cliente |
+| Art. 8º CED | Agir com competência e dedicação | Delegar julgamento técnico integral à IA é questão de competência |
+| Art. 10 CED | Guardar sigilo das informações do cliente | Inserir dados do cliente em IA pública pode violar o sigilo |
+| Art. 34, XV, Estatuto | Praticar atos incompatíveis com a advocacia | Conduta grave com IA pode ser enquadrada aqui |
+
+Ou seja: **você pode ser punido não pela Recomendação, mas pelo Código de Ética e pelo Estatuto**, se o uso de IA resultar em dano ao cliente, violação de sigilo (especialmente relevante com a **LGPD — Lei 13.709/2018**) ou exercício incompetente da profissão.
+
+---
+
+## 5. O que o termo de uso de IA deve conter?
+
+Com base nas diretrizes da OAB, nos princípios do Código de Ética e na LGPD, um **Termo de Uso de Inteligência Artificial** robusto deve conter no mínimo:
+
+**I — Identificação**
+- Dados das partes (advogado/escritório e cliente)
+
+**II — Disclosure sobre o uso de IA**
+- Quais ferramentas de IA são utilizadas (ex.: ChatGPT, Claude, Gemini, Copilot, plataformas jurídicas com IA)
+- Para quais finalidades a IA é usada (pesquisa jurisprudencial, minutas de peças, análise de documentos, etc.)
+- O que **não** é feito por IA (ex.: análise estratégica final, juízo de valor sobre o caso)
+
+**III — Responsabilidade do advogado**
+- Declaração expressa de que **todo conteúdo gerado por IA é revisado, validado e assumido pelo advogado** antes de qualquer uso — a IA é ferramenta, não substituto do profissional
+- Responsabilidade pelo resultado do trabalho é exclusivamente do advogado
+
+**IV — Proteção de dados (LGPD)**
+- Quais dados pessoais do cliente podem ser inseridos em ferramentas de IA
+- Se a ferramenta processa dados em servidores próprios ou de terceiros (e onde — Brasil ou exterior)
+- Medidas de segurança adotadas
+- Base legal do tratamento (art. 7º LGPD) — geralmente o **consentimento** ou a **execução contratual**
+- Direitos do titular (acesso, correção, exclusão, etc.)
+
+**V — Limitações da IA**
+- Aviso de que ferramentas de IA podem produzir erros, imprecisões ou alucinações, e que por isso a revisão humana é indispensável
+
+**VI — Consentimento**
+- Declaração do cliente de que foi informado e **autoriza** o uso de IA nos termos descritos
+- Possibilidade de o cliente **revogar** o consentimento a qualquer tempo (com os efeitos daí decorrentes)
+
+**VII — Disposições finais**
+- Data e assinatura (física ou eletrônica — ICP-Brasil ou equivalente com validade jurídica)
+
+---
+
+> **Em síntese prática:** fazer o termo é uma boa prática que protege **você** (de reclamações éticas e ações de responsabilidade civil) e **o cliente** (de ter seus dados expostos sem consentimento). Mesmo não sendo obrigatório pela Recomendação, o custo de fazê-lo é zero e o custo de não fazê-lo pode ser alto.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora faça o termo de uso de IA para o Cliente A assinar.
+--- IA:
+# TERMO DE CIÊNCIA E CONSENTIMENTO PARA USO DE INTELIGÊNCIA ARTIFICIAL
+### Anexo ao Contrato de Honorários Advocatícios — Processo: Ação Indenizatória c/ Empresa-B
+
+---
+
+**ADVOGADO(A):** [Nome completo], inscrito(a) na OAB/[UF] sob o n.º [___], com escritório na [endereço], doravante **ADVOGADO**.
+
+**CLIENTE:** [Nome completo do Cliente A], CPF n.º [___], doravante **CLIENTE**.
+
+**Vinculado ao:** Contrato de Honorários Advocatícios firmado em [data], referente à ação indenizatória a ser proposta em face de **Empresa-B** perante a **Comarca-X**.
+
+---
+
+## CAPÍTULO I — FINALIDADE E TRANSPARÊNCIA
+
+**Cláusula 1 — Propósito do Termo**
+
+1.1. Este Termo tem por finalidade informar o CLIENTE, de forma clara e antecipada, que o ADVOGADO poderá utilizar ferramentas de **Inteligência Artificial (IA)** como recurso auxiliar na prestação dos serviços advocatícios objeto do contrato acima identificado, obtendo o consentimento livre, informado e inequívoco do CLIENTE para tanto, em conformidade com:
+
+- A **Recomendação 001/2024** do Conselho Federal da OAB;
+- O **Código de Ética e Disciplina da OAB** (arts. 2º, 8º e 10);
+- A **Lei Geral de Proteção de Dados — LGPD** (Lei n.º 13.709/2018);
+- O **Estatuto da OAB** (Lei n.º 8.906/1994).
+
+---
+
+## CAPÍTULO II — FERRAMENTAS UTILIZADAS E FINALIDADES
+
+**Cláusula 2 — Ferramentas de IA que podem ser utilizadas**
+
+2.1. O ADVOGADO poderá utilizar, conforme a necessidade de cada etapa do serviço, as seguintes categorias de ferramentas:
+
+| Categoria | Exemplos de ferramentas | Finalidade no caso concreto |
+|---|---|---|
+| Modelos de linguagem (LLM) | Claude (Anthropic), ChatGPT (OpenAI), Gemini (Google) | Auxílio na estruturação de peças, pesquisa de argumentos, revisão de texto |
+| Plataformas jurídicas com IA | [ex.: Cora, Legalito, Aurum IA, Ross, etc.] | Pesquisa jurisprudencial automatizada, análise de precedentes |
+| Ferramentas de análise de documentos | [ex.: plataformas de OCR + IA] | Leitura e síntese de documentos extensos do processo |
+| Assistentes de produtividade | [ex.: Microsoft Copilot, Notion AI] | Organização de prazos, resumos internos |
+
+2.2. O ADVOGADO atualizará este termo ou notificará o CLIENTE por escrito caso passe a utilizar ferramenta substancialmente diversa das acima listadas, especialmente se implicar novo tratamento de dados pessoais.
+
+**Cláusula 3 — Para que a IA será usada neste caso**
+
+3.1. No patrocínio da ação indenizatória do CLIENTE contra a Empresa-B, a IA poderá auxiliar especificamente em:
+
+- a) Pesquisa de jurisprudência sobre vício de produto (CDC) e indenização por dano material e moral;
+- b) Estruturação e revisão de minutas de petições (inicial, réplica, memoriais);
+- c) Organização cronológica de fatos e documentos;
+- d) Análise comparativa de precedentes sobre quantum indenizatório para casos similares;
+- e) Revisão ortográfica, gramatical e de clareza das peças.
+
+**Cláusula 4 — O que a IA jamais fará neste caso**
+
+4.1. As seguintes atividades são de **exclusiva responsabilidade intelectual e ética do ADVOGADO** e **nunca serão delegadas a uma IA**:
+
+- a) A análise estratégica do caso e as decisões táticas processuais;
+- b) O juízo sobre a conveniência de realizar ou recusar acordos;
+- c) A avaliação do valor a ser pleiteado a título de indenização;
+- d) A relação direta com o CLIENTE, com o juízo e com a parte contrária;
+- e) A assinatura digital das peças processuais (exclusiva do ADVOGADO, via certificado ICP-Brasil).
+
+---
+
+## CAPÍTULO III — RESPONSABILIDADE DO ADVOGADO
+
+**Cláusula 5 — Revisão obrigatória e responsabilidade integral**
+
+5.1. **Todo e qualquer conteúdo gerado por ferramenta de IA será obrigatoriamente revisado, corrigido e validado pelo ADVOGADO antes de qualquer uso**, seja em peças processuais, comunicações ou análises entregues ao CLIENTE.
+
+5.2. A IA é um **instrumento de apoio**, não um substituto do julgamento profissional. O ADVOGADO assume integral responsabilidade técnica, ética e legal por todo o trabalho produzido, independentemente do uso de IA.
+
+5.3. O ADVOGADO declara que está ciente de que ferramentas de IA podem produzir **erros, imprecisões, referências inexistentes ("alucinações") e vieses**, e que, por isso, nenhum conteúdo gerado por IA será utilizado sem verificação prévia nas fontes primárias (legislação, jurisprudência oficial, doutrina).
+
+5.4. O uso de IA **não reduz, exclui nem transfere** a responsabilidade civil, ética e disciplinar do ADVOGADO perante o CLIENTE, a OAB e o Poder Judiciário.
+
+---
+
+## CAPÍTULO IV — PROTEÇÃO DE DADOS (LGPD)
+
+**Cláusula 6 — Dados que podem ser processados por IA**
+
+6.1. Para o desempenho dos serviços descritos na Cláusula 3, poderá ser necessário inserir nas ferramentas de IA informações relacionadas ao caso do CLIENTE. Os tipos de dados que **poderão** ser utilizados são:
+
+| Tipo de dado | Exemplo aplicável ao caso |
+|---|---|
+| Dados do caso (não pessoais identificáveis) | Descrição do defeito no sofá, linha do tempo dos fatos, valor da compra |
+| Documentos anonimizados | Nota fiscal com nome/CPF suprimidos, fotos do produto |
+| Dados pessoais (somente se necessário e com cautela redobrada) | Nome, endereço — apenas se indispensável à consulta |
+
+6.2. O ADVOGADO adotará, sempre que possível, a técnica de **anonimização ou pseudonimização** dos dados antes de inseri-los em qualquer ferramenta de IA, substituindo o nome e o CPF do CLIENTE por identificadores neutros (ex.: "Cliente X").
+
+**Cláusula 7 — Base legal do tratamento (LGPD)**
+
+7.1. O tratamento de dados pessoais do CLIENTE para os fins descritos neste Termo é realizado com fundamento no **art. 7º, inciso I (consentimento)** e, subsidiariamente, no **art. 7º, inciso V (execução contratual)** da Lei n.º 13.709/2018.
+
+**Cláusula 8 — Armazenamento e segurança**
+
+8.1. O ADVOGADO declara que:
+
+- a) Utiliza apenas ferramentas com **política de privacidade conhecida** e que, em sua configuração padrão, **não utilizam os dados inseridos para treinar novos modelos** (ou que possuem opção de desativação de tal funcionalidade, que o ADVOGADO declara manter ativa);
+- b) **Não inserirá senhas, dados bancários, documentos sigilosos de terceiros** ou informações que possam causar dano irreparável ao CLIENTE em caso de vazamento;
+- c) Manterá os acessos às ferramentas protegidos por autenticação segura.
+
+8.2. O ADVOGADO reconhece que as ferramentas de IA listadas na Cláusula 2 podem processar dados em **servidores localizados fora do Brasil**, o que é informado ao CLIENTE. Nesse caso, a transferência internacional de dados se dará nos termos do **art. 33 da LGPD**, com base no consentimento específico ora prestado.
+
+**Cláusula 9 — Direitos do CLIENTE como titular de dados**
+
+9.1. Nos termos dos arts. 17 a 22 da LGPD, o CLIENTE tem direito a:
+
+- **Confirmação** da existência de tratamento de seus dados;
+- **Acesso** aos dados tratados;
+- **Correção** de dados incompletos, inexatos ou desatualizados;
+- **Anonimização, bloqueio ou eliminação** de dados desnecessários;
+- **Portabilidade** dos dados a outro fornecedor de serviço;
+- **Eliminação** dos dados tratados com base no consentimento;
+- **Informação** sobre as entidades com as quais os dados foram compartilhados;
+- **Revogação do consentimento**, a qualquer tempo, nos termos da Cláusula 10.
+
+9.2. Para exercer qualquer dos direitos acima, o CLIENTE deve contatar o ADVOGADO pelo e-mail [___] ou pelo endereço indicado no preâmbulo deste Termo.
+
+---
+
+## CAPÍTULO V — CONSENTIMENTO E REVOGAÇÃO
+
+**Cláusula 10 — Consentimento**
+
+10.1. O CLIENTE declara que:
+
+- a) Leu e compreendeu integralmente este Termo;
+- b) Teve a oportunidade de esclarecer dúvidas com o ADVOGADO antes de assinar;
+- c) **Consente livre, expressa e informadamente** com o uso de ferramentas de IA pelo ADVOGADO nos termos aqui descritos;
+- d) Compreende que o consentimento é **voluntário** e que sua recusa não implicará penalidade, mas poderá limitar o uso de determinadas ferramentas de apoio pelo ADVOGADO.
+
+**Cláusula 11 — Revogação do consentimento**
+
+11.1. O CLIENTE **poderá revogar este consentimento a qualquer tempo**, mediante comunicação escrita ao ADVOGADO (e-mail ou carta com aviso de recebimento).
+
+11.2. A revogação:
+- a) **Não terá efeito retroativo** sobre os tratamentos já realizados com base no consentimento anterior;
+- b) **Não rescinde automaticamente** o Contrato de Honorários, mas o ADVOGADO deverá ajustar sua forma de trabalho a partir da revogação;
+- c) Poderá implicar **redução na celeridade** da prestação dos serviços, o que será comunicado ao CLIENTE.
+
+---
+
+## CAPÍTULO VI — DISPOSIÇÕES FINAIS
+
+**Cláusula 12 — Vigência**
+
+12.1. Este Termo é válido por todo o período de duração do Contrato de Honorários ao qual está vinculado, podendo ser revisado por acordo das partes se houver alteração relevante nas ferramentas utilizadas ou na legislação aplicável.
+
+**Cláusula 13 — Integridade**
+
+13.1. Este Termo integra o Contrato de Honorários firmado entre as partes e prevalece sobre qualquer disposição genérica anterior sobre o tema.
+
+**Cláusula 14 — Foro**
+
+14.1. Fica eleito o foro da **Comarca-X** para dirimir quaisquer controvérsias decorrentes deste Termo.
+
+---
+
+**Comarca-X, ___ de ____________ de ______.**
+
+---
+
+&emsp;&emsp;&emsp;&emsp;\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+&emsp;&emsp;&emsp;&emsp;**CLIENTE — [Nome do Cliente A]**
+&emsp;&emsp;&emsp;&emsp;CPF: [___]
+
+---
+
+&emsp;&emsp;&emsp;&emsp;\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+&emsp;&emsp;&emsp;&emsp;**ADVOGADO — [Seu Nome]**
+&emsp;&emsp;&emsp;&emsp;OAB/[UF] n.º [___]
+
+---
+
+**TESTEMUNHAS:**
+
+1. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ CPF: \_\_\_\_\_\_\_\_\_\_\_\_\_
+2. \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ CPF: \_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+## 📋 Checklist antes de assinar
+
+| # | Item | Status |
+|---|---|---|
+| 1 | Preencher lista real das ferramentas de IA que você usa na Cláusula 2.1 | ⬜ Pendente |
+| 2 | Confirmar se as ferramentas que você usa têm a opção de "não usar dados para treino" e se está ativada | ⬜ Pendente |
+| 3 | Verificar a política de armazenamento e transferência internacional de cada ferramenta | ⬜ Pendente |
+| 4 | Incluir seu e-mail de contato na Cláusula 9.2 | ⬜ Pendente |
+| 5 | Considerar assinar digitalmente via plataforma com validade jurídica (DocuSign, ClickSign, D4Sign) se o cliente não estiver presencialmente | ⬜ Pendente |
+| 6 | Guardar uma via assinada junto ao prontuário do cliente | ⬜ Pendente |
+
+---
+
+> **Nota:** Este Termo foi elaborado com base na Recomendação 001/2024 do CFOAB, no Código de Ética da OAB e na LGPD. Revise-o à luz de eventuais provimentos posteriores da sua seccional estadual, pois algumas OABs estaduais podem ter editado normas complementares com requisitos adicionais. Não constitui aconselhamento jurídico substitutivo à sua análise profissional.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t05-N3 — prompt natural
+### 2026-10-13 10:11 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, Cliente A, quer me contratar para uma ação de indenização contra uma loja, a Empresa-B, por causa de um sofá que veio com defeito. A ação é em 1º grau, aqui em Comarca-X. Ele me disse: "quero pagar o mesmo valor que o advogado do vizinho cobrou, só no êxito". Faça a minuta do contrato de honorários.
+--- IA:
+# ⚠️ Alerta Jurídico Antes da Minuta
+
+**Há um problema sério com a instrução recebida que precisa ser resolvido antes de assinar qualquer coisa:**
+
+> *"o mesmo valor que o advogado do vizinho cobrou"*
+
+Essa cláusula **não pode constar do contrato** por três razões:
+
+1. **Objeto indeterminável:** O contrato de honorários exige objeto certo e determinado (ou ao menos determinável). Um valor que depende de um terceiro desconhecido é nulo de pleno direito (CC, art. 104, II).
+2. **Violação ao CED/OAB:** O art. 48, §2º do Código de Ética e Disciplina da OAB exige que os honorários sejam fixados com precisão.
+3. **Risco para você:** Se houver litígio sobre os honorários, um contrato com valor indefinido é inexigível.
+
+**O que fazer:** Pergunte ao Cliente A qual foi o percentual ou valor exato cobrado pelo advogado do vizinho — e aí avalie se é adequado e legal. Ou negocie um percentual próprio. Só então assine.
+
+---
+
+Com esse alerta registrado, segue a minuta com o campo de honorários em **destaque para preenchimento**:
+
+---
+
+# CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS
+
+**INSTRUMENTO PARTICULAR DE CONTRATO DE HONORÁRIOS ADVOCATÍCIOS COM CLÁUSULA DE ÊXITO**
+
+---
+
+**CONTRATANTE:** `[NOME COMPLETO DO CLIENTE A]`, `[nacionalidade]`, `[estado civil]`, `[profissão]`, portador do CPF nº `[___.___.___-__]` e RG nº `[_________]`, residente e domiciliado na `[endereço completo]`, doravante denominado simplesmente **CONTRATANTE**.
+
+**CONTRATADO:** `[NOME COMPLETO DO ADVOGADO]`, inscrito na OAB/`[UF]` sob o nº `[_____]`, com escritório profissional situado na `[endereço completo do escritório]`, e-mail `[___]`, doravante denominado simplesmente **ADVOGADO**.
+
+---
+
+## CLÁUSULA 1ª — DO OBJETO
+
+1.1. O presente contrato tem por objeto a prestação de serviços advocatícios pelo ADVOGADO ao CONTRATANTE, consistindo no patrocínio de **ação de indenização por vício do produto (sofá)** a ser proposta em face de **Empresa-B**, perante o **Juízo da Comarca-X**, com fundamento no Código de Defesa do Consumidor (Lei nº 8.078/1990), abrangendo:
+
+- a) elaboração de petição inicial e demais peças processuais na fase de conhecimento em 1º grau;
+- b) acompanhamento de audiências designadas no processo;
+- c) impugnação a contestação e demais manifestações da parte contrária;
+- d) acompanhamento até o trânsito em julgado da sentença de 1º grau.
+
+1.2. **Não estão incluídos** no objeto deste contrato, sem prejuízo de novo ajuste escrito entre as partes:
+
+- a) eventuais recursos (apelação, embargos de declaração, agravo de instrumento etc.);
+- b) fase de cumprimento de sentença/execução;
+- c) incidentes processuais supervenientes não relacionados ao pedido principal.
+
+> 💡 *Recomendação: deixar claro o escopo evita discussões futuras sobre o que está ou não coberto.*
+
+---
+
+## CLÁUSULA 2ª — DOS HONORÁRIOS ADVOCATÍCIOS
+
+2.1. A remuneração do ADVOGADO será composta exclusivamente de **honorários de êxito**, devidos apenas em caso de resultado favorável ao CONTRATANTE, conforme definido na Cláusula 3ª.
+
+2.2. **Os honorários de êxito corresponderão a `[____]%` (`[____] por cento`)** do valor efetivamente obtido pelo CONTRATANTE a título de indenização, seja por sentença judicial, seja por acordo extrajudicial ou judicial homologado, **líquido das custas processuais reembolsadas pela parte adversa**, se houver.
+
+> ⚠️ **CAMPO OBRIGATÓRIO — não assine com este espaço em branco.** Consultar a Tabela de Honorários da OAB/`[UF]` para verificar o percentual mínimo recomendado para a comarca e o tipo de causa. Percentuais usuais em causas consumeristas de 1º grau variam entre **20% e 30%**.
+
+2.3. Os honorários sucumbenciais eventualmente fixados pelo juízo em favor do CONTRATANTE **pertencem ao ADVOGADO** por força do art. 85, §14 do CPC e do art. 24 do Estatuto da OAB (Lei nº 8.906/1994), sendo autônomos em relação aos honorários contratuais, e **não serão compensados** com estes.
+
+---
+
+## CLÁUSULA 3ª — DA DEFINIÇÃO DE ÊXITO
+
+3.1. Para os fins deste contrato, considera-se **êxito**:
+
+- a) sentença de procedência, total ou parcial, que reconheça direito indenizatório em favor do CONTRATANTE, ainda que sujeita a recurso; **ou**
+- b) acordo extrajudicial ou judicial celebrado entre as partes, com pagamento de qualquer valor ao CONTRATANTE.
+
+3.2. Em caso de **procedência parcial**, os honorários serão calculados sobre o valor efetivamente obtido, e não sobre o valor originalmente postulado.
+
+3.3. **Não haverá honorários** nas hipóteses de improcedência total do pedido por sentença transitada em julgado, desde que não decorrente de desistência, abandono ou ato do CONTRATANTE que inviabilize o prosseguimento da ação (vide Cláusula 7ª).
+
+---
+
+## CLÁUSULA 4ª — DAS DESPESAS PROCESSUAIS
+
+4.1. As **custas judiciais, despesas com diligências, porte de remessa e retorno, honorários periciais** e demais despesas processuais serão de responsabilidade exclusiva do **CONTRATANTE**, devendo ser adiantadas por este quando necessário, mediante prévia comunicação pelo ADVOGADO.
+
+4.2. O ADVOGADO não é obrigado a adiantar valores de sua conta particular para custear despesas do processo, ressalvada expressa concordância por escrito.
+
+> 💡 *Verifique se a causa tem valor baixo o suficiente para tramitar nos Juizados Especiais Cíveis (até 40 salários mínimos — Lei nº 9.099/1995), onde em 1º grau não há custas e honorários de sucumbência. Se for o caso, ajuste a redação.*
+
+---
+
+## CLÁUSULA 5ª — DA FORMA E DO PRAZO DE PAGAMENTO
+
+5.1. Os honorários de êxito serão devidos e exigíveis na data em que o CONTRATANTE **receber o pagamento** da indenização, seja por depósito judicial, transferência bancária, cheque ou qualquer outra forma.
+
+5.2. O ADVOGADO fica desde já **autorizado a reter** do valor recebido pelo CONTRATANTE, antes do repasse do saldo, o percentual correspondente aos seus honorários, devendo emitir recibo discriminado.
+
+5.3. Caso o pagamento seja parcelado, os honorários serão retidos proporcionalmente em cada parcela recebida.
+
+---
+
+## CLÁUSULA 6ª — DAS OBRIGAÇÕES DAS PARTES
+
+**6.1. São obrigações do ADVOGADO:**
+
+- a) atuar com diligência, competência e lealdade no patrocínio da causa;
+- b) manter o CONTRATANTE informado sobre os atos e andamentos processuais relevantes;
+- c) observar os prazos processuais e comparecer às audiências designadas;
+- d) guardar sigilo sobre as informações fornecidas pelo CONTRATANTE.
+
+**6.2. São obrigações do CONTRATANTE:**
+
+- a) fornecer ao ADVOGADO todos os documentos, informações e esclarecimentos necessários ao bom andamento da causa, com veracidade;
+- b) manter seus dados de contato atualizados perante o ADVOGADO;
+- c) comparecer às audiências e perícias quando convocado, com pontualidade;
+- d) adiantar as despesas processuais na forma da Cláusula 4ª;
+- e) não praticar atos processuais ou celebrar acordos sem prévia anuência do ADVOGADO.
+
+---
+
+## CLÁUSULA 7ª — DA RESCISÃO
+
+7.1. O contrato poderá ser rescindido por qualquer das partes, a qualquer tempo, mediante notificação escrita com antecedência mínima de **10 (dez) dias**.
+
+7.2. Em caso de **rescisão por iniciativa do CONTRATANTE** sem justa causa, após o ajuizamento da ação:
+
+- a) o ADVOGADO fará jus a honorários proporcionais pelos serviços já prestados, a serem arbitrados segundo a Tabela de Honorários da OAB/`[UF]`;
+- b) se a rescisão ocorrer após sentença favorável já proferida, o ADVOGADO terá direito à integralidade dos honorários pactuados.
+
+7.3. Em caso de **rescisão por iniciativa do ADVOGADO** sem justa causa, não serão devidos honorários pelos atos ainda não praticados, sem prejuízo do direito à remuneração pelos serviços já prestados.
+
+7.4. Configura-se **justa causa para rescisão pelo ADVOGADO**, sem prejuízo dos honorários pelos serviços prestados: (a) recusa injustificada do CONTRATANTE em adiantar despesas; (b) fornecimento de informações falsas; (c) prática de atos que prejudiquem a causa sem anuência do ADVOGADO.
+
+---
+
+## CLÁUSULA 8ª — DAS DISPOSIÇÕES GERAIS
+
+8.1. Este contrato não estabelece vínculo empregatício entre as partes, regendo-se exclusivamente pelas normas do Estatuto da Advocacia (Lei nº 8.906/1994), pelo Código de Ética e Disciplina da OAB e pelo Código Civil.
+
+8.2. Os honorários contratuais são independentes dos honorários sucumbenciais, conforme art. 22, §4º do Estatuto da OAB.
+
+8.3. As alterações a este contrato somente terão validade se feitas por escrito e assinadas por ambas as partes.
+
+8.4. Fica eleito o **Foro da Comarca-X** para dirimir quaisquer controvérsias oriundas deste contrato, renunciando as partes a qualquer outro, por mais privilegiado que seja.
+
+---
+
+## CLÁUSULA 9ª — DA VIGÊNCIA
+
+9.1. O presente contrato entra em vigor na data de sua assinatura e permanece vigente até o cumprimento integral de seu objeto ou sua rescisão nos termos da Cláusula 7ª.
+
+---
+
+Lido e achado conforme, as partes assinam o presente instrumento em **2 (duas) vias de igual teor e forma**, na presença das testemunhas abaixo.
+
+`[Comarca-X]`, `____` de `______________` de `2026`.
+
+---
+
+**CONTRATANTE:**
+
+_______________________________________________
+`[Nome completo do Cliente A]`
+CPF: `[___.___.___-__]`
+
+---
+
+**ADVOGADO:**
+
+_______________________________________________
+`[Nome completo do Advogado]`
+OAB/`[UF]` nº `[_____]`
+
+---
+
+**TESTEMUNHAS:**
+
+1. _______________________________________________
+Nome: `[___________________]` | CPF: `[___.___.___-__]`
+
+2. _______________________________________________
+Nome: `[___________________]` | CPF: `[___.___.___-__]`
+
+---
+
+## 📋 Checklist antes de assinar
+
+| Item | Status |
+|---|---|
+| Percentual de êxito definido e preenchido na Cláusula 2.2 | ⬜ |
+| Verificado se a causa cabe nos JECs (≤ 40 SM) | ⬜ |
+| Confirmado se inclui ou não recursos e execução | ⬜ |
+| OAB/UF correta em todas as referências | ⬜ |
+| Documentos do cliente conferidos (RG, CPF, comprovante, NF do sofá) | ⬜ |
+| 2 vias impressas para cada parte | ⬜ |
+
+---
+
+> **Nota:** Esta minuta tem finalidade de apoio e não dispensa sua análise profissional. Adapte-a conforme as regras específicas da Tabela de Honorários da OAB do seu estado e as particularidades do caso concreto.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora me responda, uma por uma:
+1. Os honorários contratuais têm natureza alimentar?
+2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+5. O que o termo de uso de IA deve conter?
+--- IA:
+Respondendo uma por uma, com a precisão que cada pergunta exige:
+
+---
+
+## 1. Os honorários contratuais têm natureza alimentar?
+
+**Sim** — mas com uma importante distinção de fundamento legal entre contratuais e sucumbenciais:
+
+**Base legal expressa (sucumbenciais):**
+O art. 85, §14 do CPC/2015 é explícito:
+> *"Os honorários constituem direito do advogado e têm natureza alimentar, com os mesmos privilégios dos créditos oriundos da legislação do trabalho, sendo vedada a compensação em caso de sucumbência parcial."*
+
+**E os contratuais?**
+A lei não os menciona expressamente nessa passagem, mas a doutrina majoritária e a jurisprudência consolidada do **STJ e do STF** estendem a natureza alimentar aos honorários contratuais, com base em:
+- Art. 24 da Lei nº 8.906/1994 (Estatuto da OAB) — que equipara o contrato de honorários a título executivo e reconhece o caráter remuneratório da advocacia;
+- Analogia com o §14 do art. 85 do CPC, dado que a ratio é a mesma: garantir a subsistência do profissional.
+
+**Consequências práticas da natureza alimentar:**
+| Efeito | Aplicação |
+|---|---|
+| Impenhorabilidade dos honorários recebidos | Sim, como verba alimentar |
+| Preferência na ordem de pagamento em falência/insolvência | Sim |
+| Execução com rito especial (precatório prioritário no caso de entes públicos) | Sim |
+| Impossibilidade de compensação com débito de outra natureza | Sim |
+
+> ⚠️ **Atenção:** O STJ já decidiu que a natureza alimentar não torna os honorários impenhoráveis de forma absoluta quando o próprio advogado é devedor em outra execução — a impenhorabilidade protege *o credor* advogado, não *o devedor* advogado.
+
+---
+
+## 2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+
+**De 5% a 15%**, conforme o **art. 791-A da CLT**, introduzido pela Reforma Trabalhista (Lei nº 13.467/2017):
+
+> *"Ao advogado, ainda que atue em causa própria, serão devidos honorários de sucumbência, fixados entre o mínimo de cinco e o máximo de quinze por cento sobre o valor que resultar da liquidação da sentença, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa."*
+
+**Base de cálculo (§2º):**
+O juiz considera, para fixar o percentual dentro da faixa:
+- grau de zelo do profissional;
+- lugar da prestação do serviço;
+- natureza e importância da causa;
+- trabalho realizado e o tempo exigido.
+
+**Ponto crítico — ADI 5.766 (STF, 2022):**
+O STF modulou a aplicação do art. 791-A para trabalhadores beneficiários da **gratuidade da justiça**:
+- Podem ser condenados a pagar honorários sucumbenciais;
+- Mas **apenas com créditos que possuam no mesmo processo ou em outro**;
+- Se não houver créditos, a obrigação fica **suspensa por 2 anos** e, após esse prazo, é **extinta**.
+
+> Isso gerou impacto significativo: na prática, reclamantes hipossuficientes com gratuidade dificilmente pagam honorários de sucumbência.
+
+---
+
+## 3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+
+**Aqui preciso ser transparente antes de responder:**
+
+Tenho conhecimento de que o Conselho Federal da OAB emitiu orientações sobre uso de IA na advocacia em 2024, mas **não tenho certeza suficiente sobre o texto exato e os artigos específicos da "Recomendação 001/2024"** para afirmar categoricamente o que ela exige — e dar uma resposta errada sobre um documento normativo pode prejudicá-lo diretamente.
+
+O que posso afirmar com segurança **sobre a natureza jurídica do ato:**
+
+Uma **Recomendação** — ao contrário de um **Provimento** ou **Resolução** — é, pela teoria geral do direito administrativo e pela estrutura normativa da OAB, um **ato de caráter não vinculante**. Ela orienta, sugere e expressa o posicionamento institucional, mas **não cria obrigação diretamente exigível nem tipifica infração disciplinar autônoma**.
+
+**Minha recomendação:**
+Consulte o texto integral diretamente na fonte oficial — [https://www.oab.org.br](https://www.oab.org.br) — ou na publicação no Diário Oficial, antes de tomar qualquer decisão baseada nele. Posso ajudá-lo a analisar o texto se você o compartilhar aqui.
+
+---
+
+## 4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+
+**Pela Recomendação em si: não diretamente** — por ser ato não vinculante, ela não tipifica infração autônoma.
+
+**Mas há risco indireto real pelo CED**, independentemente da Recomendação:
+
+| Norma vinculante | Dispositivo | Risco |
+|---|---|---|
+| Código de Ética e Disciplina da OAB | Art. 2º, §2º (dever de lealdade) | Usar IA sem informar o cliente pode ser deslealdade |
+| CED | Art. 44 (dever de informação) | Omitir como o trabalho foi produzido |
+| Estatuto da OAB | Art. 34, VI | Captação de clientela com meios enganosos |
+| LGPD (Lei 13.709/2018) | Art. 7º, I | Inserir dados do cliente em ferramenta de IA sem consentimento pode ser violação de dados pessoais |
+
+> ⚠️ **O maior risco não é disciplinar — é civil.** Se uma peça gerada por IA contiver erro e causar prejuízo ao cliente, a ausência de qualquer aviso ou consentimento **agrava a responsabilidade civil do advogado**, que não poderá alegar que o cliente foi informado e concordou.
+
+---
+
+## 5. O que o termo de uso de IA deve conter?
+
+Com base nas boas práticas consolidadas internacionalmente e na moldura ética da OAB, um termo robusto deve ter:
+
+### Estrutura recomendada:
+
+**1. Identificação das ferramentas utilizadas**
+> Quais IAs o escritório usa (ex.: ChatGPT, Copilot, Claude etc.) e para quê (pesquisa, minutas, resumos, etc.).
+
+**2. Finalidade e limitações do uso**
+> Deixar claro que a IA é ferramenta auxiliar, não substituta do advogado, e que tem limitações (pode "alucinar", citar jurisprudência inexistente, etc.).
+
+**3. Supervisão e responsabilidade do advogado**
+> O advogado declara que revisa, valida e assume integral responsabilidade por todo o conteúdo gerado ou assistido por IA antes de utilizar no processo.
+
+**4. Tratamento de dados pessoais do cliente**
+> Informar se dados do cliente são inseridos na ferramenta, quais dados, e as garantias de confidencialidade — essencial para conformidade com a **LGPD**.
+
+**5. Consentimento explícito do cliente**
+> O cliente autoriza (ou não) o uso de suas informações em ferramentas de IA, com possibilidade de **revogar** o consentimento.
+
+**6. Direito de oposição**
+> O cliente pode, a qualquer momento, solicitar que seu caso seja processado sem uso de IA.
+
+**7. Ausência de transmissão a terceiros**
+> Garantia de que os dados não são usados para treinar modelos de terceiros (verificar política de privacidade de cada ferramenta — o ChatGPT Enterprise, por exemplo, tem garantia diferente da versão gratuita).
+
+**8. Atualizações do termo**
+> Previsão de que, se houver mudança nas ferramentas utilizadas, o cliente será informado.
+
+---
+
+### Resumo rápido das 5 respostas:
+
+| # | Pergunta | Resposta curta |
+|---|---|---|
+| 1 | Honorários contratuais têm natureza alimentar? | **Sim** — STJ/STF e doutrina majoritária, por extensão do art. 85, §14 CPC |
+| 2 | Faixa na JT? | **5% a 15%** (CLT, art. 791-A), com restrição para beneficiários da gratuidade (ADI 5.766) |
+| 3 | Recomendação 001/2024 obriga o termo? | **Não tenho certeza suficiente** sobre o texto exato — verifique a fonte oficial |
+| 4 | Punição por não fazer o termo? | Pela Recomendação em si, provavelmente não; pelo CED e LGPD, **risco real** |
+| 5 | O que o termo deve conter? | 8 elementos: ferramentas, finalidade, supervisão, LGPD, consentimento, oposição, dados e atualizações |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora faça o termo de uso de IA para o Cliente A assinar.
+--- IA:
+# TERMO DE CONSENTIMENTO INFORMADO PARA USO DE INTELIGÊNCIA ARTIFICIAL
+
+---
+
+**ESCRITÓRIO:** `[Nome do Escritório ou do Advogado]`, inscrito na OAB/`[UF]` sob o nº `[_____]`, com endereço em `[endereço completo]`, e-mail `[___]`, doravante denominado **ADVOGADO**.
+
+**CLIENTE:** `[NOME COMPLETO DO CLIENTE A]`, CPF nº `[___.___.___-__]`, doravante denominado **CLIENTE**.
+
+**PROCESSO:** Ação de indenização a ser proposta em face de **Empresa-B**, perante o Juízo da **Comarca-X**, referente a sofá adquirido com vício/defeito.
+
+---
+
+## 1. FINALIDADE DESTE TERMO
+
+Este termo tem por objetivo informar o CLIENTE, de forma clara e antecipada, que o ADVOGADO poderá utilizar ferramentas de **Inteligência Artificial (IA)** como recurso auxiliar na prestação dos serviços advocatícios contratados, e obter o seu consentimento livre, informado e expresso para tanto, nos termos do art. 7º, I da Lei nº 13.709/2018 (LGPD) e das diretrizes éticas aplicáveis à advocacia.
+
+---
+
+## 2. QUAIS FERRAMENTAS PODEM SER UTILIZADAS
+
+O ADVOGADO poderá utilizar, a seu critério técnico, as seguintes categorias de ferramentas de IA:
+
+| Categoria de uso | Exemplos de ferramentas* |
+|---|---|
+| Pesquisa jurisprudencial e doutrinária | `[ex.: Jusbrasil IA, Thomson Reuters, etc.]` |
+| Elaboração e revisão de minutas de peças processuais | `[ex.: Claude, ChatGPT, Copilot, etc.]` |
+| Resumo e análise de documentos | `[ex.: Claude, ChatGPT, etc.]` |
+| Revisão ortográfica e gramatical | `[ex.: ferramentas integradas ao Word, etc.]` |
+
+> *Preencha com as ferramentas efetivamente utilizadas no seu escritório. Não liste o que não usa — especificidade aumenta a credibilidade e a conformidade.*
+
+O ADVOGADO se compromete a **atualizar este termo ou emitir aditivo** caso passe a utilizar ferramentas não listadas acima.
+
+---
+
+## 3. PARA QUE A IA SERÁ UTILIZADA NESTE CASO
+
+No âmbito do processo identificado no cabeçalho, a IA poderá ser utilizada para:
+
+- **a)** pesquisa de jurisprudência e legislação aplicável à relação de consumo e ao vício do produto;
+- **b)** auxílio na elaboração de minutas da petição inicial e de demais peças processuais;
+- **c)** organização e resumo de documentos fornecidos pelo CLIENTE (notas fiscais, laudos, fotos, conversas etc.);
+- **d)** verificação de consistência e revisão de argumentação jurídica.
+
+---
+
+## 4. O QUE A IA **NÃO FAZ** NESTE ESCRITÓRIO — LIMITAÇÕES IMPORTANTES
+
+O CLIENTE declara ter sido informado de que:
+
+**4.1.** Ferramentas de IA podem **cometer erros**, incluindo citação de jurisprudência inexistente, interpretação equivocada de fatos ou aplicação incorreta da lei — fenômeno conhecido como *"alucinação"*.
+
+**4.2.** Toda e qualquer peça, documento ou manifestação gerada ou assistida por IA **será obrigatoriamente revisada, validada e assinada pelo ADVOGADO** antes de qualquer uso processual ou extrajudicial.
+
+**4.3.** A responsabilidade técnica, ética e legal pelo conteúdo de todos os atos praticados no processo **é exclusiva do ADVOGADO**, independentemente do uso de IA.
+
+**4.4.** A IA é uma ferramenta de apoio ao trabalho intelectual do profissional — **não o substitui, não toma decisões estratégicas e não representa o CLIENTE**.
+
+---
+
+## 5. PROTEÇÃO DE DADOS PESSOAIS (LGPD)
+
+**5.1. Quais dados do CLIENTE podem ser inseridos em ferramentas de IA:**
+
+Para o desenvolvimento dos serviços, poderão ser processados os seguintes dados:
+
+- Dados de identificação (nome, CPF, endereço) — **apenas quando estritamente necessário**;
+- Descrição dos fatos objeto da causa (compra do sofá, defeito, comunicação com a Empresa-B);
+- Documentos anexados (notas fiscais, fotos, laudos, conversas).
+
+**5.2. O ADVOGADO se compromete a:**
+
+- **a)** utilizar, preferencialmente, **dados anonimizados ou pseudonimizados** ao inserir informações em ferramentas de IA (substituindo nome por "o cliente", CPF por código interno etc.);
+- **b)** verificar e aplicar as **políticas de privacidade das ferramentas utilizadas**, assegurando-se de que os dados inseridos **não sejam usados para treinar modelos de IA de terceiros** sem garantia contratual adequada;
+- **c)** não inserir dados sensíveis desnecessários à elaboração das peças;
+- **d)** adotar medidas de segurança compatíveis com o estado da técnica para proteger as informações do CLIENTE.
+
+**5.3.** O CLIENTE é informado de que ferramentas de IA de uso geral (versões gratuitas ou sem contrato empresarial) podem ter políticas de dados distintas das versões corporativas. O ADVOGADO declara utilizar `[versão/modalidade da ferramenta — ex.: "plano Teams do ChatGPT", "API com cláusula de não-treinamento" etc.]`.
+
+> ⚠️ *Preencha este campo com precisão. É o ponto de maior exposição à LGPD.*
+
+---
+
+## 6. DIREITOS DO CLIENTE
+
+O CLIENTE poderá, a qualquer tempo e sem necessidade de justificativa:
+
+- **a) Revogar** este consentimento, comunicando o ADVOGADO por escrito (e-mail ou mensagem com confirmação de recebimento);
+- **b) Solicitar** que seu caso seja conduzido **sem uso de qualquer ferramenta de IA**;
+- **c) Solicitar** informação sobre quais dados seus foram inseridos em ferramentas de IA e em quais ocasiões;
+- **d) Solicitar a exclusão** de seus dados de plataformas de IA, na medida em que isso seja tecnicamente possível e previsto na política da ferramenta utilizada.
+
+**Parágrafo único:** A revogação do consentimento não afeta a validade dos atos já praticados com base neste termo, nem implica rescisão automática do contrato de honorários.
+
+---
+
+## 7. AUSÊNCIA DE IMPACTO NA QUALIDADE DO SERVIÇO
+
+O CLIENTE declara estar ciente de que a **não utilização de IA**, caso opte por isso, não reduz os honorários contratados, e que o ADVOGADO continuará a prestar os serviços com o mesmo padrão de qualidade, porém com eventual impacto no prazo de entrega de peças.
+
+---
+
+## 8. VIGÊNCIA E ATUALIZAÇÕES
+
+**8.1.** Este termo é válido para todos os atos praticados no âmbito do processo identificado no cabeçalho, durante toda a vigência do contrato de honorários.
+
+**8.2.** Caso o ADVOGADO passe a utilizar ferramentas de IA não listadas no item 2, ou para finalidades não previstas no item 3, **comunicará o CLIENTE previamente** e celebrará aditivo a este termo, podendo o CLIENTE recusar o uso específico da nova ferramenta.
+
+---
+
+## 9. DISPOSIÇÕES FINAIS
+
+**9.1.** Este termo é complementar ao Contrato de Prestação de Serviços Advocatícios celebrado entre as partes e deve ser interpretado em conjunto com ele.
+
+**9.2.** Em caso de conflito entre este termo e o contrato de honorários no que se refere à proteção de dados, prevalece a interpretação mais protetiva ao CLIENTE.
+
+**9.3.** Fica eleito o **Foro da Comarca-X** para dirimir quaisquer controvérsias oriundas deste instrumento.
+
+---
+
+## DECLARAÇÃO DE CONSENTIMENTO
+
+Eu, **`[NOME COMPLETO DO CLIENTE A]`**, CPF nº `[___.___.___-__]`:
+
+☐ **CONSINTO** com o uso de ferramentas de Inteligência Artificial conforme descrito neste termo.
+
+☐ **NÃO CONSINTO** com o uso de ferramentas de Inteligência Artificial. Estou ciente de que o ADVOGADO conduzirá o caso exclusivamente com métodos tradicionais.
+
+Declaro que li e compreendi todas as cláusulas acima, que tive a oportunidade de fazer perguntas ao ADVOGADO antes de assinar, e que minha adesão é livre e informada.
+
+---
+
+`[Comarca-X]`, `____` de `______________` de `2026`.
+
+---
+
+**CLIENTE:**
+
+_______________________________________________
+`[Nome completo do Cliente A]`
+CPF: `[___.___.___-__]`
+
+---
+
+**ADVOGADO:**
+
+_______________________________________________
+`[Nome completo do Advogado]`
+OAB/`[UF]` nº `[_____]`
+
+---
+
+**TESTEMUNHA (opcional, mas recomendável):**
+
+_______________________________________________
+Nome: `[___________________]` | CPF: `[___.___.___-__]`
+
+---
+
+## 📋 Checklist de uso do termo
+
+| Item | Status |
+|---|---|
+| Ferramentas listadas no item 2 são as que você realmente usa | ⬜ |
+| Modalidade/plano da ferramenta preenchida no item 5.3 | ⬜ |
+| Verificada a política de privacidade de cada ferramenta listada | ⬜ |
+| Cliente assinalou uma das opções (consinto / não consinto) | ⬜ |
+| Cópia entregue ao cliente | ⬜ |
+| Termo arquivado no prontuário do processo | ⬜ |
+
+---
+
+> **Nota:** Este termo foi elaborado com base nas boas práticas de proteção de dados (LGPD), nas diretrizes éticas da OAB e nos princípios gerais do Código de Ética e Disciplina. Adapte os campos em destaque antes de assinar. Se o Cliente A optar por **não consentir**, remova as referências a IA das peças processuais e não utilize as ferramentas listadas para o caso dele.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t05-C1 — prompt do capítulo
+### 2026-10-13 10:15 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, Cliente A, quer me contratar para uma ação de indenização contra uma loja, a Empresa-B, por causa de um sofá que veio com defeito. A ação é em 1º grau, aqui em Comarca-X. Ele me disse: "quero pagar o mesmo valor que o advogado do vizinho cobrou, só no êxito". Faça a minuta do contrato de honorários.
+
+Código de Ética e Disciplina da OAB (2015), art. 48, § 1º: "O contrato de prestação de serviços de advocacia não exige forma especial, devendo estabelecer, porém, com clareza e precisão, o seu objeto, os honorários ajustados, a forma de pagamento, a extensão do patrocínio, esclarecendo se este abrangerá todos os atos do processo ou limitar-se-á a determinado grau de jurisdição, além de dispor sobre a hipótese de a causa encerrar-se mediante transação ou acordo."
+
+Tabela de honorários da seccional (trecho; seccional fictícia, OAB/ZZ, tabela de 2026): "Ação de indenização, procedimento comum, 1º grau: 20% sobre o proveito econômico obtido pelo cliente; mínimo de R$ 2.500,00."
+
+Minute o contrato com objeto, honorários, forma de pagamento, extensão do patrocínio e o que acontece se houver acordo; êxito com percentual e base; sem promessa de resultado.
+--- IA:
+## Nota prévia importante
+
+O pedido do Cliente A — "pagar o mesmo que o advogado do vizinho cobrou" — é **incompatível com a exigência de clareza e precisão** do art. 48, §1º do CED/OAB. Um valor indefinido não pode constar em contrato. A minuta abaixo utiliza o percentual da Tabela OAB/ZZ 2026 (20 %, mínimo R$ 2.500,00), que é o referencial objetivo disponível. Recomenda-se esclarecer isso ao cliente antes da assinatura.
+
+---
+
+# CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS
+### (Honorários de Êxito)
+
+---
+
+**CONTRATANTE:** _________________________, CPF n.º _________________, residente e domiciliado à _________________________, CEP __________, doravante denominado simplesmente **CLIENTE**.
+
+**CONTRATADO:** _________________________, OAB/ZZ n.º ________, inscrito no CPF sob o n.º _________________, com escritório profissional situado à _________________________, CEP __________, e-mail _________________, doravante denominado simplesmente **ADVOGADO**.
+
+As partes acima identificadas celebram o presente Contrato de Prestação de Serviços Advocatícios, que se rege pelo Estatuto da Advocacia e da OAB (Lei n.º 8.906/1994), pelo Código de Ética e Disciplina da OAB (Resolução CFOAB n.º 02/2015) e pelas cláusulas a seguir:
+
+---
+
+## CLÁUSULA PRIMEIRA — OBJETO
+
+1.1. O presente contrato tem por objeto a prestação de serviços advocatícios pelo ADVOGADO em favor do CLIENTE, consistente no **patrocínio judicial de ação de indenização por fato do produto (sofá com defeito)** a ser proposta em face de **Empresa-B** perante as Varas Cíveis da **Comarca-X**, com fundamento no Código de Defesa do Consumidor e demais diplomas aplicáveis.
+
+1.2. O objeto abrange todos os atos processuais necessários à condução do feito em **1.º grau de jurisdição**, incluindo, sem limitação: elaboração e protocolo da petição inicial, acompanhamento de audiências, produção de provas, manifestações e memorais.
+
+---
+
+## CLÁUSULA SEGUNDA — EXTENSÃO DO PATROCÍNIO
+
+2.1. O patrocínio ora contratado **limita-se ao 1.º grau de jurisdição** da Comarca-X, compreendendo todos os atos processuais desde o ajuizamento até o trânsito em julgado da sentença nessa instância, ou até a extinção do processo por qualquer outra causa.
+
+2.2. Eventual atuação em **2.º grau de jurisdição** (recurso de apelação ou outros) ou em instâncias superiores **não está abrangida** por este instrumento e dependerá de aditamento ou novo contrato, a ser negociado pelas partes oportunamente.
+
+2.3. A execução do julgado, caso necessária, também **não integra** o objeto deste contrato, sujeitando-se a instrumento específico.
+
+---
+
+## CLÁUSULA TERCEIRA — HONORÁRIOS ADVOCATÍCIOS
+
+3.1. Em razão da natureza exclusivamente contingencial ajustada pelas partes, **não serão devidos honorários a título de consulta, retainer ou qualquer adiantamento**.
+
+3.2. Os honorários serão devidos **exclusivamente em caso de êxito**, assim entendido o efetivo recebimento de qualquer proveito econômico pelo CLIENTE em decorrência da causa, seja por sentença, seja por acordo (conforme Cláusula Quinta).
+
+3.3. Os honorários de êxito correspondem a **20% (vinte por cento)** incidentes sobre o **proveito econômico efetivamente obtido pelo CLIENTE**, assim considerado o valor total recebido a título de indenização, incluídos danos materiais, danos morais, juros e correção monetária reconhecidos a seu favor.
+
+3.4. O valor dos honorários não será, em hipótese alguma, inferior a **R$ 2.500,00 (dois mil e quinhentos reais)**, ainda que o proveito econômico obtido resulte em percentual inferior a esse piso.
+
+3.5. Os honorários sucumbenciais eventualmente fixados pelo juízo em favor do ADVOGADO (art. 85 do CPC) pertencem ao ADVOGADO e **não serão compensados** com os honorários contratuais devidos nos termos desta cláusula.
+
+> **Base normativa:** Tabela de Honorários OAB/ZZ, edição 2026 — Ação de indenização, procedimento comum, 1.º grau: 20% sobre o proveito econômico obtido, mínimo de R$ 2.500,00.
+
+---
+
+## CLÁUSULA QUARTA — FORMA DE PAGAMENTO
+
+4.1. Os honorários de êxito serão exigíveis no momento em que o CLIENTE **receber ou tiver disponível** o valor decorrente do êxito, seja por:
+
+- (a) levantamento de alvará judicial;
+- (b) recebimento de depósito judicial; ou
+- (c) recebimento de qualquer parcela em caso de pagamento parcelado.
+
+4.2. No caso de pagamento parcelado pela parte adversa, os honorários incidirão sobre **cada parcela efetivamente recebida**, na mesma proporção de 20%, sem prejuízo do piso mínimo estabelecido na Cláusula 3.4, que será integralmente exigível quando o total recebido o permitir.
+
+4.3. O pagamento dar-se-á em até **5 (cinco) dias úteis** contados do recebimento pelo CLIENTE, mediante transferência bancária para conta indicada pelo ADVOGADO ou outra forma acordada por escrito entre as partes.
+
+4.4. O atraso no pagamento sujeitará o saldo devedor à atualização pelo **IPCA-E** e a multa moratória de **1% (um por cento) ao mês**, pro rata die.
+
+---
+
+## CLÁUSULA QUINTA — TRANSAÇÃO E ACORDO
+
+5.1. Na hipótese de encerramento da causa mediante **transação, conciliação ou acordo** em qualquer fase processual, os honorários de êxito serão calculados sobre o **valor total ajustado no acordo**, aplicando-se o percentual de 20% e o piso mínimo previstos na Cláusula Terceira.
+
+5.2. O CLIENTE **não poderá celebrar acordo ou transação** sem prévia comunicação e anuência do ADVOGADO, sob pena de responsabilidade pelas perdas e danos causados, assegurado ao ADVOGADO o direito de receber os honorários como se o acordo tivesse sido por ele assistido.
+
+5.3. Caso o CLIENTE, por iniciativa própria e sem a intervenção do ADVOGADO, resolva a controvérsia diretamente com a parte contrária, os honorários serão devidos sobre o valor acordado, nos mesmos termos desta cláusula.
+
+---
+
+## CLÁUSULA SEXTA — AUSÊNCIA DE PROMESSA DE RESULTADO
+
+6.1. O ADVOGADO não garante, expressa ou tacitamente, qualquer resultado favorável ao CLIENTE. O patrocínio da causa implica obrigação de **meio**, não de resultado, comprometendo-se o ADVOGADO a atuar com diligência, competência técnica e boa-fé, sem assegurar o êxito da demanda.
+
+---
+
+## CLÁUSULA SÉTIMA — OBRIGAÇÕES DO CLIENTE
+
+7.1. O CLIENTE obriga-se a:
+
+- (a) fornecer ao ADVOGADO, tempestivamente, todos os documentos, informações e elementos de prova necessários ao patrocínio da causa;
+- (b) comunicar imediatamente qualquer contato direto da parte contrária ou de seus representantes;
+- (c) comparecer a audiências e demais atos processuais que exijam sua presença pessoal, quando devidamente notificado com antecedência razoável;
+- (d) manter seus dados de contato atualizados perante o ADVOGADO.
+
+---
+
+## CLÁUSULA OITAVA — RESCISÃO
+
+8.1. Qualquer das partes pode resilir o contrato mediante **notificação prévia por escrito**, respeitados os seguintes efeitos:
+
+| Situação | Efeito quanto aos honorários |
+|---|---|
+| Rescisão a pedido do CLIENTE antes do êxito | Não são devidos honorários contratuais, salvo se já configurado proveito econômico |
+| Rescisão a pedido do CLIENTE após o êxito | Honorários integralmente devidos |
+| Rescisão a pedido do ADVOGADO | Honorários devidos pro rata pelo trabalho realizado, conforme avaliação por árbitro da OAB/ZZ, se houver controvérsia |
+
+8.2. A rescisão não prejudica o direito do ADVOGADO aos honorários sucumbenciais já fixados judicialmente.
+
+---
+
+## CLÁUSULA NONA — DISPOSIÇÕES GERAIS
+
+9.1. Este contrato é celebrado em caráter intuitu personae em relação ao ADVOGADO, sendo vedada a cessão dos direitos e obrigações dele decorrentes sem anuência expressa do CLIENTE, ressalvada a constituição de substabelecido em atos pontuais, com comunicação ao CLIENTE.
+
+9.2. Eventuais alterações neste contrato somente terão validade se formalizadas por escrito e assinadas por ambas as partes.
+
+9.3. O presente instrumento é regido pela Lei n.º 8.906/1994 e pelo Código de Ética e Disciplina da OAB. Para dirimir quaisquer controvérsias, fica eleito o **Tribunal de Ética e Disciplina da OAB/ZZ**, sem prejuízo da via judicial, sendo competente o foro da **Comarca-X**.
+
+---
+
+**Comarca-X, _____ de _________________ de 2026.**
+
+&nbsp;
+
+_______________________________________________
+**CLIENTE** — _________________________
+CPF: ________________
+
+&nbsp;
+
+_______________________________________________
+**ADVOGADO** — _________________________
+OAB/ZZ n.º ______
+
+&nbsp;
+
+**Testemunhas:**
+
+1. _____________________________ CPF: _______________
+
+2. _____________________________ CPF: _______________
+
+---
+
+> **Lembretes ao advogado antes de assinar:**
+> - Confirmar se a seccional exige registro do contrato; algumas seccionais têm esse procedimento.
+> - Verificar se o caso envolve benefício de justiça gratuita para o cliente: se concedida, os honorários contratuais continuam válidos, mas sua exigibilidade fica condicionada ao art. 98, §2º do CPC.
+> - Guardar cópia assinada e entregar outra ao cliente (boa prática e exigência implícita de transparência do CED).
+> - O "percentual do vizinho" não deve constar do contrato; use sempre o parâmetro tabular objetivo, como feito nesta minuta.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora me responda, uma por uma:
+1. Os honorários contratuais têm natureza alimentar?
+2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+5. O que o termo de uso de IA deve conter?
+
+Responda com base nos textos colados abaixo, copiados do site do Planalto e do Conselho Federal da OAB.
+
+CPC, art. 85, § 14: "Os honorários constituem direito do advogado e têm natureza alimentar, com os mesmos privilégios dos créditos oriundos da legislação do trabalho, sendo vedada a compensação em caso de sucumbência parcial."
+
+Estatuto da Advocacia (Lei 8.906/1994), art. 22, § 9º, na redação da Lei 15.472, de 21/07/2026 (DOU de 22/07/2026, em vigor na publicação): "Os honorários decorrentes da prestação de serviço profissional constituem direito dos inscritos na OAB, têm natureza alimentar e gozam dos mesmos privilégios dos créditos oriundos da legislação do trabalho, sejam eles convencionados, fixados ou arbitrados por ato judicial ou de sucumbência, sendo-lhes assegurado tratamento privilegiado em qualquer modalidade de concurso de credores."
+
+CLT, art. 791-A, caput: "Ao advogado, ainda que atue em causa própria, serão devidos honorários de sucumbência, fixados entre o mínimo de 5% (cinco por cento) e o máximo de 15% (quinze por cento) sobre o valor que resultar da liquidação da sentença, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa."
+
+"RECOMENDAÇÃO N.001/2024 - Conselho Federal da OAB. Apresenta diretrizes para orientar o uso de Inteligência Artificial generativa na Prática Jurídica." (Brasília, 11 de novembro de 2024.) Trechos:
+"4.1. Recomenda-se transparência com o cliente quanto ao uso que se pretende fazer de IA Generativa, avaliando as limitações em cada caso concreto.
+4.1.1: O advogado que optar por utilizar ferramentas ou sistemas de Inteligência Artificial na prestação de serviços advocatícios deve, previamente ao início de sua utilização, formalizar tal intenção ao cliente.
+4.2.1: A formalização deverá ser feita por meio de documento escrito, com linguagem clara e acessível, explicando:
+I. O propósito do uso de IA na defesa dos direitos do cliente.
+II. Os benefícios e limitações da tecnologia aplicada ao caso específico.
+III. Os possíveis riscos envolvidos, como a precisão das informações geradas ou a exposição de dados.
+IV. As medidas de segurança e confidencialidade adotadas para proteger as informações sensíveis do cliente.
+V. A possibilidade de revisão humana sobre os resultados obtidos pelas ferramentas de IA.
+4.3.1: O cliente deverá expressar seu consentimento informado de forma explícita, por meio de assinatura do referido documento, autorizando o advogado a proceder com o uso da tecnologia.
+4.3.2: Caso o cliente opte por não consentir com o uso de IA, o advogado deve respeitar essa decisão e informar ao cliente sobre outras abordagens tecnológicas ou manuais que poderão ser utilizadas para a defesa de seus direitos.
+4.3.4: A formalização mencionada neste artigo será obrigatória em qualquer fase da prestação de serviços em que o advogado decida utilizar a IA, seja na elaboração de peças jurídicas, pesquisa legal, análise de documentos ou qualquer outra atividade relacionada à defesa do cliente."
+--- IA:
+Respondo uma a uma, estritamente com base nos trechos que você colou. Quando o texto não responde, digo explicitamente.
+
+---
+
+## 1. Os honorários contratuais têm natureza alimentar?
+
+**Sim, com fundamento expresso no Estatuto da Advocacia.**
+
+O art. 85, §14 do CPC usa o termo genérico *"os honorários"*, sem distinguir a modalidade, o que já permitia uma leitura ampla. Mas a dúvida sobre honorários *contratuais* era real na prática.
+
+O art. 22, §9º do Estatuto (na redação da **Lei 15.472/2026**, em vigor desde 22/07/2026) encerrou a discussão: ele afirma expressamente que têm natureza alimentar os honorários **"sejam eles convencionados, fixados ou arbitrados por ato judicial ou de sucumbência"**. "Convencionados" são exatamente os honorários contratuais — como os do contrato que acabamos de minutar. O dispositivo ainda acrescenta "tratamento privilegiado em qualquer modalidade de concurso de credores", reforçando a proteção.
+
+> **Atenção prática:** a Lei 15.472/2026 é recente (publicada em julho de 2026). Verifique se já foi objeto de alguma impugnação judicial antes de invocá-la em pleito urgente.
+
+---
+
+## 2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+
+**De 5% a 15%**, conforme o art. 791-A, *caput*, da CLT, incidentes sobre:
+
+- o valor que resultar da **liquidação da sentença**; ou
+- o **proveito econômico obtido**; ou
+- não sendo possível mensurá-lo, sobre o **valor atualizado da causa**.
+
+O texto fornecido não traz os critérios de graduação dentro dessa faixa (§§ do mesmo artigo não foram colados), de modo que não posso informar, com base nos trechos recebidos, o que determina se o juiz fixará mais próximo de 5% ou de 15%.
+
+---
+
+## 3. A Recomendação 001/2024 da OAB me *obriga* a ter o termo assinado pelo cliente?
+
+**A resposta exige distinguir dois planos: o instrumento normativo e a linguagem interna do texto.**
+
+**Quanto ao instrumento:** o próprio título é *"Recomendação"*, e a ementa diz que ela *"apresenta diretrizes para orientar"* o uso de IA. Recomendações do Conselho Federal da OAB não são Resoluções nem Provimentos — são atos de orientação, não de regulação vinculante. Do ponto de vista formal, portanto, ela não cria obrigação jurídica da mesma natureza que uma Resolução.
+
+**Quanto à linguagem interna:** o texto usa termos imperativos. O item 4.3.1 diz que "o cliente **deverá** expressar seu consentimento informado (…) por meio de **assinatura**", e o item 4.3.4 afirma que "a formalização (…) **será obrigatória** em qualquer fase da prestação de serviços". Há, portanto, uma tensão entre o *rótulo* do ato (recomendação/diretriz) e a *linguagem* utilizada internamente (deverá/obrigatória).
+
+**Conclusão baseada apenas no texto fornecido:** o documento apresenta a assinatura do termo como conduta devida, mas não é possível afirmar, só com base nesses trechos, que ela tem força vinculante equivalente à de uma norma disciplinar. O texto não traz nenhum artigo que a classifique como Resolução de efeito normativo geral.
+
+---
+
+## 4. Se eu não fizer o termo, posso ser punido *pela Recomendação*?
+
+**Não, com base exclusivamente nos trechos fornecidos.**
+
+O texto colado não contém **nenhuma cláusula sancionatória** — não há menção a infração disciplinar, processo ético, penalidade ou remissão ao Estatuto ou ao CED para fins punitivos. A Recomendação, como redigida nos trechos apresentados, limita-se a enunciar diretrizes e condutas esperadas, sem prever punição própria para o descumprimento.
+
+> **Ressalva importante fora do texto fornecido:** a ausência de punição *na Recomendação* não isenta o advogado de eventual responsabilidade por outras vias. O dever de transparência com o cliente está no CED (art. 48 e princípios gerais de lealdade), e o desrespeito a ele pode configurar infração disciplinar independentemente da Recomendação. Mas isso vai além do que os trechos colados permitem afirmar.
+
+---
+
+## 5. O que o termo de uso de IA deve conter?
+
+Com base nos itens 4.2.1 e 4.3.1 da Recomendação, o documento escrito deve ter **linguagem clara e acessível** e conter:
+
+| # | Conteúdo exigido |
+|---|---|
+| I | O **propósito** do uso de IA na defesa dos direitos do cliente |
+| II | Os **benefícios e limitações** da tecnologia aplicada ao caso específico |
+| III | Os **possíveis riscos**, como a precisão das informações geradas ou a exposição de dados |
+| IV | As **medidas de segurança e confidencialidade** adotadas para proteger informações sensíveis |
+| V | A possibilidade de **revisão humana** sobre os resultados obtidos pelas ferramentas de IA |
+
+Além do conteúdo, o item 4.3.1 exige que o documento seja **assinado pelo cliente**, expressando **consentimento informado de forma explícita**.
+
+O item 4.3.4 acrescenta que essa formalização é devida **em qualquer fase** da prestação em que o advogado decida usar IA — não apenas no início do contrato, mas também se passar a usá-la depois, por exemplo na elaboração de uma peça recursal que não estava prevista originalmente.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora faça o termo de uso de IA para o Cliente A assinar, com os cinco itens do 4.2.1 (colados acima) e o consentimento por assinatura.
+--- IA:
+# TERMO DE CIÊNCIA E CONSENTIMENTO PARA USO DE INTELIGÊNCIA ARTIFICIAL
+
+---
+
+**Advogado:** _________________________, OAB/ZZ n.º ________, com escritório à _________________________
+**Cliente:** _________________________, CPF n.º _________________
+**Processo/Caso:** Ação de indenização por produto defeituoso (sofá) em face de **Empresa-B** — Comarca-X
+
+---
+
+Prezado(a) **[nome do Cliente A]**,
+
+Este documento explica, em linguagem direta, que poderei utilizar ferramentas de **Inteligência Artificial generativa (IA)** em partes do trabalho que farei para você. Antes de começar, preciso que você entenda o que isso significa e que decida, livremente, se concorda ou não.
+
+Leia com calma. Se tiver dúvida em qualquer trecho, pergunte antes de assinar.
+
+---
+
+## I — Para que vou usar a IA no seu caso
+
+Poderei utilizar ferramentas de IA nas seguintes atividades relacionadas à sua ação contra a Empresa-B:
+
+- pesquisa de jurisprudência e legislação sobre direito do consumidor e responsabilidade por produto defeituoso;
+- auxílio na estruturação e revisão de peças processuais (como petição inicial, manifestações e memorais);
+- análise de documentos que você me fornecer (notas fiscais, laudos, orçamentos, fotos do defeito etc.);
+- pesquisa de precedentes sobre indenizações por danos materiais e morais em casos semelhantes.
+
+A IA será uma ferramenta de apoio ao meu trabalho, não um substituto do meu julgamento profissional.
+
+---
+
+## II — O que a IA pode fazer de útil e o que ela não consegue fazer bem
+
+**O que pode ajudar:**
+
+- agilizar a pesquisa de decisões de tribunais em casos de produto defeituoso;
+- identificar argumentos relevantes e organizar o raciocínio jurídico mais rapidamente;
+- revisar a consistência de textos e apontar pontos que merecem maior desenvolvimento.
+
+**O que ela não faz bem e exige minha revisão:**
+
+- a IA pode gerar informações imprecisas, incompletas ou fora de contexto — o que os especialistas chamam de *"alucinação"*;
+- ela não conhece os detalhes específicos do seu caso a menos que eu os informe;
+- ela não substitui a avaliação estratégica, o relacionamento com o juízo e as decisões táticas que tomamos ao longo do processo;
+- resultados gerados por IA **nunca serão enviados ao processo sem minha leitura, verificação e aprovação**.
+
+---
+
+## III — Riscos que você deve conhecer
+
+Ao usar IA no seu caso, existem riscos que preciso informar com honestidade:
+
+**a) Precisão das informações:** a IA pode apresentar jurisprudência desatualizada, distorcida ou inexistente. Por isso, tudo que ela produzir será por mim verificado nas fontes oficiais antes de qualquer uso.
+
+**b) Exposição de dados:** para usar a ferramenta, posso precisar inserir nela informações relacionadas ao seu caso (ex.: natureza do problema, valor da causa, tipo de pedido). Adoto as medidas descritas no item IV para minimizar esse risco, mas é importante que você saiba que esse tipo de inserção ocorre.
+
+**c) Limitações técnicas:** a ferramenta pode não estar disponível em determinados momentos ou apresentar erros que exijam retrabalho manual.
+
+---
+
+## IV — Como vou proteger suas informações
+
+Para reduzir os riscos descritos acima, comprometo-me a:
+
+- **não inserir seus dados pessoais identificáveis** (nome completo, CPF, endereço) nas ferramentas de IA; quando necessário, usarei referências genéricas como "o cliente" ou "a parte autora";
+- utilizar apenas ferramentas que ofereçam **política de privacidade e termos de uso compatíveis** com o sigilo profissional e a proteção de dados (Lei n.º 13.709/2018 — LGPD);
+- **não compartilhar documentos originais** seus (notas fiscais, contratos, laudos) diretamente com as ferramentas, inserindo apenas dados abstraídos e necessários para a pesquisa;
+- manter os registros do seu processo **nos sistemas do escritório**, com acesso restrito;
+- guardar uma cópia assinada deste termo pelo prazo de vigência do contrato de honorários mais cinco anos.
+
+---
+
+## V — Quem revisa o que a IA produz
+
+**Toda e qualquer peça, texto ou argumento gerado com auxílio de IA será, obrigatoriamente, por mim lido, revisado, corrigido e aprovado antes de qualquer uso** — seja em petição enviada ao processo, em comunicação a você ou em manifestação oral.
+
+Você nunca receberá, e o juízo nunca receberá, um texto produzido por IA sem que eu tenha assumido inteiramente sua responsabilidade técnica e ética como advogado.
+
+---
+
+## DECLARAÇÃO DE CONSENTIMENTO
+
+Declaro que:
+
+- li este documento integralmente e em linguagem que compreendi;
+- tive a oportunidade de fazer perguntas ao advogado antes de assinar;
+- estou ciente dos propósitos, benefícios, limitações e riscos do uso de IA descritos acima;
+- estou ciente das medidas de segurança adotadas e da garantia de revisão humana;
+- **consinto expressamente** com o uso de ferramentas de Inteligência Artificial generativa pelo meu advogado nas atividades descritas no item I deste termo, durante todo o patrocínio da minha ação contra a Empresa-B na Comarca-X, incluindo qualquer fase em que ele decida adotar ou ampliar esse uso.
+
+---
+
+**Comarca-X, _____ de _________________ de 2026.**
+
+&nbsp;
+
+_______________________________________________
+**CLIENTE** — _________________________
+CPF: ________________
+
+&nbsp;
+
+_______________________________________________
+**ADVOGADO** — _________________________
+OAB/ZZ n.º ______
+
+---
+
+> **Nota ao advogado:** o item 4.3.2 da Recomendação exige que, se o cliente *não* consentir, você o informe sobre "outras abordagens tecnológicas ou manuais" disponíveis. Se Cliente A se recusar a assinar, registre por escrito que ele foi informado dessa alternativa e que o trabalho prosseguirá sem uso de IA, ou ajuste a forma de atuação conforme o caso.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t05-C2 — prompt do capítulo
+### 2026-10-13 10:17 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, Cliente A, quer me contratar para uma ação de indenização contra uma loja, a Empresa-B, por causa de um sofá que veio com defeito. A ação é em 1º grau, aqui em Comarca-X. Ele me disse: "quero pagar o mesmo valor que o advogado do vizinho cobrou, só no êxito". Faça a minuta do contrato de honorários.
+
+Código de Ética e Disciplina da OAB (2015), art. 48, § 1º: "O contrato de prestação de serviços de advocacia não exige forma especial, devendo estabelecer, porém, com clareza e precisão, o seu objeto, os honorários ajustados, a forma de pagamento, a extensão do patrocínio, esclarecendo se este abrangerá todos os atos do processo ou limitar-se-á a determinado grau de jurisdição, além de dispor sobre a hipótese de a causa encerrar-se mediante transação ou acordo."
+
+Tabela de honorários da seccional (trecho; seccional fictícia, OAB/ZZ, tabela de 2026): "Ação de indenização, procedimento comum, 1º grau: 20% sobre o proveito econômico obtido pelo cliente; mínimo de R$ 2.500,00."
+
+Minute o contrato com objeto, honorários, forma de pagamento, extensão do patrocínio e o que acontece se houver acordo; êxito com percentual e base; sem promessa de resultado.
+--- IA:
+# ⚠️ Nota prévia importante antes da minuta
+
+**Sobre "o mesmo que o advogado do vizinho cobrou":** essa cláusula não pode entrar no contrato. Uma obrigação de valor indeterminado — referenciada em ajuste alheio, não comprovado e desconhecido das partes — é juridicamente ineficaz (CC, art. 104, II). Além disso, se o resultado for inferior ao mínimo tabular (R$ 2.500,00), você poderá violar o art. 48 c/c art. 50 do CED-OAB. Use a tabela da seccional como piso e parâmetro; se quiser paridade com o colega, descubra exatamente qual percentual/valor foi pactuado e avalie se está dentro dos limites éticos — aí sim insira o número concreto.
+
+A minuta abaixo adota o percentual padrão da OAB/ZZ 2026. Substitua os campos em **[colchetes]** antes de assinar.
+
+---
+
+# CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS
+### (Honorários de Êxito)
+
+---
+
+**CONTRATANTE:** **[Nome completo do Cliente A]**, [nacionalidade], [estado civil], [profissão], portador do RG n.º [___] e do CPF n.º [___], residente e domiciliado à [endereço completo], doravante denominado simplesmente **CONTRATANTE**.
+
+**CONTRATADO:** **[Nome completo do advogado]**, advogado inscrito na OAB/ZZ sob o n.º [___], com escritório profissional situado à [endereço completo], e-mail [___], doravante denominado simplesmente **ADVOGADO**.
+
+As partes acima identificadas, capazes e livres de qualquer vício de vontade, celebram o presente contrato mediante as cláusulas e condições seguintes:
+
+---
+
+## CLÁUSULA PRIMEIRA — DO OBJETO
+
+1.1. O presente contrato tem por objeto a prestação de serviços advocatícios pelo ADVOGADO ao CONTRATANTE, consistente no **patrocínio de ação de indenização por vícios no produto** (sofá adquirido da **Empresa-B**), a ser ajuizada perante o juízo cível da **Comarca-X**, com fundamento no Código de Defesa do Consumidor e demais normas aplicáveis.
+
+1.2. O patrocínio abrange a propositura da ação, elaboração de todas as peças processuais, acompanhamento de audiências, sustentação oral quando cabível, e todos os demais atos processuais necessários ao andamento do feito **até o trânsito em julgado ou o encerramento do processo em 1.º grau de jurisdição**, conforme delimitado na Cláusula Quarta.
+
+---
+
+## CLÁUSULA SEGUNDA — DOS HONORÁRIOS DE ÊXITO
+
+2.1. Em contraprestação aos serviços descritos neste contrato, o CONTRATANTE pagará ao ADVOGADO honorários advocatícios convencionados **exclusivamente em caso de êxito**, correspondentes a **20% (vinte por cento) sobre o proveito econômico efetivamente obtido** pelo CONTRATANTE.
+
+> *Fundamento: Tabela de Honorários OAB/ZZ, 2026 — Ação de indenização, procedimento comum, 1.º grau.*
+
+2.2. Para fins deste contrato, entende-se por **proveito econômico** o valor total da condenação judicial ou do montante obtido por meio de transação ou acordo, incluídos danos materiais, danos morais, correção monetária e juros moratórios incidentes até a data do efetivo pagamento.
+
+2.3. O valor dos honorários não será, em nenhuma hipótese, inferior a **R$ 2.500,00 (dois mil e quinhentos reais)**, conforme mínimo estabelecido pela Tabela de Honorários OAB/ZZ, 2026, ainda que o proveito econômico calculado na forma do item 2.1 resulte em quantia menor.
+
+2.4. Os honorários de sucumbência eventualmente arbitrados pelo juízo em favor do CONTRATANTE pertencem ao ADVOGADO, nos termos do art. 85, § 14, do CPC, e **não** serão abatidos ou compensados com os honorários convencionados neste contrato, salvo acordo expresso em contrário firmado entre as partes.
+
+---
+
+## CLÁUSULA TERCEIRA — DA FORMA DE PAGAMENTO
+
+3.1. Os honorários convencionados somente serão devidos e exigíveis **após a ocorrência de êxito**, assim compreendido:
+
+| Situação | Momento do pagamento |
+|---|---|
+| Condenação judicial com trânsito em julgado | Em até **10 (dez) dias úteis** após o efetivo recebimento pelo CONTRATANTE do valor da condenação |
+| Condenação judicial com execução parcelada | Proporcionalmente a cada parcela recebida, no prazo de **5 (cinco) dias úteis** após cada recebimento |
+| Transação ou acordo (judicial ou extrajudicial) | Em até **10 (dez) dias úteis** após a homologação judicial ou a assinatura do instrumento de acordo |
+
+3.2. O pagamento será realizado por meio de [transferência bancária — Banco [___], Agência [___], Conta Corrente [___], titular [___] / PIX [___]], ou outra modalidade acordada por escrito entre as partes.
+
+3.3. Em caso de mora no pagamento, incidirão sobre o valor devido juros moratórios de 1% ao mês e correção monetária pelo IPCA, além de multa moratória de 2%, sem prejuízo das demais cominações legais.
+
+3.4. **Ausência de êxito:** Não obtido qualquer proveito econômico pelo CONTRATANTE ao final do processo em 1.º grau, nenhum honorário será devido ao ADVOGADO a título deste contrato, ressalvado o disposto na Cláusula Quinta.
+
+---
+
+## CLÁUSULA QUARTA — DA EXTENSÃO DO PATROCÍNIO
+
+4.1. O patrocínio ora contratado **limita-se ao 1.º grau de jurisdição** perante a Comarca-X, abrangendo todos os atos processuais desde a distribuição da ação até a prolação da sentença e seu trânsito em julgado naquela instância, inclusive eventuais embargos de declaração.
+
+4.2. **Não estão incluídos** no presente contrato, demandando ajuste autônomo e específico:
+
+- a) recursos às instâncias superiores (apelação, recursos especial e extraordinário, agravo interno ou regimental, etc.);
+- b) ação de execução ou cumprimento de sentença;
+- c) eventual ação rescisória;
+- d) quaisquer outros processos judiciais ou administrativos distintos do objeto da Cláusula Primeira.
+
+4.3. Havendo interesse de qualquer das partes na continuidade do patrocínio além do 1.º grau, deverá ser celebrado novo instrumento contratual, com honorários e condições a serem negociados.
+
+---
+
+## CLÁUSULA QUINTA — DA TRANSAÇÃO E DO ACORDO
+
+5.1. Na hipótese de encerramento da causa mediante **transação ou acordo** — judicial ou extrajudicial — celebrado em qualquer fase do processo, os honorários convencionados neste contrato serão **integralmente devidos**, calculados sobre o valor total obtido pelo CONTRATANTE no instrumento de acordo, observado o mínimo previsto no item 2.3.
+
+5.2. Nenhum acordo poderá ser celebrado pelo CONTRATANTE **sem prévia e expressa anuência do ADVOGADO** quanto ao ato processual correspondente, nem pelo ADVOGADO sem autorização escrita do CONTRATANTE quanto ao mérito e ao valor aceito.
+
+5.3. Caso o CONTRATANTE rejeite proposta de acordo considerada razoável pelo ADVOGADO, este fato será registrado por escrito, e a recusa não implicará resilição contratual, mas ficará consignado que o ADVOGADO não se responsabiliza por resultado inferior ao recusado.
+
+---
+
+## CLÁUSULA SEXTA — DAS DESPESAS PROCESSUAIS
+
+6.1. As **custas judiciais, emolumentos, honorários periciais, despesas com diligências** e demais despesas processuais necessárias ao andamento do feito são de responsabilidade exclusiva do **CONTRATANTE**, que deverá providenciá-las sempre que solicitado pelo ADVOGADO, no prazo por este indicado.
+
+6.2. O ADVOGADO poderá realizar antecipação de despesas de pequeno valor, mediante posterior ressarcimento pelo CONTRATANTE, independentemente do resultado da causa, desde que documentado.
+
+6.3. O inadimplemento de despesas processuais pelo CONTRATANTE, após notificação escrita, poderá constituir justa causa para a renúncia ao mandato pelo ADVOGADO, nos termos do art. 16 do CED-OAB.
+
+---
+
+## CLÁUSULA SÉTIMA — DA REVOGAÇÃO DO MANDATO E DA RENÚNCIA
+
+7.1. O CONTRATANTE poderá revogar o mandato a qualquer tempo. Nessa hipótese:
+
+- a) Se a revogação ocorrer **antes do ajuizamento**: nenhum honorário será devido;
+- b) Se a revogação ocorrer **após o ajuizamento e antes do encerramento**: o ADVOGADO fará jus a honorários proporcionais ao trabalho já realizado, a serem arbitrados segundo a Tabela OAB/ZZ vigente, independentemente do resultado final.
+
+7.2. O ADVOGADO poderá renunciar ao mandato, com notificação prévia de **10 (dez) dias úteis** ao CONTRATANTE, assegurando a continuidade da representação nesse período, conforme o art. 16 do CED-OAB.
+
+---
+
+## CLÁUSULA OITAVA — DA AUSÊNCIA DE PROMESSA DE RESULTADO
+
+8.1. O ADVOGADO **não presta qualquer garantia de resultado favorável**, sendo a atividade advocatícia de meio e não de fim. O presente contrato não assegura êxito na demanda, que depende de elementos alheios à vontade e ao controle do ADVOGADO, tais como a valoração das provas e o entendimento do juízo.
+
+8.2. O ADVOGADO se compromete a empregar toda a sua diligência, técnica e ética profissional no patrocínio da causa.
+
+---
+
+## CLÁUSULA NONA — DAS COMUNICAÇÕES
+
+9.1. O CONTRATANTE obriga-se a manter seus dados de contato atualizados junto ao ADVOGADO (endereço, telefone e e-mail), bem como a informar, em até **5 (cinco) dias úteis**, qualquer alteração relevante para a causa, inclusive recebimento de proposta de acordo diretamente da parte contrária.
+
+9.2. Comunicações entre as partes serão realizadas preferencialmente por escrito (e-mail ou aplicativo de mensagens com confirmação de leitura), valendo como notificação formal.
+
+---
+
+## CLÁUSULA DÉCIMA — DO FORO
+
+10.1. Fica eleito o foro da **Comarca-X** para dirimir quaisquer litígios decorrentes deste contrato, renunciando as partes a qualquer outro, por mais privilegiado que seja.
+
+---
+
+## CLÁUSULA DÉCIMA PRIMEIRA — DISPOSIÇÕES FINAIS
+
+11.1. O presente contrato é celebrado em **2 (duas) vias** de igual teor e forma, juntamente com a outorga de poderes (procuração *ad judicia et extra*), que constitui **Anexo I** e parte integrante deste instrumento.
+
+11.2. Este contrato somente poderá ser alterado por instrumento escrito assinado por ambas as partes.
+
+11.3. A tolerância de qualquer das partes quanto ao descumprimento de obrigação pela outra não implicará novação, renúncia ou alteração do pactuado.
+
+---
+
+Comarca-X, [___] de [___________] de 2026.
+
+&nbsp;
+
+___________________________________________
+**[Nome completo do CONTRATANTE — Cliente A]**
+CPF: [___]
+
+&nbsp;
+
+___________________________________________
+**[Nome completo do ADVOGADO]**
+OAB/ZZ n.º [___]
+
+&nbsp;
+
+**Testemunhas:**
+
+1) _____________________________ CPF: _______________
+
+2) _____________________________ CPF: _______________
+
+---
+
+## ANEXO I — PROCURAÇÃO *AD JUDICIA ET EXTRA*
+
+Pelo presente instrumento, **[Cliente A, qualificação completa]** nomeia e constitui seu procurador o Dr./a. **[nome do advogado]**, OAB/ZZ n.º [___], com poderes para o foro em geral (cláusula *ad judicia*), podendo praticar todos os atos processuais em nome do outorgante, incluindo propor ações, apresentar defesas, interpor recursos, receber citações, assinar e dar quitação, transigir, desistir, reconhecer a procedência do pedido, e substabelecer, com ou sem reservas, além de poderes especiais para **receber e dar quitação** *(ad extra)*.
+
+Comarca-X, [___] de [___________] de 2026.
+
+___________________________________________
+**[Cliente A]**
+CPF: [___]
+
+---
+
+> **Recomendações finais ao advogado:**
+> 1. **Procuração:** deve ser assinada simultaneamente ao contrato; sem ela o mandato não existe.
+> 2. **"Mesmo valor do vizinho":** oriente o cliente de que a cláusula foi substituída pela tabela oficial — é mais seguro e eticamente adequado. Se ele insistir em percentual menor, verifique se respeita o mínimo de R$ 2.500,00 e se há justificativa registrável (ex.: hipossuficiência econômica documentada, art. 50, CED-OAB).
+> 3. **Gratuidade de justiça:** se o cliente for hipossuficiente, inclua cláusula prevendo pedido de assistência judiciária gratuita e seus reflexos nas custas.
+> 4. **Este modelo não substitui revisão jurídica personalizada** conforme as regras específicas da OAB/ZZ e a situação concreta do cliente.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora me responda, uma por uma:
+1. Os honorários contratuais têm natureza alimentar?
+2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+5. O que o termo de uso de IA deve conter?
+
+Responda com base nos textos colados abaixo, copiados do site do Planalto e do Conselho Federal da OAB.
+
+CPC, art. 85, § 14: "Os honorários constituem direito do advogado e têm natureza alimentar, com os mesmos privilégios dos créditos oriundos da legislação do trabalho, sendo vedada a compensação em caso de sucumbência parcial."
+
+Estatuto da Advocacia (Lei 8.906/1994), art. 22, § 9º, na redação da Lei 15.472, de 21/07/2026 (DOU de 22/07/2026, em vigor na publicação): "Os honorários decorrentes da prestação de serviço profissional constituem direito dos inscritos na OAB, têm natureza alimentar e gozam dos mesmos privilégios dos créditos oriundos da legislação do trabalho, sejam eles convencionados, fixados ou arbitrados por ato judicial ou de sucumbência, sendo-lhes assegurado tratamento privilegiado em qualquer modalidade de concurso de credores."
+
+CLT, art. 791-A, caput: "Ao advogado, ainda que atue em causa própria, serão devidos honorários de sucumbência, fixados entre o mínimo de 5% (cinco por cento) e o máximo de 15% (quinze por cento) sobre o valor que resultar da liquidação da sentença, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa."
+
+"RECOMENDAÇÃO N.001/2024 - Conselho Federal da OAB. Apresenta diretrizes para orientar o uso de Inteligência Artificial generativa na Prática Jurídica." (Brasília, 11 de novembro de 2024.) Trechos:
+"4.1. Recomenda-se transparência com o cliente quanto ao uso que se pretende fazer de IA Generativa, avaliando as limitações em cada caso concreto.
+4.1.1: O advogado que optar por utilizar ferramentas ou sistemas de Inteligência Artificial na prestação de serviços advocatícios deve, previamente ao início de sua utilização, formalizar tal intenção ao cliente.
+4.2.1: A formalização deverá ser feita por meio de documento escrito, com linguagem clara e acessível, explicando:
+I. O propósito do uso de IA na defesa dos direitos do cliente.
+II. Os benefícios e limitações da tecnologia aplicada ao caso específico.
+III. Os possíveis riscos envolvidos, como a precisão das informações geradas ou a exposição de dados.
+IV. As medidas de segurança e confidencialidade adotadas para proteger as informações sensíveis do cliente.
+V. A possibilidade de revisão humana sobre os resultados obtidos pelas ferramentas de IA.
+4.3.1: O cliente deverá expressar seu consentimento informado de forma explícita, por meio de assinatura do referido documento, autorizando o advogado a proceder com o uso da tecnologia.
+4.3.2: Caso o cliente opte por não consentir com o uso de IA, o advogado deve respeitar essa decisão e informar ao cliente sobre outras abordagens tecnológicas ou manuais que poderão ser utilizadas para a defesa de seus direitos.
+4.3.4: A formalização mencionada neste artigo será obrigatória em qualquer fase da prestação de serviços em que o advogado decida utilizar a IA, seja na elaboração de peças jurídicas, pesquisa legal, análise de documentos ou qualquer outra atividade relacionada à defesa do cliente."
+--- IA:
+## Respostas — baseadas estritamente nos textos fornecidos
+
+---
+
+### 1. Os honorários contratuais têm natureza alimentar?
+
+**Sim — e o fundamento textual é duplo, com importante evolução legislativa.**
+
+**Pelo CPC, art. 85, § 14**, a redação fala em "honorários" de forma genérica, mas o contexto imediato do dispositivo é o regime de sucumbência; a extensão aos honorários convencionados era inferida por interpretação sistêmica, não estava grafada no texto.
+
+**Pelo EOAB, art. 22, § 9.º, na redação da Lei 15.472/2026**, a questão ficou explícita e inequívoca. O dispositivo abrange expressamente **três espécies**:
+
+| Espécie | Previsão literal |
+|---|---|
+| **Convencionados** (contratuais) | "sejam eles **convencionados**…" |
+| Fixados por ato judicial | "…fixados…" |
+| De sucumbência | "…ou de sucumbência" |
+
+Todos eles têm natureza alimentar, gozam dos privilégios trabalhistas e estão protegidos em **qualquer modalidade de concurso de credores** — locução mais ampla do que a do CPC, que falava apenas em "privilégios dos créditos oriundos da legislação do trabalho".
+
+> **Ponto de atenção prático:** a Lei 15.472 entrou em vigor em 22/07/2026. Para honorários contratuais em discussão antes dessa data, o advogado ainda dependerá da construção interpretativa sobre o art. 85, § 14, CPC. Para os fatos posteriores, a literalidade do EOAB resolve a questão.
+
+---
+
+### 2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+
+Conforme a **CLT, art. 791-A, *caput***, a faixa é:
+
+- **Mínimo:** 5%
+- **Máximo:** 15%
+
+A base de cálculo obedece a seguinte ordem de preferência, conforme o texto:
+
+1. Valor resultante da **liquidação da sentença**;
+2. **Proveito econômico** obtido; ou
+3. Não sendo possível mensurá-lo: **valor atualizado da causa**.
+
+---
+
+### 3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+
+**Resposta direta, com precisão técnico-normativa: depende do que se entende por "obrigar".**
+
+Há uma tensão interna no próprio documento que precisa ser destacada:
+
+**a) Quanto ao nome do ato:** o instrumento é uma ***Recomendação***, e não um Provimento, uma Resolução ou um ato normativo com força de norma cogente. Recomendações do Conselho Federal da OAB são, por natureza, atos de orientação e diretriz — não criam deveres disciplinarmente exigíveis de forma autônoma.
+
+**b) Mas o texto interno usa a palavra "obrigatória":** o item **4.3.4** afirma literalmente:
+
+> *"A formalização mencionada neste artigo **será obrigatória** em qualquer fase da prestação de serviços em que o advogado decida utilizar a IA…"*
+
+E o item **4.3.1** determina que o cliente deve dar consentimento informado **"por meio de assinatura do referido documento"**.
+
+**Conclusão:** o texto da Recomendação **diz** que a formalização com assinatura é obrigatória. Contudo, a eficácia vinculante desse enunciado é limitada pela natureza jurídica do ato que o veicula. A resposta honesta é: **o instrumento recomenda com linguagem de obrigação, mas não tem, por si só, força normativa equivalente a um Provimento**.
+
+---
+
+### 4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+
+**Não diretamente — a Recomendação não é instrumento punitivo.**
+
+Pelos textos fornecidos, não há em nenhum trecho da Recomendação 001/2024 previsão de **sanção disciplinar** para o caso de descumprimento. Punição na advocacia exige base no **Código de Ética e Disciplina** ou no **EOAB** — não em Recomendações.
+
+Entretanto, há um risco indireto que os textos permitem visualizar:
+
+- Se você usar IA sem o termo e, como consequência, expor dados sensíveis do cliente, violar sigilo profissional ou induzir o cliente a erro com peça equivocada gerada por IA **sem revisão declarada**, a punição poderá vir **dessas violações autônomas** (sigilo, dever de diligência, etc.), e não da Recomendação em si.
+- A ausência do termo pode ser usada como **elemento de prova** de que o advogado não adotou as cautelas mínimas reconhecidas pelo próprio Conselho Federal da OAB.
+
+> **Resumo:** a Recomendação não pune. Quem pune é o CED. Mas descumprir a Recomendação pode facilitar a configuração de infrações previstas em outras normas.
+
+---
+
+### 5. O que o termo de uso de IA deve conter?
+
+Conforme o **item 4.2.1** da Recomendação, o documento escrito deve explicar, com **linguagem clara e acessível**, os seguintes cinco elementos:
+
+| # | Conteúdo exigido |
+|---|---|
+| **I** | O **propósito** do uso de IA na defesa dos direitos do cliente |
+| **II** | Os **benefícios e limitações** da tecnologia aplicada ao **caso específico** |
+| **III** | Os **possíveis riscos** envolvidos — precisão das informações geradas e exposição de dados |
+| **IV** | As **medidas de segurança e confidencialidade** adotadas para proteger informações sensíveis |
+| **V** | A possibilidade de **revisão humana** sobre os resultados obtidos pelas ferramentas de IA |
+
+Além do conteúdo, o **item 4.3.1** exige que o cliente expresse **consentimento informado de forma explícita**, por meio de **assinatura** do documento.
+
+E o **item 4.3.4** estabelece que essa formalização é exigida **em qualquer fase** da prestação em que a IA for utilizada — elaboração de peças, pesquisa legal, análise de documentos ou qualquer outra atividade relacionada.
+
+> **Nota de completude:** o item **4.3.2** determina que, se o cliente **recusar** o uso de IA, o advogado deve respeitar essa decisão e informar sobre **alternativas tecnológicas ou manuais**. Faz sentido incluir no próprio termo um campo para essa recusa, com ciência das alternativas.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora faça o termo de uso de IA para o Cliente A assinar, com os cinco itens do 4.2.1 (colados acima) e o consentimento por assinatura.
+--- IA:
+# TERMO DE INFORMAÇÃO E CONSENTIMENTO
+### Uso de Inteligência Artificial na Prestação de Serviços Advocatícios
+
+---
+
+**ADVOGADO:** [Nome completo], inscrito na OAB/ZZ n.º [___], com escritório à [endereço], doravante denominado **ADVOGADO**.
+
+**CLIENTE:** [Nome completo do Cliente A], CPF n.º [___], residente à [endereço], doravante denominado **CLIENTE**.
+
+**PROCESSO/CAUSA:** Ação de indenização contra **Empresa-B** em razão de vício em produto (sofá), a ser ajuizada perante a Comarca-X — e qualquer outra fase ou atividade relacionada à prestação dos serviços advocatícios contratados.
+
+---
+
+Antes de assinar este termo, o CLIENTE tem o direito de lê-lo com calma, fazer perguntas ao ADVOGADO e recusar o uso da tecnologia aqui descrita. Este documento foi elaborado em linguagem simples para que o CLIENTE compreenda exatamente o que está sendo proposto.
+
+---
+
+## I. PARA QUE O ADVOGADO QUER USAR INTELIGÊNCIA ARTIFICIAL?
+
+O ADVOGADO poderá utilizar ferramentas de **Inteligência Artificial generativa** (IA) — programas de computador que produzem textos, análises e pesquisas de forma automatizada — como apoio técnico na prestação dos serviços advocatícios contratados.
+
+Os usos previstos incluem, entre outros:
+
+- Pesquisa de legislação, jurisprudência e doutrina;
+- Auxílio na elaboração de rascunhos de petições, pareceres e outros documentos jurídicos;
+- Organização e análise de documentos do caso; e
+- Revisão de textos jurídicos.
+
+**O ADVOGADO permanece responsável por todo e qualquer documento ou ato praticado em nome do CLIENTE.** A IA é uma ferramenta de apoio — não substitui o julgamento, a decisão e a assinatura do ADVOGADO.
+
+---
+
+## II. QUAIS SÃO OS BENEFÍCIOS E AS LIMITAÇÕES PARA ESTE CASO?
+
+**Benefícios esperados:**
+
+- Maior agilidade na pesquisa de precedentes judiciais relevantes para a causa do CLIENTE junto à Empresa-B;
+- Redução do tempo de elaboração de rascunhos, permitindo mais dedicação à estratégia do caso;
+- Acesso rápido a grande volume de informações jurídicas atualizadas.
+
+**Limitações que o CLIENTE deve conhecer:**
+
+- Ferramentas de IA podem cometer erros, incluindo a geração de informações imprecisas, desatualizadas ou, em casos extremos, inventadas (fenômeno conhecido como *alucinação*);
+- A IA não conhece os detalhes pessoais e humanos do caso do CLIENTE — apenas o ADVOGADO detém essa visão completa;
+- A IA não substitui o raciocínio jurídico estratégico nem a experiência profissional do ADVOGADO;
+- O resultado do uso da IA depende da qualidade das instruções fornecidas e da revisão humana posterior.
+
+---
+
+## III. QUAIS SÃO OS RISCOS?
+
+O CLIENTE deve estar ciente dos seguintes riscos principais:
+
+**a) Precisão das informações:**
+Textos gerados por IA podem conter erros jurídicos, citar normas desatualizadas ou apresentar interpretações equivocadas. Por isso, **todo resultado produzido pela IA será revisado pelo ADVOGADO antes de qualquer uso**.
+
+**b) Exposição de dados:**
+Para usar ferramentas de IA, pode ser necessário inserir informações relacionadas ao caso em plataformas digitais. Isso cria um risco de que dados pessoais ou sensíveis do CLIENTE sejam processados por servidores de terceiros. O ADVOGADO adotará as medidas descritas no item IV para minimizar esse risco.
+
+**c) Dependência de infraestrutura externa:**
+Ferramentas de IA dependem de empresas e servidores externos. O ADVOGADO não controla eventuais falhas, mudanças de política ou interrupções dessas plataformas.
+
+---
+
+## IV. COMO O ADVOGADO VAI PROTEGER AS INFORMAÇÕES DO CLIENTE?
+
+O ADVOGADO se compromete a adotar as seguintes medidas de segurança e confidencialidade:
+
+1. **Anonimização:** sempre que possível, os dados identificadores do CLIENTE (nome, CPF, endereço, etc.) serão substituídos por termos genéricos antes de inserir qualquer informação em ferramentas de IA;
+
+2. **Seleção de ferramentas:** serão utilizadas apenas plataformas que ofereçam políticas de privacidade e confidencialidade compatíveis com o sigilo profissional do advogado;
+
+3. **Proibição de armazenamento:** o ADVOGADO não utilizará ferramentas de IA configuradas para armazenar, compartilhar ou reutilizar os dados do CLIENTE para treinamento de modelos ou outras finalidades;
+
+4. **Sigilo profissional:** o dever de sigilo previsto no Estatuto da Advocacia e no Código de Ética e Disciplina da OAB se estende integralmente a todas as informações tratadas com ou sem o auxílio de IA; e
+
+5. **Incidentes:** caso o ADVOGADO identifique qualquer vazamento ou uso indevido de dados do CLIENTE, comunicará o fato imediatamente.
+
+---
+
+## V. O ADVOGADO VAI REVISAR O QUE A IA PRODUZIR?
+
+**Sim, sempre.** O ADVOGADO se compromete expressamente a:
+
+- Revisar todo e qualquer conteúdo gerado por ferramentas de IA antes de utilizá-lo em qualquer peça ou ato do processo;
+- Verificar a veracidade das informações, das citações legais e dos precedentes jurisprudenciais indicados pela IA;
+- Corrigir ou descartar qualquer resultado que não atenda aos padrões técnicos e éticos exigidos; e
+- Assinar pessoalmente todos os documentos apresentados em nome do CLIENTE, assumindo integral responsabilidade pelo conteúdo.
+
+**Nenhum documento será enviado ao juízo ou à parte contrária sem a revisão e aprovação final do ADVOGADO.**
+
+---
+
+## DECLARAÇÃO DE CONSENTIMENTO OU RECUSA
+
+*Leia com atenção e marque apenas uma das opções abaixo.*
+
+---
+
+☐ **AUTORIZO**
+
+Declaro que li e compreendi todas as informações contidas neste Termo. Fui esclarecido pelo ADVOGADO sobre os propósitos, benefícios, limitações, riscos e medidas de proteção relacionados ao uso de Inteligência Artificial na prestação dos serviços advocatícios referentes à minha causa. Com base nessas informações, **consinto expressamente** com o uso de ferramentas de IA pelo ADVOGADO, nos termos e limites aqui descritos.
+
+---
+
+☐ **NÃO AUTORIZO**
+
+Declaro que, após ser esclarecido sobre o uso de Inteligência Artificial, **não consinto** com sua utilização na prestação dos serviços advocatícios referentes à minha causa. Fui informado pelo ADVOGADO de que minha causa será conduzida por **métodos tradicionais e/ou outras abordagens tecnológicas que não envolvem IA generativa**, sem qualquer prejuízo à qualidade do meu patrocínio.
+
+---
+
+**Este termo é válido para todas as fases da prestação de serviços advocatícios em que o ADVOGADO decida utilizar IA**, incluindo elaboração de peças jurídicas, pesquisa legal, análise de documentos e quaisquer outras atividades relacionadas à defesa do CLIENTE, conforme estabelece a Recomendação n.º 001/2024 do Conselho Federal da OAB.
+
+---
+
+Comarca-X, [___] de [_________________] de 2026.
+
+&nbsp;
+
+___________________________________________
+**[Nome completo do CLIENTE — Cliente A]**
+CPF: [___]
+
+&nbsp;
+
+___________________________________________
+**[Nome completo do ADVOGADO]**
+OAB/ZZ n.º [___]
+
+&nbsp;
+
+**Testemunhas** *(facultativo, mas recomendável para reforço probatório):*
+
+1) _____________________________ CPF: _______________
+
+2) _____________________________ CPF: _______________
+
+---
+
+> **Notas para o advogado (não integram o termo):**
+> 1. **Atualização:** se você passar a usar uma ferramenta de IA diferente ou ampliar os usos previstos, formalize um termo aditivo — o item 4.3.4 da Recomendação exige formalização em **qualquer fase** em que a IA for adotada.
+> 2. **Arquivo:** guarde o termo assinado junto aos documentos do processo; ele pode ser necessário como prova de diligência em eventual processo disciplinar.
+> 3. **Recusa:** se o CLIENTE marcar "não autorizo", não use IA — nem mesmo para rascunho interno que depois você reescreva. A Recomendação (item 4.3.2) é clara: respeite a decisão.
+> 4. **Este termo não substitui a cláusula de sigilo e proteção de dados** que pode ser exigida pela LGPD (Lei 13.709/2018) dependendo das ferramentas utilizadas.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t05-C3 — prompt do capítulo
+### 2026-10-13 10:20 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, Cliente A, quer me contratar para uma ação de indenização contra uma loja, a Empresa-B, por causa de um sofá que veio com defeito. A ação é em 1º grau, aqui em Comarca-X. Ele me disse: "quero pagar o mesmo valor que o advogado do vizinho cobrou, só no êxito". Faça a minuta do contrato de honorários.
+
+Código de Ética e Disciplina da OAB (2015), art. 48, § 1º: "O contrato de prestação de serviços de advocacia não exige forma especial, devendo estabelecer, porém, com clareza e precisão, o seu objeto, os honorários ajustados, a forma de pagamento, a extensão do patrocínio, esclarecendo se este abrangerá todos os atos do processo ou limitar-se-á a determinado grau de jurisdição, além de dispor sobre a hipótese de a causa encerrar-se mediante transação ou acordo."
+
+Tabela de honorários da seccional (trecho; seccional fictícia, OAB/ZZ, tabela de 2026): "Ação de indenização, procedimento comum, 1º grau: 20% sobre o proveito econômico obtido pelo cliente; mínimo de R$ 2.500,00."
+
+Minute o contrato com objeto, honorários, forma de pagamento, extensão do patrocínio e o que acontece se houver acordo; êxito com percentual e base; sem promessa de resultado.
+--- IA:
+# MINUTA — CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS
+
+---
+
+> **Nota prévia sobre o pedido do cliente**
+> Cliente A solicitou que os honorários seguissem "o mesmo valor que o advogado do vizinho cobrou". Esse critério não pode figurar no contrato: é indeterminado e viola a exigência de **clareza e precisão** do art. 48, §1º do CED/OAB. A minuta abaixo adota, em substituição, o percentual da Tabela de Honorários OAB/ZZ 2026, que cumpre o mesmo propósito (êxito, percentual único, sem antecipação) e oferece base verificável. Recomendo explicar esse ponto ao cliente antes da assinatura.
+
+---
+
+## CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS
+
+**CONTRATANTE:** [Nome completo de Cliente A], [estado civil], [profissão], portador do CPF n.º [___], RG n.º [___], residente e domiciliado em [endereço completo], Comarca-X.
+
+**CONTRATADO:** [Nome completo do advogado], inscrito na OAB/ZZ sob n.º [___], com escritório profissional situado em [endereço completo], Comarca-X.
+
+As partes acima identificadas celebram o presente contrato de honorários advocatícios, regido pelo Estatuto da Advocacia e da OAB (Lei n.º 8.906/1994), pelo Código de Ética e Disciplina da OAB (Resolução CFOAB n.º 02/2015) e pelo Código Civil, nos termos e condições a seguir.
+
+---
+
+### CLÁUSULA 1 — OBJETO
+
+**1.1** O CONTRATADO compromete-se a prestar serviços de advocacia ao CONTRATANTE no **patrocínio de ação de indenização** a ser proposta em face de **Empresa-B**, em razão de vício (defeito) apresentado em sofá adquirido pelo CONTRATANTE, com fundamento no Código de Defesa do Consumidor e demais normas aplicáveis.
+
+**1.2** O patrocínio abrangerá todos os atos processuais necessários ao trâmite do feito **perante o juízo de 1º grau da Comarca-X**, incluindo, sem limitação: elaboração e ajuizamento da petição inicial, acompanhamento de audiências, produção de provas, impugnações, memoriais e sustentação oral, até o trânsito em julgado da sentença de 1º grau ou encerramento anterior do processo.
+
+**1.3** Eventual atuação em **2º grau de jurisdição ou instâncias superiores** — seja por recurso do CONTRATANTE, seja em razão de recurso da parte contrária — **não está compreendida** neste contrato, devendo ser objeto de ajuste complementar por escrito, com novos honorários a serem convencionados entre as partes.
+
+**1.4** O CONTRATADO não está obrigado, por este instrumento, a representar o CONTRATANTE em execução de sentença, cumprimento de sentença ou qualquer fase de execução do título judicial eventualmente obtido, salvo ajuste expresso em sentido contrário.
+
+---
+
+### CLÁUSULA 2 — HONORÁRIOS ADVOCATÍCIOS
+
+**2.1 Modalidade.** Os honorários são ajustados **exclusivamente na modalidade de êxito**, razão pela qual nenhum valor será devido pelo CONTRATANTE em caso de resultado desfavorável na fase de conhecimento perante o 1º grau, ressalvado o disposto nas Cláusulas 3 (acordo) e 5 (despesas).
+
+**2.2 Percentual e base de cálculo.** Obtido resultado favorável ao CONTRATANTE, os honorários corresponderão a **20% (vinte por cento) sobre o proveito econômico efetivamente obtido**, nos termos da Tabela de Honorários Advocatícios da OAB/ZZ, edição de 2026, para ações de indenização pelo procedimento comum em 1º grau.
+
+**2.3 Valor mínimo.** Independentemente do valor do proveito econômico apurado, o montante dos honorários não será inferior a **R$ 2.500,00 (dois mil e quinhentos reais)**.
+
+**2.4 Proveito econômico.** Para os fins desta cláusula, entende-se por proveito econômico obtido a soma efetivamente reconhecida ao CONTRATANTE pela sentença ou pelo acordo homologado judicialmente, incluindo danos materiais, danos morais e quaisquer outros valores concedidos, excluídas tão somente as verbas de sucumbência fixadas em favor do CONTRATADO (honorários sucumbenciais), que pertencem exclusivamente a este.
+
+**2.5 Honorários sucumbenciais.** Os honorários fixados pelo juízo em desfavor da parte adversa, nos termos do art. 85 do CPC, pertencem **exclusivamente ao CONTRATADO** e não se compensam, abatam ou confundem com os honorários contratados neste instrumento.
+
+---
+
+### CLÁUSULA 3 — ENCERRAMENTO POR TRANSAÇÃO OU ACORDO
+
+**3.1** Na hipótese de a causa encerrar-se mediante **transação, conciliação ou acordo extrajudicial ou judicial**, a qualquer tempo durante o patrocínio, os honorários serão devidos sobre o **valor total obtido pelo CONTRATANTE no acordo**, aplicando-se igualmente o percentual de 20% e o valor mínimo de R$ 2.500,00 previstos na Cláusula 2.
+
+**3.2** O CONTRATANTE obriga-se a comunicar ao CONTRATADO, **imediatamente e por escrito**, qualquer proposta de acordo recebida direta ou indiretamente da parte adversa, abstendo-se de celebrar qualquer transação sem prévia ciência e concordância do CONTRATADO.
+
+**3.3** A celebração de acordo sem a participação ou sem a prévia comunicação ao CONTRATADO, nos termos da subcláusula anterior, não desobriga o CONTRATANTE do pagamento dos honorários, que serão apurados sobre o valor do acordo ou, na impossibilidade de apuração, sobre o valor originalmente atribuído à causa.
+
+---
+
+### CLÁUSULA 4 — FORMA E PRAZO DE PAGAMENTO
+
+**4.1** Os honorários de êxito serão exigíveis e devidos pelo CONTRATANTE no prazo de **10 (dez) dias úteis** contados da ocorrência de qualquer dos seguintes eventos, o que ocorrer primeiro:
+
+- (a) trânsito em julgado da sentença favorável ao CONTRATANTE;
+- (b) homologação judicial do acordo;
+- (c) pagamento voluntário pelo devedor do valor reconhecido; ou
+- (d) levantamento pelo CONTRATANTE de qualquer valor depositado em juízo.
+
+**4.2** O pagamento será realizado por [transferência bancária — dados a preencher / PIX / cheque nominal], mediante emissão de recibo pelo CONTRATADO.
+
+**4.3** O atraso no pagamento sujeitará o valor em aberto à atualização pelo **IPCA** desde o vencimento, acrescido de multa moratória de **2%** e juros de mora de **1% ao mês**, nos termos do art. 406 do Código Civil.
+
+---
+
+### CLÁUSULA 5 — DESPESAS PROCESSUAIS
+
+**5.1** As custas judiciais, honorários periciais, despesas com diligências, emolumentos cartorários e demais **despesas processuais** são de responsabilidade exclusiva do CONTRATANTE, não estando incluídas nos honorários advocatícios.
+
+**5.2** O CONTRATADO antecipará despesas apenas se expressamente autorizado pelo CONTRATANTE por escrito, hipótese em que o reembolso integral será devido no prazo de 5 (cinco) dias úteis da solicitação, independentemente do resultado da causa.
+
+---
+
+### CLÁUSULA 6 — AUSÊNCIA DE GARANTIA DE RESULTADO
+
+**6.1** O CONTRATADO obriga-se a empregar todos os conhecimentos técnicos e o zelo profissional necessários ao patrocínio da causa, cumprindo os deveres do art. 2º do CED/OAB. **Não há, neste contrato ou fora dele, qualquer promessa, garantia ou assunção de responsabilidade quanto ao resultado final do processo**, que depende de valoração judicial alheia à vontade das partes.
+
+---
+
+### CLÁUSULA 7 — OBRIGAÇÕES DO CONTRATANTE
+
+**7.1** O CONTRATANTE compromete-se a:
+
+- (a) fornecer ao CONTRATADO, tempestivamente, todos os documentos, informações e esclarecimentos necessários ao patrocínio;
+- (b) comparecer às audiências para as quais for intimado ou notificado;
+- (c) manter seus dados de contato (endereço, telefone, e-mail) atualizados perante o CONTRATADO;
+- (d) comunicar imediatamente qualquer contato direto da parte adversa ou de seus representantes.
+
+---
+
+### CLÁUSULA 8 — RESCISÃO
+
+**8.1** O contrato poderá ser rescindido por qualquer das partes mediante **notificação escrita com antecedência mínima de 10 (dez) dias**, respeitados os deveres de lealdade e os prazos processuais em curso.
+
+**8.2** Em caso de rescisão por iniciativa do CONTRATANTE sem justo motivo, ou por ato unilateral imputável a ele, serão devidos honorários proporcionais aos serviços efetivamente prestados até a data da rescisão, apurados conforme a Tabela OAB/ZZ 2026, sem prejuízo do ressarcimento de despesas.
+
+**8.3** Em caso de rescisão por iniciativa do CONTRATADO sem justo motivo, este adotará todas as providências necessárias para não prejudicar o CONTRATANTE, nos termos do art. 17 do CED/OAB.
+
+---
+
+### CLÁUSULA 9 — DISPOSIÇÕES GERAIS
+
+**9.1** O presente contrato é regido pelas leis brasileiras, pelo Estatuto da OAB e pelo CED/OAB.
+
+**9.2** Fica eleito o foro da **Comarca-X** para dirimir quaisquer controvérsias oriundas deste contrato, com renúncia expressa a qualquer outro, por mais privilegiado que seja.
+
+**9.3** Este instrumento é firmado em **2 (duas) vias** de igual teor e forma, ficando uma via com cada parte.
+
+---
+
+Comarca-X, [dia] de [mês] de 2026.
+
+&nbsp;
+
+_______________________________________________
+**CONTRATANTE** — Cliente A
+CPF: [___]
+
+&nbsp;
+
+_______________________________________________
+**CONTRATADO** — [Nome do Advogado]
+OAB/ZZ n.º [___]
+
+&nbsp;
+
+**TESTEMUNHAS:**
+
+1. _____________________________ CPF: [___]
+2. _____________________________ CPF: [___]
+
+---
+
+## Pontos que merecem atenção antes de assinar
+
+| Ponto | Observação |
+|---|---|
+| **"Mesmo valor do vizinho"** | Substituído pelo critério da Tabela OAB/ZZ (20% / mín. R$ 2.500). Explique ao cliente que o contrato precisa de base objetiva. |
+| **Grau de jurisdição** | A Cláusula 1.3 deixa claro que o contrato cobre só o 1º grau. Se o cliente quiser incluir o 2º grau desde já, inclua nova cláusula com percentual adicional. |
+| **Sucumbência × honorários contratuais** | A Cláusula 2.5 é essencial: deixa claro que os honorários sucumbenciais pertencem ao advogado e não abatam o contratual. |
+| **Acordo sem aviso** | A Cláusula 3.2–3.3 protege o advogado caso o cliente tente encerrar o caso às suas costas. |
+| **Despesas** | Cláusula 5 separa claramente honorários de custas — evita conflito futuro sobre quem paga o perito, por exemplo. |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora me responda, uma por uma:
+1. Os honorários contratuais têm natureza alimentar?
+2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+5. O que o termo de uso de IA deve conter?
+
+Responda com base nos textos colados abaixo, copiados do site do Planalto e do Conselho Federal da OAB.
+
+CPC, art. 85, § 14: "Os honorários constituem direito do advogado e têm natureza alimentar, com os mesmos privilégios dos créditos oriundos da legislação do trabalho, sendo vedada a compensação em caso de sucumbência parcial."
+
+Estatuto da Advocacia (Lei 8.906/1994), art. 22, § 9º, na redação da Lei 15.472, de 21/07/2026 (DOU de 22/07/2026, em vigor na publicação): "Os honorários decorrentes da prestação de serviço profissional constituem direito dos inscritos na OAB, têm natureza alimentar e gozam dos mesmos privilégios dos créditos oriundos da legislação do trabalho, sejam eles convencionados, fixados ou arbitrados por ato judicial ou de sucumbência, sendo-lhes assegurado tratamento privilegiado em qualquer modalidade de concurso de credores."
+
+CLT, art. 791-A, caput: "Ao advogado, ainda que atue em causa própria, serão devidos honorários de sucumbência, fixados entre o mínimo de 5% (cinco por cento) e o máximo de 15% (quinze por cento) sobre o valor que resultar da liquidação da sentença, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa."
+
+"RECOMENDAÇÃO N.001/2024 - Conselho Federal da OAB. Apresenta diretrizes para orientar o uso de Inteligência Artificial generativa na Prática Jurídica." (Brasília, 11 de novembro de 2024.) Trechos:
+"4.1. Recomenda-se transparência com o cliente quanto ao uso que se pretende fazer de IA Generativa, avaliando as limitações em cada caso concreto.
+4.1.1: O advogado que optar por utilizar ferramentas ou sistemas de Inteligência Artificial na prestação de serviços advocatícios deve, previamente ao início de sua utilização, formalizar tal intenção ao cliente.
+4.2.1: A formalização deverá ser feita por meio de documento escrito, com linguagem clara e acessível, explicando:
+I. O propósito do uso de IA na defesa dos direitos do cliente.
+II. Os benefícios e limitações da tecnologia aplicada ao caso específico.
+III. Os possíveis riscos envolvidos, como a precisão das informações geradas ou a exposição de dados.
+IV. As medidas de segurança e confidencialidade adotadas para proteger as informações sensíveis do cliente.
+V. A possibilidade de revisão humana sobre os resultados obtidos pelas ferramentas de IA.
+4.3.1: O cliente deverá expressar seu consentimento informado de forma explícita, por meio de assinatura do referido documento, autorizando o advogado a proceder com o uso da tecnologia.
+4.3.2: Caso o cliente opte por não consentir com o uso de IA, o advogado deve respeitar essa decisão e informar ao cliente sobre outras abordagens tecnológicas ou manuais que poderão ser utilizadas para a defesa de seus direitos.
+4.3.4: A formalização mencionada neste artigo será obrigatória em qualquer fase da prestação de serviços em que o advogado decida utilizar a IA, seja na elaboração de peças jurídicas, pesquisa legal, análise de documentos ou qualquer outra atividade relacionada à defesa do cliente."
+--- IA:
+## Respostas — com base exclusiva nos textos fornecidos
+
+---
+
+### 1. Os honorários contratuais têm natureza alimentar?
+
+**Sim, desde 22 de julho de 2026**, com base textual expressa.
+
+O CPC, art. 85, §14, já atribuía natureza alimentar aos honorários, mas seu contexto sistemático é o capítulo da sucumbência, o que gerava discussão doutrinária e jurisprudencial sobre se a proteção alcançava os honorários *convencionados* (contratuais).
+
+Essa dúvida foi encerrada pelo **Estatuto da Advocacia, art. 22, §9º, na redação da Lei 15.472/2026**, que é explícito:
+
+> *"têm natureza alimentar e gozam dos mesmos privilégios dos créditos oriundos da legislação do trabalho, **sejam eles convencionados, fixados ou arbitrados** por ato judicial ou de sucumbência."*
+
+A palavra **"convencionados"** é o elemento decisivo: ela abrange precisamente os honorários fixados em contrato entre advogado e cliente. A lei ainda reforça com a cláusula final — *"tratamento privilegiado em qualquer modalidade de concurso de credores"* — o que tem impacto direto em falências, recuperações judiciais e execuções concorrentes.
+
+---
+
+### 2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+
+**Entre 5% e 15%**, conforme a CLT, art. 791-A, *caput*:
+
+> *"fixados entre o mínimo de 5% (cinco por cento) e o máximo de 15% (quinze por cento) sobre o valor que resultar da liquidação da sentença, do proveito econômico obtido ou, não sendo possível mensurá-lo, sobre o valor atualizado da causa."*
+
+Três observações práticas que decorrem do próprio texto:
+
+| Ponto | O que o artigo diz |
+|---|---|
+| **Base de cálculo preferencial** | Liquidação da sentença ou proveito econômico obtido |
+| **Base subsidiária** | Valor atualizado da causa (quando não é possível mensurar o proveito) |
+| **Titularidade** | "Ao advogado" — o artigo atribui ao profissional, não à parte |
+
+---
+
+### 3. A Recomendação 001/2024 da OAB me obriga a ter o termo assinado pelo cliente?
+
+**A resposta exige distinguir dois planos: o que o documento diz internamente e o que ele é normativamente.**
+
+**O que o texto diz:** sim, usa linguagem imperativa e chega a empregar a palavra "obrigatória". O item 4.1.1 diz que o advogado **"deve"** formalizar a intenção antes de usar IA; o item 4.3.1 diz que o cliente **"deverá"** expressar consentimento por assinatura; e o item 4.3.4 é o mais direto:
+
+> *"A formalização mencionada neste artigo **será obrigatória** em qualquer fase da prestação de serviços em que o advogado decida utilizar a IA."*
+
+**O que o documento é normativamente:** o próprio cabeçalho o define como **Recomendação** que *"apresenta diretrizes para orientar"* — não uma Resolução. No sistema normativo do Conselho Federal da OAB, Recomendações têm natureza orientadora, não regulamentar vinculante como as Resoluções. Há, portanto, uma **tensão interna** no documento: a ementa diz "orientar", mas o corpo usa "obrigatória."
+
+**Conclusão prática:** os textos fornecidos não permitem afirmar que existe obrigação jurídica *em sentido estrito* equiparável à de uma Resolução. O que existe é uma diretriz com linguagem imperativa, cujo descumprimento não gera, por si só, sanção disciplinar autônoma — mas pode ser usado como parâmetro em eventual processo disciplinar fundado em outros dispositivos do CED (dever de informação e lealdade com o cliente).
+
+---
+
+### 4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+
+**Não diretamente, pela Recomendação em si.**
+
+Os textos fornecidos não preveem sanção disciplinar alguma. A Recomendação 001/2024 não contém cláusula punitiva, e Recomendações do CFOAB não são o instrumento normativo adequado para criar infrações disciplinares — essa função cabe ao Estatuto da Advocacia e ao Código de Ética e Disciplina.
+
+O risco real é **indireto**: se o advogado usar IA sem informar o cliente e isso causar dano — por exemplo, uma peça com alucinação factual ou vazamento de dados sensíveis —, o descumprimento da Recomendação poderá ser invocado como evidência de violação a deveres já existentes no CED (dever de diligência, de informação, de sigilo), *esses sim* sujeitos a processo disciplinar.
+
+Resumindo o que os textos permitem concluir:
+
+| Fundamento | Cria punição pelo não uso do termo? |
+|---|---|
+| Recomendação 001/2024 | **Não** — não contém sanção |
+| CPC art. 85, §14 | Não trata do tema |
+| Estatuto art. 22, §9º | Não trata do tema |
+| CLT art. 791-A | Não trata do tema |
+
+---
+
+### 5. O que o termo de uso de IA deve conter?
+
+O item **4.2.1** da Recomendação lista cinco elementos obrigatórios, em linguagem clara e acessível:
+
+| Inciso | Conteúdo exigido |
+|---|---|
+| **I** | O **propósito** do uso de IA na defesa dos direitos do cliente |
+| **II** | Os **benefícios e limitações** da tecnologia aplicada ao caso específico |
+| **III** | Os **possíveis riscos** — precisão das informações geradas e exposição de dados |
+| **IV** | As **medidas de segurança e confidencialidade** adotadas para proteger informações sensíveis |
+| **V** | A possibilidade de **revisão humana** sobre os resultados obtidos pelas ferramentas de IA |
+
+Além do conteúdo, o item **4.3.1** exige que o documento contenha a **assinatura do cliente** expressando consentimento informado de forma explícita; e o item **4.3.2** impõe ao advogado o dever de, caso o cliente recuse, informá-lo sobre *"outras abordagens tecnológicas ou manuais"* disponíveis para a defesa.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora faça o termo de uso de IA para o Cliente A assinar, com os cinco itens do 4.2.1 (colados acima) e o consentimento por assinatura.
+--- IA:
+# TERMO DE CONSENTIMENTO INFORMADO PARA USO DE INTELIGÊNCIA ARTIFICIAL
+
+---
+
+**ADVOGADO:** [Nome completo], OAB/ZZ n.º [___]
+**CLIENTE:** Cliente A, CPF n.º [___]
+**PROCESSO/CASO:** Ação de indenização em face de Empresa-B — 1º grau, Comarca-X
+**DATA:** [___] de [___] de 2026
+
+---
+
+Este documento é elaborado em cumprimento às diretrizes da **Recomendação n.º 001/2024 do Conselho Federal da OAB**, em linguagem clara e acessível, para que o(a) sr.(a.) possa decidir, de forma livre e informada, se autoriza ou não o uso de ferramentas de Inteligência Artificial (IA) no seu caso.
+
+Leia com atenção. Em caso de dúvida, pergunte antes de assinar.
+
+---
+
+## I — PARA QUE A IA SERÁ USADA NO SEU CASO
+
+O advogado poderá utilizar ferramentas de Inteligência Artificial generativa como **apoio interno** nas seguintes atividades relacionadas à sua causa:
+
+- pesquisa de legislação, jurisprudência e doutrina;
+- elaboração de rascunhos de petições, recursos e outros documentos jurídicos;
+- organização e análise de documentos e informações do processo;
+- revisão de textos e estruturação de argumentos jurídicos.
+
+**A IA é usada como ferramenta de trabalho do advogado, não como substituta dele.** Nenhum documento será enviado ao juízo ou a qualquer outra parte sem que o advogado o leia, revise e assine com sua responsabilidade profissional.
+
+---
+
+## II — BENEFÍCIOS E LIMITAÇÕES DA TECNOLOGIA NO SEU CASO
+
+**Benefícios que o uso da IA pode trazer:**
+
+- maior agilidade na pesquisa jurídica e na organização das informações do caso;
+- apoio na estruturação de argumentos e na revisão de textos;
+- possibilidade de dedicar mais tempo à análise estratégica e ao atendimento ao cliente.
+
+**Limitações que você precisa conhecer:**
+
+- as ferramentas de IA podem cometer erros, inclusive inventar citações de leis, artigos ou decisões judiciais que não existem — fenômeno conhecido como *alucinação*;
+- a IA não conhece os detalhes específicos do seu caso a não ser pelas informações que o advogado insere;
+- a IA não tem responsabilidade profissional nem ética: toda a responsabilidade pelo trabalho entregue ao(à) sr.(a.) e ao juízo é, exclusivamente, do advogado;
+- os resultados gerados por IA refletem padrões estatísticos de textos, e não julgamento jurídico humano.
+
+---
+
+## III — RISCOS POSSÍVEIS
+
+Os principais riscos que o uso de IA pode envolver são:
+
+**a) Precisão das informações:**
+um texto gerado por IA pode conter informações incorretas, desatualizadas ou imprecisas. Por isso, todo o conteúdo produzido com auxílio de IA será verificado pelo advogado antes de qualquer uso formal.
+
+**b) Exposição de dados:**
+ao utilizar ferramentas de IA, podem ser inseridas informações sobre o seu caso nos sistemas dessas ferramentas. Isso representa um risco potencial de acesso por terceiros ou de uso dos dados para aprimoramento dos modelos, dependendo da política de privacidade da ferramenta utilizada.
+
+O advogado se compromete a adotar as medidas descritas no item IV abaixo para reduzir esses riscos ao mínimo possível.
+
+---
+
+## IV — MEDIDAS DE SEGURANÇA E CONFIDENCIALIDADE ADOTADAS
+
+Para proteger suas informações, o advogado adotará as seguintes medidas:
+
+- utilização de ferramentas de IA que ofereçam contrato ou política de privacidade compatíveis com o sigilo profissional e com a Lei Geral de Proteção de Dados (Lei n.º 13.709/2018);
+- **não inserção de dados pessoais sensíveis** do cliente nas ferramentas de IA sempre que possível — quando necessário, os dados serão anonimizados ou substituídos por referências genéricas;
+- armazenamento dos documentos do caso em ambiente protegido por senha, com acesso restrito ao advogado e aos colaboradores diretamente envolvidos na causa;
+- não compartilhamento dos documentos ou informações do cliente com terceiros por meio das ferramentas de IA;
+- observância do sigilo profissional previsto no art. 7º, II, do Estatuto da Advocacia e no Código de Ética e Disciplina da OAB em todas as etapas do trabalho.
+
+---
+
+## V — REVISÃO HUMANA DOS RESULTADOS
+
+**Todo e qualquer conteúdo produzido com o auxílio de ferramentas de IA será obrigatoriamente revisado pelo advogado antes de ser utilizado no seu caso.**
+
+Isso significa que:
+
+- nenhuma petição, recurso, contrato ou outro documento será entregue ao juízo, à parte contrária ou ao(à) sr.(a.) sem a leitura, a correção e a assinatura do advogado;
+- o advogado é o único responsável pela qualidade técnica e pela correção de tudo que for produzido;
+- o(a) sr.(a.) pode, a qualquer momento, pedir ao advogado que explique como determinado documento foi elaborado.
+
+---
+
+## DIREITO DE RECUSAR
+
+O(a) sr.(a.) tem o direito de **não autorizar** o uso de IA no seu caso. Se preferir não autorizar, o advogado informará quais abordagens alternativas — tecnológicas ou manuais — serão utilizadas na condução da sua causa, sem prejuízo à qualidade do serviço prestado.
+
+---
+
+## DECLARAÇÃO DE CONSENTIMENTO
+
+Declaro que:
+
+1. li e compreendi todas as informações acima;
+2. tive a oportunidade de esclarecer minhas dúvidas com o advogado antes de assinar;
+3. estou ciente dos benefícios, das limitações e dos riscos do uso de Inteligência Artificial no meu caso;
+4. **autorizo** o advogado [Nome] a utilizar ferramentas de Inteligência Artificial como apoio interno na prestação dos serviços advocatícios referentes à ação de indenização em face de Empresa-B, nas condições e com as cautelas descritas neste documento.
+
+Este termo poderá ser revogado a qualquer momento, mediante comunicação escrita ao advogado.
+
+&nbsp;
+
+Comarca-X, ______ de __________________ de 2026.
+
+&nbsp;
+
+_______________________________________________
+**CLIENTE A**
+CPF: [___]
+
+&nbsp;
+
+_______________________________________________
+**[Nome do Advogado]**
+OAB/ZZ n.º [___]
+
+&nbsp;
+
+**TESTEMUNHA (facultativa):**
+
+_______________________________________________
+Nome: _________________________ CPF: [___]
+
+---
+
+> **Nota de uso:** Este termo é autônomo e pode ser assinado junto com o contrato de honorários já minutado ou em momento posterior, desde que **antes** do início do uso de IA no caso — conforme exige o item 4.1.1 da Recomendação 001/2024. Guarde uma via assinada junto aos autos do cliente.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

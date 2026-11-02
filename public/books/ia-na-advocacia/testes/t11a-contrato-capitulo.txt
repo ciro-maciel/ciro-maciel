@@ -1,0 +1,610 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t11, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t11a-C1 — contrato, do capítulo
+### 2026-10-13 09:59 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, uma empresa de manutenção predial, vai assinar este contrato com um condomínio. Dê uma olhada e me diga os riscos para ele. Cite a cláusula e a página de cada risco; o que não estiver, escreva "não consta"; não resuma documento que não foi colado; aponte dado pessoal sensível sem copiá-lo.
+
+CHECKLIST DO ESCRITÓRIO PARA REVISÃO DE CONTRATO
+1. Partes, objeto e prazo.
+2. Preço, pagamento e reajuste: há índice? há renúncia a reajuste ou a reequilíbrio?
+3. Multas e penalidades: valem para as duas partes? têm limite?
+4. Rescisão: quem pode rescindir, com que aviso e que multa.
+5. Responsabilidade, indenização e benfeitorias.
+6. Garantias e ônus: penhor, fiança, alienação, gravames.
+7. Mudança de controle, cessão e exclusividade.
+8. Contratos de trabalho: jornada, estabilidade, verbas, cláusulas fora do padrão.
+9. Dados pessoais: há dado sensível, como dado de saúde (LGPD, art. 5º, II)? Quem é o controlador, quem trata e para quê? Dado de saúde só no indispensável (LGPD, art. 11, II, "d").
+10. Foro e solução de conflitos.
+Lembrete: nos contratos civis e empresariais, "a alocação de riscos definida pelas partes deve ser respeitada e observada" e a revisão contratual "somente ocorrerá de maneira excepcional e limitada" (Código Civil, art. 421-A). Por isso o risco tem de ser achado antes de assinar.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREDIAL
+
+[Página 1 de 3]
+
+CONTRATANTE: CONDOMÍNIO RESIDENCIAL-B, com sede em Comarca-X, neste ato representado por seu síndico.
+CONTRATADA: PRESTADORA-A MANUTENÇÃO PREDIAL LTDA., com sede em Comarca-X, neste ato representada por seu sócio administrador.
+
+Cláusula 1 – Objeto. A CONTRATADA prestará ao CONDOMÍNIO serviços de manutenção preventiva e corretiva das instalações elétricas, hidráulicas, das bombas de recalque e do portão automático das duas torres do condomínio, conforme o plano de visitas do Anexo Único.
+
+Cláusula 2 – Prazo. Este contrato vigorará por 36 (trinta e seis) meses, contados da assinatura.
+
+Cláusula 3 – Preço. O CONDOMÍNIO pagará à CONTRATADA R$ 6.500,00 (seis mil e quinhentos reais) por mês, até o dia 10 do mês seguinte ao da prestação, mediante boleto.
+
+Cláusula 4 – Preço fixo. O preço da Cláusula 3 é fixo e irreajustável durante toda a vigência deste contrato, renunciando a CONTRATADA, desde já, a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos.
+
+[Página 2 de 3]
+
+Cláusula 5 – Obrigações da CONTRATADA. (a) cumprir o plano de visitas; (b) atender chamados de emergência em até 4 horas; (c) fornecer mão de obra própria, com uniforme e equipamentos de proteção; (d) manter seguro de responsabilidade civil durante a vigência.
+
+Cláusula 6 – Obrigações do CONDOMÍNIO. (a) pagar o preço no prazo da Cláusula 3; (b) dar acesso às áreas técnicas; (c) indicar um responsável para receber os relatórios mensais.
+
+Cláusula 7 – Penalidades. Pelo descumprimento de qualquer obrigação deste contrato, a CONTRATADA pagará ao CONDOMÍNIO multa de 20% (vinte por cento) do valor total do contrato, sem prejuízo das perdas e danos.
+
+Cláusula 8 – Rescisão. Qualquer das partes poderá rescindir este contrato, sem multa, mediante aviso por escrito com 60 (sessenta) dias de antecedência.
+
+Cláusula 9 – Materiais. Peças de reposição de valor superior a R$ 500,00 serão compradas pelo CONDOMÍNIO, mediante orçamento prévio apresentado pela CONTRATADA.
+
+[Página 3 de 3]
+
+Cláusula 10 – Confidencialidade. A CONTRATADA manterá sigilo sobre os dados dos condôminos a que tiver acesso em razão dos serviços.
+
+Cláusula 11 – Foro. Fica eleito o foro da Comarca-Y, distante 1.900 km da sede de ambas as partes, com renúncia a qualquer outro, por mais privilegiado que seja.
+
+Comarca-X, 05 de outubro de 2026.
+
+CONDOMÍNIO RESIDENCIAL-B — síndico
+PRESTADORA-A MANUTENÇÃO PREDIAL LTDA. — sócio administrador
+--- IA:
+# PARECER DE RISCOS — CONTRATO DE MANUTENÇÃO PREDIAL
+**Cliente:** PRESTADORA-A MANUTENÇÃO PREDIAL LTDA. (CONTRATADA)
+**Revisor:** análise sobre o texto colado pelo usuário
+**Data de referência:** 13/10/2026
+
+---
+
+## 1. PARTES, OBJETO E PRAZO
+
+| Ponto | Achado | Cláusula / Página |
+|---|---|---|
+| Partes | Identificadas sem CNPJ, CPF do representante ou poderes expressos do síndico. Se o síndico não tiver autorização assemblear, o contrato pode ser questionado. | Preâmbulo / Pág. 1 |
+| Objeto | Remete integralmente ao **Anexo Único** (plano de visitas), que **não foi colado**. O escopo real — número de visitas, frequência, sistemas cobertos por torre — depende de documento que não analisamos. Assinar sem verificar o Anexo é assinar em branco. | Cláusula 1 / Pág. 1 |
+| Prazo | 36 meses sem renovação automática nem aviso de não renovação: findo o prazo, o contrato simplesmente termina, sem direito a indenização de período restante. | Cláusula 2 / Pág. 1 |
+
+**⚠ Risco imediato:** exija o Anexo Único antes de assinar.
+
+---
+
+## 2. PREÇO, PAGAMENTO E REAJUSTE
+
+**Risco mais grave do contrato.**
+
+> **Cláusula 4, Pág. 1 — Preço fixo e irreajustável**
+
+A CONTRATADA **renuncia expressamente** a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro *"ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos"*, pelo período **integral de 36 meses**.
+
+- Em 3 anos, com inflação histórica de 4–6 % a.a., o poder de compra de R$ 6.500,00 cai de forma relevante.
+- Não há índice nenhum (nem IPCA, nem INPC), nem cláusula de reequilíbrio em caso de mudança legislativa trabalhista ou tributária.
+- A renúncia está redigida de forma amplíssima: cobre até hipóteses extraordinárias (p. ex., novo encargo previdenciário, nova NR de segurança do trabalho que exija EPI mais caro).
+- O CC, art. 421-A, consagra a alocação de riscos pelas partes — portanto, após a assinatura, a revisão judicial será **excepcional**. O risco tem de ser negociado *agora*.
+
+**Sugestão mínima:** incluir reajuste anual pelo INPC/IPCA e cláusula de reequilíbrio para variações de custo superiores a X %.
+
+---
+
+**Risco adicional — ausência de mora do CONDOMÍNIO**
+
+> **Cláusula 3 / Pág. 1 — sem contrapartida em Cláusula 7 / Pág. 2**
+
+O contrato **não prevê** multa, juros ou correção para o caso de pagamento em atraso pelo CONDOMÍNIO. A Cláusula 7 só penaliza a CONTRATADA. Se o boleto não for pago no dia 10, a CONTRATADA não tem instrumento contratual expresso além de ação de cobrança.
+
+---
+
+## 3. MULTAS E PENALIDADES
+
+**Risco de desequilíbrio severo.**
+
+> **Cláusula 7, Pág. 2**
+
+| Problema | Detalhe |
+|---|---|
+| **Assimetria total** | A multa de 20 % incide *exclusivamente* sobre a CONTRATADA. O CONDOMÍNIO não tem multa equivalente por nenhum de seus inadimplementos (falta de pagamento, negativa de acesso, etc.). |
+| **Base de cálculo = valor total do contrato** | 20 % × (R$ 6.500 × 36 meses) = **R$ 46.800,00** por qualquer descumprimento, inclusive atraso numa visita preventiva ou entrega de relatório. |
+| **Acumulação ilimitada com perdas e danos** | A cláusula diz "sem prejuízo das perdas e danos". Não há teto (cap) de responsabilidade. Uma única infração contratual pode gerar multa de R$ 46.800 + lucros cessantes + danos emergentes ilimitados. |
+| **Gatilho genérico** | "Qualquer obrigação deste contrato" inclui as obrigações do Anexo Único que ainda não foram lidas. |
+
+**Sugestão mínima:** (i) tornar a multa bilateral e proporcional; (ii) usar como base o valor **mensal**, não o total; (iii) incluir teto de responsabilidade (ex.: equivalente a 3 mensalidades); (iv) prever gradação por tipo de infração.
+
+---
+
+## 4. RESCISÃO
+
+> **Cláusula 8, Pág. 2**
+
+A cláusula parece equilibrada ("qualquer das partes, sem multa, com 60 dias"), mas apresenta dois riscos para a CONTRATADA:
+
+1. **Rescisão unilateral pelo CONDOMÍNIO sem compensação:** após a CONTRATADA investir em equipe, ferramentas e mobilização para atender as duas torres por 36 meses, o CONDOMÍNIO pode sair do contrato com apenas 60 dias de aviso e **zero indenização** pelo período restante. Não há cláusula de amortização de custos de mobilização.
+2. **Interação perigosa com a Cláusula 7:** se a CONTRATADA rescindir *sem* os 60 dias de aviso (p. ex., por inadimplência do CONDOMÍNIO), pode ser enquadrada em "descumprimento de obrigação" e acionada pela multa de R$ 46.800. O contrato não prevê rescisão motivada por inadimplência do CONTRATANTE.
+
+**Sugestão:** incluir (i) cláusula de rescisão por justa causa com efeito imediato (especialmente por falta de pagamento); (ii) indenização proporcional ao prazo não cumprido em caso de rescisão imotivada pelo CONDOMÍNIO.
+
+---
+
+## 5. RESPONSABILIDADE, INDENIZAÇÃO E BENFEITORIAS
+
+| Ponto | Achado | Cláusula / Página |
+|---|---|---|
+| Seguro obrigatório sem valor mínimo | A CONTRATADA deve manter seguro de RC durante toda a vigência, mas não há valor de cobertura mínimo definido. O CONDOMÍNIO pode exigir cobertura mais cara no futuro. | Cláusula 5(d) / Pág. 2 |
+| Atendimento de emergência em 4 horas | Sem definição de "emergência", sem limite geográfico e sem previsão de caso fortuito/força maior. Uma paralisação de estrada ou falta de peça rara pode configurar descumprimento e ativar a multa de R$ 46.800. | Cláusula 5(b) / Pág. 2 |
+| Teto de responsabilidade | **Não consta.** Danos a terceiros causados por falha do condomínio (p. ex., obra civil pré-existente) podem ser repassados à CONTRATADA sem limite. | — |
+| Benfeitorias | **Não consta.** Se a CONTRATADA realizar melhorias nas instalações, não há regra sobre propriedade, retenção ou indenização dessas benfeitorias. | — |
+| Responsabilidade trabalhista subsidiária | **Não consta** cláusula expressa de que o CONDOMÍNIO é responsável subsidiário por encargos trabalhistas de seus próprios funcionários. Ausência de blindagem para a CONTRATADA em eventuais reclamações cruzadas. | — |
+
+---
+
+## 6. GARANTIAS E ÔNUS
+
+> **Não consta** qualquer cláusula de garantia, penhor, fiança, alienação fiduciária ou gravame — nem a favor nem contra a CONTRATADA. Do ponto de vista do cliente, a ausência de garantia do CONDOMÍNIO para o pagamento é um risco em contratos de longo prazo.
+
+---
+
+## 7. MUDANÇA DE CONTROLE, CESSÃO E EXCLUSIVIDADE
+
+> **Não consta.** Riscos para a CONTRATADA:
+> - O CONDOMÍNIO pode trocar de síndico ou passar por incorporação/fusão sem que isso gere direito de rescisão ou renegociação para a CONTRATADA.
+> - A CONTRATADA não pode ceder o contrato (p. ex., em caso de reestruturação societária) sem autorização? A cláusula não existe — criando ambiguidade que o CONDOMÍNIO poderá explorar.
+> - Não há exclusividade definida: a CONTRATADA pode atender outros condomínios? Há risco latente de o CONDOMÍNIO arguir exclusividade baseado no plano de visitas do Anexo não lido.
+
+---
+
+## 8. CONTRATOS DE TRABALHO
+
+> **Cláusula 5(c), Pág. 2**
+
+A cláusula exige mão de obra própria com uniforme e EPI, mas:
+- Não há previsão de como serão tratadas eventuais reclamações trabalhistas dos empregados da CONTRATADA que apontem o CONDOMÍNIO como beneficiário (responsabilidade subsidiária, Súmula 331 do TST).
+- Não há cláusula de regresso expressa: se o CONDOMÍNIO for condenado subsidiariamente por verbas de empregado da CONTRATADA, o instrumento contratual de ressarcimento não está previsto.
+- Jornada, escalas de plantão e sobreaviso para o atendimento emergencial de 4 horas (Cláusula 5(b)) não estão descritos — criando risco de horas extras e adicional noturno não precificados.
+
+---
+
+## 9. DADOS PESSOAIS (LGPD)
+
+> **Cláusula 10, Pág. 3**
+
+⚠ **Dado pessoal identificado:** a cláusula menciona que a CONTRATADA terá acesso a "dados dos condôminos". O contrato não especifica quais dados, mas em serviços de manutenção predial é comum o acesso a unidades privativas, o que pode envolver informações de saúde (p. ex., adaptações de acessibilidade, equipamentos médicos) — **dado sensível** nos termos do art. 5º, II, da LGPD. **Não copio o dado aqui.**
+
+| Problema | Detalhe |
+|---|---|
+| Controlador e operador não definidos | O contrato não define quem é controlador e quem é operador (art. 5º, VI e VII, LGPD). A CONTRATADA pode ser enquadrada como operadora sem as proteções contratuais devidas. |
+| Finalidade não especificada | Não há descrição de quais dados, para qual finalidade e por quanto tempo. Sem isso, a CONTRATADA pode ser responsabilizada por uso excessivo. |
+| Dado sensível sem base legal expressa | Se houver dado de saúde, a LGPD exige base legal específica (art. 11, II, "d") e tratamento restrito ao indispensável. A cláusula de sigilo genérica não cobre isso. |
+| Ausência de DPA (Data Processing Agreement) | **Não consta** instrumento de operação de dados. Em caso de incidente, a responsabilidade da CONTRATADA fica indefinida. |
+| Prazo de retenção e descarte | **Não consta.** A CONTRATADA pode ficar obrigada a guardar dados indefinidamente sem saber por quanto tempo. |
+
+**Sugestão:** incluir adendo de proteção de dados definindo: papéis, finalidade, base legal, prazo de retenção, obrigações em caso de incidente e que dado sensível só será acessado se estritamente necessário.
+
+---
+
+## 10. FORO E SOLUÇÃO DE CONFLITOS
+
+> **Cláusula 11, Pág. 3 — Risco alto.**
+
+O foro eleito é **Comarca-Y, distante 1.900 km da sede de ambas as partes**, com renúncia expressa a qualquer outro foro. Isso significa:
+
+- Qualquer ação judicial (cobrança de mensalidade, defesa em ação de indenização, discussão de multa) exige deslocamento ou contratação de advogado local em outra cidade.
+- O custo de litígio sobe dramaticamente, o que inibe a CONTRATADA de se defender ou cobrar.
+- A assimetria pode ser intencional para pressionar acordos desfavoráveis.
+- Em contratos entre pessoas jurídicas, o STJ tem admitido foro de eleição mesmo distante, salvo quando evidentemente abusivo. A renúncia expressa "por mais privilegiado que seja" reforça a posição do CONDOMÍNIO.
+
+**Sugestão:** negociar a alteração para a Comarca-X, sede de ambas as partes.
+
+---
+
+## QUADRO-RESUMO DE RISCOS (por grau)
+
+| Grau | Risco | Cláusula / Pág. |
+|---|---|---|
+| 🔴 Crítico | Renúncia total a reajuste por 36 meses | Cl. 4 / Pág. 1 |
+| 🔴 Crítico | Multa de 20 % do valor total (≈ R$ 46.800) só para a CONTRATADA + perdas e danos ilimitadas | Cl. 7 / Pág. 2 |
+| 🔴 Crítico | Anexo Único não analisado — escopo real desconhecido | Cl. 1 / Pág. 1 |
+| 🟠 Alto | Foro 1.900 km distante, com renúncia expressa | Cl. 11 / Pág. 3 |
+| 🟠 Alto | Ausência de multa/juros por atraso do CONDOMÍNIO | Cl. 3 / Pág. 1 |
+| 🟠 Alto | Rescisão sem indenização pelo período restante | Cl. 8 / Pág. 2 |
+| 🟠 Alto | LGPD: papéis, finalidade e dado sensível sem definição | Cl. 10 / Pág. 3 |
+| 🟡 Médio | Atendimento emergencial em 4 h sem definição de emergência nem força maior | Cl. 5(b) / Pág. 2 |
+| 🟡 Médio | Seguro de RC sem valor mínimo definido | Cl. 5(d) / Pág. 2 |
+| 🟡 Médio | Ausência de responsabilidade trabalhista subsidiária e cláusula de regresso | Cl. 5(c) / Pág. 2 |
+| 🟡 Médio | Ausência de cláusula sobre benfeitorias | Não consta |
+| 🟡 Médio | Ausência de cláusula de cessão e mudança de controle | Não consta |
+
+---
+
+> **Nota:** este parecer é baseado exclusivamente no texto colado. O Anexo Único, eventuais documentos societários das partes e o histórico negocial não foram analisados. Recomenda-se revisão jurídica completa antes da assinatura.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t11a-C2 — contrato, do capítulo
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, uma empresa de manutenção predial, vai assinar este contrato com um condomínio. Dê uma olhada e me diga os riscos para ele. Cite a cláusula e a página de cada risco; o que não estiver, escreva "não consta"; não resuma documento que não foi colado; aponte dado pessoal sensível sem copiá-lo.
+
+CHECKLIST DO ESCRITÓRIO PARA REVISÃO DE CONTRATO
+1. Partes, objeto e prazo.
+2. Preço, pagamento e reajuste: há índice? há renúncia a reajuste ou a reequilíbrio?
+3. Multas e penalidades: valem para as duas partes? têm limite?
+4. Rescisão: quem pode rescindir, com que aviso e que multa.
+5. Responsabilidade, indenização e benfeitorias.
+6. Garantias e ônus: penhor, fiança, alienação, gravames.
+7. Mudança de controle, cessão e exclusividade.
+8. Contratos de trabalho: jornada, estabilidade, verbas, cláusulas fora do padrão.
+9. Dados pessoais: há dado sensível, como dado de saúde (LGPD, art. 5º, II)? Quem é o controlador, quem trata e para quê? Dado de saúde só no indispensável (LGPD, art. 11, II, "d").
+10. Foro e solução de conflitos.
+Lembrete: nos contratos civis e empresariais, "a alocação de riscos definida pelas partes deve ser respeitada e observada" e a revisão contratual "somente ocorrerá de maneira excepcional e limitada" (Código Civil, art. 421-A). Por isso o risco tem de ser achado antes de assinar.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREDIAL
+
+[Página 1 de 3]
+
+CONTRATANTE: CONDOMÍNIO RESIDENCIAL-B, com sede em Comarca-X, neste ato representado por seu síndico.
+CONTRATADA: PRESTADORA-A MANUTENÇÃO PREDIAL LTDA., com sede em Comarca-X, neste ato representada por seu sócio administrador.
+
+Cláusula 1 – Objeto. A CONTRATADA prestará ao CONDOMÍNIO serviços de manutenção preventiva e corretiva das instalações elétricas, hidráulicas, das bombas de recalque e do portão automático das duas torres do condomínio, conforme o plano de visitas do Anexo Único.
+
+Cláusula 2 – Prazo. Este contrato vigorará por 36 (trinta e seis) meses, contados da assinatura.
+
+Cláusula 3 – Preço. O CONDOMÍNIO pagará à CONTRATADA R$ 6.500,00 (seis mil e quinhentos reais) por mês, até o dia 10 do mês seguinte ao da prestação, mediante boleto.
+
+Cláusula 4 – Preço fixo. O preço da Cláusula 3 é fixo e irreajustável durante toda a vigência deste contrato, renunciando a CONTRATADA, desde já, a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos.
+
+[Página 2 de 3]
+
+Cláusula 5 – Obrigações da CONTRATADA. (a) cumprir o plano de visitas; (b) atender chamados de emergência em até 4 horas; (c) fornecer mão de obra própria, com uniforme e equipamentos de proteção; (d) manter seguro de responsabilidade civil durante a vigência.
+
+Cláusula 6 – Obrigações do CONDOMÍNIO. (a) pagar o preço no prazo da Cláusula 3; (b) dar acesso às áreas técnicas; (c) indicar um responsável para receber os relatórios mensais.
+
+Cláusula 7 – Penalidades. Pelo descumprimento de qualquer obrigação deste contrato, a CONTRATADA pagará ao CONDOMÍNIO multa de 20% (vinte por cento) do valor total do contrato, sem prejuízo das perdas e danos.
+
+Cláusula 8 – Rescisão. Qualquer das partes poderá rescindir este contrato, sem multa, mediante aviso por escrito com 60 (sessenta) dias de antecedência.
+
+Cláusula 9 – Materiais. Peças de reposição de valor superior a R$ 500,00 serão compradas pelo CONDOMÍNIO, mediante orçamento prévio apresentado pela CONTRATADA.
+
+[Página 3 de 3]
+
+Cláusula 10 – Confidencialidade. A CONTRATADA manterá sigilo sobre os dados dos condôminos a que tiver acesso em razão dos serviços.
+
+Cláusula 11 – Foro. Fica eleito o foro da Comarca-Y, distante 1.900 km da sede de ambas as partes, com renúncia a qualquer outro, por mais privilegiado que seja.
+
+Comarca-X, 05 de outubro de 2026.
+
+CONDOMÍNIO RESIDENCIAL-B — síndico
+PRESTADORA-A MANUTENÇÃO PREDIAL LTDA. — sócio administrador
+--- IA:
+# Parecer de Risco — Contrato de Prestação de Serviços de Manutenção Predial
+**Perspectiva: PRESTADORA-A (CONTRATADA)**
+
+---
+
+## 1. Partes, Objeto e Prazo
+
+**Risco — Anexo Único ausente**
+**Cláusula 1, página 1.**
+O objeto do contrato é definido por remissão ao "plano de visitas do Anexo Único", que não foi colado ao instrumento. Sem ele, o escopo de obrigações da CONTRATADA fica indeterminado e sujeito a disputas. O CONDOMÍNIO pode alegar que determinado serviço faz parte do plano; a CONTRATADA não terá como refutar sem o documento assinado. **Exigir a juntada do Anexo Único como condição para a assinatura.**
+
+**Risco — Prazo longo sem proteção à rescisão antecipada**
+**Cláusula 2, página 1; Cláusula 8, página 2.**
+O contrato tem 36 meses, mas qualquer das partes pode rescindir sem multa com 60 dias de aviso (veja item 4 abaixo). A CONTRATADA pode mobilizar equipe, ferramentas e insumos para o contrato e ser dispensada em 60 dias sem compensação alguma pelo período restante.
+
+---
+
+## 2. Preço, Pagamento e Reajuste
+
+**Risco CRÍTICO — Preço fixo e irreajustável com renúncia expressa**
+**Cláusula 4, página 1.**
+A CONTRATADA renuncia expressamente a "qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos." Em um contrato de 36 meses, isso significa absorver inflação de insumos, reajustes salariais de convenção coletiva, aumento de encargos trabalhistas e altas de preços de peças — sem qualquer mecanismo de repasse. O art. 421-A do Código Civil reforça que essa alocação de risco, uma vez assinada, será respeitada e a revisão será excepcional.
+
+> ⚠️ **Impacto estimado:** em 3 anos, mesmo com INPC moderado (~4% a.a.), o custo real do contrato cresce enquanto a receita permanece estática. Com acordos coletivos da categoria, a exposição pode ser ainda maior.
+
+**Risco — Inadimplência do CONDOMÍNIO sem sanção prevista**
+**Cláusula 3 e Cláusula 6(a), páginas 1–2.**
+O contrato define o prazo de pagamento (dia 10 do mês seguinte), mas não prevê multa moratória, juros ou correção monetária para o caso de atraso do CONDOMÍNIO. A assimetria é flagrante: a CONTRATADA paga 20% se descumprir qualquer obrigação (Cláusula 7); o CONDOMÍNIO não paga nada se atrasar o pagamento.
+
+---
+
+## 3. Multas e Penalidades
+
+**Risco CRÍTICO — Multa unilateral de 20% do valor total do contrato**
+**Cláusula 7, página 2.**
+
+| | CONTRATADA | CONDOMÍNIO |
+|---|---|---|
+| Multa por descumprimento | 20% do valor total | Não prevista |
+| Perdas e danos adicionais | Sim ("sem prejuízo") | Não previsto |
+
+- **Valor total do contrato:** 36 × R$ 6.500,00 = **R$ 234.000,00**
+- **Multa calculada:** **R$ 46.800,00** — por **qualquer** descumprimento, ainda que mínimo (um atraso no chamado de emergência, por exemplo)
+
+A cláusula não distingue gravidade do inadimplemento nem estabelece gradação. Um atraso de 1 hora no chamado de emergência, em tese, aciona o mesmo valor que um abandono total do contrato.
+
+**Risco — Responsabilidade ilimitada**
+**Cláusula 7, página 2.**
+A expressão "sem prejuízo das perdas e danos" abre responsabilidade ilimitada além da multa. Não há cláusula de cap de responsabilidade (teto de indenização). Recomenda-se incluir limitação da responsabilidade total ao valor anual do contrato.
+
+---
+
+## 4. Rescisão
+
+**Risco — Rescisão imotivada sem indenização**
+**Cláusula 8, página 2.**
+Qualquer das partes pode rescindir sem multa com 60 dias de aviso. Para a CONTRATADA, isso significa que, mesmo tendo investido em equipe, ferramentas e logística para atender o contrato por 36 meses, pode ser dispensada a qualquer momento com apenas 2 meses de receita garantida. Não há:
+- Multa proporcional ao tempo restante;
+- Indenização por desmobilização;
+- Cláusula de estabilidade mínima (ex.: impossibilidade de rescisão nos primeiros 12 meses).
+
+---
+
+## 5. Responsabilidade, Indenização e Benfeitorias
+
+**Risco — Ausência de cláusula de limitação de responsabilidade**
+**Não consta.**
+Não há teto de indenização, excludentes de responsabilidade por caso fortuito/força maior, nem definição de responsabilidade por defeitos pré-existentes nas instalações. Se um equipamento já danificado causar um sinistro, a CONTRATADA pode ser responsabilizada sem que haja prova de que o defeito existia antes de sua intervenção.
+
+**Risco — Seguro sem valor mínimo definido**
+**Cláusula 5(d), página 2.**
+A CONTRATADA é obrigada a manter seguro de responsabilidade civil, mas o contrato não define o valor mínimo de cobertura. O CONDOMÍNIO pode, no futuro, arguir que a apólice contratada é insuficiente.
+
+**Risco — Ausência de cláusula de indenidade trabalhista**
+**Cláusula 5(c), página 2.**
+A CONTRATADA deve fornecer mão de obra própria, mas não há cláusula obrigando o CONDOMÍNIO a notificá-la de reclamações trabalhistas e a ser indenizado por eventual condenação solidária. Em fiscalizações do trabalho ou ações trabalhistas, o CONDOMÍNIO pode ser condenado solidariamente e buscar regresso contra a CONTRATADA sem que haja regra contratual clara sobre isso.
+
+---
+
+## 6. Garantias e Ônus
+
+**Não consta** nenhuma cláusula sobre penhor, fiança, alienação fiduciária ou outros gravames exigidos da CONTRATADA.
+
+---
+
+## 7. Mudança de Controle, Cessão e Exclusividade
+
+**Não consta** cláusula sobre cessão do contrato, mudança de controle societário ou exclusividade. A ausência de cláusula de cessão significa que o CONDOMÍNIO poderia, em tese, ceder o contrato a outro condomínio sem consentimento da CONTRATADA — embora isso seja questionável à luz do art. 286 do Código Civil para obrigações personalíssimas.
+
+---
+
+## 8. Contratos de Trabalho
+
+**Risco — Cláusula 5(c) cria obrigação de pessoal próprio sem proteção correlata**
+**Cláusula 5(c), página 2.**
+A exigência de mão de obra própria é padrão, mas sem cláusula de indenidade (item 5 acima) e sem regra sobre substituição de empregados por exigência do CONDOMÍNIO, a CONTRATADA fica exposta a demandas de transferência, substituição ou exclusão de funcionários sem amparo contratual.
+
+**Não constam** cláusulas sobre jornada especial, sobreaviso, estabilidade de empregados alocados ou verbas rescisórias em caso de término do contrato.
+
+---
+
+## 9. Dados Pessoais (LGPD)
+
+**Risco — Cláusula de confidencialidade genérica sem conformidade com a LGPD**
+**Cláusula 10, página 3.**
+A cláusula menciona "dados dos condôminos" sem:
+- Identificar quais dados serão acessados;
+- Definir se a CONTRATADA é **operadora** (art. 5º, VII, LGPD) ou apenas tem acesso incidental;
+- Estabelecer base legal para o tratamento (art. 7º ou art. 11, LGPD);
+- Prever medidas técnicas e organizacionais de segurança (art. 46, LGPD);
+- Definir prazo de retenção e descarte (art. 16, LGPD).
+
+⚠️ **Dado sensível:** "dados dos condôminos" pode incluir dado de saúde (ex.: moradores idosos, pessoas com deficiência, acesso a elevadores adaptados). Dado de saúde é dado sensível (LGPD, art. 5º, II) e só pode ser tratado nas hipóteses do art. 11, II — a cláusula não estabelece essa limitação. **Aponto a existência da categoria de dado sensível sem copiar qualquer dado concreto do contrato**, pois não há dado identificado no instrumento.
+
+---
+
+## 10. Foro e Solução de Conflitos
+
+**Risco CRÍTICO — Foro a 1.900 km de ambas as partes**
+**Cláusula 11, página 3.**
+O foro eleito é Comarca-Y, **a 1.900 km da sede de ambas as partes**, com renúncia expressa a qualquer outro foro "por mais privilegiado que seja." Para a CONTRATADA, qualquer litígio — inclusive cobrar pagamentos em atraso — exigirá contratação de advogado em outra cidade e deslocamento de testemunhas e preposto. O custo do processo pode inviabilizar a defesa de créditos de menor valor.
+
+> Fundamento para impugnação: o STJ admite a nulidade de cláusula de eleição de foro quando cria dificuldade excessiva ao exercício do direito de ação (Súmula 335 do STF aplica-se ao foro de domicílio do réu; em relações civis, a jurisprudência admite afastamento de foro abusivo). **Propor substituição pelo foro da Comarca-X, sede de ambas as partes.**
+
+---
+
+## Resumo dos Riscos por Criticidade
+
+| Criticidade | Item | Cláusula | Página |
+|---|---|---|---|
+| 🔴 CRÍTICO | Preço fixo com renúncia a reajuste/reequilíbrio por 36 meses | Cláusula 4 | 1 |
+| 🔴 CRÍTICO | Multa de 20% do total (≈ R$ 46.800) só contra a CONTRATADA, para qualquer descumprimento | Cláusula 7 | 2 |
+| 🔴 CRÍTICO | Foro a 1.900 km com renúncia expressa | Cláusula 11 | 3 |
+| 🟠 ALTO | Rescisão imotivada sem multa ou indenização por desmobilização | Cláusula 8 | 2 |
+| 🟠 ALTO | Sem multa/juros para inadimplência do CONDOMÍNIO | Cláusulas 3 e 6 | 1–2 |
+| 🟠 ALTO | Sem cap de responsabilidade (perdas e danos ilimitados) | Cláusula 7 | 2 |
+| 🟡 MÉDIO | Anexo Único não juntado ao contrato | Cláusula 1 | 1 |
+| 🟡 MÉDIO | Seguro sem valor mínimo definido | Cláusula 5(d) | 2 |
+| 🟡 MÉDIO | Cláusula de dados pessoais sem conformidade LGPD | Cláusula 10 | 3 |
+| 🟡 MÉDIO | Ausência de indenidade trabalhista | Cláusula 5(c) | 2 |
+| 🟢 BAIXO | Cessão e mudança de controle | Não consta | — |
+| 🟢 BAIXO | Garantias e ônus | Não consta | — |
+
+---
+
+> **Recomendação geral:** os riscos das Cláusulas 4, 7 e 11 são, isoladamente, suficientes para recomendar a não assinatura do contrato no estado atual. A renegociação deve priorizar: (i) inclusão de índice de reajuste anual (INPC ou IPCA); (ii) simetria das penalidades; (iii) substituição do foro para Comarca-X; e (iv) inclusão de multa proporcional em caso de rescisão antecipada pelo CONDOMÍNIO.
+
+*Este parecer não substitui a consulta ao advogado responsável pela conta, que deverá verificar legislação superveniente, cláusulas do Anexo Único e circunstâncias específicas do negócio.*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t11a-C3 — contrato, do capítulo
+### 2026-10-13 10:02 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, uma empresa de manutenção predial, vai assinar este contrato com um condomínio. Dê uma olhada e me diga os riscos para ele. Cite a cláusula e a página de cada risco; o que não estiver, escreva "não consta"; não resuma documento que não foi colado; aponte dado pessoal sensível sem copiá-lo.
+
+CHECKLIST DO ESCRITÓRIO PARA REVISÃO DE CONTRATO
+1. Partes, objeto e prazo.
+2. Preço, pagamento e reajuste: há índice? há renúncia a reajuste ou a reequilíbrio?
+3. Multas e penalidades: valem para as duas partes? têm limite?
+4. Rescisão: quem pode rescindir, com que aviso e que multa.
+5. Responsabilidade, indenização e benfeitorias.
+6. Garantias e ônus: penhor, fiança, alienação, gravames.
+7. Mudança de controle, cessão e exclusividade.
+8. Contratos de trabalho: jornada, estabilidade, verbas, cláusulas fora do padrão.
+9. Dados pessoais: há dado sensível, como dado de saúde (LGPD, art. 5º, II)? Quem é o controlador, quem trata e para quê? Dado de saúde só no indispensável (LGPD, art. 11, II, "d").
+10. Foro e solução de conflitos.
+Lembrete: nos contratos civis e empresariais, "a alocação de riscos definida pelas partes deve ser respeitada e observada" e a revisão contratual "somente ocorrerá de maneira excepcional e limitada" (Código Civil, art. 421-A). Por isso o risco tem de ser achado antes de assinar.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREDIAL
+
+[Página 1 de 3]
+
+CONTRATANTE: CONDOMÍNIO RESIDENCIAL-B, com sede em Comarca-X, neste ato representado por seu síndico.
+CONTRATADA: PRESTADORA-A MANUTENÇÃO PREDIAL LTDA., com sede em Comarca-X, neste ato representada por seu sócio administrador.
+
+Cláusula 1 – Objeto. A CONTRATADA prestará ao CONDOMÍNIO serviços de manutenção preventiva e corretiva das instalações elétricas, hidráulicas, das bombas de recalque e do portão automático das duas torres do condomínio, conforme o plano de visitas do Anexo Único.
+
+Cláusula 2 – Prazo. Este contrato vigorará por 36 (trinta e seis) meses, contados da assinatura.
+
+Cláusula 3 – Preço. O CONDOMÍNIO pagará à CONTRATADA R$ 6.500,00 (seis mil e quinhentos reais) por mês, até o dia 10 do mês seguinte ao da prestação, mediante boleto.
+
+Cláusula 4 – Preço fixo. O preço da Cláusula 3 é fixo e irreajustável durante toda a vigência deste contrato, renunciando a CONTRATADA, desde já, a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos.
+
+[Página 2 de 3]
+
+Cláusula 5 – Obrigações da CONTRATADA. (a) cumprir o plano de visitas; (b) atender chamados de emergência em até 4 horas; (c) fornecer mão de obra própria, com uniforme e equipamentos de proteção; (d) manter seguro de responsabilidade civil durante a vigência.
+
+Cláusula 6 – Obrigações do CONDOMÍNIO. (a) pagar o preço no prazo da Cláusula 3; (b) dar acesso às áreas técnicas; (c) indicar um responsável para receber os relatórios mensais.
+
+Cláusula 7 – Penalidades. Pelo descumprimento de qualquer obrigação deste contrato, a CONTRATADA pagará ao CONDOMÍNIO multa de 20% (vinte por cento) do valor total do contrato, sem prejuízo das perdas e danos.
+
+Cláusula 8 – Rescisão. Qualquer das partes poderá rescindir este contrato, sem multa, mediante aviso por escrito com 60 (sessenta) dias de antecedência.
+
+Cláusula 9 – Materiais. Peças de reposição de valor superior a R$ 500,00 serão compradas pelo CONDOMÍNIO, mediante orçamento prévio apresentado pela CONTRATADA.
+
+[Página 3 de 3]
+
+Cláusula 10 – Confidencialidade. A CONTRATADA manterá sigilo sobre os dados dos condôminos a que tiver acesso em razão dos serviços.
+
+Cláusula 11 – Foro. Fica eleito o foro da Comarca-Y, distante 1.900 km da sede de ambas as partes, com renúncia a qualquer outro, por mais privilegiado que seja.
+
+Comarca-X, 05 de outubro de 2026.
+
+CONDOMÍNIO RESIDENCIAL-B — síndico
+PRESTADORA-A MANUTENÇÃO PREDIAL LTDA. — sócio administrador
+--- IA:
+# Parecer de Riscos — PRESTADORA-A Manutenção Predial Ltda.
+
+> **Metodologia:** análise do ponto de vista exclusivo da CONTRATADA, seguindo o checklist do escritório. Riscos ordenados do mais grave ao menos grave dentro de cada item.
+
+---
+
+## 1. Partes, Objeto e Prazo
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 1.1 | O escopo real dos serviços (frequência, roteiros, itens a verificar) depende inteiramente do **Anexo Único**, que não foi colado ao contrato. Se o anexo for detalhado, qualquer omissão da CONTRATADA caracterizará descumprimento e acionará a multa da Cláusula 7. Recomenda-se exigir o anexo antes de assinar e integrá-lo ao instrumento. | Cláusula 1 / p. 1 |
+| 1.2 | **36 meses** é prazo longo para contrato com preço fixo (ver item 2). Quanto maior o prazo, maior a exposição à erosão inflacionária e ao aumento de custos trabalhistas. | Cláusula 2 / p. 1 |
+
+---
+
+## 2. Preço, Pagamento e Reajuste
+
+**Risco mais grave do contrato.**
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 2.1 | O preço é **fixo e irreajustável por 36 meses**, com renúncia expressa a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, "ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos". Em três anos de contrato, a CONTRATADA absorverá sozinha: dissídio coletivo anual dos empregados, reajustes de convenção coletiva, alta de materiais e peças, majoração de tributos. Como os contratos empresariais têm alocação de riscos vinculante (CC, art. 421-A), a revisão judicial posterior será "excepcional e limitada". | Cláusula 4 / p. 1–2 |
+| 2.2 | O pagamento vence apenas no dia 10 do **mês seguinte** ao da prestação, ou seja, a CONTRATADA financia 30–40 dias de serviços. Não há juros ou cláusula de mora expressa para o CONDOMÍNIO em caso de atraso. | Cláusula 3 / p. 1 |
+| 2.3 | Peças de reposição acima de R$ 500,00 são custeadas pelo CONDOMÍNIO (Cláusula 9). Contudo, o contrato **não define** quem paga as peças *abaixo* de R$ 500,00: se for a CONTRATADA, esse custo variável está embutido no preço fixo e não pode ser repassado. | Cláusula 9 / p. 2 e Cláusula 4 / p. 1–2 |
+
+---
+
+## 3. Multas e Penalidades
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 3.1 | A multa de **20% do valor total do contrato** (= 20% × R$ 6.500 × 36 = **R$ 46.800,00**) incide pelo "descumprimento de **qualquer** obrigação", sem distinção de gravidade — um chamado de emergência atendido em 4h01min teoricamente a aciona. | Cláusula 7 / p. 2 |
+| 3.2 | A multa é **assimétrica**: só a CONTRATADA a deve. Não há penalidade equivalente para o CONDOMÍNIO em caso de atraso no pagamento, negativa de acesso ou descumprimento de suas obrigações. | Cláusula 7 / p. 2 |
+| 3.3 | A multa é cumulativa com "perdas e danos" sem qualquer teto (cap) de responsabilidade, expondo a CONTRATADA a condenações ilimitadas. | Cláusula 7 / p. 2 |
+
+---
+
+## 4. Rescisão
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 4.1 | Qualquer das partes pode rescindir **sem multa** com 60 dias de aviso. Para a CONTRATADA, isso significa: se o CONDOMÍNIO rescindir no 2.º mês, ela recebe apenas mais dois meses de honorários, sem nenhuma compensação pelos custos de mobilização, contratação de equipe dedicada ou investimentos iniciais. | Cláusula 8 / p. 2 |
+| 4.2 | Não há cláusula de rescisão por inadimplemento do CONDOMÍNIO (falta de pagamento) que desobrigue imediatamente a CONTRATADA da prestação dos serviços sem o cumprimento dos 60 dias. | Não consta |
+
+---
+
+## 5. Responsabilidade, Indenização e Benfeitorias
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 5.1 | Não há **limite (cap) de responsabilidade civil** da CONTRATADA. Em caso de dano causado por falha de manutenção (ex.: curto-circuito, inundação, acidente com portão), a exposição é ilimitada, agravada pela cumulação com a multa da Cláusula 7. | Não consta |
+| 5.2 | O seguro de responsabilidade civil é exigido (Cláusula 5, "d"), mas o contrato não fixa **valor mínimo de cobertura** nem ramos obrigatórios (RC Operações, RC Empregador). Se a cobertura for insuficiente para o sinistro, a CONTRATADA responde pelo saldo com patrimônio próprio. | Cláusula 5(d) / p. 2 |
+| 5.3 | O contrato não define quem responde por danos causados por **defeito oculto de instalação pré-existente** ou por negligência do próprio CONDOMÍNIO ao negar acesso ou fornecer informações incorretas. | Não consta |
+| 5.4 | Benfeitorias e melhorias eventualmente realizadas nas instalações: não há cláusula sobre direito de retenção ou indenização. | Não consta |
+
+---
+
+## 6. Garantias e Ônus
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 6.1 | O CONDOMÍNIO não oferece **nenhuma garantia de pagamento** (fiança, seguro-garantia, fundo de reserva). Em caso de inadimplência ou troca de síndico com contestação da dívida, a CONTRATADA não tem lastro para executar. | Não consta |
+
+---
+
+## 7. Mudança de Controle, Cessão e Exclusividade
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 7.1 | Não há cláusula de **cessão ou sub-rogação**: se a CONTRATADA precisar ceder o contrato (ex.: reorganização societária, fusão), não está autorizada sem base contratual expressa. | Não consta |
+| 7.2 | Não há cláusula de **exclusividade** nem de **preferência de renovação**: o CONDOMÍNIO pode contratar terceiros para serviços sobrepostos ou substituir a CONTRATADA sem ônus ao término. | Não consta |
+
+---
+
+## 8. Contratos de Trabalho
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 8.1 | A CONTRATADA deve usar **"mão de obra própria"** (vínculo empregatício). Com preço fixo por 36 meses e renúncia a reequilíbrio (Cláusula 4), todos os aumentos salariais decorrentes de dissídios coletivos, convenções coletivas e reajuste de vale-refeição/transporte são absorvidos pela CONTRATADA sem repasse. | Cláusulas 4 e 5(c) / p. 1–2 |
+| 8.2 | O contrato não regula o que ocorre com os empregados dedicados ao condomínio em caso de rescisão antecipada pelo CONDOMÍNIO: a CONTRATADA pode ficar com encargos rescisórios sem contrapartida contratual. | Não consta |
+
+---
+
+## 9. Dados Pessoais (LGPD)
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 9.1 | A Cláusula 10 menciona "dados dos condôminos" sem especificar natureza, finalidade, base legal, prazo de retenção nem responsável pelo tratamento. A CONTRATADA pode, durante visitas, ter acesso a dados que configurem **dado sensível** nos termos do art. 5.º, II, da LGPD — ⚠️ *dado apontado; não copiado por determinação do cliente*. Dado sensível só pode ser tratado nas hipóteses do art. 11, II, "d" da LGPD, com base legal específica, que o contrato não estabelece. | Cláusula 10 / p. 3 |
+| 9.2 | O contrato não define quem é o **controlador** e quem é o **operador** (LGPD, art. 5.º, VI e VII). Se a CONTRATADA for considerada operadora, deve existir um DPA (*Data Processing Agreement*); se for controladora conjunta, as responsabilidades são ainda maiores. A ausência dessa definição expõe a CONTRATADA a sanções da ANPD (até 2% do faturamento, art. 52, LGPD). | Cláusula 10 / p. 3 |
+
+---
+
+## 10. Foro e Solução de Conflitos
+
+| # | Risco | Cláusula / Página |
+|---|-------|-------------------|
+| 10.1 | O foro eleito é **Comarca-Y, a 1.900 km da sede de ambas as partes**. Para a CONTRATADA (tipicamente empresa de menor porte), litigar a 1.900 km significa custo de deslocamento de advogados, testemunhas e peritos que pode inviabilizar economicamente qualquer ação de cobrança ou defesa. A eleição de foro mais gravoso para ambas as partes pode ser contestada, mas a renúncia expressa "a qualquer outro, por mais privilegiado que seja" torna a discussão judicial mais difícil. | Cláusula 11 / p. 3 |
+| 10.2 | Não há cláusula de **mediação ou arbitragem prévia**, mecanismos que poderiam ser mais ágeis e baratos do que o foro distante. | Não consta |
+
+---
+
+## Resumo Executivo dos Pontos Críticos
+
+| Gravidade | Risco | Onde |
+|-----------|-------|------|
+| 🔴 Crítico | Preço fixo + renúncia total a reajuste por 36 meses | Cl. 4 / p. 1–2 |
+| 🔴 Crítico | Multa de ~R$ 46.800 só para a CONTRATADA, por qualquer descumprimento, sem teto | Cl. 7 / p. 2 |
+| 🔴 Crítico | Foro a 1.900 km de ambas as partes | Cl. 11 / p. 3 |
+| 🟠 Alto | Responsabilidade ilimitada sem cap | Não consta |
+| 🟠 Alto | Anexo Único ausente define o escopo real | Cl. 1 / p. 1 |
+| 🟠 Alto | LGPD: sem definição de controlador/operador e sem DPA | Cl. 10 / p. 3 |
+| 🟡 Médio | Rescisão sem multa = sem compensação por mobilização | Cl. 8 / p. 2 |
+| 🟡 Médio | Sem garantia de pagamento do CONDOMÍNIO | Não consta |
+| 🟡 Médio | Peças abaixo de R$ 500 sem definição de responsabilidade | Cl. 9 + Cl. 4 |
+
+> **Recomendação geral:** antes de assinar, negociar ao menos: (i) índice de reajuste anual (IGP-M ou INPC); (ii) simetria ou supressão da multa da Cláusula 7; (iii) alteração do foro para Comarca-X; (iv) anexar e rubricar o Anexo Único; (v) incluir cap de responsabilidade; e (vi) celebrar adendo de proteção de dados (DPA) conforme a LGPD.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

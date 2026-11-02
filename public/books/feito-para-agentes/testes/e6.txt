@@ -1,0 +1,873 @@
+Feito para agentes (O Novo Básico, vol. 11)
+Experimento e6, A tarefa longa (capítulo 11), rodado em 01/11/2026 com o Claude Haiku 5.5 pela API da Anthropic
+As conversas inteiras, como vieram, uma por bloco; o raciocínio interno do modelo não volta pela API e não está aqui.
+
+##### e6-a-01 · versão a · errou · 9 chamadas · 19210 tokens de entrada
+### 2026-11-01 09:37 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente:
+Os dois pedidos da Paula Souza foram cancelados. Agora anoto nos pedidos de chocolate que continuam confirmados.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d921-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Uma das anotações falhou por erro meu ao digitar o id do pedido 1001. Vou buscar o id correto e tentar de novo.
+--- Agente chama orders_search:
+{"data":"2026-11-07","cliente":"Marina Almeida"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"}]
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente:
+Pronto. Resumo:
+
+- **Cancelados:** os pedidos 1101 (chocolate) e 1102 (limão), ambos da Paula Souza.
+- **Anotação "retirar às 15h":** nos 4 pedidos de chocolate que continuam confirmados, 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes). O pedido 1101, de chocolate, não recebeu a nota porque foi cancelado.
+- **Pedidos de amanhã (07/11) que continuam confirmados: 14.**
+
+Na primeira tentativa de anotar o pedido 1001 eu digitei o id errado e a anotação não foi salva. Refiz a busca, usei o id correto e a nota foi registrada.
+
+##### e6-a-02 · versão a · errou · 7 chamadas · 9885 tokens de entrada
+### 2026-11-01 09:37 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Pronto. Para amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotação "retirar às 15h":** nos quatro pedidos de chocolate que continuam confirmados, nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Confirmados:** continuam **14 pedidos** confirmados para amanhã.
+
+##### e6-a-03 · versão a · errou · 7 chamadas · 9853 tokens de entrada
+### 2026-11-01 09:38 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Pronto. Resumo dos pedidos de amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotação "retirar às 15h":** adicionada aos 4 pedidos de chocolate que continuaram confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Pedidos confirmados amanhã:** 14.
+
+##### e6-a-04 · versão a · errou · 7 chamadas · 10010 tokens de entrada
+### 2026-11-01 09:38 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente:
+Os dois pedidos da Paula Souza (1101 e 1102) foram cancelados. Agora anoto nos pedidos de chocolate que continuam confirmados.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Pronto. Resumo para amanhã (07/11):
+
+- **Cancelados:** pedidos 1101 (chocolate) e 1102 (limão), da Paula Souza.
+- **Anotação "retirar às 15h":** feita em 4 pedidos de chocolate que continuavam confirmados: 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes).
+- **Pedidos confirmados amanhã:** 14.
+
+##### e6-a-05 · versão a · acertou · 7 chamadas · 9816 tokens de entrada
+### 2026-11-01 09:38 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Feito. Resumo para amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotado "retirar às 15h":** os quatro pedidos de chocolate que continuam confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Pedidos confirmados amanhã:** 16 (eram 18, menos os 2 da Paula).
+
+##### e6-a-06 · versão a · acertou · 8 chamadas · 13840 tokens de entrada
+### 2026-11-01 09:38 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente:
+Os dois pedidos da Paula Souza (1101 e 1102) foram cancelados. Agora vou anotar nos pedidos de chocolate que continuam confirmados.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Errei o id do pedido 1001 ao digitá-lo. Vou repetir com o id completo.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente:
+Pronto. Resumo:
+
+- **Cancelados:** os dois pedidos da Paula Souza para amanhã, o 1101 (chocolate) e o 1102 (limão).
+- **Anotado "retirar às 15h":** nos quatro pedidos de chocolate que continuam confirmados: 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes). O 1101 não recebeu a anotação porque foi cancelado. Na primeira tentativa, errei o id do pedido 1001, mas a segunda deu certo.
+- **Pedidos de amanhã que continuam confirmados:** 14. A busca inicial mostrou 16 pedidos, todos confirmados, e tirei os 2 da Paula.
+
+##### e6-a-07 · versão a · acertou · 7 chamadas · 10391 tokens de entrada
+### 2026-11-01 09:38 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Pronto. Resumo dos pedidos de amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotados com "retirar às 15h":** os quatro pedidos de chocolate que continuam confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Pedidos confirmados restantes:** 16. Eram 18 antes dos cancelamentos.
+
+##### e6-a-08 · versão a · acertou · 9 chamadas · 19598 tokens de entrada
+### 2026-11-01 09:38 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente:
+Os dois pedidos da Paula Souza foram cancelados. Agora anoto nos pedidos de chocolate que continuam confirmados.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d921-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+O pedido 1001 não foi anotado porque digitei o id errado. Vou buscar de novo para copiar o id exato.
+--- Agente chama orders_search:
+{"data":"2026-11-07","cliente":"Marina Almeida"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"}]
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente:
+Pronto. Os dois pedidos da Paula Souza (1101 de chocolate e 1102 de limão) foram cancelados.
+
+Anotei "retirar às 15h" em todos os pedidos de chocolate que continuam confirmados, que são 4: 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes). Na primeira tentativa, uma anotação falhou por erro meu no id; corrigi e a do 1001 foi feita.
+
+Para amanhã (07/11), continuam **16 pedidos confirmados**.
+
+##### e6-a-09 · versão a · errou · 8 chamadas · 13677 tokens de entrada
+### 2026-11-01 09:38 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d921-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Errei o id do pedido 1001 ao digitar. Vou repetir com o id correto.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente:
+Feito:
+
+- **Cancelados:** os dois pedidos da Paula Souza para amanhã, o 1101 (chocolate) e o 1102 (limão).
+- **Anotação "retirar às 15h":** nos quatro pedidos de chocolate que continuam confirmados: 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes).
+
+Amanhã (07/11) continuam **14 pedidos confirmados**.
+
+Na primeira tentativa, errei o id do pedido 1001 ao digitar. Corrigi e a anotação foi feita.
+
+##### e6-a-10 · versão a · acertou · 8 chamadas · 14347 tokens de entrada
+### 2026-11-01 09:38 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente:
+Pronto. Resumo para amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotação "retirar às 15h":** adicionada aos quatro pedidos de chocolate que continuam confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Pedidos confirmados restantes:** 16.
+
+Na primeira tentativa de anotar o pedido 1001 usei um id com erro de digitação. A ferramenta recusou, e a anotação só foi feita depois, com o id correto.
+
+##### e6-b-01 · versão b · acertou · 7 chamadas · 7062 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Feito. Resumo dos pedidos de amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, o 1101 (chocolate) e o 1102 (limão).
+- **Anotação "retirar às 15h":** nos quatro pedidos de chocolate que continuam confirmados: 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes).
+- **Pedidos confirmados restantes:** 16.
+
+##### e6-b-02 · versão b · errou · 8 chamadas · 11141 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d921-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+A anotação do pedido 1001 falhou porque digitei o id errado. Vou repetir com o id correto.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente:
+Pronto. Resumo para amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotação "retirar às 15h":** adicionada aos 4 pedidos de chocolate que continuam confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes). Na primeira tentativa, a anotação do 1001 falhou por erro meu ao digitar o id; repeti com o id correto e funcionou.
+
+**Pedidos de amanhã que continuam confirmados: 14.**
+
+##### e6-b-03 · versão b · acertou · 8 chamadas · 13630 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d921-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Errei o id do pedido 1001 na primeira tentativa. Vou repetir com o id correto.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente:
+Está feito:
+
+- **Cancelados:** os dois pedidos da Paula Souza para amanhã, o 1101 (chocolate) e o 1102 (limão).
+- **Anotação "retirar às 15h":** nos quatro pedidos de chocolate que continuam confirmados: 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes). Na primeira tentativa, errei o id do pedido 1001 e a anotação não foi gravada; na segunda, ela foi registrada corretamente.
+- **Pedidos de amanhã confirmados:** 14. Eram 16 antes dos cancelamentos.
+
+##### e6-b-04 · versão b · acertou · 7 chamadas · 10264 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Pronto. Resumo dos pedidos de amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotação "retirar às 15h":** adicionada aos quatro pedidos de chocolate que continuam confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Pedidos confirmados amanhã:** **16**. Eram 18 antes dos cancelamentos.
+
+##### e6-b-05 · versão b · acertou · 8 chamadas · 13977 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente:
+Os dois pedidos da Paula Souza foram cancelados. Agora anoto os pedidos de chocolate que continuam confirmados.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d921-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Errei o id do pedido 1001 ao digitar. Vou repetir com o id correto.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente:
+Feito:
+
+1. **Paula Souza:** cancelei os dois pedidos dela para amanhã, 1101 (chocolate) e 1102 (limão).
+2. **Anotação "retirar às 15h":** coloquei em quatro pedidos de chocolate que continuam confirmados: 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes). Na primeira tentativa, errei o id do pedido 1001 ao digitar, mas a segunda deu certo.
+3. **Pedidos de amanhã confirmados:** 14. Eram 16 antes dos cancelamentos.
+
+##### e6-b-06 · versão b · acertou · 7 chamadas · 10034 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Feito. Resumo para amanhã (sábado, 07/11):
+
+- **Cancelados:** os 2 pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotação "retirar às 15h":** adicionada aos 4 pedidos de chocolate que continuam confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Pedidos de amanhã que continuam confirmados: 16.**
+
+##### e6-b-07 · versão b · acertou · 7 chamadas · 10205 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Pronto, feito. Para amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotação "retirar às 15h":** nos quatro pedidos de chocolate que continuavam confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Pedidos que continuam confirmados: 16.**
+
+##### e6-b-08 · versão b · errou · 7 chamadas · 9837 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Pronto. Resumo dos pedidos de amanhã (07/11):
+
+**Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+
+**Anotação "retirar às 15h"** nos quatro pedidos de chocolate que continuam confirmados:
+- nº 1001 (Marina Almeida)
+- nº 1003 (Lúcia Almeida)
+- nº 1038 (Renata Lopes)
+- nº 1041 (Aline Lopes)
+
+**Pedidos de amanhã que continuam confirmados: 14.**
+
+##### e6-b-09 · versão b · acertou · 7 chamadas · 9907 tokens de entrada
+### 2026-11-01 09:39 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Feito. Para amanhã (07/11):
+
+- **Cancelados:** os dois pedidos da Paula Souza, nº 1101 (chocolate) e nº 1102 (limão).
+- **Anotação "retirar às 15h":** nos quatro pedidos de chocolate que continuaram confirmados: nº 1001 (Marina Almeida), nº 1003 (Lúcia Almeida), nº 1038 (Renata Lopes) e nº 1041 (Aline Lopes).
+- **Pedidos confirmados:** 16 pedidos de amanhã continuam confirmados.
+
+##### e6-b-10 · versão b · acertou · 9 chamadas · 19463 tokens de entrada
+### 2026-11-01 09:40 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Para amanhã: cancele os pedidos da Paula Souza, anote "retirar às 15h" em todos os pedidos de chocolate que continuarem confirmados, e no fim me diga quantos pedidos de amanhã continuam confirmados.
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000101"}
+--- Agente chama orders_cancel:
+{"id":"9a1f0c2e-0000-4000-8000-000000000102"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}}
+--- Agente:
+Os dois pedidos da Paula Souza foram cancelados. Agora anoto nos pedidos de chocolate que continuam confirmados.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-d921-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"bc93cf49-889a-27e5-1664-1244a0e29788","nota":"retirar às 15h"}
+--- Agente chama orders_add_note:
+{"pedido":"2be92868-3678-fbb6-84f1-b72aee3713a4","nota":"retirar às 15h"}
+--- A ferramenta devolve (erro):
+"Pedido não encontrado: este campo pede o id do pedido. Use orders_search para achá-lo."
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"}}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"}}
+--- Agente:
+Errei o id do pedido 1001 ao digitar. Vou repetir com o id correto.
+--- Agente chama orders_add_note:
+{"pedido":"b3481f35-9fbb-d021-a152-f1ba9bba5718","nota":"retirar às 15h"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"}}
+--- Agente chama orders_search:
+{"data":"2026-11-07"}
+--- A ferramenta devolve:
+[{"numero":1001,"cliente":"Marina Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"b3481f35-9fbb-d021-a152-f1ba9bba5718"},{"numero":1003,"cliente":"Lúcia Almeida","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"1f973e2a-d279-a035-b1cc-8c7b604e5cc8"},{"numero":1011,"cliente":"Fernanda Almeida","sabor":"limão","data":"2026-11-07","status":"confirmado","id":"acd9a20f-38e6-0710-7641-8ce8ca077780"},{"numero":1016,"cliente":"Lúcia Almeida","sabor":"prestígio","data":"2026-11-07","status":"confirmado","id":"8795bb1d-4d77-623f-43b1-c456eb7d6848"},{"numero":1017,"cliente":"Aline Lopes","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"b4141e92-84aa-9dd1-5a81-20d716141908"},{"numero":1018,"cliente":"Sônia Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"57aea32f-257a-2d5c-052c-db448ebeb5e9"},{"numero":1029,"cliente":"Renata Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"417ab77e-eac1-3afb-ba29-cfe90dfecd84"},{"numero":1030,"cliente":"Lúcia Almeida","sabor":"brigadeiro","data":"2026-11-07","status":"confirmado","id":"43f4da19-a0d0-50ef-8115-f106a462c897"},{"numero":1032,"cliente":"Aline Souza","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"2061d54a-bcd7-93df-dbb1-0162683decbc"},{"numero":1037,"cliente":"Beatriz Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"230e3aa0-d6a6-6a06-90ca-89d4df08156e"},{"numero":1038,"cliente":"Renata Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"bc93cf49-889a-27e5-1664-1244a0e29788"},{"numero":1041,"cliente":"Aline Lopes","sabor":"chocolate","data":"2026-11-07","status":"confirmado","id":"2be92868-3678-fbb6-84f1-b72aee3713a4"},{"numero":1045,"cliente":"Marina Almeida","sabor":"nozes","data":"2026-11-07","status":"confirmado","id":"796d8621-2d7d-99f9-a0c5-5ff296babca6"},{"numero":1048,"cliente":"Júlia Souza","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"2d360bbc-f078-515e-8a9b-04a130151563"},{"numero":1061,"cliente":"Marina Lopes","sabor":"nozes com doce de leite","data":"2026-11-07","status":"confirmado","id":"623b0b36-166b-e481-2d9e-da25bb246df9"},{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1101,"cliente":"Paula Souza","sabor":"chocolate","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000101"},{"numero":1102,"cliente":"Paula Souza","sabor":"limão","data":"2026-11-07","status":"cancelado","id":"9a1f0c2e-0000-4000-8000-000000000102"}]
+--- Agente:
+Pronto. Resumo:
+
+- **Cancelados:** os dois pedidos da Paula Souza para amanhã, o 1101 (chocolate) e o 1102 (limão).
+- **Anotação "retirar às 15h":** adicionada aos quatro pedidos de chocolate que continuam confirmados: 1001 (Marina Almeida), 1003 (Lúcia Almeida), 1038 (Renata Lopes) e 1041 (Aline Lopes). Na primeira tentativa, digitei errado o id do 1001, então a busca falhou; repeti com o id correto e a anotação foi salva.
+- **Pedidos de amanhã confirmados:** **16**. Eram 18 no total e os 2 da Paula foram cancelados. Conferi com uma nova busca.

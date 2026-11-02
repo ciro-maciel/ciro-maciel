@@ -1,0 +1,370 @@
+{
+  "slug": "forward-deployed-engineer",
+  "book": {
+    "title": "Forward Deployed Engineer",
+    "subtitle": "Como se tornar o engenheiro que leva a IA do piloto à produção",
+    "volume": 14,
+    "level": 4,
+    "levelName": "Profissão",
+    "version": "0.1.0"
+  },
+  "parts": [
+    {
+      "title": "O papel",
+      "chapters": [
+        {
+          "id": "o-que-e-um-forward-deployed-engineer",
+          "number": 1,
+          "title": "O que é um Forward Deployed Engineer",
+          "question": "O que um FDE faz que um engenheiro de software, um consultor e um sales engineer não fazem?",
+          "purpose": "Ler qualquer vaga com o título e separar FDE de outro papel",
+          "document": {
+            "name": "O teste das quatro perguntas",
+            "text": "VAGA: <empresa, título, local, data em que você leu>\n\n1. Escreve código de produção dentro do ambiente do cliente?\n   sim | só protótipo ou demonstração | não\n   → procure: \"production\", \"in the code\", \"within customer systems\", \"build\"\n\n2. Responde por quê?\n   adoção e resultado | fechar a venda | entregável contratado\n   → procure: \"adoption\", \"outcome\", \"impact\" × \"quota\", \"deal\" × \"deliverable\", \"SOW\"\n\n3. O que aprende no cliente volta para o produto?\n   está na descrição | não está\n   → procure: \"feedback\", \"roadmap\", \"codify\", \"reusable\", \"back to Product\"\n\n4. Qual é o horizonte?\n   engajamento que evolui | projeto fechado | pré-venda\n   → procure: \"multiple deployments\", \"long term\" × \"handoff\", \"go-live\" × \"POC\", \"demo\"\n\nLeitura: três ou quatro \"primeiras respostas\" = FDE.\nDuas ou menos = outro papel com o título de FDE.\nAnote a frase da vaga que sustenta cada resposta; sem frase, a resposta é \"não está\".",
+            "exercise": "Procure \"Forward Deployed\" numa busca de vagas, escolha três anúncios de empresas diferentes, de preferência um de laboratório de modelo, um de plataforma e um de empresa brasileira, e passe cada um pelo teste. Anote a frase que sustenta cada resposta. No fim, diga qual deles é FDE de verdade, qual é outro papel com o título, e qual você não conseguiu classificar porque a vaga não diz."
+          }
+        },
+        {
+          "id": "por-que-agora",
+          "number": 2,
+          "title": "Por que agora",
+          "question": "Por que um papel inventado pela Palantir virou uma das vagas que mais crescem na era da IA?",
+          "purpose": "Transformar \"todo mundo está contratando\" em lista verificável, com fonte",
+          "document": {
+            "name": "O mapa do mercado",
+            "text": "MAPA DO MERCADO DE FDE — <sua área>, <data>\n\n| Empresa | Tipo | Título exato | Local / remoto | Viagem | Inglês | Faixa publicada | Frase da vaga que define o papel | Link + data |\n|---------|------|--------------|----------------|--------|--------|-----------------|----------------------------------|-------------|\n|         |      |              |                |        |        |                 |                                  |             |\n\nTipos:\n  L = laboratório de modelo (vende o modelo; FDE leva o modelo à produção)\n  P = plataforma ou nuvem (vende infraestrutura; FDE faz o cliente consumir)\n  V = startup vertical de IA (vende um agente pronto para um setor; FDE configura e integra)\n  I = integradora ou consultoria (vende projeto; FDE é o novo nome de parte da equipe)\n  E = empresa usuária (contrata FDE interno para levar IA aos próprios processos)\n\nRegras:\n  - Uma linha por vaga lida, não por empresa ouvida falar.\n  - Campo sem informação na vaga fica \"não diz\". Não preencha de memória.\n  - Todo número de mercado que você anotar ao lado do mapa leva a ficha abaixo.",
+            "exercise": "Monte o mapa com dez vagas da sua área, lidas nesta semana. Tente ter pelo menos três tipos diferentes. Depois responda, olhando só para o mapa: quantas das dez pedem inglês? Quantas publicam faixa? Quantas estão no Brasil? Qual tipo de empresa aparece mais? O mapa vira a sua fonte para os capítulos 13 a 16; sem ele, a Parte IV vira opinião."
+          }
+        },
+        {
+          "id": "consultoria-com-cracha",
+          "number": 3,
+          "title": "Consultoria com crachá?",
+          "question": "FDE não é só consultoria com outro nome?",
+          "purpose": "Saber se a empresa tem o caminho de volta ao produto ou só o título",
+          "document": {
+            "name": "O teste da forma e da função",
+            "text": "EMPRESA: <nome>   VAGA OU TIME: <título>   DATA: <quando você leu>\n\n1. Há produto embaixo?\n   O que o FDE implanta é um produto que outros clientes usam, ou é um projeto novo a cada vez?\n   → onde olhar: site, documentação pública, a primeira frase da vaga\n   → sinal de forma sem função: \"soluções sob medida\" sem nome de produto\n\n2. O que o FDE aprende muda o roteiro do produto?\n   Existe um caminho escrito do campo para o produto?\n   → onde olhar: \"feedback\", \"roadmap\", \"codify\", \"R&D\", \"back to Product\" na vaga\n   → na entrevista: \"Me dê um exemplo de algo que um FDE achou no cliente e virou produto.\"\n   → sinal de forma sem função: a resposta é \"ele abre um ticket\"\n\n3. Quanto das implantações exige esforço pesado de FDE?\n   → régua da F-Prime: acima de 30% a 40%, o problema é de produto\n   → na entrevista: \"Um cliente novo hoje precisa de quanto trabalho sob medida, comparado a um de um ano atrás?\"\n   → sinal de forma sem função: o número não caiu, ou ninguém mede\n\n4. O cliente se forma?\n   O embarque tem fim, ou o FDE fica para sempre?\n   → régua da F-Prime: três a seis meses\n   → sinal de forma sem função: contrato renovado para \"manter\" a mesma solução\n\n5. A quem o FDE responde, e como é pago?\n   → vendas, com comissão por negócio fechado, puxa para o sob medida\n   → produto ou engenharia, com meta de implantação e de conversão em produto, puxa para a volta\n   → sinal de forma sem função: comissão por contrato, nenhuma meta de produto\n\nLeitura:\n  4 ou 5 respostas do lado da função = FDE.\n  2 ou 3 = papel em transição; pergunte para onde a empresa quer ir.\n  0 ou 1 = consultoria com crachá. Pode ser um bom emprego, mas é outro emprego.",
+            "exercise": "Escolha a empresa onde você trabalha, ou a que você quer, e responda as cinco perguntas. Anote, para cada resposta, de onde ela veio: da vaga, do site, de alguém de dentro, ou \"não sei\". Se você tiver entrevista marcada, leve as perguntas 2, 3 e 5 escritas. Se você for quem monta o time, responda como se fosse o candidato; a resposta mais difícil é a que precisa mudar primeiro."
+          }
+        }
+      ]
+    },
+    {
+      "title": "O engajamento",
+      "chapters": [
+        {
+          "id": "entrar-o-escopo-e-a-fatia-fina",
+          "number": 4,
+          "title": "Entrar — o escopo e a fatia fina",
+          "question": "Como começo um engajamento sem prometer o que não sei se consigo entregar?",
+          "purpose": "Combinar com o cliente o problema, a fatia fina e o critério de sucesso",
+          "document": {
+            "name": "O escopo de uma página",
+            "text": "ESCOPO — <cliente> — <data> — versão <n>\n\n1. O pedido, nas palavras de quem pediu\n2. O problema, como número: <métrica>, <estatística>, <canal/lugar>\n   Hoje: <valor, e como foi medido>   Meta do engajamento: <valor>\n3. Quem sente o problema (usuário) e quem assina (patrocinador)\n4. As camadas: <camada 1> → <camada 2> → <camada 3>\n5. A fatia fina (até 3 semanas)\n   Entra: <o quê, para quem, onde>\n   Camada(s) que ela atravessa: <...>\n   Vale sozinha porque: <...>\n6. Critério de sucesso da fatia (observável, com data)\n7. O que fica de fora (lista explícita)\n8. Dados e acessos: <o quê> — <quem libera> — <até quando>\n9. Premissas e riscos: <o que, se falhar, muda o escopo>\n10. Revisão do escopo: <dia da semana, duração, quem participa>\n11. De acordo: patrocinador · dono do dia a dia · FDE",
+            "exercise": "Pegue um pedido grande do seu trabalho atual, do tipo que chegou como uma frase. Preencha o modelo em branco, sem pular campo. Depois passe a sua fatia pelos quatro testes do passo 4. Se algum der \"não\", corte de novo. E mostre o item 7, o que fica de fora, a quem fez o pedido antes de mostrar qualquer outra coisa. A reação a essa lista diz mais sobre o engajamento do que a reação ao resto."
+          }
+        },
+        {
+          "id": "descobrir-os-substantivos-e-os-verbos",
+          "number": 5,
+          "title": "Descobrir — os substantivos e os verbos",
+          "question": "Como entendo o negócio do cliente rápido o bastante para construir a coisa certa?",
+          "purpose": "Aprender a língua do cliente pelo que as pessoas fazem",
+          "document": {
+            "name": "O roteiro de descoberta",
+            "text": "ROTEIRO DE DESCOBERTA — <cliente> — <área> — <data>\nHipótese da visita: <uma frase>\nCombinado sobre dados: <o que pode ser visto, anotado, guardado>\n\n1. Me conta o que você fez ontem, desde a hora que chegou até a primeira pausa.\n   (ouvir: a ordem real do trabalho, os verbos)\n\n2. Qual foi a última vez que [o problema do escopo] aconteceu?\n   O que você fez, passo a passo?\n   (ouvir: um caso com data; se vier \"normalmente...\", pedir o último caso)\n\n3. Pode me mostrar na tela onde você olhou para decidir isso?\n   (ver: o sistema, a planilha ou a conversa de onde a decisão saiu)\n\n4. Que nome vocês dão para isso aqui? E o [outro time] chama do mesmo jeito?\n   (anotar: cada nome do mesmo substantivo)\n\n5. O que precisa estar pronto, ou aprovado, antes de você poder fazer isso?\n   (ouvir: pré-condições do verbo, dependências de outras pessoas)\n\n6. Qual foi o último caso que fugiu do normal? Quem decidiu, e como?\n   (ouvir: exceções, alçadas, quem tem a palavra final)\n\n7. Quando essa pessoa não está — férias, reunião —, o que aconteceu da última vez?\n   (ouvir: o caminho de contorno, quem substitui, o que fica parado)\n\n8. Tem alguma planilha, grupo, caderno ou arquivo que você usa e que não está\n   no sistema? Posso ver como você usa?\n   (ver: o trabalho invisível — a coluna \"onde vive\")\n\n9. O que você fez da última vez que o sistema estava fora do ar ou mostrando\n   informação errada?\n   (ouvir: o que a pessoa confere e não confia; o que ela checa a olho)\n\n10. Da última vez que alguém tentou mudar esse processo, o que aconteceu?\n    (ouvir: resistências anteriores, promessas quebradas, quem pode travar)\n\n11. Se esse passo sumisse amanhã, o que daria errado? Quem perceberia?\n    (ouvir: o passo que é teatro; se ninguém perceberia, ele vai para \"apagar\")\n\nFechamento: com quem mais eu deveria conversar sobre isso?",
+            "exercise": "Escolha uma área da sua empresa que não é a sua: financeiro, suporte, logística. Converse com duas pessoas de lá, trinta minutos cada, usando o roteiro. No dia seguinte, monte o mapa com pelo menos cinco linhas. Depois marque quantas linhas têm \"não\" na coluna \"Oficial?\". Se nenhuma tiver, volte e faça a pergunta 8 de novo, pedindo para ver."
+          }
+        },
+        {
+          "id": "provar-o-piloto-que-vira-producao",
+          "number": 6,
+          "title": "Provar — o piloto que vira produção",
+          "question": "Por que tantos pilotos de IA não viram produção — e o que o FDE faz diferente?",
+          "purpose": "Dizer, antes de começar, o que é \"adotado\" e quando parar",
+          "document": {
+            "name": "O plano de piloto",
+            "text": "PLANO DE PILOTO — Casa Ipê Móveis (EMPRESA FICTÍCIA) — versão 1 — 21/10\n\n1. O que entra no piloto\n   Rascunho de resposta para as mensagens da fila ENTREGA, no e-mail,\n   com o status do pedido lido do ERP. O atendente revisa, edita se precisar\n   e envia. Nada é enviado sem um atendente.\n   Degrau de autonomia: 1 de 3 (1 = rascunho revisado; 2 = envio automático\n   só de \"onde está meu pedido\" com status inequívoco; 3 = demais casos).\n   O degrau 2 NÃO faz parte deste piloto; é decidido no fim dele.\n\n2. Com quem\n   Os 8 atendentes da equipe da manhã (os mesmos da fatia fina).\n   FDE presente no atendimento 2 manhãs por semana.\n\n3. Quando\n   Início: 28/10. Fim: 06/12 (6 semanas). Decisão: 09/12.\n   Quem decide: Diretora de Operações, ouvido o coordenador do atendimento.\n\n4. Linha de base (medida na fatia, 07/10 a 25/10)\n   Tempo até a 1ª resposta, mediana, fila ENTREGA, e-mail.\n   Mesma regra de medida durante todo o piloto.\n\n5. O que conta como \"adotado\"\n   Mensagem da fila ENTREGA respondida a partir do rascunho\n   (enviado sem edição ou com edição). Mensagem respondida do zero,\n   com o rascunho disponível, conta como NÃO adotada.\n\n6. Verificação (o que dá confiança)\n   Todo rascunho mostra de onde veio o status do pedido.\n   O atendente marca \"rascunho errado\" com um clique; cada marcação\n   vira caso do conjunto de avaliação (ver capítulo Medir).\n   Toda semana: FDE e coordenador leem juntos 50 rascunhos sorteados.\n   Botão de desligar o rascunho, por atendente, sem pedir a ninguém.\n\n7. CRITÉRIO DE SAÍDA — vai a produção se, nas semanas 4, 5 e 6:\n   a) pelo menos 6 dos 8 atendentes usaram o rascunho em 70% ou mais\n      das suas mensagens da fila ENTREGA;\n   b) a mediana do tempo até a 1ª resposta na fila ENTREGA caiu 30% ou mais\n      em relação à linha de base;\n   c) nos 150 rascunhos sorteados dessas semanas, ZERO rascunhos com status\n      de pedido errado ou dado de outro cliente;\n   d) o coordenador aceita ser o dono do sistema no dia a dia.\n   \"Produção\" = todos os turnos do e-mail, com o mesmo degrau 1.\n\n8. CRITÉRIO DE PARADA — o piloto termina SEM ir a produção se:\n   a) qualquer rascunho trouxer dado de outro cliente: para no mesmo dia,\n      e só volta com a causa explicada por escrito;\n   b) na semana 3, menos de 3 atendentes usam o rascunho, e as conversas\n      com eles não apontam uma causa que se corrija em uma semana;\n   c) o acesso de leitura ao ERP não estiver liberado até 04/11;\n   d) em 09/12, os critérios de saída não foram cumpridos. Prorrogação:\n      no máximo uma, de 3 semanas, com o motivo escrito e um critério novo.\n\n9. O que o piloto NÃO decide\n   Envio automático (degrau 2). Outros canais. Outras filas.\n\n10. O que volta para o produto\n    Lista, atualizada toda semana, dos padrões que se repetiram\n    (tipos de mensagem, nomes do pedido, exceções), para o time de produto.\n\nDe acordo: Diretora de Operações · Coordenador do atendimento · FDE",
+            "exercise": "Escolha um projeto que você tem agora, de IA ou não, que está \"em piloto\" ou \"em validação\". Escreva só os itens 5, 7 e 8 do plano: o que conta como adotado, o critério de saída e o critério de parada. Leve os três a quem decide e peça uma data de decisão. Se ninguém aceitar escrever o critério de parada, você descobriu por que o piloto ainda não terminou."
+          }
+        },
+        {
+          "id": "medir-eval-e-o-contrato",
+          "number": 7,
+          "title": "Medir — eval é o contrato",
+          "question": "Como provo que um sistema de IA funciona — para o cliente e para mim?",
+          "purpose": "Escrever com o cliente o que conta como acerto",
+          "document": {
+            "name": "O golden set",
+            "text": "GOLDEN SET — <sistema>, <cliente>\nDono do conjunto (cliente): <nome, função>\nDono do sistema (FDE):      <nome>\n\nTamanho: <n> casos (<n> de fronteira). Meta: crescer com casos reais de produção.\nCritério de \"funciona\": acerto ≥ <x>% no total de 3 rodadas,\n                        e zero erro nos casos marcados como críticos.\n\nRegra de mudança:\n1. Nenhuma mudança (instrução, modelo, ferramenta, dado de consulta) entra\n   sem rodar o conjunto inteiro, 3 vezes, antes e depois.\n2. A mudança entra se o total não piora e nenhum caso crítico passa a errar.\n3. Todo caso que mudou de certo para errado é lido e explicado por escrito,\n   mesmo que o total tenha melhorado.\n4. Erro classificado como \"rótulo\" volta ao dono do conjunto, que decide;\n   o FDE não muda rótulo sozinho.\n5. Todo chamado de produção causado pelo sistema vira caso novo no conjunto.\n\nHistórico: <data> · <versão> · <acerto> · <o que mudou> · <quem aprovou>",
+            "exercise": "Escolha um sistema com IA que você usa ou mantém. Escreva vinte casos reais para ele, sendo cinco de fronteira, com a resposta certa ao lado. Rode três vezes, leia cada erro e marque se o erro é do sistema ou do seu rótulo. Depois, faça a mudança que parece óbvia e rode de novo."
+          }
+        },
+        {
+          "id": "producao-o-que-quebra-dentro-do-cliente",
+          "number": 8,
+          "title": "Produção — o que quebra dentro do cliente",
+          "question": "O que quebra quando um sistema de IA sai do piloto e entra no ambiente do cliente?",
+          "purpose": "Conferir identidade, permissões, dados, registro e desligamento",
+          "document": {
+            "name": "O checklist de produção",
+            "text": "CHECKLIST DE PRODUÇÃO — <sistema>, <cliente>, <data>\nResponsável técnico: <nome>   Segurança do cliente: <nome>   Encarregado (LGPD): <nome>\n\n1. IDENTIDADE\n[ ] O agente age em nome de quem? (usuário, conta de serviço, cada um separado)\n[ ] O dono de cada recurso vem da credencial, nunca de um argumento que o modelo preenche.\n[ ] As credenciais do agente são só dele, com escopo mínimo, e não são repassadas a outro serviço.\n[ ] Existe um jeito de revogar o acesso do agente sem derrubar o dos usuários.\n\n2. FERRAMENTAS E PERMISSÕES (uma linha por ferramenta)\n    ferramenta | lê/escreve | volta atrás? | efeito fora do sistema? | limite no servidor | aprovação humana\n[ ] Toda ferramenta que o agente não usa foi removida (não só \"desencorajada\" na instrução).\n[ ] Nenhuma ferramenta apaga, emite credencial, cria canal de saída ou move dinheiro sem aprovação.\n[ ] Os limites (valor, volume, destino) são aplicados no servidor, não na instrução.\n\n3. FRONTEIRA DE CONFIANÇA\n[ ] Lista de tudo o que entra no contexto vindo de fora (e-mail, página, arquivo, resposta de API).\n[ ] Conteúdo de fora vem marcado como dado, separado da instrução.\n[ ] A saída do agente não carrega dado interno para destino externo (links, imagens, e-mails).\n\n4. TESTE DE INJEÇÃO\n[ ] Casos de ataque no golden set: óbvio, disfarçado de rotina do cliente, disfarçado de rotina interna.\n[ ] Contagem feita pelas ações pedidas, não pelo texto da resposta; detector conferido à mão.\n[ ] Rodado de novo a cada troca de modelo, instrução ou ferramenta.\n\n5. DADOS PESSOAIS (LGPD)\n[ ] Quais dados pessoais o agente lê, guarda e registra; cada um com a finalidade.\n[ ] O mínimo necessário: campos que o agente não precisa não chegam a ele.\n[ ] Instruções do controlador por escrito; papel de cada empresa (controlador, operador) definido.\n[ ] Onde os dados são processados e guardados, e por quanto tempo.\n\n6. REGISTRO E OBSERVABILIDADE\n[ ] Cada execução registra: entrada, ferramentas chamadas, argumentos, resultado, quem aprovou.\n[ ] Em caso de incidente, dá para responder em horas: o que foi lido, o que saiu, para onde.\n[ ] O monitor testa funcionamento (o fluxo de ponta a ponta com credencial), não só disponibilidade.\n[ ] O registro não guarda dado pessoal além do necessário.\n\n7. LIMITES DE USO\n[ ] Teto de chamadas, de custo e de ações por período, com alerta antes do teto.\n[ ] Comportamento definido quando o modelo ou uma ferramenta não responde.\n\n8. DESLIGAR E VOLTAR ATRÁS\n[ ] Um interruptor que desliga o agente em minutos, testado, com dono.\n[ ] O processo do cliente funciona sem o agente (o caminho manual existe e alguém sabe usar).\n[ ] Plano para desfazer as ações do agente num período (o que dá e o que não dá para desfazer).\n\nContagem: <n> sim · <n> não · <n> não sei.   Vai para produção se: <critério combinado>.",
+            "exercise": "Pegue um sistema com IA que você conhece, de preferência um que você construiu. Preencha a tabela do item 2, uma linha por ferramenta, e marque as que o sistema não usa. Depois passe o sistema pelo checklist inteiro e conte os \"não sei\". Se o sistema lê algo de fora, escreva três e-mails de ataque, um óbvio e dois disfarçados de rotina, e conte, pelas ações, quantas vezes ele obedece."
+          }
+        },
+        {
+          "id": "sair-o-caminho-de-volta",
+          "number": 9,
+          "title": "Sair — o caminho de volta",
+          "question": "Como termino um engajamento de forma que ele valha além daquele cliente?",
+          "purpose": "Levar ao produto o que virou padrão e deixar o resto no cliente",
+          "document": {
+            "name": "O relatório de volta",
+            "text": "RELATÓRIO DE VOLTA — <cliente>, <período do engajamento>\nAutor (FDE): <nome>        Entregue a (produto): <nome, time>        Data da conversa: <data>\n\n1. O ENGAJAMENTO EM CINCO LINHAS\n   Problema do cliente · fatia entregue · resultado medido (golden set e adoção) · o que ficou em produção.\n\n2. O QUE VIROU PADRÃO (candidatos a entrar no produto)\n   Para cada um:\n   - O que é, em uma frase.\n   - Em quantos clientes já funcionou, e quais (regra: ≥ 2 clientes para pedir a passagem).\n   - Evidência: casos do golden set, números de uso, o código ou o roteiro que existe hoje.\n   - Custo de continuar fazendo à mão em cada cliente (horas por implantação).\n   - O que a passagem inclui: código, testes, documentação, quem responde por ela até o time assumir.\n\n3. O QUE O PRODUTO PRECISA (limitações que foram contornadas)\n   Para cada uma:\n   - O que o cliente precisava e o produto não fazia.\n   - Como foi contornado, e onde esse contorno vive hoje.\n   - Quantas vezes, neste e em outros clientes, alguém contornou a mesma limitação.\n   - Casos do golden set que falham por causa dela (anexar).\n\n4. O QUE É PARTICULAR (não generalizar)\n   Para cada item:\n   - O que é, e por que só este cliente precisa (regra interna, sistema legado, contrato, lei).\n   - Onde está documentado, e quem, no cliente, é dono.\n\n5. ATALHOS QUE FICARAM NO CLIENTE\n   Todo script, planilha ou integração feita às pressas que ainda roda:\n   - O que faz, onde roda, quem mantém a partir de hoje.\n   - Data em que deve morrer, e o que o substitui.\n\n6. RETORNO SOBRE O MODELO E AS AVALIAÇÕES\n   - Onde o modelo acertou e onde errou, com os casos.\n   - Casos novos para os conjuntos de avaliação do produto (com rótulo e dono).\n\n7. O PEDIDO\n   - A decisão que você precisa do time de produto (entra no rumo? não entra? precisa de mais um cliente?).\n   - Até quando.\n   - O que acontece com o próximo cliente se a resposta for \"não\".",
+            "exercise": "Pegue o último projeto que você entregou, com cliente externo ou interno. Escreva o relatório de volta dele, seção por seção, mesmo que a resposta de algumas seja \"nada\". Depois leia a seção 5 com atenção: se houver um atalho com o seu nome que ainda roda, ele é o seu vinoo.groovy, e a seção pede uma data para ele morrer."
+          }
+        }
+      ]
+    },
+    {
+      "title": "O ofício",
+      "chapters": [
+        {
+          "id": "integrar-o-que-ja-existe",
+          "number": 10,
+          "title": "Integrar o que já existe",
+          "question": "Como conecto IA a sistemas que ninguém documentou?",
+          "purpose": "Mapear onde cada dado mora e como se chega nele",
+          "document": {
+            "name": "O inventário de sistemas",
+            "text": "INVENTÁRIO DE SISTEMAS — <cliente> · <projeto> · <data> · <quem preencheu>\n\nUma ficha por sistema que o projeto lê ou escreve.\n\nSISTEMA\n  Nome (como o cliente chama):\n  O que guarda (os substantivos: pedido, cliente, contrato…):\n  É a fonte da verdade desses dados?        sim | não | em disputa com: ___\n  Dono (pessoa, não área):                  nome · cargo · como responde · prazo típico\n\nACESSO\n  Como se chega nele:                       API documentada | API sem doc | banco direto\n                                            | arquivo/exportação | tela (macro/navegador) | pessoa\n  Leitura, escrita ou as duas:\n  Com a credencial de quem:                 usuário final | conta de serviço | pessoa do time\n  Quem aprova essa credencial, e em quanto tempo:\n  Ambiente de teste existe?                 sim | não | existe mas é outra coisa\n\nRITMO\n  Tempo real ou lote:                       tempo real | lote (janela: ___)\n  Horário em que não pode ser tocado:\n  Limite de chamadas conhecido:\n\nFALHA (os quatro fundamentos)\n  Repetir: a gravação é idempotente?        sim, chave = ___ | não | não sei\n  Esperar: o que acontece se ele não responder em 30 s?\n  Reprocessar: onde fica a mensagem que falhou?  fila | log | some\n  Quem pede: a ação registra quem pediu?    sim, em ___ | não\n\nRISCO\n  Dado pessoal (LGPD)?                      sim: quais campos | não\n  Se ele cair por uma hora, o que para no cliente:\n  Quando muda, quem avisa:                  ninguém | e-mail | calendário de mudanças\n\nCONFIANÇA NESTA FICHA\n  Conferido no sistema | dito pelo dono | dito por outra pessoa | suposição",
+            "exercise": "Faça o inventário dos sistemas que o seu time usa hoje, mesmo que não haja IA nenhuma no caminho. Escolha um fluxo real, como \"um pedido vira nota fiscal\", e preencha uma ficha para cada sistema por onde ele passa. Conte quantas linhas terminaram em \"não sei\" e quantas fichas têm confiança \"suposição\". Esse número é o tamanho da descoberta que falta antes de qualquer agente tocar nesse fluxo."
+          }
+        },
+        {
+          "id": "agentes-que-o-cliente-aguenta",
+          "number": 11,
+          "title": "Agentes que o cliente aguenta",
+          "question": "Quando usar um agente, quando usar um fluxo fixo — e quanto deixar o agente fazer sozinho?",
+          "purpose": "Separar o que se apaga, o que é código, o que é agente e o que fica com uma pessoa; e registrar o que o agente pode fazer, o que não pode e quem responde",
+          "document": {
+            "name": "A ficha de agente",
+            "text": "FICHA DE AGENTE — <nome> · versão <n> · <data> · dono humano: <nome, cargo>\n\n1. TAREFA\n   Em uma frase, o que ele resolve:\n   Por que agente e não fluxo fixo (quais passos não dá para escrever antes):\n   Se a resposta acima estiver vazia, pare aqui e faça um fluxo fixo.\n\n2. ENTRADAS\n   De onde vem cada texto que ele lê:        usuário | sistema interno | fonte externa\n   Quais entradas são de fora (e-mail, issue, página, anexo):\n   Como elas chegam ao modelo:                marcadas como dado | misturadas à instrução\n\n3. FERRAMENTAS\n   | ferramenta | lê ou escreve | reversível? | alcance (que dados toca) |\n   Alguma combinação leva dado privado para lugar público?  sim: qual | não\n\n4. PERMISSÕES\n   Com a credencial de quem ele age:\n   O dono do recurso vem da credencial ou do argumento?    credencial | argumento (corrigir)\n   O que ele NÃO recebe (apagar, emitir credencial, pagar, publicar):\n\n5. O QUE NUNCA FAZ SOZINHO\n   | regra | onde está a trava: instrução | código | servidor | teste da trava |\n   Toda linha com trava só na instrução é um risco aceito, assinado por: ___\n\n6. QUANDO PASSA PARA UMA PESSOA\n   Gatilhos (pedido de dinheiro, ameaça, dano, fora do escopo, N passos sem terminar):\n   Para quem vai, por qual canal, em quanto tempo alguém olha:\n   O que o resumo do caso precisa conter:\n\n7. LIMITES DE EXECUÇÃO\n   Máximo de passos por atendimento:\n   O que acontece com resposta fora do formato:\n   Custo máximo por atendimento:\n\n8. COMO É AVALIADO\n   Conjunto de casos (quantos, de onde vieram, quem rotulou):\n   O que conta como acerto, como erro e como erro grave:\n   Os erros conhecidos (ex.: procedimento inventado; bloqueio de resposta correta):\n\n9. REGISTRO\n   Cada execução grava: entrada, ações, resultado, nível, aprovado (sim/não), editado (sim/não)\n   Quem marca \"aprovado\", e com que frequência:\n\n10. NÍVEL DE AUTONOMIA\n    Atual:  L0 rascunha, pessoa aprova tudo\n          | L1 age sozinho no reversível\n          | L2 age sozinho no resto, fora da lista do \"nunca\"\n    Para subir: <N> execuções revisadas em <período>, ≥ <X>% aprovadas sem edição, 0 violações\n    Para descer (imediato): qualquer violação de \"nunca faz sozinho\"\n    Quem decide a promoção: uma pessoa, nunca o próprio sistema",
+            "exercise": "Preencha a ficha para um agente que você usa ou quer construir. Depois, para cada regra da linha 5 com trava só na instrução, escreva a mensagem de cliente, ou o texto de fora, que a faria quebrar. Se alguma dessas mensagens for tão simples quanto uma issue num repositório público, a trava precisa descer para o código antes de o agente ir para produção."
+          }
+        },
+        {
+          "id": "o-agente-de-codigo-como-par",
+          "number": 12,
+          "title": "O agente de código como par",
+          "question": "Com agentes escrevendo código, o que um FDE ainda precisa saber programar?",
+          "purpose": "Conferir a entrega de um agente de código em poucos minutos",
+          "document": {
+            "name": "A rotina de verificação de cinco minutos",
+            "text": "ROTINA DE VERIFICAÇÃO — antes de aceitar a entrega de um agente de código\n\nAntes de pedir:\n  - Marque o início:          touch /tmp/marco-inicio\n  - Peça no relatório:        caminho absoluto de cada arquivo criado ou alterado,\n                              linhas de cada um, comandos rodados, testes e resultado.\n\n1. A CONTAGEM (1 min)\n   Os números do relatório batem com o disco?\n     wc -l <cada arquivo relatado>\n     grep -c \"def test_\" <arquivo de teste>      (ou o equivalente da linguagem)\n   Diferença de uma linha é ruído. Diferença de dezenas é outro arquivo.\n\n2. ONDE OS ARQUIVOS FORAM PARAR (1 min)\n   O trabalho está na pasta pedida, e só nela?\n     git status                                  (o que mudou no repositório)\n     find . -newer /tmp/marco-inicio -type f     (o que foi criado aqui)\n     find /tmp \"$HOME\" -maxdepth 2 -newer /tmp/marco-inicio -type f\n                                                 (o que foi criado fora)\n   Arquivo fora do lugar: o trabalho pode estar íntegro e no caminho errado.\n\n3. A REFERÊNCIA QUE RESOLVE (1 min)\n   Tudo o que o código cita existe?\n     imports, caminhos, variáveis de ambiente, IDs, nomes de tabela, URLs\n   Para cada um: ls, grep na base, ou importar o módulo uma vez.\n   Referência que só tem o formato certo não é referência.\n\n4. A CHAMADA QUE RESPONDE (1 min)\n   O que o código chama está no ar e responde o que ele espera?\n     curl -s -o /dev/null -w \"%{http_code}\\n\" <url>\n   Rode o ponto de entrada uma vez, com uma entrada real.\n   000 ou 404 é achado, não \"sem diferença\".\n\n5. OS TESTES, RODADOS POR VOCÊ (1 min)\n   Rode a suíte você mesmo, na pasta certa:\n     python3 -m pytest -q                        (ou o equivalente)\n   Quebre uma linha da função de propósito e rode de novo.\n   Se nenhum teste falhar, os testes não testam a função.\n   Desfaça a quebra.\n\nRESULTADO\n   Aceito | Volta, com o item que falhou | Aceito com ressalva (escrita no registro)\n   Registre: data, pedido, o que o relatório dizia, o que a conferência achou.",
+            "exercise": "Na próxima entrega do seu agente de código, antes de aceitar, rode a rotina inteira e cronometre. Anote qual dos cinco itens achou alguma coisa. Depois repita o pedido do teste deste capítulo, com a mesma frase, \"nesta pasta\", no agente que você usa, e confira onde os arquivos foram parar."
+          }
+        }
+      ]
+    },
+    {
+      "title": "O caminho",
+      "chapters": [
+        {
+          "id": "de-onde-vem-os-fdes",
+          "number": 13,
+          "title": "De onde vêm os FDEs",
+          "question": "Eu tenho o perfil? De onde vêm os FDEs que as empresas contratam?",
+          "purpose": "Achar o seu arquétipo de entrada e as lacunas dele",
+          "document": {
+            "name": "O autodiagnóstico",
+            "text": "AUTODIAGNÓSTICO DE ENTRADA — data: ____/____/______\n\nPARTE 1 — DE ONDE VOCÊ VEM\nMarque o que ocupou mais tempo nos seus últimos três anos de trabalho.\n  [ ] Implantação de ERP/CRM, integradora, serviços profissionais, sucesso do cliente  → IMPLANTADOR\n  [ ] Desenvolvimento de software, engenharia de dados, ML                            → CONSTRUTOR\n  [ ] Consultoria de negócio, pré-venda, sales/solutions engineer, arquiteto          → TRADUTOR\n  [ ] Fundador de empresa, gerente de produto técnico                                 → EMBAIXADOR\nArquétipo principal: ______________   Secundário (se houver): ______________\n\nPARTE 2 — AS COMPETÊNCIAS, COM O PESO DAS 16 VAGAS (24/09/2026)\nNota: 0 = nunca fiz · 1 = estudei · 2 = fiz fora de produção · 3 = fiz em produção E tenho prova\nPontos de lacuna = peso × (3 − nota)\n\n  Competência                                   Peso   Nota   Lacuna   Prova (link, sistema, pessoa)\n  Comunicação com cliente e executivo            16     __     __      ______________________\n  Código (qualquer nível)                        15     __     __      ______________________\n  Descoberta e escopo com cliente                14     __     __      ______________________\n  Integração com sistemas (APIs, dados)          13     __     __      ______________________\n  Código de produção                             11     __     __      ______________________\n  Modelo de linguagem num sistema                11     __     __      ______________________\n  Modelo de linguagem em produção                10     __     __      ______________________\n  Agentes, ferramentas, MCP                      10     __     __      ______________________\n  Avaliação (evals)                              10     __     __      ______________________\n  Python                                          9     __     __      ______________________\n  Segurança e privacidade                         7     __     __      ______________________\n  Nuvem e infraestrutura                          6     __     __      ______________________\n  Recuperação de informação (RAG, busca)          4     __     __      ______________________\n\nPARTE 3 — CONFIRA COM AS LACUNAS TÍPICAS DO SEU ARQUÉTIPO\nSe uma lacuna típica do seu arquétipo tirou nota 3 com prova, risque. Se não, ela sobe na lista.\n  IMPLANTADOR  código de produção · modelo de linguagem em produção · avaliação\n  CONSTRUTOR   descoberta e escopo · comunicação com executivo · avaliação (se nunca mediu um sistema de IA)\n  TRADUTOR     código de produção · integração real · avaliação\n  EMBAIXADOR   integração com legado · segurança e privacidade · operação de um sistema que não é seu\n\nPARTE 4 — AS TRÊS LACUNAS\nOrdene pela coluna \"Lacuna\" (maior primeiro). Em empate, fica a que está na Parte 3.\n  1. _______________________  prova que vai fechar: _______________________________\n  2. _______________________  prova que vai fechar: _______________________________\n  3. _______________________  prova que vai fechar: _______________________________\n\nPARTE 5 — A PORTA MAIS CURTA\nQual empresa, entre as que você quer, já abre a porta do seu arquétipo?\n  (ex-fundador bem-vindo · formação interna · vaga júnior · \"não precisa ser dev sênior\")\n  Empresa: __________  Frase da vaga que abre a porta: \"________________________________\"",
+            "exercise": "Preencha o autodiagnóstico sem olhar para o resto do livro, em vinte minutos. Depois mostre a Parte 2 a alguém que trabalhou com você e peça que corrija as notas. Onde a nota da outra pessoa for menor que a sua, use a dela. Escreva as três lacunas e guarde a folha: ela é a entrada do plano de estudo do próximo capítulo."
+          }
+        },
+        {
+          "id": "o-que-estudar",
+          "number": 14,
+          "title": "O que estudar",
+          "question": "O que eu preciso estudar para ser FDE, e em que ordem?",
+          "purpose": "Montar a trilha a partir das lacunas",
+          "document": {
+            "name": "O plano de estudo pessoal",
+            "text": "PLANO DE ESTUDO PESSOAL — início: ____/____/______   horas por semana: ____\n\nENTRADA (do autodiagnóstico do capítulo 13)\n  Arquétipo principal: __________   secundário: __________\n  Lacuna 1: __________________   Lacuna 2: __________________   Lacuna 3: __________________\n\nA ORDEM\n  Os módulos das suas três lacunas vêm primeiro dentro da ordem do livro\n  (M0 → M1 → M2 → M3 → M4 → M5; M7 em paralelo desde o M2; depois M6 → M8 → final → M9).\n  Módulo com prova de nota 3 no autodiagnóstico: carga mínima, só o projeto.\n\n  #   Módulo            Carga   Semanas   Projeto (o seu, adaptado)          Pronto quando\n  1.  M__  ___________   ___h    ___       ________________________________   ________________\n  2.  M__  ___________   ___h    ___       ________________________________   ________________\n  3.  M__  ___________   ___h    ___       ________________________________   ________________\n  4.  M__  ___________   ___h    ___       ________________________________   ________________\n  5.  M__  ___________   ___h    ___       ________________________________   ________________\n  6.  M__  ___________   ___h    ___       ________________________________   ________________\n  7.  M__  ___________   ___h    ___       ________________________________   ________________\n  8.  M__  ___________   ___h    ___       ________________________________   ________________\n  9.  M__  ___________   ___h    ___       ________________________________   ________________\n  10. M__  ___________   ___h    ___       ________________________________   ________________\n  11. Projeto final     60h      ___       cliente real: ____________________   em uso, com antes e depois\n\nM7 EM PARALELO (desde o M2)\n  Pessoa real com problema real: ______________________  primeira conversa em: ____/____\n  Três entrevistas feitas: [ ] [ ] [ ]   Documento de desenho: [ ]   Escopo da fatia fina: [ ]\n\nREVISÃO A CADA QUATRO SEMANAS\n  Data   Módulo   Horas feitas   Projeto: link   O que deu errado   Ajuste no plano\n  ____   ______   ____           ____________   ________________   ________________\n\nREGRAS\n  1. Módulo só termina quando o projeto tem link que outra pessoa abre.\n  2. Todo projeto tem uma seção \"o que não funcionou\", com número quando houver.\n  3. Ferramenta nova só entra quando o projeto pede, nunca para \"acompanhar\".\n  4. Refaça o autodiagnóstico ao fim de cada três módulos; se a lacuna fechou, a carga seguinte cai.",
+            "exercise": "Pegue as três lacunas do capítulo 13 e escolha o módulo da maior delas. Adapte o projeto desse módulo a um problema de verdade, seu ou de alguém que você conhece. Escreva o \"pronto quando\" antes de começar, marque na agenda as horas das próximas quatro semanas e, ao fim delas, publique o link do projeto, mesmo incompleto, com a seção \"o que não funcionou\"."
+          }
+        },
+        {
+          "id": "o-processo-seletivo",
+          "number": 15,
+          "title": "O processo seletivo",
+          "question": "Como as empresas entrevistam um FDE — e como me preparo?",
+          "purpose": "Treinar a entrevista de problema aberto com tempo marcado",
+          "document": {
+            "name": "O roteiro de decomposição (45 minutos)",
+            "text": "ROTEIRO DE DECOMPOSIÇÃO — 45 MINUTOS\nFolha em branco, relógio à vista. Tudo em voz alta. Anote as hipóteses num canto, marcadas com H.\n\n0–12 min  1. ENQUADRAR (pergunte antes de desenhar)\n  - Quem é o usuário de verdade? Quem decide? Quem paga?\n  - Qual é o número hoje, e qual número conta como sucesso? Média, mediana ou o pior caso?\n  - Que parte do problema atacamos? (no exemplo da central: do atendimento ao despacho, ou do despacho à chegada?)\n  - Que dados existem, onde moram, quem é o dono, em que estado estão?\n  - O que não pode acontecer? (dado sensível, sistema que não pode cair, regra do setor)\n  Feche com uma frase: \"Então o problema é ___, para ___, medido por ___.\"\n\n12–20 min  2. CAMADAS (divida para poder sequenciar)\n  - Desenhe três ou quatro camadas: ingestão → visibilidade → decisão/otimização → automação.\n  - Para cada uma: o que entra, o que sai, qual é o risco maior.\n  - Diga em voz alta qual camada é mais arriscada e por quê.\n\n20–28 min  3. FATIA FINA (entregue primeiro o que funciona sozinho)\n  - O menor pedaço que dá valor em duas a quatro semanas, para um grupo pequeno de usuários.\n  - Muitas vezes é visibilidade, sem modelo. Se tiver modelo, diga por que não dá sem.\n  - O que fica FORA da fatia, dito explicitamente.\n  - O que a fatia destrava para a próxima.\n\n28–38 min  4. RESTRIÇÕES E ADOÇÃO (as pessoas e o mundo real)\n  - Dado velho, dado que não junta, sistema fora do ar: o que o usuário vê?\n  - Quem pode ver o quê (acesso, privacidade, regra do setor).\n  - Quem precisa mudar de comportamento, e quem vai resistir?\n  - Onde a pessoa pode discordar do sistema (decisão manual, passagem para humano)?\n  - Se houver modelo: como você sabe que ele está funcionando? (casos, erro aceitável, regressão)\n\n38–45 min  5. MEDIR E FECHAR (comprometa-se)\n  - Que número você mede desde o primeiro dia, para atribuir a melhora depois?\n  - A recomendação em três frases: faço ___ primeiro, porque ___, e sei que deu certo quando ___.\n  - O que mudaria a sua recomendação (a hipótese mais frágil da lista H).\n\nDURANTE TUDO\n  - Se o entrevistador contestar: diga o custo que você aceitou, pergunte a restrição que faltou, mude se ele tiver razão.\n  - Não liste ferramentas. Escolha uma e diga por quê.\n  - Silêncio longo parece travamento: pense em voz alta.",
+            "exercise": "Faça cinco decomposições cronometradas, em voz alta, com os problemas do Apêndice B. Grave cada uma. Depois de cada gravação, confira contra os cinco jeitos de perder a rodada e anote quantos minutos você levou até fazer a primeira pergunta e até propor a fatia fina. Na quinta, peça a alguém que faça o papel de entrevistador e conteste uma decisão sua no meio. Termine com uma simulação de cliente: a má notícia em noventa segundos, gravada, para alguém que não seja da área."
+          }
+        },
+        {
+          "id": "o-mercado-no-brasil",
+          "number": 16,
+          "title": "O mercado no Brasil",
+          "question": "Existe FDE no Brasil — onde, quanto paga e como entrar?",
+          "purpose": "Separar os três mercados e ver o que falta para cada vaga",
+          "document": {
+            "name": "O mapa de alvos",
+            "text": "MAPA DE ALVOS — <seu nome>, montado em <data>\n\nBusca usada: <site>, palavra-chave <\"...\">, local <...>, <n> resultados lidos\nCritério de título: <ex.: \"Forward Deployed\", \"Deployed Engineer\", \"Deployment Strategist\",\n                    \"implantação\", \"Member of Technical Staff\">\n\nPara cada alvo (uma linha por vaga lida inteira, não por cartão de busca):\n\n| # | Empresa | Mercado | Título exato | Local e presença | Viagem | Idioma | Regime | Faixa (literal) | Anos | O que pede que eu não tenho | Data de leitura | URL |\n\nMercado: MULTI (multinacional com vaga daqui) | BR (empresa brasileira) | FORA (vaga no exterior)\nLocal e presença: presencial <n>x/semana | híbrido <cidades> | remoto no país | remoto global\nFaixa: copie o texto da vaga; se não houver, escreva \"não publica\"\nO que pede que eu não tenho: no máximo três itens, com a frase da vaga\n\nDepois da tabela:\n1. Quantas linhas em cada mercado?  MULTI __  BR __  FORA __\n2. Em quais eu passaria hoje nos requisitos mínimos, sem esticar?  ____________\n3. Qual lacuna aparece em mais de metade das linhas?  ____________\n4. Quais empresas fazem o trabalho sem o título (achadas por outro caminho)?  ____________\n5. Qual é o próximo alvo, e o que eu faço nas próximas quatro semanas para chegar nele?  ____________\n\nRegras:\n- Vaga sem data de leitura não entra.\n- Faixa entra literal, com o que ela inclui; nada de converter nem estimar.\n- Refazer o mapa a cada 30 dias; vaga que saiu do ar fica riscada, não apagada.",
+            "exercise": "Faça a busca desta semana com os dois critérios de título, o largo e o estreito, e anote quantos resultados cada um dá. Escolha seis vagas, pelo menos duas de empresa brasileira, e leia cada uma inteira. Preencha o mapa. Depois, procure duas empresas que fazem o trabalho sem o título: pela sua rede, por integradoras que você conhece, pelos times de implantação de empresas de software brasileiras. Acrescente as duas ao mapa, com o nome que elas usam."
+          }
+        },
+        {
+          "id": "depois-do-campo",
+          "number": 17,
+          "title": "Depois do campo",
+          "question": "Para onde leva a carreira de FDE — e como não queimar nela?",
+          "purpose": "Escrever, antes de começar, o que levar do campo e quando sair",
+          "document": {
+            "name": "O plano de 18 meses",
+            "text": "PLANO DE 18 MESES — <nome>, <empresa>, começo em <data>\n\nPor que entrei (uma frase):  ______________________________________________\nSaída que me interessa hoje:  [ ] fundar  [ ] produto  [ ] liderar campo  [ ] voltar à engenharia  [ ] não sei\n\nViagem combinada na oferta: ___ % ou ___ dias/mês\nMeu limite real de viagem:  ___ dias/mês   (escrito antes de começar, não depois)\n\nSEMESTRE 1 (meses 1–6) — aprender o ofício no cliente\n  Aprender:  entrar e escopar; os substantivos e os verbos de um setor; uma integração de ponta a ponta\n  Prova:     1 fatia fina em produção; 1 escopo de uma página que o cliente assinou\n  Registro:  um diário de campo, uma linha por semana: o que aprendi, o que me custou\n\nSEMESTRE 2 (meses 7–12) — provar que funciona e que volta\n  Aprender:  eval com o cliente; produção; um relatório de volta ao produto\n  Prova:     1 golden set em uso; 1 coisa minha que virou padrão, ferramenta ou mudança de produto\n  Registro:  o diário; e a lista das decisões de produto que eu influenciei (pode estar vazia; anote)\n\nSEMESTRE 3 (meses 13–18) — escolher\n  Aprender:  o que a saída escolhida pede (vender? liderar? desenhar produto? construir plataforma?)\n  Prova:     1 engajamento conduzido do começo ao fim; 1 pessoa que aprendeu comigo\n  Registro:  o diário; e a resposta à pergunta de saída\n\nSINAIS DE DESGASTE (marque a data do primeiro de cada um)\n  [ ] passei do meu limite de viagem por dois meses seguidos           ____\n  [ ] a semana virou manutenção do que já construí                     ____\n  [ ] parei de aprender coisa nova de setor há mais de um mês          ____\n  [ ] meu relatório de volta não mudou nada no produto há dois ciclos  ____\n  [ ] sono, família ou saúde apareceram no diário três semanas seguidas ____\n  Dois sinais ao mesmo tempo = conversa com a liderança nesta semana, com o diário na mão.\n\nA PERGUNTA DE SAÍDA (responder a cada seis meses)\n  O que eu aprendi aqui ainda está mudando?\n  [ ] sim, e o custo cabe     → seguir o plano\n  [ ] sim, mas o custo não cabe → negociar viagem, rodízio ou escopo antes de sair\n  [ ] não                     → escolher a saída; o semestre seguinte é de transição",
+            "exercise": "Preencha o plano como se começasse na segunda-feira que vem, mesmo que você ainda não tenha a vaga. Escreva o seu limite de viagem em dias por mês, e compare com as vagas deste livro: 20%, 25%, 50%. Depois, escolha um dos sinais de desgaste e descreva, em duas linhas, como ele apareceu da última vez num trabalho seu, e quanto tempo você levou para notar."
+          }
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "title": "Documentação e padrões",
+      "intro": null,
+      "items": [
+        {
+          "name": "Building effective agents",
+          "text": "Building effective agents, da Anthropic, de dezembro de 2024: quando usar um fluxo fixo e quando usar agente.",
+          "href": "https://www.anthropic.com/engineering/building-effective-agents"
+        },
+        {
+          "name": "Model Context Protocol",
+          "text": "Model Context Protocol, a especificação de 25 de novembro de 2025, e em especial a parte de autorização.",
+          "href": "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization"
+        },
+        {
+          "name": "OWASP Top 10 for LLM Applications 2025",
+          "text": "OWASP Top 10 for LLM Applications 2025: a lista em que injeção de instrução é o primeiro item e agência excessiva, o sexto.",
+          "href": "https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/"
+        },
+        {
+          "name": "OpenAI Agents SDK",
+          "text": "OpenAI Agents SDK, a documentação da biblioteca de agentes da OpenAI em Python.",
+          "href": "https://openai.github.io/openai-agents-python/"
+        },
+        {
+          "name": "Demystifying evals for AI agents",
+          "text": "Demystifying evals for AI agents, da Anthropic, no blog de engenharia da empresa.",
+          "href": "https://anthropic.com/engineering"
+        }
+      ]
+    },
+    {
+      "title": "Avaliação",
+      "intro": null,
+      "items": [
+        {
+          "name": "Your AI Product Needs Evals",
+          "text": "Your AI Product Needs Evals, de Hamel Husain, de março de 2024.",
+          "href": "https://hamel.dev/blog/posts/evals/"
+        },
+        {
+          "name": "Product Evals in Three Simple Steps",
+          "text": "Product Evals in Three Simple Steps, de Eugene Yan, e Task-Specific LLM Evals that Do & Don't Work, do mesmo autor.",
+          "href": "https://eugeneyan.com/writing/product-evals/"
+        },
+        {
+          "name": null,
+          "text": "O post de Andrew Ng sobre avaliação e análise de erro como o maior preditor de progresso na construção de um agente.",
+          "href": "https://x.com/AndrewYNg/status/1978867684537438628"
+        }
+      ]
+    },
+    {
+      "title": "Processo seletivo",
+      "intro": null,
+      "items": [
+        {
+          "name": "Navigating Open-Ended Questions",
+          "text": "Navigating Open-Ended Questions, o guia oficial da Palantir para perguntas abertas.",
+          "href": "https://www.palantir.com/careers/getting-hired/navigating-open-ended-questions/"
+        },
+        {
+          "name": "The Palantir Decomposition Interview, Explained",
+          "text": "The Palantir Decomposition Interview, Explained, do FDE Interviews, um guia de terceiro, não da Palantir.",
+          "href": "https://fdeinterviews.com/guide/palantir-decomposition-interview"
+        },
+        {
+          "name": "Forward Deployed Engineer Interview: The Definitive 2026 Guide",
+          "text": "Forward Deployed Engineer Interview: The Definitive 2026 Guide, do Aced, antigo Exponent.",
+          "href": "https://www.tryexponent.com/blog/forward-deployed-engineer-interview-the-definitive-2026-guide-fde"
+        },
+        {
+          "name": "Sierra Agent Engineer Interview Guide",
+          "text": "Sierra Agent Engineer Interview Guide, do mesmo site.",
+          "href": "https://www.tryexponent.com/guides/sierra-agent-engineer-interview"
+        }
+      ]
+    },
+    {
+      "title": "Cursos",
+      "intro": "Nenhum empregador da amostra de vagas deste livro pede curso ou certificado específico de FDE. Os cursos abaixo servem para aprender uma parte do ofício, não para abrir uma porta.",
+      "items": [
+        {
+          "name": "Anthropic Courses",
+          "text": "Anthropic Courses, a página de cursos da Anthropic na plataforma Skilljar.",
+          "href": "https://anthropic.skilljar.com"
+        },
+        {
+          "name": "Model Context Protocol (MCP) Course",
+          "text": "Model Context Protocol (MCP) Course, da Hugging Face, que a própria página descreve como gratuito e feito em parceria com a Anthropic.",
+          "href": "https://huggingface.co/learn/mcp-course"
+        },
+        {
+          "name": "AI Agents Course",
+          "text": "AI Agents Course, da Hugging Face.",
+          "href": "https://huggingface.co/learn/agents-course"
+        },
+        {
+          "name": "Agentic AI",
+          "text": "Agentic AI e Evaluating AI Agents, da DeepLearning.AI.",
+          "href": "https://deeplearning.ai"
+        },
+        {
+          "name": "Formação Forward Deployed Engineer 4.0",
+          "text": "Formação Forward Deployed Engineer 4.0, da Data Science Academy, em português, com carga horária de 384 horas-aula segundo a página do curso.",
+          "href": "https://datascienceacademy.com.br"
+        }
+      ]
+    },
+    {
+      "title": "Livros sobre FDE",
+      "intro": null,
+      "items": [
+        {
+          "name": "Forward Deployed AI Engineering",
+          "text": "Forward Deployed AI Engineering, de Nasser Ghanemzadeh: 304 páginas, versão 1.5 de agosto de 2026, segundo a página do livro.",
+          "href": "https://ghanemzadeh.com/books/forward-deployed-ai-engineering/"
+        },
+        {
+          "name": "The Field Deployed Engineer's Handbook",
+          "text": "The Field Deployed Engineer's Handbook, de Daniel Vaughan, na Leanpub, que em setembro de 2026 se declarava 75% pronto.",
+          "href": "https://leanpub.com/fde-handbook"
+        },
+        {
+          "name": "Forward Deployed",
+          "text": "Forward Deployed, da Benmore: 101 páginas, gratuito para ler, edição de fevereiro de 2026, segundo a página.",
+          "href": "https://benmore.tech"
+        }
+      ]
+    }
+  ],
+  "checkedOn": "24 de setembro de 2026"
+}

@@ -1,0 +1,403 @@
+Feito para agentes (O Novo Básico, vol. 11)
+Experimento e2, A descrição (capítulo 5), rodado em 01/11/2026 com o Claude Haiku 5.5 pela API da Anthropic
+As conversas inteiras, como vieram, uma por bloco; o raciocínio interno do modelo não volta pela API e não está aqui.
+
+##### e2-a-01 · versão a · acertou · 4 chamadas · 3448 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- Agente chama find:
+{"q":"cenoura"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- A ferramenta devolve:
+[]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido **nº 1062**, da Júlia Lopes: bolo de cenoura com chocolate para amanhã, sábado, 07/11.
+
+O pedido de terça-feira (10/11), **nº 1063**, continua confirmado.
+
+##### e2-a-02 · versão a · acertou · 4 chamadas · 3427 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- Agente chama find:
+{"q":"cenoura"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- A ferramenta devolve:
+[]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate, para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (nº 1063, 10/11, também de cenoura com chocolate) continua confirmado.
+
+##### e2-a-03 · versão a · acertou · 4 chamadas · 3473 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- Agente chama find:
+{"q":"cenoura"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- A ferramenta devolve:
+[]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido da terça, nº 1063 (bolo de cenoura com chocolate, dia 10/11), continua confirmado.
+
+##### e2-a-04 · versão a · acertou · 3 chamadas · 3285 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, de cenoura com chocolate, previsto para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (10/11), nº 1063, continua confirmado.
+
+##### e2-a-05 · versão a · acertou · 3 chamadas · 3328 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura 07/11/2026"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (nº 1063, bolo de cenoura com chocolate, dia 10/11) continua confirmado.
+
+##### e2-a-06 · versão a · acertou · 4 chamadas · 3455 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- Agente chama find:
+{"q":"cenoura"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- A ferramenta devolve:
+[]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido **nº 1062** da Júlia Lopes, de bolo de cenoura com chocolate, previsto para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (10/11), **nº 1063**, de cenoura com chocolate, continua confirmado.
+
+##### e2-a-07 · versão a · acertou · 4 chamadas · 3465 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- Agente chama find:
+{"q":"cenoura"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- A ferramenta devolve:
+[]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, de bolo de cenoura com chocolate, para amanhã (sábado, 07/11).
+
+O pedido de terça (nº 1063, também de cenoura com chocolate, para 10/11) continua confirmado.
+
+##### e2-a-08 · versão a · acertou · 3 chamadas · 3318 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes: bolo de cenoura com chocolate para amanhã, sábado, 07/11.
+
+O pedido de terça, nº 1063 (bolo de cenoura com chocolate, 10/11), continua confirmado.
+
+##### e2-a-09 · versão a · acertou · 3 chamadas · 3304 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (nº 1063, dia 10/11, também de cenoura com chocolate) continua confirmado.
+
+##### e2-a-10 · versão a · acertou · 3 chamadas · 3282 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama find:
+{"q":"Júlia Lopes bolo de cenoura"}
+--- A ferramenta devolve:
+[]
+--- Agente chama find:
+{"q":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido **nº 1062** da Júlia Lopes, de cenoura com chocolate, para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (10/11), **nº 1063**, de cenoura com chocolate, continua confirmado.
+
+##### e2-b-01 · versão b · acertou · 2 chamadas · 2876 tokens de entrada
+### 2026-11-01 09:05 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido da terça-feira (nº 1063, para 10/11) continua confirmado.
+
+##### e2-b-02 · versão b · acertou · 2 chamadas · 2879 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido **nº 1062** da Júlia Lopes, bolo de cenoura com chocolate, para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (10/11), **nº 1063**, continua confirmado.
+
+##### e2-b-03 · versão b · acertou · 2 chamadas · 2885 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido nº 1063, do mesmo bolo para terça-feira (10/11), continua confirmado.
+
+##### e2-b-04 · versão b · acertou · 2 chamadas · 2895 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido de terça (nº 1063, dia 10/11) continua confirmado.
+
+##### e2-b-05 · versão b · acertou · 2 chamadas · 2897 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (10/11), nº 1063, continua confirmado.
+
+##### e2-b-06 · versão b · acertou · 2 chamadas · 2864 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, de bolo de cenoura com chocolate, previsto para amanhã (07/11).
+
+O pedido de terça-feira (nº 1063, 10/11, cenoura com chocolate) continua confirmado.
+
+##### e2-b-07 · versão b · acertou · 2 chamadas · 2911 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, de cenoura com chocolate, para amanhã (sábado, 07/11).
+
+O pedido nº 1063, também de cenoura com chocolate, para terça (10/11), continua confirmado.
+
+##### e2-b-08 · versão b · acertou · 2 chamadas · 2923 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (10/11), nº 1063, continua confirmado.
+
+##### e2-b-09 · versão b · acertou · 2 chamadas · 2888 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, bolo de cenoura com chocolate para amanhã (sábado, 07/11).
+
+O pedido de terça-feira (nº 1063, para 10/11) continua confirmado.
+
+##### e2-b-10 · versão b · acertou · 2 chamadas · 2898 tokens de entrada
+### 2026-11-01 09:06 UTC · modelo=claude-haiku-5-5
+--- Pessoa:
+Cancele o pedido de bolo de cenoura da Júlia Lopes para amanhã. O de terça continua.
+--- Agente chama orders_search:
+{"cliente":"Júlia Lopes"}
+--- A ferramenta devolve:
+[{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"confirmado","id":"594804c4-8179-f850-947b-3f675d29042d"},{"numero":1063,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-10","status":"confirmado","id":"409fd4ad-0f95-c6d3-55e1-2bf193f53aa4"}]
+--- Agente chama orders_cancel:
+{"id":"594804c4-8179-f850-947b-3f675d29042d"}
+--- A ferramenta devolve:
+{"ok":true,"pedido":{"numero":1062,"cliente":"Júlia Lopes","sabor":"cenoura com chocolate","data":"2026-11-07","status":"cancelado","id":"594804c4-8179-f850-947b-3f675d29042d"}}
+--- Agente:
+Cancelei o pedido nº 1062 da Júlia Lopes, o bolo de cenoura com chocolate de amanhã (sábado, 07/11).
+
+O pedido nº 1063, para terça-feira (10/11), continua confirmado.

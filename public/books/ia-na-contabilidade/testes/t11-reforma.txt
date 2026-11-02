@@ -1,0 +1,1017 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t11, rodado em 09/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:03 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do escritório que faz a contabilidade de uma loja de roupas do Simples Nacional. O dono me mandou estas perguntas. Me ajuda a responder?
+
+1. Sou do Simples. Vou pagar 26,5% de imposto a partir de agora?
+2. Neste ano eu já tenho de recolher a CBS de 0,9%?
+3. O Simples Nacional acabou com a reforma?
+4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+5. Quem compra de mim vai poder tomar crédito do imposto?
+6. Em 2027 o PIS e a Cofins ainda existem?
+7. Quando o ICMS e o ISS acabam?
+8. Vale a pena eu sair do Simples por causa da reforma?
+--- IA:
+# Reforma Tributária e o Simples Nacional — Respostas para o Cliente
+
+---
+
+## 1. Vou pagar 26,5% a partir de agora?
+
+**Não.** A alíquota de referência de ~26,5% (IBS + CBS somados) é para empresas **fora** do Simples Nacional (Lucro Presumido/Real). Empresas do Simples continuarão recolhendo pelo **DAS com alíquotas próprias e reduzidas**, que para comércio (Anexo I) variam de ~4% a ~19% conforme o faturamento. Não há esse salto.
+
+---
+
+## 2. Já tenho de recolher a CBS de 0,9% neste ano?
+
+**Sim, 2026 é o ano de teste/transição.** As alíquotas são:
+- **CBS: 0,9%** (federal)
+- **IBS: 0,1%** (estadual + municipal)
+
+> ⚠️ Para o Simples Nacional, o valor recolhido a título de CBS/IBS é **compensado** com a parcela equivalente ao PIS/COFINS que já está dentro do DAS. **O impacto financeiro líquido em 2026 deve ser neutro ou mínimo.** Recomendo confirmar o mecanismo exato de compensação previsto na LC 214/2025 e nas instruções normativas da RFB para o Simples.
+
+---
+
+## 3. O Simples Nacional acabou com a reforma?
+
+**Não acabou.** A EC 132/2023 e a LC 214/2025 **preservaram expressamente o Simples Nacional.** O regime foi adaptado para acomodar o IBS e a CBS dentro do próprio DAS. O Simples continua existindo.
+
+---
+
+## 4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+
+A opção é feita **anualmente**, em geral no início do ano-calendário. Essa decisão passa a ter impacto prático mais relevante **a partir de 2027**, quando a CBS substituir de vez o PIS/COFINS. Vale se planejar agora para tomar a decisão com antecedência.
+
+---
+
+## 5. Quem compra de mim vai poder tomar crédito?
+
+Depende da escolha feita:
+
+| Situação | Comprador pode tomar crédito? |
+|---|---|
+| Empresa permanece no DAS normal | ❌ Não (ou crédito muito reduzido) |
+| Empresa opta pelo recolhimento IBS/CBS **fora do DAS** | ✅ Sim, crédito integral |
+
+> 💡 Para uma **loja de roupas que vende principalmente para o consumidor final (pessoa física)**, isso tende a ser **menos crítico**, pois o consumidor final não precisa de crédito. Se a loja fizer vendas relevantes para outras empresas (atacado, B2B), aí vale analisar com mais cuidado.
+
+---
+
+## 6. Em 2027 o PIS e a COFINS ainda existem?
+
+**Não.** A partir de **2027**, o PIS e a COFINS são **extintos** e substituídos pela CBS. O DAS do Simples será recalibrado para refletir essa mudança. Na prática para o empresário do Simples, a troca ocorre "por dentro" do sistema, sem necessidade de ação imediata.
+
+---
+
+## 7. Quando o ICMS e o ISS acabam?
+
+A extinção é **gradual e só começa em 2029**:
+
+| Período | O que acontece |
+|---|---|
+| 2026–2028 | ICMS e ISS mantidos; IBS em fase de teste/ramp-up |
+| 2029–2032 | ICMS e ISS reduzidos ~10% ao ano; IBS aumenta proporcionalmente |
+| **2033** | **ICMS e ISS totalmente extintos; IBS em plena vigência** |
+
+---
+
+## 8. Vale a pena sair do Simples por causa da reforma?
+
+**Depende do perfil da loja.** Como regra geral:
+
+**🟢 Faz sentido FICAR no Simples se:**
+- A maioria das vendas é para o **consumidor final (pessoa física)**
+- O faturamento cabe nas faixas com alíquotas baixas do Anexo I
+- A margem de lucro é apertada
+
+**🟡 Vale ESTUDAR a saída se:**
+- Parcela relevante das vendas é para **outras empresas (B2B)** que precisam de crédito
+- A alíquota efetiva do Simples já está alta (faixas superiores do Anexo I)
+- O lucro real ou presumido seria significativamente menor
+
+> **Recomendação:** Faça uma **simulação comparativa** com os números reais da loja: faturamento, margem, perfil de clientes e alíquota atual no DAS. A decisão não deve ser tomada de forma genérica — o Simples ainda costuma ser vantajoso para varejo de moda voltado ao consumidor final.
+
+---
+
+> 📌 **Nota geral:** A reforma ainda está em fase de regulamentação com normas sendo publicadas. Algumas regras operacionais do Simples Nacional para o IBS/CBS podem ser detalhadas por regulamentação complementar. Vale acompanhar as publicações da RFB e do Comitê Gestor do IBS.
+
+--- Você:
+Agora outro cliente, sócio de uma empresa de serviços do lucro presumido, perguntou:
+9. Posso distribuir R$ 80 mil por mês de lucro para mim sem pagar imposto?
+10. O lucro de 2025 que eu ainda não distribuí também paga esses 10%?
+--- IA:
+# Dividendos e a Reforma do IR — Respostas para o Sócio
+
+> ⚠️ **Nota importante antes de responder:** A reforma do IR que instituiu o IRRF de 10% sobre dividendos estava em tramitação até meu limite de conhecimento. As respostas abaixo seguem o texto do projeto aprovado, mas **recomendo confirmar o texto final da lei promulgada**, especialmente nas regras de transição (questão 10), pois o projeto sofreu diversas alterações no Congresso.
+
+---
+
+## 9. Posso distribuir R$ 80 mil/mês sem pagar imposto?
+
+**Não integralmente.** A reforma estabeleceu uma faixa de isenção por beneficiário — o texto aprovado previa **R$ 50.000/mês por pessoa física.** Acima disso, incide **10% de IRRF** sobre o excedente.
+
+Para R$ 80.000/mês, o cálculo ficaria assim:
+
+| Parcela | Regra | Imposto |
+|---|---|---|
+| R$ 50.000 | Isento | R$ 0 |
+| R$ 30.000 | 10% IRRF | **R$ 3.000** |
+| **Total distribuído: R$ 80.000** | | **IR retido: R$ 3.000** |
+
+Se quiser **distribuição 100% isenta**, precisaria **limitar a R$ 50.000/mês.** Os outros R$ 30.000 poderiam, por exemplo:
+- Ficar retidos na empresa para distribuir em outro momento de forma planejada
+- Ser pagos via **pró-labore** (com IRPF e INSS — o que geralmente sai mais caro)
+- Ser avaliados em conjunto com outros rendimentos do sócio, pois o limite é **por beneficiário no mês**
+
+---
+
+## 10. O lucro de 2025 que ainda não distribuí também paga 10%?
+
+Essa é a pergunta mais delicada e depende das **disposições transitórias** da lei aprovada. O princípio constitucional da **irretroatividade tributária** protege lucros gerados antes da vigência da nova regra, mas o legislador pode estabelecer regras específicas.
+
+Os cenários possíveis:
+
+**✅ Cenário favorável ao contribuinte (mais comum historicamente):**
+Lucros gerados *antes* da vigência da nova tributação podem ser distribuídos sob as regras antigas — ou seja, **isentos** — desde que distribuídos e comprovados contabilmente como anteriores ao marco legal.
+
+**⚠️ Cenário de atenção:**
+Se a lei não fez essa distinção ou estabeleceu uma data-corte diferente, os lucros retidos de 2025 poderiam ser tributados na distribuição futura.
+
+### O que fazer agora:
+
+> 1. **Verificar as disposições transitórias da lei promulgada** — há prazo para distribuir lucros anteriores com isenção?
+> 2. **Checar a escrituração contábil** — os lucros de 2025 precisam estar claramente segregados e documentados na contabilidade
+> 3. **Avaliar distribuição antecipada** — se a lei permite distribuir lucros acumulados anteriores com isenção até determinada data, pode valer acionar essa janela antes que ela feche
+> 4. **Não misturar** lucros de períodos distintos na conta de distribuição
+
+---
+
+**Resumo prático:**
+
+| Questão | Resposta |
+|---|---|
+| R$ 80k/mês isento? | Não — apenas até R$ 50k/mês é isento; sobre os R$ 30k excedentes, paga R$ 3k de IRRF |
+| Lucro retido de 2025 paga 10%? | Depende das regras de transição da lei — verificar urgente |
+
+### 2026-10-09 23:06 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do escritório que faz a contabilidade de uma loja de roupas do Simples Nacional. O dono me mandou estas perguntas. Me ajuda a responder?
+
+1. Sou do Simples. Vou pagar 26,5% de imposto a partir de agora?
+2. Neste ano eu já tenho de recolher a CBS de 0,9%?
+3. O Simples Nacional acabou com a reforma?
+4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+5. Quem compra de mim vai poder tomar crédito do imposto?
+6. Em 2027 o PIS e a Cofins ainda existem?
+7. Quando o ICMS e o ISS acabam?
+8. Vale a pena eu sair do Simples por causa da reforma?
+--- IA:
+# Reforma Tributária e o Simples Nacional — Respostas para seu cliente
+
+---
+
+## 1. Vou pagar 26,5% de imposto a partir de agora?
+
+**Não.** A alíquota de referência de ~26,5% (IBS + CBS somados) é para empresas do **regime geral** (Lucro Real ou Presumido). Enquanto sua loja permanecer no Simples Nacional, o recolhimento continua pelo **DAS**, com as alíquotas do **Anexo I (Comércio)**, que são significativamente menores. O 26,5% simplesmente não se aplica a você.
+
+---
+
+## 2. Neste ano já tenho de recolher a CBS de 0,9%?
+
+**2026 é o "ano-teste" da reforma.** A CBS está sendo cobrada a **0,9%** e o IBS a **0,1%**. Porém:
+
+- Para empresas do **regime geral**: pagam CBS/IBS e compensam contra PIS/COFINS e ICMS/ISS — resultado líquido **neutro**
+- Para empresas do **Simples Nacional**: como PIS/COFINS e ICMS já estão embutidos no DAS, existe um **mecanismo de ajuste compensatório** para que o ônus total não aumente
+
+Na prática, os valores passam a ser **destacados na NF-e**, mas o impacto líquido no caixa deve ser neutro. Monitore o PGDAS-D para verificar os ajustes aplicados à sua empresa.
+
+---
+
+## 3. O Simples Nacional acabou com a reforma?
+
+**Não acabou.** A EC 132/2023 preservou expressamente o Simples Nacional. O que muda é apenas a **forma de tratamento do IBS e da CBS** dentro (ou fora) do DAS — não a existência do regime.
+
+---
+
+## 4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+
+A opção é **anual**, feita em **janeiro de cada ano** (assim como outras opções do Simples). Para 2027 — quando CBS entra em plena vigência — a janela será em **janeiro/2027**. Fique atento às portarias do **Comitê Gestor do IBS** com os prazos exatos.
+
+---
+
+## 5. Quem compra de mim vai poder tomar crédito do imposto?
+
+Depende da sua escolha:
+
+| Situação | Crédito para o comprador |
+|---|---|
+| **IBS/CBS dentro do DAS** (padrão) | Apenas **crédito presumido** — valor menor, calculado sobre alíquota reduzida |
+| **IBS/CBS fora do DAS** (opção) | **Crédito integral** do IBS e CBS destacados na NF-e |
+
+> 💡 Para uma loja de roupas que vende **principalmente para o consumidor final (B2C)**, isso tem pouco impacto. Se vender também para outras empresas (B2B), o ponto merece atenção.
+
+---
+
+## 6. Em 2027 o PIS e a COFINS ainda existem?
+
+**Não.** PIS e COFINS são **extintos em 1º de janeiro de 2027**, quando a CBS entra em plena vigência. Para o Simples Nacional, as tabelas do DAS serão ajustadas — as parcelas de PIS/COFINS saem e a CBS entra no cálculo.
+
+---
+
+## 7. Quando o ICMS e o ISS acabam?
+
+A extinção é **gradual**:
+
+| Período | O que acontece |
+|---|---|
+| **2027–2028** | ICMS e ISS em vigor normal; IBS ainda em transição |
+| **2029** | IBS = 1/5 da alíquota cheia; ICMS/ISS = 4/5 |
+| **2030** | IBS = 2/5; ICMS/ISS = 3/5 |
+| **2031** | IBS = 3/5; ICMS/ISS = 2/5 |
+| **2032** | IBS = 4/5; ICMS/ISS = 1/5 |
+| **2033** | IBS em plena vigência; **ICMS e ISS extintos** |
+
+Ou seja, ainda haverá ICMS por mais alguns anos.
+
+---
+
+## 8. Vale a pena sair do Simples por causa da reforma?
+
+Para uma **loja de roupas vendendo principalmente para consumidor final**, em geral **não compensa sair**. Pontos a considerar:
+
+- ✅ As alíquotas do Anexo I do Simples são muito menores que 26,5%
+- ✅ Vendendo para consumidor final, o crédito presumido já atende
+- ✅ Menos obrigações acessórias no Simples
+- ⚠️ Fora do Simples, entram IRPJ, CSLL e encargos de folha separados — a carga pode **aumentar**
+
+> **Recomendação:** faça uma **simulação com os números reais** da empresa antes de qualquer decisão. O benefício de sair do Simples, se existir, tende a aparecer apenas quando o cliente tem perfil majoritariamente B2B e a conta fecha com créditos maiores do que a economia do Simples.
+
+---
+
+Qualquer dúvida mais específica, fico à disposição! 😊
+
+--- Você:
+Agora outro cliente, sócio de uma empresa de serviços do lucro presumido, perguntou:
+9. Posso distribuir R$ 80 mil por mês de lucro para mim sem pagar imposto?
+10. O lucro de 2025 que eu ainda não distribuí também paga esses 10%?
+--- IA:
+# Reforma do IR — Distribuição de Lucros no Lucro Presumido
+
+---
+
+## 9. Posso distribuir R$ 80 mil por mês sem pagar imposto?
+
+**Não.** R$ 80.000/mês ultrapassa a faixa de isenção da reforma do IR. O funcionamento é o seguinte:
+
+- A lei estabelece uma **faixa de isenção mensal por beneficiário** — acima dela, incide **IRRF de 10%**, retido pela própria empresa no momento da distribuição
+- R$ 80.000/mês ficará em grande parte dentro da faixa tributável
+
+> ⚠️ **Confirme o valor exato da faixa de isenção na lei vigente** — os debates legislativos giraram em torno de R$ 20.000/mês por beneficiário, mas o número definitivo precisa ser checado no texto aprovado.
+
+**Exemplo prático** (se a faixa isenta for R$ 20.000/mês):
+
+| Valor | Tratamento |
+|---|---|
+| R$ 20.000 | Isento |
+| R$ 60.000 | 10% de IRRF = **R$ 6.000** |
+| **Líquido recebido** | **R$ 74.000** |
+
+**Ponto importante para o Lucro Presumido:**
+Antes mesmo de pensar no IR, a empresa precisa verificar se tem **lucro disponível para distribuição** — calculado sobre o lucro presumido após IRPJ e CSLL, ou sobre o lucro contábil se houver escrituração completa. Distribuição acima desse limite não é dividendo e pode ser tributada como outros rendimentos nas alíquotas progressivas do IRPF.
+
+---
+
+## 10. O lucro de 2025 que eu ainda não distribuí também paga esses 10%?
+
+**Sim.** A regra de transição da reforma **protegeu apenas os lucros acumulados até 31/12/2024**, registrados em reservas de lucros até essa data — esses podiam ser distribuídos dentro de uma janela específica sem o novo IRRF.
+
+Os **lucros de 2025** foram apurados já sob a nova legislação e **não têm essa proteção**. Quando distribuídos em 2026 (ou depois), pagam os 10% sobre o excedente da faixa isenta normalmente.
+
+**Resumo prático:**
+
+| Origem do lucro | Sujeito ao IRRF de 10%? |
+|---|---|
+| Acumulado **até 31/12/2024** (dentro da janela transitória) | **Não** — desde que distribuído no prazo |
+| Apurado em **2025** | **Sim** |
+| Apurado em **2026 em diante** | **Sim** |
+
+> 💡 **Ponto de planejamento:** se a empresa ainda tem lucros retidos **pré-2024** sem distribuir, vale verificar **se o prazo da janela transitória ainda está aberto**. Se estiver, pode ser uma oportunidade de distribuir esse saldo sem IRRF antes do vencimento.
+
+---
+
+Em resumo para o cliente: a isenção total sobre dividendos acabou para distribuições relevantes — e o lucro de 2025 não escapa. O planejamento agora passa por **calibrar o valor mensal de distribuição** em torno da faixa isenta e **aproveitar eventuais saldos pré-2024** enquanto o prazo transitório permitir.
+
+### 2026-10-09 23:11 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do escritório que faz a contabilidade de uma loja de roupas do Simples Nacional. O dono me mandou estas perguntas. Me ajuda a responder?
+
+1. Sou do Simples. Vou pagar 26,5% de imposto a partir de agora?
+2. Neste ano eu já tenho de recolher a CBS de 0,9%?
+3. O Simples Nacional acabou com a reforma?
+4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+5. Quem compra de mim vai poder tomar crédito do imposto?
+6. Em 2027 o PIS e a Cofins ainda existem?
+7. Quando o ICMS e o ISS acabam?
+8. Vale a pena eu sair do Simples por causa da reforma?
+--- IA:
+# Reforma Tributária e o Simples Nacional — Respostas para o Dono da Loja
+
+---
+
+## 1. Vou pagar 26,5% a partir de agora?
+
+**Não.** Os ~26,5% correspondem à alíquota de referência combinada de IBS + CBS para empresas do **regime geral** (Lucro Real/Presumido). Quem está no Simples Nacional **continua recolhendo pelo DAS**, com as alíquotas próprias do Simples. A reforma não criou uma nova alíquota sobre o faturamento de quem está no Simples.
+
+---
+
+## 2. Neste ano já tenho que recolher CBS de 0,9%?
+
+**Não.** O ano de 2026 é o chamado "ano-teste" da reforma. Nele, empresas do **regime geral** recolhem CBS a 0,9% e IBS a 0,1% (podendo compensar com o PIS/COFINS/ICMS/ISS que já devem). Para o **Simples Nacional**, o PIS e a COFINS continuam sendo recolhidos normalmente dentro do DAS. Não há recolhimento separado de CBS em 2026 para empresas do Simples.
+
+---
+
+## 3. O Simples Nacional acabou com a reforma?
+
+**Não.** O Simples Nacional foi **expressamente mantido** pela EC 132/2023. O que muda é que o DAS será **gradualmente ajustado** para incorporar o IBS e a CBS no lugar do PIS/COFINS, ICMS e ISS — mas isso ocorrerá ao longo do período de transição, não de uma vez.
+
+---
+
+## 4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+
+Essa é uma **opção anual**, exercida **antes do início de cada ano-calendário**. O prazo exato será definido por ato do Comitê Gestor do IBS e da Receita Federal. Como a CBS entra em vigor plena em **2027**, a opção para esse ano precisará ser feita ainda **em 2026** — portanto, **fique atento às portarias que serão publicadas nos próximos meses**, pois o prazo pode estar se aproximando.
+
+---
+
+## 5. Quem compra de mim vai poder tomar crédito?
+
+Depende da opção feita pelo Simples Nacional:
+
+| Situação | Crédito para o comprador |
+|---|---|
+| Recolhe IBS/CBS **dentro do DAS** (padrão) | Apenas **crédito presumido** (limitado) |
+| Opta por recolher IBS/CBS **fora do DAS** | **Crédito pleno** de IBS e CBS |
+
+> ⚠️ Para uma **loja de roupas no varejo** (vendas a consumidores finais), isso tem **menos impacto**, pois a pessoa física não aproveita créditos de qualquer forma. Se houver vendas B2B (ex.: uniformes para empresas, revendedores), aí sim o tema pode influenciar a decisão de compra do cliente.
+
+---
+
+## 6. Em 2027, o PIS e a COFINS ainda existem?
+
+**Não.** PIS e COFINS são **extintos em 2027**, quando a CBS entra em vigor plena. Para o Simples Nacional, o componente de PIS/COFINS dentro do DAS é substituído pela CBS — que poderá ser recolhida dentro ou fora do DAS, conforme a opção do contribuinte.
+
+---
+
+## 7. Quando o ICMS e o ISS acabam?
+
+A extinção é **gradual**:
+
+| Período | O que acontece |
+|---|---|
+| 2029–2032 | Redução progressiva das alíquotas (20% ao ano) |
+| **2033** | **Extinção completa**; IBS assume integralmente |
+
+Para o Simples Nacional, os componentes de ICMS e ISS dentro do DAS serão ajustados nesse mesmo ritmo.
+
+---
+
+## 8. Vale a pena sair do Simples por causa da reforma?
+
+**Depende — não há resposta única.** Os principais pontos a avaliar:
+
+- **Perfil de clientes B2C (consumidor final):** Sair do Simples raramente compensa, pois o cliente não usa crédito de qualquer forma. A carga do Simples tende a ser menor.
+- **Clientes B2B (empresas):** Se eles precisam de crédito pleno, **antes de sair do Simples**, avalie se a opção de recolher IBS/CBS *fora do DAS* já não resolve o problema — sem abrir mão dos benefícios do Simples.
+- **Alíquotas ainda não finalizadas:** As alíquotas definitivas de IBS (estadual + municipal) ainda estão sendo calibradas. Qualquer simulação hoje pode mudar.
+- **Recomendação:** Aguardar a definição das alíquotas finais e fazer uma **simulação comparativa detalhada** (Simples vs. Lucro Presumido) antes de qualquer decisão estrutural.
+
+---
+
+### Resumo rápido
+
+| Pergunta | Resposta direta |
+|---|---|
+| Paga 26,5%? | ❌ Continua pelo DAS do Simples |
+| CBS 0,9% em 2026? | ❌ Simples não é impactado em 2026 |
+| Simples acabou? | ❌ Foi mantido pela EC 132/2023 |
+| Prazo para optar IBS/CBS fora do DAS | ⏰ Anual — antes do início do ano-calendário |
+| Clientes tomam crédito? | Limitado no DAS; pleno se segregar |
+| PIS/COFINS em 2027? | ❌ Extintos em 2027 |
+| Fim do ICMS e ISS? | Gradual 2029–2032; extinção em 2033 |
+| Vale sair do Simples? | Depende — faça uma simulação |
+
+Posso aprofundar algum ponto específico?
+
+--- Você:
+Agora outro cliente, sócio de uma empresa de serviços do lucro presumido, perguntou:
+9. Posso distribuir R$ 80 mil por mês de lucro para mim sem pagar imposto?
+10. O lucro de 2025 que eu ainda não distribuí também paga esses 10%?
+--- IA:
+# Distribuição de Lucros — Lucro Presumido
+
+---
+
+## 9. Posso distribuir R$ 80 mil por mês sem pagar imposto?
+
+**Não integralmente.** Com a aprovação da reforma do IR (tributação de dividendos a 10%), a lógica passou a ser:
+
+### Como funciona a tributação
+- Existe uma **faixa de isenção mensal** (conforme aprovado na reforma — verifique o valor exato vigente na legislação atual, pois o valor debatido no projeto era de **R$ 50.000/mês por sócio**)
+- Sobre o **excedente** à faixa isenta: **10% de IRRF**, retido na fonte pela própria empresa no momento da distribuição
+
+### Exemplo prático com o limite de R$ 50 mil
+
+| Valor | Situação |
+|---|---|
+| R$ 50.000 | Isento |
+| R$ 30.000 (excedente) | 10% = **R$ 3.000 de IRRF** |
+| **Líquido recebido** | **R$ 77.000** |
+
+> ⚠️ **Atenção — Lucro Presumido:** O sócio só pode distribuir como dividendo isento aquilo que seja lucro **efetivamente apurado e documentado**. Para LP, sem escrituração contábil completa, o limite distribuível com segurança é o **lucro presumido após IRPJ e CSLL**. Se os lucros reais forem maiores, precisa de contabilidade completa para suportar o excedente.
+
+---
+
+## 10. O lucro de 2025 que ainda não distribuí também paga os 10%?
+
+Essa é a **pergunta mais sensível da reforma** e a resposta depende de um detalhe crítico: as **regras de transição** previstas na lei aprovada.
+
+### O ponto jurídico central
+
+O fato gerador do imposto sobre dividendos ocorre no **momento da distribuição**, não no momento em que o lucro foi gerado. Isso significa que, em princípio, lucros gerados em 2025 e distribuídos em 2026 poderiam ser alcançados pelo novo imposto — **a menos que a lei de transição expressamente os proteja**.
+
+### O que geralmente ocorre nesse tipo de reforma
+
+| Situação | Tratamento típico |
+|---|---|
+| Lucros gerados **antes** da vigência da lei, distribuídos **dentro de um prazo de transição** | Isentos (regra transitória) |
+| Lucros gerados **antes** da vigência da lei, distribuídos **após o prazo de transição** | Sujeitos ao IRRF de 10% |
+| Lucros gerados **após** a vigência da lei | Sujeitos ao IRRF de 10% sobre o excedente |
+
+### O que fazer agora
+
+1. **Verifique o texto final aprovado:** A legislação precisar definir exatamente qual é a data-corte para os lucros acumulados e se há — e até quando vai — o prazo de transição
+2. **Escrituração contábil:** Se a empresa não mantém contabilidade completa, **abra agora**. Sem balanço que demonstre que o lucro é de 2025, fica difícil invocar qualquer proteção transitória
+3. **Não postergue sem análise:** Se ainda há uma janela de transição em vigor, pode valer distribuir os lucros de 2025 **antes que ela se encerre**
+
+---
+
+### Resumo das duas perguntas
+
+| Pergunta | Resposta direta |
+|---|---|
+| R$ 80k/mês sem imposto? | Parcialmente — a faixa isenta é livre; o excedente paga 10% de IRRF |
+| Lucro de 2025 acumulado paga 10%? | **Depende das regras de transição** — verificar urgente o texto da lei e os prazos |
+
+> 💡 **Recomendação prática:** Sugiro uma reunião com o cliente para revisar o balanço de 2025, calcular o montante de lucros acumulados e verificar se ainda há janela de transição disponível. Esse pode ser um planejamento tributário relevante ainda em 2026.
+
+### 2026-10-09 23:16 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do escritório que faz a contabilidade de uma loja de roupas do Simples Nacional. O dono me mandou estas perguntas. Me ajuda a responder? Responda só com o que está colado abaixo; diga o ano de cada regra; não decida pelo cliente: se a pergunta pede uma decisão, monte a comparação. Hoje é 09/10/2026.
+
+1. Sou do Simples. Vou pagar 26,5% de imposto a partir de agora?
+2. Neste ano eu já tenho de recolher a CBS de 0,9%?
+3. O Simples Nacional acabou com a reforma?
+4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+5. Quem compra de mim vai poder tomar crédito do imposto?
+6. Em 2027 o PIS e a Cofins ainda existem?
+7. Quando o ICMS e o ISS acabam?
+8. Vale a pena eu sair do Simples por causa da reforma?
+
+Trechos da lei (como estão no texto):
+- ADCT, art. 125: "Em 2026, o imposto previsto no art. 156-A será cobrado à alíquota estadual de 0,1% (um décimo por cento), e a contribuição prevista no art. 195, V, ambos da Constituição Federal, será cobrada à alíquota de 0,9% (nove décimos por cento)." § 4º: "Durante o período de que trata o caput, os sujeitos passivos que cumprirem as obrigações acessórias relativas aos tributos referidos no caput poderão ser dispensados do seu recolhimento, nos termos de lei complementar." (art. 156-A = IBS; art. 195, V = CBS)
+- LC 214/2025, art. 343: em 2026, o IBS "será cobrado mediante aplicação da alíquota estadual de 0,1%"; art. 346: em 2026, a CBS "será cobrada mediante aplicação da alíquota de 0,9%". Art. 348, III: as alíquotas dos arts. 343 e 346 "c) não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional." § 1º: "Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação."
+- ADCT, art. 126: "A partir de 2027: I - serão cobrados: a) a contribuição prevista no art. 195, V [CBS] [...]; II - serão extintas as contribuições previstas no art. 195, I, "b", e IV, e a contribuição para o Programa de Integração Social [PIS e Cofins] [...], desde que instituída a contribuição referida na alínea "a" do inciso I". Art. 127: "Em 2027 e 2028, o imposto previsto no art. 156-A da Constituição Federal será cobrado à alíquota estadual de 0,05% (cinco centésimos por cento) e à alíquota municipal de 0,05%". Parágrafo único: "No período referido no caput, a alíquota da contribuição prevista no art. 195, V, da Constituição Federal, será reduzida em 0,1 (um décimo) ponto percentual."
+- ADCT, art. 128: "De 2029 a 2032, as alíquotas dos impostos previstos nos arts. 155, II, e 156, III [ICMS e ISS] [...] serão fixadas nas seguintes proporções [...]: I - 9/10 (nove décimos), em 2029; II - 8/10 (oito décimos), em 2030; III - 7/10 (sete décimos), em 2031; IV - 6/10 (seis décimos), em 2032." Art. 129: "Ficam extintos, a partir de 2033, os impostos previstos nos arts. 155, II, e 156, III, da Constituição Federal."
+- LC 214/2025, art. 519: "Os Anexos I a V da Lei Complementar nº 123, de 14 de dezembro de 2006, passam a vigorar com a redação dos Anexos XVIII a XXII desta Lei Complementar." (efeitos a partir de 1º de janeiro de 2027, art. 544, III)
+- LC 123, art. 13, § 9º: "É facultado ao optante pelo Simples Nacional apurar e recolher o IBS e a CBS de acordo com o regime regular aplicável a esses tributos, hipótese em que as parcelas a eles relativas não serão cobradas pelo regime único." § 10: "A opção a que se refere o § 9º será exercida para os semestres iniciados em janeiro e julho de cada ano, sendo irretratável para cada um desses períodos, devendo ser exercida nos meses de setembro e março imediatamente anteriores a cada semestre, na forma regulamentada pelo CGSN." (redação da LC 227/2026)
+- Constituição, art. 146, § 3º, II: "será permitida a apropriação de créditos dos tributos previstos nos arts. 156-A e 195, V, pelo adquirente não optante pelo regime único de que trata o § 1º de bens materiais ou imateriais, inclusive direitos, e de serviços do optante, em montante equivalente ao cobrado por meio do regime único." LC 123, art. 23, § 1º-A (incluído pela LC 227/2026, efeitos a partir de 2027): as pessoas jurídicas não optantes "terão direito a crédito ao IBS e à CBS incidentes sobre as suas aquisições [...] de microempresa ou empresa de pequeno porte optante pelo Simples Nacional, em montante equivalente ao cobrado por meio desse regime único."
+- Lei 9.250/1995, art. 6º-A (incluído pela Lei 15.270/2025): "A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditamento, o emprego ou a entrega de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante superior a R$ 50.000,00 (cinquenta mil reais) em um mesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda das Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total do valor pago, creditado, empregado ou entregue." § 3º: "Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de que trata este artigo os lucros e dividendos: I - relativos a resultados apurados até o ano-calendário de 2025; II - cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e III - exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação."
+--- IA:
+# Respostas baseadas nos trechos fornecidos
+
+---
+
+## 1. Sou do Simples. Vou pagar 26,5% de imposto a partir de agora?
+
+A alíquota de 26,5% **não aparece nos trechos fornecidos**.
+
+O que os textos dizem sobre 2026:
+- **LC 214/2025 (2025), art. 348, III:** as alíquotas de 0,1% de IBS e 0,9% de CBS previstas para 2026 **não se aplicam** aos optantes pelo Simples Nacional.
+- **LC 214/2025 (2025), art. 348, § 1º:** os optantes que cumprirem as obrigações acessórias ficam **dispensados do recolhimento**.
+
+O que os textos dizem sobre 2027 em diante:
+- **LC 214/2025 (2025), art. 519, com efeitos a partir de 1º/01/2027:** os Anexos I a V da LC 123/2006 são substituídos pelos Anexos XVIII a XXII. O Simples continua, mas com **tabelas novas que já contemplam IBS e CBS** embutidos no DAS.
+
+> Os valores das novas alíquotas do DAS dependem dos Anexos XVIII a XXII, que não foram reproduzidos nos trechos fornecidos.
+
+---
+
+## 2. Neste ano (2026) eu já tenho de recolher a CBS de 0,9%?
+
+**Não.**
+
+- **LC 214/2025 (2025), art. 346:** a CBS de 0,9% é prevista para 2026.
+- **LC 214/2025 (2025), art. 348, III:** essa alíquota **não se aplica** às operações dos optantes pelo Simples Nacional.
+- **LC 214/2025 (2025), art. 348, § 1º:** o recolhimento é **dispensado** para quem cumprir as obrigações acessórias previstas.
+
+⚠️ Mesmo sem pagar, pode haver **obrigações acessórias** a cumprir — os trechos mencionam isso como condição para a dispensa.
+
+---
+
+## 3. O Simples Nacional acabou com a reforma?
+
+**Não.**
+
+- **LC 214/2025 (2025), art. 519, com efeitos a partir de 1º/01/2027:** o regime continua. O que muda é que os Anexos I a V da LC 123/2006 são substituídos pelos Anexos XVIII a XXII da própria LC 214/2025, incorporando IBS e CBS às tabelas do DAS.
+
+Nenhum dos trechos fornecidos prevê a extinção do Simples Nacional.
+
+---
+
+## 4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+
+Regra da **LC 227/2026 (2026)**, que alterou o art. 13, §§ 9º e 10, da LC 123:
+
+| Semestre | Prazo para fazer a opção |
+|---|---|
+| Janeiro – Junho | **Setembro** do ano anterior |
+| Julho – Dezembro | **Março** do mesmo ano |
+
+- A opção é **facultativa** (§ 9º): se exercida, o IBS e a CBS são apurados pelo regime regular e **não são cobrados pelo DAS** naquele semestre.
+- A opção é **irretratável** para o semestre em que foi exercida (§ 10).
+- O procedimento é regulamentado pelo CGSN.
+
+> Atenção ao calendário: estamos em outubro/2026. O prazo de setembro/2026 (para o 1º semestre de 2027) já se encerrou, conforme os trechos fornecidos.
+
+---
+
+## 5. Quem compra de mim vai poder tomar crédito do imposto?
+
+**Sim — compradores que não forem optantes pelo Simples Nacional.** Dois fundamentos:
+
+- **EC 132/2023 — CF, art. 146, § 3º, II:** é expressamente permitida a apropriação de créditos de IBS e CBS pelo adquirente **não optante** do Simples, em montante **equivalente ao cobrado pelo regime único**.
+- **LC 227/2026 (2026) — LC 123, art. 23, § 1º-A, efeitos a partir de 2027:** as pessoas jurídicas não optantes terão direito a crédito de IBS e CBS sobre suas aquisições de ME/EPP do Simples, em montante equivalente ao cobrado pelo DAS.
+
+**Vigência prática: a partir de 2027.**
+
+Os trechos fornecidos não preveem esse direito para compradores que também sejam optantes do Simples ou para pessoas físicas.
+
+---
+
+## 6. Em 2027 o PIS e a Cofins ainda existem?
+
+**Não, pelos trechos fornecidos.**
+
+- **ADCT, art. 126 (EC 132/2023):** a partir de **2027**, o PIS e a Cofins são extintos, **desde que** a CBS (art. 195, V, da CF) tenha sido instituída. O mesmo artigo determina que a CBS passa a ser cobrada a partir de 2027.
+
+A condição dos textos é o "desde que" — a extinção depende da instituição efetiva da CBS.
+
+---
+
+## 7. Quando o ICMS e o ISS acabam?
+
+Conforme o **ADCT (EC 132/2023)**:
+
+| Período | Regra | Dispositivo |
+|---|---|---|
+| **2029** | Alíquotas reduzidas a 9/10 | Art. 128, I |
+| **2030** | Alíquotas reduzidas a 8/10 | Art. 128, II |
+| **2031** | Alíquotas reduzidas a 7/10 | Art. 128, III |
+| **2032** | Alíquotas reduzidas a 6/10 | Art. 128, IV |
+| **A partir de 2033** | **ICMS e ISS extintos** | Art. 129 |
+
+---
+
+## 8. Vale a pena eu sair do Simples por causa da reforma?
+
+Os trechos não respondem isso diretamente. Conforme solicitado, segue a **comparação** que os textos permitem montar:
+
+| Critério | Dentro do Simples Nacional | Fora do Simples (regime regular) |
+|---|---|---|
+| **IBS e CBS no dia a dia** | Embutidos no DAS, pelos novos Anexos XVIII–XXII *(LC 214/2025, efeitos 2027)* | Recolhidos separadamente, pelas alíquotas plenas do regime regular |
+| **Crédito sobre suas compras (entradas)** | Não previsto nos trechos fornecidos | Regime não cumulativo: crédito sobre insumos abate o débito |
+| **Crédito para quem compra de você** | Comprador não optante tem direito a crédito equivalente ao cobrado pelo DAS *(LC 227/2026 e CF, art. 146, § 3º, II — a partir de 2027)* | Comprador tem direito ao crédito integral de IBS e CBS |
+| **Flexibilidade** | Pode optar por recolher IBS/CBS fora do DAS **por semestre**, sem sair do Simples *(LC 227/2026)* | Saída do Simples é anual e tem regras próprias da LC 123 |
+| **PIS/Cofins** | Extintos a partir de 2027 para todos *(ADCT, art. 126, EC 132/2023)* | Idem |
+| **ICMS/ISS** | Redução gradual 2029–2032; extinção em 2033 *(ADCT, arts. 128–129, EC 132/2023)* | Idem |
+
+**O que falta para a decisão** *(fora dos trechos fornecidos)*:
+- O valor efetivo das alíquotas nos novos Anexos XVIII–XXII (não foram reproduzidos).
+- O volume e o valor de compras com IBS/CBS na entrada (que gerariam crédito fora do Simples).
+- O perfil dos clientes: empresas não optantes do Simples se beneficiam do crédito de qualquer forma; consumidores finais e outros optantes do Simples, não.
+
+--- Você:
+Agora outro cliente, sócio de uma empresa de serviços do lucro presumido, perguntou:
+9. Posso distribuir R$ 80 mil por mês de lucro para mim sem pagar imposto?
+10. O lucro de 2025 que eu ainda não distribuí também paga esses 10%?
+--- IA:
+# Respostas — Sócio do Lucro Presumido
+
+Base legal: **Lei 9.250/1995, art. 6º-A, incluído pela Lei 15.270/2025 (2025).**
+
+---
+
+## 9. Posso distribuir R$ 80 mil por mês sem pagar imposto?
+
+**Não.**
+
+A partir de **janeiro de 2026** (Lei 15.270/2025 — art. 6º-A da Lei 9.250/1995):
+
+- Distribuições de lucros e dividendos da **mesma pessoa jurídica** para a **mesma pessoa física** residente no Brasil em montante **superior a R$ 50.000,00 em um mesmo mês** ficam sujeitas a **retenção na fonte de 10%**.
+- A alíquota incide sobre o **total do valor pago** — não apenas sobre o que excede o limite.
+
+**Aplicado ao caso:**
+
+| Distribuição mensal | Supera R$ 50 mil? | Base de cálculo | IRRF (10%) |
+|---|---|---|---|
+| R$ 80.000,00 | Sim | R$ 80.000,00 | **R$ 8.000,00** |
+
+O sócio receberia R$ 72.000,00 líquidos, retidos R$ 8.000,00 na fonte.
+
+> Se o sócio receber dividendos de **outras empresas** no mesmo mês, cada pagador verifica o limite de R$ 50.000,00 de forma independente — os trechos fornecidos falam em "uma mesma pessoa jurídica".
+
+---
+
+## 10. O lucro de 2025 que ainda não distribuí também paga os 10%?
+
+**Depende de três condições cumulativas.** O § 3º do art. 6º-A (Lei 15.270/2025) isenta os lucros que atenderem **simultaneamente** a todos estes requisitos:
+
+| Condição | O que exige | Situação do cliente |
+|---|---|---|
+| **I** — Resultados apurados | Lucros relativos a resultados apurados **até o ano-calendário de 2025** | ✅ Atendido: são lucros de 2025 |
+| **II** — Aprovação da distribuição | Distribuição **aprovada até 31/12/2025** | ⚠️ **A verificar:** a deliberação foi feita formalmente até essa data? |
+| **III** — Pagamento nos termos originais | O pagamento deve ocorrer **nos termos originalmente previstos no ato de aprovação** | ⚠️ Depende do que ficou registrado no ato de aprovação |
+
+**Dois cenários possíveis:**
+
+**Cenário A — distribuição foi aprovada até 31/12/2025 e o pagamento segue o prazo original:**
+→ Isento do IRRF de 10%, pelas três condições do § 3º.
+
+**Cenário B — distribuição NÃO foi aprovada até 31/12/2025 (ou não há ato formal de aprovação nessa data):**
+→ A condição II não é satisfeita; o § 3º não se aplica.
+→ Quando pago em 2026, vale a regra geral do *caput*: se ultrapassar R$ 50.000,00 no mês, incide 10% sobre o total.
+
+> **O que precisa ser verificado:** se há ata, deliberação ou documento societário que tenha aprovado formalmente a distribuição desses lucros de 2025 **antes de 31/12/2025**, e se o pagamento está ocorrendo dentro do prazo e das condições ali previstos.
+
+### 2026-10-09 23:18 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do escritório que faz a contabilidade de uma loja de roupas do Simples Nacional. O dono me mandou estas perguntas. Me ajuda a responder? Responda só com o que está colado abaixo; diga o ano de cada regra; não decida pelo cliente: se a pergunta pede uma decisão, monte a comparação. Hoje é 09/10/2026.
+
+1. Sou do Simples. Vou pagar 26,5% de imposto a partir de agora?
+2. Neste ano eu já tenho de recolher a CBS de 0,9%?
+3. O Simples Nacional acabou com a reforma?
+4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+5. Quem compra de mim vai poder tomar crédito do imposto?
+6. Em 2027 o PIS e a Cofins ainda existem?
+7. Quando o ICMS e o ISS acabam?
+8. Vale a pena eu sair do Simples por causa da reforma?
+
+Trechos da lei (como estão no texto):
+- ADCT, art. 125: "Em 2026, o imposto previsto no art. 156-A será cobrado à alíquota estadual de 0,1% (um décimo por cento), e a contribuição prevista no art. 195, V, ambos da Constituição Federal, será cobrada à alíquota de 0,9% (nove décimos por cento)." § 4º: "Durante o período de que trata o caput, os sujeitos passivos que cumprirem as obrigações acessórias relativas aos tributos referidos no caput poderão ser dispensados do seu recolhimento, nos termos de lei complementar." (art. 156-A = IBS; art. 195, V = CBS)
+- LC 214/2025, art. 343: em 2026, o IBS "será cobrado mediante aplicação da alíquota estadual de 0,1%"; art. 346: em 2026, a CBS "será cobrada mediante aplicação da alíquota de 0,9%". Art. 348, III: as alíquotas dos arts. 343 e 346 "c) não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional." § 1º: "Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação."
+- ADCT, art. 126: "A partir de 2027: I - serão cobrados: a) a contribuição prevista no art. 195, V [CBS] [...]; II - serão extintas as contribuições previstas no art. 195, I, "b", e IV, e a contribuição para o Programa de Integração Social [PIS e Cofins] [...], desde que instituída a contribuição referida na alínea "a" do inciso I". Art. 127: "Em 2027 e 2028, o imposto previsto no art. 156-A da Constituição Federal será cobrado à alíquota estadual de 0,05% (cinco centésimos por cento) e à alíquota municipal de 0,05%". Parágrafo único: "No período referido no caput, a alíquota da contribuição prevista no art. 195, V, da Constituição Federal, será reduzida em 0,1 (um décimo) ponto percentual."
+- ADCT, art. 128: "De 2029 a 2032, as alíquotas dos impostos previstos nos arts. 155, II, e 156, III [ICMS e ISS] [...] serão fixadas nas seguintes proporções [...]: I - 9/10 (nove décimos), em 2029; II - 8/10 (oito décimos), em 2030; III - 7/10 (sete décimos), em 2031; IV - 6/10 (seis décimos), em 2032." Art. 129: "Ficam extintos, a partir de 2033, os impostos previstos nos arts. 155, II, e 156, III, da Constituição Federal."
+- LC 214/2025, art. 519: "Os Anexos I a V da Lei Complementar nº 123, de 14 de dezembro de 2006, passam a vigorar com a redação dos Anexos XVIII a XXII desta Lei Complementar." (efeitos a partir de 1º de janeiro de 2027, art. 544, III)
+- LC 123, art. 13, § 9º: "É facultado ao optante pelo Simples Nacional apurar e recolher o IBS e a CBS de acordo com o regime regular aplicável a esses tributos, hipótese em que as parcelas a eles relativas não serão cobradas pelo regime único." § 10: "A opção a que se refere o § 9º será exercida para os semestres iniciados em janeiro e julho de cada ano, sendo irretratável para cada um desses períodos, devendo ser exercida nos meses de setembro e março imediatamente anteriores a cada semestre, na forma regulamentada pelo CGSN." (redação da LC 227/2026)
+- Constituição, art. 146, § 3º, II: "será permitida a apropriação de créditos dos tributos previstos nos arts. 156-A e 195, V, pelo adquirente não optante pelo regime único de que trata o § 1º de bens materiais ou imateriais, inclusive direitos, e de serviços do optante, em montante equivalente ao cobrado por meio do regime único." LC 123, art. 23, § 1º-A (incluído pela LC 227/2026, efeitos a partir de 2027): as pessoas jurídicas não optantes "terão direito a crédito ao IBS e à CBS incidentes sobre as suas aquisições [...] de microempresa ou empresa de pequeno porte optante pelo Simples Nacional, em montante equivalente ao cobrado por meio desse regime único."
+- Lei 9.250/1995, art. 6º-A (incluído pela Lei 15.270/2025): "A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditamento, o emprego ou a entrega de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante superior a R$ 50.000,00 (cinquenta mil reais) em um mesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda das Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total do valor pago, creditado, empregado ou entregue." § 3º: "Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de que trata este artigo os lucros e dividendos: I - relativos a resultados apurados até o ano-calendário de 2025; II - cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e III - exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação."
+--- IA:
+# Respostas às perguntas da loja de roupas — Simples Nacional
+*(Base: trechos legais fornecidos; data de referência: 09/10/2026)*
+
+---
+
+## 1. Sou do Simples. Vou pagar 26,5% de imposto a partir de agora?
+
+A alíquota de **26,5% não consta dos trechos fornecidos**. O que os textos dizem para 2026 é:
+
+- **LC 214/2025, arts. 343 e 346 (Lei de 2025):** em 2026 existem alíquotas de teste — IBS a 0,1% e CBS a 0,9% — mas aplicáveis ao **regime regular**.
+- **LC 214/2025, art. 348, III (Lei de 2025):** essas alíquotas de teste **"não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional"**.
+- **LC 214/2025, art. 348, §1º (Lei de 2025):** mesmo quem seria sujeito às alíquotas de teste fica **dispensado do recolhimento** se cumprir as obrigações acessórias previstas.
+
+> **Em 2026, o optante do Simples não paga IBS nem CBS.** A alíquota de 26,5% não aparece nos textos disponibilizados; qualquer análise sobre ela exigiria base legal adicional não fornecida.
+
+---
+
+## 2. Neste ano eu já tenho de recolher a CBS de 0,9%?
+
+**Não.**
+
+- **ADCT, art. 125 (Emenda Constitucional, promulgada em 2023):** a CBS é cobrada a 0,9% em 2026 — regra geral.
+- **LC 214/2025, art. 346 c/c art. 348, III (Lei de 2025):** a alíquota de 0,9% **não se aplica ao Simples Nacional**.
+- **LC 214/2025, art. 348, §1º (Lei de 2025):** fica **dispensado o recolhimento** para quem cumprir as obrigações acessórias.
+
+> O optante do Simples está fora da cobrança de CBS em 2026. Convém acompanhar a regulamentação do CGSN sobre quais obrigações acessórias devem ser cumpridas para garantir a dispensa.
+
+---
+
+## 3. O Simples Nacional acabou com a reforma?
+
+**Não.**
+
+- **LC 214/2025, art. 519 (Lei de 2025, efeitos a partir de 1º/1/2027):** os Anexos I a V da LC 123/2006 são substituídos pelos Anexos XVIII a XXII — o Simples **continua existindo**, apenas com tabelas adaptadas para incorporar IBS e CBS.
+- **LC 123, arts. 13, §9º e §10 (redação da LC 227/2026):** há previsão expressa de opção semestral de recolhimento dentro ou fora do DAS — pressupõe a permanência do regime.
+
+> O Simples Nacional não foi extinto; foi **reformulado** para conviver com o novo sistema tributário.
+
+---
+
+## 4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+
+- **LC 123, art. 13, §9º (LC 227/2026):** é **facultado** ao optante apurar e recolher IBS e CBS pelo regime regular, ficando essas parcelas fora do DAS.
+- **LC 123, art. 13, §10 (LC 227/2026):** a opção obedece às seguintes regras:
+
+| Semestre pretendido | Mês para exercer a opção | Irretratabilidade |
+|---|---|---|
+| Janeiro a junho | **Setembro** do ano anterior | Irretratável para o semestre |
+| Julho a dezembro | **Março** do mesmo ano | Irretratável para o semestre |
+
+> **Atenção prática:** para o 1º semestre de 2027 (janeiro–junho), o prazo seria **setembro de 2026** — que está encerrando neste mês de outubro. Verifique urgentemente se a regulamentação do CGSN já foi publicada e se o prazo ainda está aberto ou se foi prorrogado.
+
+---
+
+## 5. Quem compra de mim vai poder tomar crédito do imposto?
+
+**Sim, a partir de 2027**, com as seguintes condições:
+
+- **CF, art. 146, §3º, II (Emenda Constitucional, 2023):** o adquirente **não optante pelo Simples** pode apropriar créditos de IBS e CBS nas compras feitas de optante, em montante **equivalente ao cobrado pelo regime único (DAS)** — não o crédito pleno do regime regular.
+- **LC 123, art. 23, §1º-A (LC 227/2026, efeitos a partir de 2027):** pessoas jurídicas **não optantes** têm direito a crédito de IBS e CBS nas aquisições de ME/EPP do Simples, **limitado ao que foi cobrado via DAS**.
+
+> **Resumo:** compradores pessoas jurídicas fora do Simples poderão tomar crédito a partir de 2027. O crédito é proporcional ao recolhido no DAS — não é o crédito integral. Os textos não preveem crédito para pessoa física compradora nem para outros optantes do Simples.
+
+---
+
+## 6. Em 2027 o PIS e a Cofins ainda existem?
+
+**Não.** A partir de 2027 eles são extintos:
+
+- **ADCT, art. 126, I, "a" e II (Emenda Constitucional, 2023):** a partir de 2027, a CBS é cobrada integralmente **e** o PIS e a Cofins são **extintos**, "desde que instituída" a CBS — condição cumprida pela LC 214/2025.
+- **LC 214/2025, art. 519 (Lei de 2025, efeitos 1º/1/2027):** os novos Anexos do Simples já refletem a substituição: as parcelas de PIS/Cofins no DAS darão lugar à CBS.
+
+> Em 2027, PIS e Cofins deixam de existir. Para o Simples, a CBS passa a constar do DAS no lugar deles, pelas novas tabelas.
+
+---
+
+## 7. Quando o ICMS e o ISS acabam?
+
+- **ADCT, art. 128 (Emenda Constitucional, 2023):** redução gradual das alíquotas:
+
+| Ano | Proporção da alíquota atual |
+|---|---|
+| 2029 | 9/10 |
+| 2030 | 8/10 |
+| 2031 | 7/10 |
+| 2032 | 6/10 |
+
+- **ADCT, art. 129 (Emenda Constitucional, 2023):** ICMS e ISS ficam **extintos a partir de 2033**.
+
+> Para o Simples, as parcelas de ICMS dentro do DAS seguirão essa redução progressiva conforme os novos Anexos vigentes a partir de 2027 (LC 214/2025, art. 519).
+
+---
+
+## 8. Vale a pena eu sair do Simples por causa da reforma?
+
+Conforme solicitado, segue apenas a **comparação** — a decisão é do cliente:
+
+| Aspecto | Permanecer no Simples | Sair do Simples (regime regular) |
+|---|---|---|
+| **IBS e CBS em 2026** | Não recolhe *(LC 214/2025, art. 348, III – 2025)* | Recolhe 0,1% IBS + 0,9% CBS (fase de teste) |
+| **IBS e CBS a partir de 2027** | Dentro do DAS pelas novas tabelas *(LC 214/2025, art. 519 – 2025)*; ou pode optar por recolher fora do DAS por semestre, sem sair do Simples *(LC 123, art. 13, §9º – LC 227/2026)* | Alíquotas plenas do regime regular |
+| **Crédito para o comprador (a partir de 2027)** | Comprador não-Simples tem crédito **equivalente ao cobrado no DAS** — crédito parcial *(CF art. 146, §3º, II – EC 2023; LC 123, art. 23, §1º-A – LC 227/2026)* | Comprador tem crédito **pleno** da não-cumulatividade |
+| **Simplificação administrativa** | Recolhimento unificado no DAS | Apurações e guias separadas por tributo |
+| **Extinção de PIS/Cofins (2027)** | Substituídos pela CBS dentro do DAS | Extintos; CBS apurada pelo regime regular |
+| **ICMS/ISS (2029–2032)** | Redução gradual refletida nos Anexos do DAS | Redução gradual nas alíquotas estaduais/municipais |
+| **Fim de ICMS/ISS (2033)** | Saem do DAS | Deixam de existir |
+
+**Pontos que os textos fornecidos não resolvem e precisam de análise caso a caso:**
+- **Perfil de clientes:** se a maioria é pessoa jurídica fora do Simples, o crédito parcial que eles obtêm comprando de um optante pode ser inferior ao crédito pleno que teriam de um fornecedor do regime regular — isso pode impactar preço e competitividade.
+- **Carga efetiva:** a comparação entre a alíquota efetiva do DAS e a carga do Lucro Presumido ou Real depende do faturamento, da margem e da folha de pagamento da empresa.
+- **Opção semestral:** antes de sair do Simples, vale avaliar se a opção de recolher IBS/CBS fora do DAS *(§9º do art. 13)* já resolve a questão do crédito sem exigir saída do regime.
+
+--- Você:
+Agora outro cliente, sócio de uma empresa de serviços do lucro presumido, perguntou:
+9. Posso distribuir R$ 80 mil por mês de lucro para mim sem pagar imposto?
+10. O lucro de 2025 que eu ainda não distribuí também paga esses 10%?
+--- IA:
+# Perguntas 9 e 10 — Distribuição de lucros, Lucro Presumido
+*(Base: trechos legais fornecidos; data de referência: 09/10/2026)*
+
+---
+
+## 9. Posso distribuir R$ 80 mil por mês de lucro para mim sem pagar imposto?
+
+**Não, a partir de janeiro de 2026.**
+
+- **Lei 9.250/1995, art. 6º-A (incluído pela Lei 15.270/2025, vigência a partir de janeiro de 2026):** o pagamento de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante **superior a R$ 50.000,00 em um mesmo mês** fica sujeito à **retenção na fonte de 10%**.
+- A alíquota incide sobre o **total do valor pago** — não apenas sobre o que exceder R$ 50.000,00.
+
+**Simulação para R$ 80.000,00/mês:**
+
+| Item | Valor |
+|---|---|
+| Valor distribuído | R$ 80.000,00 |
+| Supera o limite de R$ 50.000,00? | Sim → 10% incide sobre o total |
+| IRRF retido na fonte (10% × R$ 80.000,00) | R$ 8.000,00 |
+| Valor líquido recebido | R$ 72.000,00 |
+
+> Se a distribuição mensal fosse mantida em até **R$ 50.000,00**, o imposto não seria devido — pois o texto exige que o montante seja *superior* a esse valor para acionar a retenção. Qualquer valor acima, porém, faz incidir os 10% sobre o **total**, não só sobre o excesso.
+
+---
+
+## 10. O lucro de 2025 que eu ainda não distribuí também paga esses 10%?
+
+Essa é a pergunta mais sensível, porque o **§ 3º do art. 6º-A (Lei 15.270/2025)** traz uma exclusão — mas sua leitura admite duas interpretações. O texto diz:
+
+> *"Não se sujeitam ao [IRRF de 10%] os lucros e dividendos:*
+> *I – relativos a resultados apurados até o ano-calendário de 2025;*
+> *II – cuja distribuição tenha sido aprovada até 31 de dezembro de 2025;*
+> *e III – exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação."*
+
+### As duas leituras possíveis
+
+**Leitura A — Condições cumulativas (I + II + III, todas exigidas ao mesmo tempo):**
+
+Para ser isento, o lucro precisaria atender aos três requisitos juntos:
+1. Ser de resultado apurado até 2025 ✓ *(o cliente tem isso)*
+2. Ter distribuição **aprovada até 31/12/2025** ✗ *(se ainda não foi distribuído nem aprovado, não atende)*
+3. Ser exigível e pago conforme o cronograma original da aprovação ✗ *(idem)*
+
+→ Sob essa leitura, o lucro de 2025 **não aprovado para distribuição até 31/12/2025** **não estaria isento** — pagaria 10% quando distribuído em 2026 ou depois.
+
+---
+
+**Leitura B — Condições alternativas (I, II ou III, qualquer uma basta):**
+
+Cada inciso criaria uma categoria independente de isenção:
+- Inciso I protegeria **todos** os lucros de resultados até 2025, independentemente de quando distribuídos.
+- Inciso II protegeria os lucros cuja distribuição foi formalmente aprovada até 31/12/2025.
+- Inciso III exigiria pagamento conforme o ato de aprovação original (condição de II).
+
+→ Sob essa leitura, o lucro de 2025 **estaria isento** pelo simples fato de ser de resultado anterior a 2026, mesmo que distribuído em 2026 ou anos seguintes.
+
+---
+
+### Quadro-resumo das duas leituras para o caso concreto
+
+| Situação do lucro de 2025 | Leitura A (cumulativa) | Leitura B (alternativa) |
+|---|---|---|
+| Distribuição **aprovada até 31/12/2025** e paga no prazo original | **Isento** | **Isento** |
+| Distribuição **não aprovada** até 31/12/2025 (caso do cliente) | **Sujeito a 10%** | **Isento** |
+
+---
+
+> **Ponto de atenção:** os textos fornecidos não permitem resolver a ambiguidade com segurança — ela depende de como a Receita Federal vai regulamentar ou interpretar o § 3º, ou de como o judiciário vier a decidir. **Recomenda-se consultar parecer de advogado tributarista ou aguardar orientação normativa da RFB antes de distribuir esses valores**, dado o risco fiscal envolvido na Leitura A.
+
+### 2026-10-09 23:22 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do escritório que faz a contabilidade de uma loja de roupas do Simples Nacional. O dono me mandou estas perguntas. Me ajuda a responder? Responda só com o que está colado abaixo; diga o ano de cada regra; não decida pelo cliente: se a pergunta pede uma decisão, monte a comparação. Hoje é 09/10/2026.
+
+1. Sou do Simples. Vou pagar 26,5% de imposto a partir de agora?
+2. Neste ano eu já tenho de recolher a CBS de 0,9%?
+3. O Simples Nacional acabou com a reforma?
+4. Quando eu escolho se recolho o IBS e a CBS por fora do DAS?
+5. Quem compra de mim vai poder tomar crédito do imposto?
+6. Em 2027 o PIS e a Cofins ainda existem?
+7. Quando o ICMS e o ISS acabam?
+8. Vale a pena eu sair do Simples por causa da reforma?
+
+Trechos da lei (como estão no texto):
+- ADCT, art. 125: "Em 2026, o imposto previsto no art. 156-A será cobrado à alíquota estadual de 0,1% (um décimo por cento), e a contribuição prevista no art. 195, V, ambos da Constituição Federal, será cobrada à alíquota de 0,9% (nove décimos por cento)." § 4º: "Durante o período de que trata o caput, os sujeitos passivos que cumprirem as obrigações acessórias relativas aos tributos referidos no caput poderão ser dispensados do seu recolhimento, nos termos de lei complementar." (art. 156-A = IBS; art. 195, V = CBS)
+- LC 214/2025, art. 343: em 2026, o IBS "será cobrado mediante aplicação da alíquota estadual de 0,1%"; art. 346: em 2026, a CBS "será cobrada mediante aplicação da alíquota de 0,9%". Art. 348, III: as alíquotas dos arts. 343 e 346 "c) não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional." § 1º: "Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação."
+- ADCT, art. 126: "A partir de 2027: I - serão cobrados: a) a contribuição prevista no art. 195, V [CBS] [...]; II - serão extintas as contribuições previstas no art. 195, I, "b", e IV, e a contribuição para o Programa de Integração Social [PIS e Cofins] [...], desde que instituída a contribuição referida na alínea "a" do inciso I". Art. 127: "Em 2027 e 2028, o imposto previsto no art. 156-A da Constituição Federal será cobrado à alíquota estadual de 0,05% (cinco centésimos por cento) e à alíquota municipal de 0,05%". Parágrafo único: "No período referido no caput, a alíquota da contribuição prevista no art. 195, V, da Constituição Federal, será reduzida em 0,1 (um décimo) ponto percentual."
+- ADCT, art. 128: "De 2029 a 2032, as alíquotas dos impostos previstos nos arts. 155, II, e 156, III [ICMS e ISS] [...] serão fixadas nas seguintes proporções [...]: I - 9/10 (nove décimos), em 2029; II - 8/10 (oito décimos), em 2030; III - 7/10 (sete décimos), em 2031; IV - 6/10 (seis décimos), em 2032." Art. 129: "Ficam extintos, a partir de 2033, os impostos previstos nos arts. 155, II, e 156, III, da Constituição Federal."
+- LC 214/2025, art. 519: "Os Anexos I a V da Lei Complementar nº 123, de 14 de dezembro de 2006, passam a vigorar com a redação dos Anexos XVIII a XXII desta Lei Complementar." (efeitos a partir de 1º de janeiro de 2027, art. 544, III)
+- LC 123, art. 13, § 9º: "É facultado ao optante pelo Simples Nacional apurar e recolher o IBS e a CBS de acordo com o regime regular aplicável a esses tributos, hipótese em que as parcelas a eles relativas não serão cobradas pelo regime único." § 10: "A opção a que se refere o § 9º será exercida para os semestres iniciados em janeiro e julho de cada ano, sendo irretratável para cada um desses períodos, devendo ser exercida nos meses de setembro e março imediatamente anteriores a cada semestre, na forma regulamentada pelo CGSN." (redação da LC 227/2026)
+- Constituição, art. 146, § 3º, II: "será permitida a apropriação de créditos dos tributos previstos nos arts. 156-A e 195, V, pelo adquirente não optante pelo regime único de que trata o § 1º de bens materiais ou imateriais, inclusive direitos, e de serviços do optante, em montante equivalente ao cobrado por meio do regime único." LC 123, art. 23, § 1º-A (incluído pela LC 227/2026, efeitos a partir de 2027): as pessoas jurídicas não optantes "terão direito a crédito ao IBS e à CBS incidentes sobre as suas aquisições [...] de microempresa ou empresa de pequeno porte optante pelo Simples Nacional, em montante equivalente ao cobrado por meio desse regime único."
+- Lei 9.250/1995, art. 6º-A (incluído pela Lei 15.270/2025): "A partir do mês de janeiro do ano-calendário de 2026, o pagamento, o creditamento, o emprego ou a entrega de lucros e dividendos por uma mesma pessoa jurídica a uma mesma pessoa física residente no Brasil em montante superior a R$ 50.000,00 (cinquenta mil reais) em um mesmo mês fica sujeito à retenção na fonte do Imposto sobre a Renda das Pessoas Físicas à alíquota de 10% (dez por cento) sobre o total do valor pago, creditado, empregado ou entregue." § 3º: "Não se sujeitam ao Imposto sobre a Renda das Pessoas Físicas de que trata este artigo os lucros e dividendos: I - relativos a resultados apurados até o ano-calendário de 2025; II - cuja distribuição tenha sido aprovada até 31 de dezembro de 2025; e III - exigíveis nos termos da legislação civil ou empresarial, desde que seu pagamento, crédito, emprego ou entrega ocorra nos termos originalmente previstos no ato de aprovação."
+--- IA:
+# Respostas às 8 perguntas — Loja de roupas / Simples Nacional
+
+---
+
+## 1. Vou pagar 26,5% de imposto a partir de agora?
+
+**Não está previsto nas normas indicadas.** A alíquota de 26,5% não aparece em nenhum dos trechos fornecidos.
+
+O que os textos dizem sobre **2026**:
+- As alíquotas de transição são **CBS 0,9% + IBS 0,1%**, mas o **LC 214/2025, art. 348, III (vigor: 2026)** determina expressamente que essas alíquotas **"não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional"**.
+- Portanto, em 2026 o DAS segue normalmente, sem IBS nem CBS adicionais.
+
+A partir de **2027**, os Anexos do Simples serão substituídos pelos Anexos XVIII a XXII da LC 214/2025 *(LC 214/2025, art. 519 c/c art. 544, III — efeitos a partir de 1º/1/2027)*. As novas alíquotas do DAS decorrem dessas tabelas, não de uma alíquota de 26,5%.
+
+---
+
+## 2. Neste ano (2026) já tenho de recolher a CBS de 0,9%?
+
+**Não.**
+
+Duas regras convergem para a dispensa:
+
+| Base legal | Ano | O que diz |
+|---|---|---|
+| LC 214/2025, art. 348, III | 2026 | As alíquotas de 0,9% (CBS) e 0,1% (IBS) **não se aplicam** às operações de optantes pelo Simples Nacional |
+| LC 214/2025, art. 348, § 1º / ADCT art. 125, § 4º | 2026 | Mesmo para os contribuintes que *seriam* sujeitos, **fica dispensado o recolhimento** de IBS e CBS de 2026 para quem cumprir as obrigações acessórias |
+
+Conclusão prática: o optante pelo Simples Nacional em 2026 **não deve CBS nem IBS** — nem por enquadramento (art. 348, III) nem, subsidiariamente, por dispensa de recolhimento (§ 1º).
+
+---
+
+## 3. O Simples Nacional acabou com a reforma?
+
+**Não.** O Simples Nacional foi **adaptado**, não extinto.
+
+- O **LC 214/2025, art. 519 (efeitos: 1º/1/2027)** substitui os Anexos I–V do LC 123/2006 por novos Anexos que já incorporam IBS e CBS dentro do DAS.
+- O **LC 123, art. 13, §§ 9º e 10 (redação da LC 227/2026)** cria a opção de recolher IBS e CBS fora do DAS — o que pressupõe que o regime continua existindo.
+- A **Constituição Federal, art. 146, § 3º, II** reconhece expressamente o "regime único" dos optantes e garante créditos ao adquirente não optante.
+
+---
+
+## 4. Quando devo escolher se recolho o IBS e a CBS por fora do DAS?
+
+Regra: **LC 123, art. 13, §§ 9º e 10 (redação da LC 227/2026)**
+
+| Semestre-alvo | Prazo para exercer a opção | Observação |
+|---|---|---|
+| Janeiro–junho de 2027 | **Setembro de 2026** | ⚠️ Hoje é 09/10/2026 — **prazo já encerrado** |
+| Julho–dezembro de 2027 | **Março de 2027** | Próxima janela disponível |
+| Janeiro–junho de 2028 | Setembro de 2027 | E assim sucessivamente |
+
+Pontos importantes (LC 227/2026):
+- A opção é **irretratável** para o semestre escolhido.
+- É exercida perante o CGSN na forma por ele regulamentada.
+- Se não houver opção, IBS e CBS **ficam dentro do DAS** automaticamente.
+
+---
+
+## 5. Quem compra de mim vai poder tomar crédito do imposto?
+
+**Sim, a partir de 2027**, mas com limitações:
+
+| Quem compra | Tem direito a crédito? | Base e montante | Ano |
+|---|---|---|---|
+| Empresa **não optante** pelo Simples | **Sim** | Crédito equivalente ao IBS e CBS **efetivamente cobrados dentro do DAS** | A partir de 2027 |
+| Empresa **optante** pelo Simples | Não previsto nos trechos fornecidos | — | — |
+| Pessoa física consumidora final | Não previsto nos trechos fornecidos | — | — |
+
+Fundamento: **CF, art. 146, § 3º, II** + **LC 123, art. 23, § 1º-A (LC 227/2026 — efeitos a partir de 2027)**.
+
+> ⚠️ O crédito é **proporcional ao que o Simples efetivamente recolhe de IBS/CBS**, não à alíquota cheia do regime regular. Dependendo da faixa do Simples, esse crédito pode ser menor do que o gerado por um fornecedor do regime normal — ponto relevante para a pergunta 8.
+
+---
+
+## 6. Em 2027 o PIS e a Cofins ainda existem?
+
+**Não.** O **ADCT, art. 126 (vigência: 2027)** determina:
+
+- A **CBS** passa a ser cobrada a partir de 2027 *(art. 195, V da CF)*.
+- O **PIS e a Cofins ficam extintos a partir de 2027**, condicionado a que a CBS tenha sido instituída — o que ocorreu com a **LC 214/2025**.
+
+A condição está cumprida; portanto, PIS e Cofins **deixam de existir em 2027**.
+
+---
+
+## 7. Quando o ICMS e o ISS acabam?
+
+Extinção **gradual** prevista no ADCT:
+
+| Período | Regra | Proporção da alíquota original |
+|---|---|---|
+| 2029 | ADCT, art. 128, I | 9/10 |
+| 2030 | ADCT, art. 128, II | 8/10 |
+| 2031 | ADCT, art. 128, III | 7/10 |
+| 2032 | ADCT, art. 128, IV | 6/10 |
+| **A partir de 2033** | **ADCT, art. 129** | **Extintos** |
+
+Até 2028, ICMS e ISS continuam às alíquotas atuais dentro do DAS.
+
+---
+
+## 8. Vale a pena sair do Simples por causa da reforma?
+
+**A decisão depende do perfil da loja.** Abaixo a comparação objetiva com base nos textos; o escritório contábil deve calcular os números específicos do cliente.
+
+| Critério | Permanecer no Simples | Sair do Simples |
+|---|---|---|
+| **Alíquota de IBS/CBS** | Cobrada dentro do DAS, pelas tabelas dos novos Anexos (LC 214/2025, art. 519 — a partir de 2027) | Alíquota cheia do regime regular de IBS e CBS |
+| **Crédito para o comprador não optante** | Sim, mas limitado ao IBS/CBS efetivamente recolhido no DAS (LC 123, art. 23, § 1º-A — 2027) | Crédito integral à alíquota cheia — pode ser mais atrativo para clientes B2B |
+| **Complexidade de obrigações** | Menor: DAS unificado; IBS/CBS opcionalmente fora do DAS (LC 123, art. 13, § 9º — 2027) | Maior: apurações separadas de IBS, CBS, IRPJ, CSLL etc. |
+| **Opção de recolher IBS/CBS fora do DAS** | Disponível por semestre (LC 123, art. 13, §§ 9º-10 — LC 227/2026) | Não se aplica — já está no regime regular |
+| **Limite de receita** | Mantido (LC 123 não foi revogado) | Sem limite, mas com carga tributária distinta |
+| **Perfil de clientela** | Se vende majoritariamente para pessoa física (consumidor final), o diferencial de crédito B2B importa menos | Se vende muito para empresa não optante (atacado, multimarcas), a alíquota cheia de crédito pode ser argumento comercial |
+
+**O que precisa ser calculado para decidir:**
+1. Faturamento atual e faixa do Simples → alíquota efetiva de IBS/CBS dentro do DAS (novos Anexos a partir de 2027).
+2. Perfil dos clientes: % de vendas para pessoa física vs. empresas não optantes.
+3. Crédito que o cliente deixa de aproveitar com o fornecedor Simples versus o que aproveitaria com um fornecedor do regime regular.
+4. Carga total fora do Simples (IRPJ/CSLL + IBS + CBS) versus DAS.
+
+> Como a pergunta pede uma decisão, a recomendação do escritório deve ser embasada nesse levantamento numérico — os textos legais disponíveis não permitem concluir sozinhos se a saída compensa ou não para este contribuinte específico.
+
+--- Você:
+Agora outro cliente, sócio de uma empresa de serviços do lucro presumido, perguntou:
+9. Posso distribuir R$ 80 mil por mês de lucro para mim sem pagar imposto?
+10. O lucro de 2025 que eu ainda não distribuí também paga esses 10%?
+--- IA:
+Not logged in · Please run /login
+

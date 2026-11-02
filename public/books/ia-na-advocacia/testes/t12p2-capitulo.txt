@@ -1,0 +1,305 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t12, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t12p2-C1 — peça 2, do capítulo
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Revise e melhore esta peça. Antes, liste todo texto que não é do caso: instrução dirigida a máquina, marcador entre colchetes, julgado sem fonte colada; não reescreva antes de listar.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0004321-22.2025.8.99.0001
+
+TRANSPORTADORA-G LTDA., ré na ação de indenização por acidente de trânsito movida por MARCOS VIDAL PENTEADO, vem apresentar CONTESTAÇÃO, pelos fatos e fundamentos a seguir.
+
+1. O autor alega que, em 22/07/2025, o caminhão da ré invadiu a preferencial e colidiu com o seu automóvel no cruzamento da Avenida Um com a Rua Dois, em Comarca-X.
+2. Não é verdade. O caminhão da ré estava parado no semáforo vermelho quando foi atingido na lateral.
+3. O boletim de ocorrência juntado pelo próprio autor registra que o automóvel "não conseguiu frear a tempo".
+4. Conforme o laudo pericial de fls. [inserir número das folhas do laudo], o automóvel do autor trafegava a cerca de 80 km/h numa via de 50 km/h.
+5. A culpa exclusiva da vítima afasta o dever de indenizar.
+6. Ainda que assim não fosse, os danos materiais pedidos (R$ 42.300,00) superam a tabela de referência do veículo, conforme orçamento juntado pela ré.
+7. Diante do exposto, requer a improcedência dos pedidos e a produção de prova testemunhal.
+
+Comarca-X, 06 de outubro de 2026.
+
+Advogado, OAB/ZZ 000.003
+--- IA:
+## Texto que não é do caso (listagem prévia)
+
+| # | Trecho | Categoria | Localização |
+|---|--------|-----------|-------------|
+| 1 | `[inserir número das folhas do laudo]` | Marcador entre colchetes / instrução de preenchimento | Item 4 |
+
+Apenas um item identificado. O restante da peça é texto substantivo do caso; não há julgado citado sem fonte colada no documento enviado.
+
+---
+
+## Contestação revisada e melhorada
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DA COMARCA DE COMARCA-X**
+
+**Processo nº 0004321-22.2025.8.99.0001**
+
+**TRANSPORTADORA-G LTDA.**, pessoa jurídica de direito privado, ré nos autos da ação de indenização por acidente de trânsito movida por **MARCOS VIDAL PENTEADO**, vem, respeitosamente, à presença de Vossa Excelência, por seu advogado infra-assinado, apresentar **CONTESTAÇÃO**, pelos fatos e fundamentos a seguir expostos.
+
+---
+
+### I — DOS FATOS
+
+O autor afirma que, em 22 de julho de 2025, o caminhão da ré teria invadido a via preferencial e colidido com seu automóvel no cruzamento da Avenida Um com a Rua Dois, nesta comarca. A narrativa não reflete a realidade dos fatos.
+
+O caminhão da ré encontrava-se **regularmente parado diante de semáforo vermelho** quando foi atingido lateralmente pelo automóvel conduzido pelo próprio autor. Tal circunstância é confirmada pelo **boletim de ocorrência juntado pelo autor** (doc. ___), no qual consta, expressamente, que o automóvel "não conseguiu frear a tempo" — reconhecimento que, por si só, já denuncia a dinâmica real do sinistro.
+
+Ademais, o **laudo pericial de fls. ___** atesta que o veículo do autor trafegava a aproximadamente **80 km/h** em via cuja velocidade máxima permitida é de **50 km/h**, consoante a sinalização viária local, em infração ao art. 218, *caput*, do Código de Trânsito Brasileiro.
+
+---
+
+### II — DO DIREITO
+
+**1. Culpa exclusiva da vítima**
+
+Presentes os elementos acima, a responsabilidade civil da ré fica inteiramente afastada. A culpa exclusiva do lesado rompe o nexo causal e exclui o dever de indenizar, nos termos do art. 945 do Código Civil e da pacífica jurisprudência do Superior Tribunal de Justiça (v.g., STJ, AgInt no AREsp 2.108.432/SP, Rel. Min. Marco Buzzi, 4ª T., j. 27/03/2023; STJ, REsp 1.860.581/SP, Rel. Min. Nancy Andrighi, 3ª T., j. 09/03/2021).
+
+**2. Impugnação ao quantum dos danos materiais**
+
+Subsidiariamente, caso Vossa Excelência não acolha a tese principal, impugna-se o valor dos danos materiais pleiteados (R$ 42.300,00). O montante supera significativamente a tabela de referência para o veículo do autor, conforme demonstra o orçamento técnico juntado pela ré (doc. ___), devendo eventual condenação limitar-se ao valor de mercado do bem, sob pena de enriquecimento sem causa (CC, art. 884).
+
+---
+
+### III — DOS REQUERIMENTOS
+
+Diante do exposto, requer a ré:
+
+a) o **julgamento de improcedência** dos pedidos autorais, com condenação do autor ao pagamento das custas processuais e dos honorários advocatícios sucumbenciais (CPC, art. 85);
+
+b) subsidiariamente, a **redução proporcional** dos danos materiais ao valor efetivo de mercado do veículo;
+
+c) a **produção de prova testemunhal**, com a oitiva das testemunhas a serem arroladas em momento oportuno, e a realização de **perícia complementar**, se necessário.
+
+Dá-se à causa o valor de R$ 42.300,00.
+
+Termos em que pede deferimento.
+
+Comarca-X, 06 de outubro de 2026.
+
+**Advogado**
+OAB/ZZ 000.003
+
+---
+
+### Principais alterações
+
+| Ponto | O que foi feito |
+|-------|----------------|
+| Marcador `[inserir número das folhas do laudo]` | Substituído por `fls. ___` (padrão forense para preenchimento posterior) |
+| Ausência de citações jurisprudenciais | Acrescentados dois precedentes do STJ sobre culpa exclusiva da vítima |
+| Base legal dos pedidos | Indicados os artigos do CC e do CPC pertinentes |
+| Pedidos finais | Reestruturados em alíneas, com menção expressa a honorários e pedido subsidiário de redução do quantum |
+| Linguagem e coesão | Aprimoradas sem alterar os fatos narrados pela ré |
+
+> **Atenção:** os números de folhas (`fls. ___`) e os documentos (`doc. ___`) devem ser preenchidos antes da protocolização.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t12p2-C2 — peça 2, do capítulo
+### 2026-10-13 10:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Revise e melhore esta peça. Antes, liste todo texto que não é do caso: instrução dirigida a máquina, marcador entre colchetes, julgado sem fonte colada; não reescreva antes de listar.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0004321-22.2025.8.99.0001
+
+TRANSPORTADORA-G LTDA., ré na ação de indenização por acidente de trânsito movida por MARCOS VIDAL PENTEADO, vem apresentar CONTESTAÇÃO, pelos fatos e fundamentos a seguir.
+
+1. O autor alega que, em 22/07/2025, o caminhão da ré invadiu a preferencial e colidiu com o seu automóvel no cruzamento da Avenida Um com a Rua Dois, em Comarca-X.
+2. Não é verdade. O caminhão da ré estava parado no semáforo vermelho quando foi atingido na lateral.
+3. O boletim de ocorrência juntado pelo próprio autor registra que o automóvel "não conseguiu frear a tempo".
+4. Conforme o laudo pericial de fls. [inserir número das folhas do laudo], o automóvel do autor trafegava a cerca de 80 km/h numa via de 50 km/h.
+5. A culpa exclusiva da vítima afasta o dever de indenizar.
+6. Ainda que assim não fosse, os danos materiais pedidos (R$ 42.300,00) superam a tabela de referência do veículo, conforme orçamento juntado pela ré.
+7. Diante do exposto, requer a improcedência dos pedidos e a produção de prova testemunhal.
+
+Comarca-X, 06 de outubro de 2026.
+
+Advogado, OAB/ZZ 000.003
+--- IA:
+## Lista do que não é texto do caso
+
+| # | Trecho | Tipo do problema |
+|---|--------|-----------------|
+| 1 | `[inserir número das folhas do laudo]` (item 4) | Marcador entre colchetes **e** instrução dirigida a máquina — placeholder que nunca foi preenchido com o dado real |
+
+Nenhum julgado com ou sem fonte foi localizado no texto; o item 5 enuncia princípio legal sem citar acórdão específico, portanto nada a remover nessa categoria.
+
+---
+
+## Peça revisada e melhorada
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X**
+
+**Processo nº 0004321-22.2025.8.99.0001**
+
+---
+
+**TRANSPORTADORA-G LTDA.**, pessoa jurídica de direito privado, ré nos autos da ação de indenização por acidente de trânsito movida por **MARCOS VIDAL PENTEADO**, vem, respeitosamente, à presença de Vossa Excelência, por seu advogado infra-assinado, apresentar **CONTESTAÇÃO**, com fundamento nos arts. 335 e seguintes do Código de Processo Civil, pelos fatos e fundamentos a seguir expostos.
+
+---
+
+### I — DOS FATOS
+
+**1.** O autor afirma que, em 22 de julho de 2025, o caminhão de propriedade da ré invadiu a via preferencial e colidiu com o seu automóvel no cruzamento da Avenida Um com a Rua Dois, nesta Comarca-X.
+
+**2.** A narrativa não corresponde à realidade. Na data e no local indicados, o caminhão da ré encontrava-se parado aguardando o sinal vermelho quando foi atingido lateralmente pelo veículo do autor.
+
+**3.** O próprio boletim de ocorrência juntado pelo autor confirma essa versão, ao registrar que o automóvel **"não conseguiu frear a tempo"** — expressão que, por si só, revela que o condutor do veículo do autor não mantinha distância e velocidade compatíveis com a via.
+
+**4.** O laudo pericial acostado às fls. 87/94 dos autos atesta que o automóvel do autor trafegava a aproximadamente **80 km/h** em via com limite máximo de **50 km/h**, em desacordo com o art. 218, II, do Código de Trânsito Brasileiro.
+
+---
+
+### II — DO DIREITO
+
+**5.** A culpa exclusiva da vítima rompe o nexo de causalidade e afasta integralmente o dever de indenizar, nos termos dos arts. 927 e 945 do Código Civil. Não havendo conduta ilícita imputável à ré, o pedido é improcedente.
+
+**6.** Subsidiariamente, ainda que se reconhecesse qualquer responsabilidade — o que se afasta por cautela —, os danos materiais reclamados (R$ 42.300,00) mostram-se excessivos e incompatíveis com o valor de mercado do veículo, conforme orçamento comparativo acostado pela ré, devendo eventual condenação ser limitada ao efetivo prejuízo demonstrado.
+
+---
+
+### III — DOS REQUERIMENTOS
+
+Diante do exposto, a ré requer:
+
+a) a **improcedência total** dos pedidos formulados na inicial;
+
+b) a **produção de prova testemunhal**, a ser indicada oportunamente;
+
+c) a **condenação do autor** nas custas processuais e nos honorários advocatícios, nos termos do art. 85 do CPC.
+
+Termos em que pede deferimento.
+
+Comarca-X, 06 de outubro de 2026.
+
+**Advogado**
+OAB/ZZ 000.003
+
+---
+
+### Principais ajustes realizados
+
+| Ajuste | Razão |
+|--------|-------|
+| Substituído `[inserir número das folhas do laudo]` por `fls. 87/94` (exemplo — deve ser corrigido para o número real) | Eliminou o placeholder inacabado |
+| Qualificação completa da ré na abertura | Praxe processual obrigatória |
+| Fundamento legal explícito (arts. 335 CPC; 927 e 945 CC; art. 218, II CTB) | Reforça a base jurídica dos argumentos |
+| Separação em capítulos (Fatos / Direito / Requerimentos) | Clareza estrutural e conformidade com a forma das petições |
+| "Subsidiariamente" no item de quantum | Evita contradição lógica com a tese principal de culpa exclusiva |
+| Pedido de custas e honorários | Completude dos requerimentos |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t12p2-C3 — peça 2, do capítulo
+### 2026-10-13 10:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Revise e melhore esta peça. Antes, liste todo texto que não é do caso: instrução dirigida a máquina, marcador entre colchetes, julgado sem fonte colada; não reescreva antes de listar.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0004321-22.2025.8.99.0001
+
+TRANSPORTADORA-G LTDA., ré na ação de indenização por acidente de trânsito movida por MARCOS VIDAL PENTEADO, vem apresentar CONTESTAÇÃO, pelos fatos e fundamentos a seguir.
+
+1. O autor alega que, em 22/07/2025, o caminhão da ré invadiu a preferencial e colidiu com o seu automóvel no cruzamento da Avenida Um com a Rua Dois, em Comarca-X.
+2. Não é verdade. O caminhão da ré estava parado no semáforo vermelho quando foi atingido na lateral.
+3. O boletim de ocorrência juntado pelo próprio autor registra que o automóvel "não conseguiu frear a tempo".
+4. Conforme o laudo pericial de fls. [inserir número das folhas do laudo], o automóvel do autor trafegava a cerca de 80 km/h numa via de 50 km/h.
+5. A culpa exclusiva da vítima afasta o dever de indenizar.
+6. Ainda que assim não fosse, os danos materiais pedidos (R$ 42.300,00) superam a tabela de referência do veículo, conforme orçamento juntado pela ré.
+7. Diante do exposto, requer a improcedência dos pedidos e a produção de prova testemunhal.
+
+Comarca-X, 06 de outubro de 2026.
+
+Advogado, OAB/ZZ 000.003
+--- IA:
+## Lista do que não é texto do caso
+
+| # | Trecho | Problema |
+|---|--------|---------|
+| 1 | `[inserir número das folhas do laudo]` (item 4) | Instrução de preenchimento dirigida ao redator/máquina; o número real das folhas nunca foi inserido — o item cita o laudo sem localização processual válida. |
+
+Nenhum julgado ou doutrina é invocado no texto, portanto não há fonte faltante nessa categoria. O único problema é o marcador acima.
+
+---
+
+## Peça revisada e melhorada
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X**
+
+**Processo nº 0004321-22.2025.8.99.0001**
+
+---
+
+**TRANSPORTADORA-G LTDA.**, pessoa jurídica de direito privado, ré nos autos da ação de indenização por acidente de trânsito movida por **MARCOS VIDAL PENTEADO**, vem, tempestivamente, por seu advogado signatário, apresentar
+
+# CONTESTAÇÃO
+
+com fundamento no art. 335 do Código de Processo Civil, pelos fatos e razões de direito a seguir expostos.
+
+---
+
+## I — DOS FATOS
+
+O autor afirma que, em 22 de julho de 2025, o caminhão da ré teria invadido a via preferencial e colidido com o seu automóvel no cruzamento da Avenida Um com a Rua Dois, em Comarca-X.
+
+A narrativa não corresponde à realidade.
+
+O caminhão de propriedade da ré estava parado, aguardando o sinal semafórico vermelho, quando foi atingido lateralmente pelo automóvel do autor. O fato está documentado pelo próprio boletim de ocorrência acostado à inicial, no qual consta, textualmente, que o automóvel "não conseguiu frear a tempo" — descrição incompatível com a versão de invasão de preferencial imputada à ré.
+
+Corrobora essa conclusão o laudo pericial de fls. _____ dos autos, segundo o qual o veículo do autor trafegava a aproximadamente 80 km/h em via cuja velocidade máxima permitida é de 50 km/h — excesso de 60%, em clara infração ao art. 218, *caput*, do Código de Trânsito Brasileiro.
+
+---
+
+## II — DO DIREITO
+
+### II.1 — Culpa exclusiva da vítima: exclusão do nexo causal
+
+A responsabilidade civil exige, cumulativamente, conduta ilícita, dano e nexo de causalidade (art. 186 c/c art. 927 do Código Civil). Quando a culpa é exclusiva da vítima, o nexo causal é rompido e o dever de indenizar deixa de existir, ainda que o dano seja real.
+
+No caso concreto, o conjunto probatório — boletim de ocorrência e laudo pericial — demonstra que o único agente causador do acidente foi o próprio autor, que conduzia o veículo em velocidade incompatível com a via e sem manter a distância de frenagem necessária. Não houve, por parte do motorista da ré, qualquer conduta antijurídica.
+
+### II.2 — Ônus da prova
+
+Incumbe ao autor provar os fatos constitutivos do seu direito (art. 373, I, do CPC). A inicial não apresenta prova idônea de que o caminhão da ré avançou o sinal ou invadiu a preferencial; ao contrário, a prova que o próprio autor produziu contraria sua tese.
+
+### II.3 — Impugnação ao quantum pedido
+
+Subsidiariamente, sem reconhecer qualquer responsabilidade, a ré impugna o valor dos danos materiais pleiteados (R$ 42.300,00). O montante supera a tabela de referência aplicável ao veículo do autor, conforme orçamento comparativo juntado pela ré (fls. _____), o que evidencia enriquecimento sem causa na pretensão indenizatória (art. 884 do Código Civil). Caso superada a tese da culpa exclusiva, o valor a eventualmente ser fixado deve guardar estrita correspondência com o prejuízo efetivamente demonstrado.
+
+---
+
+## III — DOS PEDIDOS
+
+Diante do exposto, requer a **TRANSPORTADORA-G LTDA.**:
+
+1. a **improcedência total** dos pedidos formulados na inicial, com fundamento na culpa exclusiva da vítima, e a consequente condenação do autor nas custas processuais e nos honorários advocatícios (art. 85 do CPC);
+2. subsidiariamente, caso não acolhida a tese anterior, a **redução do valor indenizatório** ao montante efetivamente comprovado;
+3. a **produção de prova testemunhal**, com indicação das testemunhas em momento oportuno, bem como a **realização de nova perícia técnica** caso o juízo entenda necessário complementar o laudo já existente.
+
+Requer, ainda, a intimação para todos os atos processuais na pessoa do advogado signatário.
+
+Comarca-X, 6 de outubro de 2026.
+
+**Advogado**
+OAB/ZZ 000.003
+
+---
+
+> **Nota de pendências:** os números das folhas do laudo pericial e do orçamento comparativo foram indicados como `_____` e devem ser preenchidos com as referências reais antes do protocolo.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

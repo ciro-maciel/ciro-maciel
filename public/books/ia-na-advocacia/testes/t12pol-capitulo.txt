@@ -1,0 +1,570 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t12, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t12pol-C1 — política, do capítulo
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça uma política de IA para o escritório, com estes itens:
+1. Que conta de IA usar: a do escritório, nunca a pessoal.
+2. O que não colar: nome, CPF, número do processo e qualquer dado do cliente; trocar por códigos antes de colar.
+3. Conferir todo julgado, súmula e citação no site do tribunal antes de protocolar.
+4. Registrar o uso: que IA, em que peça, quem conferiu.
+5. Supervisão: o estagiário não protocola sozinho; o advogado que assina confere.
+6. Aviso ao cliente sobre o uso de IA.
+
+Recomendação 001/2024 do Conselho Federal da OAB, item 3.6 (texto colado): "Advogados sócios de sociedades de advogados ou que exerçam cargos de gestão devem garantir que o uso da IA por advogados associados ou contratados, estagiários e assistentes não advogados, seja supervisionado de acordo com as normas correlatas. Para isso, devem: I. Estabelecer políticas claras sobre cibersegurança e o uso permitido de IA no escritório. II. Fornecer treinamento adequado sobre o uso ético e seguro das ferramentas de IA. III. Monitorar o cumprimento das normas éticas e garantir que qualquer pessoa que utilize IA esteja ciente das obrigações profissionais relacionadas."
+--- IA:
+```markdown
+# POLÍTICA DE USO DE INTELIGÊNCIA ARTIFICIAL
+## Escritório de Advocacia — Documento Interno
+**Versão 1.0 | Outubro de 2026**
+
+---
+
+> Fundamentada na **Recomendação 001/2024 do Conselho Federal da OAB**,
+> especialmente o item 3.6, que determina aos sócios e gestores o dever de
+> estabelecer políticas claras, fornecer treinamento e monitorar o cumprimento
+> das normas éticas no uso de IA por toda a equipe.
+
+---
+
+## 1. CONTA E FERRAMENTA AUTORIZADA
+
+**1.1** Toda interação com ferramentas de inteligência artificial no exercício
+das atividades do escritório deve ser realizada **exclusivamente pela conta
+institucional** contratada pelo escritório.
+
+**1.2** É **vedado** o uso de contas pessoais, versões gratuitas não
+homologadas ou qualquer outra ferramenta de IA não previamente aprovada
+pela direção, ainda que para tarefa considerada de menor importância.
+
+**1.3** A lista de ferramentas homologadas será mantida e atualizada pela
+direção. Dúvidas sobre novas ferramentas devem ser encaminhadas antes
+do uso, não depois.
+
+**Razão:** Contas pessoais têm histórico, configurações de privacidade e
+termos de uso distintos. A conta do escritório garante rastreabilidade,
+controle de acesso e condições contratuais adequadas à atividade jurídica.
+
+---
+
+## 2. PROTEÇÃO DE DADOS DO CLIENTE — O QUE JAMAIS COLAR
+
+**2.1** Antes de qualquer inserção de texto em ferramenta de IA, o usuário
+deve **remover ou substituir por código neutro** todos os dados que
+identifiquem ou possam identificar o cliente ou terceiros, incluindo:
+
+| Dado original | Substituir por |
+|---|---|
+| Nome completo | `[PARTE A]`, `[PARTE B]` |
+| CPF / CNPJ | `[DOC-1]`, `[DOC-2]` |
+| Número do processo | `[PROC-001]` |
+| Endereço | `[ENDEREÇO]` |
+| Data de nascimento | `[DATA-NASC]` |
+| Dados bancários | `[CONTA]` |
+| Qualquer outro dado pessoal sensível | código descritivo genérico |
+
+**2.2** A anonimização deve ser feita **antes** de abrir a janela de prompt,
+nunca na pressa após já ter iniciado a sessão.
+
+**2.3** Não se aplica a documentos ou trechos já públicos e sem dados
+pessoais (ex.: ementa de acórdão pública, redação de lei).
+
+**Razão:** Ferramentas de IA podem utilizar os dados inseridos para
+treinamento de modelos ou armazená-los em logs. A exposição de dados
+do cliente viola o sigilo profissional (art. 34, VII, EAOAB), o dever
+de confidencialidade e a Lei Geral de Proteção de Dados (LGPD).
+
+---
+
+## 3. VERIFICAÇÃO OBRIGATÓRIA DE FONTES JURÍDICAS
+
+**3.1** Todo julgado, súmula, enunciado, precedente vinculante ou citação
+doutrinária **gerado ou sugerido por IA deve ser conferido na fonte
+primária** antes de constar em qualquer peça a ser protocolada.
+
+**3.2** Fontes primárias obrigatórias conforme o tribunal/órgão:
+
+- **STF:** [portal.stf.jus.br](https://portal.stf.jus.br)
+- **STJ:** [stj.jus.br](https://www.stj.jus.br)
+- **TST / TRTs:** [tst.jus.br](https://www.tst.jus.br) / portal do tribunal regional
+- **TJs estaduais:** portal do tribunal competente
+- **CNJ:** [cnj.jus.br](https://www.cnj.jus.br) (para resoluções e enunciados)
+
+**3.3** A conferência deve verificar, no mínimo:
+- (a) A existência real da decisão ou súmula;
+- (b) A numeração e o órgão corretos;
+- (c) O teor — a IA pode resumir com imprecisão ou distorcer o sentido;
+- (d) Se o entendimento ainda está vigente (não foi superado, cancelado
+  ou objeto de modulação).
+
+**3.4** É terminantemente **vedado protocolar peça com citação não
+verificada**, independentemente de urgência de prazo. Sendo o prazo
+crítico e impossível a verificação, omite-se a citação.
+
+**Razão:** Modelos de linguagem "alucinam" — inventam decisões
+plausíveis mas inexistentes. A responsabilidade pela veracidade do
+conteúdo da peça é integralmente do advogado signatário, não da IA
+(Recomendação OAB 001/2024, item 3.6).
+
+---
+
+## 4. REGISTRO DE USO
+
+**4.1** Toda peça produzida com auxílio de IA deve ter seu uso **registrado
+no sistema interno do escritório** (pasta do processo), informando:
+
+| Campo | Conteúdo |
+|---|---|
+| **Ferramenta utilizada** | Nome e versão da IA (ex.: Claude Sonnet 4.6) |
+| **Peça produzida** | Identificação do documento (ex.: contestação, Proc. [PROC-001]) |
+| **Natureza do uso** | Rascunho / revisão gramatical / pesquisa / estruturação |
+| **Responsável pela conferência** | Nome do advogado que revisou e aprovou |
+| **Data** | Data da revisão final |
+
+**4.2** O registro é obrigatório mesmo quando o uso foi parcial (ex.: apenas
+um parágrafo gerado por IA e revisado).
+
+**4.3** Os registros ficam disponíveis para auditoria interna e, se
+necessário, para demonstrar ao cliente ou ao Conselho a rastreabilidade
+do trabalho realizado.
+
+---
+
+## 5. CADEIA DE SUPERVISÃO — QUEM PODE FAZER O QUÊ
+
+**5.1** A utilização de IA está sujeita à seguinte cadeia de responsabilidade,
+em conformidade com o item 3.6 da Recomendação 001/2024 da OAB:
+
+```
+ESTAGIÁRIO / ASSISTENTE
+        ↓  produz rascunho ou pesquisa
+ADVOGADO ASSOCIADO / CONTRATADO
+        ↓  revisa o conteúdo e verifica as fontes
+ADVOGADO SIGNATÁRIO (sócio ou responsável)
+        ↓  confere, assina e protocola
+```
+
+**5.2** Regras específicas:
+
+- **Estagiário e assistente não-advogado:** podem utilizar IA para
+  rascunhos, pesquisa e organização de informações; **nunca protocolam
+  diretamente**; entregam ao advogado supervisor com o registro de uso
+  preenchido.
+
+- **Advogado associado/contratado:** pode protocolar peças de sua
+  autoria desde que tenha realizado pessoalmente a revisão e verificação
+  de fontes, preenchendo o registro de uso.
+
+- **Advogado signatário (sócio/gestor):** ao assinar, **atesta que
+  revisou o conteúdo**, verificou as fontes e está ciente do uso de IA
+  na peça. A assinatura implica responsabilidade integral pelo documento.
+
+**5.3** A pressão de prazo **não afasta** a obrigatoriedade de supervisão.
+Se não houver tempo para supervisão adequada, o protocolo deve ser
+comunicado ao sócio responsável para decisão sobre como proceder.
+
+---
+
+## 6. AVISO AO CLIENTE
+
+**6.1** O escritório adota a postura de **transparência ativa**: o cliente
+é informado sobre o uso de IA no desenvolvimento de suas peças.
+
+**6.2** O aviso é feito por meio de **cláusula no contrato de prestação de
+serviços jurídicos**, com redação equivalente à seguinte:
+
+> *"O escritório poderá utilizar ferramentas de inteligência artificial
+> como apoio na elaboração de pesquisas, estruturação de peças e
+> revisão de textos. O uso é sempre supervisionado por advogado
+> responsável, que confere o conteúdo e assume integral responsabilidade
+> técnica e ética pelo trabalho entregue. Nenhum dado pessoal do cliente
+> é inserido nas ferramentas sem anonimização prévia."*
+
+**6.3** Caso o cliente manifeste, por escrito, objeção ao uso de IA em seu
+caso específico, sua preferência deve ser respeitada e registrada no
+prontuário do processo.
+
+---
+
+## 7. TREINAMENTO E ATUALIZAÇÃO
+
+**7.1** Em atendimento ao item 3.6, II, da Recomendação 001/2024 da OAB,
+o escritório promoverá, **ao menos uma vez por ano**:
+
+- Atualização sobre novas ferramentas e riscos emergentes;
+- Revisão desta política, quando necessário;
+- Orientação sobre mudanças na regulamentação profissional aplicável.
+
+**7.2** Novos membros da equipe (estagiários, advogados, assistentes)
+recebem esta política **no primeiro dia** e confirmam ciência por escrito
+antes de iniciar qualquer atividade.
+
+---
+
+## 8. DESCUMPRIMENTO
+
+**8.1** O descumprimento de qualquer item desta política, especialmente
+o vazamento de dados do cliente ou o protocolo de peça com citação
+falsa, será apurado internamente e poderá resultar em:
+
+- Advertência formal registrada em prontuário;
+- Desligamento, conforme a gravidade;
+- Comunicação ao Conselho Seccional da OAB, nos casos em que a
+  conduta configurar infração ética independente.
+
+---
+
+## APROVAÇÃO E VIGÊNCIA
+
+| | |
+|---|---|
+| **Elaborado por** | Direção do escritório |
+| **Data de vigência** | Outubro de 2026 |
+| **Próxima revisão prevista** | Outubro de 2027 |
+| **Base normativa** | Recomendação OAB 001/2024 · EAOAB · LGPD |
+
+---
+
+*Todos os membros da equipe recebem cópia desta política e confirmam
+ciência por escrito. Dúvidas são encaminhadas à direção antes do uso,
+não depois.*
+```
+
+---
+
+**O que foi feito:**
+
+- **Cada item que você pediu** virou uma seção numerada com regras operacionais concretas, não apenas princípios abstratos.
+- **A tabela de substituição de dados** (seção 2) dá ao estagiário um guia imediato de como anonimizar.
+- **A cadeia de supervisão** (seção 5) fica visual com o fluxograma, deixando claro quem pode fazer o quê.
+- **A cláusula contratual** (seção 6) já está redigida para ser copiada diretamente ao contrato.
+- **O texto da OAB** foi integrado nas justificativas e na seção 7, em vez de apenas citado ao final — isso amarra a política à norma de forma rastreável.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t12pol-C2 — política, do capítulo
+### 2026-10-13 10:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça uma política de IA para o escritório, com estes itens:
+1. Que conta de IA usar: a do escritório, nunca a pessoal.
+2. O que não colar: nome, CPF, número do processo e qualquer dado do cliente; trocar por códigos antes de colar.
+3. Conferir todo julgado, súmula e citação no site do tribunal antes de protocolar.
+4. Registrar o uso: que IA, em que peça, quem conferiu.
+5. Supervisão: o estagiário não protocola sozinho; o advogado que assina confere.
+6. Aviso ao cliente sobre o uso de IA.
+
+Recomendação 001/2024 do Conselho Federal da OAB, item 3.6 (texto colado): "Advogados sócios de sociedades de advogados ou que exerçam cargos de gestão devem garantir que o uso da IA por advogados associados ou contratados, estagiários e assistentes não advogados, seja supervisionado de acordo com as normas correlatas. Para isso, devem: I. Estabelecer políticas claras sobre cibersegurança e o uso permitido de IA no escritório. II. Fornecer treinamento adequado sobre o uso ético e seguro das ferramentas de IA. III. Monitorar o cumprimento das normas éticas e garantir que qualquer pessoa que utilize IA esteja ciente das obrigações profissionais relacionadas."
+--- IA:
+# POLÍTICA DE USO DE INTELIGÊNCIA ARTIFICIAL
+
+**Escritório de Advocacia**
+**Versão 1.0 — Outubro de 2026**
+
+---
+
+## APRESENTAÇÃO
+
+Esta Política disciplina o uso de ferramentas de Inteligência Artificial (IA) no âmbito deste escritório, em atendimento à **Recomendação 001/2024 do Conselho Federal da OAB**, especialmente seu item 3.6, que determina aos advogados em posição de gestão:
+
+> *"I. Estabelecer políticas claras sobre cibersegurança e o uso permitido de IA no escritório. II. Fornecer treinamento adequado sobre o uso ético e seguro das ferramentas de IA. III. Monitorar o cumprimento das normas éticas e garantir que qualquer pessoa que utilize IA esteja ciente das obrigações profissionais relacionadas."*
+
+O uso de IA é permitido e incentivado como ferramenta de apoio — nunca como substituto do julgamento profissional do advogado responsável.
+
+---
+
+## 1. CONTAS E FERRAMENTAS AUTORIZADAS
+
+**1.1** Somente são permitidas as contas de IA **cadastradas e gerenciadas pelo escritório**. É vedado o uso de contas pessoais para qualquer atividade relacionada a clientes ou processos do escritório.
+
+**1.2** O uso de conta pessoal — ainda que na mesma plataforma autorizada — é tratado como violação desta Política, pois impede rastreabilidade, controle de acesso e eventual exclusão de dados.
+
+**1.3** Dúvidas sobre quais ferramentas estão autorizadas devem ser dirigidas à coordenação antes do uso.
+
+> **Razão:** Contas institucionais permitem controle de retenção de dados, revogação de acesso e auditoria — proteções inexistentes em contas pessoais.
+
+---
+
+## 2. PROTEÇÃO DE DADOS DO CLIENTE
+
+**2.1 É expressamente vedado inserir em qualquer ferramenta de IA:**
+
+| Dado proibido | Exemplos |
+|---|---|
+| Nome do cliente ou parte contrária | "João da Silva", "Empresa XYZ Ltda." |
+| CPF, CNPJ, RG ou outro documento | "123.456.789-00" |
+| Número do processo | "0001234-56.2025.8.26.0100" |
+| Endereço, telefone ou e-mail | qualquer dado de contato |
+| Valores específicos vinculados à parte | saldo devedor nominal, salário |
+| Qualquer combinação que identifique o caso | |
+
+**2.2 Antes de colar qualquer texto em uma IA, substitua os dados identificadores por códigos neutros:**
+
+```
+Nome da parte autora  →  [PARTE A]
+Nome da parte ré      →  [PARTE B]
+CPF                   →  [DOC-01]
+Número do processo    →  [PROC-01]
+Valor específico      →  [VALOR-01]
+```
+
+**2.3** O texto devolvido pela IA deve ser re-humanizado internamente, com os dados reais reinseridos manualmente pelo profissional responsável, **nunca** pela própria ferramenta.
+
+> **Razão:** Modelos de IA podem registrar entradas em logs de treinamento ou histórico acessível a terceiros. A anonimização prévia é a principal barreira contra vazamento de dados e violação do sigilo profissional (art. 25 do EOAB).
+
+---
+
+## 3. VERIFICAÇÃO OBRIGATÓRIA DE FONTES JURÍDICAS
+
+**3.1** Todo julgado, súmula, enunciado, acórdão ou citação doutrinária gerado ou sugerido por IA **deve ser verificado na fonte original** antes de constar em qualquer peça processual ou extrajudicial.
+
+**3.2 Fontes obrigatórias de consulta:**
+
+- Jurisprudência do STF → [portal.stf.jus.br](https://portal.stf.jus.br)
+- Jurisprudência do STJ → [stj.jus.br](https://www.stj.jus.br)
+- Jurisprudência dos Tribunais Estaduais/Federais → portal do tribunal competente
+- Súmulas e enunciados → publicação oficial do órgão emissor
+
+**3.3** A verificação deve confirmar: (a) existência do julgado com o número indicado; (b) exatidão da ementa ou trecho citado; (c) que não houve superação, distinção ou modulação posterior relevante.
+
+**3.4** Peças protocoladas com referências não verificadas são responsabilidade do advogado signatário, independentemente de quem as redigiu.
+
+> **Razão:** Ferramentas de IA são conhecidas por "alucinar" — fabricar citações plausíveis, mas inexistentes. Casos de citação de acórdãos fictícios já geraram sanções disciplinares no Brasil e no exterior.
+
+---
+
+## 4. REGISTRO DO USO DE IA
+
+**4.1** Toda peça em cuja elaboração tenha sido utilizada IA deve ter seu uso registrado na ficha do processo (sistema interno), contendo obrigatoriamente:
+
+| Campo | O que registrar |
+|---|---|
+| **Ferramenta** | Nome e versão da IA utilizada |
+| **Peça** | Tipo e identificação do documento produzido |
+| **Uso** | Descrição sucinta (ex.: "minutar inicial", "sugerir argumentos", "revisar redação") |
+| **Responsável pela verificação** | Nome do advogado que conferiu e aprovou |
+| **Data** | Data da utilização |
+
+**4.2** Esse registro é obrigatório mesmo quando a IA for usada apenas para revisão de estilo ou formatação.
+
+**4.3** Os registros ficam disponíveis para consulta interna e, se exigido, para prestação de contas ao cliente ou a órgãos disciplinares.
+
+> **Razão:** O registro garante rastreabilidade, facilita auditorias internas e demonstra diligência profissional em eventual questionamento.
+
+---
+
+## 5. SUPERVISÃO E FLUXO DE APROVAÇÃO
+
+**5.1** A IA é uma ferramenta de apoio. A responsabilidade pela peça é sempre do advogado que a assina.
+
+**5.2 Regras por nível:**
+
+| Quem utilizou a IA | Pode protocolar sem revisão? | Exigência |
+|---|---|---|
+| Estagiário | **Não** | Revisão e aprovação obrigatória do advogado responsável pelo caso |
+| Advogado associado/contratado | **Não** | Revisão pelo advogado sênior ou sócio responsável, salvo procedimentos de baixa complexidade definidos internamente |
+| Advogado sênior / Sócio | Sim, após autorrevisão | Registro obrigatório (item 4) |
+
+**5.3** O estagiário não protocola qualquer peça de forma autônoma, com ou sem uso de IA. Esta regra é absoluta.
+
+**5.4** O advogado que assina a peça declara, ao assinar, ter lido integralmente o documento, verificado as fontes e assumido a responsabilidade pelo conteúdo.
+
+> **Razão:** O art. 3.6 da Recomendação OAB 001/2024 impõe aos advogados gestores o dever de garantir supervisão adequada. A ausência de revisão não afasta a responsabilidade disciplinar.
+
+---
+
+## 6. TRANSPARÊNCIA COM O CLIENTE
+
+**6.1** O cliente será informado sobre a possibilidade de uso de IA no escritório no momento do contrato de honorários, por meio de cláusula específica com linguagem acessível, nos seguintes termos:
+
+---
+
+> *"Este escritório poderá utilizar ferramentas de Inteligência Artificial como apoio à pesquisa jurídica e à elaboração de peças processuais. O uso dessas ferramentas ocorre sempre sob supervisão e responsabilidade exclusiva dos advogados responsáveis pelo caso. Nenhum dado pessoal identificável do cliente será inserido nessas ferramentas. Toda jurisprudência e citação são verificadas antes do protocolo. O cliente pode solicitar, a qualquer momento, informações sobre o uso de IA em seu caso."*
+
+---
+
+**6.2** Em casos nos quais o cliente manifeste restrição expressa ao uso de IA, o escritório avaliará individualmente a viabilidade do atendimento e registrará a restrição no contrato.
+
+---
+
+## 7. TREINAMENTO E ATUALIZAÇÃO
+
+**7.1** Todo integrante do escritório — advogados, estagiários e assistentes administrativos — deve passar por orientação sobre esta Política antes de utilizar qualquer ferramenta de IA.
+
+**7.2** Esta Política será revisada periodicamente e sempre que houver atualização relevante de norma da OAB, resolução do CNJ ou alteração significativa nas ferramentas utilizadas.
+
+**7.3** Dúvidas sobre a aplicação desta Política devem ser levadas à coordenação antes de qualquer uso em situação incerta — não depois.
+
+---
+
+## 8. DESCUMPRIMENTO
+
+O descumprimento desta Política, especialmente das regras dos itens 2 (proteção de dados) e 5 (supervisão), sujeita o infrator a:
+
+- advertência formal registrada no prontuário interno;
+- suspensão do acesso às ferramentas de IA do escritório;
+- e, conforme a gravidade, às medidas cabíveis segundo o Estatuto da OAB e o contrato de trabalho ou estágio vigente.
+
+---
+
+## ASSINATURA E VIGÊNCIA
+
+Esta Política entra em vigor na data de sua publicação interna e se aplica a todos os integrantes do escritório, sem exceção.
+
+---
+
+*Elaborada em conformidade com a Recomendação 001/2024 do Conselho Federal da OAB.*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t12pol-C3 — política, do capítulo
+### 2026-10-13 10:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça uma política de IA para o escritório, com estes itens:
+1. Que conta de IA usar: a do escritório, nunca a pessoal.
+2. O que não colar: nome, CPF, número do processo e qualquer dado do cliente; trocar por códigos antes de colar.
+3. Conferir todo julgado, súmula e citação no site do tribunal antes de protocolar.
+4. Registrar o uso: que IA, em que peça, quem conferiu.
+5. Supervisão: o estagiário não protocola sozinho; o advogado que assina confere.
+6. Aviso ao cliente sobre o uso de IA.
+
+Recomendação 001/2024 do Conselho Federal da OAB, item 3.6 (texto colado): "Advogados sócios de sociedades de advogados ou que exerçam cargos de gestão devem garantir que o uso da IA por advogados associados ou contratados, estagiários e assistentes não advogados, seja supervisionado de acordo com as normas correlatas. Para isso, devem: I. Estabelecer políticas claras sobre cibersegurança e o uso permitido de IA no escritório. II. Fornecer treinamento adequado sobre o uso ético e seguro das ferramentas de IA. III. Monitorar o cumprimento das normas éticas e garantir que qualquer pessoa que utilize IA esteja ciente das obrigações profissionais relacionadas."
+--- IA:
+# POLÍTICA DE USO DE INTELIGÊNCIA ARTIFICIAL
+
+**Escritório de Advocacia**
+Versão 1.0 — Outubro de 2026
+
+---
+
+## FUNDAMENTO NORMATIVO
+
+Esta Política é editada em cumprimento à **Recomendação n.º 001/2024 do Conselho Federal da OAB**, item 3.6, que determina aos advogados sócios e gestores:
+
+> *"Estabelecer políticas claras sobre cibersegurança e o uso permitido de IA no escritório; fornecer treinamento adequado sobre o uso ético e seguro das ferramentas de IA; monitorar o cumprimento das normas éticas e garantir que qualquer pessoa que utilize IA esteja ciente das obrigações profissionais relacionadas."*
+
+---
+
+## 1. CONTA E FERRAMENTA AUTORIZADA
+
+**1.1** Somente a conta corporativa do escritório — contratada e configurada pela gestão — pode ser utilizada para tarefas profissionais com IA.
+
+**1.2** É **vedado** o uso de contas pessoais de qualquer ferramenta de IA (ChatGPT, Claude, Gemini ou similares) para elaborar, revisar ou aprimorar peças, pareceres, contratos ou qualquer documento do escritório.
+
+**1.3** A conta corporativa possui configuração de privacidade que impede o treinamento dos modelos com os dados inseridos. O uso de conta pessoal não oferece essa garantia e, por isso, representa risco disciplinar e de sigilo profissional.
+
+> **Regra prática:** Se o acesso exigiu seu e-mail ou senha pessoal, não é a ferramenta certa.
+
+---
+
+## 2. DADOS QUE JAMAIS DEVEM SER COLADOS NA IA
+
+**2.1** Antes de inserir qualquer texto em ferramenta de IA, substitua os dados abaixo por códigos neutros:
+
+| Dado real | Substituir por |
+|---|---|
+| Nome do cliente | `[CLIENTE-A]`, `[CLIENTE-B]` etc. |
+| CPF / CNPJ | `[CPF-1]`, `[CNPJ-1]` etc. |
+| Número do processo | `[PROC-001]`, `[PROC-002]` etc. |
+| Endereço | `[ENDERECO-1]` |
+| Dados bancários | `[BANCO-1]` |
+| Nome de testemunhas | `[TESTEMUNHA-1]` |
+
+**2.2** Após obter a resposta da IA, reinsira os dados reais **manualmente**, revisando cada substituição.
+
+**2.3** A violação deste item pode configurar **infração ao sigilo profissional** (art. 34, VII, do EOAB) e expor o escritório à responsabilidade civil perante o cliente.
+
+---
+
+## 3. VERIFICAÇÃO OBRIGATÓRIA DE JURISPRUDÊNCIA E DOUTRINA
+
+**3.1** Toda citação gerada por IA — jurisprudência, súmula, enunciado, doutrina ou norma — **deve ser verificada na fonte original** antes do protocolo.
+
+**3.2** Fontes de verificação aceitas:
+
+- Portais oficiais dos tribunais (STF, STJ, TJ, TRT, TST etc.)
+- DJe / DOU
+- LexML ou plataformas oficiais de legislação
+
+**3.3** A verificação deve confirmar: (a) que o julgado existe; (b) que o texto citado é fiel ao original; (c) que o entendimento não foi superado por decisão posterior ou cancelamento de súmula.
+
+**3.4** Citações não verificadas ou com qualquer divergência em relação à fonte oficial **não podem constar da peça final**.
+
+> **Atenção:** Ferramentas de IA podem "alucinar" ementas e números de acórdão. A responsabilidade pelo conteúdo protocolado é sempre do advogado signatário.
+
+---
+
+## 4. REGISTRO DO USO DE IA
+
+**4.1** Todo uso de IA na produção de documento do escritório deve ser registrado na **ficha da peça**, com as seguintes informações:
+
+| Campo | Exemplo |
+|---|---|
+| Ferramenta utilizada | Claude (conta corporativa) |
+| Peça / documento | Contestação — Proc. [PROC-001] |
+| Data de uso | 13/10/2026 |
+| Responsável pela conferência | Dr(a). [Nome do advogado] |
+
+**4.2** O registro pode ser feito no sistema de gestão do escritório, em planilha interna ou em campo específico do template de cada peça.
+
+**4.3** O registro serve como evidência de conformidade com a Recomendação OAB 001/2024 e deve ser mantido pelo prazo mínimo de **5 anos**.
+
+---
+
+## 5. SUPERVISÃO E PROTOCOLO
+
+**5.1 Estagiários e assistentes** não advogados podem usar a IA para pesquisa, estruturação de argumentos e elaboração de minutas, mas **não protocolam nenhum documento sozinhos**.
+
+**5.2** Toda peça — independentemente de quem a redigiu ou revisou — deve passar pela conferência do **advogado que a assina**, que é pessoalmente responsável pelo conteúdo.
+
+**5.3** A conferência do advogado responsável abrange:
+- Adequação jurídica dos argumentos;
+- Exatidão de todas as citações;
+- Ausência de dados sigilosos indevidos;
+- Conformidade com os fatos do caso.
+
+**5.4** Assinar uma peça gerada por IA sem revisá-la é infração ética equivalente a assinar peça de terceiro sem conferência (art. 34, XIII, do EOAB).
+
+---
+
+## 6. AVISO AO CLIENTE SOBRE O USO DE IA
+
+**6.1** O escritório informa seus clientes, no momento do contrato de honorários ou em comunicado apartado, que ferramentas de IA podem ser utilizadas como **recurso de apoio** na elaboração de peças e pesquisas jurídicas.
+
+**6.2** O aviso deve deixar claro que:
+- A responsabilidade técnica e ética permanece integralmente com o advogado responsável;
+- Dados pessoais do cliente nunca são inseridos nas ferramentas de IA sem anonimização prévia;
+- O cliente pode, a qualquer tempo, solicitar informações sobre como a IA foi utilizada em sua causa.
+
+**6.3** Sugestão de cláusula para contrato de honorários:
+
+> *"O escritório poderá empregar ferramentas de inteligência artificial como recurso auxiliar de pesquisa e redação jurídica. O uso é feito com anonimização prévia dos dados do cliente, sob supervisão do advogado responsável, em conformidade com a Recomendação n.º 001/2024 do Conselho Federal da OAB. A responsabilidade técnica e ética sobre todos os atos praticados é do advogado signatário."*
+
+---
+
+## 7. TREINAMENTO E ATUALIZAÇÃO
+
+**7.1** Todo integrante do escritório — advogados, estagiários e assistentes — deve ser apresentado a esta Política antes de iniciar qualquer atividade, com confirmação por escrito.
+
+**7.2** A Política será revisada **anualmente** ou sempre que houver nova orientação do Conselho Federal ou Seccionais da OAB.
+
+**7.3** Dúvidas sobre a aplicação desta Política devem ser levadas ao sócio responsável antes de usar a ferramenta.
+
+---
+
+## 8. DESCUMPRIMENTO
+
+O descumprimento das diretrizes desta Política sujeita o infrator às medidas administrativas internas cabíveis e, conforme a gravidade, à comunicação aos órgãos competentes da OAB, sem prejuízo da responsabilidade civil perante o cliente.
+
+---
+
+*Aprovada pela gestão do escritório em outubro de 2026.*
+*Elaborada em conformidade com a Recomendação n.º 001/2024 — Conselho Federal da OAB.*
+
+---
+
+> **Dica de uso:** Salve este documento em PDF com controle de versão, coloque no onboarding de todo novo integrante e guarde o recibo de ciência assinado. Isso demonstra, de forma documentada, o cumprimento dos itens I, II e III do art. 3.6 da Recomendação OAB.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

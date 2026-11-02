@@ -1,0 +1,586 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t08, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t08b-N1 — perguntas, prompt natural
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Responda, uma por uma:
+1. O acórdão do TJ foi publicado em 20/08/2026. Meu recurso especial precisa do tópico de relevância?
+2. E se o acórdão foi publicado em 15/09/2026?
+3. O que acontece se eu não puser o tópico?
+4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+5. A sentença criminal condenatória do meu cliente foi publicada. Qual é o prazo da apelação?
+6. E o prazo das razões?
+7. Contra o acórdão da câmara criminal, em quantos dias opomos embargos de declaração?
+8. No recurso especial em ação penal, o tópico de relevância é exigido?
+--- IA:
+# Respostas sobre Recurso Especial e Processo Penal
+
+---
+
+## 1. Acórdão publicado em 20/08/2026 — exige tópico de relevância?
+
+**Sim.** A EC 125/2022 inseriu o §1º no art. 105 da CF, criando a **demonstração de relevância da questão de direito federal infraconstitucional** para o REsp. O STJ regulamentou a exigência via Emenda Regimental e resolução própria, com implementação progressiva que se tornou plena antes de 2026. Um acórdão publicado em agosto de 2026 está integralmente sob esse regime.
+
+---
+
+## 2. Acórdão publicado em 15/09/2026 — mesma situação?
+
+**Sim, igualmente exige.** Ambas as datas estão dentro do mesmo regime. Não há distinção prática entre as duas hipóteses para fins de obrigatoriedade do tópico. *(Atenção: meu conhecimento vai até agosto/2025; verifique se houve alguma alteração regimental ou legal posterior.)*
+
+---
+
+## 3. O que acontece se não incluir o tópico?
+
+O REsp **não será admitido** — o STJ simplesmente não conhece do recurso, sem análise do mérito. A ausência do tópico de relevância é vício formal insuperável, equiparável à falta de pressuposto de admissibilidade. Não há possibilidade de complementação posterior.
+
+---
+
+## 4. Quantos ministros precisam negar a relevância para o STJ inadmitir?
+
+**Mínimo de 4 ministros** (em Turma de 5 integrantes).
+
+O art. 105, §1º, *in fine*, CF dispõe que o STJ **"somente poderá recusá-lo pela manifestação de dois terços dos membros do órgão competente para o julgamento"**. Com Turma de 5 ministros:
+
+| Votos contra | Percentual | Atinge 2/3? |
+|---|---|---|
+| 3 | 60% | ❌ → recurso admitido |
+| **4** | **80%** | **✅ → recurso inadmitido** |
+
+Portanto, com 3 votos contrários à relevância, o recurso **é admitido**; apenas com 4 ou mais ele é barrado.
+
+---
+
+## 5. Prazo da apelação criminal
+
+**5 dias** a partir da publicação/intimação da sentença condenatória (art. 593, I, do CPP). É o prazo para a *interposição* do recurso (apenas o ato de apelar, sem razões).
+
+---
+
+## 6. Prazo das razões da apelação
+
+**8 dias** — é o prazo para apresentar as razões recursais (art. 600, *caput*, CPP), contado após a intimação para vista dos autos já no tribunal.
+
+---
+
+## 7. Embargos de declaração contra acórdão de câmara criminal — quantos dias?
+
+**2 dias** — é o prazo tradicional do CPP (art. 382 aplicado analogicamente aos acórdãos). Atenção: há corrente que aplica os **5 dias úteis** do CPC/2015 (art. 1.023) por analogia subsidiária. Verifique o entendimento específico do seu tribunal; no STJ em matéria penal, prevalece a orientação dos **2 dias**.
+
+---
+
+## 8. REsp em ação penal exige tópico de relevância?
+
+**Não.** A exigência do tópico de relevância **não se aplica à matéria criminal**. O STJ, ao regulamentar a EC 125/2022 em seu Regimento Interno, excluiu expressamente os recursos pertencentes à **3ª Seção** (matéria penal — 5ª e 6ª Turmas) do requisito de demonstração de relevância. Logo, em REsp oriundo de ação penal, o tópico é desnecessário.
+
+---
+
+> **Resumo rápido:**
+> - Relevância: exigida nos acórdãos de 2026 (cível) | **não** exigida em penal
+> - Vedação por 2/3: precisa de **4 votos** (em Turma de 5) para inadmitir
+> - Apelação criminal: **5 dias** (interposição) + **8 dias** (razões)
+> - Embargos de declaração criminal: **2 dias**
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08b-N2 — perguntas, prompt natural
+### 2026-10-13 10:07 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Responda, uma por uma:
+1. O acórdão do TJ foi publicado em 20/08/2026. Meu recurso especial precisa do tópico de relevância?
+2. E se o acórdão foi publicado em 15/09/2026?
+3. O que acontece se eu não puser o tópico?
+4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+5. A sentença criminal condenatória do meu cliente foi publicada. Qual é o prazo da apelação?
+6. E o prazo das razões?
+7. Contra o acórdão da câmara criminal, em quantos dias opomos embargos de declaração?
+8. No recurso especial em ação penal, o tópico de relevância é exigido?
+--- IA:
+# Recurso Especial e Processo Penal — Respostas Objetivas
+
+---
+
+## 1. Acórdão publicado em 20/08/2026 — exige tópico de relevância?
+
+**Sim.** O STJ regulamentou a exigência por meio da **Emenda Regimental nº 36/2023**, com vigência para recursos especiais interpostos contra acórdãos publicados a partir de **1º/04/2024**. Como 20/08/2026 é posterior a essa data, o tópico de **demonstração de relevância da questão federal infraconstitucional** (art. 105, § 2º, CF/88, inserido pela EC 125/2022) é obrigatório.
+
+---
+
+## 2. Acórdão publicado em 15/09/2026 — exige tópico de relevância?
+
+**Sim, igualmente.** Mesma regra. Também posterior a 1º/04/2024. Nenhuma diferença em relação à pergunta anterior.
+
+---
+
+## 3. O que acontece se não incluir o tópico?
+
+O recurso especial **não será conhecido** (inadmissão por vício formal). O STJ não chegará a examinar o mérito. Trata-se de requisito intrínseco de admissibilidade, e a ausência é insanável após o prazo recursal.
+
+---
+
+## 4. Quantos ministros precisam negar a relevância para o STJ não conhecer?
+
+A CF/88 (art. 105, § 2º) exige a manifestação de **dois terços (2/3) dos membros do órgão competente** para que o recurso seja recusado. Na prática:
+
+| Órgão | Composição | Votos necessários para recusa |
+|---|---|---|
+| Turma | 5 ministros | **4 ministros** |
+| Seção | 10 ministros | **7 ministros** |
+
+> **Atenção:** a lógica é *inversa* à repercussão geral — o recurrente se beneficia da dúvida: basta **2 votos a favor** da relevância em uma Turma para o recurso ser admitido.
+
+---
+
+## 5. Prazo da apelação criminal
+
+**5 dias**, contados da publicação da sentença (art. 593, *caput*, CPP).
+
+---
+
+## 6. Prazo das razões de apelação
+
+**8 dias**, contados da assinatura do termo de apelação (art. 600, *caput*, CPP). Réu, defensor e Ministério Público têm, cada um, esse prazo sequencialmente.
+
+> *Exceção:* contravenções penais → 3 dias (art. 600, *in fine*, CPP).
+
+---
+
+## 7. Embargos de declaração contra acórdão de câmara criminal
+
+**2 dias** (art. 619 do CPP). Atenção: diferente do CPC, que prevê 5 dias úteis — no processo penal o prazo é de **2 dias corridos**.
+
+---
+
+## 8. No recurso especial em ação penal, exige-se o tópico de relevância?
+
+**Não.** A Emenda Regimental nº 36/2023 do STJ **dispensa** a demonstração de relevância nos recursos especiais interpostos em **ações penais**. Trata-se de uma das hipóteses de presunção de relevância, em razão da natureza dos direitos envolvidos (liberdade, status libertatis). O mesmo vale para habeas corpus, recursos em habeas corpus e revisão criminal.
+
+---
+
+> **Resumo rápido:**
+> - Relevância (civil): exigida para acórdãos pós 01/04/2024 ✔
+> - Relevância (penal): **dispensada** ✔
+> - Apelação criminal: interposição em **5 dias**, razões em **8 dias**
+> - Embargos de declaração criminais: **2 dias**
+> - Quórum para recusar relevância: **2/3 do órgão** (4/5 em Turma)
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08b-N3 — perguntas, prompt natural
+### 2026-10-13 10:09 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Responda, uma por uma:
+1. O acórdão do TJ foi publicado em 20/08/2026. Meu recurso especial precisa do tópico de relevância?
+2. E se o acórdão foi publicado em 15/09/2026?
+3. O que acontece se eu não puser o tópico?
+4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+5. A sentença criminal condenatória do meu cliente foi publicada. Qual é o prazo da apelação?
+6. E o prazo das razões?
+7. Contra o acórdão da câmara criminal, em quantos dias opomos embargos de declaração?
+8. No recurso especial em ação penal, o tópico de relevância é exigido?
+--- IA:
+# Respostas sobre Recurso Especial e Processo Penal
+
+---
+
+## 1. Acórdão publicado em 20/08/2026 — precisa do tópico de relevância?
+
+**Sim.** A EC 125/2022 inseriu o §2º no art. 105 da CF, exigindo a demonstração da *relevância da questão de direito federal infraconstitucional*. O STJ regulamentou o requisito pela **Emenda Regimental n. 36/2023**, com aplicação obrigatória para acórdãos publicados **a partir de 1º de abril de 2024**. O acórdão de 20/08/2026 está muito após esse marco → **tópico obrigatório**.
+
+---
+
+## 2. E se o acórdão foi publicado em 15/09/2026?
+
+**Mesma resposta: sim.** Ambas as datas (agosto e setembro de 2026) estão bem depois da vigência da exigência (abril/2024). A resposta é idêntica.
+
+---
+
+## 3. O que acontece se não puser o tópico?
+
+O STJ **não conhecerá do recurso** por inadmissibilidade formal. A ausência do tópico é vício que **não pode ser suprido** após o prazo recursal — não há oportunidade de emenda posterior. O resultado prático é o mesmo que não ter interposto o recurso.
+
+---
+
+## 4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+
+O art. 105, §2º da CF exige a manifestação de **2/3 dos membros do órgão competente**. Como o julgamento ocorre nas **Turmas** (cada uma composta por 5 ministros):
+
+> 2/3 × 5 = 3,33 → arredonda-se para cima → **mínimo de 4 ministros**
+
+| Votos contra a relevância | Resultado |
+|---|---|
+| 1, 2 ou 3 | Relevância confirmada → recurso conhecido |
+| **4 ou 5** | **Relevância negada → recurso não conhecido** |
+
+---
+
+## 5. Prazo da apelação criminal (sentença condenatória)?
+
+**5 dias corridos** — art. 593 do CPP.
+
+⚠️ O prazo corre da **intimação pessoal do réu** (não da mera publicação no Diário). Enquanto seu cliente não for pessoalmente intimado, o prazo não se inicia.
+
+---
+
+## 6. Prazo das razões da apelação?
+
+**8 dias** — art. 600 do CPP, contados da assinatura do **termo de apelação**.
+
+> *Em processos de contravenção: 3 dias (exceção do mesmo artigo).*
+
+Na prática: 5 dias para interpor (assinar o termo) + 8 dias para apresentar as razões. Muitos advogados já juntam razões no ato da interposição para evitar o risco de perda de prazo.
+
+---
+
+## 7. Embargos de declaração contra acórdão da câmara criminal?
+
+**2 dias** — art. 619 do CPP, contados da **publicação do acórdão**.
+
+> ⚠️ Atenção ao distinguir dos embargos civis: no processo penal são **2 dias corridos** (CPP), não os 5 dias úteis do CPC. Erro frequente em escritórios que atuam nas duas áreas.
+
+---
+
+## 8. No recurso especial em ação penal, o tópico de relevância é exigido?
+
+**Não.** A Emenda Regimental STJ n. 36/2023 **excluiu expressamente** os recursos especiais em **processos de natureza criminal** do requisito de demonstração de relevância. O raciocínio é análogo ao do STF com a repercussão geral em HC: em matéria penal, a liberdade do réu demanda acesso mais amplo às instâncias superiores, sem o filtro da relevância.
+
+---
+
+### Resumo rápido
+
+| Pergunta | Resposta |
+|---|---|
+| Acórdão ago/2026 precisa de relevância? | ✅ Sim |
+| Acórdão set/2026 precisa de relevância? | ✅ Sim |
+| Sem o tópico, o que ocorre? | Não conhecido (inadmissível) |
+| Quantos ministros para negar relevância? | **4** (2/3 da Turma de 5) |
+| Prazo apelação criminal | **5 dias** (intimação pessoal) |
+| Prazo razões | **8 dias** (do termo de apelação) |
+| Embargos contra acórdão criminal | **2 dias** (art. 619 CPP) |
+| REsp em ação penal precisa de relevância? | ❌ Não |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08b-C1 — perguntas, prompt do capítulo
+### 2026-10-13 10:12 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Responda, uma por uma:
+1. O acórdão do TJ foi publicado em 20/08/2026. Meu recurso especial precisa do tópico de relevância?
+2. E se o acórdão foi publicado em 15/09/2026?
+3. O que acontece se eu não puser o tópico?
+4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+5. A sentença criminal condenatória do meu cliente foi publicada. Qual é o prazo da apelação?
+6. E o prazo das razões?
+7. Contra o acórdão da câmara criminal, em quantos dias opomos embargos de declaração?
+8. No recurso especial em ação penal, o tópico de relevância é exigido?
+
+Responda com base nos textos colados abaixo, copiados do site do Planalto.
+
+Lei 15.484, de 4 de agosto de 2026 (publicada no DOU de 04/08/2026, edição extra):
+"Art. 4º A indicação no recurso especial, em tópico específico e fundamentado, dos argumentos da relevância da questão de direito federal infraconstitucional será exigida em recursos interpostos contra acórdãos publicados após a data de entrada em vigor desta Lei."
+"Art. 7º Esta Lei entra em vigor após decorridos 30 (trinta) dias de sua publicação oficial."
+
+CPC, art. 1.035-A (incluído pela Lei 15.484/2026):
+"Art. 1.035-A. O Superior Tribunal de Justiça, em decisão irrecorrível, não conhecerá do recurso especial quando a questão de direito federal infraconstitucional nele versada não for relevante, nos termos deste artigo.
+§ 1º A deliberação a que se refere o caput deste artigo considerará a existência ou não de questões relevantes do ponto de vista econômico, político, social ou jurídico que ultrapassem os interesses subjetivos do processo.
+§ 2º O recorrente deverá demonstrar a existência da relevância da questão de direito federal infraconstitucional para apreciação exclusiva pelo Superior Tribunal de Justiça, em tópico específico e fundamentado.
+§ 3º Desatendida a forma prevista no § 2º, o recurso será inadmitido.
+§ 4º Presume-se a relevância da questão de direito federal infraconstitucional nas hipóteses do art. 105, § 3º, da Constituição Federal.
+§ 5º O relator poderá admitir, na análise da relevância da questão de direito federal infraconstitucional, a manifestação de terceiros subscrita por procurador habilitado.
+§ 6º Somente não se conhecerá do recurso especial, nos termos do caput, pela manifestação de inexistência de relevância por parte de 2/3 (dois terços) dos membros do órgão competente para o julgamento."
+
+Constituição, art. 105:
+"§ 2º No recurso especial, o recorrente deve demonstrar a relevância das questões de direito federal infraconstitucional discutidas no caso, nos termos da lei, a fim de que a admissão do recurso seja examinada pelo Tribunal, o qual somente pode dele não conhecer com base nesse motivo pela manifestação de 2/3 (dois terços) dos membros do órgão competente para o julgamento.
+§ 3º Haverá a relevância de que trata o § 2º deste artigo nos seguintes casos: I - ações penais; II - ações de improbidade administrativa; III - ações cujo valor da causa ultrapasse 500 (quinhentos) salários mínimos; IV - ações que possam gerar inelegibilidade; V - hipóteses em que o acórdão recorrido contrariar jurisprudência dominante do Superior Tribunal de Justiça; VI - outras hipóteses previstas em lei."
+
+Código de Processo Penal:
+"Art. 593. Caberá apelação no prazo de 5 (cinco) dias: I - das sentenças definitivas de condenação ou absolvição proferidas por juiz singular;"
+"Art. 600. Assinado o termo de apelação, o apelante e, depois dele, o apelado terão o prazo de oito dias cada um para oferecer razões, salvo nos processos de contravenção, em que o prazo será de três dias."
+"Art. 619. Aos acórdãos proferidos pelos Tribunais de Apelação, câmaras ou turmas, poderão ser opostos embargos de declaração, no prazo de dois dias contados da sua publicação, quando houver na sentença ambiguidade, obscuridade, contradição ou omissão."
+"Art. 798. Todos os prazos correrão em cartório e serão contínuos e peremptórios, não se interrompendo por férias, domingo ou dia feriado. § 1º Não se computará no prazo o dia do começo, incluindo-se, porém, o do vencimento. [...] § 3º O prazo que terminar em domingo ou dia feriado considerar-se-á prorrogado até o dia útil imediato."
+--- IA:
+## Respostas
+
+---
+
+### 1. Acórdão publicado em 20/08/2026 — exige tópico de relevância?
+
+**Não.**
+
+A Lei 15.484/2026 foi publicada em **04/08/2026** e, por força do seu art. 7º, entra em vigor **30 dias depois**, ou seja, em **03/09/2026**. O art. 4º restringe a exigência a recursos interpostos contra acórdãos publicados **após** essa data. Como 20/08/2026 é anterior a 03/09/2026, o tópico **não é obrigatório**.
+
+---
+
+### 2. Acórdão publicado em 15/09/2026 — exige tópico?
+
+**Sim.**
+
+15/09/2026 é posterior à data de entrada em vigor (03/09/2026). O art. 4º da Lei 15.484/2026 incide, e o tópico de relevância **é exigido**.
+
+---
+
+### 3. O que acontece se eu não incluir o tópico?
+
+O recurso será **inadmitido**. É o que dispõe o CPC, art. 1.035-A, § 3º:
+
+> *"Desatendida a forma prevista no § 2º, o recurso será inadmitido."*
+
+---
+
+### 4. Quantos ministros precisam negar a relevância para o STJ não conhecer?
+
+**2/3 (dois terços)** dos membros do órgão competente para o julgamento, conforme o CPC art. 1.035-A, § 6º, confirmado pelo art. 105, § 2º, da CF. Abaixo desse quórum, o STJ não pode deixar de conhecer do recurso por ausência de relevância.
+
+---
+
+### 5. Prazo da apelação de sentença criminal condenatória?
+
+**5 (cinco) dias**, nos termos do CPP, art. 593, I:
+
+> *"Caberá apelação no prazo de 5 (cinco) dias: I — das sentenças definitivas de condenação ou absolvição proferidas por juiz singular."*
+
+Atenção: o prazo é **contínuo e peremptório**, não se interrompe por férias, domingo ou feriado — mas termina no dia útil imediato caso caia em dia não útil (CPP, art. 798, §§ 1º e 3º).
+
+---
+
+### 6. Prazo das razões de apelação?
+
+**8 (oito) dias** para cada parte, conforme o CPP, art. 600:
+
+> *"Assinado o termo de apelação, o apelante e, depois dele, o apelado terão o prazo de oito dias cada um para oferecer razões."*
+
+O prazo do apelado começa a correr **após** o término do prazo do apelante.
+
+---
+
+### 7. Prazo para embargos de declaração contra acórdão de câmara criminal?
+
+**2 (dois) dias**, contados da publicação do acórdão, conforme o CPP, art. 619:
+
+> *"Aos acórdãos proferidos pelos Tribunais de Apelação, câmaras ou turmas, poderão ser opostos embargos de declaração, no prazo de dois dias contados da sua publicação."*
+
+*(Diferente do CPC, que prevê 5 dias — em matéria penal aplica-se o CPP.)*
+
+---
+
+### 8. No recurso especial em ação penal, o tópico de relevância é exigido?
+
+**Não é exigido**, porque a relevância é **presumida** nas ações penais.
+
+A CF, art. 105, § 3º, I, estabelece presunção absoluta de relevância para "ações penais", e o CPC art. 1.035-A, § 4º, confirma: *"Presume-se a relevância da questão de direito federal infraconstitucional nas hipóteses do art. 105, § 3º, da Constituição Federal."*
+
+Se a relevância é presumida, não há nada a demonstrar — e o tópico específico existe exatamente para fundamentar essa demonstração (§ 2º). Logo, a exigência formal do tópico não se aplica ao recurso especial interposto em ação penal.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08b-C2 — perguntas, prompt do capítulo
+### 2026-10-13 10:13 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Responda, uma por uma:
+1. O acórdão do TJ foi publicado em 20/08/2026. Meu recurso especial precisa do tópico de relevância?
+2. E se o acórdão foi publicado em 15/09/2026?
+3. O que acontece se eu não puser o tópico?
+4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+5. A sentença criminal condenatória do meu cliente foi publicada. Qual é o prazo da apelação?
+6. E o prazo das razões?
+7. Contra o acórdão da câmara criminal, em quantos dias opomos embargos de declaração?
+8. No recurso especial em ação penal, o tópico de relevância é exigido?
+
+Responda com base nos textos colados abaixo, copiados do site do Planalto.
+
+Lei 15.484, de 4 de agosto de 2026 (publicada no DOU de 04/08/2026, edição extra):
+"Art. 4º A indicação no recurso especial, em tópico específico e fundamentado, dos argumentos da relevância da questão de direito federal infraconstitucional será exigida em recursos interpostos contra acórdãos publicados após a data de entrada em vigor desta Lei."
+"Art. 7º Esta Lei entra em vigor após decorridos 30 (trinta) dias de sua publicação oficial."
+
+CPC, art. 1.035-A (incluído pela Lei 15.484/2026):
+"Art. 1.035-A. O Superior Tribunal de Justiça, em decisão irrecorrível, não conhecerá do recurso especial quando a questão de direito federal infraconstitucional nele versada não for relevante, nos termos deste artigo.
+§ 1º A deliberação a que se refere o caput deste artigo considerará a existência ou não de questões relevantes do ponto de vista econômico, político, social ou jurídico que ultrapassem os interesses subjetivos do processo.
+§ 2º O recorrente deverá demonstrar a existência da relevância da questão de direito federal infraconstitucional para apreciação exclusiva pelo Superior Tribunal de Justiça, em tópico específico e fundamentado.
+§ 3º Desatendida a forma prevista no § 2º, o recurso será inadmitido.
+§ 4º Presume-se a relevância da questão de direito federal infraconstitucional nas hipóteses do art. 105, § 3º, da Constituição Federal.
+§ 5º O relator poderá admitir, na análise da relevância da questão de direito federal infraconstitucional, a manifestação de terceiros subscrita por procurador habilitado.
+§ 6º Somente não se conhecerá do recurso especial, nos termos do caput, pela manifestação de inexistência de relevância por parte de 2/3 (dois terços) dos membros do órgão competente para o julgamento."
+
+Constituição, art. 105:
+"§ 2º No recurso especial, o recorrente deve demonstrar a relevância das questões de direito federal infraconstitucional discutidas no caso, nos termos da lei, a fim de que a admissão do recurso seja examinada pelo Tribunal, o qual somente pode dele não conhecer com base nesse motivo pela manifestação de 2/3 (dois terços) dos membros do órgão competente para o julgamento.
+§ 3º Haverá a relevância de que trata o § 2º deste artigo nos seguintes casos: I - ações penais; II - ações de improbidade administrativa; III - ações cujo valor da causa ultrapasse 500 (quinhentos) salários mínimos; IV - ações que possam gerar inelegibilidade; V - hipóteses em que o acórdão recorrido contrariar jurisprudência dominante do Superior Tribunal de Justiça; VI - outras hipóteses previstas em lei."
+
+Código de Processo Penal:
+"Art. 593. Caberá apelação no prazo de 5 (cinco) dias: I - das sentenças definitivas de condenação ou absolvição proferidas por juiz singular;"
+"Art. 600. Assinado o termo de apelação, o apelante e, depois dele, o apelado terão o prazo de oito dias cada um para oferecer razões, salvo nos processos de contravenção, em que o prazo será de três dias."
+"Art. 619. Aos acórdãos proferidos pelos Tribunais de Apelação, câmaras ou turmas, poderão ser opostos embargos de declaração, no prazo de dois dias contados da sua publicação, quando houver na sentença ambiguidade, obscuridade, contradição ou omissão."
+"Art. 798. Todos os prazos correrão em cartório e serão contínuos e peremptórios, não se interrompendo por férias, domingo ou dia feriado. § 1º Não se computará no prazo o dia do começo, incluindo-se, porém, o do vencimento. [...] § 3º O prazo que terminar em domingo ou dia feriado considerar-se-á prorrogado até o dia útil imediato."
+--- IA:
+## Respostas com base nos textos fornecidos
+
+---
+
+### 1. Acórdão publicado em 20/08/2026 — precisa do tópico de relevância?
+
+**Não.** A Lei 15.484/2026 foi publicada em 04/08/2026 e, por força do seu art. 7º, entra em vigor **30 dias depois**, ou seja, em **03/09/2026**. O art. 4º determina que a exigência do tópico só vale para recursos interpostos contra **acórdãos publicados após a data de entrada em vigor**. Como 20/08/2026 é anterior a 03/09/2026, o tópico não é exigido.
+
+---
+
+### 2. Acórdão publicado em 15/09/2026 — precisa do tópico?
+
+**Sim.** 15/09/2026 é posterior a 03/09/2026 (data de entrada em vigor da lei), portanto o art. 4º da Lei 15.484/2026 incide plenamente: o tópico específico e fundamentado de relevância **é obrigatório**.
+
+---
+
+### 3. O que acontece se não incluir o tópico?
+
+O recurso **será inadmitido**. É o que dispõe expressamente o art. 1.035-A, **§ 3º** do CPC: *"Desatendida a forma prevista no § 2º, o recurso será inadmitido."*
+
+---
+
+### 4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+
+**2/3 (dois terços)** dos membros do órgão competente para o julgamento — tanto o art. 1.035-A, **§ 6º** do CPC quanto o art. 105, **§ 2º** da Constituição convergem nesse quórum. Trata-se de decisão irrecorrível.
+
+---
+
+### 5. Prazo da apelação contra sentença penal condenatória?
+
+**5 (cinco) dias**, nos termos do art. 593, I, do CPP. O prazo é contínuo e peremptório, não se interrompendo por férias, domingo ou feriado — embora, se o último dia cair em domingo ou feriado, prorrogue-se para o primeiro dia útil seguinte (art. 798, §§ 1º e 3º, CPP).
+
+---
+
+### 6. Prazo para as razões da apelação?
+
+**8 (oito) dias**, conforme o art. 600 do CPP (o apelante primeiro, depois o apelado, cada um com 8 dias). O prazo reduzido de 3 dias é exclusivo para contravenções.
+
+---
+
+### 7. Prazo dos embargos de declaração contra acórdão de câmara criminal?
+
+**2 (dois) dias**, contados da publicação do acórdão, conforme o art. 619 do CPP. Note-se que o prazo do CPP é de 2 dias — diferente dos 5 dias previstos no CPC para o processo civil.
+
+---
+
+### 8. No recurso especial em ação penal, exige-se o tópico de relevância?
+
+**A relevância é presumida**, portanto o tópico não é exigível (e sua ausência não pode levar à inadmissão). O art. 105, **§ 3º, I** da Constituição elenca *ações penais* entre as hipóteses de relevância presumida, e o art. 1.035-A, **§ 4º** do CPC reproduz essa regra: *"Presume-se a relevância da questão de direito federal infraconstitucional nas hipóteses do art. 105, § 3º, da Constituição Federal."* Se a relevância já existe por presunção legal, não há nada a "demonstrar" nos termos do § 2º — e, consequentemente, a ausência do tópico não autoriza a inadmissão prevista no § 3º.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t08b-C3 — perguntas, prompt do capítulo
+### 2026-10-13 10:13 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Responda, uma por uma:
+1. O acórdão do TJ foi publicado em 20/08/2026. Meu recurso especial precisa do tópico de relevância?
+2. E se o acórdão foi publicado em 15/09/2026?
+3. O que acontece se eu não puser o tópico?
+4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+5. A sentença criminal condenatória do meu cliente foi publicada. Qual é o prazo da apelação?
+6. E o prazo das razões?
+7. Contra o acórdão da câmara criminal, em quantos dias opomos embargos de declaração?
+8. No recurso especial em ação penal, o tópico de relevância é exigido?
+
+Responda com base nos textos colados abaixo, copiados do site do Planalto.
+
+Lei 15.484, de 4 de agosto de 2026 (publicada no DOU de 04/08/2026, edição extra):
+"Art. 4º A indicação no recurso especial, em tópico específico e fundamentado, dos argumentos da relevância da questão de direito federal infraconstitucional será exigida em recursos interpostos contra acórdãos publicados após a data de entrada em vigor desta Lei."
+"Art. 7º Esta Lei entra em vigor após decorridos 30 (trinta) dias de sua publicação oficial."
+
+CPC, art. 1.035-A (incluído pela Lei 15.484/2026):
+"Art. 1.035-A. O Superior Tribunal de Justiça, em decisão irrecorrível, não conhecerá do recurso especial quando a questão de direito federal infraconstitucional nele versada não for relevante, nos termos deste artigo.
+§ 1º A deliberação a que se refere o caput deste artigo considerará a existência ou não de questões relevantes do ponto de vista econômico, político, social ou jurídico que ultrapassem os interesses subjetivos do processo.
+§ 2º O recorrente deverá demonstrar a existência da relevância da questão de direito federal infraconstitucional para apreciação exclusiva pelo Superior Tribunal de Justiça, em tópico específico e fundamentado.
+§ 3º Desatendida a forma prevista no § 2º, o recurso será inadmitido.
+§ 4º Presume-se a relevância da questão de direito federal infraconstitucional nas hipóteses do art. 105, § 3º, da Constituição Federal.
+§ 5º O relator poderá admitir, na análise da relevância da questão de direito federal infraconstitucional, a manifestação de terceiros subscrita por procurador habilitado.
+§ 6º Somente não se conhecerá do recurso especial, nos termos do caput, pela manifestação de inexistência de relevância por parte de 2/3 (dois terços) dos membros do órgão competente para o julgamento."
+
+Constituição, art. 105:
+"§ 2º No recurso especial, o recorrente deve demonstrar a relevância das questões de direito federal infraconstitucional discutidas no caso, nos termos da lei, a fim de que a admissão do recurso seja examinada pelo Tribunal, o qual somente pode dele não conhecer com base nesse motivo pela manifestação de 2/3 (dois terços) dos membros do órgão competente para o julgamento.
+§ 3º Haverá a relevância de que trata o § 2º deste artigo nos seguintes casos: I - ações penais; II - ações de improbidade administrativa; III - ações cujo valor da causa ultrapasse 500 (quinhentos) salários mínimos; IV - ações que possam gerar inelegibilidade; V - hipóteses em que o acórdão recorrido contrariar jurisprudência dominante do Superior Tribunal de Justiça; VI - outras hipóteses previstas em lei."
+
+Código de Processo Penal:
+"Art. 593. Caberá apelação no prazo de 5 (cinco) dias: I - das sentenças definitivas de condenação ou absolvição proferidas por juiz singular;"
+"Art. 600. Assinado o termo de apelação, o apelante e, depois dele, o apelado terão o prazo de oito dias cada um para oferecer razões, salvo nos processos de contravenção, em que o prazo será de três dias."
+"Art. 619. Aos acórdãos proferidos pelos Tribunais de Apelação, câmaras ou turmas, poderão ser opostos embargos de declaração, no prazo de dois dias contados da sua publicação, quando houver na sentença ambiguidade, obscuridade, contradição ou omissão."
+"Art. 798. Todos os prazos correrão em cartório e serão contínuos e peremptórios, não se interrompendo por férias, domingo ou dia feriado. § 1º Não se computará no prazo o dia do começo, incluindo-se, porém, o do vencimento. [...] § 3º O prazo que terminar em domingo ou dia feriado considerar-se-á prorrogado até o dia útil imediato."
+--- IA:
+## Respostas
+
+---
+
+### 1. Acórdão publicado em 20/08/2026 — exige tópico de relevância?
+
+**Não.**
+
+A Lei 15.484/2026 foi publicada em 04/08/2026 e, nos termos do seu art. 7º, entra em vigor **após 30 dias** da publicação oficial — ou seja, em **03/09/2026**.
+
+O art. 4º da mesma lei exige o tópico de relevância apenas para recursos interpostos contra **acórdãos publicados após a data de entrada em vigor**. Como 20/08/2026 é *anterior* a 03/09/2026, o acórdão ainda está fora do regime da nova lei. Não é necessário o tópico.
+
+---
+
+### 2. Acórdão publicado em 15/09/2026 — exige tópico?
+
+**Sim.**
+
+15/09/2026 é *posterior* à entrada em vigor (03/09/2026). O recurso especial contra esse acórdão **deve conter, obrigatoriamente**, tópico específico e fundamentado sobre a relevância da questão de direito federal infraconstitucional (art. 4º da Lei 15.484/2026 c/c art. 1.035-A, § 2º, CPC).
+
+---
+
+### 3. O que acontece se eu não puser o tópico?
+
+O recurso será **inadmitido**. É o que diz expressamente o art. 1.035-A, § 3º do CPC:
+
+> *"Desatendida a forma prevista no § 2º, o recurso será inadmitido."*
+
+Trata-se de requisito formal de admissibilidade, não de mérito.
+
+---
+
+### 4. Quantos ministros precisam negar a relevância para o STJ não conhecer do recurso?
+
+**2/3 (dois terços) dos membros do órgão competente para o julgamento.**
+
+Tanto o art. 1.035-A, § 6º do CPC quanto o art. 105, § 2º da Constituição exigem essa maioria qualificada para que o recurso não seja conhecido por ausência de relevância. A decisão é, além disso, irrecorrível (caput do art. 1.035-A).
+
+---
+
+### 5. Prazo da apelação contra sentença criminal condenatória?
+
+**5 (cinco) dias**, nos termos do art. 593, I do CPP:
+
+> *"Caberá apelação no prazo de 5 (cinco) dias: I - das sentenças definitivas de condenação ou absolvição proferidas por juiz singular."*
+
+Atenção: o prazo corre em cartório, de forma contínua e peremptória, não se interrompendo por férias, domingo ou feriado (art. 798, CPP) — mas se o último dia cair em domingo ou feriado, prorroga-se para o dia útil imediato (art. 798, § 3º).
+
+---
+
+### 6. Prazo das razões de apelação?
+
+**8 (oito) dias**, contados da assinatura do **termo de apelação** (art. 600 do CPP):
+
+> *"Assinado o termo de apelação, o apelante e, depois dele, o apelado terão o prazo de oito dias cada um para oferecer razões."*
+
+(Nos processos de contravenção o prazo seria de 3 dias, mas em crime o prazo é de 8 dias.)
+
+---
+
+### 7. Prazo dos embargos de declaração contra acórdão da câmara criminal?
+
+**2 (dois) dias**, contados da **publicação** do acórdão (art. 619 do CPP):
+
+> *"Aos acórdãos proferidos pelos Tribunais de Apelação, câmaras ou turmas, poderão ser opostos embargos de declaração, no prazo de dois dias contados da sua publicação."*
+
+Note que o prazo no processo penal é de 2 dias — diferente dos 5 dias do CPC (art. 1.023).
+
+---
+
+### 8. No recurso especial em ação penal, o tópico de relevância é exigido?
+
+**Não** — a relevância é **presumida por lei**.
+
+O art. 105, § 3º, I da Constituição estabelece que *haverá relevância* nas **ações penais**. O art. 1.035-A, § 4º do CPC reproduz essa presunção:
+
+> *"Presume-se a relevância da questão de direito federal infraconstitucional nas hipóteses do art. 105, § 3º, da Constituição Federal."*
+
+Se a relevância é presumida pela própria Constituição, não cabe ao recorrente demonstrar o que já está presumido — o tópico do § 2º destina-se aos casos em que a relevância *não* é presumida. Em ação penal, portanto, o tópico de relevância **não precisa ser incluído**.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

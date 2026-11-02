@@ -1,0 +1,761 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t07b, rodado em 09/10/2026 e 10/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:54 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Qual o anexo e a alíquota efetiva do Simples de cada cliente abaixo? Monte a planilha com a fórmula, não me dê o número de cabeça; mostre RBT12, faixa, alíquota nominal, parcela a deduzir e a efetiva. Use as tabelas e as regras coladas abaixo e aplique cada parte delas como está escrita, inclusive nas multas.
+
+Os dez clientes (todos do Simples Nacional; período de apuração setembro de 2026; RBT12 = receita bruta dos 12 meses anteriores):
+1. Comércio de calçados. RBT12 R$ 180.000,00.
+2. Comércio de materiais elétricos. RBT12 R$ 1.250.000,00.
+3. Fabricação de móveis. RBT12 R$ 420.000,00.
+4. Manutenção e reparo de máquinas industriais. RBT12 R$ 500.000,00.
+5. Serviços de engenharia. RBT12 R$ 900.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 250.200,00.
+6. Serviços de engenharia. RBT12 R$ 900.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 254.700,00.
+7. Escritório de serviços contábeis. RBT12 R$ 300.000,00. Folha dos últimos 12 meses: R$ 45.000,00.
+8. Serviços de limpeza e conservação. RBT12 R$ 2.400.000,00.
+9. Consultoria em gestão empresarial. RBT12 R$ 600.000,00. Nos últimos 12 meses: salários R$ 120.000,00; pró-labore dos sócios R$ 48.000,00; FGTS R$ 9.600,00.
+10. Desenvolvimento de programas de computador sob encomenda. RBT12 R$ 3.000.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 900.000,00.
+
+As tabelas da LC 123/2006 vigentes em 2026 (Anexos I a V, faixa | receita bruta em 12 meses | alíquota nominal | parcela a deduzir):
+ANEXO I (Comércio): 1ª até 180.000,00 | 4,00% | 0 — 2ª de 180.000,01 a 360.000,00 | 7,30% | 5.940,00 — 3ª de 360.000,01 a 720.000,00 | 9,50% | 13.860,00 — 4ª de 720.000,01 a 1.800.000,00 | 10,70% | 22.500,00 — 5ª de 1.800.000,01 a 3.600.000,00 | 14,30% | 87.300,00 — 6ª de 3.600.000,01 a 4.800.000,00 | 19,00% | 378.000,00
+ANEXO II (Indústria): 1ª 4,50% | 0 — 2ª 7,80% | 5.940,00 — 3ª 10,00% | 13.860,00 — 4ª 11,20% | 22.500,00 — 5ª 14,70% | 85.500,00 — 6ª 30,00% | 720.000,00
+ANEXO III (serviços do § 5º-B e outros fora do § 5º-C): 1ª 6,00% | 0 — 2ª 11,20% | 9.360,00 — 3ª 13,50% | 17.640,00 — 4ª 16,00% | 35.640,00 — 5ª 21,00% | 125.640,00 — 6ª 33,00% | 648.000,00
+ANEXO IV (serviços do § 5º-C): 1ª 4,50% | 0 — 2ª 9,00% | 8.100,00 — 3ª 10,20% | 12.420,00 — 4ª 14,00% | 39.780,00 — 5ª 22,00% | 183.780,00 — 6ª 33,00% | 828.000,00
+ANEXO V (serviços do § 5º-I): 1ª 15,50% | 0 — 2ª 18,00% | 4.500,00 — 3ª 19,50% | 9.900,00 — 4ª 20,50% | 17.100,00 — 5ª 23,00% | 62.100,00 — 6ª 30,50% | 540.000,00
+(As faixas dos Anexos II a V são as mesmas do Anexo I.)
+Fórmula (art. 18, § 1º-A): alíquota efetiva = (RBT12 × Aliq − PD) ÷ RBT12.
+Fator R (art. 18, § 5º-J): os serviços do § 5º-I "serão tributadas na forma do Anexo III desta Lei Complementar caso a razão entre a folha de salários e a receita bruta da pessoa jurídica seja igual ou superior a 28% (vinte e oito por cento)". § 24: "considera-se folha de salários, incluídos encargos, o montante pago, nos doze meses anteriores ao período de apuração, a título de remunerações a pessoas físicas decorrentes do trabalho, acrescido do montante efetivamente recolhido a título de contribuição patronal previdenciária e FGTS, incluídas as retiradas de pró-labore."
+As multas:
+- PGDAS-D (LC 123, art. 38-A, I): "de 2% (dois por cento) ao mês-calendário ou fração, a partir do dia seguinte ao término do prazo originalmente fixado para a entrega da declaração, incidentes sobre o montante dos impostos e contribuições decorrentes das informações prestadas [...], ainda que integralmente pago, [...] limitada a 20% (vinte por cento)". § 2º: "A multa mínima a ser aplicada será de R$ 50,00 (cinquenta reais) para cada mês de referência." § 3º: "Observado o disposto no § 2º, as multas serão reduzidas: I - à metade, quando a declaração for apresentada após o prazo, mas antes de qualquer procedimento de ofício".
+- Pagamento em atraso (Lei 9.430/1996, art. 61): "multa de mora, calculada à taxa de trinta e três centésimos por cento, por dia de atraso"; § 1º: "a partir do primeiro dia subseqüente ao do vencimento"; § 2º: "limitado a vinte por cento"; § 3º: "juros de mora calculados à taxa a que se refere o § 3º do art. 5º [Selic], a partir do primeiro dia do mês subseqüente ao vencimento do prazo até o mês anterior ao do pagamento e de um por cento no mês de pagamento".
+- O PGDAS-D e o DAS de setembro de 2026 vencem em 20/10/2026.
+
+Onde fica o escritório contábil (LC 123, art. 18, § 5º-B): "serão tributadas na forma do Anexo III desta Lei Complementar as seguintes atividades de prestação de serviços: [...] XIV - escritórios de serviços contábeis". O inciso XIV não está na lista do § 5º-M (os do § 5º-B que vão ao Anexo V com folha abaixo de 28% são só os incisos XVI, XVIII, XIX, XX e XXI).
+--- IA:
+# Simples Nacional — PA setembro/2026
+
+---
+
+## 1 — Enquadramento no Anexo
+
+| Nº | Atividade | Fundamento legal | Fator R | Anexo |
+|---|---|---|:---:|:---:|
+| 1 | Comércio de calçados | § 4º — comércio em geral | — | **I** |
+| 2 | Comércio de materiais elétricos | § 4º — comércio em geral | — | **I** |
+| 3 | Fabricação de móveis | § 4º — indústria em geral | — | **II** |
+| 4 | Manutenção e reparo de máquinas industriais | § 5º-B, VI — "reparos e manutenção em geral" | — | **III** |
+| 5 | Serviços de engenharia | § 5º-I; R$ 250.200 ÷ R$ 900.000 = **27,80 %** → < 28 % → Anexo V | 27,80 % | **V** |
+| 6 | Serviços de engenharia | § 5º-I; R$ 254.700 ÷ R$ 900.000 = **28,30 %** → ≥ 28 % → Anexo III | 28,30 % | **III** |
+| 7 | Escritório de serviços contábeis | § 5º-B, XIV — inciso XIV **não** figura no § 5º-M → sempre Anexo III, Fator R irrelevante | N/A | **III** |
+| 8 | Serviços de limpeza e conservação | § 5º-C — "limpeza ou conservação" | — | **IV** |
+| 9 | Consultoria em gestão empresarial | § 5º-I; R$ 177.600 ÷ R$ 600.000 = **29,60 %** → ≥ 28 % → Anexo III | 29,60 % | **III** |
+| 10 | Desenvolvimento de software sob encomenda | § 5º-I; R$ 900.000 ÷ R$ 3.000.000 = **30,00 %** → ≥ 28 % → Anexo III | 30,00 % | **III** |
+
+> **Cliente 9 — composição da folha (§ 24):**
+> Salários R$ 120.000 + pró-labore R$ 48.000 + FGTS R$ 9.600 = **R$ 177.600**
+> (O § 24 determina que se incluem pró-labore e FGTS; os três componentes já somados informam o Fator R correto.)
+
+---
+
+## 2 — Planilha de Apuração
+
+**Fórmula — art. 18, § 1º-A:**
+
+$$\text{Alíq. Efetiva} = \frac{(\text{RBT12} \times \text{Alíq. Nominal}) - \text{Parcela a Deduzir}}{\text{RBT12}}$$
+
+| Nº | RBT12 (R$) | Anexo | Faixa | Alíq. Nominal | Parc. a Deduzir (R$) | RBT12 × Alíq. (R$) | Numerador (R$) | **Alíq. Efetiva** |
+|:---:|---:|:---:|:---:|:---:|---:|---:|---:|:---:|
+| 1 | 180.000,00 | I | 1ª | 4,00 % | 0,00 | 7.200,00 | 7.200,00 | **4,00 %** |
+| 2 | 1.250.000,00 | I | 4ª | 10,70 % | 22.500,00 | 133.750,00 | 111.250,00 | **8,90 %** |
+| 3 | 420.000,00 | II | 3ª | 10,00 % | 13.860,00 | 42.000,00 | 28.140,00 | **6,70 %** |
+| 4 | 500.000,00 | III | 3ª | 13,50 % | 17.640,00 | 67.500,00 | 49.860,00 | **9,97 %** |
+| 5 | 900.000,00 | V | 4ª | 20,50 % | 17.100,00 | 184.500,00 | 167.400,00 | **18,60 %** |
+| 6 | 900.000,00 | III | 4ª | 16,00 % | 35.640,00 | 144.000,00 | 108.360,00 | **12,04 %** |
+| 7 | 300.000,00 | III | 2ª | 11,20 % | 9.360,00 | 33.600,00 | 24.240,00 | **8,08 %** |
+| 8 | 2.400.000,00 | IV | 5ª | 22,00 % | 183.780,00 | 528.000,00 | 344.220,00 | **14,34 %** |
+| 9 | 600.000,00 | III | 3ª | 13,50 % | 17.640,00 | 81.000,00 | 63.360,00 | **10,56 %** |
+| 10 | 3.000.000,00 | III | 5ª | 21,00 % | 125.640,00 | 630.000,00 | 504.360,00 | **16,81 %** |
+
+> Resultados exatos antes do arredondamento: nº 4 = **9,972 %** · nº 8 = **14,3425 %** · nº 10 = **16,812 %**
+
+---
+
+## 3 — Desenvolvimento da fórmula, cliente a cliente
+
+**1. Comércio de calçados — Anexo I, 1ª faixa**
+(R$ 180.000,00 × 4,00 %) − R$ 0,00 = **R$ 7.200,00**
+R$ 7.200,00 ÷ R$ 180.000,00 = **4,00 %**
+
+---
+
+**2. Comércio de materiais elétricos — Anexo I, 4ª faixa**
+(R$ 1.250.000,00 × 10,70 %) − R$ 22.500,00 = R$ 133.750,00 − R$ 22.500,00 = **R$ 111.250,00**
+R$ 111.250,00 ÷ R$ 1.250.000,00 = **8,90 %**
+
+---
+
+**3. Fabricação de móveis — Anexo II, 3ª faixa**
+(R$ 420.000,00 × 10,00 %) − R$ 13.860,00 = R$ 42.000,00 − R$ 13.860,00 = **R$ 28.140,00**
+R$ 28.140,00 ÷ R$ 420.000,00 = **6,70 %**
+
+---
+
+**4. Manutenção e reparo de máquinas industriais — Anexo III, 3ª faixa**
+(R$ 500.000,00 × 13,50 %) − R$ 17.640,00 = R$ 67.500,00 − R$ 17.640,00 = **R$ 49.860,00**
+R$ 49.860,00 ÷ R$ 500.000,00 = **9,972 % → 9,97 %**
+
+---
+
+**5. Engenharia (folha R$ 250.200) — Fator R 27,80 % < 28 % → Anexo V, 4ª faixa**
+Fator R: R$ 250.200,00 ÷ R$ 900.000,00 = **27,80 %** — abaixo de 28 %, permanece no Anexo V.
+(R$ 900.000,00 × 20,50 %) − R$ 17.100,00 = R$ 184.500,00 − R$ 17.100,00 = **R$ 167.400,00**
+R$ 167.400,00 ÷ R$ 900.000,00 = **18,60 %**
+
+---
+
+**6. Engenharia (folha R$ 254.700) — Fator R 28,30 % ≥ 28 % → Anexo III, 4ª faixa**
+Fator R: R$ 254.700,00 ÷ R$ 900.000,00 = **28,30 %** — igual ou superior a 28 %, migra para o Anexo III.
+(R$ 900.000,00 × 16,00 %) − R$ 35.640,00 = R$ 144.000,00 − R$ 35.640,00 = **R$ 108.360,00**
+R$ 108.360,00 ÷ R$ 900.000,00 = **12,04 %**
+
+> ⚠️ **Impacto do Fator R nos clientes 5 e 6:** mesma RBT12 (R$ 900.000), mesma atividade, porém uma diferença de apenas R$ 4.500 na folha provoca a migração do Anexo V para o III e reduz a alíquota efetiva de **18,60 %** para **12,04 %** — economia de 6,56 pontos percentuais.
+
+---
+
+**7. Escritório de serviços contábeis — Anexo III, 2ª faixa**
+§ 5º-B, XIV enquadra escritórios contábeis no Anexo III. O inciso XIV não consta do § 5º-M (que listaria as hipóteses de migração ao Anexo V quando Fator R < 28 %); portanto, o Fator R — que aqui seria 45.000 ÷ 300.000 = 15 % — é irrelevante, e o Anexo III é obrigatório.
+(R$ 300.000,00 × 11,20 %) − R$ 9.360,00 = R$ 33.600,00 − R$ 9.360,00 = **R$ 24.240,00**
+R$ 24.240,00 ÷ R$ 300.000,00 = **8,08 %**
+
+---
+
+**8. Limpeza e conservação — Anexo IV, 5ª faixa**
+(R$ 2.400.000,00 × 22,00 %) − R$ 183.780,00 = R$ 528.000,00 − R$ 183.780,00 = **R$ 344.220,00**
+R$ 344.220,00 ÷ R$ 2.400.000,00 = **14,3425 % → 14,34 %**
+
+---
+
+**9. Consultoria em gestão empresarial — Fator R 29,60 % ≥ 28 % → Anexo III, 3ª faixa**
+Composição da folha (§ 24):
+R$ 120.000 (salários) + R$ 48.000 (pró-labore) + R$ 9.600 (FGTS) = **R$ 177.600**
+Fator R: R$ 177.600,00 ÷ R$ 600.000,00 = **29,60 %** ≥ 28 % → Anexo III.
+(R$ 600.000,00 × 13,50 %) − R$ 17.640,00 = R$ 81.000,00 − R$ 17.640,00 = **R$ 63.360,00**
+R$ 63.360,00 ÷ R$ 600.000,00 = **10,56 %**
+
+---
+
+**10. Desenvolvimento de software sob encomenda — Fator R 30,00 % ≥ 28 % → Anexo III, 5ª faixa**
+Fator R: R$ 900.000,00 ÷ R$ 3.000.000,00 = **30,00 %** ≥ 28 % → Anexo III.
+(R$ 3.000.000,00 × 21,00 %) − R$ 125.640,00 = R$ 630.000,00 − R$ 125.640,00 = **R$ 504.360,00**
+R$ 504.360,00 ÷ R$ 3.000.000,00 = **16,812 % → 16,81 %**
+
+---
+
+## 4 — Multas — PA setembro/2026
+
+| Item | Data |
+|---|---|
+| Vencimento do PGDAS-D e do DAS | **20/10/2026** |
+| Data de hoje | **09/10/2026** |
+| Status | ✅ **Dentro do prazo — nenhuma multa ou juro é aplicável agora** |
+
+As regras ficam registradas abaixo para uso imediato caso algum cliente atrase.
+
+---
+
+### A — Multa por entrega em atraso do PGDAS-D (LC 123, art. 38-A, I e §§ 2º e 3º)
+
+| Parâmetro | Regra |
+|---|---|
+| Alíquota | **2 % ao mês-calendário ou fração** sobre o valor dos tributos declarados |
+| Termo inicial | Dia seguinte ao vencimento (21/10/2026) |
+| Teto | **20 %** |
+| Mínimo | **R$ 50,00 por mês de referência** (§ 2º) |
+| Redução | **50 %** se entregue após o prazo mas **antes** de qualquer procedimento de ofício (§ 3º, I) |
+
+> **Exemplo prático:** PGDAS-D entregue espontaneamente em 05/12/2026 (2 meses/frações após 20/10).
+> Multa bruta = 2 % × 2 = 4 % dos tributos (mínimo R$ 100,00).
+> Com redução de 50 % (antes de qualquer notificação): **2 % dos tributos** (mínimo R$ 50,00).
+
+---
+
+### B — Multa de mora no pagamento do DAS (Lei 9.430/1996, art. 61 e §§)
+
+| Parâmetro | Regra |
+|---|---|
+| Multa de mora | **0,33 % por dia de atraso** |
+| Termo inicial | **1º dia subsequente** ao vencimento (§ 1º) — 21/10/2026 |
+| Teto | **20 %** (§ 2º) |
+| Juros | Taxa **Selic** do 1º dia do mês seguinte ao vencimento (novembro/2026) até o mês anterior ao pagamento, **+ 1 %** no próprio mês do pagamento (§ 3º) |
+
+> **Exemplo prático:** DAS pago em 20/11/2026 (30 dias de atraso).
+> Multa = 0,33 % × 30 = **9,90 %** (abaixo do teto de 20 %).
+> Juros = Selic de novembro/2026 (apurada no mês do pagamento) **+ 1 %**.
+
+--- Você:
+Duas dúvidas sobre setembro: se eu entregar o PGDAS-D de setembro no dia 22, qual a multa? E se eu pagar o DAS dois dias depois?
+--- IA:
+## PGDAS-D de setembro/2026 entregue em 22/10/2026
+
+### 1 — Multa por atraso na entrega do PGDAS-D (LC 123, art. 38-A, I e §§ 2º e 3º)
+
+| Parâmetro | Apuração |
+|---|---|
+| Vencimento | 20/10/2026 |
+| Entrega | 22/10/2026 → **2 dias de atraso** |
+| Meses-calendário ou frações | 2 dias dentro de outubro = **1 fração** |
+| Multa bruta | 2 % × 1 fração = **2 % do DAS declarado** (mín. R$ 50,00) |
+| Redução § 3º, I | Entrega espontânea, antes de qualquer procedimento de ofício → **50 %** |
+| **Multa devida** | **1 % do DAS** — mínimo **R$ 50,00** (o § 3º diz *"observado o disposto no § 2º"*, portanto o piso de R$ 50,00 se mantém mesmo após o corte) |
+
+> ⚠️ Mesmo que o DAS já estivesse pago, a multa do PGDAS-D incidiria da mesma forma ("*ainda que integralmente pago*" — art. 38-A, I).
+
+---
+
+### 2 — DAS pago em 24/10/2026 (Lei 9.430/1996, art. 61)
+
+*"Dois dias depois" do dia 22 = **24/10/2026** → 4 dias após o vencimento de 20/10/2026.*
+
+#### Multa de mora (caput e § 1º)
+
+| Dias de atraso | Cálculo | Resultado |
+|:---:|---|:---:|
+| 4 (21, 22, 23 e 24/10) | 0,33 % × 4 | **1,32 %** do DAS |
+
+Teto de 20 % não alcançado (seria atingido somente a partir do 61º dia).
+
+#### Juros de mora (§ 3º)
+
+| Componente | Período | Resultado |
+|---|---|:---:|
+| Selic | Do 1º dia do mês seguinte ao vencimento **(01/11/2026)** até o mês **anterior** ao do pagamento **(set/2026)** | **0 %** — novembro é cronologicamente posterior a setembro; nenhum mês completo se forma nesse intervalo |
+| Fixo | 1 % **no mês do pagamento (outubro/2026)** | **1,00 %** |
+| **Total de juros** | | **1,00 %** |
+
+> Se o DAS fosse pago apenas em **dezembro/2026**, entrariam em cena: Selic de novembro/2026 (1 mês completo entre o 1º dia do mês após o vencimento e o mês anterior ao pagamento) + 1 % em dezembro. Pagamentos dentro do próprio mês do vencimento ou no mês imediatamente seguinte acumulam apenas o 1 % fixo.
+
+#### Resumo dos acréscimos sobre o DAS
+
+| Item | % sobre o DAS |
+|---|:---:|
+| Multa de mora | 1,32 % |
+| Juros de mora | 1,00 % |
+| **Total de acréscimos** | **2,32 %** |
+
+---
+
+### Quadro consolidado dos dois atrasos
+
+| Obrigação | Data | Atraso | Encargo |
+|---|---|---|---|
+| PGDAS-D | 22/10/2026 | 2 dias (1 fração) | 1 % do DAS, mín. R$ 50,00 |
+| DAS | 24/10/2026 | 4 dias | 1,32 % (mora) + 1,00 % (juros) = **2,32 %** |
+
+Os dois encargos são independentes e se acumulam: a multa do PGDAS-D incide sobre o valor dos tributos declarados; a multa de mora e os juros incidem sobre o principal do DAS em atraso.
+
+### 2026-10-10 00:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Qual o anexo e a alíquota efetiva do Simples de cada cliente abaixo? Monte a planilha com a fórmula, não me dê o número de cabeça; mostre RBT12, faixa, alíquota nominal, parcela a deduzir e a efetiva. Use as tabelas e as regras coladas abaixo e aplique cada parte delas como está escrita, inclusive nas multas.
+
+Os dez clientes (todos do Simples Nacional; período de apuração setembro de 2026; RBT12 = receita bruta dos 12 meses anteriores):
+1. Comércio de calçados. RBT12 R$ 180.000,00.
+2. Comércio de materiais elétricos. RBT12 R$ 1.250.000,00.
+3. Fabricação de móveis. RBT12 R$ 420.000,00.
+4. Manutenção e reparo de máquinas industriais. RBT12 R$ 500.000,00.
+5. Serviços de engenharia. RBT12 R$ 900.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 250.200,00.
+6. Serviços de engenharia. RBT12 R$ 900.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 254.700,00.
+7. Escritório de serviços contábeis. RBT12 R$ 300.000,00. Folha dos últimos 12 meses: R$ 45.000,00.
+8. Serviços de limpeza e conservação. RBT12 R$ 2.400.000,00.
+9. Consultoria em gestão empresarial. RBT12 R$ 600.000,00. Nos últimos 12 meses: salários R$ 120.000,00; pró-labore dos sócios R$ 48.000,00; FGTS R$ 9.600,00.
+10. Desenvolvimento de programas de computador sob encomenda. RBT12 R$ 3.000.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 900.000,00.
+
+As tabelas da LC 123/2006 vigentes em 2026 (Anexos I a V, faixa | receita bruta em 12 meses | alíquota nominal | parcela a deduzir):
+ANEXO I (Comércio): 1ª até 180.000,00 | 4,00% | 0 — 2ª de 180.000,01 a 360.000,00 | 7,30% | 5.940,00 — 3ª de 360.000,01 a 720.000,00 | 9,50% | 13.860,00 — 4ª de 720.000,01 a 1.800.000,00 | 10,70% | 22.500,00 — 5ª de 1.800.000,01 a 3.600.000,00 | 14,30% | 87.300,00 — 6ª de 3.600.000,01 a 4.800.000,00 | 19,00% | 378.000,00
+ANEXO II (Indústria): 1ª 4,50% | 0 — 2ª 7,80% | 5.940,00 — 3ª 10,00% | 13.860,00 — 4ª 11,20% | 22.500,00 — 5ª 14,70% | 85.500,00 — 6ª 30,00% | 720.000,00
+ANEXO III (serviços do § 5º-B e outros fora do § 5º-C): 1ª 6,00% | 0 — 2ª 11,20% | 9.360,00 — 3ª 13,50% | 17.640,00 — 4ª 16,00% | 35.640,00 — 5ª 21,00% | 125.640,00 — 6ª 33,00% | 648.000,00
+ANEXO IV (serviços do § 5º-C): 1ª 4,50% | 0 — 2ª 9,00% | 8.100,00 — 3ª 10,20% | 12.420,00 — 4ª 14,00% | 39.780,00 — 5ª 22,00% | 183.780,00 — 6ª 33,00% | 828.000,00
+ANEXO V (serviços do § 5º-I): 1ª 15,50% | 0 — 2ª 18,00% | 4.500,00 — 3ª 19,50% | 9.900,00 — 4ª 20,50% | 17.100,00 — 5ª 23,00% | 62.100,00 — 6ª 30,50% | 540.000,00
+(As faixas dos Anexos II a V são as mesmas do Anexo I.)
+Fórmula (art. 18, § 1º-A): alíquota efetiva = (RBT12 × Aliq − PD) ÷ RBT12.
+Fator R (art. 18, § 5º-J): os serviços do § 5º-I "serão tributadas na forma do Anexo III desta Lei Complementar caso a razão entre a folha de salários e a receita bruta da pessoa jurídica seja igual ou superior a 28% (vinte e oito por cento)". § 24: "considera-se folha de salários, incluídos encargos, o montante pago, nos doze meses anteriores ao período de apuração, a título de remunerações a pessoas físicas decorrentes do trabalho, acrescido do montante efetivamente recolhido a título de contribuição patronal previdenciária e FGTS, incluídas as retiradas de pró-labore."
+As multas:
+- PGDAS-D (LC 123, art. 38-A, I): "de 2% (dois por cento) ao mês-calendário ou fração, a partir do dia seguinte ao término do prazo originalmente fixado para a entrega da declaração, incidentes sobre o montante dos impostos e contribuições decorrentes das informações prestadas [...], ainda que integralmente pago, [...] limitada a 20% (vinte por cento)". § 2º: "A multa mínima a ser aplicada será de R$ 50,00 (cinquenta reais) para cada mês de referência." § 3º: "Observado o disposto no § 2º, as multas serão reduzidas: I - à metade, quando a declaração for apresentada após o prazo, mas antes de qualquer procedimento de ofício".
+- Pagamento em atraso (Lei 9.430/1996, art. 61): "multa de mora, calculada à taxa de trinta e três centésimos por cento, por dia de atraso"; § 1º: "a partir do primeiro dia subseqüente ao do vencimento"; § 2º: "limitado a vinte por cento"; § 3º: "juros de mora calculados à taxa a que se refere o § 3º do art. 5º [Selic], a partir do primeiro dia do mês subseqüente ao vencimento do prazo até o mês anterior ao do pagamento e de um por cento no mês de pagamento".
+- O PGDAS-D e o DAS de setembro de 2026 vencem em 20/10/2026.
+
+Onde fica o escritório contábil (LC 123, art. 18, § 5º-B): "serão tributadas na forma do Anexo III desta Lei Complementar as seguintes atividades de prestação de serviços: [...] XIV - escritórios de serviços contábeis". O inciso XIV não está na lista do § 5º-M (os do § 5º-B que vão ao Anexo V com folha abaixo de 28% são só os incisos XVI, XVIII, XIX, XX e XXI).
+--- IA:
+# Apuração do Simples Nacional — Setembro/2026
+
+---
+
+## 1. Determinação do Anexo e do Fator R (onde aplicável)
+
+### Clientes sem Fator R
+
+| # | Atividade | Fundamento | Anexo |
+|---|---|---|---|
+| 1 | Comércio de calçados | § 5º-A — comércio | **I** |
+| 2 | Comércio de materiais elétricos | § 5º-A — comércio | **I** |
+| 3 | Fabricação de móveis | § 5º-A — indústria | **II** |
+| 4 | Manutenção e reparo de máquinas industriais | § 5º-B (serviços de reparos e manutenção em geral) | **III** |
+| 8 | Serviços de limpeza e conservação | § 5º-C — vigilância, limpeza ou conservação | **IV** |
+
+> **Cliente 7 — Escritório de serviços contábeis:** O § 5º-B, XIV enquadra sempre no **Anexo III**, independentemente de qualquer relação folha/receita. O inciso XIV não consta do § 5º-M (somente os incisos XVI, XVIII, XIX, XX e XXI desse mesmo § 5º-B migram ao Anexo V quando o Fator R ficar abaixo de 28 %). A folha informada (R$ 45.000) serve apenas para registro; não altera o anexo.
+
+---
+
+### Clientes com Fator R — § 5º-I e § 5º-J
+
+Fórmula: **FR = Folha ÷ RBT12**
+- FR ≥ 28 % → **Anexo III**
+- FR < 28 % → **Anexo V**
+
+Folha = salários + pró-labore + FGTS (§ 24).
+
+| # | Atividade | Folha (R$) | RBT12 (R$) | FR | Regra | Anexo |
+|---|---|---:|---:|---|---|---|
+| 5 | Engenharia | 250.200,00 | 900.000,00 | 250.200 ÷ 900.000 = **27,80 %** | < 28 % | **V** |
+| 6 | Engenharia | 254.700,00 | 900.000,00 | 254.700 ÷ 900.000 = **28,30 %** | ≥ 28 % | **III** |
+| 9 | Consultoria em gestão | 120.000 + 48.000 + 9.600 = **177.600,00** | 600.000,00 | 177.600 ÷ 600.000 = **29,60 %** | ≥ 28 % | **III** |
+| 10 | Desenvolvimento de software | 900.000,00 | 3.000.000,00 | 900.000 ÷ 3.000.000 = **30,00 %** | ≥ 28 % | **III** |
+
+---
+
+## 2. Planilha de Apuração da Alíquota Efetiva
+
+**Fórmula (art. 18, § 1º-A):**
+$$\text{Alíq. Efetiva} = \frac{RBT12 \times \text{Aliq} - PD}{RBT12}$$
+
+---
+
+### Cliente 1 — Comércio de calçados | Anexo I
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 180.000,00 |
+| Faixa | **1ª** (até R$ 180.000,00) |
+| Alíquota nominal | 4,00 % |
+| Parcela a deduzir (PD) | R$ 0,00 |
+| Fórmula | (180.000 × 4,00 % − 0) ÷ 180.000 |
+| Numerador | R$ 7.200,00 |
+| **Alíquota efetiva** | **4,0000 %** |
+
+---
+
+### Cliente 2 — Comércio de materiais elétricos | Anexo I
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 1.250.000,00 |
+| Faixa | **4ª** (R$ 720.000,01 a R$ 1.800.000,00) |
+| Alíquota nominal | 10,70 % |
+| Parcela a deduzir (PD) | R$ 22.500,00 |
+| Fórmula | (1.250.000 × 10,70 % − 22.500) ÷ 1.250.000 |
+| Numerador | 133.750 − 22.500 = R$ 111.250,00 |
+| **Alíquota efetiva** | **8,9000 %** |
+
+---
+
+### Cliente 3 — Fabricação de móveis | Anexo II
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 420.000,00 |
+| Faixa | **3ª** (R$ 360.000,01 a R$ 720.000,00) |
+| Alíquota nominal | 10,00 % |
+| Parcela a deduzir (PD) | R$ 13.860,00 |
+| Fórmula | (420.000 × 10,00 % − 13.860) ÷ 420.000 |
+| Numerador | 42.000 − 13.860 = R$ 28.140,00 |
+| **Alíquota efetiva** | **6,7000 %** |
+
+---
+
+### Cliente 4 — Manutenção e reparo de máquinas industriais | Anexo III
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 500.000,00 |
+| Faixa | **3ª** (R$ 360.000,01 a R$ 720.000,00) |
+| Alíquota nominal | 13,50 % |
+| Parcela a deduzir (PD) | R$ 17.640,00 |
+| Fórmula | (500.000 × 13,50 % − 17.640) ÷ 500.000 |
+| Numerador | 67.500 − 17.640 = R$ 49.860,00 |
+| **Alíquota efetiva** | **9,9720 %** |
+
+---
+
+### Cliente 5 — Engenharia (FR 27,80 % < 28 %) | Anexo V
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 900.000,00 |
+| Faixa | **4ª** (R$ 720.000,01 a R$ 1.800.000,00) |
+| Alíquota nominal | 20,50 % |
+| Parcela a deduzir (PD) | R$ 17.100,00 |
+| Fórmula | (900.000 × 20,50 % − 17.100) ÷ 900.000 |
+| Numerador | 184.500 − 17.100 = R$ 167.400,00 |
+| **Alíquota efetiva** | **18,6000 %** |
+
+---
+
+### Cliente 6 — Engenharia (FR 28,30 % ≥ 28 %) | Anexo III
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 900.000,00 |
+| Faixa | **4ª** (R$ 720.000,01 a R$ 1.800.000,00) |
+| Alíquota nominal | 16,00 % |
+| Parcela a deduzir (PD) | R$ 35.640,00 |
+| Fórmula | (900.000 × 16,00 % − 35.640) ÷ 900.000 |
+| Numerador | 144.000 − 35.640 = R$ 108.360,00 |
+| **Alíquota efetiva** | **12,0400 %** |
+
+> ⚠️ **Atenção prática (clientes 5 e 6):** mesma atividade, mesmo RBT12, mas a diferença de apenas R$ 4.500 na folha (R$ 250.200 vs. R$ 254.700) cruza o limiar de 28 % e muda o anexo — a alíquota efetiva cai de 18,60 % para 12,04 %.
+
+---
+
+### Cliente 7 — Escritório de serviços contábeis | Anexo III (§ 5º-B, XIV — sempre)
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 300.000,00 |
+| Fator R calculado | 45.000 ÷ 300.000 = 15,00 % — **irrelevante** para este inciso |
+| Faixa | **2ª** (R$ 180.000,01 a R$ 360.000,00) |
+| Alíquota nominal | 11,20 % |
+| Parcela a deduzir (PD) | R$ 9.360,00 |
+| Fórmula | (300.000 × 11,20 % − 9.360) ÷ 300.000 |
+| Numerador | 33.600 − 9.360 = R$ 24.240,00 |
+| **Alíquota efetiva** | **8,0800 %** |
+
+---
+
+### Cliente 8 — Serviços de limpeza e conservação | Anexo IV
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 2.400.000,00 |
+| Faixa | **5ª** (R$ 1.800.000,01 a R$ 3.600.000,00) |
+| Alíquota nominal | 22,00 % |
+| Parcela a deduzir (PD) | R$ 183.780,00 |
+| Fórmula | (2.400.000 × 22,00 % − 183.780) ÷ 2.400.000 |
+| Numerador | 528.000 − 183.780 = R$ 344.220,00 |
+| **Alíquota efetiva** | **14,3425 %** |
+
+> 📌 **Lembrete:** os optantes do Anexo IV recolhem a CPP (contribuição patronal previdenciária) fora do DAS, diretamente à Previdência — ela não está incluída na alíquota efetiva acima.
+
+---
+
+### Cliente 9 — Consultoria em gestão empresarial (FR 29,60 % ≥ 28 %) | Anexo III
+
+| Campo | Valor |
+|---|---|
+| Composição da folha | Salários R$ 120.000 + Pró-labore R$ 48.000 + FGTS R$ 9.600 = **R$ 177.600,00** |
+| RBT12 | R$ 600.000,00 |
+| Faixa | **3ª** (R$ 360.000,01 a R$ 720.000,00) |
+| Alíquota nominal | 13,50 % |
+| Parcela a deduzir (PD) | R$ 17.640,00 |
+| Fórmula | (600.000 × 13,50 % − 17.640) ÷ 600.000 |
+| Numerador | 81.000 − 17.640 = R$ 63.360,00 |
+| **Alíquota efetiva** | **10,5600 %** |
+
+---
+
+### Cliente 10 — Desenvolvimento de software sob encomenda (FR 30,00 % ≥ 28 %) | Anexo III
+
+| Campo | Valor |
+|---|---|
+| RBT12 | R$ 3.000.000,00 |
+| Faixa | **5ª** (R$ 1.800.000,01 a R$ 3.600.000,00) |
+| Alíquota nominal | 21,00 % |
+| Parcela a deduzir (PD) | R$ 125.640,00 |
+| Fórmula | (3.000.000 × 21,00 % − 125.640) ÷ 3.000.000 |
+| Numerador | 630.000 − 125.640 = R$ 504.360,00 |
+| **Alíquota efetiva** | **16,8120 %** |
+
+---
+
+## 3. Quadro-resumo consolidado
+
+| # | Cliente | RBT12 (R$) | Anexo | Faixa | Aliq. Nominal | PD (R$) | Aliq. Efetiva |
+|---|---|---:|:---:|:---:|---:|---:|---:|
+| 1 | Comércio de calçados | 180.000,00 | I | 1ª | 4,00 % | 0,00 | **4,0000 %** |
+| 2 | Comércio de mat. elétricos | 1.250.000,00 | I | 4ª | 10,70 % | 22.500,00 | **8,9000 %** |
+| 3 | Fabricação de móveis | 420.000,00 | II | 3ª | 10,00 % | 13.860,00 | **6,7000 %** |
+| 4 | Manutenção de máquinas | 500.000,00 | III | 3ª | 13,50 % | 17.640,00 | **9,9720 %** |
+| 5 | Engenharia (FR 27,80 %) | 900.000,00 | V | 4ª | 20,50 % | 17.100,00 | **18,6000 %** |
+| 6 | Engenharia (FR 28,30 %) | 900.000,00 | III | 4ª | 16,00 % | 35.640,00 | **12,0400 %** |
+| 7 | Escritório contábil | 300.000,00 | III | 2ª | 11,20 % | 9.360,00 | **8,0800 %** |
+| 8 | Limpeza e conservação | 2.400.000,00 | IV | 5ª | 22,00 % | 183.780,00 | **14,3425 %** |
+| 9 | Consultoria gestão (FR 29,60 %) | 600.000,00 | III | 3ª | 13,50 % | 17.640,00 | **10,5600 %** |
+| 10 | Desenvolvimento de software (FR 30,00 %) | 3.000.000,00 | III | 5ª | 21,00 % | 125.640,00 | **16,8120 %** |
+
+---
+
+## 4. Multas aplicáveis — vencimento: 20/10/2026
+
+### 4.1 Multa por atraso na entrega do PGDAS-D — LC 123/2006, art. 38-A, I
+
+**Regra base:** 2 % ao mês-calendário ou fração, a partir de **21/10/2026**, calculada sobre o total de impostos e contribuições do período, ainda que já pagos. **Limite:** 20 % do tributo apurado.
+
+**Mínimo:** R$ 50,00 por mês de referência (§ 2º) — prevalece se o cálculo percentual resultar em valor inferior.
+
+**Redução pela espontaneidade (§ 3º, I):** se o PGDAS-D for transmitido após o prazo mas **antes de qualquer procedimento de ofício**, a multa é **reduzida à metade** → passa a 1 % por mês-calendário ou fração, com teto efetivo de 10 %; o mínimo de R$ 50,00 permanece (§ 3º determina a redução "observado o § 2º").
+
+| Situação | Taxa mensal | Teto | Mínimo |
+|---|---|---|---|
+| Entrega espontânea fora do prazo | 1 % / mês ou fração | 10 % | R$ 50,00/mês de referência |
+| Entrega após início de procedimento de ofício | 2 % / mês ou fração | 20 % | R$ 50,00/mês de referência |
+
+**Exemplo:** PGDAS-D de setembro/2026 transmitido em 05/11/2026 (espontaneamente), tributo apurado R$ 8.000,00:
+- Fração de atraso: 1 mês-calendário (outubro/2026 = 1 fração)
+- Multa = 1 % × R$ 8.000 = R$ 80,00 (> R$ 50; não aplica o mínimo)
+
+---
+
+### 4.2 Multa de mora por atraso no pagamento do DAS — Lei 9.430/1996, art. 61
+
+**Multa de mora:** 0,33 % por dia de atraso, a partir de **21/10/2026** (1º dia subsequente ao vencimento), **limitada a 20 %**.
+- O teto de 20 % é atingido após **≈ 61 dias** de atraso (20/0,33 ≈ 60,6 dias), ou seja, por volta de **19/12/2026**.
+
+**Juros de mora (Selic + 1 %):**
+- Taxa Selic acumulada **a partir de 1º/11/2026** (1º dia do mês seguinte ao vencimento) até o **mês anterior** ao do pagamento;
+- **+ 1 %** no **mês do pagamento**.
+
+| Componente | Conta |
+|---|---|
+| Multa de mora | 0,33 % × dias de atraso (máx. 20 %) |
+| Juros — competência | Selic acumulada de nov/2026 até mês anterior ao pagamento |
+| Juros — mês do pagamento | 1 % fixo |
+
+> **Situação atual (10/10/2026):** o vencimento ainda não ocorreu; nenhuma das multas acima está em curso.
+
+--- Você:
+Duas dúvidas sobre setembro: se eu entregar o PGDAS-D de setembro no dia 22, qual a multa? E se eu pagar o DAS dois dias depois?
+--- IA:
+## Multas — Setembro/2026
+
+**Referência:** vencimento do PGDAS-D e do DAS = **20/10/2026**
+
+---
+
+### 1. PGDAS-D entregue em 22/10/2026
+
+**Atraso:** 2 dias corridos, mas a unidade de medida da multa é o **mês-calendário ou fração** → conta **1 fração**.
+
+**Cálculo passo a passo:**
+
+| Etapa | Regra | Resultado |
+|---|---|---|
+| Taxa cheia | 2 % × 1 fração | 2 % do DAS |
+| Redução pela espontaneidade (art. 38-A, § 3º, I) | ÷ 2 (entregue antes de qualquer procedimento de ofício) | **1 % do DAS** |
+| Mínimo legal (§ 2º) | R$ 50,00 por mês de referência | aplica se 1 % < R$ 50 |
+
+$$\text{Multa PGDAS-D} = \max\!\bigl(\text{DAS}_{\text{set}} \times 1\%\;;\; \text{R\$ }50{,}00\bigr)$$
+
+> O mínimo de R$ 50 prevalece sempre porque o § 3º determina a redução à metade "observado o § 2º" — ou seja, o piso não é cortado junto.
+
+---
+
+### 2. DAS pago em 24/10/2026
+
+**Atraso:** a multa de mora flui **a partir do 1º dia subsequente ao vencimento** (§ 1º), portanto de 21/10 a 24/10 = **4 dias**.
+
+#### Multa de mora (art. 61, *caput* e § 1º)
+
+$$\text{Multa de mora} = \text{DAS}_{\text{set}} \times 0{,}33\% \times 4 = \text{DAS}_{\text{set}} \times \mathbf{1{,}32\%}$$
+
+Teto de 20 % (§ 2º): não atingido (1,32 % ≪ 20 %).
+
+#### Juros de mora (§ 3º)
+
+A Selic corre **"a partir do 1º dia do mês subsequente ao vencimento"**, que seria **01/11/2026**. Como o pagamento ocorre em **24/10/2026** — ainda dentro do mês do vencimento, antes de novembro começar —, o período de Selic é **nulo**.
+
+$$\text{Juros} = \mathbf{0}$$
+
+#### Total dos acréscimos no DAS
+
+$$\text{Acréscimo total} = \text{DAS}_{\text{set}} \times 1{,}32\%$$
+
+---
+
+### Resumo das duas multas
+
+| Obrigação | Prazo | Cumprimento | Cálculo | Obs. |
+|---|---|---|---|---|
+| PGDAS-D | 20/10 | 22/10 (+2 dias) | max(DAS × **1 %** ; **R$ 50**) | 1 fração; espontânea |
+| DAS | 20/10 | 24/10 (+4 dias) | DAS × **1,32 %** | sem juros (ainda em outubro) |
+
+> Se o DAS de algum cliente for inferior a **R$ 5.000**, o mínimo de R$ 50 sobrepõe o percentual de 1 % na multa do PGDAS-D. Para os clientes maiores (p. ex. os que têm RBT12 acima de R$ 1 milhão e receita mensal relevante), o 1 % tende a superar R$ 50 com folga.
+
+### 2026-10-10 00:07 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Qual o anexo e a alíquota efetiva do Simples de cada cliente abaixo? Monte a planilha com a fórmula, não me dê o número de cabeça; mostre RBT12, faixa, alíquota nominal, parcela a deduzir e a efetiva. Use as tabelas e as regras coladas abaixo e aplique cada parte delas como está escrita, inclusive nas multas.
+
+Os dez clientes (todos do Simples Nacional; período de apuração setembro de 2026; RBT12 = receita bruta dos 12 meses anteriores):
+1. Comércio de calçados. RBT12 R$ 180.000,00.
+2. Comércio de materiais elétricos. RBT12 R$ 1.250.000,00.
+3. Fabricação de móveis. RBT12 R$ 420.000,00.
+4. Manutenção e reparo de máquinas industriais. RBT12 R$ 500.000,00.
+5. Serviços de engenharia. RBT12 R$ 900.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 250.200,00.
+6. Serviços de engenharia. RBT12 R$ 900.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 254.700,00.
+7. Escritório de serviços contábeis. RBT12 R$ 300.000,00. Folha dos últimos 12 meses: R$ 45.000,00.
+8. Serviços de limpeza e conservação. RBT12 R$ 2.400.000,00.
+9. Consultoria em gestão empresarial. RBT12 R$ 600.000,00. Nos últimos 12 meses: salários R$ 120.000,00; pró-labore dos sócios R$ 48.000,00; FGTS R$ 9.600,00.
+10. Desenvolvimento de programas de computador sob encomenda. RBT12 R$ 3.000.000,00. Folha dos últimos 12 meses (salários, pró-labore e FGTS): R$ 900.000,00.
+
+As tabelas da LC 123/2006 vigentes em 2026 (Anexos I a V, faixa | receita bruta em 12 meses | alíquota nominal | parcela a deduzir):
+ANEXO I (Comércio): 1ª até 180.000,00 | 4,00% | 0 — 2ª de 180.000,01 a 360.000,00 | 7,30% | 5.940,00 — 3ª de 360.000,01 a 720.000,00 | 9,50% | 13.860,00 — 4ª de 720.000,01 a 1.800.000,00 | 10,70% | 22.500,00 — 5ª de 1.800.000,01 a 3.600.000,00 | 14,30% | 87.300,00 — 6ª de 3.600.000,01 a 4.800.000,00 | 19,00% | 378.000,00
+ANEXO II (Indústria): 1ª 4,50% | 0 — 2ª 7,80% | 5.940,00 — 3ª 10,00% | 13.860,00 — 4ª 11,20% | 22.500,00 — 5ª 14,70% | 85.500,00 — 6ª 30,00% | 720.000,00
+ANEXO III (serviços do § 5º-B e outros fora do § 5º-C): 1ª 6,00% | 0 — 2ª 11,20% | 9.360,00 — 3ª 13,50% | 17.640,00 — 4ª 16,00% | 35.640,00 — 5ª 21,00% | 125.640,00 — 6ª 33,00% | 648.000,00
+ANEXO IV (serviços do § 5º-C): 1ª 4,50% | 0 — 2ª 9,00% | 8.100,00 — 3ª 10,20% | 12.420,00 — 4ª 14,00% | 39.780,00 — 5ª 22,00% | 183.780,00 — 6ª 33,00% | 828.000,00
+ANEXO V (serviços do § 5º-I): 1ª 15,50% | 0 — 2ª 18,00% | 4.500,00 — 3ª 19,50% | 9.900,00 — 4ª 20,50% | 17.100,00 — 5ª 23,00% | 62.100,00 — 6ª 30,50% | 540.000,00
+(As faixas dos Anexos II a V são as mesmas do Anexo I.)
+Fórmula (art. 18, § 1º-A): alíquota efetiva = (RBT12 × Aliq − PD) ÷ RBT12.
+Fator R (art. 18, § 5º-J): os serviços do § 5º-I "serão tributadas na forma do Anexo III desta Lei Complementar caso a razão entre a folha de salários e a receita bruta da pessoa jurídica seja igual ou superior a 28% (vinte e oito por cento)". § 24: "considera-se folha de salários, incluídos encargos, o montante pago, nos doze meses anteriores ao período de apuração, a título de remunerações a pessoas físicas decorrentes do trabalho, acrescido do montante efetivamente recolhido a título de contribuição patronal previdenciária e FGTS, incluídas as retiradas de pró-labore."
+As multas:
+- PGDAS-D (LC 123, art. 38-A, I): "de 2% (dois por cento) ao mês-calendário ou fração, a partir do dia seguinte ao término do prazo originalmente fixado para a entrega da declaração, incidentes sobre o montante dos impostos e contribuições decorrentes das informações prestadas [...], ainda que integralmente pago, [...] limitada a 20% (vinte por cento)". § 2º: "A multa mínima a ser aplicada será de R$ 50,00 (cinquenta reais) para cada mês de referência." § 3º: "Observado o disposto no § 2º, as multas serão reduzidas: I - à metade, quando a declaração for apresentada após o prazo, mas antes de qualquer procedimento de ofício".
+- Pagamento em atraso (Lei 9.430/1996, art. 61): "multa de mora, calculada à taxa de trinta e três centésimos por cento, por dia de atraso"; § 1º: "a partir do primeiro dia subseqüente ao do vencimento"; § 2º: "limitado a vinte por cento"; § 3º: "juros de mora calculados à taxa a que se refere o § 3º do art. 5º [Selic], a partir do primeiro dia do mês subseqüente ao vencimento do prazo até o mês anterior ao do pagamento e de um por cento no mês de pagamento".
+- O PGDAS-D e o DAS de setembro de 2026 vencem em 20/10/2026.
+
+Onde fica o escritório contábil (LC 123, art. 18, § 5º-B): "serão tributadas na forma do Anexo III desta Lei Complementar as seguintes atividades de prestação de serviços: [...] XIV - escritórios de serviços contábeis". O inciso XIV não está na lista do § 5º-M (os do § 5º-B que vão ao Anexo V com folha abaixo de 28% são só os incisos XVI, XVIII, XIX, XX e XXI).
+--- IA:
+# Simples Nacional – Set/2026: Enquadramento e Alíquota Efetiva
+
+---
+
+## 1 · Determinação do Anexo
+
+### Clientes sem Fator R
+
+| Nº | Atividade | Fundamento | Anexo |
+|---|---|---|---|
+| 1 | Comércio de calçados | Atividade comercial | **I** |
+| 2 | Comércio de materiais elétricos | Atividade comercial | **I** |
+| 3 | Fabricação de móveis | Atividade industrial | **II** |
+| 4 | Manutenção e reparo de máquinas industriais | § 5º-B, VI – "serviços de reparos e de manutenção em geral" → Anexo III; não consta dos incisos do § 5º-M, logo sem Fator R | **III** |
+| 7 | Escritório de serviços contábeis | § 5º-B, XIV → Anexo III; o inciso XIV **não** integra o rol do § 5º-M (somente XVI, XVIII, XIX, XX e XXI migram para o Anexo V), portanto o Fator R é indiferente | **III** |
+| 8 | Serviços de limpeza e conservação | § 5º-C – "limpeza, conservação ou zeladoria" → Anexo IV; sem Fator R | **IV** |
+
+> **Cliente 7 — nota complementar:** Fator R calculável = 45.000 ÷ 300.000 = **15,00%**, mas é irrelevante; o § 5º-B, XIV sempre vai ao Anexo III.
+
+---
+
+### Clientes com Fator R (§ 5º-I + § 5º-J)
+
+| Nº | Atividade | Composição da Folha 12 m (R$) | Total Folha (R$) | RBT12 (R$) | Fator R | ≥ 28%? | Anexo |
+|---|---|---|---|---|---|---|---|
+| 5 | Engenharia | salários + pró-labore + FGTS = 250.200,00 | 250.200,00 | 900.000,00 | 250.200 ÷ 900.000 = **27,80 %** | **Não** | **V** |
+| 6 | Engenharia | salários + pró-labore + FGTS = 254.700,00 | 254.700,00 | 900.000,00 | 254.700 ÷ 900.000 = **28,30 %** | **Sim** | **III** |
+| 9 | Consultoria em gestão | sal. 120.000 + pró-lab. 48.000 + FGTS 9.600 | **177.600,00** | 600.000,00 | 177.600 ÷ 600.000 = **29,60 %** | **Sim** | **III** |
+| 10 | Desenv. de software sob encomenda | salários + pró-labore + FGTS = 900.000,00 | 900.000,00 | 3.000.000,00 | 900.000 ÷ 3.000.000 = **30,00 %** | **Sim** | **III** |
+
+---
+
+## 2 · Planilha – Alíquota Efetiva
+
+**Fórmula (art. 18, § 1º-A):**
+$$\text{Alíquota efetiva} = \frac{RBT12 \times \text{Alíq. Nominal} - \text{Parcela Deduzir}}{RBT12}$$
+
+| Nº | Atividade | Anexo | RBT12 (R$) | Faixa | Alíq. Nominal | Parcela Deduzir (R$) | RBT12 × Alíq. (R$) | − PD (R$) | Numerador (R$) | **Alíq. Efetiva** |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Comércio de calçados | I | 180.000,00 | 1ª | 4,00 % | 0,00 | 7.200,00 | 0,00 | 7.200,00 | **4,0000 %** |
+| 2 | Comércio de mat. elétricos | I | 1.250.000,00 | 4ª | 10,70 % | 22.500,00 | 133.750,00 | 22.500,00 | 111.250,00 | **8,9000 %** |
+| 3 | Fabricação de móveis | II | 420.000,00 | 3ª | 10,00 % | 13.860,00 | 42.000,00 | 13.860,00 | 28.140,00 | **6,7000 %** |
+| 4 | Manut./reparo de máquinas | III | 500.000,00 | 3ª | 13,50 % | 17.640,00 | 67.500,00 | 17.640,00 | 49.860,00 | **9,9720 %** |
+| 5 | Engenharia (F.R. 27,80 %) | V | 900.000,00 | 4ª | 20,50 % | 17.100,00 | 184.500,00 | 17.100,00 | 167.400,00 | **18,6000 %** |
+| 6 | Engenharia (F.R. 28,30 %) | III | 900.000,00 | 4ª | 16,00 % | 35.640,00 | 144.000,00 | 35.640,00 | 108.360,00 | **12,0400 %** |
+| 7 | Escritório contábil | III | 300.000,00 | 2ª | 11,20 % | 9.360,00 | 33.600,00 | 9.360,00 | 24.240,00 | **8,0800 %** |
+| 8 | Limpeza e conservação | IV | 2.400.000,00 | 5ª | 22,00 % | 183.780,00 | 528.000,00 | 183.780,00 | 344.220,00 | **14,3425 %** |
+| 9 | Consultoria em gestão (F.R. 29,60 %) | III | 600.000,00 | 3ª | 13,50 % | 17.640,00 | 81.000,00 | 17.640,00 | 63.360,00 | **10,5600 %** |
+| 10 | Desenv. de software (F.R. 30,00 %) | III | 3.000.000,00 | 5ª | 21,00 % | 125.640,00 | 630.000,00 | 125.640,00 | 504.360,00 | **16,8120 %** |
+
+---
+
+## 3 · Regras de Multa Aplicáveis ao Período
+
+**Vencimento do PGDAS-D e do DAS de set/2026: 20/10/2026.**
+
+### A) Atraso na entrega do PGDAS-D (LC 123, art. 38-A, I)
+- **Base de cálculo:** imposto apurado na declaração.
+- **Taxa:** 2 % ao mês-calendário ou fração, a partir de **21/10/2026**.
+- **Teto:** 20 % (equivalente a 10 meses).
+- **Piso:** R$ 50,00 por mês de referência (§ 2º).
+- **Redução espontânea:** as multas são reduzidas à metade quando a declaração for entregue após o prazo, mas antes de qualquer procedimento de ofício (§ 3º, I) — ou seja, sobre o 2 % por mês aplica-se 50 % de desconto.
+
+### B) Pagamento em atraso do DAS (Lei 9.430/1996, art. 61)
+- **Multa de mora:** 0,33 % por dia de atraso a partir de **21/10/2026**, **limitada a 20 %** (§§ 1º e 2º).
+- **Juros Selic:** a partir do 1º dia do mês seguinte ao vencimento (novembro/2026) até o mês anterior ao do pagamento; **+ 1 %** no próprio mês do pagamento (§ 3º).
+
+> Nenhum dos dez clientes tem situação de atraso descrita no enunciado. As regras acima passarão a incidir caso o PGDAS-D ou o DAS de set/2026 não sejam entregues/pagos até **20/10/2026**.
+
+--- Você:
+Duas dúvidas sobre setembro: se eu entregar o PGDAS-D de setembro no dia 22, qual a multa? E se eu pagar o DAS dois dias depois?
+--- IA:
+# Penalidades – PGDAS-D entregue em 22/10 e DAS pago em 24/10
+
+## Cenário assumido
+
+| Evento | Data | Dias após o vencimento (20/10) |
+|---|---|---|
+| Entrega do PGDAS-D | 22/10/2026 | 2 dias |
+| Pagamento do DAS | 24/10/2026 | 4 dias |
+
+---
+
+## 1 · Multa por atraso na entrega do PGDAS-D (LC 123, art. 38-A, I)
+
+**Frações de mês-calendário:**
+O prazo era 20/10; o primeiro dia de atraso é 21/10; a entrega ocorre em 22/10. Os dias 21 e 22 de outubro estão **dentro do mesmo mês-calendário** → **1 fração**.
+
+**Meses de referência:** setembro/2026 → **1 mês**
+
+| Passo | Regra | Resultado |
+|---|---|---|
+| ① Multa bruta | 2% × 1 fração × DAS\_set | 2,00% × DAS\_set |
+| ② Mínimo — § 2º | R$ 50,00 por mês de referência | max(2% × DAS\_set ; R$ 50,00) |
+| ③ Redução espontânea — § 3º, I, "observado o disposto no § 2º" | × 50%; piso de R$ 50,00 preservado após a redução | **max(1% × DAS\_set ; R$ 50,00)** |
+
+> "Observado o disposto no § 2º" significa que o piso de R$ 50,00 continua valendo mesmo depois de aplicada a redução pela metade.
+
+**Multa PGDAS-D = max(1% × DAS\_set ; R$ 50,00)**
+
+- DAS\_set **≥ R$ 5.000** → multa = 1% × DAS\_set
+- DAS\_set **< R$ 5.000** → multa = R$ 50,00 (piso)
+
+---
+
+## 2 · Multa de mora e juros pelo pagamento em atraso do DAS (Lei 9.430/1996, art. 61)
+
+**Vencimento:** 20/10/2026 | **Pagamento:** 24/10/2026
+
+Primeiro dia de atraso: 21/10 → dias computados: **21, 22, 23 e 24/10 = 4 dias**
+
+### Multa de mora (art. 61, §§ 1º e 2º)
+
+**0,33% × 4 dias = 1,32% × DAS\_set** *(limite de 20% não atingido)*
+
+### Juros Selic (art. 61, § 3º)
+
+| Componente | Período | Situação em 24/10 |
+|---|---|---|
+| Selic acumulada | Do 1º dia do mês seguinte ao vencimento (01/11/2026) até o mês anterior ao do pagamento | Pagamento é em outubro → não existe nenhum mês completo de Selic |
+| 1% no mês do pagamento | Outubro/2026 | Outubro é anterior ao início do período de Selic (01/11); o 1% entra em cena apenas quando a Selic já estiver correndo |
+| **Juros totais** | | **R$ 0,00** |
+
+> Se o DAS escorregasse para **novembro**, incidiria: Selic de novembro + 1% (mês do pagamento). A partir de dezembro: Selic acumulada de novembro + Selic de dezembro + 1%, e assim por diante.
+
+---
+
+## Resumo
+
+| Penalidade | Base legal | Fórmula | DAS\_set ≥ R$ 5.000 | DAS\_set < R$ 5.000 |
+|---|---|---|---|---|
+| Multa PGDAS-D (entrega 22/10, espontânea) | LC 123, art. 38-A, I + §§ 2º e 3º, I | max(1% × DAS\_set ; R$ 50,00) | 1% × DAS\_set | **R$ 50,00** |
+| Multa de mora DAS (pagto. 24/10) | Lei 9.430/96, art. 61 | 0,33% × 4 dias | **1,32%** × DAS\_set | **1,32%** × DAS\_set |
+| Juros Selic DAS | Lei 9.430/96, art. 61, § 3º | — | **R$ 0** (pago em out/26) | **R$ 0** (pago em out/26) |
+
+As duas multas são **independentes** (uma por atraso na declaração, outra por atraso no pagamento) e **se somam** ao valor do DAS a recolher. Para apurar o valor em reais de cada cliente basta aplicar as percentagens ao DAS de setembro, que por sua vez é a receita de setembro × a alíquota efetiva calculada na planilha anterior.
+

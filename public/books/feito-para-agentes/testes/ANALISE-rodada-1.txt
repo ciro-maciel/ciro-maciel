@@ -1,0 +1,63 @@
+Feito para agentes (O Novo Básico, vol. 11)
+A análise da rodada 1 dos testes, como está no livro.
+
+# Rodada 1 dos testes: ferramentas, descrições e erros (01/11/2026)
+
+**O que se testou.** O mesmo pedido, 10 vezes, contra duas versões das mesmas ferramentas de um produto de teste: a
+página de pedidos da confeitaria da Teresinha (a cena do volume 10), com 63 pedidos e 30 clientes, refeita do zero a
+cada conversa. O agente é o Claude Haiku 5.5 (`claude-haiku-5-5`), pela API de mensagens com uso de ferramentas, com a
+chave do Ciro. O roteiro é `rodar.ts`; cada conversa está inteira em `resultados/<experimento>/<versão>-<n>.json`.
+
+**Como se conta.** *Acertou*: o estado final do produto, ou a resposta, é o que a tarefa pedia (a conferência de cada
+experimento está no roteiro). *Desistiu*: não mudou nada e devolveu a tarefa à pessoa. *Errou*: mudou o que não devia.
+*Travou*: passou de 10 rodadas ou do teto de resposta. Também se contam as chamadas de ferramenta e os tokens de
+entrada, que são o custo.
+
+## Os números
+
+| Experimento | Versão | Acertou | Desistiu | Chamadas por tarefa | Tokens de entrada por tarefa |
+|---|---|---|---|---|---|
+| **1. A ferramenta da tarefa** (capítulo 5) | a: `list_orders` devolve tudo, com identificadores crípticos, e `get_customer` por id | 10 de 10 | 0 | 13,2 | 16.720 |
+| | b: `orders_search` pelo nome e pela data, com nomes legíveis | 10 de 10 | 0 | 1 | 1.381 |
+| **2. A descrição** (capítulo 5) | a: "Busca." e "Cancela.", parâmetros `q` e `id` sem explicação | 10 de 10 | 0 | 3,5 | 3.378 |
+| | b: a descrição diz o que devolve, de onde vem o id e que cancela só um | 10 de 10 | 0 | 2 | 2.892 |
+| **3. A mensagem de erro, com caminho** (capítulo 6) | a: "Pedido não encontrado." | 10 de 10 | 0 | 3 | 13.503 |
+| | b: o erro diz que o campo pede o id e como achá-lo | 10 de 10 | 0 | 3 | 13.383 |
+| **4. O caminho do número ao id** (capítulo 5) | a: só a busca pelo nome; anotar pede o id | 0 de 10 | **10** | 1 | 1.306 |
+| | b: mais uma ferramenta que acha o pedido pelo número | 10 de 10 | 0 | 2 | 2.765 |
+
+## O que os números dizem
+
+1. **A ferramenta que embrulha a API acerta, mas custa 12 vezes mais** (experimento 1). As duas versões responderam
+   certo; a que devolve tudo com identificadores crípticos fez o agente buscar cliente por cliente: 13 chamadas e 16.720
+   tokens por tarefa, contra 1 chamada e 1.381 tokens. Numa conversa de verdade, é a diferença entre caber e não caber
+   no contexto; no primeiro ensaio, com teto de resposta de 1.024 tokens, o agente parou no meio da busca.
+2. **Sem caminho, o agente desiste e devolve a tarefa** (experimento 4). A pessoa disse o número do pedido; a ferramenta
+   de anotar pedia o id; nenhuma ferramenta levava de um ao outro. O agente desistiu nas 10 vezes, e em 3 delas sugeriu
+   à pessoa "um erro de digitação no número", sem que houvesse erro nenhum. Com uma ferramenta que acha o pedido pelo
+   número, acertou nas 10.
+3. **O erro que ensina não salva a ferramenta que falta** (experimentos 3 e 4). Quando existia um caminho (a busca sem
+   filtro devolvia o número e o id), o agente se recuperou até do erro fraco: 10 de 10 nas duas versões, com o mesmo
+   custo. Quando não existia, nenhuma frase de erro poderia levá-lo ao id. Para este modelo, nesta tarefa, o que decidiu
+   foi a ferramenta, não a frase.
+4. **A descrição pobre custou o dobro de chamadas, não o acerto** (experimento 2). Com "Busca." e "Cancela.", o agente
+   acertou nas 10, mas sondou mais antes de agir (3,5 chamadas contra 2).
+
+## O que esta rodada não mostra
+
+- é um modelo só (Haiku 5.5) e um produto de teste pequeno; modelo maior ou menor, ou produto maior, pode dar outro
+  número; a forma (custo maior na ferramenta que embrulha, desistência sem caminho) é a que os estudos publicados também
+  descrevem (`../contexto-ia.md` §3 e §6);
+- 10 conversas por versão bastam para diferenças de 0 contra 10, não para diferenças pequenas;
+- as tarefas são curtas e claras; nos testes publicados, com tarefas longas, o melhor modelo acerta cerca de metade
+  (`../contexto-ia.md` §6). Uma rodada com tarefa longa fica para a rodada 2;
+- a desistência do experimento 4 é a reação certa a uma ferramenta sem caminho: o agente não inventou um id. O defeito
+  é do produto, não do agente.
+
+## Para o livro
+
+- Capítulo 5: o experimento 1 (o custo da ferramenta que embrulha) e o 4 (o caminho do que a pessoa diz ao que a
+  ferramenta pede), com a frase "o erro que ensina não salva a ferramenta que falta".
+- Capítulo 6: o experimento 3, dito como é: com caminho, o Haiku se recuperou do erro fraco; o erro que ensina continua
+  sendo o certo (a especificação pede), mas não é ele que salva o produto.
+- Capítulo 11: o próprio roteiro, como o modelo do teste que o leitor monta para o produto dele.

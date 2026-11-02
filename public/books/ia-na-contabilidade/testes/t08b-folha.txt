@@ -1,0 +1,862 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t08b, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-13 09:23 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Calcula a folha de setembro deste cliente: o INSS e o IRRF de cada empregado e o líquido. Use as tabelas, a convenção, as regras e as datas coladas abaixo. Separe a data de pagar da data de declarar; faça o INSS por faixa e mostre a conta.
+
+Cliente: Comercial Tamboril do Sul Ltda. (comércio varejista, Simples Nacional, Anexo I), com movimento. Competência: setembro de 2026. Nenhum empregado tem dependente.
+
+1) Joelma Prates: salário R$ 3.000,00. Fez 10 horas extras com adicional de 50% em setembro (faz horas extras todo mês). Valor da hora normal no sistema: R$ 13,64.
+2) Raimundo Teles: salário R$ 2.200,00. Duas faltas sem justificativa: 16/09 (quarta-feira) e 24/09 (quinta-feira), em semanas diferentes.
+3) Sueli Barcante: salário R$ 2.800,00 + adicional de periculosidade de R$ 840,00 (30%, pelo laudo; valor já calculado pelo sistema).
+4) Diego Arruda: salário R$ 1.621,00.
+5) Tainá Corso: salário R$ 1.621,00.
+
+Setembro de 2026 teve 25 dias úteis e 5 domingos e feriados (contagem da empresa).
+
+Convenção coletiva do cliente (trecho): horas extras com adicional de 50%; divisor 220; nenhuma outra verba mensal obrigatória.
+
+Tabela do INSS do empregado, a partir da competência janeiro de 2026 (Portaria Interministerial MPS/MF nº 13/2026, Anexo II), alíquotas progressivas, cada uma só sobre a parte do salário dentro da faixa:
+até 1.621,00: 7,5%
+de 1.621,01 até 2.902,84: 9%
+de 2.902,85 até 4.354,27: 12%
+de 4.354,28 até 8.475,55: 14%
+
+IRRF mensal a partir de janeiro de 2026 (Receita Federal, Tributação de 2026):
+até 2.428,80: isento
+de 2.428,81 até 2.826,65: 7,5%, dedução 182,16
+de 2.826,66 até 3.751,05: 15%, dedução 394,16
+de 3.751,06 até 4.664,68: 22,5%, dedução 675,49
+acima de 4.664,68: 27,5%, dedução 908,73
+Dedução por dependente: 189,59. Desconto simplificado mensal: 607,20.
+Redução do imposto mensal (Lei 9.250, art. 3º-A, incluído pela Lei 15.270/2025): rendimentos tributáveis até R$ 5.000,00: redução até R$ 312,89, de modo que o imposto devido seja zero; de R$ 5.000,01 até R$ 7.350,00: R$ 978,62 - (0,133145 x rendimentos tributáveis); acima de R$ 7.350,00: sem redução.
+
+Recorte das datas de outubro de 2026:
+- Salário: até o quinto dia útil do mês subsequente ao vencido (CLT, art. 459, § 1º).
+- eSocial, eventos da folha: até o dia 15 do mês seguinte (Manual de Orientação do eSocial): 15/10/2026.
+- FGTS: até o vigésimo dia de cada mês (Lei 8.036, art. 15): 20/10/2026.
+- Agenda Tributária, 20/10/2026: código 1082, contribuição previdenciária descontada de segurados empregados, período de apuração 09/2026, DARF, declarada na DCTFWeb; código 0561, IRRF trabalho assalariado, DARF, declarado na DCTFWeb.
+- DCTFWeb mensal: até o último dia útil do mês seguinte (IN RFB 2.237, art. 6º, na redação da IN 2.248/2025): 30/10/2026.
+- DSR: na remuneração do repouso semanal entram "as horas extraordinárias habitualmente prestadas" (Lei 605/1949, art. 7º, a).
+- Multa da DCTFWeb entregue em atraso: "2% (dois por cento) ao mês-calendário ou fração, incidente sobre o montante dos tributos informados na DCTFWeb, ainda que integralmente pagos [...] limitada a 20%" (IN RFB 2.237/2024, art. 11, I); mínimo de "R$ 200,00 (duzentos reais), no caso de omissão ou de atraso na entrega de declaração sem movimento" e "R$ 500,00 (quinhentos reais), nos demais casos" (§ 3º); os mínimos são "reduzidos em: I 90% (noventa por cento), para o MEI; e II 50% (cinquenta por cento), para a microempresa ou empresa de pequeno porte optante pelo Simples Nacional" (§ 5º).
+--- IA:
+[Nota de 13/10/2026: o claude -p imprimiu só o fim desta resposta. A resposta bateu no teto de saída (32.000 tokens, quase todos de pensamento) e foi continuada; a primeira parte do texto, abaixo até a linha "[continuação]", foi copiada sem mudança do registro da sessão (arquivo .jsonl do claude, mensagem com stop_reason max_tokens).]
+# FOLHA DE PAGAMENTO — SETEMBRO/2026
+## Comercial Tamboril do Sul Ltda. | Simples Nacional – Comércio Varejista
+
+> **Parâmetros gerais:** setembro/2026 = **25 dias úteis** | **5 domingos e feriados** (DSR) | divisor convencional: **220** | sem dependentes.
+
+---
+
+## 1 · JOELMA PRATES
+
+### Verbas
+
+| Verba | Cálculo | Valor |
+|---|---|---|
+| Salário-base | — | R$ 3.000,00 |
+| Horas extras (10 h × 50%) | 10 × R$ 13,64 × 1,50 | R$ 204,60 |
+| Reflexo DSR s/ HE habituais¹ | R$ 204,60 ÷ 25 × 5 | R$ 40,92 |
+| **Remuneração bruta** | | **R$ 3.245,52** |
+
+¹ Joelma faz HE todo mês → são habituais → integram o DSR (Lei 605/1949, art. 7º, *a*).
+Fórmula: total de HE ÷ dias úteis do mês × dias de repouso/feriado.
+
+### INSS — cálculo por faixa
+
+| Faixa | Faixas da tabela | Base da faixa | Alíquota | Contribuição |
+|---|---|---|---|---|
+| 1ª | até R$ 1.621,00 | R$ 1.621,00 | 7,5 % | R$ 121,5750 |
+| 2ª | R$ 1.621,01 – R$ 2.902,84 | R$ 1.281,84 | 9 % | R$ 115,3656 |
+| 3ª | R$ 2.902,85 – R$ 3.245,52 | R$ 342,68 | 12 % | R$ 41,1216 |
+| **Total** | | | | **R$ 278,06** |
+
+*(soma exata: R$ 278,0622 → arredondamento: R$ 278,06)*
+
+### IRRF
+
+| Etapa | Valor |
+|---|---|
+| Rendimentos tributáveis (bruto − INSS) | R$ 2.967,46 |
+| (−) Desconto simplificado mensal | R$ 607,20 |
+| **Base de cálculo do IRRF** | **R$ 2.360,26** |
+| Tabela: até R$ 2.428,80 → **isento** | **R$ 0,00** |
+
+*(Redundantemente: RT = R$ 2.967,46 ≤ R$ 5.000,00 → redução zeraria qualquer IRRF apurado)*
+
+### Resultado
+
+| | |
+|---|---|
+| Bruto | R$ 3.245,52 |
+| (−) INSS | R$ 278,06 |
+| (−) IRRF | R$ 0,00 |
+| **Líquido** | **R$ 2.967,46** |
+
+---
+
+## 2 · RAIMUNDO TELES
+
+### Calendário e reflexo das faltas
+
+Setembro/2026: 1º = terça-feira → semanas (seg.–dom.):
+
+| Falta | Data | Dia | Semana | DSR da semana | DSR perdido |
+|---|---|---|---|---|---|
+| 1ª | 16/09 | Quarta | 14/09–20/09 | 20/09 (dom.) | ✓ |
+| 2ª | 24/09 | Quinta | 21/09–27/09 | 27/09 (dom.) | ✓ |
+
+**Dias a descontar:** 2 faltas + 2 DSR perdidos = **4 dias** (Lei 605/1949, art. 6º, parágrafo único).
+
+### Verbas
+
+| Verba | Cálculo | Valor |
+|---|---|---|
+| Salário integral | — | R$ 2.200,00 |
+| (−) Desconto faltas | 2 × R$ 2.200,00 / 30 | R$ (146,67) |
+| (−) Desconto DSR perdido | 2 × R$ 2.200,00 / 30 | R$ (146,67) |
+| **Remuneração bruta** | R$ 2.200,00 × 26/30 | **R$ 1.906,67** |
+
+### INSS — cálculo por faixa
+
+| Faixa | Faixas da tabela | Base da faixa | Alíquota | Contribuição |
+|---|---|---|---|---|
+| 1ª | até R$ 1.621,00 | R$ 1.621,00 | 7,5 % | R$ 121,5750 |
+| 2ª | R$ 1.621,01 – R$ 1.906,67 | R$ 285,67 | 9 % | R$ 25,7103 |
+| **Total** | | | | **R$ 147,29** |
+
+*(soma exata: R$ 147,2853 → R$ 147,29)*
+
+### IRRF
+
+| Etapa | Valor |
+|---|---|
+| Rendimentos tributáveis (bruto − INSS) | R$ 1.759,38 |
+| (−) Desconto simplificado mensal | R$ 607,20 |
+| Base de cálculo | R$ 1.152,18 |
+| Tabela: até R$ 2.428,80 → **isento** | **R$ 0,00** |
+
+### Resultado
+
+| | |
+|---|---|
+| Bruto (após descontos de faltas/DSR) | R$ 1.906,67 
+[continuação]
+| (−) INSS | R$ 147,29 |
+| (−) IRRF | R$ 0,00 |
+| **Líquido** | **R$ 1.759,38** |
+
+---
+
+## 3 · SUELI BARCANTE
+
+### Verbas
+
+| Verba | Valor |
+|---|---|
+| Salário-base | R$ 2.800,00 |
+| Adicional de periculosidade (30% — laudo) | R$ 840,00 |
+| **Remuneração bruta** | **R$ 3.640,00** |
+
+### INSS — cálculo por faixa
+
+| Faixa | Faixas da tabela | Base da faixa | Alíquota | Contribuição |
+|---|---|---|---|---|
+| 1ª | até R$ 1.621,00 | R$ 1.621,00 | 7,5 % | R$ 121,5750 |
+| 2ª | R$ 1.621,01 – R$ 2.902,84 | R$ 1.281,84 | 9 % | R$ 115,3656 |
+| 3ª | R$ 2.902,85 – R$ 3.640,00 | R$ 737,16 | 12 % | R$ 88,4592 |
+| **Total** | | | | **R$ 325,40** |
+
+*(soma exata: R$ 325,3998 → R$ 325,40)*
+
+### IRRF
+
+| Etapa | Valor |
+|---|---|
+| Rendimentos tributáveis — RT (bruto − INSS) | R$ 3.314,60 |
+| (−) Desconto simplificado mensal | R$ 607,20 |
+| **Base de cálculo** | **R$ 2.707,40** |
+| Faixa: R$ 2.428,81–R$ 2.826,65 → 7,5% − R$ 182,16 | |
+| R$ 2.707,40 × 7,5% − R$ 182,16 = R$ 203,06 − R$ 182,16 | R$ 20,90 |
+| **Redução** (RT = R$ 3.314,60 ≤ R$ 5.000,00 → redução até R$ 312,89, imposto = zero) | R$ (20,90) |
+| **IRRF devido** | **R$ 0,00** |
+
+### Resultado
+
+| | |
+|---|---|
+| Bruto | R$ 3.640,00 |
+| (−) INSS | R$ 325,40 |
+| (−) IRRF | R$ 0,00 |
+| **Líquido** | **R$ 3.314,60** |
+
+---
+
+## 4 · DIEGO ARRUDA
+
+### INSS — cálculo por faixa
+
+Bruto = R$ 1.621,00 — fica inteiramente na 1ª faixa (limite exato).
+
+| Faixa | Base da faixa | Alíquota | Contribuição |
+|---|---|---|---|
+| 1ª (até R$ 1.621,00) | R$ 1.621,00 | 7,5 % | **R$ 121,58** |
+
+*(R$ 121,5750 → R$ 121,58)*
+
+### IRRF
+
+RT = R$ 1.621,00 − R$ 121,58 = **R$ 1.499,42** → abaixo de R$ 2.428,80 → **isento. IRRF = R$ 0,00.**
+
+### Resultado
+
+| Bruto | INSS | IRRF | **Líquido** |
+|---|---|---|---|
+| R$ 1.621,00 | R$ 121,58 | R$ 0,00 | **R$ 1.499,42** |
+
+---
+
+## 5 · TAINÁ CORSO
+
+Situação idêntica à de Diego Arruda.
+
+### INSS — cálculo por faixa
+
+| Faixa | Base da faixa | Alíquota | Contribuição |
+|---|---|---|---|
+| 1ª (até R$ 1.621,00) | R$ 1.621,00 | 7,5 % | **R$ 121,58** |
+
+### IRRF
+
+RT = R$ 1.499,42 < R$ 2.428,80 → **isento. IRRF = R$ 0,00.**
+
+### Resultado
+
+| Bruto | INSS | IRRF | **Líquido** |
+|---|---|---|---|
+| R$ 1.621,00 | R$ 121,58 | R$ 0,00 | **R$ 1.499,42** |
+
+---
+
+## QUADRO RESUMO — Setembro/2026
+
+| Empregado | Bruto | INSS (empregado) | IRRF | Líquido |
+|---|---:|---:|---:|---:|
+| Joelma Prates | R$ 3.245,52 | R$ 278,06 | R$ 0,00 | R$ 2.967,46 |
+| Raimundo Teles | R$ 1.906,67 | R$ 147,29 | R$ 0,00 | R$ 1.759,38 |
+| Sueli Barcante | R$ 3.640,00 | R$ 325,40 | R$ 0,00 | R$ 3.314,60 |
+| Diego Arruda | R$ 1.621,00 | R$ 121,58 | R$ 0,00 | R$ 1.499,42 |
+| Tainá Corso | R$ 1.621,00 | R$ 121,58 | R$ 0,00 | R$ 1.499,42 |
+| **Totais** | **R$ 12.034,19** | **R$ 993,91** | **R$ 0,00** | **R$ 11.040,28** |
+
+> **Observação — Simples Nacional:** a cota patronal do INSS está incluída no DAS; não há DARF patronal separado. O DARF código 1082 abrange **somente** o INSS descontado dos empregados (R$ 993,91). O DARF código 0561 tem valor zero nesta competência; ainda assim a DCTFWeb deve ser entregue normalmente.
+
+---
+
+## DATAS — Competência Setembro/2026
+
+### Pagar
+
+| Obrigação | Base legal | Vencimento |
+|---|---|---|
+| **Salário** | CLT, art. 459, § 1º — 5º dia útil do mês seguinte¹ | **06/10/2026** |
+| **FGTS** | Lei 8.036, art. 15 — até o dia 20 | **20/10/2026** |
+| **DARF cód. 1082** — INSS descontado dos empregados, PA 09/2026 | Agenda Tributária | **20/10/2026** |
+| **DARF cód. 0561** — IRRF trabalho assalariado, PA 09/2026 | Agenda Tributária | **20/10/2026** (valor zero) |
+
+¹ Contagem do 5º dia útil de outubro: 1º/10 (qui) → 2º/10 (sex) → 3º/10 (sáb) → 5º/10 (seg, pois 4/10 = dom) → **6º/10 (ter)**.
+
+### Declarar
+
+| Obrigação | Base legal | Vencimento |
+|---|---|---|
+| **eSocial** S-1200/S-1210 (eventos de remuneração e pagamento) | Manual de Orientação do eSocial | **15/10/2026** |
+| **DCTFWeb** mensal | IN RFB 2.237, art. 6º (red. IN 2.248/2025) — último dia útil do mês seguinte | **30/10/2026** |
+
+> **Sequência prática:** transmitir os eventos do eSocial até 15/10 → DARF disponível para pagamento → quitar até 20/10 → fechar e transmitir a DCTFWeb até 30/10.
+
+---
+
+## NOTA — Multa por atraso na DCTFWeb
+
+A empresa é optante pelo Simples Nacional (ME/EPP), portanto os mínimos são reduzidos em 50% (IN RFB 2.237/2024, art. 11, § 5º, II):
+
+| Situação | Mínimo geral | Redução 50% | **Mínimo aplicável** |
+|---|---|---|---|
+| Com movimento (este caso) | R$ 500,00 | 50 % | **R$ 250,00** |
+| Sem movimento | R$ 200,00 | 50 % | R$ 100,00 |
+
+Além do mínimo, incide **2% ao mês-calendário ou fração** sobre o montante dos tributos informados na DCTFWeb, limitado a **20%** — prevalecendo o que for maior entre o percentual calculado e o mínimo de R$ 250,00.
+
+--- Você:
+Mais cinco perguntas do cliente:
+1. Até quando eu pago o salário de setembro?
+2. Quando vence o FGTS?
+3. Quando vence o INSS da folha e quando eu entrego a DCTFWeb?
+4. Qual é a multa mínima da DCTFWeb entregue com atraso por uma empresa do Simples com movimento?
+5. Por que a DCTFWeb deu valor diferente da guia que eu paguei?
+--- IA:
+**1. Até quando pago o salário de setembro?**
+Até **06/10/2026** (terça-feira) — 5º dia útil de outubro: 01/10 (qui), 02/10 (sex), 03/10 (sáb), 05/10 (seg), **06/10 (ter)**. Domingo não conta.
+
+---
+
+**2. Quando vence o FGTS?**
+Até **20/10/2026**.
+
+---
+
+**3. Quando vence o INSS da folha e quando entrego a DCTFWeb?**
+São datas diferentes — é exatamente essa separação que importa:
+
+| O quê | Data | Natureza |
+|---|---|---|
+| DARF cód. 1082 (INSS empregado, R$ 993,91) | **20/10/2026** | **Pagar** |
+| DCTFWeb mensal | **30/10/2026** | **Declarar** |
+
+Você paga o DARF antes de transmitir a DCTFWeb. A DCTFWeb do último dia útil do mês apenas homologa o que já foi recolhido.
+
+---
+
+**4. Qual é a multa mínima da DCTFWeb em atraso, Simples com movimento?**
+**R$ 250,00.** O mínimo geral é R$ 500,00; a empresa do Simples tem redução de 50%, chegando a R$ 250,00. Além do mínimo, incide 2% ao mês ou fração sobre o total de tributos informados, limitado a 20% — prevalece o maior valor entre o percentual e o mínimo.
+
+---
+
+**5. Por que a DCTFWeb deu valor diferente da guia que paguei?**
+A DCTFWeb é gerada automaticamente pela totalização do eSocial — ela não lê o DARF que você pagou, ela recalcula tudo a partir dos eventos transmitidos. As causas mais comuns de divergência são:
+
+- **Arredondamento por faixa vs. arredondamento do total do INSS.** Se o sistema que gerou o DARF arredondou cada faixa separadamente e o eSocial arredonda apenas o total, pode aparecer R$ 0,01 de diferença por empregado.
+- **Evento retificado no eSocial após o pagamento.** Qualquer S-1200 corrigido muda o valor totalizado na DCTFWeb.
+- **Competência errada no DARF.** O DARF foi pago com o código certo mas para outra competência — o sistema não cruza automaticamente.
+- **Verba esquecida ou incluída a mais.** Um afastamento, uma rescisão ou um 13º lançado no eSocial fora do prazo altera a base.
+
+**O que fazer:** compare o espelho da totalização do eSocial (S-5001/S-5003) com o demonstrativo que originou o DARF. Se a DCTFWeb for maior, emita DARF complementar antes de 30/10 para evitar multa e juros. Se for menor, o saldo fica como crédito para compensação.
+
+### 2026-10-13 09:31 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Calcula a folha de setembro deste cliente: o INSS e o IRRF de cada empregado e o líquido. Use as tabelas, a convenção, as regras e as datas coladas abaixo. Separe a data de pagar da data de declarar; faça o INSS por faixa e mostre a conta.
+
+Cliente: Comercial Tamboril do Sul Ltda. (comércio varejista, Simples Nacional, Anexo I), com movimento. Competência: setembro de 2026. Nenhum empregado tem dependente.
+
+1) Joelma Prates: salário R$ 3.000,00. Fez 10 horas extras com adicional de 50% em setembro (faz horas extras todo mês). Valor da hora normal no sistema: R$ 13,64.
+2) Raimundo Teles: salário R$ 2.200,00. Duas faltas sem justificativa: 16/09 (quarta-feira) e 24/09 (quinta-feira), em semanas diferentes.
+3) Sueli Barcante: salário R$ 2.800,00 + adicional de periculosidade de R$ 840,00 (30%, pelo laudo; valor já calculado pelo sistema).
+4) Diego Arruda: salário R$ 1.621,00.
+5) Tainá Corso: salário R$ 1.621,00.
+
+Setembro de 2026 teve 25 dias úteis e 5 domingos e feriados (contagem da empresa).
+
+Convenção coletiva do cliente (trecho): horas extras com adicional de 50%; divisor 220; nenhuma outra verba mensal obrigatória.
+
+Tabela do INSS do empregado, a partir da competência janeiro de 2026 (Portaria Interministerial MPS/MF nº 13/2026, Anexo II), alíquotas progressivas, cada uma só sobre a parte do salário dentro da faixa:
+até 1.621,00: 7,5%
+de 1.621,01 até 2.902,84: 9%
+de 2.902,85 até 4.354,27: 12%
+de 4.354,28 até 8.475,55: 14%
+
+IRRF mensal a partir de janeiro de 2026 (Receita Federal, Tributação de 2026):
+até 2.428,80: isento
+de 2.428,81 até 2.826,65: 7,5%, dedução 182,16
+de 2.826,66 até 3.751,05: 15%, dedução 394,16
+de 3.751,06 até 4.664,68: 22,5%, dedução 675,49
+acima de 4.664,68: 27,5%, dedução 908,73
+Dedução por dependente: 189,59. Desconto simplificado mensal: 607,20.
+Redução do imposto mensal (Lei 9.250, art. 3º-A, incluído pela Lei 15.270/2025): rendimentos tributáveis até R$ 5.000,00: redução até R$ 312,89, de modo que o imposto devido seja zero; de R$ 5.000,01 até R$ 7.350,00: R$ 978,62 - (0,133145 x rendimentos tributáveis); acima de R$ 7.350,00: sem redução.
+
+Recorte das datas de outubro de 2026:
+- Salário: até o quinto dia útil do mês subsequente ao vencido (CLT, art. 459, § 1º).
+- eSocial, eventos da folha: até o dia 15 do mês seguinte (Manual de Orientação do eSocial): 15/10/2026.
+- FGTS: até o vigésimo dia de cada mês (Lei 8.036, art. 15): 20/10/2026.
+- Agenda Tributária, 20/10/2026: código 1082, contribuição previdenciária descontada de segurados empregados, período de apuração 09/2026, DARF, declarada na DCTFWeb; código 0561, IRRF trabalho assalariado, DARF, declarado na DCTFWeb.
+- DCTFWeb mensal: até o último dia útil do mês seguinte (IN RFB 2.237, art. 6º, na redação da IN 2.248/2025): 30/10/2026.
+- DSR: na remuneração do repouso semanal entram "as horas extraordinárias habitualmente prestadas" (Lei 605/1949, art. 7º, a).
+- Multa da DCTFWeb entregue em atraso: "2% (dois por cento) ao mês-calendário ou fração, incidente sobre o montante dos tributos informados na DCTFWeb, ainda que integralmente pagos [...] limitada a 20%" (IN RFB 2.237/2024, art. 11, I); mínimo de "R$ 200,00 (duzentos reais), no caso de omissão ou de atraso na entrega de declaração sem movimento" e "R$ 500,00 (quinhentos reais), nos demais casos" (§ 3º); os mínimos são "reduzidos em: I 90% (noventa por cento), para o MEI; e II 50% (cinquenta por cento), para a microempresa ou empresa de pequeno porte optante pelo Simples Nacional" (§ 5º).
+--- IA:
+# FOLHA DE PAGAMENTO — SETEMBRO/2026
+**Comercial Tamboril do Sul Ltda.**
+
+---
+
+## 1. JOELMA PRATES
+
+### Cálculo do salário bruto
+| Verba | Cálculo | Valor |
+|---|---|---|
+| Salário base | — | R$ 3.000,00 |
+| Hora extra (50%) | R$ 13,64 × 1,5 = R$ 20,46 × 10 h | R$ 204,60 |
+| DSR s/ h.e. habituais | (R$ 204,60 ÷ 25 dias úteis) × 5 DSR | R$ 40,92 |
+| **Total bruto** | | **R$ 3.245,52** |
+
+> As horas extras habituais integram a remuneração do repouso semanal (Lei 605/1949, art. 7º, *a*).
+
+### INSS por faixa
+| Faixa | Valor na faixa | Alíquota | Parcela |
+|---|---|---|---|
+| até R$ 1.621,00 | R$ 1.621,00 | 7,5% | R$ 121,575 |
+| R$ 1.621,01 – R$ 2.902,84 | R$ 1.281,84 | 9% | R$ 115,366 |
+| R$ 2.902,85 – R$ 3.245,52 | R$ 342,68 | 12% | R$ 41,122 |
+| **Total** | | | **R$ 278,06** |
+
+Soma exata: R$ 121,575 + R$ 115,366 + R$ 41,122 = **R$ 278,063 → R$ 278,06**
+
+### IRRF
+- Rendimentos tributáveis (RT): R$ 3.245,52 − R$ 278,06 = **R$ 2.967,46**
+- Desconto simplificado: − R$ 607,20
+- Base de cálculo: R$ 2.360,26 < R$ 2.428,80 → **isento pela tabela**
+- Redução art. 3-A (RT ≤ R$ 5.000,00): confirma zero
+- **IRRF = R$ 0,00**
+
+### Líquido: R$ 3.245,52 − R$ 278,06 = **R$ 2.967,46**
+
+---
+
+## 2. RAIMUNDO TELES
+
+### Cálculo do salário bruto
+Faltas em semanas diferentes → cada falta suprime o DSR da própria semana.
+
+| Item | Cálculo | Valor |
+|---|---|---|
+| Salário cheio | — | R$ 2.200,00 |
+| (−) 2 dias de falta | 2 × (R$ 2.200,00 ÷ 30) | − R$ 146,67 |
+| (−) 2 DSR perdidos (20/09 e 27/09) | 2 × (R$ 2.200,00 ÷ 30) | − R$ 146,67 |
+| Total descontos | 4/30 × R$ 2.200,00 = R$ 293,333 | − **R$ 293,33** |
+| **Total bruto** | | **R$ 1.906,67** |
+
+> Confirmação das semanas: 16/09 (qua) está na semana 14–20/09 (DSR: dom. 20/09); 24/09 (qui) está na semana 21–27/09 (DSR: dom. 27/09). Semanas distintas → 2 DSR suprimidos.
+
+### INSS por faixa
+| Faixa | Valor na faixa | Alíquota | Parcela |
+|---|---|---|---|
+| até R$ 1.621,00 | R$ 1.621,00 | 7,5% | R$ 121,575 |
+| R$ 1.621,01 – R$ 1.906,67 | R$ 285,67 | 9% | R$ 25,710 |
+| **Total** | | | **R$ 147,29** |
+
+Soma exata: R$ 121,575 + R$ 25,710 = **R$ 147,285 → R$ 147,29**
+
+### IRRF
+- RT: R$ 1.906,67 − R$ 147,29 = **R$ 1.759,38**
+- Base (c/ desconto simplificado): R$ 1.759,38 − R$ 607,20 = R$ 1.152,18 < R$ 2.428,80 → **isento**
+- **IRRF = R$ 0,00**
+
+### Líquido: R$ 1.906,67 − R$ 147,29 = **R$ 1.759,38**
+
+---
+
+## 3. SUELI BARCANTE
+
+### Cálculo do salário bruto
+| Verba | Valor |
+|---|---|
+| Salário base | R$ 2.800,00 |
+| Adicional de periculosidade (30%) | R$ 840,00 |
+| **Total bruto** | **R$ 3.640,00** |
+
+### INSS por faixa
+| Faixa | Valor na faixa | Alíquota | Parcela |
+|---|---|---|---|
+| até R$ 1.621,00 | R$ 1.621,00 | 7,5% | R$ 121,575 |
+| R$ 1.621,01 – R$ 2.902,84 | R$ 1.281,84 | 9% | R$ 115,366 |
+| R$ 2.902,85 – R$ 3.640,00 | R$ 737,16 | 12% | R$ 88,459 |
+| **Total** | | | **R$ 325,40** |
+
+Soma exata: R$ 121,575 + R$ 115,366 + R$ 88,459 = **R$ 325,400 → R$ 325,40**
+
+### IRRF
+- RT: R$ 3.640,00 − R$ 325,40 = **R$ 3.314,60**
+- Desconto simplificado: − R$ 607,20
+- Base de cálculo: **R$ 2.707,40** → faixa R$ 2.428,81–R$ 2.826,65 (7,5%, dedução R$ 182,16)
+- Imposto pela tabela: R$ 2.707,40 × 7,5% − R$ 182,16 = R$ 203,055 − R$ 182,16 = **R$ 20,90**
+- Redução art. 3-A: RT = R$ 3.314,60 ≤ R$ 5.000,00 → redução integral (R$ 20,90 ≤ limite R$ 312,89); imposto zerado
+- **IRRF = R$ 0,00**
+
+### Líquido: R$ 3.640,00 − R$ 325,40 = **R$ 3.314,60**
+
+---
+
+## 4. DIEGO ARRUDA
+
+**Bruto:** R$ 1.621,00 (salário exatamente no teto da 1ª faixa)
+
+### INSS por faixa
+| Faixa | Valor na faixa | Alíquota | Parcela |
+|---|---|---|---|
+| até R$ 1.621,00 | R$ 1.621,00 | 7,5% | R$ 121,575 |
+| **Total** | | | **R$ 121,58** |
+
+R$ 121,575 → **R$ 121,58**
+
+### IRRF
+- RT: R$ 1.621,00 − R$ 121,58 = R$ 1.499,42 < R$ 2.428,80 → **isento**
+- **IRRF = R$ 0,00**
+
+### Líquido: R$ 1.621,00 − R$ 121,58 = **R$ 1.499,42**
+
+---
+
+## 5. TAINÁ CORSO
+
+Salário idêntico ao de Diego Arruda → mesmo cálculo.
+
+- **Bruto:** R$ 1.621,00
+- **INSS:** R$ 121,58
+- **IRRF:** R$ 0,00
+- **Líquido:** R$ 1.499,42
+
+---
+
+## RESUMO GERAL
+
+| Funcionário | Bruto | (−) INSS | (−) IRRF | **Líquido** |
+|---|---:|---:|---:|---:|
+| Joelma Prates | R$ 3.245,52 | R$ 278,06 | — | **R$ 2.967,46** |
+| Raimundo Teles | R$ 1.906,67 | R$ 147,29 | — | **R$ 1.759,38** |
+| Sueli Barcante | R$ 3.640,00 | R$ 325,40 | — | **R$ 3.314,60** |
+| Diego Arruda | R$ 1.621,00 | R$ 121,58 | — | **R$ 1.499,42** |
+| Tainá Corso | R$ 1.621,00 | R$ 121,58 | — | **R$ 1.499,42** |
+| **Total** | **R$ 12.034,19** | **R$ 993,91** | **R$ 0,00** | **R$ 11.040,28** |
+
+> **Por que IRRF zero para todos?** O art. 3-A da Lei 9.250/1995 (incluído pela Lei 15.270/2025) determina redução integral do imposto para rendimentos tributáveis (bruto − INSS) até R$ 5.000,00. Todos os cinco empregados ficam abaixo desse limite. Para Sueli, único caso em que haveria imposto pela tabela (R$ 20,90), a redução abate integralmente o valor, pois R$ 20,90 < R$ 312,89.
+
+---
+
+## DATAS DE OUTUBRO/2026 — COMPETÊNCIA SETEMBRO/2026
+
+### Data de **PAGAR**
+| Obrigação | Base legal | Vencimento |
+|---|---|---|
+| Salários | CLT, art. 459, § 1º | **07/10/2026** (5º dia útil de outubro) |
+| FGTS | Lei 8.036, art. 15 | **20/10/2026** |
+| INSS retido — DARF cód. 1082 | Agenda Tributária | **20/10/2026** |
+| IRRF trabalho assalariado — DARF cód. 0561 | Agenda Tributária | **20/10/2026** *(nada a recolher nesta competência)* |
+
+> Contagem do 5º dia útil: 01/10 (qui) = 1º, 02/10 (sex) = 2º, 05/10 (seg) = 3º, 06/10 (ter) = 4º, **07/10 (qua) = 5º**.
+
+### Data de **DECLARAR**
+| Obrigação | Base legal | Vencimento |
+|---|---|---|
+| eSocial — eventos de folha | Manual de Orientação do eSocial | **15/10/2026** |
+| DCTFWeb mensal | IN RFB 2.237/2024, art. 6º (red. IN 2.248/2025) | **30/10/2026** *(último dia útil de outubro)* |
+
+> **Multa por atraso na DCTFWeb** (empresa com movimento, Simples Nacional): 2% ao mês-calendário ou fração sobre o total dos tributos informados, limitado a 20%; mínimo de **R$ 250,00** (R$ 500,00 reduzido em 50% para ME/EPP optante pelo Simples — IN RFB 2.237/2024, art. 11, §§ 3º, I e 5º, II).
+
+--- Você:
+Mais cinco perguntas do cliente:
+1. Até quando eu pago o salário de setembro?
+2. Quando vence o FGTS?
+3. Quando vence o INSS da folha e quando eu entrego a DCTFWeb?
+4. Qual é a multa mínima da DCTFWeb entregue com atraso por uma empresa do Simples com movimento?
+5. Por que a DCTFWeb deu valor diferente da guia que eu paguei?
+--- IA:
+## Respostas rápidas — Comercial Tamboril do Sul Ltda.
+
+---
+
+**1. Até quando pago o salário de setembro?**
+Até **07/10/2026** — 5º dia útil de outubro (CLT, art. 459, § 1º).
+Contagem: 01/10 (qui) · 02/10 (sex) · 05/10 (seg) · 06/10 (ter) · **07/10 (qua)**.
+
+---
+
+**2. Quando vence o FGTS?**
+Até **20/10/2026** (Lei 8.036, art. 15).
+
+---
+
+**3. Quando vence o INSS da folha e quando entrego a DCTFWeb?**
+- **INSS** (DARF cód. 1082, retido dos empregados): recolhe até **20/10/2026**. O valor desta folha é **R$ 993,91**.
+- **DCTFWeb** mensal: entrega até **30/10/2026** — último dia útil de outubro (IN RFB 2.237/2024, art. 6º, na redação da IN 2.248/2025).
+
+> As duas datas são diferentes: você **paga** o DARF no dia 20 e **declara** na DCTFWeb até o dia 30.
+
+---
+
+**4. Qual é a multa mínima da DCTFWeb entregue com atraso — Simples Nacional com movimento?**
+**R$ 250,00.** A regra geral prevê mínimo de R$ 500,00 para declaração com movimento; para ME/EPP optante pelo Simples Nacional aplica-se redução de 50%, chegando a R$ 250,00 (IN RFB 2.237/2024, art. 11, § 3º, II c/c § 5º, II). Isso é o piso — se 2% sobre os tributos informados resultar em mais, prevalece o valor percentual (limitado a 20%).
+
+---
+
+**5. Por que a DCTFWeb deu valor diferente da guia que eu paguei?**
+
+A DCTFWeb **não gera** o DARF — ela apenas **confirma** o que foi apurado a partir dos eventos enviados ao eSocial. A diferença quase sempre vem de um destes motivos:
+
+| Causa mais comum | O que acontece |
+|---|---|
+| **DARF pago antes do fechamento da folha** | O valor foi estimado; o eSocial ficou com o número definitivo, que pode ser maior ou menor. |
+| **Evento de retificação no eSocial** | Uma correção feita depois do pagamento do DARF altera a base na DCTFWeb. |
+| **Cálculo manual com arredondamento diferente** | O INSS progressivo por faixa gera centavos; qualquer método diferente do eSocial produz discrepância. |
+| **Competência errada no DARF** | O DARF foi gerado para a competência certa, mas o período de apuração digitado ficou errado — a DCTFWeb aponta diferença de recolhimento. |
+
+**O que fazer:** compare o valor da DCTFWeb com o DARF já pago. Se o DARF ficou *maior*, o excesso vira crédito a compensar. Se ficou *menor*, gere DARF complementar antes de transmitir a DCTFWeb, para evitar que ela seja entregue com débito em aberto — o que pode gerar autuação.
+
+### 2026-10-13 09:43 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Calcula a folha de setembro deste cliente: o INSS e o IRRF de cada empregado e o líquido. Use as tabelas, a convenção, as regras e as datas coladas abaixo. Separe a data de pagar da data de declarar; faça o INSS por faixa e mostre a conta.
+
+Cliente: Comercial Tamboril do Sul Ltda. (comércio varejista, Simples Nacional, Anexo I), com movimento. Competência: setembro de 2026. Nenhum empregado tem dependente.
+
+1) Joelma Prates: salário R$ 3.000,00. Fez 10 horas extras com adicional de 50% em setembro (faz horas extras todo mês). Valor da hora normal no sistema: R$ 13,64.
+2) Raimundo Teles: salário R$ 2.200,00. Duas faltas sem justificativa: 16/09 (quarta-feira) e 24/09 (quinta-feira), em semanas diferentes.
+3) Sueli Barcante: salário R$ 2.800,00 + adicional de periculosidade de R$ 840,00 (30%, pelo laudo; valor já calculado pelo sistema).
+4) Diego Arruda: salário R$ 1.621,00.
+5) Tainá Corso: salário R$ 1.621,00.
+
+Setembro de 2026 teve 25 dias úteis e 5 domingos e feriados (contagem da empresa).
+
+Convenção coletiva do cliente (trecho): horas extras com adicional de 50%; divisor 220; nenhuma outra verba mensal obrigatória.
+
+Tabela do INSS do empregado, a partir da competência janeiro de 2026 (Portaria Interministerial MPS/MF nº 13/2026, Anexo II), alíquotas progressivas, cada uma só sobre a parte do salário dentro da faixa:
+até 1.621,00: 7,5%
+de 1.621,01 até 2.902,84: 9%
+de 2.902,85 até 4.354,27: 12%
+de 4.354,28 até 8.475,55: 14%
+
+IRRF mensal a partir de janeiro de 2026 (Receita Federal, Tributação de 2026):
+até 2.428,80: isento
+de 2.428,81 até 2.826,65: 7,5%, dedução 182,16
+de 2.826,66 até 3.751,05: 15%, dedução 394,16
+de 3.751,06 até 4.664,68: 22,5%, dedução 675,49
+acima de 4.664,68: 27,5%, dedução 908,73
+Dedução por dependente: 189,59. Desconto simplificado mensal: 607,20.
+Redução do imposto mensal (Lei 9.250, art. 3º-A, incluído pela Lei 15.270/2025): rendimentos tributáveis até R$ 5.000,00: redução até R$ 312,89, de modo que o imposto devido seja zero; de R$ 5.000,01 até R$ 7.350,00: R$ 978,62 - (0,133145 x rendimentos tributáveis); acima de R$ 7.350,00: sem redução.
+
+Recorte das datas de outubro de 2026:
+- Salário: até o quinto dia útil do mês subsequente ao vencido (CLT, art. 459, § 1º).
+- eSocial, eventos da folha: até o dia 15 do mês seguinte (Manual de Orientação do eSocial): 15/10/2026.
+- FGTS: até o vigésimo dia de cada mês (Lei 8.036, art. 15): 20/10/2026.
+- Agenda Tributária, 20/10/2026: código 1082, contribuição previdenciária descontada de segurados empregados, período de apuração 09/2026, DARF, declarada na DCTFWeb; código 0561, IRRF trabalho assalariado, DARF, declarado na DCTFWeb.
+- DCTFWeb mensal: até o último dia útil do mês seguinte (IN RFB 2.237, art. 6º, na redação da IN 2.248/2025): 30/10/2026.
+- DSR: na remuneração do repouso semanal entram "as horas extraordinárias habitualmente prestadas" (Lei 605/1949, art. 7º, a).
+- Multa da DCTFWeb entregue em atraso: "2% (dois por cento) ao mês-calendário ou fração, incidente sobre o montante dos tributos informados na DCTFWeb, ainda que integralmente pagos [...] limitada a 20%" (IN RFB 2.237/2024, art. 11, I); mínimo de "R$ 200,00 (duzentos reais), no caso de omissão ou de atraso na entrega de declaração sem movimento" e "R$ 500,00 (quinhentos reais), nos demais casos" (§ 3º); os mínimos são "reduzidos em: I 90% (noventa por cento), para o MEI; e II 50% (cinquenta por cento), para a microempresa ou empresa de pequeno porte optante pelo Simples Nacional" (§ 5º).
+--- IA:
+# FOLHA DE PAGAMENTO — COMPETÊNCIA SETEMBRO/2026
+**Comercial Tamboril do Sul Ltda.**
+
+---
+
+## Premissas aplicadas
+- Divisor horário: **220** (CCT)
+- Setembro/2026: **25 dias úteis | 5 domingos e feriados** (Set/7 = Independência, segunda-feira; contagem da empresa, semana de segunda a sábado)
+- INSS: alíquotas progressivas por faixa; arredondamento só no total
+- IRRF: dedução do INSS; sem dependentes; redução da Lei 9.250/1996, art. 3º-A (incluído pela Lei 15.270/2025)
+
+---
+
+## 1. JOELMA PRATES — Salário R$ 3.000,00
+
+### Apuração do bruto
+
+| Verba | Cálculo | Valor |
+|---|---|---|
+| Salário base | — | R$ 3.000,00 |
+| Horas extras (10 h × 50%) | R$ 13,64 × 1,50 × 10 h | R$ 204,60 |
+| Reflexo DSR (HE habituais) | R$ 204,60 ÷ 25 d.u. × 5 DSR | R$ 40,92 |
+| **Total bruto** | | **R$ 3.245,52** |
+
+> **Por que o DSR?** A Lei 605/1949, art. 7º, *a*, determina que "horas extraordinárias habitualmente prestadas" integram a remuneração do repouso semanal. Como Joelma faz HE todo mês, o reflexo é obrigatório.
+
+### INSS — cálculo por faixa
+
+| Faixa | Limite da tabela | Base na faixa | Alíquota | Parcela |
+|---|---|---|---|---|
+| 1ª | Até R$ 1.621,00 | R$ 1.621,00 | 7,5% | R$ 121,5750 |
+| 2ª | R$ 1.621,01 – R$ 2.902,84 | R$ 1.281,84 *(= 2.902,84 − 1.621,00)* | 9% | R$ 115,3656 |
+| 3ª | R$ 2.902,85 – R$ 4.354,27 | R$ 342,68 *(= 3.245,52 − 2.902,84)* | 12% | R$ 41,1216 |
+| **Total** | | | | **R$ 278,06** *(278,0622)* |
+
+### IRRF
+
+| Etapa | Valor |
+|---|---|
+| Base de cálculo (bruto − INSS) | R$ 3.245,52 − R$ 278,06 = **R$ 2.967,46** |
+| Faixa (R$ 2.826,66–3.751,05): 15%, ded. R$ 394,16 | R$ 2.967,46 × 15% − R$ 394,16 = R$ 445,12 − R$ 394,16 = **R$ 50,96** |
+| Redução Lei 15.270/2025: rend. tributáveis R$ 3.245,52 ≤ R$ 5.000,00 → redução elimina o imposto (R$ 50,96 < limite R$ 312,89) | **R$ 0,00** |
+
+### **Líquido: R$ 3.245,52 − R$ 278,06 = R$ 2.967,46**
+
+---
+
+## 2. RAIMUNDO TELES — Salário R$ 2.200,00
+
+### Apuração do bruto (com faltas)
+
+Valor por dia: R$ 2.200,00 ÷ 30 = **R$ 73,3333…**
+
+| Evento | Data | Desconto |
+|---|---|---|
+| Falta 1 (quarta-feira) | 16/09 | 1 dia de trabalho |
+| DSR perdido — semana 1 | Domingo 20/09 | 1 dia de repouso |
+| Falta 2 (quinta-feira) | 24/09 | 1 dia de trabalho |
+| DSR perdido — semana 2 | Domingo 27/09 | 1 dia de repouso |
+| **Total** | | **4 dias** |
+
+As faltas estão em semanas distintas (semana 14–20/09 e semana 21–27/09), portanto cada uma cancela o DSR da respectiva semana.
+
+Desconto: 4 × (R$ 2.200,00 ÷ 30) = 4 × R$ 73,3333… = **R$ 293,33**
+
+**Bruto: R$ 2.200,00 − R$ 293,33 = R$ 1.906,67**
+
+### INSS — cálculo por faixa
+
+| Faixa | Limite da tabela | Base na faixa | Alíquota | Parcela |
+|---|---|---|---|---|
+| 1ª | Até R$ 1.621,00 | R$ 1.621,00 | 7,5% | R$ 121,5750 |
+| 2ª | R$ 1.621,01 – R$ 2.902,84 | R$ 285,67 *(= 1.906,67 − 1.621,00)* | 9% | R$ 25,7103 |
+| **Total** | | | | **R$ 147,29** *(147,2853)* |
+
+### IRRF
+
+Base: R$ 1.906,67 − R$ 147,29 = R$ 1.759,38 → **isento** (≤ R$ 2.428,80) → **R$ 0,00**
+
+### **Líquido: R$ 1.906,67 − R$ 147,29 = R$ 1.759,38**
+
+---
+
+## 3. SUELI BARCANTE — Salário R$ 2.800,00 + Periculosidade R$ 840,00
+
+### Apuração do bruto
+
+| Verba | Valor |
+|---|---|
+| Salário | R$ 2.800,00 |
+| Adicional de periculosidade (30%, por laudo) | R$ 840,00 |
+| **Total bruto** | **R$ 3.640,00** |
+
+### INSS — cálculo por faixa
+
+| Faixa | Limite da tabela | Base na faixa | Alíquota | Parcela |
+|---|---|---|---|---|
+| 1ª | Até R$ 1.621,00 | R$ 1.621,00 | 7,5% | R$ 121,5750 |
+| 2ª | R$ 1.621,01 – R$ 2.902,84 | R$ 1.281,84 *(= 2.902,84 − 1.621,00)* | 9% | R$ 115,3656 |
+| 3ª | R$ 2.902,85 – R$ 4.354,27 | R$ 737,16 *(= 3.640,00 − 2.902,84)* | 12% | R$ 88,4592 |
+| **Total** | | | | **R$ 325,40** *(325,3998)* |
+
+### IRRF
+
+| Etapa | Valor |
+|---|---|
+| Base de cálculo (bruto − INSS) | R$ 3.640,00 − R$ 325,40 = **R$ 3.314,60** |
+| Faixa (R$ 2.826,66–3.751,05): 15%, ded. R$ 394,16 | R$ 3.314,60 × 15% − R$ 394,16 = R$ 497,19 − R$ 394,16 = **R$ 103,03** |
+| Redução Lei 15.270/2025: rend. tributáveis R$ 3.640,00 ≤ R$ 5.000,00 → redução elimina o imposto (R$ 103,03 < limite R$ 312,89) | **R$ 0,00** |
+
+### **Líquido: R$ 3.640,00 − R$ 325,40 = R$ 3.314,60**
+
+---
+
+## 4. DIEGO ARRUDA — Salário R$ 1.621,00
+
+### INSS — cálculo por faixa
+
+| Faixa | Limite da tabela | Base na faixa | Alíquota | Parcela |
+|---|---|---|---|---|
+| 1ª | Até R$ 1.621,00 | R$ 1.621,00 | 7,5% | **R$ 121,58** *(121,5750)* |
+
+O salário está exatamente no limite da 1ª faixa; nada entra na 2ª.
+
+### IRRF
+
+Base: R$ 1.621,00 − R$ 121,58 = R$ 1.499,42 → **isento** (≤ R$ 2.428,80) → **R$ 0,00**
+
+### **Líquido: R$ 1.621,00 − R$ 121,58 = R$ 1.499,42**
+
+---
+
+## 5. TAINÁ CORSO — Salário R$ 1.621,00
+
+Situação idêntica a Diego Arruda.
+
+- **INSS: R$ 121,58**
+- **IRRF: R$ 0,00**
+- **Líquido: R$ 1.499,42**
+
+---
+
+## Resumo da Folha — Setembro/2026
+
+| Empregado | Bruto | INSS | IRRF | **Líquido** |
+|---|---:|---:|---:|---:|
+| Joelma Prates | R$ 3.245,52 | R$ 278,06 | R$ 0,00 | **R$ 2.967,46** |
+| Raimundo Teles | R$ 1.906,67 | R$ 147,29 | R$ 0,00 | **R$ 1.759,38** |
+| Sueli Barcante | R$ 3.640,00 | R$ 325,40 | R$ 0,00 | **R$ 3.314,60** |
+| Diego Arruda | R$ 1.621,00 | R$ 121,58 | R$ 0,00 | **R$ 1.499,42** |
+| Tainá Corso | R$ 1.621,00 | R$ 121,58 | R$ 0,00 | **R$ 1.499,42** |
+| **Total** | **R$ 12.034,19** | **R$ 993,91** | **R$ 0,00** | **R$ 11.040,28** |
+
+> **Por que IRRF zero em todos?**
+> - Raimundo, Diego e Tainá: base do IRRF inferior ao limite de isenção (R$ 2.428,80) — já estariam isentos pela tabela, sem precisar da redução.
+> - Joelma e Sueli: a aplicação da tabela resulta em imposto positivo (R$ 50,96 e R$ 103,03), mas os rendimentos tributáveis de ambas não ultrapassam R$ 5.000,00 e o imposto calculado fica abaixo do teto de R$ 312,89 — a redução da Lei 15.270/2025 zera o imposto em cada caso.
+
+---
+
+## Datas de Outubro/2026
+
+### O que **pagar**
+
+| Obrigação | Prazo | Fundamento |
+|---|---|---|
+| **Salários de setembro/2026** | **07/10/2026** ¹ | CLT, art. 459, § 1º |
+| **FGTS — competência 09/2026** | **20/10/2026** | Lei 8.036, art. 15 |
+| **INSS retido dos empregados** (DARF cód. **1082**, período 09/2026) | **20/10/2026** | Agenda Tributária |
+| **IRRF — trabalho assalariado** (DARF cód. **0561**, período 09/2026) | **20/10/2026** | Agenda Tributária |
+
+¹ *Contagem do 5º dia útil de outubro/2026:* 1/10 (qui) → 2/10 (sex) → 5/10 (seg) → 6/10 (ter) → **7/10 (qua) = 5º dia útil.** Não há feriado nacional na 1ª semana de outubro. Como o IRRF da folha é R$ 0,00, não haverá DARF a emitir para o código 0561 nesta competência, mas os rendimentos devem constar na DCTFWeb.
+
+### O que **declarar/transmitir**
+
+| Obrigação | Prazo | Fundamento |
+|---|---|---|
+| **eSocial — eventos da folha** (S-1200, S-1210 etc.) | **15/10/2026** | Manual de Orientação do eSocial |
+| **DCTFWeb mensal** (consolida INSS e IRRF; gerada a partir do eSocial) | **30/10/2026** | IN RFB 2.237/2024, art. 6º (red. IN 2.248/2025) — último dia útil de outubro |
+
+> **Multa por atraso na DCTFWeb** (para referência): 2% ao mês ou fração sobre o montante dos tributos informados, limitada a 20%; mínimo de R$ 500,00 nos casos com movimento — reduzido em **50%** por ser optante do Simples Nacional, logo mínimo efetivo de **R$ 250,00** (IN RFB 2.237/2024, art. 11, I e § 5º, II).
+
+--- Você:
+Mais cinco perguntas do cliente:
+1. Até quando eu pago o salário de setembro?
+2. Quando vence o FGTS?
+3. Quando vence o INSS da folha e quando eu entrego a DCTFWeb?
+4. Qual é a multa mínima da DCTFWeb entregue com atraso por uma empresa do Simples com movimento?
+5. Por que a DCTFWeb deu valor diferente da guia que eu paguei?
+--- IA:
+**1. Até quando paga o salário de setembro?**
+Até **07/10/2026** (quinta-feira) — é o 5º dia útil de outubro. Contagem: 1/10 (qui) · 2/10 (sex) · 5/10 (seg) · 6/10 (ter) · **7/10 (qua)**. Não há feriado nacional nessa semana.
+
+---
+
+**2. Quando vence o FGTS?**
+Até **20/10/2026** — o vigésimo dia de outubro, que cai em terça-feira (dia útil, sem problema de prazo). Base: Lei 8.036/1990, art. 15.
+
+---
+
+**3. Quando vence o INSS e quando entrega a DCTFWeb?**
+São datas diferentes:
+
+| O quê | Prazo | Natureza |
+|---|---|---|
+| DARF cód. 1082 — INSS retido dos empregados | **20/10/2026** | **Pagamento** |
+| DCTFWeb mensal | **30/10/2026** | **Declaração** |
+
+O INSS se paga antes de declarar. A DCTFWeb tem até o último dia útil do mês seguinte (IN RFB 2.237/2024, art. 6º, red. IN 2.248/2025) — em outubro de 2026 esse dia é a sexta-feira, 30/10.
+
+---
+
+**4. Qual é a multa mínima da DCTFWeb entregue com atraso?**
+Para empresa do Simples Nacional **com movimento**: a multa mínima geral é **R$ 500,00**, reduzida em **50%** para optante do Simples (IN RFB 2.237/2024, art. 11, § 5º, II) → **mínimo efetivo de R$ 250,00**. A multa percentual é de 2% ao mês-calendário ou fração sobre o total dos tributos informados, limitada a 20% — mas nunca inferior ao mínimo de R$ 250,00.
+
+---
+
+**5. Por que a DCTFWeb deu valor diferente da guia que foi paga?**
+
+Há três causas mais comuns; vale verificar qual se aplica:
+
+**a) Sequência invertida — o mais frequente.** O fluxo correto é: *fechar a folha no eSocial (S-1299) → aguardar a DCTFWeb ser gerada → emitir o DARF de dentro da DCTFWeb → pagar.* Se o DARF foi emitido manualmente ou gerado antes de o eSocial ser fechado, o valor não vai bater.
+
+**b) Retificação do eSocial após o pagamento.** Qualquer evento retificador (S-1200R, por exemplo) reabre o cálculo da DCTFWeb. Se a guia já estava paga com o valor anterior, aparece diferença — pode ser saldo a pagar ou crédito a compensar.
+
+**c) Confusão entre DAS e DARF** — erro comum em empresas do Simples Nacional. A **parte patronal** (CPP) está embutida no **DAS** e não aparece na DCTFWeb. O DARF cód. 1082 só traz o **INSS retido dos empregados** (R$ 993,91 neste caso). Se o cliente somou os dois ou comparou o DAS com o DARF, os valores naturalmente divergem.
+
+**O que fazer:** conferir o valor que consta na DCTFWeb como "total a recolher" para o período 09/2026 e compará-lo com o DARF efetivamente pago. Se pagou a menos, recolhe a diferença com acréscimos (SELIC + 1% no mês do pagamento). Se pagou a mais, o crédito fica disponível para compensação na própria DCTFWeb do mês seguinte.
+

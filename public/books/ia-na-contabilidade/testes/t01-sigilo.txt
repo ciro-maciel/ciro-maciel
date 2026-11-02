@@ -1,0 +1,1013 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t01, rodado em 09/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador num escritório pequeno. Vou pedir uma análise deste cliente, mas antes tire tudo o que identifica e me devolva pronto para analisar.
+
+COMERCIAL IPÊ ROXO LTDA. (nome fantasia: Casa Ipê Roxo Materiais)
+CNPJ 47.193.628/0001-15 — Rua das Paineiras, 140, Centro, Vargem do Ipê (MG) — única loja de material de construção da cidade
+Telefone (38) 9 0000-4127 — financeiro@ipe-roxo.exemplo
+Sócios: Joventino Arruda Prates (CPF 418.273.650-81), 60%; Marilene Souto Prates (CPF 602.914.837-05), 40%
+Simples Nacional. Conta movimento: Banco do Vale, agência 0417, conta corrente 22381-6
+
+BALANÇO PATRIMONIAL EM 30/09/2026 (R$)
+Ativo circulante: 323.900,00
+  Caixa: 3.200,00
+  Banco do Vale ag. 0417 c/c 22381-6: 41.800,00
+  Duplicatas a receber: 96.500,00 (das quais Construtora Vale do Jequi Ltda.: 38.000,00)
+  Estoques: 182.400,00
+Ativo não circulante: 114.000,00
+  Veículos: 98.000,00
+  Móveis e utensílios: 47.000,00
+  (−) Depreciação acumulada: (31.000,00)
+TOTAL DO ATIVO: 437.900,00
+Passivo circulante: 173.390,00
+  Fornecedores: 128.300,00
+  Salários a pagar: 9.760,00
+  Encargos sociais a recolher: 3.910,00
+  DAS a recolher: 7.420,00
+  Empréstimo — Banco do Vale, contrato nº 2024/0815 (parcelas até 12 meses): 24.000,00
+Passivo não circulante: 60.000,00
+  Empréstimo — Banco do Vale, contrato nº 2024/0815 (parcelas após 12 meses): 60.000,00
+Patrimônio líquido: 204.510,00
+  Capital social: 150.000,00
+  Lucros acumulados: 54.510,00
+TOTAL DO PASSIVO E PL: 437.900,00
+
+DRE DE JANEIRO A SETEMBRO DE 2026 (R$)
+Receita bruta de vendas: 1.248.000,00
+(−) DAS sobre vendas: (87.360,00)
+Receita líquida: 1.160.640,00
+(−) Custo das mercadorias vendidas: (812.400,00)
+Lucro bruto: 348.240,00
+(−) Despesas com pessoal: (142.300,00)
+(−) Aluguel: (43.200,00)
+(−) Outras despesas operacionais: (61.800,00)
+(−) Despesas financeiras: (9.600,00)
+Lucro líquido do período: 91.340,00
+Lucros distribuídos no período: 60.000,00 (Joventino: 36.000,00; Marilene: 24.000,00)
+
+FOLHA DE SETEMBRO DE 2026 (resumo)
+- Dorival Quaresma Neto, CPF 735.108.264-27, único vendedor externo da loja: salário R$ 2.380,00; atestado de 3 dias (CID M54.5)
+- Rosicléia Batista Fontes, nascida em 14/03/1991, caixa: salário R$ 1.900,00
+- Demais 3 empregados (estoque e balcão): R$ 5.480,00 no total
+--- IA:
+Aqui está o documento com todos os dados identificadores removidos ou substituídos por rótulos genéricos, mantendo os valores integralmente:
+
+---
+
+## DADOS CADASTRAIS
+
+| Campo | Dado |
+|---|---|
+| Identificação | **Cliente X** |
+| Setor | Comércio varejista de materiais de construção |
+| Regime tributário | Simples Nacional |
+| Estrutura societária | Sócio A — 60% / Sócia B — 40% |
+
+---
+
+## BALANÇO PATRIMONIAL — 30/09/2026 (R$)
+
+**ATIVO CIRCULANTE — 323.900,00**
+- Caixa: 3.200,00
+- Conta bancária: 41.800,00
+- Duplicatas a receber: 96.500,00 *(das quais um único cliente concentra: 38.000,00)*
+- Estoques: 182.400,00
+
+**ATIVO NÃO CIRCULANTE — 114.000,00**
+- Veículos: 98.000,00
+- Móveis e utensílios: 47.000,00
+- (−) Depreciação acumulada: (31.000,00)
+
+**TOTAL DO ATIVO: 437.900,00**
+
+---
+
+**PASSIVO CIRCULANTE — 173.390,00**
+- Fornecedores: 128.300,00
+- Salários a pagar: 9.760,00
+- Encargos sociais a recolher: 3.910,00
+- DAS a recolher: 7.420,00
+- Empréstimo bancário — parcelas até 12 meses: 24.000,00
+
+**PASSIVO NÃO CIRCULANTE — 60.000,00**
+- Empréstimo bancário — parcelas após 12 meses: 60.000,00
+
+**PATRIMÔNIO LÍQUIDO — 204.510,00**
+- Capital social: 150.000,00
+- Lucros acumulados: 54.510,00
+
+**TOTAL DO PASSIVO E PL: 437.900,00**
+
+---
+
+## DRE — JANEIRO A SETEMBRO DE 2026 (R$)
+
+| | R$ |
+|---|---|
+| Receita bruta de vendas | 1.248.000,00 |
+| (−) DAS sobre vendas | (87.360,00) |
+| **Receita líquida** | **1.160.640,00** |
+| (−) Custo das mercadorias vendidas | (812.400,00) |
+| **Lucro bruto** | **348.240,00** |
+| (−) Despesas com pessoal | (142.300,00) |
+| (−) Aluguel | (43.200,00) |
+| (−) Outras despesas operacionais | (61.800,00) |
+| (−) Despesas financeiras | (9.600,00) |
+| **Lucro líquido do período** | **91.340,00** |
+| Lucros distribuídos no período | 60.000,00 *(Sócio A: 36.000,00 / Sócia B: 24.000,00)* |
+
+---
+
+## FOLHA DE SETEMBRO DE 2026 — RESUMO
+
+| Função | Salário (R$) | Observação |
+|---|---|---|
+| Vendedor externo (Funcionário 1) | 2.380,00 | Atestado de 3 dias — CID M54.5 |
+| Operador de caixa (Funcionário 2) | 1.900,00 | — |
+| Demais 3 empregados (estoque/balcão) | 5.480,00 (total) | — |
+
+---
+
+> **O que foi removido:** razão social, nome fantasia, CNPJ, endereço, referência à posição de mercado local, telefone, e-mail, nomes e CPFs dos sócios, dados bancários completos (banco, agência, conta e nº de contrato do empréstimo), nome do cliente concentrado em duplicatas, e nomes, CPFs e data de nascimento dos funcionários.
+> O CID foi mantido por ser relevante para eventual análise trabalhista/previdenciária sem identificar o empregado isoladamente.
+
+Pode pedir a análise quando quiser.
+
+--- Você:
+No ChatGPT Plus, conta pessoal, o que eu colo pode ser usado para treinar o modelo?
+--- IA:
+Essa é uma preocupação pertinente, especialmente dado o que você acabou de colar. Aqui vai o que se sabe, com a ressalva de que as políticas da OpenAI podem mudar:
+
+---
+
+## Resposta curta: **por padrão, sim — mas há como desativar.**
+
+### Como funciona no ChatGPT Plus (conta pessoal)
+
+| Situação | Usado para treino? |
+|---|---|
+| Histórico **ativado** (padrão) | **Sim**, salvo opt-out |
+| Histórico **desativado** | Não (mas retém por ~30 dias para segurança) |
+| Opt-out explícito nas configurações | Não |
+
+### Como desativar
+**Configurações → Controles de dados → "Melhorar o modelo para todos"** → desligar.
+
+---
+
+## O que isso significa para você
+
+Mesmo com a anonimização que fizemos aqui, **o ideal é:**
+
+1. **Desativar o treinamento** nas configurações antes de colar qualquer dado de cliente
+2. Ou usar o **modo temporário** (sem histórico) para sessões com dados sensíveis
+3. Considerar que para uso profissional com dados de terceiros, o **ChatGPT Team ou Enterprise** oferece garantias contratuais mais robustas (sem uso para treino por padrão)
+
+---
+
+## Nota importante
+Sou o Claude (Anthropic), não o ChatGPT (OpenAI). A política acima é da OpenAI — **verifique sempre a versão atual** em [openai.com/policies](https://openai.com/policies), pois muda com frequência.
+
+A política da Anthropic para o Claude tem diferenças — quer que eu explique também?
+
+### 2026-10-09 23:06 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador num escritório pequeno. Vou pedir uma análise deste cliente, mas antes tire tudo o que identifica e me devolva pronto para analisar.
+
+COMERCIAL IPÊ ROXO LTDA. (nome fantasia: Casa Ipê Roxo Materiais)
+CNPJ 47.193.628/0001-15 — Rua das Paineiras, 140, Centro, Vargem do Ipê (MG) — única loja de material de construção da cidade
+Telefone (38) 9 0000-4127 — financeiro@ipe-roxo.exemplo
+Sócios: Joventino Arruda Prates (CPF 418.273.650-81), 60%; Marilene Souto Prates (CPF 602.914.837-05), 40%
+Simples Nacional. Conta movimento: Banco do Vale, agência 0417, conta corrente 22381-6
+
+BALANÇO PATRIMONIAL EM 30/09/2026 (R$)
+Ativo circulante: 323.900,00
+  Caixa: 3.200,00
+  Banco do Vale ag. 0417 c/c 22381-6: 41.800,00
+  Duplicatas a receber: 96.500,00 (das quais Construtora Vale do Jequi Ltda.: 38.000,00)
+  Estoques: 182.400,00
+Ativo não circulante: 114.000,00
+  Veículos: 98.000,00
+  Móveis e utensílios: 47.000,00
+  (−) Depreciação acumulada: (31.000,00)
+TOTAL DO ATIVO: 437.900,00
+Passivo circulante: 173.390,00
+  Fornecedores: 128.300,00
+  Salários a pagar: 9.760,00
+  Encargos sociais a recolher: 3.910,00
+  DAS a recolher: 7.420,00
+  Empréstimo — Banco do Vale, contrato nº 2024/0815 (parcelas até 12 meses): 24.000,00
+Passivo não circulante: 60.000,00
+  Empréstimo — Banco do Vale, contrato nº 2024/0815 (parcelas após 12 meses): 60.000,00
+Patrimônio líquido: 204.510,00
+  Capital social: 150.000,00
+  Lucros acumulados: 54.510,00
+TOTAL DO PASSIVO E PL: 437.900,00
+
+DRE DE JANEIRO A SETEMBRO DE 2026 (R$)
+Receita bruta de vendas: 1.248.000,00
+(−) DAS sobre vendas: (87.360,00)
+Receita líquida: 1.160.640,00
+(−) Custo das mercadorias vendidas: (812.400,00)
+Lucro bruto: 348.240,00
+(−) Despesas com pessoal: (142.300,00)
+(−) Aluguel: (43.200,00)
+(−) Outras despesas operacionais: (61.800,00)
+(−) Despesas financeiras: (9.600,00)
+Lucro líquido do período: 91.340,00
+Lucros distribuídos no período: 60.000,00 (Joventino: 36.000,00; Marilene: 24.000,00)
+
+FOLHA DE SETEMBRO DE 2026 (resumo)
+- Dorival Quaresma Neto, CPF 735.108.264-27, único vendedor externo da loja: salário R$ 2.380,00; atestado de 3 dias (CID M54.5)
+- Rosicléia Batista Fontes, nascida em 14/03/1991, caixa: salário R$ 1.900,00
+- Demais 3 empregados (estoque e balcão): R$ 5.480,00 no total
+--- IA:
+Aqui está o documento com todos os dados identificadores removidos, mantendo apenas as informações necessárias para a análise financeira:
+
+---
+
+## CLIENTE ANÔNIMO — Comércio de Materiais de Construção
+**Regime tributário:** Simples Nacional
+**Contexto:** única loja do segmento na cidade (município do interior de MG)
+**Estrutura societária:** Sócio A (60%) e Sócio B (40%)
+
+---
+
+### BALANÇO PATRIMONIAL — 30/09/2026 (R$)
+
+| | |
+|---|---|
+| **Ativo circulante** | **323.900,00** |
+| Caixa | 3.200,00 |
+| Banco (conta corrente) | 41.800,00 |
+| Duplicatas a receber | 96.500,00 |
+| — dos quais, 1 único cliente (Cliente A) | 38.000,00 |
+| Estoques | 182.400,00 |
+| **Ativo não circulante** | **114.000,00** |
+| Veículos | 98.000,00 |
+| Móveis e utensílios | 47.000,00 |
+| (−) Depreciação acumulada | (31.000,00) |
+| **TOTAL DO ATIVO** | **437.900,00** |
+
+| | |
+|---|---|
+| **Passivo circulante** | **173.390,00** |
+| Fornecedores | 128.300,00 |
+| Salários a pagar | 9.760,00 |
+| Encargos sociais a recolher | 3.910,00 |
+| DAS a recolher | 7.420,00 |
+| Empréstimo bancário — parcelas até 12 meses | 24.000,00 |
+| **Passivo não circulante** | **60.000,00** |
+| Empréstimo bancário — parcelas após 12 meses | 60.000,00 |
+| **Patrimônio líquido** | **204.510,00** |
+| Capital social | 150.000,00 |
+| Lucros acumulados | 54.510,00 |
+| **TOTAL DO PASSIVO E PL** | **437.900,00** |
+
+---
+
+### DRE — JANEIRO A SETEMBRO DE 2026 (R$)
+
+| | |
+|---|---|
+| Receita bruta de vendas | 1.248.000,00 |
+| (−) DAS sobre vendas | (87.360,00) |
+| **Receita líquida** | **1.160.640,00** |
+| (−) Custo das mercadorias vendidas | (812.400,00) |
+| **Lucro bruto** | **348.240,00** |
+| (−) Despesas com pessoal | (142.300,00) |
+| (−) Aluguel | (43.200,00) |
+| (−) Outras despesas operacionais | (61.800,00) |
+| (−) Despesas financeiras | (9.600,00) |
+| **Lucro líquido do período** | **91.340,00** |
+| Lucros distribuídos no período | 60.000,00 |
+| — Sócio A (60%) | 36.000,00 |
+| — Sócio B (40%) | 24.000,00 |
+
+---
+
+### FOLHA DE SETEMBRO DE 2026 (resumo)
+
+| Função | Salário (R$) | Observação |
+|---|---|---|
+| Vendedor externo (único) | 2.380,00 | Atestado de 3 dias — CID M54.5 |
+| Caixa | 1.900,00 | — |
+| Estoque e balcão (3 funcionários) | 5.480,00 (total) | — |
+
+---
+
+> **Dados removidos:** razão social, nome fantasia, CNPJ, endereço completo, telefone, e-mail, CPFs dos sócios e funcionários, nomes de todos os envolvidos, data de nascimento de funcionária, nome e CNPJ do cliente na carteira de recebíveis, banco, agência, número de conta e número do contrato de empréstimo.
+
+Pode solicitar a análise quando quiser.
+
+--- Você:
+No ChatGPT Plus, conta pessoal, o que eu colo pode ser usado para treinar o modelo?
+--- IA:
+Boa pergunta, especialmente dado o contexto do que você acabou de fazer.
+
+## Resposta direta
+
+**Sim, por padrão, pode ser usado — mas você pode desativar isso.**
+
+---
+
+## Como funciona no ChatGPT Plus (conta pessoal)
+
+| Situação | Usado para treinar? |
+|---|---|
+| Configuração **padrão** | ✅ Sim (opt-out disponível) |
+| "Improve the model" **desativado** | ❌ Não |
+| **Chat temporário** | ❌ Não |
+| Plano **Team ou Enterprise** | ❌ Não (por contrato) |
+
+---
+
+## Como desativar
+
+**Configurações → Data Controls → "Improve the model for everyone" → desligar**
+
+---
+
+## O que isso significa na prática
+
+Mesmo desativado, a OpenAI pode reter conversas por um período por razões de segurança e abuso. O que muda é o uso para *treinamento*.
+
+---
+
+## Relevância para o seu caso
+
+Você fez bem em anonimizar antes — mas, para um escritório de contabilidade que lida com dados de clientes regularmente, o mais indicado seria:
+
+- Usar uma conta **Team ou Enterprise** (dados não treinados por contrato), ou
+- Usar a **API diretamente** (também não treina por padrão), ou
+- Sempre anonimizar previamente, como você fez.
+
+> ⚠️ Políticas mudam. Vale verificar sempre em **openai.com/policies** a versão atual antes de tomar decisões importantes sobre conformidade (LGPD, sigilo profissional etc.).
+
+### 2026-10-09 23:07 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador num escritório pequeno. Vou pedir uma análise deste cliente, mas antes tire tudo o que identifica e me devolva pronto para analisar.
+
+COMERCIAL IPÊ ROXO LTDA. (nome fantasia: Casa Ipê Roxo Materiais)
+CNPJ 47.193.628/0001-15 — Rua das Paineiras, 140, Centro, Vargem do Ipê (MG) — única loja de material de construção da cidade
+Telefone (38) 9 0000-4127 — financeiro@ipe-roxo.exemplo
+Sócios: Joventino Arruda Prates (CPF 418.273.650-81), 60%; Marilene Souto Prates (CPF 602.914.837-05), 40%
+Simples Nacional. Conta movimento: Banco do Vale, agência 0417, conta corrente 22381-6
+
+BALANÇO PATRIMONIAL EM 30/09/2026 (R$)
+Ativo circulante: 323.900,00
+  Caixa: 3.200,00
+  Banco do Vale ag. 0417 c/c 22381-6: 41.800,00
+  Duplicatas a receber: 96.500,00 (das quais Construtora Vale do Jequi Ltda.: 38.000,00)
+  Estoques: 182.400,00
+Ativo não circulante: 114.000,00
+  Veículos: 98.000,00
+  Móveis e utensílios: 47.000,00
+  (−) Depreciação acumulada: (31.000,00)
+TOTAL DO ATIVO: 437.900,00
+Passivo circulante: 173.390,00
+  Fornecedores: 128.300,00
+  Salários a pagar: 9.760,00
+  Encargos sociais a recolher: 3.910,00
+  DAS a recolher: 7.420,00
+  Empréstimo — Banco do Vale, contrato nº 2024/0815 (parcelas até 12 meses): 24.000,00
+Passivo não circulante: 60.000,00
+  Empréstimo — Banco do Vale, contrato nº 2024/0815 (parcelas após 12 meses): 60.000,00
+Patrimônio líquido: 204.510,00
+  Capital social: 150.000,00
+  Lucros acumulados: 54.510,00
+TOTAL DO PASSIVO E PL: 437.900,00
+
+DRE DE JANEIRO A SETEMBRO DE 2026 (R$)
+Receita bruta de vendas: 1.248.000,00
+(−) DAS sobre vendas: (87.360,00)
+Receita líquida: 1.160.640,00
+(−) Custo das mercadorias vendidas: (812.400,00)
+Lucro bruto: 348.240,00
+(−) Despesas com pessoal: (142.300,00)
+(−) Aluguel: (43.200,00)
+(−) Outras despesas operacionais: (61.800,00)
+(−) Despesas financeiras: (9.600,00)
+Lucro líquido do período: 91.340,00
+Lucros distribuídos no período: 60.000,00 (Joventino: 36.000,00; Marilene: 24.000,00)
+
+FOLHA DE SETEMBRO DE 2026 (resumo)
+- Dorival Quaresma Neto, CPF 735.108.264-27, único vendedor externo da loja: salário R$ 2.380,00; atestado de 3 dias (CID M54.5)
+- Rosicléia Batista Fontes, nascida em 14/03/1991, caixa: salário R$ 1.900,00
+- Demais 3 empregados (estoque e balcão): R$ 5.480,00 no total
+--- IA:
+Abaixo está o documento com todos os dados identificadores suprimidos. Ao final, listo o que foi retirado.
+
+---
+
+## CLIENTE — DADOS ANONIMIZADOS
+
+**Setor:** Comércio varejista de materiais de construção
+**Regime tributário:** Simples Nacional
+**Estrutura societária:** 2 sócios — Sócio A (60%) e Sócio B (40%)
+
+---
+
+### BALANÇO PATRIMONIAL EM 30/09/2026 (R$)
+
+**Ativo circulante: 323.900,00**
+- Caixa: 3.200,00
+- Conta corrente (Banco A): 41.800,00
+- Duplicatas a receber: 96.500,00 *(das quais Cliente X: 38.000,00)*
+- Estoques: 182.400,00
+
+**Ativo não circulante: 114.000,00**
+- Veículos: 98.000,00
+- Móveis e utensílios: 47.000,00
+- (−) Depreciação acumulada: (31.000,00)
+
+**TOTAL DO ATIVO: 437.900,00**
+
+---
+
+**Passivo circulante: 173.390,00**
+- Fornecedores: 128.300,00
+- Salários a pagar: 9.760,00
+- Encargos sociais a recolher: 3.910,00
+- DAS a recolher: 7.420,00
+- Empréstimo bancário — parcelas com vencimento até 12 meses: 24.000,00
+
+**Passivo não circulante: 60.000,00**
+- Empréstimo bancário — parcelas com vencimento após 12 meses: 60.000,00
+
+**Patrimônio líquido: 204.510,00**
+- Capital social: 150.000,00
+- Lucros acumulados: 54.510,00
+
+**TOTAL DO PASSIVO E PL: 437.900,00**
+
+---
+
+### DRE — JANEIRO A SETEMBRO DE 2026 (R$)
+
+| | |
+|---|---|
+| Receita bruta de vendas | 1.248.000,00 |
+| (−) DAS sobre vendas | (87.360,00) |
+| **Receita líquida** | **1.160.640,00** |
+| (−) Custo das mercadorias vendidas | (812.400,00) |
+| **Lucro bruto** | **348.240,00** |
+| (−) Despesas com pessoal | (142.300,00) |
+| (−) Aluguel | (43.200,00) |
+| (−) Outras despesas operacionais | (61.800,00) |
+| (−) Despesas financeiras | (9.600,00) |
+| **Lucro líquido do período** | **91.340,00** |
+| Lucros distribuídos no período | 60.000,00 |
+| *(Sócio A – 60%: 36.000,00 / Sócio B – 40%: 24.000,00)* | |
+
+---
+
+### FOLHA DE SETEMBRO DE 2026 (resumo)
+
+- **Funcionário 1** (vendedor externo): salário R$ 2.380,00; atestado de 3 dias (CID M54.5)
+- **Funcionária 2** (caixa): salário R$ 1.900,00
+- **Demais 3 funcionários** (estoque e balcão): R$ 5.480,00 no total
+
+---
+
+## O que foi suprimido
+
+| Categoria | Dado original | Substituído por |
+|---|---|---|
+| Razão social / nome fantasia | COMERCIAL IPÊ ROXO LTDA. / Casa Ipê Roxo Materiais | [CLIENTE] |
+| CNPJ | 47.193.628/0001-15 | — removido |
+| Endereço completo | Rua das Paineiras, 140, Centro, Vargem do Ipê (MG) | — removido |
+| Característica de mercado | "única loja de material de construção da cidade" | — removido |
+| Telefone / e-mail | (38) 9 0000-4127 / financeiro@ipe-roxo.exemplo | — removidos |
+| Sócio A | Joventino Arruda Prates, CPF 418.273.650-81 | Sócio A (60%) |
+| Sócio B | Marilene Souto Prates, CPF 602.914.837-05 | Sócio B (40%) |
+| Banco / agência / conta | Banco do Vale, ag. 0417, c/c 22381-6 | Banco A |
+| Contrato de empréstimo | nº 2024/0815 | — removido |
+| Cliente em duplicatas | Construtora Vale do Jequi Ltda. | Cliente X |
+| Funcionário 1 | Dorival Quaresma Neto, CPF 735.108.264-27 | Funcionário 1 (vendedor externo) |
+| Funcionária 2 | Rosicléia Batista Fontes, nascida 14/03/1991 | Funcionária 2 (caixa) |
+
+> **Nota:** o CID M54.5 (lombalgia) foi mantido por ser relevante para análise de afastamento e reflexos na folha, sem permitir identificação após a remoção do nome e CPF.
+
+--- Você:
+No ChatGPT Plus, conta pessoal, o que eu colo pode ser usado para treinar o modelo?
+--- IA:
+Boa pergunta — e muito relevante dado o que você acabou de fazer.
+
+## Resposta curta: depende de uma configuração
+
+Por padrão, **sim**, o conteúdo pode ser usado para treinar modelos. Mas há como desativar isso.
+
+---
+
+## Como funciona (conforme política da OpenAI até onde tenho conhecimento)
+
+**Se a opção de treinamento estiver ligada (padrão):**
+- Suas conversas podem ser revisadas por humanos e usadas para melhorar/treinar modelos futuros.
+
+**Como desativar:**
+> Configurações → Data Controls → desligar **"Improve the model for everyone"**
+
+Com isso desligado, aquela conta específica não contribui para treinamento.
+
+**Alternativa imediata:** usar o modo **"Temporary Chat"** — não salva histórico e não é usado para treino.
+
+---
+
+## ⚠️ Atenção importante
+
+**Meu conhecimento vai até início de 2025.** Hoje é outubro de 2026 — a política da OpenAI pode ter mudado. Verifique diretamente em:
+> [openai.com/policies/privacy-policy](https://openai.com/policies/privacy-policy)
+
+---
+
+## Do ponto de vista do seu trabalho
+
+Mesmo com opt-out ativado, você está lidando com **dados pessoais de terceiros** (CPFs, nomes, dados bancários). Vale considerar:
+
+- O **LGPD** impõe cuidado no tratamento de dados de clientes
+- Ferramentas de IA externas (qualquer uma, inclusive esta) **não são ambiente controlado** para dados sensíveis
+- O ideal é **anonimizar antes de colar** — exatamente o que você fez ✓
+
+Seu fluxo de anonimizar primeiro e só então usar a IA foi o correto.
+
+### 2026-10-09 23:08 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador num escritório pequeno. Os nomes foram trocados por códigos; não tente adivinhar quem é; trabalhe só com o que está aqui. Faça a análise de índices deste cliente: liquidez corrente, liquidez seca, endividamento geral e margem líquida, com a conta de cada um.
+
+CLIENTE A (nome fantasia: retirado)
+CNPJ-1 — Endereço-1, Município-1 (MG) — loja de material de construção
+Telefone-1 — E-mail-1
+Sócios: Sócio 1 (CPF-1), 60%; Sócio 2 (CPF-2), 40%
+Simples Nacional. Conta movimento: Banco-1, Conta-1
+
+BALANÇO PATRIMONIAL EM 30/09/2026 (R$)
+Ativo circulante: 323.900,00
+  Caixa: 3.200,00
+  Banco-1 Conta-1: 41.800,00
+  Duplicatas a receber: 96.500,00 (das quais Cliente B: 38.000,00)
+  Estoques: 182.400,00
+Ativo não circulante: 114.000,00
+  Veículos: 98.000,00
+  Móveis e utensílios: 47.000,00
+  (−) Depreciação acumulada: (31.000,00)
+TOTAL DO ATIVO: 437.900,00
+Passivo circulante: 173.390,00
+  Fornecedores: 128.300,00
+  Salários a pagar: 9.760,00
+  Encargos sociais a recolher: 3.910,00
+  DAS a recolher: 7.420,00
+  Empréstimo — Banco-1, Contrato-1 (parcelas até 12 meses): 24.000,00
+Passivo não circulante: 60.000,00
+  Empréstimo — Banco-1, Contrato-1 (parcelas após 12 meses): 60.000,00
+Patrimônio líquido: 204.510,00
+  Capital social: 150.000,00
+  Lucros acumulados: 54.510,00
+TOTAL DO PASSIVO E PL: 437.900,00
+
+DRE DE JANEIRO A SETEMBRO DE 2026 (R$)
+Receita bruta de vendas: 1.248.000,00
+(−) DAS sobre vendas: (87.360,00)
+Receita líquida: 1.160.640,00
+(−) Custo das mercadorias vendidas: (812.400,00)
+Lucro bruto: 348.240,00
+(−) Despesas com pessoal: (142.300,00)
+(−) Aluguel: (43.200,00)
+(−) Outras despesas operacionais: (61.800,00)
+(−) Despesas financeiras: (9.600,00)
+Lucro líquido do período: 91.340,00
+Lucros distribuídos no período: 60.000,00 (Sócio 1: 36.000,00; Sócio 2: 24.000,00)
+
+FOLHA DE SETEMBRO DE 2026 (resumo)
+- Empregado 1 (CPF-3): salário R$ 2.380,00; atestado de 3 dias [dado de saúde retirado]
+- Empregado 2: salário R$ 1.900,00
+- Demais 3 empregados: R$ 5.480,00 no total
+--- IA:
+# Análise de Índices — Cliente A
+**Base:** Balanço em 30/09/2026 e DRE jan–set/2026
+
+---
+
+## 1. Liquidez Corrente (LC)
+
+**Fórmula:** LC = Ativo Circulante ÷ Passivo Circulante
+
+| Dado | Valor (R$) |
+|---|---|
+| Ativo Circulante | 323.900,00 |
+| Passivo Circulante | 173.390,00 |
+
+> **LC = 323.900 ÷ 173.390 = 1,87**
+
+✔️ Para cada R$ 1,00 de dívida de curto prazo, a empresa possui R$ 1,87 em ativos circulantes. Resultado confortável, acima de 1,0.
+
+---
+
+## 2. Liquidez Seca (LS)
+
+**Fórmula:** LS = (Ativo Circulante − Estoques) ÷ Passivo Circulante
+
+| Dado | Valor (R$) |
+|---|---|
+| Ativo Circulante | 323.900,00 |
+| (−) Estoques | 182.400,00 |
+| **AC sem estoques** | **141.500,00** |
+| Passivo Circulante | 173.390,00 |
+
+> **LS = 141.500 ÷ 173.390 = 0,82**
+
+⚠️ Sem contar o estoque, os ativos líquidos não cobrem integralmente o passivo circulante. Esperado para loja de material de construção (estoque representativo), mas merece acompanhamento. Vale notar que R$ 38.000 das duplicatas a receber são de um único cliente (Cliente B) — concentração que pode afetar a liquidez real se houver inadimplência.
+
+---
+
+## 3. Endividamento Geral (EG)
+
+**Fórmula:** EG = (Passivo Circulante + Passivo Não Circulante) ÷ Total do Ativo
+
+| Dado | Valor (R$) |
+|---|---|
+| Passivo Circulante | 173.390,00 |
+| Passivo Não Circulante | 60.000,00 |
+| **Capital de Terceiros** | **233.390,00** |
+| Total do Ativo | 437.900,00 |
+
+> **EG = 233.390 ÷ 437.900 = 0,533 → 53,3%**
+
+✔️ 53,3% dos ativos são financiados por terceiros e 46,7% por capital próprio (PL de R$ 204.510). Proporção moderada; não há predominância excessiva de dívida.
+
+---
+
+## 4. Margem Líquida (ML)
+
+**Fórmula:** ML = Lucro Líquido ÷ Receita Líquida × 100
+
+| Dado | Valor (R$) |
+|---|---|
+| Lucro Líquido | 91.340,00 |
+| Receita Líquida | 1.160.640,00 |
+
+> **ML = 91.340 ÷ 1.160.640 × 100 = 7,87%**
+
+✔️ A empresa retém cerca de R$ 7,87 de lucro para cada R$ 100,00 de receita líquida. Para o varejo de materiais de construção no Simples Nacional, é uma margem razoável.
+
+---
+
+## Resumo dos Índices
+
+| Índice | Resultado | Sinal |
+|---|---|---|
+| Liquidez Corrente | **1,87** | ✔️ Positivo |
+| Liquidez Seca | **0,82** | ⚠️ Atenção |
+| Endividamento Geral | **53,3%** | ✔️ Moderado |
+| Margem Líquida | **7,87%** | ✔️ Razoável |
+
+---
+
+> **Observação metodológica:** para a Margem Líquida foi utilizada a **Receita Líquida** (após dedução do DAS) como denominador, por ser a base mais adequada para comparação de resultado operacional real. Se o seu escritório adotar a Receita Bruta como padrão, o índice seria: 91.340 ÷ 1.248.000 = **7,32%**.
+
+--- Você:
+No ChatGPT Plus, conta pessoal, o que eu colo pode ser usado para treinar o modelo?
+--- IA:
+Essa é uma pergunta importante, especialmente dado o contexto profissional. Vou separar o que é relevante:
+
+---
+
+## Resposta curta: **depende da configuração**
+
+### Por padrão — sim, pode ser usado
+No ChatGPT Plus com configurações padrão (histórico de conversas **ativado**), a OpenAI pode utilizar as conversas para treinar/melhorar modelos futuros.
+
+### Como desativar
+Dentro do próprio ChatGPT:
+> **Configurações → Controles de dados → "Melhorar o modelo para todos"** → desligar
+
+Com isso desativado, as conversas não são usadas para treinamento.
+
+### Histórico desligado também protege
+Se você desativar o histórico de conversas, além de não salvar, os dados também não são usados para treino (e são excluídos em ~30 dias segundo a política deles).
+
+---
+
+## ⚠️ Ponto relevante para você como contador
+
+Mesmo com opt-out ativo, colar dados de clientes — ainda que anonimizados como você fez aqui — levanta questões de:
+- **Sigilo profissional** (CFC/NBC PA 290)
+- **LGPD**, dependendo do que estiver nos dados
+- Política interna do seu escritório
+
+A anonimização que você usou (códigos no lugar de nomes/CNPJ) é uma boa prática justamente por isso.
+
+---
+
+## Importante
+Minha base de conhecimento tem data de corte e **políticas mudam**. Recomendo confirmar em:
+👉 [openai.com/policies/privacy-policy](https://openai.com/policies/privacy-policy)
+
+Quer que eu explique como funciona a política de dados **aqui no Claude/Anthropic** também, para comparação?
+
+### 2026-10-09 23:09 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador num escritório pequeno. Os nomes foram trocados por códigos; não tente adivinhar quem é; trabalhe só com o que está aqui. Faça a análise de índices deste cliente: liquidez corrente, liquidez seca, endividamento geral e margem líquida, com a conta de cada um.
+
+CLIENTE A (nome fantasia: retirado)
+CNPJ-1 — Endereço-1, Município-1 (MG) — loja de material de construção
+Telefone-1 — E-mail-1
+Sócios: Sócio 1 (CPF-1), 60%; Sócio 2 (CPF-2), 40%
+Simples Nacional. Conta movimento: Banco-1, Conta-1
+
+BALANÇO PATRIMONIAL EM 30/09/2026 (R$)
+Ativo circulante: 323.900,00
+  Caixa: 3.200,00
+  Banco-1 Conta-1: 41.800,00
+  Duplicatas a receber: 96.500,00 (das quais Cliente B: 38.000,00)
+  Estoques: 182.400,00
+Ativo não circulante: 114.000,00
+  Veículos: 98.000,00
+  Móveis e utensílios: 47.000,00
+  (−) Depreciação acumulada: (31.000,00)
+TOTAL DO ATIVO: 437.900,00
+Passivo circulante: 173.390,00
+  Fornecedores: 128.300,00
+  Salários a pagar: 9.760,00
+  Encargos sociais a recolher: 3.910,00
+  DAS a recolher: 7.420,00
+  Empréstimo — Banco-1, Contrato-1 (parcelas até 12 meses): 24.000,00
+Passivo não circulante: 60.000,00
+  Empréstimo — Banco-1, Contrato-1 (parcelas após 12 meses): 60.000,00
+Patrimônio líquido: 204.510,00
+  Capital social: 150.000,00
+  Lucros acumulados: 54.510,00
+TOTAL DO PASSIVO E PL: 437.900,00
+
+DRE DE JANEIRO A SETEMBRO DE 2026 (R$)
+Receita bruta de vendas: 1.248.000,00
+(−) DAS sobre vendas: (87.360,00)
+Receita líquida: 1.160.640,00
+(−) Custo das mercadorias vendidas: (812.400,00)
+Lucro bruto: 348.240,00
+(−) Despesas com pessoal: (142.300,00)
+(−) Aluguel: (43.200,00)
+(−) Outras despesas operacionais: (61.800,00)
+(−) Despesas financeiras: (9.600,00)
+Lucro líquido do período: 91.340,00
+Lucros distribuídos no período: 60.000,00 (Sócio 1: 36.000,00; Sócio 2: 24.000,00)
+
+FOLHA DE SETEMBRO DE 2026 (resumo)
+- Empregado 1 (CPF-3): salário R$ 2.380,00; atestado de 3 dias [dado de saúde retirado]
+- Empregado 2: salário R$ 1.900,00
+- Demais 3 empregados: R$ 5.480,00 no total
+--- IA:
+# Análise de Índices — Cliente A
+**Balanço-base:** 30/09/2026 | **DRE:** jan–set/2026
+
+---
+
+## 1. Liquidez Corrente (LC)
+
+**Fórmula:** Ativo Circulante ÷ Passivo Circulante
+
+$$\text{LC} = \frac{323.900}{173.390} = \mathbf{1{,}87}$$
+
+> **Interpretação:** Para cada R$ 1,00 de dívida de curto prazo, o cliente tem R$ 1,87 de ativos circulantes. Posição confortável, mas convém observar que grande parte desses ativos é estoque (ver índice abaixo).
+
+---
+
+## 2. Liquidez Seca (LS)
+
+**Fórmula:** (Ativo Circulante − Estoques) ÷ Passivo Circulante
+
+$$\text{LS} = \frac{323.900 - 182.400}{173.390} = \frac{141.500}{173.390} = \mathbf{0{,}82}$$
+
+> **Interpretação:** Sem contar o estoque (de difícil conversão imediata em caixa numa loja de material de construção), a cobertura do passivo circulante cai para 82%. Isso sinaliza **dependência do giro do estoque** para honrar compromissos de curto prazo — ponto de atenção, especialmente dado o saldo elevado de fornecedores (R$ 128.300).
+
+---
+
+## 3. Endividamento Geral (EG)
+
+**Fórmula:** (Passivo Circulante + Passivo Não Circulante) ÷ Total do Ativo
+
+$$\text{EG} = \frac{173.390 + 60.000}{437.900} = \frac{233.390}{437.900} = \mathbf{53{,}3\%}$$
+
+> **Interpretação:** 53,3% dos ativos são financiados por terceiros; os 46,7% restantes correspondem ao patrimônio líquido (R$ 204.510). Nível moderado para o porte, mas vale monitorar: a distribuição de lucros de R$ 60.000 no período já reduziu o PL que poderia estar reforçando o capital de giro.
+
+---
+
+## 4. Margem Líquida (ML)
+
+**Fórmula:** Lucro Líquido ÷ Receita Líquida
+
+> Utilizei a **receita líquida** (após dedução do DAS) como base, que é o critério tecnicamente mais adequado.
+
+$$\text{ML} = \frac{91.340}{1.160.640} = \mathbf{7{,}87\%}$$
+
+> **Interpretação:** De cada R$ 100 de receita líquida, sobram R$ 7,87 de lucro. Para o comércio varejista de construção no Simples Nacional, é uma margem razoável, mas a pressão das despesas com pessoal (R$ 142.300) e aluguel (R$ 43.200) — que juntas representam ~16% da receita líquida — merece acompanhamento.
+
+---
+
+## Resumo dos Índices
+
+| Índice | Resultado | Sinal |
+|---|---|---|
+| Liquidez Corrente | 1,87 | ✅ Adequado |
+| Liquidez Seca | 0,82 | ⚠️ Atenção |
+| Endividamento Geral | 53,3% | ⚠️ Moderado |
+| Margem Líquida | 7,87% | ✅ Razoável |
+
+---
+
+**Observação operacional:** O saldo de duplicatas a receber contém R$ 38.000 concentrados em um único devedor (Cliente B) — 39% do total a receber. Isso representa um risco de concentração que afeta indiretamente a qualidade da liquidez seca. Vale verificar o prazo e a regularidade desse recebível.
+
+--- Você:
+No ChatGPT Plus, conta pessoal, o que eu colo pode ser usado para treinar o modelo?
+--- IA:
+Essa é uma pergunta importante, especialmente considerando o tipo de dado que você acabou de trabalhar. O que sei até meu corte de conhecimento (início de 2025):
+
+## Resposta curta: **depende de uma configuração**
+
+### Comportamento padrão no ChatGPT Plus (conta pessoal)
+- **Sim**, por padrão as conversas **podem ser usadas para treinar** os modelos da OpenAI.
+
+### Como desativar
+Dentro do ChatGPT:
+> **Configurações → Controles de dados → "Melhorar o modelo para todos"** → desligar
+
+Com essa opção **desligada**, a OpenAI declara que a conversa não é usada para treinamento.
+
+---
+
+## O que isso significa na prática para você
+
+| Plano | Treinamento padrão | Pode opt-out? |
+|---|---|---|
+| Free / Plus pessoal | ✅ Sim | ✅ Sim (nas config.) |
+| Team / Enterprise | ❌ Não | — |
+| API | ❌ Não | — |
+
+---
+
+## ⚠️ Alerta relevante para o seu caso
+
+Mesmo com CNPJ, CPF e nomes substituídos por códigos, **dados financeiros de clientes são informações sensíveis** sob o sigilo profissional contábil (CFC). Recomendo:
+
+1. **Verificar a política de privacidade vigente da OpenAI** diretamente — ela muda com frequência.
+2. Considerar se o escritório tem política interna sobre uso de IA generativa com dados de clientes.
+3. Para uso profissional contínuo, planos **Team ou Enterprise** oferecem garantias contratuais mais claras.
+
+---
+
+> Aqui no Claude (Anthropic), a política é diferente — mas a mesma cautela se aplica. Sempre vale ler os termos do serviço que você está usando no momento.
+
+### 2026-10-09 23:10 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador num escritório pequeno. Os nomes foram trocados por códigos; não tente adivinhar quem é; trabalhe só com o que está aqui. Faça a análise de índices deste cliente: liquidez corrente, liquidez seca, endividamento geral e margem líquida, com a conta de cada um.
+
+CLIENTE A (nome fantasia: retirado)
+CNPJ-1 — Endereço-1, Município-1 (MG) — loja de material de construção
+Telefone-1 — E-mail-1
+Sócios: Sócio 1 (CPF-1), 60%; Sócio 2 (CPF-2), 40%
+Simples Nacional. Conta movimento: Banco-1, Conta-1
+
+BALANÇO PATRIMONIAL EM 30/09/2026 (R$)
+Ativo circulante: 323.900,00
+  Caixa: 3.200,00
+  Banco-1 Conta-1: 41.800,00
+  Duplicatas a receber: 96.500,00 (das quais Cliente B: 38.000,00)
+  Estoques: 182.400,00
+Ativo não circulante: 114.000,00
+  Veículos: 98.000,00
+  Móveis e utensílios: 47.000,00
+  (−) Depreciação acumulada: (31.000,00)
+TOTAL DO ATIVO: 437.900,00
+Passivo circulante: 173.390,00
+  Fornecedores: 128.300,00
+  Salários a pagar: 9.760,00
+  Encargos sociais a recolher: 3.910,00
+  DAS a recolher: 7.420,00
+  Empréstimo — Banco-1, Contrato-1 (parcelas até 12 meses): 24.000,00
+Passivo não circulante: 60.000,00
+  Empréstimo — Banco-1, Contrato-1 (parcelas após 12 meses): 60.000,00
+Patrimônio líquido: 204.510,00
+  Capital social: 150.000,00
+  Lucros acumulados: 54.510,00
+TOTAL DO PASSIVO E PL: 437.900,00
+
+DRE DE JANEIRO A SETEMBRO DE 2026 (R$)
+Receita bruta de vendas: 1.248.000,00
+(−) DAS sobre vendas: (87.360,00)
+Receita líquida: 1.160.640,00
+(−) Custo das mercadorias vendidas: (812.400,00)
+Lucro bruto: 348.240,00
+(−) Despesas com pessoal: (142.300,00)
+(−) Aluguel: (43.200,00)
+(−) Outras despesas operacionais: (61.800,00)
+(−) Despesas financeiras: (9.600,00)
+Lucro líquido do período: 91.340,00
+Lucros distribuídos no período: 60.000,00 (Sócio 1: 36.000,00; Sócio 2: 24.000,00)
+
+FOLHA DE SETEMBRO DE 2026 (resumo)
+- Empregado 1 (CPF-3): salário R$ 2.380,00; atestado de 3 dias [dado de saúde retirado]
+- Empregado 2: salário R$ 1.900,00
+- Demais 3 empregados: R$ 5.480,00 no total
+--- IA:
+# Análise de Índices — Cliente A
+**Base:** Balanço em 30/09/2026 e DRE jan–set/2026
+
+---
+
+## 1. Liquidez Corrente (LC)
+
+**Fórmula:** AC ÷ PC
+
+$$\frac{323.900}{173.390} = \mathbf{1,87}$$
+
+> Para cada R$ 1,00 de dívida de curto prazo, o cliente dispõe de R$ 1,87 em ativos circulantes. Índice acima de 1 — situação confortável no curto prazo.
+
+---
+
+## 2. Liquidez Seca (LS)
+
+**Fórmula:** (AC − Estoques) ÷ PC
+
+$$\frac{323.900 - 182.400}{173.390} = \frac{141.500}{173.390} = \mathbf{0,82}$$
+
+> Excluindo os estoques (que precisam ser vendidos primeiro), o índice cai para 0,82 — abaixo de 1. O negócio é dependente do giro do estoque para honrar o passivo circulante, o que é típico do varejo de materiais de construção, mas merece atenção.
+
+---
+
+## 3. Endividamento Geral (EG)
+
+**Fórmula:** (PC + PNC) ÷ Ativo Total
+
+$$\frac{173.390 + 60.000}{437.900} = \frac{233.390}{437.900} = \mathbf{53,30\%}$$
+
+> Pouco mais da metade dos ativos é financiada por capital de terceiros. O PL de R$ 204.510 ainda representa 46,70% do total — estrutura razoável, sem sinal de alavancagem excessiva.
+
+---
+
+## 4. Margem Líquida (ML)
+
+**Fórmula:** Lucro Líquido ÷ Receita Líquida × 100
+*(Utilizada a Receita Líquida como denominador — base após dedução do DAS)*
+
+$$\frac{91.340}{1.160.640} \times 100 = \mathbf{7,87\%}$$
+
+> De cada R$ 100 de receita líquida, R$ 7,87 restaram como lucro. Para o varejo de construção no Simples Nacional, a margem está em patamar aceitável — mas vale monitorar as despesas operacionais (R$ 247.500 no período) e as despesas financeiras decorrentes do empréstimo ativo.
+
+---
+
+## Resumo
+
+| Índice | Resultado | Referência geral |
+|---|---|---|
+| Liquidez Corrente | 1,87 | > 1,0 ✔ |
+| Liquidez Seca | 0,82 | < 1,0 — atenção |
+| Endividamento Geral | 53,30% | Moderado |
+| Margem Líquida | 7,87% | Aceitável |
+
+---
+
+**Observação técnica:** os índices são calculados sobre o balanço de uma data específica (30/09/2026) e sobre a DRE acumulada de 9 meses — não anualizada. Caso queira projetar a margem anual ou comparar com períodos anteriores, posso ajudar com essa análise complementar.
+
+--- Você:
+No ChatGPT Plus, conta pessoal, o que eu colo pode ser usado para treinar o modelo?
+--- IA:
+Essa é uma pergunta importante, especialmente para quem lida com dados de clientes.
+
+## Resposta direta
+
+**Sim, por padrão**, conversas no ChatGPT Plus (conta pessoal) podem ser usadas pela OpenAI para treinar e melhorar os modelos.
+
+---
+
+## Como desativar
+
+Nas configurações do ChatGPT:
+
+> **Perfil → Configurações → Controles de dados → "Melhorar o modelo para todos"** → desligar
+
+Com isso desativado, as conversas não são usadas para treino.
+
+---
+
+## Outras opções com mais proteção
+
+| Plano/Modo | Usado para treino por padrão |
+|---|---|
+| ChatGPT Plus pessoal (padrão) | Sim |
+| Plus com opt-out ativado | Não |
+| ChatGPT Team | Não |
+| ChatGPT Enterprise | Não |
+| API OpenAI | Não |
+
+---
+
+## Ponto relevante para você, como contador
+
+Mesmo com dados anonimizados (como você fez aqui, substituindo nomes por códigos), **o Conselho Federal de Contabilidade e a LGPD recomendam cautela** ao inserir informações de clientes em ferramentas de IA de terceiros. O opt-out reduz o risco, mas não elimina o fato de que os dados trafegam pelos servidores da OpenAI.
+
+Uma boa prática é verificar se o escritório tem política interna sobre uso de IA — e, se não tiver, pode ser hora de criar uma.
+

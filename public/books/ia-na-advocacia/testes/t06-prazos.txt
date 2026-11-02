@@ -1,0 +1,1989 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t06, rodado em 13/10/2026 e 18/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t06-N1 — prompt natural
+### 2026-10-13 12:32 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado em Comarca-X e estou conferindo a agenda de prazos do escritório. Para cada publicação abaixo, diga a data de publicação, o primeiro dia do prazo, quantos dias tem o prazo e o último dia. Todos os processos são eletrônicos.
+
+1. Disponibilizada no DJEN em 16/07/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré, que já tem advogado nos autos. Teor: "Dispensada a audiência de conciliação, intime-se a ré, por seu advogado, para contestar no prazo legal."
+
+2. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+3. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré. Teor: sentença de procedência. Queremos opor embargos de declaração.
+
+4. Disponibilizada no DJEN em 24/07/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos a reclamada. Teor: sentença de procedência parcial. Queremos recorrer.
+
+5. Disponibilizada no DJEN em 22/07/2026 (quarta-feira). Juizado Especial Cível de Comarca-X. Representamos o autor. Teor: sentença de improcedência. Queremos recorrer.
+
+6. Disponibilizada no DJEN em 20/08/2026 (quinta-feira). Juizado Especial Federal de Comarca-X, ação de concessão de benefício contra o INSS. Representamos a autora. Teor: sentença de improcedência. Queremos recorrer. Diga também se o INSS teria prazo em dobro para recorrer neste processo.
+
+7. Disponibilizada no DJEN em 17/07/2026 (sexta-feira). Vara da Fazenda Pública de Comarca-X, ação de procedimento comum contra o Estado. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+8. Disponibilizada no DJEN em 08/09/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Há três réus, cada um com advogado de escritório diferente; representamos um deles. Teor: sentença de procedência. Queremos apelar.
+
+9. Disponibilizada no DJEN em 14/09/2026 (segunda-feira). Vara Criminal de Comarca-X. Defendemos o réu, que responde ao processo solto. Teor: sentença condenatória. Queremos apelar.
+
+10. Disponibilizada no DJEN em 15/12/2026 (terça-feira). Vara Criminal de Comarca-X. Defendemos o réu, que está preso por este processo. Teor: sentença condenatória. Queremos apelar.
+
+11. Disponibilizada no DJEN em 10/12/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+12. Disponibilizada no DJEN em 11/12/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos o reclamante. Teor: sentença de improcedência. Queremos recorrer.
+
+13. Esta não veio pelo DJEN. Também atendo a Procuradoria do Município de Comarca-X: a intimação eletrônica de uma sentença de procedência, numa ação de cobrança de procedimento comum contra o Município, na Vara da Fazenda Pública, foi enviada pelo Domicílio Judicial Eletrônico em 08/06/2026 (segunda-feira), e ninguém abriu. Quando a intimação se considera feita e até quando o Município pode apelar?
+
+E duas perguntas sobre o Domicílio Judicial Eletrônico:
+A. Uma empresa cliente recebeu uma citação pelo Domicílio e ninguém abriu. Ela já está citada?
+B. Se ela confirmar o recebimento, quando começa o prazo da contestação? E existe multa por não confirmar?
+--- IA:
+# Cálculo de Prazos Processuais — Comarca-X
+
+## Regras gerais aplicadas
+
+| Regra | Base legal |
+|---|---|
+| Data de publicação = 1º dia útil **após** a disponibilização no DJEN | Lei 11.419/2006, art. 4º, §3º; CPC, art. 224, §2º |
+| 1º dia do prazo = 1º dia útil **após** a data de publicação | Lei 11.419/2006, art. 4º, §4º; CPC, arts. 219 e 224, *caput* |
+| Prazos CPC/JEC/JEF: contados em **dias úteis** | CPC, art. 219; Lei 9.099/95, art. 12-A (Lei 13.728/2018) |
+| Prazos trabalhistas: **dias úteis** (após Reforma 2017) | CLT, art. 775 |
+| Prazos criminais: **dias corridos**; suspende-se se o último dia cair em domingo ou feriado | CPP, arts. 798, *caput* e §3º |
+| Recesso forense civil: **20/12 a 20/01**, inclusive | CPC, art. 220 |
+| Recesso forense trabalhista: idem (alinhamento ao CPC pelo CSJT — confirmar calendário do TRT local) | Resoluções CSJT |
+
+---
+
+## Caso 1 — Contestação (Procedimento Comum / Vara Cível)
+
+| | |
+|---|---|
+| **Disponibilização** | 16/07/2026 (quinta-feira) |
+| **Data de publicação** | 17/07/2026 (sexta-feira) |
+| **1º dia do prazo** | 20/07/2026 (segunda-feira) |
+| **Duração** | **15 dias úteis** — contestação em procedimento comum (CPC, art. 335, III c/c arts. 219 e 231) |
+| **Último dia** | **07/08/2026 (sexta-feira)** |
+
+> ⚠️ A audiência de conciliação foi dispensada pelo juízo, de modo que o prazo corre a partir da intimação do advogado constituído (art. 335, III), contado conforme a publicação no DJEN.
+
+---
+
+## Caso 2 — Apelação (Procedimento Comum / 2ª Vara Cível)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/08/2026 (terça-feira) |
+| **Data de publicação** | 12/08/2026 (quarta-feira) |
+| **1º dia do prazo** | 13/08/2026 (quinta-feira) |
+| **Duração** | **15 dias úteis** — apelação (CPC, art. 1.003, §5º) |
+| **Último dia** | **02/09/2026 (quarta-feira)** |
+
+---
+
+## Caso 3 — Embargos de Declaração (Procedimento Comum / 1ª Vara Cível)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/08/2026 (terça-feira) |
+| **Data de publicação** | 12/08/2026 (quarta-feira) |
+| **1º dia do prazo** | 13/08/2026 (quinta-feira) |
+| **Duração** | **5 dias úteis** — embargos de declaração (CPC, art. 1.023) |
+| **Último dia** | **19/08/2026 (quarta-feira)** |
+
+---
+
+## Caso 4 — Recurso Ordinário Trabalhista (Rito Ordinário / Vara do Trabalho)
+
+| | |
+|---|---|
+| **Disponibilização** | 24/07/2026 (sexta-feira) |
+| **Data de publicação** | 27/07/2026 (segunda-feira) |
+| **1º dia do prazo** | 28/07/2026 (terça-feira) |
+| **Duração** | **8 dias úteis** — recurso ordinário trabalhista (CLT, art. 895, I c/c art. 775) |
+| **Último dia** | **06/08/2026 (quinta-feira)** |
+
+---
+
+## Caso 5 — Recurso Inominado (Juizado Especial Cível)
+
+| | |
+|---|---|
+| **Disponibilização** | 22/07/2026 (quarta-feira) |
+| **Data de publicação** | 23/07/2026 (quinta-feira) |
+| **1º dia do prazo** | 24/07/2026 (sexta-feira) |
+| **Duração** | **10 dias úteis** — recurso inominado no JEC (Lei 9.099/95, arts. 42 e 12-A) |
+| **Último dia** | **06/08/2026 (quinta-feira)** |
+
+---
+
+## Caso 6 — Recurso Inominado (Juizado Especial Federal)
+
+| | |
+|---|---|
+| **Disponibilização** | 20/08/2026 (quinta-feira) |
+| **Data de publicação** | 21/08/2026 (sexta-feira) |
+| **1º dia do prazo** | 24/08/2026 (segunda-feira) |
+| **Duração** | **10 dias úteis** — recurso inominado no JEF (Lei 10.259/2001, art. 1º c/c Lei 9.099/95, arts. 42 e 12-A) |
+| **Último dia** | **04/09/2026 (sexta-feira)** |
+
+> **Sobre o prazo em dobro do INSS:** O INSS **não tem prazo em dobro** no JEF. A Lei 10.259/2001, art. 9º, veda expressamente qualquer prazo diferenciado para pessoas jurídicas de direito público nos juizados especiais federais, inclusive para a interposição de recursos. O INSS teria o mesmo prazo de 10 dias úteis que o autor.
+
+---
+
+## Caso 7 — Apelação (Procedimento Comum / Vara da Fazenda Pública — Autor)
+
+| | |
+|---|---|
+| **Disponibilização** | 17/07/2026 (sexta-feira) |
+| **Data de publicação** | 20/07/2026 (segunda-feira) |
+| **1º dia do prazo** | 21/07/2026 (terça-feira) |
+| **Duração** | **15 dias úteis** — apelação (CPC, art. 1.003, §5º) |
+| **Último dia** | **10/08/2026 (segunda-feira)** |
+
+> ⚠️ Vocês representam o **autor** (particular), portanto o prazo padrão de 15 dias úteis se aplica. Seria o **Estado** (Fazenda Pública) quem teria prazo em dobro (30 dias úteis) para eventual recurso, por força do CPC, art. 183.
+
+---
+
+## Caso 8 — Apelação (Procedimento Comum / 3 réus com advogados distintos)
+
+| | |
+|---|---|
+| **Disponibilização** | 08/09/2026 (terça-feira) |
+| **Data de publicação** | 09/09/2026 (quarta-feira) |
+| **1º dia do prazo** | 10/09/2026 (quinta-feira) |
+| **Duração** | **15 dias úteis** — apelação (CPC, art. 1.003, §5º) |
+| **Último dia** | **30/09/2026 (quarta-feira)** |
+
+> ⚠️ **Atenção — armadilha clássica:** embora haja litisconsortes com procuradores de escritórios distintos, o que normalmente geraria prazo em dobro (CPC, art. 229, *caput*), o **§2º do mesmo artigo** afasta esse benefício quando o processo for eletrônico — e o enunciado confirma que todos os processos são eletrônicos. Portanto, **não há prazo em dobro**: o prazo é de 15 dias úteis para todos os réus.
+
+---
+
+## Caso 9 — Apelação Criminal (Réu Solto)
+
+| | |
+|---|---|
+| **Disponibilização** | 14/09/2026 (segunda-feira) |
+| **Data de publicação** | 15/09/2026 (terça-feira) |
+| **1º dia do prazo** | 16/09/2026 (quarta-feira) |
+| **Duração** | **5 dias corridos** — apelação criminal (CPP, arts. 593 e 798) |
+| **Último dia** | 20/09/2026 (domingo) → prorrogado para **21/09/2026 (segunda-feira)** |
+
+> O prazo criminal corre continuamente (CPP, art. 798, *caput*), sem suspensão por sábados, domingos ou feriados — mas se o **último dia** cair em domingo ou feriado, prorroga-se para o primeiro dia útil seguinte (CPP, art. 798, §3º). O 5º dia cairia em 20/09 (domingo), logo o prazo vai até **21/09/2026 (segunda-feira)**.
+
+---
+
+## Caso 10 — Apelação Criminal (Réu Preso)
+
+| | |
+|---|---|
+| **Disponibilização** | 15/12/2026 (terça-feira) |
+| **Data de publicação** | 16/12/2026 (quarta-feira) |
+| **1º dia do prazo (advogado via DJEN)** | 17/12/2026 (quinta-feira) |
+| **Duração** | **5 dias corridos** — apelação criminal (CPP, arts. 593 e 798) |
+| **Último dia (perspectiva do advogado)** | **21/12/2026 (segunda-feira)** |
+
+> ⚠️ **Alerta crítico — réu preso:** O CPP, art. 392, I, exige que a sentença seja **intimada pessoalmente ao réu** quando este estiver preso. A publicação no DJEN intima o advogado, mas **não supre a intimação pessoal do réu**. O prazo de apelação só começa a correr, para o réu, a partir da sua intimação pessoal (feita pelo estabelecimento prisional ou por oficial de justiça). Recomenda-se: (a) interpor o recurso antes de 21/12/2026 com base na intimação do advogado; e (b) verificar junto ao cartório quando foi feita — ou quando será feita — a intimação pessoal do réu, pois o prazo pode ser distinto. O CPC, art. 220 (recesso civil) **não se aplica** a prazos criminais (CPP, art. 798).
+
+---
+
+## Caso 11 — Apelação com Recesso Forense (Procedimento Comum / 1ª Vara Cível)
+
+| | |
+|---|---|
+| **Disponibilização** | 10/12/2026 (quinta-feira) |
+| **Data de publicação** | 11/12/2026 (sexta-feira) |
+| **1º dia do prazo** | 14/12/2026 (segunda-feira) |
+| **Duração** | **15 dias úteis** — apelação (CPC, art. 1.003, §5º) |
+| **Recesso forense** | 20/12/2026 (domingo) a 20/01/2027 (quarta-feira), inclusive — suspende o prazo (CPC, art. 220) |
+
+**Contagem detalhada:**
+
+| Dias úteis antes do recesso | Datas |
+|---|---|
+| 1º | 14/12 (seg) |
+| 2º | 15/12 (ter) |
+| 3º | 16/12 (qua) |
+| 4º | 17/12 (qui) |
+| 5º | 18/12 (sex) |
+| — | 19/12 (sáb) e 20/12 (dom): não são dias úteis; o recesso tem início em 20/12 |
+
+Prazo retoma em **21/01/2027 (quinta-feira)**. Restam **10 dias úteis**:
+
+| Dias úteis após o recesso | Datas |
+|---|---|
+| 6º | 21/01/2027 (qui) |
+| 7º | 22/01/2027 (sex) |
+| 8º | 25/01/2027 (seg) |
+| 9º | 26/01/2027 (ter) |
+| 10º | 27/01/2027 (qua) |
+| 11º | 28/01/2027 (qui) |
+| 12º | 29/01/2027 (sex) |
+| 13º | 01/02/2027 (seg) |
+| 14º | 02/02/2027 (ter) |
+| **15º** | **03/02/2027 (qua)** |
+
+> **Último dia: 03/02/2027 (quarta-feira)**
+
+---
+
+## Caso 12 — Recurso Ordinário Trabalhista com Recesso (Vara do Trabalho)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/12/2026 (sexta-feira) |
+| **Data de publicação** | 14/12/2026 (segunda-feira) |
+| **1º dia do prazo** | 15/12/2026 (terça-feira) |
+| **Duração** | **8 dias úteis** — recurso ordinário trabalhista (CLT, art. 895, I c/c art. 775) |
+
+**Contagem antes do recesso:**
+
+| Dias úteis | Datas |
+|---|---|
+| 1º | 15/12 (ter) |
+| 2º | 16/12 (qua) |
+| 3º | 17/12 (qui) |
+| 4º | 18/12 (sex) |
+| — | 19/12 (sáb) e 20/12 (dom): recesso inicia em 20/12 |
+
+Restam **4 dias úteis** após o recesso:
+
+| Cenário | Fim do recesso | Retomada | Últimos 4 dias | **Último dia** |
+|---|---|---|---|---|
+| Recesso CSJT alinhado ao CPC | 20/01/2027 (qua) | 21/01/2027 (qui) | 21, 22, 25 e 26/01 | **26/01/2027 (terça-feira)** |
+| Recesso tradicional CSJT (até 06/01) | 06/01/2027 (qua) | 07/01/2027 (qui) | 7, 8, 11 e 12/01 | **12/01/2027 (terça-feira)** |
+
+> ⚠️ **Verifique o calendário do TRT local.** O CSJT tem alinhado o recesso trabalhista ao CPC (até 20/01), mas cada Tribunal Regional pode fixar datas ligeiramente distintas. A data mais conservadora — e portanto mais segura — é **26/01/2027**.
+
+---
+
+## Caso 13 — Domicílio Judicial Eletrônico (DJe) — Município
+
+**Situação:** intimação de sentença enviada pelo DJe em **08/06/2026 (segunda-feira)**; ninguém abriu.
+
+**Quando a intimação se considera feita:**
+
+Pela Resolução CNJ nº 455/2022, art. 5º, §2º, se a consulta não for realizada no prazo de **3 dias úteis** a contar do envio, a comunicação considera-se **automaticamente realizada**:
+
+| | |
+|---|---|
+| Envio pelo DJe | 08/06/2026 (seg) — não contado |
+| 1º dia útil | 09/06/2026 (ter) |
+| 2º dia útil | 10/06/2026 (qua) |
+| 3º dia útil | 11/06/2026 (qui) |
+| **Intimação considerada feita** | **11/06/2026 (quinta-feira)** |
+
+**Prazo para apelar:**
+
+Como a intimação foi feita em dia útil, o prazo começa no **1º dia útil seguinte** (CPC, art. 183, §1º):
+- **1º dia do prazo:** 12/06/2026 (sexta-feira)
+
+O Município é **Fazenda Pública Municipal** e goza de **prazo em dobro** para todas as manifestações processuais (CPC, art. 183): apelação = **30 dias úteis**.
+
+Não há feriados nacionais entre 12/06 e 23/07 (o feriado de 09/07, Revolução Constitucionalista, é estadual paulista, não nacional).
+
+| Faixa | Dias úteis |
+|---|---|
+| 12/06 (sex) a 30/06 (ter) | 13 dias (dias 1–13) |
+| 01/07 (qua) a 23/07 (qui) | 17 dias (dias 14–30) |
+
+> **Último dia para o Município apelar: 23/07/2026 (quinta-feira)**
+
+---
+
+## Perguntas sobre o Domicílio Judicial Eletrônico
+
+### A. A empresa que recebeu citação pelo DJe e não abriu — já está citada?
+
+**Depende do tempo decorrido desde o envio.** Pela Resolução CNJ nº 455/2022, art. 5º, §2º, se a empresa **não acessar o DJe no prazo de 3 dias úteis contados do envio**, a citação é **automaticamente considerada realizada** no 3º dia útil. Portanto:
+
+- Se ainda não se passaram 3 dias úteis desde o envio → **a empresa ainda não está citada**; o prazo para contestar não começou.
+- Se já se passaram 3 dias úteis sem acesso → **a empresa já está citada** desde o 3º dia útil após o envio; o prazo para contestar começou a correr no 1º dia útil seguinte à data de citação automática.
+
+### B. Se a empresa confirmar o recebimento (acessar o DJe), quando começa o prazo de contestação? Existe multa por não confirmar?
+
+**Início do prazo de contestação:** Ao acessar o DJe e confirmar o recebimento, a citação considera-se realizada **naquele momento** (Res. CNJ 455/2022, art. 5º, §1º). O prazo de 15 dias úteis para contestar (CPC, art. 335) começa no **1º dia útil seguinte** ao da confirmação (CPC, arts. 219, 224 e 231, §1º).
+
+**Multa por não confirmar:** **Não existe multa** prevista em lei ou resolução pelo simples fato de não abrir/confirmar uma mensagem no DJe. A consequência jurídica é apenas processual: a citação considera-se feita automaticamente após 3 dias úteis, sem que se possa alegar nulidade por falta de intimação. Eventuais penalidades por má-fé processual (CPC, arts. 77–81) seriam hipóteses distintas, ligadas a condutas estratégicas de evasão — não ao mero silêncio no DJe.
+
+---
+
+> **Aviso:** Este cálculo considera apenas feriados nacionais. Feriados estaduais, municipais e pontos facultativos locais de Comarca-X podem alterar as datas. Confirme sempre o calendário forense oficial do tribunal e da comarca antes de registrar os prazos definitivos na agenda do escritório.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t06-N2g — prompt natural
+### 2026-10-18 20:22 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado em Comarca-X e estou conferindo a agenda de prazos do escritório. Para cada publicação abaixo, diga a data de publicação, o primeiro dia do prazo, quantos dias tem o prazo e o último dia. Todos os processos são eletrônicos.
+
+1. Disponibilizada no DJEN em 16/07/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré, que já tem advogado nos autos. Teor: "Dispensada a audiência de conciliação, intime-se a ré, por seu advogado, para contestar no prazo legal."
+
+2. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+3. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré. Teor: sentença de procedência. Queremos opor embargos de declaração.
+
+4. Disponibilizada no DJEN em 24/07/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos a reclamada. Teor: sentença de procedência parcial. Queremos recorrer.
+
+5. Disponibilizada no DJEN em 22/07/2026 (quarta-feira). Juizado Especial Cível de Comarca-X. Representamos o autor. Teor: sentença de improcedência. Queremos recorrer.
+
+6. Disponibilizada no DJEN em 20/08/2026 (quinta-feira). Juizado Especial Federal de Comarca-X, ação de concessão de benefício contra o INSS. Representamos a autora. Teor: sentença de improcedência. Queremos recorrer. Diga também se o INSS teria prazo em dobro para recorrer neste processo.
+
+7. Disponibilizada no DJEN em 17/07/2026 (sexta-feira). Vara da Fazenda Pública de Comarca-X, ação de procedimento comum contra o Estado. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+8. Disponibilizada no DJEN em 08/09/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Há três réus, cada um com advogado de escritório diferente; representamos um deles. Teor: sentença de procedência. Queremos apelar.
+
+9. Disponibilizada no DJEN em 14/09/2026 (segunda-feira). Vara Criminal de Comarca-X. Defendemos o réu, que responde ao processo solto. Teor: sentença condenatória. Queremos apelar.
+
+10. Disponibilizada no DJEN em 15/12/2026 (terça-feira). Vara Criminal de Comarca-X. Defendemos o réu, que está preso por este processo. Teor: sentença condenatória. Queremos apelar.
+
+11. Disponibilizada no DJEN em 10/12/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+12. Disponibilizada no DJEN em 11/12/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos o reclamante. Teor: sentença de improcedência. Queremos recorrer.
+
+13. Esta não veio pelo DJEN. Também atendo a Procuradoria do Município de Comarca-X: a intimação eletrônica de uma sentença de procedência, numa ação de cobrança de procedimento comum contra o Município, na Vara da Fazenda Pública, foi enviada pelo Domicílio Judicial Eletrônico em 08/06/2026 (segunda-feira), e ninguém abriu. Quando a intimação se considera feita e até quando o Município pode apelar?
+
+E duas perguntas sobre o Domicílio Judicial Eletrônico:
+A. Uma empresa cliente recebeu uma citação pelo Domicílio e ninguém abriu. Ela já está citada?
+B. Se ela confirmar o recebimento, quando começa o prazo da contestação? E existe multa por não confirmar?
+--- IA:
+# Análise de prazos processuais
+
+## Premissas aplicadas a todos os casos
+
+| Regra | Base |
+|---|---|
+| **Data da publicação no DJEN** = 1º dia útil após a disponibilização | Lei 11.419/2006, art. 4º, §3º |
+| **1º dia do prazo** = 1º dia útil (CPC/CLT) ou calendário (JEC/JEF/CPP) **após** a data da publicação — pois a publicação é o "dia do começo", excluído da contagem | CPC, art. 224; CPP, art. 798, §1º |
+| Prazos CPC: **dias úteis** | CPC, art. 219 |
+| Prazos CLT: **dias úteis** | CLT, art. 775 (redação da Lei 13.467/2017) |
+| Prazos JEC/JEF: **dias corridos** | Lei 9.099/1995, art. 42; FONAJE, Enunc. 165 |
+| Prazos CPP: **dias corridos e contínuos** (não se interrompem em fins de semana nem feriados; se o último dia cair em domingo/feriado, prorroga-se para o dia útil seguinte) | CPP, art. 798 e §3º |
+| **Recesso forense** (CPC): 20/12 a 20/01, inclusive — suspende prazos cíveis e, subsidiariamente via TST IN 41/2018, trabalhistas; **não se aplica ao CPP** | CPC, art. 220 |
+
+---
+
+## Caso 1 — Contestação (procedimento comum; ré já com advogado)
+
+| | |
+|---|---|
+| **Disponibilização** | 16/07/2026 (Qui) |
+| **Data da publicação** | 17/07/2026 (Sex) |
+| **1º dia do prazo** | 20/07/2026 (Seg) |
+| **Prazo** | **15 dias úteis** — contestação (CPC, art. 335) |
+| **Último dia** | **07/08/2026 (Sex)** |
+
+> A audiência de conciliação foi dispensada e a ré foi intimada pelo DJEN (por seu advogado) a contestar. O prazo de 15 dias úteis conta a partir do dia seguinte à publicação.
+
+---
+
+## Caso 2 — Apelação do autor (sentença de improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/08/2026 (Ter) |
+| **Data da publicação** | 12/08/2026 (Qua) |
+| **1º dia do prazo** | 13/08/2026 (Qui) |
+| **Prazo** | **15 dias úteis** — apelação (CPC, art. 1.003, §5º) |
+| **Último dia** | **02/09/2026 (Qua)** |
+
+---
+
+## Caso 3 — Embargos de declaração da ré (sentença de procedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/08/2026 (Ter) |
+| **Data da publicação** | 12/08/2026 (Qua) |
+| **1º dia do prazo** | 13/08/2026 (Qui) |
+| **Prazo** | **5 dias úteis** — embargos de declaração (CPC, art. 1.023) |
+| **Último dia** | **19/08/2026 (Qua)** |
+
+---
+
+## Caso 4 — Recurso Ordinário trabalhista (rito ordinário; Vara do Trabalho)
+
+| | |
+|---|---|
+| **Disponibilização** | 24/07/2026 (Sex) |
+| **Data da publicação** | 27/07/2026 (Seg) *(sáb. e dom. pulados)* |
+| **1º dia do prazo** | 28/07/2026 (Ter) |
+| **Prazo** | **8 dias úteis** — Recurso Ordinário (CLT, art. 895, I, c/c art. 775) |
+| **Último dia** | **06/08/2026 (Qui)** |
+
+---
+
+## Caso 5 — Recurso inominado no JEC (sentença de improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 22/07/2026 (Qua) |
+| **Data da publicação** | 23/07/2026 (Qui) |
+| **1º dia do prazo** | 24/07/2026 (Sex) *(corridos)* |
+| **Prazo** | **10 dias corridos** — recurso inominado (Lei 9.099/1995, art. 42) |
+| **Último dia nominal** | 02/08/2026 (Dom) → prorrogado para **03/08/2026 (Seg)** |
+
+> **Atenção:** Os prazos do JEC são contados em dias corridos (não úteis), conforme posição consolidada do FONAJE (Enunciado 165) e da jurisprudência majoritária, que considera a Lei 9.099/1995 lei especial não alcançada pelo art. 219 do CPC. Como o 10º dia cai em domingo, o prazo é prorrogado para a segunda-feira seguinte (CPC, art. 224, §1º, aplicado subsidiariamente).
+
+---
+
+## Caso 6 — Recurso no JEF contra o INSS (sentença de improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 20/08/2026 (Qui) |
+| **Data da publicação** | 21/08/2026 (Sex) |
+| **1º dia do prazo** | 22/08/2026 (Sáb) *(corridos)* |
+| **Prazo** | **10 dias corridos** — recurso (Lei 10.259/2001, art. 5º, §1º) |
+| **Último dia** | **31/08/2026 (Seg)** |
+
+> **INSS — prazo em dobro?** **Não.** O art. 9º da Lei 10.259/2001 é expresso: *"Não haverá prazo diferenciado para a prática de qualquer ato processual pelas pessoas jurídicas de direito público, inclusive a interposição de recursos."* O INSS, portanto, tem exatamente o mesmo prazo que a autora: **10 dias corridos**, com último dia em **31/08/2026**. O prazo em dobro do art. 183 do CPC não se aplica no JEF por vedação legal expressa e especial.
+
+---
+
+## Caso 7 — Apelação do autor contra o Estado (Vara da Fazenda Pública)
+
+| | |
+|---|---|
+| **Disponibilização** | 17/07/2026 (Sex) |
+| **Data da publicação** | 20/07/2026 (Seg) *(sáb. e dom. pulados)* |
+| **1º dia do prazo** | 21/07/2026 (Ter) |
+| **Prazo** | **15 dias úteis** — apelação (CPC, art. 1.003, §5º) |
+| **Último dia** | **10/08/2026 (Seg)** |
+
+> O autor é particular, sem prazo diferenciado. O Estado-réu (Fazenda Pública) teria prazo em dobro de **30 dias úteis** para apelar (CPC, art. 183), mas isso não afeta o prazo do seu cliente.
+
+---
+
+## Caso 8 — Apelação em litisconsórcio passivo com procuradores distintos (autos eletrônicos)
+
+| | |
+|---|---|
+| **Disponibilização** | 08/09/2026 (Ter) |
+| **Data da publicação** | 09/09/2026 (Qua) |
+| **1º dia do prazo** | 10/09/2026 (Qui) |
+| **Prazo** | **15 dias úteis** — apelação (CPC, art. 1.003, §5º) |
+| **Último dia** | **30/09/2026 (Qua)** |
+
+> **Prazo em dobro pelo art. 229 do CPC?** **Não se aplica.** O art. 229, §2º é claro: *"Não se aplica o disposto no caput aos processos em autos eletrônicos."* Como o processo é eletrônico, cada réu — incluindo o seu cliente — tem o prazo normal de **15 dias úteis**, independentemente de quantos litisconsortes existam e de terem procuradores distintos.
+
+---
+
+## Caso 9 — Apelação criminal (réu solto)
+
+| | |
+|---|---|
+| **Disponibilização** | 14/09/2026 (Seg) |
+| **Data da publicação** | 15/09/2026 (Ter) |
+| **1º dia do prazo** | 16/09/2026 (Qua) *(corridos)* |
+| **Prazo** | **5 dias corridos** — apelação criminal (CPP, arts. 593 e 798) |
+| **Último dia nominal** | 20/09/2026 (Dom) → prorrogado para **21/09/2026 (Seg)** (CPP, art. 798, §3º) |
+
+---
+
+## Caso 10 — Apelação criminal (réu preso)
+
+| | |
+|---|---|
+| **Disponibilização** | 15/12/2026 (Ter) |
+| **Data da publicação** | 16/12/2026 (Qua) |
+| **1º dia do prazo** | 17/12/2026 (Qui) *(corridos)* |
+| **Prazo** | **5 dias corridos** — apelação criminal (CPP, arts. 593 e 798) |
+| **Último dia (CPP puro)** | **21/12/2026 (Seg)** |
+
+> **Recesso:** O CPP, art. 798, determina que os prazos criminais "correrão contínuos e peremptórios, não se interrompendo por férias, domingo ou dia feriado". O recesso forense do CPC (art. 220) não se aplica ao CPP. Contando os 5 dias corridos a partir de 17/12 (Qui): 17, 18, 19, 20 e **21/12 (Seg)**. O último dia cai numa segunda-feira útil, quando o fórum está aberto, não havendo necessidade de prorrogação.
+>
+> ⚠️ Existe corrente minoritária de tribunais estaduais que aplica analogicamente o recesso do CPC ao processo penal. Nesse cenário (controverso), os dias 20 e 21/12 seriam suspensos (restariam 2 dias por correr); o prazo retomaria em 21/01/2027 (Qui) e o último dia seria **22/01/2027 (Sex)**. **Recomenda-se fortemente protocolar a apelação até 21/12/2026**, sem contar com a suspensão.
+>
+> **Réu preso:** A custódia não altera o prazo do advogado. A intimação do patrono pelo DJEN é suficiente para iniciar o prazo de 5 dias. Existe obrigação autônoma de intimar pessoalmente o réu preso (CPP, art. 392, I), mas isso é responsabilidade do juízo e não posterga o prazo do defensor constituído.
+
+---
+
+## Caso 11 — Apelação (dezembro; com recesso forense)
+
+| | |
+|---|---|
+| **Disponibilização** | 10/12/2026 (Qui) |
+| **Data da publicação** | 11/12/2026 (Sex) |
+| **1º dia do prazo** | 14/12/2026 (Seg) |
+| **Prazo** | **15 dias úteis** — apelação (CPC, art. 1.003, §5º) |
+| **Recesso (CPC, art. 220)** | **Suspensão: 20/12/2026 a 20/01/2027, inclusive** |
+
+**Contagem:**
+
+| Fase | Dias úteis | Datas |
+|---|---|---|
+| Antes do recesso | 5 (dias 1 a 5) | 14, 15, 16, 17 e 18/12/2026 |
+| *(Recesso: 20/12/2026 – 20/01/2027)* | — | — |
+| Após o recesso | 10 (dias 6 a 15) | 21/01 a 03/02/2027 |
+
+**Último dia: 03/02/2027 (Qua)**
+
+---
+
+## Caso 12 — Recurso Ordinário trabalhista (dezembro; com recesso)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/12/2026 (Sex) |
+| **Data da publicação** | 14/12/2026 (Seg) *(sáb. e dom. pulados)* |
+| **1º dia do prazo** | 15/12/2026 (Ter) |
+| **Prazo** | **8 dias úteis** — Recurso Ordinário (CLT, art. 895, I c/c art. 775) |
+| **Recesso** | Aplicado subsidiariamente (CPC, art. 220 c/c TST IN 41/2018): **20/12/2026 a 20/01/2027** |
+
+**Contagem:**
+
+| Fase | Dias úteis | Datas |
+|---|---|---|
+| Antes do recesso | 4 (dias 1 a 4) | 15, 16, 17 e 18/12/2026 |
+| *(Recesso)* | — | — |
+| Após o recesso | 4 (dias 5 a 8) | 21, 22, 25 e 26/01/2027 |
+
+**Último dia: 26/01/2027 (Ter)**
+
+---
+
+## Caso 13 — Município (Domicílio Judicial Eletrônico; intimação não aberta)
+
+O DJE (Domicílio Judicial Eletrônico — CNJ Res. 455/2022) segue regras diferentes do DJEN.
+
+**Mecanismo aplicável:**
+
+| Evento | Data |
+|---|---|
+| Envio pelo DJE | 08/06/2026 (Seg) |
+| Prazo de consulta (3 dias úteis — ninguém abriu): 9, 10 e **11/06** | — |
+| **Intimação considerada realizada** (CNJ Res. 455/2022, art. 6º) | **11/06/2026 (Qui)** |
+| "Dia do começo do prazo" (CPC, art. 231, V: *"dia útil seguinte ao término do prazo para consulta"*) | 12/06/2026 (Sex) — **excluído** da contagem (CPC, art. 224) |
+| **1º dia do prazo** | **15/06/2026 (Seg)** |
+
+**Prazo do Município:** 30 dias úteis — apelação em dobro (CPC, art. 183: Fazenda Pública tem prazo em dobro para todas as manifestações; o DJE equivale à intimação pessoal, nos termos do CPC, art. 269, §3º, que inclui "meio eletrônico").
+
+**Contagem de 30 dias úteis a partir de 15/06/2026:**
+
+| Semana | Dias úteis | Dias acumulados |
+|---|---|---|
+| 15–19/jun | 5 | 5 |
+| 22–26/jun | 5 | 10 |
+| 29/jun–03/jul | 5 | 15 |
+| 06–10/jul | 5 | 20 |
+| 13–17/jul | 5 | 25 |
+| 20–24/jul | 5 | **30** |
+
+**Último dia para o Município apelar: 24/07/2026 (Sex)**
+
+---
+
+## Questões sobre o Domicílio Judicial Eletrônico
+
+### A. Empresa citada pelo DJE sem abrir — já está citada?
+
+**Sim, está plenamente citada.** Nos termos do art. 6º da CNJ Res. 455/2022 e do art. 231, V, do CPC, decorridos 3 dias úteis do envio sem que o destinatário acesse o teor, a comunicação é automaticamente considerada realizada. O silêncio opera ficção legal de ciência: a citação produz todos os seus efeitos — induz litispendência, torna litigiosa a coisa e constitui o devedor em mora (CPC, art. 240) — sem necessidade de qualquer ato adicional do juízo.
+
+---
+
+### B. Se confirmar o recebimento: quando começa o prazo? Há multa por não confirmar?
+
+**Início do prazo se houver confirmação:**
+
+Quando a empresa abre e confirma a mensagem no DJE em um determinado dia (chame-o de **dia C**):
+
+1. O "dia do começo do prazo" é o **1º dia útil seguinte a C** (CPC, art. 231, V).
+2. Esse dia é **excluído** da contagem (CPC, art. 224).
+3. O **1º dia efetivamente contado** é, portanto, o **2º dia útil após a confirmação** (ou o 1º dia útil da semana seguinte, se a confirmação ocorrer na quinta ou na sexta-feira).
+
+*Exemplo:* Confirmação na quarta-feira → dia do começo = quinta → quinta excluída → **1º dia da contestação = sexta**. O prazo de 15 dias úteis (contestação em procedimento comum) passa a fluir daí.
+
+**Multa por não confirmar:**
+
+**Não há multa** pelo simples fato de o destinatário não abrir ou não confirmar uma comunicação recebida pelo DJE. Nem o CPC, nem a Lei 14.195/2021, nem a CNJ Res. 455/2022 preveem sanção pecuniária para essa conduta. A única consequência jurídica é a citação/intimação automática ao final dos 3 dias úteis — o que, na prática, pode ser até mais prejudicial à empresa do que ter confirmado, pois o prazo começa a correr sem que ela tenha se preparado.
+
+O que pode gerar consequências é o **descadastramento ou a falta de cadastro obrigatório** no DJE (exigido para empresas com CNPJ, salvo ME e EPP — CPC, art. 246, §1º), mas isso é hipótese diversa de deixar de confirmar uma mensagem já recebida.
+
+---
+
+> **Aviso geral:** Os cálculos acima consideram apenas feriados nacionais. Feriados estaduais, municipais ou pontos facultativos de Comarca-X podem alterar as datas de publicação e os últimos dias. Verifique o calendário forense local antes de inscrever os prazos definitivamente na agenda.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t06-N3g — prompt natural
+### 2026-10-18 20:22 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado em Comarca-X e estou conferindo a agenda de prazos do escritório. Para cada publicação abaixo, diga a data de publicação, o primeiro dia do prazo, quantos dias tem o prazo e o último dia. Todos os processos são eletrônicos.
+
+1. Disponibilizada no DJEN em 16/07/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré, que já tem advogado nos autos. Teor: "Dispensada a audiência de conciliação, intime-se a ré, por seu advogado, para contestar no prazo legal."
+
+2. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+3. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré. Teor: sentença de procedência. Queremos opor embargos de declaração.
+
+4. Disponibilizada no DJEN em 24/07/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos a reclamada. Teor: sentença de procedência parcial. Queremos recorrer.
+
+5. Disponibilizada no DJEN em 22/07/2026 (quarta-feira). Juizado Especial Cível de Comarca-X. Representamos o autor. Teor: sentença de improcedência. Queremos recorrer.
+
+6. Disponibilizada no DJEN em 20/08/2026 (quinta-feira). Juizado Especial Federal de Comarca-X, ação de concessão de benefício contra o INSS. Representamos a autora. Teor: sentença de improcedência. Queremos recorrer. Diga também se o INSS teria prazo em dobro para recorrer neste processo.
+
+7. Disponibilizada no DJEN em 17/07/2026 (sexta-feira). Vara da Fazenda Pública de Comarca-X, ação de procedimento comum contra o Estado. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+8. Disponibilizada no DJEN em 08/09/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Há três réus, cada um com advogado de escritório diferente; representamos um deles. Teor: sentença de procedência. Queremos apelar.
+
+9. Disponibilizada no DJEN em 14/09/2026 (segunda-feira). Vara Criminal de Comarca-X. Defendemos o réu, que responde ao processo solto. Teor: sentença condenatória. Queremos apelar.
+
+10. Disponibilizada no DJEN em 15/12/2026 (terça-feira). Vara Criminal de Comarca-X. Defendemos o réu, que está preso por este processo. Teor: sentença condenatória. Queremos apelar.
+
+11. Disponibilizada no DJEN em 10/12/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+12. Disponibilizada no DJEN em 11/12/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos o reclamante. Teor: sentença de improcedência. Queremos recorrer.
+
+13. Esta não veio pelo DJEN. Também atendo a Procuradoria do Município de Comarca-X: a intimação eletrônica de uma sentença de procedência, numa ação de cobrança de procedimento comum contra o Município, na Vara da Fazenda Pública, foi enviada pelo Domicílio Judicial Eletrônico em 08/06/2026 (segunda-feira), e ninguém abriu. Quando a intimação se considera feita e até quando o Município pode apelar?
+
+E duas perguntas sobre o Domicílio Judicial Eletrônico:
+A. Uma empresa cliente recebeu uma citação pelo Domicílio e ninguém abriu. Ela já está citada?
+B. Se ela confirmar o recebimento, quando começa o prazo da contestação? E existe multa por não confirmar?
+--- IA:
+# Conferência de Prazos — Processos Eletrônicos
+
+---
+
+## Regras gerais aplicadas
+
+**DJen (todos os casos 1-12):** pela Lei 11.419/2006, Art. 4º, §3º, *data de publicação = primeiro dia útil após a disponibilização*. Esse dia é o "*dia do começo do prazo*", **excluído** da contagem (CPC, Art. 224). O **1º dia do prazo** (primeiro dia efetivamente contado) é o dia útil seguinte à publicação.
+
+**Contagem de dias:** processos civis e trabalhistas → **dias úteis** (CPC, Art. 219; CLT, Art. 775). Processos criminais → **dias corridos** (CPP, Art. 798 — "contínuos e peremptórios"), com prorrogação somente se o *último* dia cair em domingo/feriado (CPP, Art. 798, §3º).
+
+**Recesso CPC (Art. 220):** *20/12 a 20/01 (inclusive)*, suspensão dos prazos civis. **Não se aplica a processos criminais (CPP).**
+
+**Recesso trabalhista:** fixado anualmente pelo CSJT — tipicamente **20/12 a 06/01**; confirmar a Resolução CSJT vigente para 2026/2027.
+
+---
+
+## Caso 1 — Contestação (1ª Vara Cível, ré, proc. comum)
+
+| | |
+|---|---|
+| **Disponibilização** | 16/07/2026 (qui) |
+| **Data de publicação** | **17/07/2026 (sex)** |
+| **1º dia do prazo** | **20/07/2026 (seg)** |
+| **Prazo** | **15 dias úteis** — CPC, Art. 335, III c/c Art. 219 |
+| **Último dia** | **07/08/2026 (sex)** |
+
+**Fundamento:** a audiência foi dispensada (art. 334, §4º, II), e a ré é intimada por seu advogado via DJen → termo inicial pelo art. 335, III c/c art. 231. Apenas uma ré → sem dobro do art. 229.
+
+**Contagem:** 20/07(1), 21(2), 22(3), 23(4), 24(5), 27(6), 28(7), 29(8), 30(9), 31(10), 03/08(11), 04(12), 05(13), 06(14), **07/08(15)**.
+
+---
+
+## Caso 2 — Apelação (2ª Vara Cível, autor, proc. comum)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/08/2026 (ter) |
+| **Data de publicação** | **12/08/2026 (qua)** |
+| **1º dia do prazo** | **13/08/2026 (qui)** |
+| **Prazo** | **15 dias úteis** — CPC, Art. 1.003, §5º c/c Art. 219 |
+| **Último dia** | **02/09/2026 (qua)** |
+
+**Contagem:** 13(1), 14(2), 17(3), 18(4), 19(5), 20(6), 21(7), 24(8), 25(9), 26(10), 27(11), 28(12), 31/08(13), 01/09(14), **02/09(15)**.
+
+---
+
+## Caso 3 — Embargos de Declaração (1ª Vara Cível, ré, proc. comum)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/08/2026 (ter) |
+| **Data de publicação** | **12/08/2026 (qua)** |
+| **1º dia do prazo** | **13/08/2026 (qui)** |
+| **Prazo** | **5 dias úteis** — CPC, Art. 1.023 c/c Art. 219 |
+| **Último dia** | **19/08/2026 (qua)** |
+
+**Contagem:** 13(1), 14(2), 17(3), 18(4), **19/08(5)**.
+
+---
+
+## Caso 4 — Recurso Ordinário (Vara do Trabalho, reclamada, rito ordinário)
+
+| | |
+|---|---|
+| **Disponibilização** | 24/07/2026 (sex) |
+| **Data de publicação** | **27/07/2026 (seg)** |
+| **1º dia do prazo** | **28/07/2026 (ter)** |
+| **Prazo** | **8 dias úteis** — CLT, Art. 895, I c/c Art. 775 |
+| **Último dia** | **06/08/2026 (qui)** |
+
+**Contagem:** 28(1), 29(2), 30(3), 31(4), 03/08(5), 04(6), 05(7), **06/08(8)**.
+
+> ⚠️ **Atenção:** para a reclamada, verificar o cumprimento do **depósito recursal** (art. 899 CLT) e o **recolhimento de custas** como requisitos de admissibilidade.
+
+---
+
+## Caso 5 — Recurso Inominado (JEC, autor)
+
+| | |
+|---|---|
+| **Disponibilização** | 22/07/2026 (qua) |
+| **Data de publicação** | **23/07/2026 (qui)** |
+| **1º dia do prazo** | **24/07/2026 (sex)** |
+| **Prazo** | **10 dias úteis** — Lei 9.099/95, Art. 42 c/c CPC, Art. 219 |
+| **Último dia** | **06/08/2026 (qui)** |
+
+**Contagem:** 24/07(1), 27(2), 28(3), 29(4), 30(5), 31(6), 03/08(7), 04(8), 05(9), **06/08(10)**.
+
+> **Nota:** há discussão doutrinária se os prazos no JEC são dias úteis (posição majoritária na prática, sustentada pelo CPC, Art. 219, e pelo Enunciado FONAJE nº 162) ou dias corridos (por força do caráter especial da Lei 9.099/95). Recomenda-se verificar o entendimento consolidado no TJ local.
+
+---
+
+## Caso 6 — Recurso Inominado (JEF, autora vs. INSS)
+
+| | |
+|---|---|
+| **Disponibilização** | 20/08/2026 (qui) |
+| **Data de publicação** | **21/08/2026 (sex)** |
+| **1º dia do prazo** | **24/08/2026 (seg)** |
+| **Prazo** | **10 dias úteis** — Lei 9.099/95, Art. 42, aplicada via Lei 10.259/2001, Art. 1º, c/c CPC, Art. 219 |
+| **Último dia** | **04/09/2026 (sex)** |
+
+**Contagem:** 24(1), 25(2), 26(3), 27(4), 28(5), 31/08(6), 01/09(7), 02(8), 03(9), **04/09(10)**.
+
+> **Sobre o prazo em dobro do INSS: NÃO.** O INSS — assim como qualquer pessoa jurídica de direito público — **não tem prazo diferenciado** no JEF, inclusive para recorrer. Fundamento: **Lei 10.259/2001, Art. 9º**: *"Não haverá prazo diferenciado para a prática de qualquer ato processual pelas pessoas jurídicas de direito público, inclusive a interposição de recursos."* O INSS teria o mesmo prazo de **10 dias úteis**.
+
+---
+
+## Caso 7 — Apelação (Vara da Fazenda Pública, autor vs. Estado)
+
+| | |
+|---|---|
+| **Disponibilização** | 17/07/2026 (sex) |
+| **Data de publicação** | **20/07/2026 (seg)** |
+| **1º dia do prazo** | **21/07/2026 (ter)** |
+| **Prazo** | **15 dias úteis** — CPC, Art. 1.003, §5º c/c Art. 219 |
+| **Último dia** | **10/08/2026 (seg)** |
+
+**Contagem:** 21(1), 22(2), 23(3), 24(4), 27(5), 28(6), 29(7), 30(8), 31(9), 03/08(10), 04(11), 05(12), 06(13), 07(14), **10/08(15)**.
+
+> **Nota:** representamos o **autor (parte privada)** → prazo simples de 15 d.u. O Estado (Fazenda Pública) teria prazo em dobro — 30 d.u. (CPC, Art. 183) —, mas, como a sentença foi de improcedência, ele é o vencedor e não precisaria apelar.
+
+---
+
+## Caso 8 — Apelação (2ª Vara Cível, réu em litisconsórcio, escritórios distintos)
+
+| | |
+|---|---|
+| **Disponibilização** | 08/09/2026 (ter) |
+| **Data de publicação** | **09/09/2026 (qua)** |
+| **1º dia do prazo** | **10/09/2026 (qui)** |
+| **Prazo** | **30 dias úteis** (15 × 2) — CPC, Art. 229, *caput*, c/c Art. 1.003, §5º |
+| **Último dia** | **22/10/2026 (qui)** |
+
+**Fundamento:** três réus com advogados de **escritórios distintos** → prazo em dobro para *todas as manifestações* (Art. 229, *caput*). A regra de cessação do §2º (prazo cessa se há só 2 réus e apenas um defende) não se aplica aqui — são 3 réus.
+
+**Feriado nacional pulado:** 12/10/2026 (Nossa Sra. Aparecida — seg.).
+
+**Contagem:**
+Set: 10(1), 11(2), 14(3), 15(4), 16(5), 17(6), 18(7), 21(8), 22(9), 23(10), 24(11), 25(12), 28(13), 29(14), 30(15).
+Out: 01(16), 02(17), 05(18), 06(19), 07(20), 08(21), 09(22), [12=feriado], 13(23), 14(24), 15(25), 16(26), 19(27), 20(28), 21(29), **22/10(30)**.
+
+---
+
+## Caso 9 — Apelação Criminal (Vara Criminal, réu solto)
+
+| | |
+|---|---|
+| **Disponibilização** | 14/09/2026 (seg) |
+| **Data de publicação** | **15/09/2026 (ter)** |
+| **1º dia do prazo** | **16/09/2026 (qua)** |
+| **Prazo** | **5 dias corridos** — CPP, Art. 593, I c/c Art. 798 |
+| **Último dia** | **20/09/2026 (dom) → prorrogado para 21/09/2026 (seg)** |
+
+**Contagem (corrida):** 16/set(1), 17(2), 18(3), 19-sáb(4), 20-dom(5) → o último dia cai em domingo → prorroga para a **segunda-feira 21/09/2026** (CPP, Art. 798, §3º).
+
+> ⚠️ **Atenção:** prazos criminais são **corridos** (incluem sábados, domingos e feriados na contagem), não em dias úteis — o CPP Art. 798 é explícito ao dizer "contínuos e peremptórios, não se interrompendo por férias, domingo ou dia feriado". Só há prorrogação se o **último** dia cair em dia não útil.
+
+---
+
+## Caso 10 — Apelação Criminal (Vara Criminal, réu preso neste processo)
+
+| | |
+|---|---|
+| **Disponibilização** | 15/12/2026 (ter) |
+| **Data de publicação** | **16/12/2026 (qua)** |
+| **1º dia do prazo (advogado via DJen)** | **17/12/2026 (qui)** |
+| **Prazo** | **5 dias corridos** — CPP, Art. 593, I c/c Art. 798 |
+| **Último dia (prazo do advogado)** | **21/12/2026 (seg)** |
+
+**Contagem (corrida):** 17(1), 18(2), 19-sáb(3), 20-dom(4), 21-seg(5) → cai em **segunda-feira, dia útil** → sem prorrogação.
+
+> ⚠️ **Intimação pessoal do réu preso — ponto crítico:** o CPP, Art. 392, I, exige que o réu **preso seja intimado pessoalmente** da sentença (leitura pelo diretor do estabelecimento penal). Seu próprio prazo recursal de 5 dias conta da *sua* intimação pessoal, que pode ocorrer depois da publicação no DJen. Se o réu for intimado pessoalmente após 21/12, ele ainda terá 5 dias a partir de lá. Na prática, o prazo mais seguro para o escritório é o *último* a fluir entre o do advogado (DJen) e o do réu (intimação pessoal). Monitore a data da intimação pessoal junto ao estabelecimento penal.
+
+> **Recesso:** o recesso do CPC (Art. 220 — 20/12 a 20/01) **não se aplica** a processos criminais regidos pelo CPP. O prazo de 5 dias corridos corre normalmente em dezembro. Como o processo é eletrônico, o sistema permite protocolo a qualquer hora, de modo que o prazo do advogado termina em **21/12/2026**.
+
+---
+
+## Caso 11 — Apelação (1ª Vara Cível, autor, dezembro)
+
+| | |
+|---|---|
+| **Disponibilização** | 10/12/2026 (qui) |
+| **Data de publicação** | **11/12/2026 (sex)** |
+| **1º dia do prazo** | **14/12/2026 (seg)** |
+| **Prazo** | **15 dias úteis** com **suspensão do recesso** (CPC, Art. 220) |
+| **Último dia** | **03/02/2027 (qua)** |
+
+**Dias úteis usados antes do recesso** (20/12 = dom; na prática o último d.u. antes da suspensão é 18/12 = sex):
+14/12(1), 15(2), 16(3), 17(4), **18/12(5)** → restam **10 dias**.
+
+**Suspensão:** CPC, Art. 220 → **20/12/2026 (dom) a 20/01/2027 (ter)**, inclusive. Prazos retomam em **21/01/2027 (qui)**.
+
+**Dias úteis após o recesso:**
+21/01(6), 22(7), 25(8), 26(9), 27(10), 28(11), 29(12), 01/02(13), 02(14), **03/02/2027(15)**.
+
+---
+
+## Caso 12 — Recurso Ordinário Trabalhista (Vara do Trabalho, reclamante, dezembro)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/12/2026 (sex) |
+| **Data de publicação** | **14/12/2026 (seg)** |
+| **1º dia do prazo** | **15/12/2026 (ter)** |
+| **Prazo** | **8 dias úteis** com **suspensão do recesso trabalhista** — CLT, Art. 895, I c/c Art. 775 |
+| **Último dia** | **12/01/2027 (ter)** *(sob a premissa abaixo — verificar resolução CSJT)* |
+
+**Atenção — recesso da Justiça do Trabalho é diferente do CPC:** ao contrário do art. 220 CPC (20/12–20/01), o recesso trabalhista é fixado **anualmente pelo CSJT** e tipicamente vai de **20/12 a 06/01**. Verifique a Resolução CSJT específica para 2026/2027.
+
+**Assumindo recesso CSJT 20/12/2026 a 06/01/2027:**
+
+- Antes do recesso: 15(1), 16(2), 17(3), 18/12(4) → restam **4 dias**.
+- Primeiro dia útil após o recesso: **07/01/2027 (qui)**.
+- Continuação: 07/01(5), 08(6), 11(7), **12/01(8)**.
+
+**Último dia: 12/01/2027 (ter).**
+
+> Se o CSJT estendesse o recesso até 20/01 (como no CPC), o prazo terminaria em **27/01/2027 (ter)**. Confirme a resolução vigente antes de agendar.
+
+---
+
+## Caso 13 — Domicílio Judicial Eletrônico (DJe): intimação do Município
+
+Esta intimação não passou pelo DJen (jornal eletrônico), mas pelo **Domicílio Judicial Eletrônico (DJe)**, regido pela **Resolução CNJ nº 455/2022** e pelo **CPC, Art. 231, V**.
+
+| | |
+|---|---|
+| **Envio pelo DJe** | 08/06/2026 (seg) |
+| **Prazo de consulta** | 3 dias úteis: 09/06 (ter), 10/06 (qua), 11/06 (qui) |
+| **A intimação considera-se feita em** | **12/06/2026 (sex)** |
+| **1º dia do prazo** | **15/06/2026 (seg)** |
+| **Prazo** | **30 dias úteis** (15 d.u. × 2 = dobro da Fazenda Pública) |
+| **Último dia para apelar** | **24/07/2026 (sex)** |
+
+**Como se calcula:**
+Como ninguém acessou dentro dos 3 dias úteis, a Resolução CNJ nº 455/2022, Art. 5º, §2º, determina: *"considerar-se-á realizada a comunicação no dia útil seguinte ao término do referido prazo."* O término do prazo de consulta é 11/06 (qui), portanto a **intimação considera-se feita em 12/06/2026 (sex)**.
+
+Esse dia (12/06) é o **"dia do começo do prazo"** (CPC, Art. 231, V: *"o dia útil seguinte ao término do prazo para que a consulta se dê"*), excluído da contagem (Art. 224). **O prazo começa a correr no 1º dia útil seguinte: 15/06/2026 (seg).**
+
+**Fundamento do prazo em dobro:** o Município é Fazenda Pública. Sua intimação pelo DJe equivale à *intimação pessoal por meio eletrônico* (CPC, Art. 183, §1º), razão pela qual goza do prazo em dobro (Art. 183, *caput*) → **30 dias úteis** para apelar.
+
+**Contagem (30 d.u. a partir de 15/06, sem feriados nacionais no período):**
+Jun: 15(1), 16(2), 17(3), 18(4), 19(5), 22(6), 23(7), 24(8), 25(9), 26(10), 29(11), 30(12).
+Jul: 01(13), 02(14), 03(15), 06(16), 07(17), 08(18), 09(19), 10(20), 13(21), 14(22), 15(23), 16(24), 17(25), 20(26), 21(27), 22(28), 23(29), **24/07(30)**.
+
+---
+
+## Perguntas sobre o Domicílio Judicial Eletrônico (DJe)
+
+### A. A empresa que não abriu a citação já está citada?
+
+**Sim, a empresa já está citada.** A citação por meio do DJe é válida e eficaz independentemente de o destinatário ter acessado o portal. Se ninguém acessar dentro dos **3 dias úteis** contados do envio, a citação se considera **automaticamente realizada no primeiro dia útil seguinte** ao término desse prazo (Res. CNJ nº 455/2022, Art. 5º, §2º; CPC, Art. 231, V). Nenhuma conduta ativa do destinatário é necessária para que a citação se perfectibilize.
+
+---
+
+### B. Se confirmar o recebimento: quando começa o prazo de contestação? Há multa?
+
+**Início do prazo de contestação:**
+
+Se a empresa acessar/confirmar no dia **C** (dia útil):
+- O *"dia do começo do prazo"* = **C+1** — "o dia útil seguinte à consulta" (CPC, Art. 231, V).
+- Esse dia é **excluído** da contagem (Art. 224: *"excluindo o dia do começo"*).
+- **O 1º dia do prazo = C+2** (segundo dia útil a partir da confirmação).
+
+*Exemplo prático:* a empresa abre o DJe na **segunda-feira** → o prazo de contestação (15 d.u., no proc. comum) começa a correr na **quarta-feira** e vai até a quarta-feira da 3ª semana seguinte.
+
+> ⚠️ **Atenção — efeito paradoxal:** quanto mais cedo a empresa acessa o DJe, mais cedo o prazo começa (e, portanto, menor o tempo absoluto disponível). Quem acessa no **último dia do período de consulta (Dia 3)** tem exatamente o mesmo prazo que quem não acessa nada — ambos terão o 1º dia do prazo no **5º dia útil após o envio**. Já quem acessa no **Dia 1** terá o prazo começando no **3º dia útil após o envio**, perdendo 2 dias úteis em relação a quem aguardou. Por isso, na dúvida, é mais seguro para o cliente acessar o DJe apenas no último dia do período de consulta, para maximizar o tempo disponível.
+
+**Multa por não confirmar:** **Não existe multa** prevista na Resolução CNJ nº 455/2022 nem no CPC pela simples falta de acesso ao DJe. A única consequência é o início automático dos prazos — o que, como visto acima, pode até ser *mais favorável* ao destinatário do que confirmar cedo.
+
+---
+
+> **Observação geral:** todos os cálculos consideram apenas **feriados nacionais** e o calendário federal. Feriados estaduais, municipais e pontos facultativos locais de Comarca-X podem alterar os prazos e devem ser verificados junto ao tribunal respectivo.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t06-C1g — prompt do capítulo
+### 2026-10-18 20:22 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado em Comarca-X e estou conferindo a agenda de prazos do escritório. Para cada publicação abaixo, diga a data de publicação, o primeiro dia do prazo, quantos dias tem o prazo e o último dia. Todos os processos são eletrônicos.
+
+1. Disponibilizada no DJEN em 16/07/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré, que já tem advogado nos autos. Teor: "Dispensada a audiência de conciliação, intime-se a ré, por seu advogado, para contestar no prazo legal."
+
+2. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+3. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré. Teor: sentença de procedência. Queremos opor embargos de declaração.
+
+4. Disponibilizada no DJEN em 24/07/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos a reclamada. Teor: sentença de procedência parcial. Queremos recorrer.
+
+5. Disponibilizada no DJEN em 22/07/2026 (quarta-feira). Juizado Especial Cível de Comarca-X. Representamos o autor. Teor: sentença de improcedência. Queremos recorrer.
+
+6. Disponibilizada no DJEN em 20/08/2026 (quinta-feira). Juizado Especial Federal de Comarca-X, ação de concessão de benefício contra o INSS. Representamos a autora. Teor: sentença de improcedência. Queremos recorrer. Diga também se o INSS teria prazo em dobro para recorrer neste processo.
+
+7. Disponibilizada no DJEN em 17/07/2026 (sexta-feira). Vara da Fazenda Pública de Comarca-X, ação de procedimento comum contra o Estado. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+8. Disponibilizada no DJEN em 08/09/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Há três réus, cada um com advogado de escritório diferente; representamos um deles. Teor: sentença de procedência. Queremos apelar.
+
+9. Disponibilizada no DJEN em 14/09/2026 (segunda-feira). Vara Criminal de Comarca-X. Defendemos o réu, que responde ao processo solto. Teor: sentença condenatória. Queremos apelar.
+
+10. Disponibilizada no DJEN em 15/12/2026 (terça-feira). Vara Criminal de Comarca-X. Defendemos o réu, que está preso por este processo. Teor: sentença condenatória. Queremos apelar.
+
+11. Disponibilizada no DJEN em 10/12/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+12. Disponibilizada no DJEN em 11/12/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos o reclamante. Teor: sentença de improcedência. Queremos recorrer.
+
+13. Esta não veio pelo DJEN. Também atendo a Procuradoria do Município de Comarca-X: a intimação eletrônica de uma sentença de procedência, numa ação de cobrança de procedimento comum contra o Município, na Vara da Fazenda Pública, foi enviada pelo Domicílio Judicial Eletrônico em 08/06/2026 (segunda-feira), e ninguém abriu. Quando a intimação se considera feita e até quando o Município pode apelar?
+
+E duas perguntas sobre o Domicílio Judicial Eletrônico:
+A. Uma empresa cliente recebeu uma citação pelo Domicílio e ninguém abriu. Ela já está citada?
+B. Se ela confirmar o recebimento, quando começa o prazo da contestação? E existe multa por não confirmar?
+
+Calendário forense de Comarca-X, de 01/06/2026 a 28/02/2027 (colado do site do tribunal):
+- Sábados e domingos: sem expediente forense.
+- Feriados e dias sem expediente forense, além dos fins de semana: 07/09/2026 (Independência); 12/10/2026 (Nossa Senhora Aparecida); 02/11/2026 (Finados); 20/11/2026 (Consciência Negra); 08/12/2026 (Dia da Justiça); 25/12/2026 (Natal); 01/01/2027 (Confraternização Universal); 08/02/2027 e 09/02/2027 (Carnaval).
+- Feriado municipal: 19/08/2026 (quarta-feira), aniversário de Comarca-X, sem expediente forense.
+- Nenhum outro dia sem expediente no período.
+
+Regras: calcule a data de publicação e o início; conte em dias úteis, salvo no processo penal; marque recesso, dobro, intimação pessoal e réu preso; o que depender de feriado não colado, escreva "conferir".
+--- IA:
+# ANÁLISE DE PRAZOS — RESPOSTAS
+
+---
+
+## Premissas aplicadas a todos os casos
+
+| Aspecto | Regra |
+|---|---|
+| **Data de publicação** | 1º dia útil após a disponibilização (Lei 11.419/2006, art. 4º, §3º) |
+| **Início do prazo** | 1º dia útil após a data de publicação (art. 231, I + art. 224, CPC) |
+| **Contagem** | **Dias úteis** (CPC, CLT pós-reform., JEC/JEF); **dias corridos** no processo penal (CPP art. 798) |
+| **Recesso civil/trabalhista** | 20/12 a 20/01, inclusive — suspende prazos (art. 220 CPC; Res. CSJT para trabalhista) |
+| **Recesso criminal** | **Não se aplica** — prazos penais correm continuamente (art. 798 CPP) |
+| **Feriados** | Apenas os informados no calendário fornecido |
+
+---
+
+## Caso 1 — Contestação (procedimento comum — réu com advogado constituído)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 16/07/2026 (qui) |
+| Publicação | 17/07/2026 (sex) |
+| Início do prazo | 20/07/2026 (seg) |
+| Prazo | 15 dias úteis — art. 335 CPC |
+| **Último dia** | **07/08/2026 (sex)** |
+
+Contagem: 20–24/07 (dias 1–5) → 27–31/07 (dias 6–10) → 03–07/08 (dias 11–15). Nenhum feriado no intervalo. Intimação dirigida ao advogado já constituído via DJe é válida.
+
+---
+
+## Caso 2 — Apelação (procedimento comum — autor)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 11/08/2026 (ter) |
+| Publicação | 12/08/2026 (qua) |
+| Início do prazo | 13/08/2026 (qui) |
+| Prazo | 15 dias úteis — art. 1.003, §5º, CPC |
+| **Último dia** | **03/09/2026 (qui)** |
+
+⚠️ **19/08/2026 (qua) = feriado municipal → não contado.** Contagem: 13–14/08 (dias 1–2) → 17–18/08 (dias 3–4) → **[pula 19/08]** → 20–21/08 (dias 5–6) → 24–28/08 (dias 7–11) → 31/08 (dia 12) → 01–03/09 (dias 13–15).
+
+---
+
+## Caso 3 — Embargos de declaração (procedimento comum — ré)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 11/08/2026 (ter) |
+| Publicação | 12/08/2026 (qua) |
+| Início do prazo | 13/08/2026 (qui) |
+| Prazo | 5 dias úteis — art. 1.023 CPC |
+| **Último dia** | **20/08/2026 (qui)** |
+
+⚠️ **19/08/2026 = feriado municipal → não contado.** Contagem: 13–14/08 (dias 1–2) → 17–18/08 (dias 3–4) → **[pula 19/08]** → 20/08 (dia 5).
+
+---
+
+## Caso 4 — Recurso Ordinário Trabalhista (reclamada)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 24/07/2026 (sex) |
+| Publicação | 27/07/2026 (seg) |
+| Início do prazo | 28/07/2026 (ter) |
+| Prazo | 8 dias úteis — art. 895 CLT + art. 775 CLT (Lei 13.467/2017: contagem em dias úteis) |
+| **Último dia** | **06/08/2026 (qui)** |
+
+Contagem: 28–31/07 (dias 1–4) → 03–06/08 (dias 5–8). Sem feriados. Lembrar de depósito recursal e custas como pressupostos extrínsecos.
+
+---
+
+## Caso 5 — Recurso Inominado (JEC — autor)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 22/07/2026 (qua) |
+| Publicação | 23/07/2026 (qui) |
+| Início do prazo | 24/07/2026 (sex) |
+| Prazo | 10 dias úteis — art. 42, Lei 9.099/95 + FONAJE Enunciado 165 (art. 219 CPC aplica-se aos JECs) |
+| **Último dia** | **06/08/2026 (qui)** |
+
+Contagem: 24/07 (dia 1) → 27–31/07 (dias 2–6) → 03–06/08 (dias 7–10). Sem feriados.
+
+---
+
+## Caso 6 — Recurso Inominado (JEF — contra INSS — autora)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 20/08/2026 (qui) |
+| Publicação | 21/08/2026 (sex) |
+| Início do prazo | 24/08/2026 (seg) |
+| Prazo | 10 dias úteis — art. 42, Lei 9.099/95 c/c Lei 10.259/2001 |
+| **Último dia** | **04/09/2026 (sex)** |
+
+Contagem: 24–28/08 (dias 1–5) → 31/08 (dia 6) → 01–04/09 (dias 7–10).
+
+### ❌ O INSS tem prazo em dobro para recorrer neste processo? NÃO.
+
+O **art. 9º da Lei 10.259/2001** veda expressamente *"prazo diferenciado para a prática de qualquer ato processual pelas pessoas jurídicas de direito público"* nos Juizados Especiais Federais, inclusive para interpor recursos. O INSS sujeita-se exatamente aos mesmos 10 dias úteis que a autora.
+
+---
+
+## Caso 7 — Apelação (autor privado vs. Estado — Vara da Fazenda Pública)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 17/07/2026 (sex) |
+| Publicação | 20/07/2026 (seg) |
+| Início do prazo | 21/07/2026 (ter) |
+| Prazo | 15 dias úteis — art. 1.003, §5º, CPC — **somos a parte privada (autor); não há dobro para nós** |
+| **Último dia** | **10/08/2026 (seg)** |
+
+Contagem: 21–24/07 (dias 1–4) → 27–31/07 (dias 5–9) → 03–07/08 (dias 10–14) → 10/08 (dia 15). Sem feriados. O Estado, se precisasse recorrer, teria prazo em dobro e intimação pessoal (art. 183 CPC), mas isso não afeta nosso prazo como autor.
+
+---
+
+## Caso 8 — Apelação (litisconsórcio passivo — processo eletrônico)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 08/09/2026 (ter) |
+| Publicação | 09/09/2026 (qua) |
+| Início do prazo | 10/09/2026 (qui) |
+| Prazo | 15 dias úteis — art. 1.003, §5º, CPC |
+| **Último dia** | **30/09/2026 (qua)** |
+
+### ⚠️ Prazo em dobro (art. 229 CPC) NÃO se aplica
+
+Embora o *caput* do art. 229 CPC preveja prazo em dobro para litisconsortes com procuradores de escritórios distintos, o **§2º** exclui expressamente essa regra dos **processos em autos eletrônicos**: *"Não se aplica o disposto no caput aos processos em autos eletrônicos."* Como todos os processos informados são eletrônicos, o prazo é simples: 15 dias úteis.
+
+Contagem: 10–11/09 (dias 1–2) → 14–18/09 (dias 3–7) → 21–25/09 (dias 8–12) → 28–30/09 (dias 13–15). Sem feriados (07/09 é anterior ao início; 12/10 é posterior ao fim).
+
+---
+
+## Caso 9 — Apelação Criminal (réu SOLTO)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 14/09/2026 (seg) |
+| Publicação | 15/09/2026 (ter) |
+| Início do prazo | 16/09/2026 (qua) |
+| Prazo | **5 dias CORRIDOS** — art. 593 c/c art. 798, *caput*, CPP |
+| Último dia (calendário) | 20/09/2026 (dom) |
+| **Último dia efetivo** | **21/09/2026 (seg)** — prorrogação por art. 798, §3º, CPP |
+
+Réu solto com defensor constituído → intimação ao advogado via DJe é válida (art. 392, II, CPP). Recesso forense **não** interrompe prazos penais (art. 798 CPP).
+
+---
+
+## Caso 10 — Apelação Criminal (réu PRESO)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 15/12/2026 (ter) |
+| Publicação (advogado/DJe) | 16/12/2026 (qua) |
+| Prazo | **5 dias CORRIDOS** — art. 593 c/c art. 798, CPP |
+
+### 🚨 ATENÇÃO — RÉU PRESO: INTIMAÇÃO PESSOAL OBRIGATÓRIA (art. 392, I, CPP)
+
+O art. 392, I, CPP exige que a **sentença condenatória** seja intimada **pessoalmente** ao réu preso (por oficial de justiça no estabelecimento prisional, ou por carta precatória). A publicação no DJe **não substitui** essa intimação pessoal. O prazo de 5 dias corridos para o réu só começa a correr a partir da data em que ele for pessoalmente intimado no presídio.
+
+**Prazo de referência para o advogado** (contado da publicação em DJe, para que o recurso não seja extemporâneo do ponto de vista do defensor):
+
+| Dia | Data |
+|---|---|
+| Início | 17/12/2026 (qui) |
+| Dia 1 a 5 | 17, 18, 19, 20, 21/12 |
+| Último dia (calendário) | 21/12/2026 (seg) — dia útil, sem prorrogação |
+
+**O prazo definitivo (para o réu) depende da data da intimação pessoal no presídio — anotar e acompanhar separadamente.** Recesso forense **não** suspende prazo criminal (art. 798 CPP), mas é irrelevante aqui pois o prazo tentativo se encerra em 21/12, antes do primeiro dia útil suspenso.
+
+---
+
+## Caso 11 — Apelação (procedimento comum — dezembro — recesso)
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 10/12/2026 (qui) |
+| Publicação | 11/12/2026 (sex) |
+| Início do prazo | 14/12/2026 (seg) |
+| Prazo | 15 dias úteis — art. 1.003, §5º, CPC |
+
+### 🔔 Recesso forense (art. 220 CPC): 20/12/2026 a 20/01/2027 — prazo SUSPENSO
+
+| Fase | Dias contados | Datas |
+|---|---|---|
+| Antes do recesso | Dias 1–5 | 14/12 (seg), 15/12 (ter), 16/12 (qua), 17/12 (qui), 18/12 (sex) |
+| **Recesso** | — | **20/12/2026 a 20/01/2027** (19/12 é sáb; Natal 25/12 e Confraternização 01/01 estão dentro do recesso) |
+| **Retomada** | — | **21/01/2027 (qui)** |
+| Após o recesso | Dias 6–15 | 21/01 (6), 22/01 (7), 25/01 (8), 26/01 (9), 27/01 (10), 28/01 (11), 29/01 (12), 01/02 (13), 02/02 (14), **03/02 (15)** |
+
+| **Último dia** | **03/02/2027 (qua)** |
+|---|---|
+
+Carnaval (08–09/02/2027) é posterior ao vencimento e não interfere.
+
+---
+
+## Caso 12 — Recurso Ordinário Trabalhista — dezembro — recesso
+
+| Campo | Data |
+|---|---|
+| Disponibilização | 11/12/2026 (sex) |
+| Publicação | 14/12/2026 (seg) *(1º dia útil após sexta-feira 11)* |
+| Início do prazo | 15/12/2026 (ter) |
+| Prazo | 8 dias úteis — art. 895 CLT + art. 775 CLT |
+
+### 🔔 Recesso forense trabalhista: 20/12/2026 a 20/01/2027 — prazo SUSPENSO
+
+*(Regulado por ato normativo do CSJT/TST — verificar Resolução do TRT da região; em regra, adota o mesmo período 20/12–20/01)*
+
+| Fase | Dias contados | Datas |
+|---|---|---|
+| Antes do recesso | Dias 1–4 | 15/12 (ter), 16/12 (qua), 17/12 (qui), 18/12 (sex) |
+| **Recesso** | — | **20/12/2026 a 20/01/2027** |
+| **Retomada** | — | **21/01/2027 (qui)** |
+| Após o recesso | Dias 5–8 | 21/01 (5), 22/01 (6), 25/01 (7), **26/01 (8)** |
+
+| **Último dia** | **26/01/2027 (ter)** |
+|---|---|
+
+---
+
+## Caso 13 — Apelação do Município (Domicílio Judicial Eletrônico — sem abertura)
+
+### a) Quando a intimação se considera feita?
+
+Pela Resolução CNJ 455/2022, art. 9º, §3º: não havendo consulta ao teor da mensagem no prazo de **3 dias úteis** contados do envio, a comunicação considera-se realizada no **dia seguinte** ao término desse prazo.
+
+| Evento | Data |
+|---|---|
+| Envio pelo DJE | 08/06/2026 (seg) |
+| 1º dia útil do prazo | 09/06/2026 (ter) |
+| 2º dia útil | 10/06/2026 (qua) |
+| 3º dia útil | 11/06/2026 (qui) |
+| **Intimação considerada feita** | **12/06/2026 (sex)** |
+
+### b) Até quando o Município pode apelar?
+
+O Município tem:
+- **Prazo em dobro** para todas as manifestações (art. 183 CPC): 15 × 2 = **30 dias úteis**
+- **Intimação pessoal** como marco inicial (art. 183, §1º, CPC: "A intimação pessoal far-se-á por carga, remessa ou **meio eletrônico**" — o DJE é exatamente o instrumento de intimação pessoal eletrônica dos entes públicos)
+
+| Campo | Data |
+|---|---|
+| Intimação pessoal (fictamente, via DJE) | 12/06/2026 (sex) — dia do começo, excluído (art. 224 CPC) |
+| **Início do prazo** | **15/06/2026 (seg)** |
+| Prazo | 30 dias úteis |
+
+Contagem dos 30 dias úteis:
+
+| Bloco | Dias | Datas |
+|---|---|---|
+| Jun | 1–5 | 15, 16, 17, 18, 19/06 |
+| Jun | 6–12 | 22, 23, 24, 25, 26, 29, 30/06 |
+| Jul | 13–20 | 01, 02, 03, 06, 07, 08, 09, 10/07 |
+| Jul | 21–30 | 13, 14, 15, 16, 17, 20, 21, 22, 23, **24/07** |
+
+| **Último dia** | **24/07/2026 (sex)** |
+|---|---|
+
+Sem feriados entre 15/06 e 24/07 (o feriado municipal de 19/08 é posterior; nenhum outro feriado no intervalo, conforme o calendário fornecido).
+
+---
+
+## Perguntas A e B — Domicílio Judicial Eletrônico
+
+### A — A empresa já está citada?
+
+**Sim — ou passará a estar citada automaticamente, por ficção legal.**
+
+Pelo art. 9º, §3º, da Resolução CNJ 455/2022, se o destinatário não realiza a consulta no DJE no prazo de **3 dias úteis** contados do envio da mensagem, a citação (ou intimação) **considera-se realizada no dia seguinte** ao término desse prazo — independentemente de qualquer ato do destinatário. Passados os 3 dias úteis sem abertura, a empresa já está citada (citação por ficção legal, operada no 4º dia útil após o envio).
+
+### B — Se confirmar o recebimento, quando começa o prazo da contestação? Existe multa por não confirmar?
+
+**Início do prazo de contestação:**
+Se a empresa abrir a mensagem, a citação considera-se realizada na **data da abertura** (art. 9º, §2º, Res. CNJ 455/2022). O prazo de contestação — **15 dias úteis** no procedimento comum (art. 335 CPC) — começa a correr no **primeiro dia útil seguinte** à data da abertura/confirmação.
+
+**Multa por não confirmar:**
+**Não existe multa.** A Resolução CNJ 455/2022 e o CPC não preveem sanção pecuniária pelo fato de o destinatário deixar de abrir ou confirmar a mensagem no DJE. A única consequência jurídica é a operação automática da ficção legal de citação após o 3º dia útil sem consulta.
+
+---
+
+## Quadro-resumo
+
+| Caso | Disponibilização | Publicação | Início do prazo | Prazo | **Último dia** |
+|---|---|---|---|---|---|
+| 1 — Contestação | 16/07 qui | 17/07 sex | 20/07 seg | 15 du | **07/08/2026 sex** |
+| 2 — Apelação CPC | 11/08 ter | 12/08 qua | 13/08 qui | 15 du *(feriado 19/08)* | **03/09/2026 qui** |
+| 3 — Embargos decl. | 11/08 ter | 12/08 qua | 13/08 qui | 5 du *(feriado 19/08)* | **20/08/2026 qui** |
+| 4 — RO Trabalhista | 24/07 sex | 27/07 seg | 28/07 ter | 8 du | **06/08/2026 qui** |
+| 5 — Rec. Inominado JEC | 22/07 qua | 23/07 qui | 24/07 sex | 10 du | **06/08/2026 qui** |
+| 6 — Rec. Inominado JEF | 20/08 qui | 21/08 sex | 24/08 seg | 10 du | **04/09/2026 sex** |
+| 7 — Apelação CPC (autor) | 17/07 sex | 20/07 seg | 21/07 ter | 15 du | **10/08/2026 seg** |
+| 8 — Apelação CPC (litisconsórcio) | 08/09 ter | 09/09 qua | 10/09 qui | 15 du *(sem dobro, autos eletrônicos)* | **30/09/2026 qua** |
+| 9 — Apelação criminal (solto) | 14/09 seg | 15/09 ter | 16/09 qua | 5 dc | **21/09/2026 seg** *(prorrogado)* |
+| 10 — Apelação criminal (preso) | 15/12 ter | 16/12 qua | 17/12 qui | 5 dc | **21/12/2026 seg** *(tentativo — aguardar intimação pessoal do preso)* |
+| 11 — Apelação CPC + recesso | 10/12 qui | 11/12 sex | 14/12 seg | 15 du + recesso | **03/02/2027 qua** |
+| 12 — RO Trabalhista + recesso | 11/12 sex | 14/12 seg | 15/12 ter | 8 du + recesso | **26/01/2027 ter** |
+| 13 — Apelação Município (DJE) | envio 08/06 | ficta 12/06 | 15/06 seg | 30 du *(dobro)* | **24/07/2026 sex** |
+
+**Legenda:** du = dias úteis · dc = dias corridos (calendário)
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t06-C2f — prompt do capítulo (final)
+### 2026-10-18 19:34 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado em Comarca-X e estou conferindo a agenda de prazos do escritório. Para cada publicação abaixo, diga a data de publicação, o primeiro dia do prazo, quantos dias tem o prazo e o último dia. Todos os processos são eletrônicos.
+
+1. Disponibilizada no DJEN em 16/07/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré, que já tem advogado nos autos. Teor: "Dispensada a audiência de conciliação, intime-se a ré, por seu advogado, para contestar no prazo legal."
+
+2. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+3. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré. Teor: sentença de procedência. Queremos opor embargos de declaração.
+
+4. Disponibilizada no DJEN em 24/07/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos a reclamada. Teor: sentença de procedência parcial. Queremos recorrer.
+
+5. Disponibilizada no DJEN em 22/07/2026 (quarta-feira). Juizado Especial Cível de Comarca-X. Representamos o autor. Teor: sentença de improcedência. Queremos recorrer.
+
+6. Disponibilizada no DJEN em 20/08/2026 (quinta-feira). Juizado Especial Federal de Comarca-X, ação de concessão de benefício contra o INSS. Representamos a autora. Teor: sentença de improcedência. Queremos recorrer. Diga também se o INSS teria prazo em dobro para recorrer neste processo.
+
+7. Disponibilizada no DJEN em 17/07/2026 (sexta-feira). Vara da Fazenda Pública de Comarca-X, ação de procedimento comum contra o Estado. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+8. Disponibilizada no DJEN em 08/09/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Há três réus, cada um com advogado de escritório diferente; representamos um deles. Teor: sentença de procedência. Queremos apelar.
+
+9. Disponibilizada no DJEN em 14/09/2026 (segunda-feira). Vara Criminal de Comarca-X. Defendemos o réu, que responde ao processo solto. Teor: sentença condenatória. Queremos apelar.
+
+10. Disponibilizada no DJEN em 15/12/2026 (terça-feira). Vara Criminal de Comarca-X. Defendemos o réu, que está preso por este processo. Teor: sentença condenatória. Queremos apelar.
+
+11. Disponibilizada no DJEN em 10/12/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+12. Disponibilizada no DJEN em 11/12/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos o reclamante. Teor: sentença de improcedência. Queremos recorrer.
+
+13. Esta não veio pelo DJEN. Também atendo a Procuradoria do Município de Comarca-X: a intimação eletrônica de uma sentença de procedência, numa ação de cobrança de procedimento comum contra o Município, na Vara da Fazenda Pública, foi enviada pelo Domicílio Judicial Eletrônico em 08/06/2026 (segunda-feira), e ninguém abriu. Quando a intimação se considera feita e até quando o Município pode apelar?
+
+E duas perguntas sobre o Domicílio Judicial Eletrônico:
+A. Uma empresa cliente recebeu uma citação pelo Domicílio e ninguém abriu. Ela já está citada?
+B. Se ela confirmar o recebimento, quando começa o prazo da contestação? E existe multa por não confirmar?
+
+Calendário forense de Comarca-X, de 01/06/2026 a 28/02/2027 (colado do site do tribunal):
+- Sábados e domingos: sem expediente forense.
+- Feriados e dias sem expediente forense, além dos fins de semana: 07/09/2026 (Independência); 12/10/2026 (Nossa Senhora Aparecida); 02/11/2026 (Finados); 20/11/2026 (Consciência Negra); 08/12/2026 (Dia da Justiça); 25/12/2026 (Natal); 01/01/2027 (Confraternização Universal); 08/02/2027 e 09/02/2027 (Carnaval).
+- Feriado municipal: 19/08/2026 (quarta-feira), aniversário de Comarca-X, sem expediente forense.
+- Nenhum outro dia sem expediente no período.
+
+Regras: calcule a data de publicação e o início; conte em dias úteis, salvo no processo penal; marque recesso, dobro, intimação pessoal e réu preso; o que depender de feriado não colado, escreva "conferir".
+--- IA:
+# Conferência de Prazos — Comarca-X
+
+## Regras gerais aplicadas
+
+| Regra | Base legal |
+|---|---|
+| Publicação = 1º dia útil após a disponibilização no DJEN | CPC, art. 224, § 2º |
+| Prazo começa no 1º dia útil após a publicação (dia do começo é excluído) | CPC, art. 224, caput |
+| Prazos CPC contados em dias úteis | CPC, art. 219 |
+| Prazos CLT contados em dias úteis (após reforma de 2017) | CLT, art. 775 |
+| Prazos JEC contados em dias **corridos** (lei especial, sem aplicação do art. 219 CPC) | Lei 9.099/95, art. 42 |
+| Prazos criminais contados em dias **corridos** | CPP, art. 798 |
+| Fazenda Pública: prazo em dobro para todos os atos | CPC, art. 183 |
+| Litisconsortes c/ advogados distintos **em processo eletrônico**: sem prazo em dobro | CPC, art. 229, § 2º |
+| Réu preso: intimação da sentença deve ser **pessoal** | CPP, art. 392, I |
+| Recesso forense civil: 20/dez a 20/jan (inclusive) — termos suspensos | CPC, art. 220 |
+| DJE (Domicílio Judicial Eletrônico): considerado feito no 3º dia útil sem consulta | CNJ Res. 455/2022, art. 5º, § 1º |
+
+---
+
+## Caso 1 — Contestação (Procedimento comum, ré com advogado constituído)
+
+| | |
+|---|---|
+| Disponibilização | 16/07/2026 (Qui) |
+| **Data de publicação** | **17/07/2026 (Sex)** |
+| **1º dia do prazo** | **20/07/2026 (Seg)** |
+| **Prazo** | **15 dias úteis** (CPC, art. 335, II c/c art. 219) |
+| **Último dia** | **07/08/2026 (Sex)** |
+
+> Contagem: 20, 21, 22, 23, 24/07 (5) → 27, 28, 29, 30, 31/07 (10) → 03, 04, 05, 06, **07/08** (15).
+> Nenhum feriado no período. O "prazo legal" para contestação no procedimento comum é de 15 dias; com o art. 219 do CPC, contam-se dias úteis.
+
+---
+
+## Caso 2 — Apelação (Procedimento comum, autor)
+
+| | |
+|---|---|
+| Disponibilização | 11/08/2026 (Ter) |
+| **Data de publicação** | **12/08/2026 (Qua)** |
+| **1º dia do prazo** | **13/08/2026 (Qui)** |
+| **Prazo** | **15 dias úteis** (CPC, art. 1.003, § 5º) |
+| **Último dia** | **03/09/2026 (Qui)** |
+
+> Contagem: 13, 14/08 (2) → 17, 18/08 (4) → ~~19/08 **feriado municipal**~~ → 20, 21/08 (6) → 24, 25, 26, 27, 28/08 (11) → 31/08, 01, 02, **03/09** (15).
+
+---
+
+## Caso 3 — Embargos de declaração (Procedimento comum, ré)
+
+| | |
+|---|---|
+| Disponibilização | 11/08/2026 (Ter) |
+| **Data de publicação** | **12/08/2026 (Qua)** |
+| **1º dia do prazo** | **13/08/2026 (Qui)** |
+| **Prazo** | **5 dias úteis** (CPC, art. 1.023) |
+| **Último dia** | **20/08/2026 (Qui)** |
+
+> Contagem: 13, 14/08 (2) → 17, 18/08 (4) → ~~19/08 **feriado municipal**~~ → **20/08** (5).
+
+---
+
+## Caso 4 — Recurso ordinário trabalhista (Vara do Trabalho, rito ordinário)
+
+| | |
+|---|---|
+| Disponibilização | 24/07/2026 (Sex) |
+| **Data de publicação** | **27/07/2026 (Seg)** |
+| **1º dia do prazo** | **28/07/2026 (Ter)** |
+| **Prazo** | **8 dias úteis** (CLT, art. 895 c/c art. 775, após Lei 13.467/2017) |
+| **Último dia** | **06/08/2026 (Qui)** |
+
+> Contagem: 28, 29, 30, 31/07 (4) → 03, 04, 05, **06/08** (8). Nenhum feriado no período.
+> ⚠️ Verificar calendário do TRT/CSJT separadamente — o calendário fornecido é do tribunal estadual.
+
+---
+
+## Caso 5 — Recurso inominado (Juizado Especial Cível)
+
+| | |
+|---|---|
+| Disponibilização | 22/07/2026 (Qua) |
+| **Data de publicação** | **23/07/2026 (Qui)** |
+| **1º dia do prazo** | **24/07/2026 (Sex)** |
+| **Prazo** | **10 dias corridos** (Lei 9.099/95, art. 42 — lei especial; prazos do JEC não se submetem ao art. 219 do CPC) |
+| **Último dia** | **03/08/2026 (Seg)** *(dia 10 = 02/08, dom → prorrogado)* |
+
+> Contagem corrida: 24/07 Sex (1) → 25 Sáb (2) → 26 Dom (3) → 27 Seg (4) → 28 (5) → 29 (6) → 30 (7) → 31/07 Sex (8) → 01/08 Sáb (9) → **02/08 Dom (10)** → prorrogado para **03/08 (Seg)**.
+> ⚠️ Existe corrente minoritária que aplica o art. 219 do CPC subsidiariamente ao JEC (resultando em 10 dias úteis); verificar posição do TJXX.
+
+---
+
+## Caso 6 — Recurso inominado (Juizado Especial Federal — INSS)
+
+| | |
+|---|---|
+| Disponibilização | 20/08/2026 (Qui) |
+| **Data de publicação** | **21/08/2026 (Sex)** |
+| **1º dia do prazo** | **24/08/2026 (Seg)** |
+| **Prazo** | **10 dias úteis** (Lei 10.259/2001 aplica o CPC subsidiariamente; art. 219 CPC incide no JEF) |
+| **Último dia** | **04/09/2026 (Sex)** |
+
+> Contagem: 24, 25, 26, 27, 28/08 (5) → 31/08, 01, 02, 03, **04/09** (10). Nenhum feriado no período.
+
+### INSS tem prazo em dobro para recorrer neste processo?
+
+**Não.** O art. 9º da Lei 10.259/2001 é explícito: *"Não haverá prazo diferenciado para a prática de qualquer ato processual pelas pessoas jurídicas de direito público, **inclusive a interposição de recursos**."* O INSS teria, portanto, o mesmo prazo de 10 dias úteis para recorrer.
+
+---
+
+## Caso 7 — Apelação (Vara da Fazenda Pública, autor contra Estado)
+
+| | |
+|---|---|
+| Disponibilização | 17/07/2026 (Sex) |
+| **Data de publicação** | **20/07/2026 (Seg)** |
+| **1º dia do prazo** | **21/07/2026 (Ter)** |
+| **Prazo** | **15 dias úteis** (CPC, art. 1.003, § 5º — prazo do **autor**) |
+| **Último dia** | **10/08/2026 (Seg)** |
+
+> Contagem: 21, 22, 23, 24/07 (4) → 27, 28, 29, 30, 31/07 (9) → 03, 04, 05, 06, 07/08 (14) → **10/08** (15). Nenhum feriado no período.
+> O Estado (réu), se fosse recorrer, teria 30 dias úteis (prazo em dobro — CPC, art. 183).
+
+---
+
+## Caso 8 — Apelação (três réus com advogados distintos, processo eletrônico)
+
+| | |
+|---|---|
+| Disponibilização | 08/09/2026 (Ter) |
+| **Data de publicação** | **09/09/2026 (Qua)** |
+| **1º dia do prazo** | **10/09/2026 (Qui)** |
+| **Prazo** | **15 dias úteis** — **sem prazo em dobro** (CPC, art. 229, § 2º: a prerrogativa de dobro para litisconsortes com advogados distintos **não se aplica em processo eletrônico**) |
+| **Último dia** | **30/09/2026 (Qua)** |
+
+> Contagem: 10, 11/09 (2) → 14, 15, 16, 17, 18/09 (7) → 21, 22, 23, 24, 25/09 (12) → 28, 29, **30/09** (15). O feriado de 07/09 (Independência) é anterior ao início do prazo.
+
+---
+
+## Caso 9 — Apelação criminal (réu solto)
+
+| | |
+|---|---|
+| Disponibilização | 14/09/2026 (Seg) |
+| **Data de publicação** | **15/09/2026 (Ter)** |
+| **1º dia do prazo** | **16/09/2026 (Qua)** |
+| **Prazo** | **5 dias corridos** (CPP, art. 593 c/c art. 798 — prazos criminais são corridos) |
+| **Último dia** | **21/09/2026 (Seg)** *(dia 5 = 20/09, dom → prorrogado — CPP, art. 798, § 3º)* |
+
+> Contagem corrida: 16 Qua (1) → 17 Qui (2) → 18 Sex (3) → 19 Sáb (4) → **20 Dom (5)** → prorrogado para **21/09 (Seg)**.
+> Réu solto com advogado constituído: a intimação do advogado via DJEN é suficiente (CPP, art. 392, II). Prazos criminais **não se suspendem** no recesso forense (CPC, art. 220 não se aplica ao CPP).
+
+---
+
+## Caso 10 — Apelação criminal (réu **preso**)
+
+| | |
+|---|---|
+| Disponibilização (para o advogado) | 15/12/2026 (Ter) |
+| **Data de publicação** | **16/12/2026 (Qua)** |
+| **Prazo** | **5 dias corridos** (CPP, art. 593 c/c art. 798) |
+
+> ⚠️ **ATENÇÃO — INTIMAÇÃO PESSOAL OBRIGATÓRIA**
+>
+> O CPP, art. 392, I, determina que a intimação da sentença ao réu **preso deve ser pessoal**, feita por intermédio do diretor do estabelecimento prisional — **não se substitui pela publicação no DJEN** (que serve apenas ao advogado).
+>
+> O prazo de 5 dias corre a partir da **intimação pessoal do réu**, não da publicação para o advogado. **Verificar a data em que a intimação pessoal foi/será realizada** para fixar o prazo correto.
+>
+> *Para referência, caso contado da intimação do advogado via DJEN:* 1º dia = 17/12/2026 (Qui) → dia 5 = 20/12/2026 (Dom) → prorrogado para **21/12/2026 (Seg)**. Mas esse prazo só será válido se a jurisprudência do tribunal local aceitar a DJEN como suficiente para réu preso — verificar.
+>
+> CPC, art. 220 (recesso) **não se aplica** a processos criminais.
+
+---
+
+## Caso 11 — Apelação (1ª Vara Cível — recesso forense)
+
+| | |
+|---|---|
+| Disponibilização | 10/12/2026 (Qui) |
+| **Data de publicação** | **11/12/2026 (Sex)** |
+| **1º dia do prazo** | **14/12/2026 (Seg)** |
+| **Prazo** | **15 dias úteis** (CPC, art. 1.003, § 5º) |
+| **Último dia** | **03/02/2027 (Qua)** |
+
+**Aplicação do recesso (CPC, art. 220 — 20/dez a 20/jan, inclusive):**
+
+| Fase | Dias úteis | Período |
+|---|---|---|
+| Antes do recesso | **5** | 14, 15, 16, 17, 18/12/2026 |
+| **Recesso suspenso** | — | 20/12/2026 (Dom) a 20/01/2027 (Qua) |
+| Retomada | 21/01/2027 (Qui) | — |
+| Após o recesso (restam **10**) | 6: 21/01 → 7: 22/01 → 8: 26/01 → 9: 27/01 → 10: 28/01 → 11: 29/01 → 12: 30/01 → 13: 02/02 → 14: 02/02... | |
+
+> Contagem pós-recesso: 21/01 (Qui)=6º, 22/01 (Sex)=7º, 26/01 (Seg)=8º, 27/01 (Ter)=9º, 28/01 (Qua)=10º, 29/01 (Qui)=11º, 30/01 (Sex)=12º, 02/02 (Seg)=13º, 03/02 (Ter)=14º... 
+
+Aguarda: deixe-me reapurar mais cuidadosamente:
+
+> 6: 21/01 (Qui) | 7: 22/01 (Sex) | [23 Sáb, 24 Dom] | 8: 26/01 (Seg) ... 
+
+Hmm, 25/01 é Seg ou 26/01? Jan 21 (Qui) +4 = Jan 25 (Seg). Reconto:
+
+> 6: 21/01 (Qui) | 7: 22/01 (Sex) | [23 Sáb, 24 Dom] | **8: 25/01 (Seg)** | 9: 26/01 (Ter) | 10: 27/01 (Qua) | 11: 28/01 (Qui) | 12: 29/01 (Sex) | [30 Sáb, 31 Dom] | 13: 01/02 (Seg) | 14: 02/02 (Ter) | **15: 03/02 (Qua)**
+
+Nenhum feriado de 21/01 a 03/02 (Carnaval = 08-09/02, posterior). **Último dia: 03/02/2027 (Qua).**
+
+---
+
+## Caso 12 — Recurso ordinário trabalhista (Vara do Trabalho — dezembro)
+
+| | |
+|---|---|
+| Disponibilização | 11/12/2026 (Sex) |
+| **Data de publicação** | **14/12/2026 (Seg)** |
+| **1º dia do prazo** | **15/12/2026 (Ter)** |
+| **Prazo** | **8 dias úteis** (CLT, arts. 895 e 775) |
+
+⚠️ **CALENDÁRIO DA JUSTIÇA DO TRABALHO — CONFERIR**
+
+O calendário fornecido é do tribunal estadual (TJXX). A Vara do Trabalho segue o calendário do TRT/CSJT, que possui recesso próprio (tipicamente **20/12 a 06/01**, por Resolução CSJT — verificar resolução vigente para 2026/2027). O CPC, art. 220 (recesso civil de 20/dez a 20/jan) **não se aplica automaticamente** à Justiça do Trabalho.
+
+| Cenário | Cálculo | Último dia |
+|---|---|---|
+| **Sem recesso trabalhista** | 15, 16, 17, 18/12 (4) → 21, 22, 23, **24/12** (8). Natal (25/12) não afeta. | **24/12/2026 (Qui)** |
+| **Com recesso CSJT (20/12–06/01)** | 4 dias consumidos (15-18/12); retomada em 07/01/2027 (Qui); 07/01 (5º) → 08/01 (6º) → [9 Sáb, 10 Dom] → 11/01 (7º) → **12/01 (8º)** | **12/01/2027 (Ter)** |
+
+> **Conferir Resolução CSJT para confirmar as datas exatas do recesso trabalhista 2026/2027.**
+
+---
+
+## Caso 13 — Intimação via Domicílio Judicial Eletrônico (Município)
+
+**Quando a intimação se considera feita?**
+
+A intimação foi enviada pelo DJE em **08/06/2026 (Seg)**. Ninguém abriu. Nos termos do art. 5º, § 1º, da CNJ Resolução 455/2022, presume-se realizada a consulta ao término do **3º dia útil** contado da data do envio:
+
+| Dia útil | Data |
+|---|---|
+| 1º | 09/06/2026 (Ter) |
+| 2º | 10/06/2026 (Qua) |
+| **3º** | **11/06/2026 (Qui)** |
+
+→ **Intimação considerada feita: 11/06/2026 (Qui)**
+
+**Até quando o Município pode apelar?**
+
+| | |
+|---|---|
+| Intimação feita | 11/06/2026 (Qui) |
+| **1º dia do prazo** | **12/06/2026 (Sex)** (próximo útil — CPC, art. 224, caput) |
+| **Prazo** | **30 dias úteis** (apelação = 15 dias × 2, prazo em dobro para Município — CPC, art. 183) |
+| **Último dia** | **23/07/2026 (Qui)** |
+
+> Contagem de 30 dias úteis a partir de 12/06: sem feriados em junho e julho (nenhum listado no calendário fornecido).
+> 12/06(1) → 26/06(11) → 10/07(21) → **23/07(30)**. Conferido dia a dia — sem feriados intervenientes.
+
+---
+
+## Perguntas sobre o Domicílio Judicial Eletrônico
+
+### A. A empresa já está citada?
+
+**Sim, muito provavelmente.** Nos termos do art. 5º, § 1º, da CNJ Resolução 455/2022 c/c o art. 246, § 1º, do CPC (com redação da Lei 14.195/2021), a citação enviada ao DJE de empresa obrigatoriamente cadastrada (regra: todas as pessoas jurídicas com CNPJ, exceto microempresas e empresas de pequeno porte) é **automaticamente eficaz ao término do 3º dia útil** contado do envio, ainda que ninguém a tenha aberto. Passado esse prazo, a empresa está citada independentemente de qualquer ato seu.
+
+> Verifique se a empresa se enquadra na exceção das microempresas/EPPs (LC 123/2006), caso em que a citação via DJE pode não ser válida e outra forma deverá ser empregada.
+
+### B. Se ela confirmar o recebimento, quando começa o prazo da contestação? Existe multa por não confirmar?
+
+**Início do prazo:** Se a empresa **abrir/confirmar** a mensagem no DJE, a citação considera-se feita **na data da consulta** (CNJ Res. 455/2022, art. 5º, caput). O prazo de contestação (15 dias úteis no procedimento comum — CPC, art. 335 c/c art. 219) começa no **1º dia útil seguinte** à data da confirmação.
+
+**Multa por não confirmar: Não existe.** A CNJ Resolução 455/2022 e o CPC não preveem sanção pecuniária automática pelo simples fato de a empresa deixar de consultar ou confirmar a mensagem no DJE. A única consequência é a **citação automática** após o 3º dia útil. Não há multa, apenas a ficção legal de que a intimação/citação se realizou.
+
+---
+
+## Quadro-resumo
+
+| Caso | Publicação | 1º dia | Prazo | Último dia |
+|---|---|---|---|---|
+| 1 | 17/07/2026 Sex | 20/07 Seg | 15 d.u. | **07/08/2026 Sex** |
+| 2 | 12/08/2026 Qua | 13/08 Qui | 15 d.u. | **03/09/2026 Qui** |
+| 3 | 12/08/2026 Qua | 13/08 Qui | 5 d.u. | **20/08/2026 Qui** |
+| 4 | 27/07/2026 Seg | 28/07 Ter | 8 d.u. | **06/08/2026 Qui** |
+| 5 | 23/07/2026 Qui | 24/07 Sex | 10 d.c. | **03/08/2026 Seg** |
+| 6 | 21/08/2026 Sex | 24/08 Seg | 10 d.u. | **04/09/2026 Sex** |
+| 7 | 20/07/2026 Seg | 21/07 Ter | 15 d.u. | **10/08/2026 Seg** |
+| 8 | 09/09/2026 Qua | 10/09 Qui | 15 d.u. | **30/09/2026 Qua** |
+| 9 | 15/09/2026 Ter | 16/09 Qua | 5 d.c. | **21/09/2026 Seg** |
+| 10 | 16/12/2026 Qua | 17/12 Qui | 5 d.c. | ⚠️ **Verificar intimação pessoal** (CPP, art. 392, I) |
+| 11 | 11/12/2026 Sex | 14/12 Seg | 15 d.u. + recesso | **03/02/2027 Qua** |
+| 12 | 14/12/2026 Seg | 15/12 Ter | 8 d.u. | **Conferir recesso TRT**: 24/12 (sem recesso) ou 12/01/2027 (com recesso) |
+| 13 (Município) | DJE feita 11/06/2026 Qui | 12/06 Sex | 30 d.u. (dobro) | **23/07/2026 Qui** |
+
+*d.u. = dias úteis · d.c. = dias corridos*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t06-C3g — prompt do capítulo
+### 2026-10-18 20:22 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado em Comarca-X e estou conferindo a agenda de prazos do escritório. Para cada publicação abaixo, diga a data de publicação, o primeiro dia do prazo, quantos dias tem o prazo e o último dia. Todos os processos são eletrônicos.
+
+1. Disponibilizada no DJEN em 16/07/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré, que já tem advogado nos autos. Teor: "Dispensada a audiência de conciliação, intime-se a ré, por seu advogado, para contestar no prazo legal."
+
+2. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+3. Disponibilizada no DJEN em 11/08/2026 (terça-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos a ré. Teor: sentença de procedência. Queremos opor embargos de declaração.
+
+4. Disponibilizada no DJEN em 24/07/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos a reclamada. Teor: sentença de procedência parcial. Queremos recorrer.
+
+5. Disponibilizada no DJEN em 22/07/2026 (quarta-feira). Juizado Especial Cível de Comarca-X. Representamos o autor. Teor: sentença de improcedência. Queremos recorrer.
+
+6. Disponibilizada no DJEN em 20/08/2026 (quinta-feira). Juizado Especial Federal de Comarca-X, ação de concessão de benefício contra o INSS. Representamos a autora. Teor: sentença de improcedência. Queremos recorrer. Diga também se o INSS teria prazo em dobro para recorrer neste processo.
+
+7. Disponibilizada no DJEN em 17/07/2026 (sexta-feira). Vara da Fazenda Pública de Comarca-X, ação de procedimento comum contra o Estado. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+8. Disponibilizada no DJEN em 08/09/2026 (terça-feira). 2ª Vara Cível de Comarca-X, procedimento comum. Há três réus, cada um com advogado de escritório diferente; representamos um deles. Teor: sentença de procedência. Queremos apelar.
+
+9. Disponibilizada no DJEN em 14/09/2026 (segunda-feira). Vara Criminal de Comarca-X. Defendemos o réu, que responde ao processo solto. Teor: sentença condenatória. Queremos apelar.
+
+10. Disponibilizada no DJEN em 15/12/2026 (terça-feira). Vara Criminal de Comarca-X. Defendemos o réu, que está preso por este processo. Teor: sentença condenatória. Queremos apelar.
+
+11. Disponibilizada no DJEN em 10/12/2026 (quinta-feira). 1ª Vara Cível de Comarca-X, procedimento comum. Representamos o autor. Teor: sentença de improcedência. Queremos apelar.
+
+12. Disponibilizada no DJEN em 11/12/2026 (sexta-feira). Vara do Trabalho de Comarca-X, rito ordinário. Representamos o reclamante. Teor: sentença de improcedência. Queremos recorrer.
+
+13. Esta não veio pelo DJEN. Também atendo a Procuradoria do Município de Comarca-X: a intimação eletrônica de uma sentença de procedência, numa ação de cobrança de procedimento comum contra o Município, na Vara da Fazenda Pública, foi enviada pelo Domicílio Judicial Eletrônico em 08/06/2026 (segunda-feira), e ninguém abriu. Quando a intimação se considera feita e até quando o Município pode apelar?
+
+E duas perguntas sobre o Domicílio Judicial Eletrônico:
+A. Uma empresa cliente recebeu uma citação pelo Domicílio e ninguém abriu. Ela já está citada?
+B. Se ela confirmar o recebimento, quando começa o prazo da contestação? E existe multa por não confirmar?
+
+Calendário forense de Comarca-X, de 01/06/2026 a 28/02/2027 (colado do site do tribunal):
+- Sábados e domingos: sem expediente forense.
+- Feriados e dias sem expediente forense, além dos fins de semana: 07/09/2026 (Independência); 12/10/2026 (Nossa Senhora Aparecida); 02/11/2026 (Finados); 20/11/2026 (Consciência Negra); 08/12/2026 (Dia da Justiça); 25/12/2026 (Natal); 01/01/2027 (Confraternização Universal); 08/02/2027 e 09/02/2027 (Carnaval).
+- Feriado municipal: 19/08/2026 (quarta-feira), aniversário de Comarca-X, sem expediente forense.
+- Nenhum outro dia sem expediente no período.
+
+Regras: calcule a data de publicação e o início; conte em dias úteis, salvo no processo penal; marque recesso, dobro, intimação pessoal e réu preso; o que depender de feriado não colado, escreva "conferir".
+--- IA:
+# Agenda de Prazos — Comarca-X
+
+## Metodologia
+
+| Etapa | Regra |
+|---|---|
+| **Publicação** | 1.° dia útil após a disponibilização no DJEN (CPC art. 224, §2.°) |
+| **Início do prazo civil/trabalhista** | 1.° dia útil após a publicação (CPC art. 224, §2.°) |
+| **Início do prazo penal** | dia seguinte à publicação, em dias corridos (CPP art. 798, §1.°) |
+| **Contagem civil/trabalhista** | dias úteis (CPC art. 219; CLT art. 775) |
+| **Contagem penal** | dias corridos, contínuos, não interrompidos por férias; se o último dia cair em domingo ou feriado, prorroga-se (CPP art. 798, §3.°) |
+| **Recesso forense civil** | 20/12 a 20/01, inclusive — *suspende* prazos civis e, por aplicação supletiva (Lei 13.467/2017), trabalhistas; **não suspende prazos penais** (CPP art. 798) |
+
+---
+
+## Caso 1 — Contestação · Ré · Procedimento Comum · 1.ª Vara Cível
+
+| | |
+|---|---|
+| **Disponibilização** | 16/07/2026 (qui) |
+| **Publicação** | 17/07/2026 (sex) |
+| **Início do prazo** | 20/07/2026 (seg) |
+| **Prazo** | **15 dias úteis** — contestação em procedimento comum (CPC art. 335) |
+| **Feriados no período** | nenhum |
+| **Último dia** | **07/08/2026 (sex)** |
+
+Contagem: D1 20/07 · D5 24/07 · D10 31/07 · D15 **07/08**.
+
+---
+
+## Caso 2 — Apelação · Autor · Procedimento Comum · 2.ª Vara Cível (improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/08/2026 (ter) |
+| **Publicação** | 12/08/2026 (qua) |
+| **Início do prazo** | 13/08/2026 (qui) |
+| **Prazo** | **15 dias úteis** — apelação (CPC art. 1.003, §5.°) |
+| **Feriado** | ⚠ 19/08/2026 (qua) — aniversário de Comarca-X; não contado |
+| **Último dia** | **03/09/2026 (qui)** |
+
+Contagem: D1 13/08 · D2 14/08 · D3 17/08 · D4 18/08 · *pula 19/08* · D5 20/08 · D6 21/08 · D7 24/08 · D8 25/08 · D9 26/08 · D10 27/08 · D11 28/08 · D12 31/08 · D13 01/09 · D14 02/09 · D15 **03/09**.
+
+---
+
+## Caso 3 — Embargos de Declaração · Ré · Procedimento Comum · 1.ª Vara Cível (procedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/08/2026 (ter) |
+| **Publicação** | 12/08/2026 (qua) |
+| **Início do prazo** | 13/08/2026 (qui) |
+| **Prazo** | **5 dias úteis** — embargos de declaração (CPC art. 1.023) |
+| **Feriado** | ⚠ 19/08/2026 (qua) — não contado |
+| **Último dia** | **20/08/2026 (qui)** |
+
+Contagem: D1 13/08 · D2 14/08 · D3 17/08 · D4 18/08 · *pula 19/08* · D5 **20/08**.
+
+---
+
+## Caso 4 — Recurso Ordinário Trabalhista · Reclamada · Rito Ordinário (procedência parcial)
+
+| | |
+|---|---|
+| **Disponibilização** | 24/07/2026 (sex) |
+| **Publicação** | 27/07/2026 (seg) — sexta → próximo dia útil |
+| **Início do prazo** | 28/07/2026 (ter) |
+| **Prazo** | **8 dias úteis** — recurso ordinário (CLT art. 895, I; CLT art. 775: dias úteis) |
+| **Feriados no período** | nenhum |
+| **Último dia** | **06/08/2026 (qui)** |
+
+Contagem: D1 28/07 · D4 31/07 · D5 03/08 · D8 **06/08**.
+
+> ⚠ Lembrar: o recurso da reclamada exige depósito recursal (CLT art. 899, §1.°), a ser recolhido dentro do mesmo prazo.
+
+---
+
+## Caso 5 — Recurso Inominado · Autor · Juizado Especial Cível (improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 22/07/2026 (qua) |
+| **Publicação** | 23/07/2026 (qui) |
+| **Início do prazo** | 24/07/2026 (sex) |
+| **Prazo** | **10 dias** — Lei 9.099/95 art. 42 |
+
+A contagem gera datas distintas conforme o critério adotado:
+
+| Critério | Fundamento | Último dia |
+|---|---|---|
+| **Dias úteis** (posição dominante pós-CPC/2015; CPC aplicado supletivamente) | CPC art. 219, §1.° c/c art. 1.046, §2.° | **06/08/2026 (qui)** |
+| Dias corridos (posição tradicional; ainda adotada por alguns juizados) | Lei 9.099/95 interpretada isoladamente | **03/08/2026 (seg)** |
+
+> ▶ **Recomendação prática:** verificar o entendimento do juizado de Comarca-X. Em caso de dúvida, adotar o prazo mais curto — **03/08/2026** — para não correr risco de intempestividade.
+
+---
+
+## Caso 6 — Recurso Inominado · Autora · Juizado Especial Federal × INSS (improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 20/08/2026 (qui) |
+| **Publicação** | 21/08/2026 (sex) *(19/08 foi feriado municipal; 21/08 é dia útil normal)* |
+| **Início do prazo** | 24/08/2026 (seg) — sex → próximo dia útil |
+| **Prazo** | **10 dias úteis** — recurso (Lei 10.259/2001 + Lei 9.099/95 art. 42, supl.; dias úteis por CPC supletivo) |
+| **Feriados no período** | nenhum (07/09 cai após o prazo) |
+| **Último dia** | **04/09/2026 (sex)** |
+
+Contagem: D1 24/08 · D5 28/08 · D6 31/08 · D10 **04/09**.
+
+---
+
+### O INSS teria prazo em dobro para recorrer neste processo?
+
+**Não.** A Lei 10.259/2001, art. 9.°, é expressa:
+
+> *"Não haverá prazo diferenciado para a prática de qualquer ato processual pelas pessoas jurídicas de direito público, inclusive a interposição de recursos."*
+
+Nos Juizados Especiais Federais, todos os sujeitos — inclusive autarquias federais como o INSS — têm o **mesmo prazo de 10 dias**. O benefício do prazo em dobro (CPC art. 183) não se aplica no JEF.
+
+---
+
+## Caso 7 — Apelação · Autor · Procedimento Comum · Vara da Fazenda Pública × Estado (improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 17/07/2026 (sex) |
+| **Publicação** | 20/07/2026 (seg) — sex → próximo dia útil |
+| **Início do prazo** | 21/07/2026 (ter) |
+| **Prazo** | **15 dias úteis** — apelação da parte privada (CPC art. 1.003, §5.°) |
+| **Feriados no período** | nenhum (19/08 cai muito após o prazo) |
+| **Último dia** | **10/08/2026 (seg)** |
+
+Contagem: D1 21/07 · D5 27/07 · D9 31/07 · D10 03/08 · D15 **10/08**.
+
+> ℹ️ O Estado-réu teria **30 dias úteis**, contados a partir de sua **intimação pessoal** (CPC art. 183: prazo em dobro para Fazenda Pública estadual). Isso não interfere no nosso prazo como autor.
+
+---
+
+## Caso 8 — Apelação · Réus · Procedimento Comum · 2.ª Vara Cível (3 réus, advogados distintos, autos eletrônicos)
+
+### Prazo em dobro?
+
+CPC art. 229, *caput*: litisconsortes com advogados de escritórios distintos têm prazo em dobro para todas as manifestações.
+
+CPC art. 229, §1.°: *"Cesse o benefício do parágrafo anterior **sempre que, havendo apenas 2 (dois) réus**, sejam os autos eletrônicos."*
+
+Com **3 réus**, a condição do §1.° (*"apenas 2 réus"*) não se verifica → a cessação **não opera** → o prazo em dobro **se mantém**, mesmo em autos eletrônicos. Isso decorre da interpretação literal do texto legal, que é a orientação predominante.
+
+> ⚠ Existe corrente que, a partir da ratio legis (acesso simultâneo em sistema eletrônico elimina a necessidade do prazo dilatado), defende a cessação do dobro para qualquer número de réus em autos eletrônicos. Recomenda-se verificar a jurisprudência do tribunal competente. Para segurança, calcule também o prazo simples (30/09/2026) como data de contingência.
+
+| | |
+|---|---|
+| **Disponibilização** | 08/09/2026 (ter) |
+| **Publicação** | 09/09/2026 (qua) |
+| **Início do prazo** | 10/09/2026 (qui) |
+| **Prazo** | **30 dias úteis** (15 × 2 — CPC arts. 229 + 1.003, §5.°) |
+| **Feriado** | ⚠ 12/10/2026 (seg) — Nossa Senhora Aparecida; não contado |
+| **Último dia** | **22/10/2026 (qui)** |
+| *(Sem dobro, seria)* | *(30/09/2026 — qua)* |
+
+Contagem resumida: D1–D15 (10/09 a 30/09, 15 d.u. em setembro) → D16–D22 (01/10–09/10) → *pula 12/10* → D23–D30 (13/10–22/10).
+
+---
+
+## Caso 9 — Apelação Criminal · Réu Solto · Vara Criminal (sentença condenatória)
+
+| | |
+|---|---|
+| **Disponibilização** | 14/09/2026 (seg) |
+| **Publicação (DJEN)** | 15/09/2026 (ter) |
+| **Início do prazo** | 16/09/2026 (qua) — CPP art. 798, §1.°: não conta o dia do começo |
+| **Prazo** | **5 dias corridos** — apelação criminal (CPP art. 593, I; prazos penais são contínuos: CPP art. 798) |
+
+Contagem: D1 16/09 (qua) · D2 17/09 (qui) · D3 18/09 (sex) · D4 **19/09 (sáb)** · D5 **20/09 (dom)**
+
+CPP art. 798, §3.°: último dia em domingo → prorroga-se para o primeiro dia útil imediato.
+
+| **Último dia: 21/09/2026 (seg)** |
+|---|
+
+> ℹ️ Para réu *solto*, basta a intimação do defensor constituído via DJEN (CPP art. 392, II). O prazo do advogado corre desta data.
+
+---
+
+## Caso 10 — Apelação Criminal · Réu Preso · Vara Criminal (sentença condenatória)
+
+| | |
+|---|---|
+| **Disponibilização** | 15/12/2026 (ter) |
+| **Publicação (DJEN)** | 16/12/2026 (qua) |
+| **Início do prazo** | 17/12/2026 (qui) — CPP art. 798, §1.° |
+| **Prazo** | **5 dias corridos** — apelação criminal (CPP art. 593, I) |
+
+Contagem: D1 17/12 (qui) · D2 18/12 (sex) · D3 19/12 (sáb) · D4 20/12 (dom) · D5 **21/12 (seg)** — dia útil, sem feriado.
+
+| **Último dia (com base na intimação do advogado via DJEN): 21/12/2026 (seg)** |
+|---|
+
+> ⚠ **Recesso forense civil (CPC art. 220, 20/12–20/01) não suspende prazos penais.** O CPP art. 798 é taxativo: *"contínuos e peremptórios, não se interrompendo por férias, domingo ou dia feriado."* O vencimento em 21/12 (primeiro dia do recesso civil) é válido para fins penais. O protocolo pode ser feito pelo sistema eletrônico a qualquer hora.
+
+> ⚠ **Réu preso — intimação pessoal obrigatória (CPP art. 392, I).** A publicação no DJEN serve ao advogado. O réu preso deve ser intimado pessoalmente no estabelecimento prisional. Na prática, o prazo do advogado corre de sua própria intimação (DJEN), mas **é imprescindível verificar quando o réu foi pessoalmente intimado**, pois o prazo *do próprio réu* pode ser posterior e pode ser relevante para eventuais discussões processuais.
+
+---
+
+## Caso 11 — Apelação Cível com Recesso Forense · Autor · 1.ª Vara Cível (improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 10/12/2026 (qui) |
+| **Publicação** | 11/12/2026 (sex) — 08/12 foi feriado (Dia da Justiça); 10/12 e 11/12 são dias úteis normais |
+| **Início do prazo** | 14/12/2026 (seg) |
+| **Prazo** | **15 dias úteis** — apelação (CPC art. 1.003, §5.°) |
+
+**Recesso forense (CPC art. 220): 20/12/2026 (dom) a 20/01/2027 (qua), inclusive — suspende o prazo.**
+
+| Fase | Período | Dias úteis contados |
+|---|---|---|
+| Antes do recesso | 14/12 (seg) a 18/12 (sex) | D1 a D5 |
+| Recesso | 20/12 (dom) a 20/01/2027 (qua) | *prazo suspenso* |
+| Após o recesso | a partir de 21/01/2027 (qui) | D6 a D15 |
+
+Contagem após o recesso: D6 21/01 (qui) · D7 22/01 (sex) · D8 25/01 (seg) · D9 26/01 (ter) · D10 27/01 (qua) · D11 28/01 (qui) · D12 29/01 (sex) · D13 01/02 (seg) · D14 02/02 (ter) · **D15 03/02/2027 (qua)**
+
+Carnaval (08–09/02) cai *após* o prazo. ✓
+
+| **Último dia: 03/02/2027 (qua)** |
+|---|
+
+---
+
+## Caso 12 — Recurso Ordinário Trabalhista com Recesso · Reclamante · Rito Ordinário (improcedência)
+
+| | |
+|---|---|
+| **Disponibilização** | 11/12/2026 (sex) |
+| **Publicação** | 14/12/2026 (seg) — sex → próximo dia útil |
+| **Início do prazo** | 15/12/2026 (ter) |
+| **Prazo** | **8 dias úteis** — recurso ordinário (CLT art. 895, I; CLT art. 775: dias úteis) |
+
+**Recesso trabalhista:** após a Reforma Trabalhista (Lei 13.467/2017), o CPC aplica-se supletivamente à Justiça do Trabalho, e a posição predominante no TST é de que o CPC art. 220 (20/12–20/01) suspende também os prazos trabalhistas. *Confirmar resolução do CSJT em vigor à época.*
+
+| Fase | Período | Dias úteis contados |
+|---|---|---|
+| Antes do recesso | 15/12 (ter) a 18/12 (sex) | D1 a D4 |
+| Recesso | 20/12 a 20/01 | *prazo suspenso* |
+| Após o recesso | a partir de 21/01/2027 (qui) | D5 a D8 |
+
+Contagem após o recesso: D5 21/01 (qui) · D6 22/01 (sex) · D7 25/01 (seg) · **D8 26/01/2027 (ter)**
+
+| **Último dia: 26/01/2027 (ter)** |
+|---|
+
+> ⚠ Se o recesso trabalhista for mais curto (ex.: 20/12–05/01, conforme eventual resolução do CSJT), o prazo vencerá antes — **confirmar**. Adotar o prazo mais conservador se houver dúvida.
+
+---
+
+## Caso 13 — Domicílio Judicial Eletrônico · Município · Vara da Fazenda Pública (procedência)
+
+> Este caso envolve o **Domicílio Judicial Eletrônico (DJE/CNJ)** — Res. CNJ 455/2022 —, distinto do DJEN (diário eletrônico de publicações).
+
+**Envio da intimação:** 08/06/2026 (seg). Ninguém abriu.
+
+### Quando a intimação se considera feita?
+
+Res. CNJ 455/2022, art. 5.°: caso não realizada a consulta no prazo de **3 dias úteis contados do envio**, a comunicação é considerada **automaticamente realizada**, independentemente de manifestação.
+
+Aplicando CPC art. 224 (exclui o dia do início — o dia do envio):
+
+| Dia útil | Data |
+|---|---|
+| D1 | 09/06/2026 (ter) |
+| D2 | 10/06/2026 (qua) |
+| D3 | 11/06/2026 (qui) |
+
+**→ Intimação considerada realizada em: 11/06/2026 (qui)**
+
+*(CPC art. 231, IV: o termo inicial corre "ao do término do prazo para que a consulta se faça")*
+
+### Até quando o Município pode apelar?
+
+O Município (Fazenda Pública municipal) goza de **prazo em dobro** para todas as suas manifestações (CPC art. 183). A intimação via DJE equivale à **intimação pessoal** para esse fim (CPC art. 183, §1.°: *"A intimação pessoal far-se-á por carga, remessa ou **meio eletrônico**"*).
+
+| | |
+|---|---|
+| **Intimação realizada** | 11/06/2026 (qui) |
+| **Início do prazo** | 12/06/2026 (sex) — dia útil seguinte (CPC art. 231, IV) |
+| **Prazo** | **30 dias úteis** (apelação: 15 × 2 — CPC arts. 183 + 1.003, §5.°) |
+| **Feriados no período** | nenhum (calendário fornecido; "nenhum outro dia sem expediente no período") |
+| **Último dia** | **23/07/2026 (qui)** |
+
+Contagem: 13 dias úteis em junho (12 a 30/06) + 17 dias úteis em julho (01 a 23/07) = **30 dias**. D30 = **23/07**.
+
+---
+
+## Perguntas sobre o Domicílio Judicial Eletrônico
+
+### A. A empresa já está citada?
+
+**Sim.** Nos termos do CPC art. 246 e da Res. CNJ 455/2022, art. 5.°, as empresas são obrigadas a manter cadastro ativo no Domicílio Judicial Eletrônico. Se não acessam a citação eletrônica no prazo de **3 dias úteis** contados do envio, a citação é **automaticamente considerada realizada** ao final desse prazo, prescindindo de qualquer manifestação ou abertura. A empresa está, portanto, citada por **citação ficta eletrônica**.
+
+---
+
+### B. Se confirmar o recebimento: quando começa o prazo da contestação? E há multa por não confirmar?
+
+**Início do prazo de contestação:**
+
+| Situação | Data da citação | Início da contestação | Prazo (proc. comum) |
+|---|---|---|---|
+| Confirmação antes dos 3 dias úteis | **dia da abertura/consulta** (Res. CNJ 455/2022, art. 5.°, 1.ª parte; CPC art. 231, IV) | **1.° dia útil seguinte** à abertura | **15 dias úteis** (CPC art. 335) |
+| Sem abertura (já analisado) | 3.° dia útil após o envio | 1.° dia útil seguinte | 15 dias úteis |
+
+**Multa por não confirmar:**
+
+**Não há** multa específica pelo simples não-acesso ao Domicílio Judicial Eletrônico. A única consequência prevista é a **citação automática ficta** após os 3 dias úteis. Penalidades por litigância de má-fé (CPC art. 80) ou descumprimento do dever de lealdade processual pressupõem conduta dolosa concreta, não se presumindo pelo mero não-acesso ao sistema.
+
+---
+
+## Resumo Geral
+
+| Caso | Disponibilização | Publicação | Início | Prazo | Último dia |
+|---|---|---|---|---|---|
+| 1 – Contestação | 16/07 qui | 17/07 sex | 20/07 seg | 15 d.u. | **07/08/2026 sex** |
+| 2 – Apelação (autor) | 11/08 ter | 12/08 qua | 13/08 qui | 15 d.u. *(pula 19/08)* | **03/09/2026 qui** |
+| 3 – Embargos decl. | 11/08 ter | 12/08 qua | 13/08 qui | 5 d.u. *(pula 19/08)* | **20/08/2026 qui** |
+| 4 – RO trabalhista | 24/07 sex | 27/07 seg | 28/07 ter | 8 d.u. | **06/08/2026 qui** |
+| 5 – Rec. JEC | 22/07 qua | 23/07 qui | 24/07 sex | 10 dias | **06/08 qui** (úteis) · **03/08 seg** (corridos) |
+| 6 – Rec. JEF | 20/08 qui | 21/08 sex | 24/08 seg | 10 d.u. | **04/09/2026 sex** |
+| 7 – Apelação (autor × Estado) | 17/07 sex | 20/07 seg | 21/07 ter | 15 d.u. | **10/08/2026 seg** |
+| 8 – Apelação (3 réus) | 08/09 ter | 09/09 qua | 10/09 qui | 30 d.u. (dobro) *(pula 12/10)* | **22/10/2026 qui** |
+| 9 – Apelação crim. (solto) | 14/09 seg | 15/09 ter | 16/09 qua | 5 d. corridos | **21/09/2026 seg** *(prorrogado de dom 20/09)* |
+| 10 – Apelação crim. (preso) | 15/12 ter | 16/12 qua | 17/12 qui | 5 d. corridos *(sem recesso civil)* | **21/12/2026 seg** |
+| 11 – Apelação c/ recesso | 10/12 qui | 11/12 sex | 14/12 seg | 15 d.u. + recesso 20/12–20/01 | **03/02/2027 qua** |
+| 12 – RO trab. c/ recesso | 11/12 sex | 14/12 seg | 15/12 ter | 8 d.u. + recesso 20/12–20/01 | **26/01/2027 ter** |
+| 13 – Município (DJE) | envio 08/06 | intimação ficta: **11/06 qui** | 12/06 sex | 30 d.u. (dobro FP) | **23/07/2026 qui** |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

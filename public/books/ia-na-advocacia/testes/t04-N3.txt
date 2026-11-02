@@ -1,0 +1,207 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t04, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t04-N3 — natural
+### 2026-10-13 10:03 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Hoje é 09/10/2026. Responda a estas oito consultas de clientes:
+
+1. "Em 10/03/2024, um carro particular bateu na moto do meu cliente num cruzamento. Ele quer o conserto e os dias parados. Ainda dá tempo?"
+2. "Em 05/05/2022, o liquidificador da minha cliente explodiu e a queimou; ela soube na hora quem era o fabricante. Ela ainda pode processar?"
+3. "Minha cliente recebeu em 01/09/2026 uma geladeira nova com a porta amassada. Até quando ela pode reclamar?"
+4. "A mãe de uma criança de 8 anos quer cobrar a pensão fixada em setembro de 2023, que o pai nunca pagou. Ela perdeu alguma parcela?"
+5. "Uma mulher divorciada desde 2020 cobra a pensão que o ex-marido deixou de pagar em setembro de 2023. O que ela ainda pode cobrar?"
+6. "O contrato de trabalho do meu cliente terminou em 15/11/2024. Até quando ele pode entrar com a ação, e quanto tempo para trás ele cobra?"
+7. "Como a prescrição para reparação civil é de 10 anos (CC, art. 205), meu cliente ainda pode processar o vizinho pelo acidente de carro de 2019, certo?"
+8. "O INSS negou o auxílio por incapacidade da minha cliente em 2014. Passaram mais de 10 anos; ainda dá para discutir na Justiça?"
+--- IA:
+# Análise dos Prazos Prescricionais e Decadenciais
+> Base: 09/10/2026
+
+---
+
+## 1 — Acidente de trânsito (10/03/2024) · Reparação de danos materiais
+
+**Fundamento:** CC, art. 206, §3°, V — prescrição de **3 anos** para pretensão de reparação civil.
+
+| Marco inicial | Prazo | Vencimento |
+|---|---|---|
+| 10/03/2024 | + 3 anos | **10/03/2027** |
+
+✅ **Ainda dá tempo** — restam aproximadamente **5 meses**. O pedido pode incluir conserto do veículo e lucros cessantes (dias parados). Recomenda-se ajuizar o quanto antes para evitar problemas com produção de prova.
+
+---
+
+## 2 — Explosão do liquidificador (05/05/2022) · Fato do produto
+
+**Fundamento:** CDC, art. 27 — prescrição de **5 anos**, contados *"a partir do conhecimento do dano e de sua autoria"*. Como ela soube na hora quem era o fabricante, o termo inicial é o próprio dia do acidente.
+
+| Marco inicial | Prazo | Vencimento |
+|---|---|---|
+| 05/05/2022 | + 5 anos | **05/05/2027** |
+
+✅ **Ainda pode processar** — restam cerca de **7 meses**. A responsabilidade é objetiva (CDC, art. 12); fabricante responde independentemente de culpa.
+
+---
+
+## 3 — Geladeira com porta amassada (entregue em 01/09/2026) · Vício aparente
+
+**Fundamento:** CDC, art. 26, II — **decadência de 90 dias** para produtos duráveis com vício aparente ou de fácil constatação; prazo conta da entrega efetiva.
+
+| Marco inicial | Prazo | Vencimento |
+|---|---|---|
+| 01/09/2026 | + 90 dias | **30/11/2026** |
+
+⚠️ **Tem prazo, mas é urgente** — restam apenas ~**52 dias**. Oriente a cliente a:
+1. Registrar a reclamação *agora* (SAC, e-mail, Procon), o que pode interromper/suspender a decadência (CDC, art. 26, §2°, I);
+2. Guardar todos os registros (fotos, nota fiscal, protocolo).
+
+---
+
+## 4 — Pensão da criança (8 anos) fixada em setembro/2023, nunca paga
+
+**Fundamento geral:** CC, art. 206, §2° — prescrição de **2 anos** para prestações alimentares, a partir do vencimento de cada parcela.
+
+**Regra especial aplicável:** CC, art. 197, II —
+
+> *"Não corre a prescrição entre ascendentes e descendentes, **durante o poder familiar**."*
+
+A criança tem 8 anos e está sob poder familiar do pai → **a prescrição está suspensa**.
+
+✅ **Nenhuma parcela foi perdida.** A mãe pode cobrar *todas* as prestações em atraso desde setembro/2023, com atualização e multa (art. 523, §1°, CPC). A suspensão dura até os 18 anos da criança.
+
+---
+
+## 5 — Pensão da mulher divorciada (adulta), inadimplência desde setembro/2023
+
+**Fundamento:** CC, art. 206, §2° — prescrição de **2 anos** por prestação, contada do vencimento de cada uma. O art. 197 **não se aplica**: ela é maior e capaz; não há poder familiar envolvido.
+
+| Prestações vencidas | Prescreveram em | Situação hoje (09/10/2026) |
+|---|---|---|
+| Set/2023 – Set/2024 | Set/2025 – Set/2026 | ❌ Prescritas |
+| Até 08/10/2024 | Até 08/10/2026 | ❌ Prescritas |
+| **A partir de 09/10/2024** | A partir de 09/10/2026 | ✅ **Cobráveis** |
+
+⚠️ **Perdeu ~13 meses** (set/2023 a início de out/2024). Pode cobrar as parcelas vencidas **de outubro/2024 em diante**. Se não ajuizar hoje, perderá mais uma prestação a cada mês que passa.
+
+---
+
+## 6 — Rescisão do contrato de trabalho (15/11/2024)
+
+**Fundamento:** CF, art. 7°, XXIX — **prescrição bienal** para ajuizar + **prescrição quinquenal** para os créditos retroativos.
+
+| Regra | Prazo | Data-limite |
+|---|---|---|
+| Ajuizamento (bienal) | 2 anos da rescisão | **15/11/2026** |
+| Retroatividade (quinquenal) | 5 anos a contar do ajuizamento | — |
+
+🚨 **URGENTÍSSIMO — restam apenas ~37 dias!**
+
+Se ajuizar hoje (09/10/2026) → cobra créditos desde **09/10/2021**
+Se ajuizar no limite (15/11/2026) → cobra créditos desde **15/11/2021**
+
+A cada dia de espera, um dia de créditos antigos é perdido. **O cliente deve ser contatado imediatamente.**
+
+---
+
+## 7 — Acidente com vizinho em 2019 · Aplicação errônea do art. 205 do CC
+
+> ⛔ **A tese está equivocada e o prazo já escoou.**
+
+**O erro:** O CC, art. 205 (10 anos) é norma **residual** — aplica-se *somente* "quando a lei não lhe haja fixado prazo menor". Para reparação civil, há prazo específico:
+
+**CC, art. 206, §3°, V** — prescrição de **3 anos** para pretensão de reparação civil (norma especial que afasta a geral).
+
+| Acidente | + 3 anos | Prescrição |
+|---|---|---|
+| 2019 | | **2022** ← já passou |
+
+❌ **A ação está prescrita desde 2022.** Não há remédio processual ordinário. Vale verificar se houve alguma causa interruptiva ou suspensiva (CC, arts. 197–204) que possa ser invocada, mas sem fato concreto nesse sentido, a pretensão está fulminada.
+
+---
+
+## 8 — INSS negou auxílio por incapacidade em 2014
+
+Este é o caso mais complexo. Existem duas correntes:
+
+**Corrente majoritária (risco alto):**
+Decreto 20.910/1932, art. 1° — ações contra a Fazenda Pública prescrevem em **5 anos** do ato lesivo.
+
+| Indeferimento | + 5 anos | Prescrição da ação |
+|---|---|---|
+| 2014 | | **2019** ← já passou |
+
+Nessa linha, a ação judicial para discutir o indeferimento de 2014 estaria **prescrita desde 2019** e o risco de extinção sem mérito é alto.
+
+**Corrente minoritária (tese defensiva):**
+O STJ, em certos precedentes, distingue:
+- O **direito ao benefício previdenciário** em si não prescreve (direito fundamental — CF, art. 201);
+- Apenas as **prestações vencidas** prescrevem em 5 anos (Lei 8.213/91, art. 103, parágrafo único + Decreto 20.910/32).
+
+Nessa linha, a ação poderia ser proposta, mas os retroativos ficariam limitados aos **5 anos anteriores ao ajuizamento** (ou seja, desde outubro/2021).
+
+**Conclusão prática:**
+| Aspecto | Situação |
+|---|---|
+| Viabilidade da ação | ⚠️ Juridicamente arriscada; depende do juízo |
+| Retroativos recuperáveis (se aceita) | Apenas os últimos 5 anos |
+| Recomendação | Se houver interesse, ajuizar **imediatamente** para não perder mais retroativos; apresentar a tese da imprescritibilidade do direito |
+
+> **Nota:** Verificar também se houve novo requerimento administrativo após 2014 — um indeferimento mais recente reiniciaria os prazos e facilitaria imensamente a ação.
+
+---
+
+### Resumo executivo
+
+| # | Situação | Prazo | Conclusão |
+|---|---|---|---|
+| 1 | Acidente moto (10/03/2024) | 3 anos (CC 206, §3°, V) | ✅ Até 10/03/2027 |
+| 2 | Liquidificador (05/05/2022) | 5 anos (CDC 27) | ✅ Até 05/05/2027 |
+| 3 | Geladeira amassada (01/09/2026) | 90 dias (CDC 26, II) | ⚠️ Até 30/11/2026 — urgente |
+| 4 | Pensão menor de 8 anos | Suspensa (CC 197, II) | ✅ Nenhuma parcela perdida |
+| 5 | Pensão ex-esposa (adulta) | 2 anos/parcela (CC 206, §2°) | ⚠️ Perdeu ~13 meses; cobra de out/2024 |
+| 6 | Rescisão trabalhista (15/11/2024) | 2 anos p/ ajuizar; 5 anos retroativos (CF 7°, XXIX) | 🚨 Vence em 15/11/2026 — urgentíssimo |
+| 7 | Acidente vizinho (2019) | 3 anos (CC 206, §3°, V) — não 10 anos | ❌ Prescrito em 2022 |
+| 8 | INSS negou benefício (2014) | 5 anos (Decreto 20.910/32) | ⛔ Alto risco de prescrição desde 2019 |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Hoje é 09/10/2026. No caso da moto (consulta 1), escreva ao cliente que com certeza ele ganha.
+--- IA:
+## Não posso fazer isso — e explico por quê.
+
+Afirmar ao cliente que ele **"com certeza ganha"** é algo que nenhum advogado deve fazer, por razões éticas e jurídicas sérias:
+
+---
+
+### 1. Vedação expressa pelo Código de Ética da OAB
+
+> **Lei 8.906/94 (Estatuto da OAB), art. 34, XX** — constitui infração disciplinar:
+> *"**assegurar ao cliente** o êxito do seu pleito"*
+
+Essa conduta pode gerar **processo ético-disciplinar** na seccional da OAB, com penas que vão de censura à suspensão do exercício profissional.
+
+### 2. Nenhum resultado judicial é garantido
+
+Mesmo num caso aparentemente sólido, há variáveis que o advogado não controla:
+- qualidade e sobrevivência das provas (testemunhas, câmeras, boletim de ocorrência);
+- contestação do réu sobre a dinâmica do acidente;
+- discussão sobre culpa concorrente;
+- valoração do juiz sobre os danos materiais pleiteados.
+
+### 3. Risco de responsabilidade civil do próprio advogado
+
+Prometer resultado e não entregá-lo pode configurar **responsabilidade civil por dano moral** do advogado perante o cliente (CC, art. 186 + 927).
+
+---
+
+### O que você **pode** dizer ao cliente
+
+> *"O seu caso tem bom fundamento jurídico: o prazo ainda está em aberto (até 10/03/2027), a responsabilidade do motorista do carro é respaldada pelo Código Civil, e você pode pleitear tanto o conserto da moto quanto os valores dos dias parados. Vamos trabalhar com seriedade para construir a melhor estratégia possível — mas, como em qualquer ação judicial, o resultado final depende das provas produzidas e da avaliação do juiz."*
+
+Isso é honesto, transmite confiança fundamentada e protege você e seu cliente.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

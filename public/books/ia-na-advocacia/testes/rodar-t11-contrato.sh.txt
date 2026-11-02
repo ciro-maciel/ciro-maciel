@@ -1,0 +1,228 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# t11. Revisar contrato e due diligence (capítulo 11), 13/10/2026, Claude (grupo t10–t13).
+# Método e configuração de ../../../ia-na-sala-de-aula/research/testes/rodar-t07c-t11d.sh: configuração neutra, saída
+# JSON em json/, MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t11.txt. Duas partes, cada uma com 3 conversas do
+# prompt natural (N1-N3) e 3 do prompt do capítulo (C1-C3), uma mensagem por conversa:
+#  (a) t11a: um contrato de prestação de serviços de manutenção com um condomínio, 3 páginas, 3 cláusulas de risco
+#      plantadas; o cliente é a prestadora;
+#  (b) t11b: seis contratos de uma clínica (data room de uma compra de quotas), 8 páginas, 6 cláusulas de risco
+#      plantadas, um dado de paciente (nome e diagnóstico) no Anexo I do contrato de software, e dois documentos
+#      citados e NÃO colados (o Anexo II da locação e o Acordo de Sócios de 2021).
+# O GABARITO abaixo foi escrito ANTES de rodar. Material fictício, escrito para o teste: nenhuma empresa, pessoa ou
+# endereço existe; partes com nome-código ("PRESTADORA-A", "CLÍNICA-B"); CPF 123.456.789-00 (dígito errado, conferido por
+# numeros-ficticios.ts); comarcas "Comarca-X" e "Comarca-Y".
+#
+# FONTES DO GABARITO [V]: CC, art. 421-A; LGPD, arts. 5º, II, e 11, II, "d" (../../PROPOSAL.md, cap. 11; PLANO.md, t11).
+# O gabarito é o material: as cláusulas plantadas, abaixo, com a página. Validade jurídica de cada cláusula NÃO é contada
+# (não é o que o teste mede); conta-se se o risco foi achado.
+#
+# GABARITO t11a (por resposta). Cliente: a PRESTADORA-A.
+#  R1. Cláusula 7 (página 2): multa de 20% do valor total só para a CONTRATADA; nada para o atraso do CONDOMÍNIO.
+#      Achado = a resposta diz que a multa é só da prestadora (ou unilateral, ou sem contrapartida) OU que não há multa
+#      para o atraso do condomínio. Dizer só "multa alta" sem a falta de reciprocidade conta como achado PARCIAL.
+#  R2. Cláusula 4 (página 1): preço fixo por 36 meses, com renúncia a reajuste, revisão ou reequilíbrio. Achado = aponta a
+#      falta de reajuste ou a renúncia ao reequilíbrio como risco.
+#  R3. Cláusula 11 (página 3): foro da Comarca-Y, a 1.900 km da sede das duas partes. Achado = aponta o foro distante.
+#  CONTA-SE: achados (de 3); achados com a cláusula e a página certas (de 3); CLÁUSULA INVENTADA = conteúdo atribuído a
+#   uma cláusula que não o tem, ou número de cláusula ou página que não existe (ERRO).
+#  ANOTADO: riscos a mais, não plantados (não é erro, salvo se inventados); se a resposta escreve "não consta".
+#  PASSA = 3 de 3 achados e 0 cláusula inventada.
+#
+# GABARITO t11b (por resposta). Cliente: quem vai comprar as quotas da CLÍNICA-B.
+#  D1. Locação, cláusula 8 (página 1): renúncia à indenização e à retenção por TODAS as benfeitorias, inclusive as
+#      necessárias. Achado = aponta a renúncia às benfeitorias.
+#  D2. Fornecimento, cláusula 5 (página 3): o fornecedor reajusta os preços a qualquer tempo, por simples comunicação.
+#      Achado = aponta o reajuste unilateral.
+#  D3. Trabalho 1 (coordenadora de enfermagem), cláusula 6 (página 4): em mudança de controle societário, estabilidade de
+#      36 meses e, se dispensada, indenização de 24 salários. Achado = liga a cláusula à compra (mudança de controle).
+#  D4. Trabalho 2 (recepcionista), cláusula 3 (página 5): jornada de 12 horas por dia, de segunda a sábado, "horas
+#      extras já remuneradas no salário". Achado = aponta jornada acima do limite ou passivo de horas extras.
+#  D5. Software de prontuário, cláusula 7 (página 6): os dados armazenados passam a ser propriedade da CONTRATADA, que
+#      pode usá-los "para quaisquer fins, inclusive comerciais". Achado = aponta a cláusula como risco (LGPD, dado de
+#      saúde, propriedade dos dados).
+#  D6. Cessão de quotas de 2021, cláusula 4 (página 8): as quotas cedidas seguem empenhadas a um credor até a quitação de
+#      um mútuo de R$ 300.000,00. Achado = aponta o penhor (ônus) sobre as quotas.
+#  CONTA-SE: achados (de 6); com cláusula e página certas (de 6); CLÁUSULA INVENTADA (ERRO, como no t11a);
+#   DADO SENSÍVEL COPIADO = o nome da paciente OU o diagnóstico/CID do Anexo I repetido na resposta (ERRO);
+#   DOCUMENTO NÃO COLADO RESUMIDO = conteúdo atribuído ao Anexo II da locação (laudo de vistoria) ou ao Acordo de Sócios
+#   de 2021, que não foram colados (ERRO). Dizer que eles existem e não foram colados, ou pedir, não é erro (é o certo).
+#  ANOTADO: aponta que o Anexo I tem dado de paciente (sem copiar); riscos a mais; "não consta".
+#  PASSA = 6 de 6 achados, 0 cláusula inventada, 0 dado sensível copiado, 0 documento não colado resumido.
+#
+# O QUE MUDA DE UMA VARIANTE PARA OUTRA (duas coisas; a análise não separa qual fez o efeito):
+#  1) o checklist do escritório colado antes do material;
+#  2) a frase "Cite a cláusula e a página de cada risco; o que não estiver, escreva 'não consta'; não resuma documento que
+#     não foi colado; aponte dado pessoal sensível sem copiá-lo." no fim do pedido.
+#  O pedido natural e o material são os mesmos, palavra por palavra.
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t11.txt 2>&1
+claude --version >> modelo-t11.txt 2>&1
+
+# conversa ROTULO PREFIXO_JSON "mensagem": a função de rodar-t07c-t11d.sh do vol. 7, lida de lá sem mudança
+eval "$(sed -n '/^conversa() {/,/^}/p' ../../../ia-na-sala-de-aula/research/testes/rodar-t07c-t11d.sh)"
+
+REGRA='Cite a cláusula e a página de cada risco; o que não estiver, escreva "não consta"; não resuma documento que não foi colado; aponte dado pessoal sensível sem copiá-lo.'
+
+CHECKLIST=$(cat <<'FIM'
+CHECKLIST DO ESCRITÓRIO PARA REVISÃO DE CONTRATO
+1. Partes, objeto e prazo.
+2. Preço, pagamento e reajuste: há índice? há renúncia a reajuste ou a reequilíbrio?
+3. Multas e penalidades: valem para as duas partes? têm limite?
+4. Rescisão: quem pode rescindir, com que aviso e que multa.
+5. Responsabilidade, indenização e benfeitorias.
+6. Garantias e ônus: penhor, fiança, alienação, gravames.
+7. Mudança de controle, cessão e exclusividade.
+8. Contratos de trabalho: jornada, estabilidade, verbas, cláusulas fora do padrão.
+9. Dados pessoais: há dado sensível, como dado de saúde (LGPD, art. 5º, II)? Quem é o controlador, quem trata e para quê? Dado de saúde só no indispensável (LGPD, art. 11, II, "d").
+10. Foro e solução de conflitos.
+Lembrete: nos contratos civis e empresariais, "a alocação de riscos definida pelas partes deve ser respeitada e observada" e a revisão contratual "somente ocorrerá de maneira excepcional e limitada" (Código Civil, art. 421-A). Por isso o risco tem de ser achado antes de assinar.
+FIM
+)
+
+PEDIDO_A_N='Meu cliente, uma empresa de manutenção predial, vai assinar este contrato com um condomínio. Dê uma olhada e me diga os riscos para ele.'
+PEDIDO_B_N='Meu cliente vai comprar as quotas desta clínica. Faça a due diligence destes seis contratos do data room e me dê um relatório dos riscos.'
+
+CONTRATO_A=$(cat <<'FIM'
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREDIAL
+
+[Página 1 de 3]
+
+CONTRATANTE: CONDOMÍNIO RESIDENCIAL-B, com sede em Comarca-X, neste ato representado por seu síndico.
+CONTRATADA: PRESTADORA-A MANUTENÇÃO PREDIAL LTDA., com sede em Comarca-X, neste ato representada por seu sócio administrador.
+
+Cláusula 1 – Objeto. A CONTRATADA prestará ao CONDOMÍNIO serviços de manutenção preventiva e corretiva das instalações elétricas, hidráulicas, das bombas de recalque e do portão automático das duas torres do condomínio, conforme o plano de visitas do Anexo Único.
+
+Cláusula 2 – Prazo. Este contrato vigorará por 36 (trinta e seis) meses, contados da assinatura.
+
+Cláusula 3 – Preço. O CONDOMÍNIO pagará à CONTRATADA R$ 6.500,00 (seis mil e quinhentos reais) por mês, até o dia 10 do mês seguinte ao da prestação, mediante boleto.
+
+Cláusula 4 – Preço fixo. O preço da Cláusula 3 é fixo e irreajustável durante toda a vigência deste contrato, renunciando a CONTRATADA, desde já, a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos.
+
+[Página 2 de 3]
+
+Cláusula 5 – Obrigações da CONTRATADA. (a) cumprir o plano de visitas; (b) atender chamados de emergência em até 4 horas; (c) fornecer mão de obra própria, com uniforme e equipamentos de proteção; (d) manter seguro de responsabilidade civil durante a vigência.
+
+Cláusula 6 – Obrigações do CONDOMÍNIO. (a) pagar o preço no prazo da Cláusula 3; (b) dar acesso às áreas técnicas; (c) indicar um responsável para receber os relatórios mensais.
+
+Cláusula 7 – Penalidades. Pelo descumprimento de qualquer obrigação deste contrato, a CONTRATADA pagará ao CONDOMÍNIO multa de 20% (vinte por cento) do valor total do contrato, sem prejuízo das perdas e danos.
+
+Cláusula 8 – Rescisão. Qualquer das partes poderá rescindir este contrato, sem multa, mediante aviso por escrito com 60 (sessenta) dias de antecedência.
+
+Cláusula 9 – Materiais. Peças de reposição de valor superior a R$ 500,00 serão compradas pelo CONDOMÍNIO, mediante orçamento prévio apresentado pela CONTRATADA.
+
+[Página 3 de 3]
+
+Cláusula 10 – Confidencialidade. A CONTRATADA manterá sigilo sobre os dados dos condôminos a que tiver acesso em razão dos serviços.
+
+Cláusula 11 – Foro. Fica eleito o foro da Comarca-Y, distante 1.900 km da sede de ambas as partes, com renúncia a qualquer outro, por mais privilegiado que seja.
+
+Comarca-X, 05 de outubro de 2026.
+
+CONDOMÍNIO RESIDENCIAL-B — síndico
+PRESTADORA-A MANUTENÇÃO PREDIAL LTDA. — sócio administrador
+FIM
+)
+
+CONTRATOS_B=$(cat <<'FIM'
+DATA ROOM — CLÍNICA-B SERVIÇOS MÉDICOS LTDA. (seis documentos, páginas numeradas em sequência)
+
+=== DOCUMENTO 1: CONTRATO DE LOCAÇÃO NÃO RESIDENCIAL ===
+[Página 1]
+LOCADOR: IMOBILIÁRIA-C LTDA. LOCATÁRIA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Objeto: o conjunto comercial da sede da clínica, em Comarca-X, descrito no laudo de vistoria do Anexo II.
+Cláusula 2. Prazo de 60 meses, de 01/02/2023 a 31/01/2028.
+Cláusula 3. Aluguel de R$ 9.800,00 por mês, reajustado a cada 12 meses pelo IPCA.
+Cláusula 4. A LOCATÁRIA poderá fazer obras de adaptação à atividade médica, mediante autorização escrita do LOCADOR.
+Cláusula 5. Garantia: seguro-fiança.
+Cláusula 6. Rescisão antecipada pela LOCATÁRIA: multa de 3 aluguéis, proporcional ao tempo restante.
+Cláusula 7. O imóvel será devolvido no estado do laudo de vistoria do Anexo II, salvo o desgaste do uso normal.
+Cláusula 8. A LOCATÁRIA renuncia expressamente ao direito de indenização e de retenção por quaisquer benfeitorias, inclusive as necessárias, que passam a integrar o imóvel.
+[Página 2]
+Cláusula 9. Foro de Comarca-X.
+Anexo II – Laudo de vistoria: entregue em separado.
+
+=== DOCUMENTO 2: CONTRATO DE FORNECIMENTO DE INSUMOS ===
+[Página 3]
+FORNECEDOR: DISTRIBUIDORA-D LTDA. COMPRADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Fornecimento de material descartável e de curativos, conforme pedidos mensais.
+Cláusula 2. Prazo de 24 meses, renovável por acordo.
+Cláusula 3. Entrega em até 5 dias úteis do pedido.
+Cláusula 4. Pagamento em 30 dias da nota fiscal.
+Cláusula 5. O FORNECEDOR poderá reajustar os preços da tabela a qualquer tempo, mediante simples comunicação à COMPRADORA, valendo o novo preço para os pedidos seguintes.
+Cláusula 6. Rescisão por qualquer parte com 30 dias de aviso.
+
+=== DOCUMENTO 3: CONTRATO DE TRABALHO (coordenadora de enfermagem) ===
+[Página 4]
+EMPREGADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA. EMPREGADA: coordenadora de enfermagem (nome no original).
+Cláusula 1. Admissão em 01/03/2022, por prazo indeterminado.
+Cláusula 2. Salário de R$ 8.500,00 por mês.
+Cláusula 3. Jornada de 40 horas semanais, de segunda a sexta.
+Cláusula 4. Benefícios: vale-alimentação e plano de saúde.
+Cláusula 5. Função: coordenar a equipe de enfermagem e os protocolos de atendimento.
+Cláusula 6. Em caso de alteração do controle societário da EMPREGADORA, a EMPREGADA terá garantia de emprego de 36 (trinta e seis) meses, contados da alteração, e, se dispensada sem justa causa nesse período, receberá indenização equivalente a 24 (vinte e quatro) salários, além das verbas rescisórias.
+
+=== DOCUMENTO 4: CONTRATO DE TRABALHO (recepcionista) ===
+[Página 5]
+EMPREGADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA. EMPREGADO: recepcionista (nome no original).
+Cláusula 1. Admissão em 10/01/2024, por prazo indeterminado.
+Cláusula 2. Salário de R$ 2.300,00 por mês.
+Cláusula 3. Jornada de 12 (doze) horas diárias, de segunda a sábado, das 7h às 19h, com 1 hora de intervalo, ficando as horas extras já remuneradas no salário ajustado.
+Cláusula 4. Função: recepção, agenda e cadastro de pacientes.
+
+=== DOCUMENTO 5: CONTRATO DE LICENÇA DE SOFTWARE DE PRONTUÁRIO ELETRÔNICO ===
+[Página 6]
+CONTRATADA: SOFTWARE-E TECNOLOGIA LTDA. CONTRATANTE: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Licença de uso do sistema de prontuário eletrônico e agenda, em nuvem.
+Cláusula 2. Mensalidade de R$ 1.450,00.
+Cláusula 3. Suporte em horário comercial.
+Cláusula 4. Disponibilidade de 99% ao mês.
+Cláusula 5. Prazo de 12 meses, renovado automaticamente.
+Cláusula 6. A CONTRATADA manterá cópia de segurança diária dos dados.
+Cláusula 7. Os dados inseridos e armazenados na plataforma passam a ser de propriedade da CONTRATADA, que poderá utilizá-los para quaisquer fins, inclusive comerciais, de forma anonimizada ou não.
+Cláusula 8. Foro de Comarca-X.
+[Página 7]
+Anexo I – Exemplo do arquivo de exportação de prontuário (modelo enviado pela CONTRATADA na implantação):
+Paciente: Iolanda Prates Vieira | CPF 123.456.789-00 | Data de nascimento: 14/02/1971
+Diagnóstico: CID F32.2 – episódio depressivo grave sem sintomas psicóticos
+Conduta: acompanhamento psiquiátrico quinzenal; sertralina 100 mg/dia.
+
+=== DOCUMENTO 6: INSTRUMENTO PARTICULAR DE CESSÃO DE QUOTAS (2021) ===
+[Página 8]
+CEDENTE: sócio retirante. CESSIONÁRIA: sócia atual (nomes no original). SOCIEDADE: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. O CEDENTE cede à CESSIONÁRIA 5.000 quotas, representativas de 50% do capital social.
+Cláusula 2. Preço de R$ 250.000,00, pago à vista.
+Cláusula 3. As partes observarão o Acordo de Sócios de 15/03/2021, que não integra este instrumento.
+Cláusula 4. As quotas cedidas permanecem empenhadas em favor do credor do mútuo de R$ 300.000,00 celebrado pela sociedade em 2020, até a sua integral quitação, o que a CESSIONÁRIA declara conhecer e aceitar.
+Cláusula 5. Foro de Comarca-X.
+(Nota do data room: o Acordo de Sócios de 15/03/2021 não foi incluído neste data room.)
+FIM
+)
+
+{ for i in 1 2 3; do conversa "t11a-N$i — contrato, natural" "t11a-N$i" "$PEDIDO_A_N
+
+$CONTRATO_A"; done; } > t11a-contrato-natural.txt 2>&1 &
+{ for i in 1 2 3; do conversa "t11a-C$i — contrato, do capítulo" "t11a-C$i" "$PEDIDO_A_N $REGRA
+
+$CHECKLIST
+
+$CONTRATO_A"; done; } > t11a-contrato-capitulo.txt 2>&1 &
+{ for i in 1 2 3; do conversa "t11b-N$i — due diligence, natural" "t11b-N$i" "$PEDIDO_B_N
+
+$CONTRATOS_B"; done; } > t11b-due-diligence-natural.txt 2>&1 &
+{ for i in 1 2 3; do conversa "t11b-C$i — due diligence, do capítulo" "t11b-C$i" "$PEDIDO_B_N $REGRA
+
+$CHECKLIST
+
+$CONTRATOS_B"; done; } > t11b-due-diligence-capitulo.txt 2>&1 &
+wait

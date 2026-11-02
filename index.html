@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-mantine-color-scheme="light">
+  <head>
+        <!-- O tema antes da primeira pintura. Lê a escolha guardada pelo botão
+             de tema (Automático, Claro, Escuro) ou, sem escolha, o tema do
+             aparelho, e marca o <html> antes do CSS — sem isto o escuro piscaria
+             branco a cada carga. É o mesmo cálculo do MantineProvider. -->
+        <script>try{var s=localStorage.getItem('mantine-color-scheme-value');var d=s==='dark'||(s!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.setAttribute('data-mantine-color-scheme',d?'dark':'light')}catch(e){}</script>
+    <meta charset="UTF-8" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/webp" href="/favicon.webp" />
+    <link rel="alternate" type="application/rss+xml" title="Ciro Cesar Maciel — o que mudou no site" href="/feed.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Ciro Cesar Maciel — o que mudou no site" href="/atom.xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Montserrat comes from this site (src/fonts.css): preloaded here so it
+         arrives with the CSS and the first paint is already in the site's
+         font. Vite rewrites the path to the hashed file. -->
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/src/fonts/montserrat-latin.woff2"
+      crossorigin
+    />
+
+    <!-- Operations Analytics — sem cookie, sem banner de consentimento.
+         `defer` não atrasa o LCP; `data-spa="auto"` conta cada troca de rota
+         do React Router, sem ele só o primeiro carregamento apareceria. O
+         `data-site` é o id do site no painel, não é segredo. -->
+    <script
+      defer
+      src="https://analytics.worker.myoperations.click/tracker.js"
+      data-site="0cd6458b-7ab5-41df-95ec-43a09388e26c"
+      data-spa="auto"
+      data-honor-dnt="true"
+    ></script>
+
+    <!-- Primary Meta -->
+    <!-- O TÍTULO DIZ O QUE ELE FAZ, não só quem ele é. O nome vem primeiro
+         porque é ele que assina; a segunda metade existe para a busca e para
+         o agente, que leem este campo com mais peso do que qualquer outro.
+         "Eu faço ferramentas" é a mesma linha das bios (GitHub, capa do
+         YouTube) — uma redação só, em todo lugar. -->
+    <title>Ciro Cesar Maciel — eu faço ferramentas</title>
+    <meta
+      name="description"
+      content="Construir é de todos. O saber está nos livros e as ferramentas estão no ar: escolha o seu degrau e construa com IA, saiba programar ou não."
+    />
+    <meta name="author" content="Ciro Cesar Maciel" />
+    <meta name="p:domain_verify" content="cd1124651e7bcc36a4f64f6148d73e9f" />
+    <link rel="canonical" href="https://ciromaciel.click/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ciromaciel.click/" />
+    <meta
+      property="og:title"
+      content="Ciro Cesar Maciel — eu faço ferramentas"
+    />
+    <meta
+      property="og:description"
+      content="Construir é de todos. O saber está nos livros e as ferramentas estão no ar: escolha o seu degrau e construa com IA, saiba programar ou não."
+    />
+    <meta
+      property="og:image"
+      content="https://ciromaciel.click/opengraph.webp"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Ciro Cesar Maciel" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://ciromaciel.click/" />
+    <meta
+      name="twitter:title"
+      content="Ciro Cesar Maciel — eu faço ferramentas"
+    />
+    <meta
+      name="twitter:description"
+      content="Construir é de todos. O saber está nos livros e as ferramentas estão no ar: escolha o seu degrau e construa com IA, saiba programar ou não."
+    />
+    <meta
+      name="twitter:image"
+      content="https://ciromaciel.click/opengraph.webp"
+    />
+
+    <!-- JSON-LD: Person -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ciro Cesar Maciel",
+        "url": "https://ciromaciel.click",
+        "image": "https://ciromaciel.click/Ciro Cesar Maciel.webp",
+        "jobTitle": "Engenheiro de software",
+        "nationality": "BR",
+        "knowsLanguage": ["pt-BR", "en"],
+        "description": "Construir é de todos. O saber está nos livros e as ferramentas estão no ar: escolha o seu degrau e construa com IA, saiba programar ou não.",
+        "sameAs": [
+          "https://linkedin.com/in/ciromaciel",
+          "https://github.com/ciro-maciel",
+          "https://www.youtube.com/@ciro-maciel",
+          "https://www.instagram.com/ciro.maciel/",
+          "https://open-vsx.org/namespace/ciro-maciel"
+        ],
+        "@id": "https://ciromaciel.click/#person",
+        "knowsAbout": [
+          "Infraestrutura para aplicações com inteligência artificial",
+          "Desenvolvimento de software com agentes",
+          "Arquitetura de software",
+          "Model Context Protocol (MCP)",
+          "Autenticação e identidade",
+          "Publicação e hospedagem de aplicações",
+          "Assinaturas e cobrança recorrente",
+          "Letramento em inteligência artificial",
+          "Inteligência artificial no trabalho"
+        ]
+      }
+    </script>
+
+    <!-- JSON-LD: WebSite -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ciro Cesar Maciel",
+        "url": "https://ciromaciel.click",
+        "inLanguage": "pt-BR",
+        "description": "Construir é de todos. O saber está nos livros e as ferramentas estão no ar: escolha o seu degrau e construa com IA, saiba programar ou não.",
+        "publisher": {
+          "@type": "Person",
+          "name": "Ciro Cesar Maciel",
+          "url": "https://ciromaciel.click"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

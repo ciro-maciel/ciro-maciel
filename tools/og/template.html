@@ -1,0 +1,185 @@
+<!doctype html>
+<meta charset="utf-8" />
+<!--
+  Template de Open Graph (1200x630) do ciromaciel.click.
+
+  Vem do gerador dos produtos (infrastructure/website/tools/og), com três mudanças
+  que a diferença de objeto obriga:
+
+    1. COM O RAIO, desde 21/09/2026. Esta linha dizia o contrário: "o raio é
+       a marca dos produtos, e este card é de uma pessoa". Deixou de valer em
+       19/09, quando o raio passou a ser o símbolo DESTE site também — e a
+       decisão foi confirmada em 21/09, depois de uma mascote disputar o posto
+       e ser aposentada. Um símbolo só, nos dois domínios.
+    2. SEM "from <marca>". A frase existe para dizer de quem é um produto; o
+       Ciro não é produto de ninguém, ele é quem os construiu.
+    3. O TÍTULO É MENOR. "Ciro Cesar Maciel" tem 17 caracteres contra os 7 de
+       "Storage": a 92px ele sozinho encostaria no avatar.
+
+  O resto — o filete, a cor quente, o avatar sangrando, a tagline de linhas
+  que não quebram — é o template da casa, e não se mexe aqui sem mexer lá.
+
+  Não editar valores tipográficos "no olho": todo token aqui vem do design
+  system em components-kit (theme.js + global.css). Se o kit mudar, muda aqui:
+
+    fontFamily  Montserrat (única família; hierarquia por peso e cor)
+    Title       fw 900 · ls -0.04em · lh 1.1   (.mantine-Title-root)
+    Text        lh 1.6
+    --fz-hero           clamp(...,6rem)   -> 96px num quadro fixo
+    --fz-section-title  clamp(...,3.5rem) -> 56px
+
+  Cor: a marca NÃO usa o gray.9 do theme.js (#11181C, frio/azulado). Todos os
+  assets — logo da marca, logos dos produtos, logotipo e favicon — são
+  #34322D, um preto quente. Aqui o texto acompanha o logo, senão o raio e o
+  nome ao lado ficam em pretos diferentes lado a lado. Os tons de apoio são
+  derivados dessa mesma base quente, não da escala fria do Mantine.
+
+  Os marcadores {{...}} são substituídos por generate.mjs.
+-->
+<style>
+    @font-face {
+        font-family: 'Montserrat';
+        src: url(data:font/woff2;base64,{{FONT}}) format('woff2');
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: block;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 1200px;
+        height: 630px;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background: #ffffff;
+        -webkit-font-smoothing: antialiased;
+        overflow: hidden;
+    }
+
+    .card {
+        position: relative;
+        width: 1200px;
+        height: 630px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 84px;
+        overflow: hidden;
+    }
+
+    /* filete superior: âncora da marca, mesmo tom do texto primário */
+    .rule {
+        position: absolute;
+        inset: 0 0 auto 0;
+        height: 8px;
+        background: #34322d;
+    }
+
+    /* O RAIO E O NOME, na mesma linha de base.
+
+       `align-items: center` e não `baseline`: o raio é uma forma, não um
+       glifo, e não tem linha de base para alinhar — centrar as duas caixas é
+       o que faz os dois lerem como uma assinatura só.
+
+       A altura do raio acompanha o título (60px) em vez de ser fixa: se o
+       corpo do título mudar, o par não se desmancha. */
+    .lock {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 18px;
+    }
+
+    .bolt {
+        height: 62px;
+        width: auto;
+    }
+
+    .title {
+        /* 60px, não os 92px do card de produto: "Ciro Cesar Maciel" tem 17
+           caracteres e a 92px passaria por baixo do avatar sozinho. */
+        font-size: 60px;
+        font-weight: 900;
+        letter-spacing: -0.04em;
+        line-height: 1;
+        color: #34322d;
+    }
+
+    .tag {
+        font-size: 54px;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        line-height: 1.16;
+        color: #5d5950;
+        max-width: 880px;
+    }
+
+    /* o negrito carrega a promessa: sobe para o tom primário */
+    .tag b {
+        font-weight: 900;
+        color: #34322d;
+    }
+
+    /* Cada linha é uma unidade de sentido: nunca quebrar no meio. Como nowrap
+       ignora o max-width do bloco, uma linha longa demais passaria por baixo
+       do avatar — generate.mjs mede cada linha e falha se ultrapassar a faixa
+       livre à esquerda. */
+    .tag span {
+        display: block;
+        white-space: nowrap;
+    }
+
+    .domain {
+        position: absolute;
+        left: 84px;
+        bottom: 52px;
+        font-size: 19px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        color: #8d887c;
+    }
+
+    /* O avatar sangra na base de propósito.
+       SEM MÁSCARA DE DEGRADÊ. O gerador dos produtos usa um
+       `mask-image` porque lá o arquivo é um PNG com fundo de estúdio, e o
+       degradê disfarça o corte seco desse fundo. Aqui o WebP tem
+       transparência de verdade: o degradê só apagaria os ombros contra o
+       branco, inventando uma sombra que a arte não tem. */
+    .av {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 340px;
+        width: auto;
+    }
+</style>
+
+<div class="card">
+    <div class="rule"></div>
+
+    <div class="lock">
+        <img
+            class="bolt"
+            src="data:image/png;base64,{{BOLT}}"
+            alt=""
+        />
+        <div class="title">{{TITLE}}</div>
+    </div>
+
+    <div class="tag">{{TAGLINE}}</div>
+    <div class="domain">{{DOMAIN}}</div>
+
+    <img
+        class="av"
+        src="data:image/webp;base64,{{AVATAR}}"
+        alt=""
+    />
+</div>

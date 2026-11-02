@@ -1,0 +1,325 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t13, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t13m-N1 — mensagens, natural
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Uma cliente do escritório me mandou os prints de seis mensagens que recebeu esta semana. É golpe? O que eu faço?
+
+MENSAGEM 1 (WhatsApp, do número (00) 9 0000-0001, com a foto e o logotipo do escritório no perfil)
+"Bom dia, Sra. Laurinda Paiva Couto. Aqui é o Dr. Henrique Bastos Lemos, OAB/ZZ 000.001, do escritório que cuida do seu processo 0012345-66.2025.8.99.0010. Tenho uma ótima notícia: o alvará saiu, R$ 38.450,00 a seu favor. Para liberar hoje, é preciso pagar a taxa de expedição de R$ 1.280,00. Me confirme que eu passo os dados."
+
+MENSAGEM 2 (WhatsApp, do mesmo número, uma imagem; o texto da imagem)
+"PODER JUDICIÁRIO — ALVARÁ DE LEVANTAMENTO — Processo 0012345-66.2025.8.99.0010 — Beneficiária: Laurinda Paiva Couto — Valor a liberar: R$ 38.450,00 — Taxa de liberação: R$ 1.280,00 — Pagamento via Pix, chave: custas.liberacao@central-custas.exemplo — Favorecido: Central de Custas Judiciais."
+
+MENSAGEM 3 (WhatsApp, do número (00) 9 0000-0002, conta criada há 3 dias, sem foto)
+"INTIMAÇÃO JUDICIAL. Prezado(a), consta uma intimação em seu nome. Acesse o documento para evitar condução coercitiva: encurta.exemplo/Jd8x2"
+
+MENSAGEM 4 (áudio de 42 segundos, do número (00) 9 0000-0001; a cliente diz que "é a voz do doutor"; a transcrição)
+"Dona Laurinda, é o Henrique, tudo bem? Olha, é aquilo que eu te mandei, o dinheiro já está liberado, só falta essa taxa da liberação. Faz o Pix ainda hoje, porque amanhã o juiz entra de férias e aí fica tudo parado."
+
+MENSAGEM 5 (e-mail, de notificacao@tribunal-intimacoes.exemplo, assunto "Notificação Extrajudicial — Processo 0012345-66.2025.8.99.0010")
+"Prezada Sra. Laurinda Paiva Couto, fica V.Sa. notificada a regularizar pendência de custas no prazo de 24 horas, sob pena de arquivamento do processo e perda do valor. Clique no link para emitir o boleto: tribunal-intimacoes.exemplo/boleto"
+
+MENSAGEM 6 (WhatsApp, do número (00) 9 0000-0003, o número do escritório que está no contrato da cliente)
+"Sra. Laurinda, bom dia. Andamento do seu processo: a audiência foi marcada para 12/11/2026, às 14h, no fórum de Comarca-X. Não há nada a pagar. Qualquer dúvida, ligue para o escritório neste número, o mesmo do seu contrato."
+--- IA:
+# Análise das Mensagens — Orientação ao Advogado
+
+## Veredicto rápido
+
+| Msg | Canal | Conclusão |
+|-----|-------|-----------|
+| 1 | WhatsApp (00) 9 0000-0001 | 🔴 **GOLPE** |
+| 2 | WhatsApp (mesmo número) | 🔴 **GOLPE** |
+| 3 | WhatsApp (00) 9 0000-0002 | 🔴 **GOLPE** |
+| 4 | Áudio (mesmo nº da Msg 1) | 🔴 **GOLPE** (voz provavelmente clonada por IA) |
+| 5 | E-mail domínio suspeito | 🔴 **GOLPE** |
+| 6 | WhatsApp nº do contrato | 🟢 **Parece legítima** |
+
+---
+
+## Por que as mensagens 1 a 5 são golpe?
+
+### Mensagem 1 — O pedido de "taxa de liberação"
+Este é o **golpe do alvará**, um dos mais aplicados contra clientes de escritórios de advocacia no Brasil.
+
+> **Regra de ouro do direito processual:** alvará judicial **não exige pagamento prévio** para ser liberado. O próprio alvará é o documento que autoriza o saque. Cobrar R$ 1.280,00 "para liberar" R$ 38.450,00 não tem amparo legal nenhum.
+
+Outros sinais:
+- O número **(00) 9 0000-0001 ≠ número do contrato** (que aparece só na Msg 6).
+- Foto de perfil com logotipo do escritório é fácil de copiar de redes sociais ou do site.
+
+### Mensagem 2 — O "alvará" em imagem
+- A chave Pix `custas.liberacao@central-custas.exemplo` **não é domínio oficial de nenhum tribunal**.
+- Tribunais brasileiros operam sob o domínio `.jus.br` (ex.: `tjsp.jus.br`, `stj.jus.br`). "central-custas.exemplo" não existe institucionalmente.
+- Documentos judiciais autênticos têm código verificador no portal do tribunal — nunca são enviados só como imagem de WhatsApp.
+
+### Mensagem 3 — A "intimação" com link encurtado
+- Intimações judiciais chegam pelo **Diário Oficial**, pelo **sistema do processo eletrônico** (PJe, e-SAJ, PROJUDI etc.) ou por AR/oficial de justiça — **nunca por WhatsApp com link encurtado**.
+- Conta criada há 3 dias, sem foto: perfil descartável, clássico de golpistas.
+- A ameaça de "condução coercitiva" é pressão emocional para forçar o clique.
+- **Não clique no link** — pode instalar malware ou capturar dados.
+
+### Mensagem 4 — O áudio "com a voz do doutor"
+- **Clonagem de voz por IA** (voice deepfake) está amplamente acessível e é usada exatamente nesse tipo de golpe.
+- A voz pode ter sido extraída de vídeos, podcasts, audiências gravadas ou redes sociais do advogado.
+- A frase *"amanhã o juiz entra de férias"* é urgência artificial — técnica clássica para impedir que a vítima consulte alguém antes de pagar.
+
+### Mensagem 5 — O e-mail falso
+- Domínio `tribunal-intimacoes.exemplo` **não existe no Poder Judiciário**. Sites oficiais terminam em `.jus.br`.
+- "Notificação Extrajudicial" é contraditório com "processo judicial" — mistura de termos para confundir.
+- Prazo de 24 horas + ameaça de "arquivamento e perda do valor" = pressão para agir sem pensar.
+
+### Mensagem 6 — A única legítima
+Vem do número que está no contrato da cliente, não pede nenhum pagamento e orienta a ligar para o próprio escritório. Todos os elementos são consistentes com comunicação real.
+
+---
+
+## O que fazer agora — passo a passo
+
+### Imediatamente (hoje)
+
+- [ ] **Ligue para a Sra. Laurinda** pelo número do escritório e confirme: ela **não deve pagar nada**. Se já pagou, acione o banco imediatamente para tentar estorno (Pix tem mecanismo de devolução pelo BACEN — DICT).
+- [ ] **Oriente-a a não clicar** nos links das Msgs 3 e 5 e a não responder os números suspeitos.
+- [ ] **Bloqueie e denuncie** os três números falsos no próprio WhatsApp (toque no nome > Bloquear > Denunciar).
+
+### Proteção do escritório
+
+- [ ] **Avise todos os outros clientes** que o escritório nunca cobra taxas via Pix para liberar valores — pode ser um comunicado rápido por WhatsApp, e-mail ou Stories.
+- [ ] **Verifique se alguém está usando sua imagem, nome e OAB** em perfis falsos — pesquise seu nome no WhatsApp Web e no Google.
+- [ ] Considere fixar um aviso no site e nas redes sociais do escritório sobre o golpe.
+
+### Registros formais
+
+- [ ] **Boletim de Ocorrência** — pode ser feito online pela Delegacia Virtual do estado (crimes: estelionato, falsa identidade, uso indevido de símbolo do Poder Judiciário, art. 171 e 307 do CP).
+- [ ] **Representação à OAB** da seccional correspondente (alguém está usando nome, número de OAB e imagem de advogado para cometer crime).
+- [ ] **Denúncia ao TJZZ / Corregedoria** pelo uso indevido do brasão/nome do Poder Judiciário.
+- [ ] Se o e-mail ainda estiver ativo, denuncie-o ao provedor (abuse@) e ao **CERT.br** ([retirado]).
+
+---
+
+## Resumo para passar à cliente
+
+> *"Sra. Laurinda, as mensagens dos números desconhecidos e o e-mail são golpe. Ninguém do escritório vai pedir Pix ou depósito para liberar seu dinheiro — isso não existe no processo judicial. A única mensagem legítima é a do nosso número de sempre, que informa a audiência de novembro. Não pague, não clique nos links e não responda esses contatos. Qualquer dúvida, ligue diretamente para nós."*
+
+---
+
+Se precisar de ajuda para redigir o boletim de ocorrência, o comunicado aos clientes ou a representação à OAB, é só pedir.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t13m-N2 — mensagens, natural
+### 2026-10-13 10:02 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Uma cliente do escritório me mandou os prints de seis mensagens que recebeu esta semana. É golpe? O que eu faço?
+
+MENSAGEM 1 (WhatsApp, do número (00) 9 0000-0001, com a foto e o logotipo do escritório no perfil)
+"Bom dia, Sra. Laurinda Paiva Couto. Aqui é o Dr. Henrique Bastos Lemos, OAB/ZZ 000.001, do escritório que cuida do seu processo 0012345-66.2025.8.99.0010. Tenho uma ótima notícia: o alvará saiu, R$ 38.450,00 a seu favor. Para liberar hoje, é preciso pagar a taxa de expedição de R$ 1.280,00. Me confirme que eu passo os dados."
+
+MENSAGEM 2 (WhatsApp, do mesmo número, uma imagem; o texto da imagem)
+"PODER JUDICIÁRIO — ALVARÁ DE LEVANTAMENTO — Processo 0012345-66.2025.8.99.0010 — Beneficiária: Laurinda Paiva Couto — Valor a liberar: R$ 38.450,00 — Taxa de liberação: R$ 1.280,00 — Pagamento via Pix, chave: custas.liberacao@central-custas.exemplo — Favorecido: Central de Custas Judiciais."
+
+MENSAGEM 3 (WhatsApp, do número (00) 9 0000-0002, conta criada há 3 dias, sem foto)
+"INTIMAÇÃO JUDICIAL. Prezado(a), consta uma intimação em seu nome. Acesse o documento para evitar condução coercitiva: encurta.exemplo/Jd8x2"
+
+MENSAGEM 4 (áudio de 42 segundos, do número (00) 9 0000-0001; a cliente diz que "é a voz do doutor"; a transcrição)
+"Dona Laurinda, é o Henrique, tudo bem? Olha, é aquilo que eu te mandei, o dinheiro já está liberado, só falta essa taxa da liberação. Faz o Pix ainda hoje, porque amanhã o juiz entra de férias e aí fica tudo parado."
+
+MENSAGEM 5 (e-mail, de notificacao@tribunal-intimacoes.exemplo, assunto "Notificação Extrajudicial — Processo 0012345-66.2025.8.99.0010")
+"Prezada Sra. Laurinda Paiva Couto, fica V.Sa. notificada a regularizar pendência de custas no prazo de 24 horas, sob pena de arquivamento do processo e perda do valor. Clique no link para emitir o boleto: tribunal-intimacoes.exemplo/boleto"
+
+MENSAGEM 6 (WhatsApp, do número (00) 9 0000-0003, o número do escritório que está no contrato da cliente)
+"Sra. Laurinda, bom dia. Andamento do seu processo: a audiência foi marcada para 12/11/2026, às 14h, no fórum de Comarca-X. Não há nada a pagar. Qualquer dúvida, ligue para o escritório neste número, o mesmo do seu contrato."
+--- IA:
+# Análise das Seis Mensagens
+
+## Veredicto rápido
+
+| Msg | Canal | Número/Remetente | Veredicto |
+|-----|-------|-----------------|-----------|
+| 1 | WhatsApp | (00) 9 0000-0001 (falso) | 🔴 Golpe |
+| 2 | WhatsApp (imagem) | Mesmo número falso | 🔴 Golpe |
+| 3 | WhatsApp | (00) 9 0000-0002 (falso) | 🔴 Golpe |
+| 4 | Áudio | Mesmo número falso | 🔴 Golpe (provável voz clonada por IA) |
+| 5 | E-mail | domínio não oficial | 🔴 Golpe |
+| 6 | WhatsApp | Número do contrato | 🟢 Legítima |
+
+---
+
+## Por que cada mensagem falsa é golpe — ponto a ponto
+
+### Mensagens 1, 2 e 4 — Falso advogado, falso alvará
+
+- **O número não é o do escritório.** A Mensagem 6 — a única legítima — vem do número que está no contrato. As demais vêm de números diferentes. Foto de perfil e logotipo são copiados em segundos.
+- **Tribunais não liberam dinheiro mediante "taxa de expedição" paga por Pix.** Custas e emolumentos são recolhidos por guia oficial (DARE, GRU ou guia do próprio tribunal) com código de barras gerado no portal do tribunal. Jamais por Pix para chave de e-mail de entidade genérica como `custas.liberacao@central-custas.exemplo`.
+- **"Central de Custas Judiciais" não existe** como entidade receptora de Pix para processos judiciais.
+- **O documento da Mensagem 2 é falso.** Alvarás de levantamento são peças processuais assinadas digitalmente e disponibilizadas no sistema eletrônico do tribunal (e-SAJ, PJe, PROJUDI etc.), não enviadas como imagem de WhatsApp.
+- **O áudio da Mensagem 4 usa quase certamente clonagem de voz por IA.** Ferramentas acessíveis conseguem reproduzir timbre vocal convincente a partir de poucos minutos de gravação. A "voz do doutor" em áudio de WhatsApp **não é prova de identidade**. O gatilho da urgência ("amanhã o juiz entra de férias") é técnica clássica para eliminar o tempo de checagem.
+
+### Mensagem 3 — Falsa intimação por WhatsApp
+
+- Intimações judiciais **não chegam por WhatsApp com link encurtado.** Elas são publicadas no Diário de Justiça Eletrônico ou enviadas pelo sistema do tribunal com certificação digital.
+- Conta criada há 3 dias, sem foto, com ameaça de "condução coercitiva" = tentativa de induzir pânico e clique em link malicioso (phishing/malware).
+- **Não clicar no link.**
+
+### Mensagem 5 — Falso e-mail do tribunal
+
+- O domínio `tribunal-intimacoes.exemplo` não é domínio oficial de nenhum tribunal brasileiro. Domínios oficiais terminam em `.jus.br` (ex.: `tjsp.jus.br`, `trf3.jus.br`).
+- Prazo de 24 horas com ameaça de "arquivamento e perda do valor" é pressão psicológica para forçar pagamento sem reflexão.
+- **Não clicar no link.**
+
+---
+
+## O que fazer agora — ordem de prioridade
+
+### 1. Contate a Sra. Laurinda imediatamente
+Ligue do número do escritório (o mesmo da Mensagem 6) e diga:
+- Não pague absolutamente nada.
+- Não clique em nenhum link.
+- Não forneça dados bancários ou CPF a nenhum desses contatos.
+- O escritório nunca pedirá Pix para liberar valores do processo.
+
+### 2. Preserve todas as provas (ela e o escritório)
+- Prints das mensagens com horário visível.
+- Histórico de conversas no WhatsApp (exportar como `.txt` + mídia).
+- Cabeçalho completo do e-mail (no Gmail/Outlook: "mostrar original" ou "ver fonte").
+- Guardar o número de telefone e a chave Pix mencionada.
+
+### 3. Registre Boletim de Ocorrência
+- **Delegacia de Crimes Cibernéticos** do estado (ou delegacia comum, se não houver especializada).
+- BO pode ser feito online na maioria dos estados (ex.: SP: `www.delegaciaeletronica.policiacivil.sp.gov.br`).
+- Crimes envolvidos: estelionato (art. 171 CP), falsa identidade (art. 307 CP), uso de documento falso (art. 304 CP), e possivelmente extorsão.
+
+### 4. Represente junto à OAB
+- Se os golpistas estão usando nome, número de OAB e foto de um advogado real do escritório, comunicar à **Seccional da OAB** competente por escrito.
+- A OAB pode emitir nota pública de alerta e encaminhar à Polícia Civil.
+
+### 5. Reporte ao tribunal
+- Se o número do processo for real, informe à Secretaria da Vara ou ao setor de atendimento ao usuário do tribunal que o processo está sendo usado em tentativa de estelionato. Eles podem incluir uma anotação nos autos.
+
+### 6. Reporte ao WhatsApp e bloqueio
+- Em cada conversa: três pontos > "Denunciar" > "Golpe/Fraude".
+- Bloquear os números falsos.
+
+### 7. Reporte o e-mail phishing
+- Encaminhar o e-mail como anexo para `[retirado]` e/ou para o CERT.br: `[retirado]`.
+- Reportar ao provedor do domínio falso (WHOIS para identificar registrador).
+
+---
+
+## Para o escritório: medidas preventivas imediatas
+
+| Ação | Por quê |
+|------|---------|
+| Avisar **todos os clientes ativos** sobre o golpe (circular por WhatsApp/e-mail, do número/endereço oficial) | Os golpistas provavelmente têm lista de clientes ou estão tentando em escala |
+| Publicar aviso no site e redes sociais do escritório | Reduz o alcance do golpe |
+| Verificar se houve vazamento de dados (lista de clientes, números de processo) | Golpistas usaram nome completo, número de processo e nome do advogado — alguém forneceu esses dados |
+| Orientar a equipe: nunca solicitar Pix ou transferência diretamente por WhatsApp sem confirmação por outro canal | Procedimento interno de segurança |
+
+---
+
+## Resumo para passar à Sra. Laurinda em linguagem simples
+
+> *"Sra. Laurinda, as mensagens dos números desconhecidos e o e-mail são golpe. Criminosos copiaram o nome e a foto do escritório para enganá-la. Tribunal nenhum libera dinheiro mediante taxa de Pix. Não pague nada, não clique em nenhum link. Guarde os prints. Vamos registrar um boletim de ocorrência juntos. O único contato verdadeiro do escritório é este número aqui."*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t13m-N3 — mensagens, natural
+### 2026-10-13 10:03 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Uma cliente do escritório me mandou os prints de seis mensagens que recebeu esta semana. É golpe? O que eu faço?
+
+MENSAGEM 1 (WhatsApp, do número (00) 9 0000-0001, com a foto e o logotipo do escritório no perfil)
+"Bom dia, Sra. Laurinda Paiva Couto. Aqui é o Dr. Henrique Bastos Lemos, OAB/ZZ 000.001, do escritório que cuida do seu processo 0012345-66.2025.8.99.0010. Tenho uma ótima notícia: o alvará saiu, R$ 38.450,00 a seu favor. Para liberar hoje, é preciso pagar a taxa de expedição de R$ 1.280,00. Me confirme que eu passo os dados."
+
+MENSAGEM 2 (WhatsApp, do mesmo número, uma imagem; o texto da imagem)
+"PODER JUDICIÁRIO — ALVARÁ DE LEVANTAMENTO — Processo 0012345-66.2025.8.99.0010 — Beneficiária: Laurinda Paiva Couto — Valor a liberar: R$ 38.450,00 — Taxa de liberação: R$ 1.280,00 — Pagamento via Pix, chave: custas.liberacao@central-custas.exemplo — Favorecido: Central de Custas Judiciais."
+
+MENSAGEM 3 (WhatsApp, do número (00) 9 0000-0002, conta criada há 3 dias, sem foto)
+"INTIMAÇÃO JUDICIAL. Prezado(a), consta uma intimação em seu nome. Acesse o documento para evitar condução coercitiva: encurta.exemplo/Jd8x2"
+
+MENSAGEM 4 (áudio de 42 segundos, do número (00) 9 0000-0001; a cliente diz que "é a voz do doutor"; a transcrição)
+"Dona Laurinda, é o Henrique, tudo bem? Olha, é aquilo que eu te mandei, o dinheiro já está liberado, só falta essa taxa da liberação. Faz o Pix ainda hoje, porque amanhã o juiz entra de férias e aí fica tudo parado."
+
+MENSAGEM 5 (e-mail, de notificacao@tribunal-intimacoes.exemplo, assunto "Notificação Extrajudicial — Processo 0012345-66.2025.8.99.0010")
+"Prezada Sra. Laurinda Paiva Couto, fica V.Sa. notificada a regularizar pendência de custas no prazo de 24 horas, sob pena de arquivamento do processo e perda do valor. Clique no link para emitir o boleto: tribunal-intimacoes.exemplo/boleto"
+
+MENSAGEM 6 (WhatsApp, do número (00) 9 0000-0003, o número do escritório que está no contrato da cliente)
+"Sra. Laurinda, bom dia. Andamento do seu processo: a audiência foi marcada para 12/11/2026, às 14h, no fórum de Comarca-X. Não há nada a pagar. Qualquer dúvida, ligue para o escritório neste número, o mesmo do seu contrato."
+--- IA:
+# Análise das Mensagens — É Golpe?
+
+**Resposta curta: sim, as mensagens 1 a 5 são golpe. A mensagem 6 é a única legítima.**
+
+---
+
+## 🔴 Mensagens 1, 2 e 4 — Golpe do falso advogado + falso alvará
+
+| Sinal de alerta | Por quê é golpe |
+|---|---|
+| Número diferente do escritório | O nº do contrato é o de M6; M1/M2/M4 vêm de outro número |
+| Foto e logotipo do escritório no perfil | Qualquer pessoa copia uma imagem — é fácil |
+| "Taxa de liberação/expedição" via Pix | **Não existe.** Alvarás não exigem pagamento prévio para liberação; custas reais são cobradas por DARE/boleto oficial, nunca Pix para chave pessoal |
+| Favorecido: "Central de Custas Judiciais" | Não é instituição real; domínio `central-custas.exemplo` é fictício |
+| Áudio "com voz do doutor" | Clonagem de voz por IA já é trivial; basta minutos de áudio público (YouTube, redes sociais) |
+| Urgência ("juiz entra de férias amanhã") | Técnica clássica de pressão para impedir que a vítima verifique |
+
+> O golpeiro provavelmente obteve o número do processo nos autos públicos do tribunal, daí o documento falso parecer convincente.
+
+---
+
+## 🔴 Mensagem 3 — Phishing com link malicioso
+
+- Conta criada há **3 dias**, sem foto → descartável, usada para golpe
+- Tribunais **não intimam por WhatsApp**
+- Link encurtado (`encurta.exemplo/Jd8x2`) pode instalar malware ou roubar dados
+- "Condução coercitiva" é ameaça para criar pânico — **não clique, não encaminhe**
+
+---
+
+## 🔴 Mensagem 5 — E-mail de phishing
+
+- Domínio `tribunal-intimacoes.exemplo` é falso; domínios oficiais do Judiciário brasileiro terminam em **`.jus.br`** (ex.: `tjsp.jus.br`, `stj.jus.br`)
+- Prazo de 24 h + ameaça de "perda do valor" = pressão psicológica
+- O link do boleto leva a site fraudulento
+
+---
+
+## ✅ Mensagem 6 — Legítima
+
+- Vem do **número real do contrato**
+- Não pede pagamento algum
+- Informa dado verificável (data/hora/local da audiência)
+- Orienta a cliente a usar o próprio número para confirmar
+
+---
+
+## O que fazer agora — lista de ações
+
+### Imediato (hoje)
+
+1. **Ligue para a Sra. Laurinda agora** — confirme que ela não pagou nada e que não deve pagar. Se já pagou, oriente a registrar o BO imediatamente e acionar o banco para tentar estorno.
+2. **Instrua-a a não clicar nos links** das mensagens 3 e 5 e a não responder aos números falsos.
+3. **Verifique internamente** se houve vazamento de dados do escritório (processo, nome completo, telefone da cliente).
+
+### Providências jurídicas e regulatórias
+
+4. **Boletim de Ocorrência** — estelionato (art. 171 CP) e falsa identidade (art. 307 CP); pode ser feito online na Delegacia Eletrônica do estado.
+5. **Comunicação à OAB** (seccional) — os golpistas usaram seu nome e número de registro (OAB/ZZ 000.001); a OAB pode emitir nota de alerta e investigar uso indevido de credenciais.
+6. **Comunicação ao tribunal** — informe ao juízo do processo 0012345-66.2025.8.99.0010 que circula documento falso com o número dos autos; peça que conste nos autos e, se possível, que o juízo emita nota de esclarecimento.
+7. **Denúncia ao WhatsApp** — dentro do app, toque no número → "Denunciar" → "Golpe/Fraude".
+8. **Denúncia ao Google/registrador de domínio** dos domínios falsos e ao CERT.br (cert.br/contato) para os links de phishing.
+
+### Prevenção para outros clientes
+
+9. **Alerte todos os clientes do escritório** por canal oficial (e-mail ou WhatsApp do número real) informando que comunicações sobre pagamentos **jamais** virão por WhatsApp e que nunca haverá solicitação de Pix para taxa de liberação de alvará.
+10. **Revise com sua equipe** como os dados dos processos são armazenados e quem tem acesso, para identificar eventual ponto de vazamento.
+
+---
+
+> **Resumo de uma linha para a cliente:** *"Sra. Laurinda, é golpe. Não pague nada, não clique em nenhum link. Fale comigo pelo número que está no seu contrato."*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
