@@ -186,6 +186,17 @@ Nos anos 1990, saber usar o computador virou linha obrigatória no currículo. O
 - Para quem é: Para quem constrói com um agente de IA sem ser programador e travou entre o protótipo e o sistema que outra pessoa usa: a profissional que resolve um problema do próprio trabalho, o dono de pequeno negócio que quer um sistema para controlar o que hoje está na planilha, e quem começa com um agente aberto.
 - Capítulos: Do rascunho ao sistema: o que muda quando outra pessoa usa; Descrever o que se quer: a especificação que o agente lê; A cara do sistema: cores, letras e botões definidos uma vez; O protótipo e o que ele esconde; Segredo e chave: o que nunca vai para o navegador, e o que a chave pública abre; Quem entra: login, sessão e e-mail confirmado; Quem vê o quê: cada um só os seus pedidos; Onde fica o que se faz: dados, arquivos e a cópia que volta; Publicar: o endereço, o domínio e o ensaio separado da produção; Quem paga: a assinatura e o acesso que chega com o pagamento; O sistema que avisa: o e-mail que sai do seu domínio e chega; O que roda sozinho: funções e tarefas agendadas; Quando quebra: monitor, voltar a versão e avisar; O primeiro usuário que não é você; O que ainda não se sabe, e quando chamar um programador.
 
+### Feito para agentes: Como fazer o agente de IA do seu cliente usar o seu produto: servidor MCP, llms.txt e autorização
+
+- Página: https://ciromaciel.click/books/feito-para-agentes
+- Volume 11 de *O Novo Básico*, nível 3 (Construir). E-book, em português.
+- Na Amazon: https://www.amazon.com.br/dp/B0HQ3XKG1H
+- Kit online, aberto: https://ciromaciel.click/books/feito-para-agentes/kit
+- A pergunta da capa: O agente do seu cliente consegue usar o seu produto?
+- Resumo: O cliente do próximo ano chega pelo agente dele: pede ao Claude ou ao Cursor que faça o trabalho no seu produto. O livro leva o seu produto, um passo por capítulo, de invisível a operável: o que o agente lê, as ferramentas que ele usa, os erros que ele entende, a autorização que ele consegue pedir, o que ele nunca pode fazer sozinho e o teste que prova, com o agente de verdade, que funciona.
+- Para quem é: Para quem já constrói produto, o desenvolvedor que entrega mais com agente e o dono de um sistema pequeno, e quer que o produto seja escolhido e operado pelo agente do cliente.
+- Capítulos: O cliente que chega pelo agente; O que o agente vê do seu produto; O llms.txt: escrever para quem lê sem olhos; Documentação como produto; O servidor MCP: ferramenta, recurso, descrição; Erros, limites e cotas que o agente entende; O produto que avisa o agente; A autorização que o agente consegue pedir; O login de uma interação; O que o agente nunca deve poder fazer; Testar com o agente de verdade; Preço e plano quando quem usa é o agente; O que ainda não se sabe, e quando chamar um programador.
+
 ## O kit online do IA no escritório
 
 https://ciromaciel.click/books/ia-no-escritorio/kit
