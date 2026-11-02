@@ -714,7 +714,7 @@ const PATH = [
 // o-que-ainda-nao-se-sabe.md, "Daqui em diante".
 const NEXT = [
     { title: 'Construir com IA, o volume 10', text: 'O caminho que vem antes deste: o sistema no ar, com login, dados e cobrança, para quem cria sem ser programador.', links: [L('O livro', '/books/construir-com-ia')] },
-    { title: 'A empresa de uma pessoa, o volume 12', text: 'Em estrutura: operar um negócio inteiro com agentes.', links: [] },
+    { title: 'A empresa de uma pessoa, o volume 12', text: 'Operar um negócio inteiro com agentes: a equipe, a memória, a escada de confiança e o que nenhum agente faz sozinho. Em revisão na Amazon.', links: [] },
     { title: 'Forward Deployed Engineer, o volume 14', text: 'Em estrutura: fazer disso a profissão.', links: [] },
     { title: 'O canal do autor', text: 'Os vídeos em que o autor mostra a construção.', links: [L('YouTube', 'https://www.youtube.com/@ciro-maciel')] },
 ]
@@ -762,6 +762,7 @@ export const SOURCES = [
 ]
 
 export const UPDATES = [
+    { date: '02/11/2026', text: 'O livro vai para a versão 1.1.0, enviada à Amazon: cada "O caminho deste livro" diz de forma direta que o autor tem os serviços, com o endereço. Os prompts e a trilha do kit não mudaram.' },
     { date: '02/11/2026', text: 'O livro está à venda, na versão 1.0.0; os prompts e a trilha do kit foram conferidos contra ele, palavra por palavra, e são os mesmos.' },
     { date: '01/11/2026', text: 'O kit online acompanha o livro, na versão 0.1.0: os prompts dos treze capítulos, palavra por palavra, a trilha dos treze passos, as dez conferências e os testes do livro, com as 120 conversas inteiras.' },
 ]
@@ -822,9 +823,9 @@ export default {
             type: 'criteria',
             id: 'path',
             subtitle: 'O caminho deste livro, peça por peça',
-            title: 'Cada peça nos serviços do autor',
+            title: 'Os serviços do autor já fazem cada peça',
             description:
-                'O passo de cada capítulo de 3 a 12 nos serviços do autor, o Infrastructure, em uma linha, com o que eles não cobrem. É do autor, e o livro diz isso: o que conferir em qualquer outro fornecedor está em cada capítulo.',
+                'O autor tem os serviços que fazem cada peça deste livro, e você pode usá-los no seu produto: o Infrastructure, em myinfrastructure.click. Abaixo, o passo de cada capítulo de 3 a 12 neles, em uma linha, com o que eles não cobrem; o que conferir em qualquer outro fornecedor está em cada capítulo.',
             items: criteria(PATH),
         },        {
             type: 'criteria',
