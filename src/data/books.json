@@ -407,5 +407,45 @@
             "detail": "Prompts, conferências com o agente e a comparação de fornecedores com a data",
             "path": "/books/feito-para-agentes/kit"
         }
+    },
+    {
+        "slug": "one-person-business",
+        "title": "A empresa de uma pessoa",
+        "subtitle": "One Person Business: como montar e operar um negócio inteiro com agentes de IA",
+        "author": "Ciro Cesar Maciel",
+        "volume": 12,
+        "level": 3,
+        "levelName": "Construir",
+        "hook": "Dá para tocar um negócio de verdade sozinho — e por que agora?",
+        "summary": "Um guia para montar e operar um negócio de uma pessoa só com agentes de IA: o que decidir antes, como montar a equipe que não existe e como operar sem quebrar. A venda é o volume 13. Cada capítulo prova o caminho com os registros reais de uma operação em andamento. Não promete faturamento.",
+        "thisVolume": "Este é o volume 12, do nível 3. Ele trata de montar e operar um negócio de uma pessoa só com agentes de IA, e cada capítulo se prova com os registros de uma operação real, com os limites que eles têm.",
+        "bullets": [
+            "Decidir antes de pôr o primeiro agente para trabalhar",
+            "Montar a equipe que não existe e operar sem quebrar",
+            "Cada caminho com os registros de uma operação real"
+        ],
+        "audience": "Para quem constrói com IA, saiba programar ou não, e quer que aquilo vire negócio sem contratar uma equipe. Para quem quer montar um negócio que agentes operam, com uma pessoa só no comando.",
+        "chapters": [
+            "Uma pessoa, mais de quinze produtos",
+            "O que eu não faço",
+            "Para quem, de verdade",
+            "O diferencial que o concorrente não assina",
+            "O que precisa existir embaixo",
+            "A equipe que não existe",
+            "A memória da equipe",
+            "A escada de confiança",
+            "O que nenhum agente faz sozinho",
+            "Relatório de agente não é verdade",
+            "Regra que não vira teste não existe",
+            "Vazio não é zero",
+            "Quando os sistemas discordam",
+            "O Brasil real"
+        ],
+        "cover": "/books/one-person-business.jpg",
+        "kit": {
+            "label": "Kit online",
+            "detail": "Prompts, modelos e a trilha dos catorze passos",
+            "path": "/books/one-person-business/kit"
+        }
     }
 ]

@@ -179,6 +179,30 @@ export const BOOK_EXTRAS = {
             },
         },
     },
+    'one-person-business': {
+        menuLine: 'Um negócio inteiro com agentes de IA no lugar da equipe',
+        forWhom: 'Cargos, memória, escada de confiança, Pix e nota',
+        // ASIN B0HQ58SJ6W, "À venda" on the KDP bookshelf on 02/11/2026.
+        amazon: 'https://www.amazon.com.br/dp/B0HQ58SJ6W',
+        // A build kit like volumes 10 and 11, plus the models and worked examples, so the book page says what this one holds.
+        kitParts: [
+            'O seu negócio preenchido uma vez, e os prompts do livro saem prontos para ele',
+            'A trilha dos catorze passos, com o que conferir em cada um',
+            'Os modelos e os exemplos de outro ramo, prontos para adaptar',
+            'O que você digita fica no seu navegador',
+        ],
+        // The book page from the book's KDP keywords (learning/one-person-business/KDP.md); the kit opens with the book.
+        seo: {
+            book: {
+                title: 'A empresa de uma pessoa: um negócio inteiro com agentes de IA',
+                description: 'Livro e kit para quem quer tocar um negócio sozinho com agentes de IA: o cargo de cada agente, a memória, a escada de confiança, o que nenhum agente faz sozinho, Pix, MEI e nota fiscal.',
+            },
+            kit: {
+                title: 'Kit online de A empresa de uma pessoa: os prompts e a trilha',
+                description: 'Os prompts do livro A empresa de uma pessoa, preenchidos uma vez com o seu negócio, a trilha dos 14 passos até a equipe de agentes rodando, e os modelos com exemplos de outro ramo.',
+            },
+        },
+    },
 }
 
 export const amazonSearch = book => `https://www.amazon.com.br/s?k=${encodeURIComponent(`${book.title} ${book.author}`)}&i=digital-text`
