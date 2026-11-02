@@ -579,7 +579,7 @@ const TENS = [
 export const KIT = {
     slug: 'feito-para-agentes',
     checkedOn:
-        'Os prompts são os do livro na versão 0.1.0, de 1º de novembro de 2026, palavra por palavra. Os testes rodaram na mesma data; o que os fornecedores documentam foi lido em 25 de outubro de 2026. Quando uma página mudar, muda aqui, com a data da conferência.',
+        'Os prompts são os do livro na versão 1.0.0, à venda desde 2 de novembro de 2026, palavra por palavra. Os testes rodaram em 1º de novembro de 2026; o que os fornecedores documentam foi lido em 25 de outubro de 2026. Quando uma página mudar, muda aqui, com a data da conferência.',
     lead: 'O seu produto preenchido uma vez, e os prompts dos treze capítulos saem prontos para ele; a trilha dos treze passos, com o "pronto quando" de cada um para marcar; os testes do livro, com as 120 conversas inteiras; e o que muda, com a data.',
     promises: ['Os prompts do livro, com o seu produto', 'Os testes, com as conversas inteiras', 'O que você digita fica no seu navegador'],
 }
@@ -762,6 +762,7 @@ export const SOURCES = [
 ]
 
 export const UPDATES = [
+    { date: '02/11/2026', text: 'O livro está à venda, na versão 1.0.0; os prompts e a trilha do kit foram conferidos contra ele, palavra por palavra, e são os mesmos.' },
     { date: '01/11/2026', text: 'O kit online acompanha o livro, na versão 0.1.0: os prompts dos treze capítulos, palavra por palavra, a trilha dos treze passos, as dez conferências e os testes do livro, com as 120 conversas inteiras.' },
 ]
 
