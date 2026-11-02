@@ -106,11 +106,43 @@ jobs:
                   key: tools-${{ github.run_id }}
                   restore-keys: tools-
 
+            # O CHROMIUM DO PRERENDER (02/11/2026). prerender-tools.js só abre o navegador
+            # quando alguma ferramenta mudou, e nos runners do GitHub ele vinha baixado do
+            # zero a cada vez (~280 MB, ~20 s). Agora vem deste cache. A chave é a versão
+            # exata do Playwright: uma versão nova baixa o navegador dela uma vez só.
+            - name: Versão do Playwright
+              id: playwright
+              run: echo "version=$(bun -e 'console.log(require("playwright-core/package.json").version)')" >> "$GITHUB_OUTPUT"
+
+            - name: Cache do Chromium
+              id: chromium-cache
+              uses: actions/cache/restore@v4
+              with:
+                  path: ~/.cache/ms-playwright
+                  key: chromium-${{ runner.os }}-${{ steps.playwright.outputs.version }}
+
             - name: Build
               run: bun run build
               env:
                   TOOLS_REPO_DIR: ${{ github.workspace }}/.tools
                   ASSETS_DIR: ${{ github.workspace }}/.assets
+
+            # Só guarda quando o navegador está mesmo na pasta: um deploy sem ferramenta
+            # mudando não o baixa, e guardar a pasta vazia prenderia o cache vazio.
+            - name: O Chromium foi baixado?
+              id: chromium-installed
+              if: steps.chromium-cache.outputs.cache-hit != 'true'
+              run: |
+                  if ls -d ~/.cache/ms-playwright/chromium_headless_shell-* >/dev/null 2>&1; then
+                    echo "present=true" >> "$GITHUB_OUTPUT"
+                  fi
+
+            - name: Guardar o cache do Chromium
+              if: steps.chromium-installed.outputs.present == 'true'
+              uses: actions/cache/save@v4
+              with:
+                  path: ~/.cache/ms-playwright
+                  key: chromium-${{ runner.os }}-${{ steps.playwright.outputs.version }}
 
             - name: Guardar o cache das ferramentas
               uses: actions/cache/save@v4
