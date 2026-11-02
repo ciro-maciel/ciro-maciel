@@ -41,6 +41,7 @@ import { useSeoMeta } from '../hooks/use-seo-meta'
 import { NotFound } from './NotFound'
 import { bookBySlug } from '../data/catalog'
 import FDE from '../data/kit-forward-deployed-engineer.json'
+import FDM from '../data/kit-forward-deployed-marketer.json'
 
 /**
  * /books/<slug>/kit for a profession book (level 4 of the series).
@@ -62,7 +63,24 @@ import FDE from '../data/kit-forward-deployed-engineer.json'
  * development, for review.
  */
 
-export const PROFESSION_KITS = { 'forward-deployed-engineer': FDE }
+export const PROFESSION_KITS = { 'forward-deployed-engineer': FDE, 'forward-deployed-marketer': FDM }
+
+// What a kit says that is its book's own comes in its `page` (learning/<book>/kit/recursos.yaml,
+// through tools/kit-profissao.ts); without one, the page says volume 14's, the first profession kit.
+const FDE_PAGE = {
+    intro: 'O guia de bolso de quem leva a IA para dentro de um cliente. Os documentos do livro, do escopo de uma página ao relatório de volta, para preencher aqui e levar ao cliente; a triagem dos passos antes de qualquer agente; uma primeira semana para começar; e os recursos que o livro indica, conferidos.',
+    promises: ['A triagem dos passos', 'Fica só no seu navegador'],
+    documentsTitle: 'Preencha aqui, leve para o cliente',
+    seoDescription: null,
+    triage: true,
+    week: [
+        { id: 'o-que-e-um-forward-deployed-engineer', day: 'Segunda', text: 'Leia três vagas com o teste das quatro perguntas e separe as que são FDE das que só usam o título.' },
+        { id: 'descobrir-os-substantivos-e-os-verbos', day: 'Terça', text: 'Converse trinta minutos com alguém de outra área da sua empresa, com o roteiro de descoberta. Peça para ver, não para contar.' },
+        { id: 'agentes-que-o-cliente-aguenta', name: 'A triagem dos passos', day: 'Quarta', text: 'Faça a triagem dos passos do processo que essa pessoa mostrou: apagar, código, agente, pessoa.' },
+        { id: 'agentes-que-o-cliente-aguenta', day: 'Quinta', text: 'Preencha a ficha de agente para um passo da coluna "agente". Se a linha 1 ficar vazia, era um fluxo fixo.' },
+        { id: 'entrar-o-escopo-e-a-fatia-fina', day: 'Sexta', text: 'Escreva o escopo de uma página para a fatia fina, com o critério de sucesso, e mostre a alguém que decide.' },
+    ],
+}
 
 // ─── Storage ─────────────────────────────────────────────────────────────
 
@@ -523,7 +541,7 @@ export function DocumentPanel({ chapter, store }) {
     )
 }
 
-function Documents({ kit, store }) {
+function Documents({ kit, store, title }) {
     const chapters = kit.parts.flatMap(part => part.chapters.map(chapter => ({ ...chapter, part: part.title })))
     const [current, setCurrent] = usePersisted(store, 'doc', chapters[0].id)
     const active = chapters.find(chapter => chapter.id === current) ?? chapters[0]
@@ -533,7 +551,7 @@ function Documents({ kit, store }) {
             ta="center"
             id="documentos"
             subtitle="Os documentos"
-            title="Preencha aqui, leve para o cliente"
+            title={title}
             background="gray"
             maw={1080}
         >
@@ -756,10 +774,11 @@ export function ProfessionKit() {
     const book = bookBySlug(slug)
     const store = useStore(slug)
     const title = kit ? kit.book.title : 'Kit'
+    const page = { ...FDE_PAGE, ...kit?.page }
 
     useSeoMeta({
         title: `Kit online do ${title}: os documentos do livro para preencher`,
-        description: `Os documentos do livro ${title}, do escopo de uma página ao relatório de volta, para preencher no navegador, copiar e levar ao cliente; a triagem dos passos e os recursos conferidos.`,
+        description: page.seoDescription ?? `Os documentos do livro ${title}, do escopo de uma página ao relatório de volta, para preencher no navegador, copiar e levar ao cliente; a triagem dos passos e os recursos conferidos.`,
         url: `/books/${slug}/kit`,
     })
 
@@ -769,13 +788,7 @@ export function ProfessionKit() {
     const bookPath = `/books/${slug}`
     const engagement = kit.parts.find(part => /engajamento/i.test(part.title))
     const byId = Object.fromEntries(kit.parts.flatMap(part => part.chapters).map(chapter => [chapter.id, chapter]))
-    const week = [
-        { id: 'o-que-e-um-forward-deployed-engineer', day: 'Segunda', text: 'Leia três vagas com o teste das quatro perguntas e separe as que são FDE das que só usam o título.' },
-        { id: 'descobrir-os-substantivos-e-os-verbos', day: 'Terça', text: 'Converse trinta minutos com alguém de outra área da sua empresa, com o roteiro de descoberta. Peça para ver, não para contar.' },
-        { id: 'agentes-que-o-cliente-aguenta', name: 'A triagem dos passos', day: 'Quarta', text: 'Faça a triagem dos passos do processo que essa pessoa mostrou: apagar, código, agente, pessoa.' },
-        { id: 'agentes-que-o-cliente-aguenta', day: 'Quinta', text: 'Preencha a ficha de agente para um passo da coluna "agente". Se a linha 1 ficar vazia, era um fluxo fixo.' },
-        { id: 'entrar-o-escopo-e-a-fatia-fina', day: 'Sexta', text: 'Escreva o escopo de uma página para a fatia fina, com o critério de sucesso, e mostre a alguém que decide.' },
-    ]
+    const week = page.week
 
     return (
         <>
@@ -831,13 +844,13 @@ export function ProfessionKit() {
                                     c="dimmed"
                                     lh={1.6}
                                 >
-                                    O guia de bolso de quem leva a IA para dentro de um cliente. Os documentos do livro, do escopo de uma página ao relatório de volta, para preencher aqui e levar ao cliente; a triagem dos passos antes de qualquer agente; uma primeira semana para começar; e os recursos que o livro indica, conferidos.
+                                    {page.intro}
                                 </Text>
                                 <Group
                                     gap="lg"
                                     rowGap="xs"
                                 >
-                                    {[`${kit.parts.flatMap(part => part.chapters).length} documentos para preencher`, 'A triagem dos passos', 'Fica só no seu navegador'].map(promise => (
+                                    {[`${kit.parts.flatMap(part => part.chapters).length} documentos para preencher`, ...page.promises].map(promise => (
                                         <Group
                                             key={promise}
                                             gap={6}
@@ -890,7 +903,7 @@ export function ProfessionKit() {
                     items={engagement.chapters.map((chapter, index) => ({
                         number: String(chapter.number).padStart(2, '0'),
                         icon: ENGAGEMENT_ICONS[index] ?? IconFileText,
-                        title: `${chapter.title.split(' — ')[0]}: ${chapter.document.name.toLowerCase()}`,
+                        title: `${chapter.title.split(/ — |: /)[0]}: ${chapter.document.name.toLowerCase()}`,
                         description: chapter.purpose ? `${chapter.purpose}.` : '',
                     }))}
                     background="white"
@@ -900,9 +913,10 @@ export function ProfessionKit() {
             <Documents
                 kit={kit}
                 store={store}
+                title={page.documentsTitle}
             />
 
-            <Triage store={store} />
+            {page.triage && <Triage store={store} />}
 
             <Steps
                 id="primeira-semana"

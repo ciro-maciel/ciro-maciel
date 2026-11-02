@@ -1,0 +1,374 @@
+{
+  "slug": "forward-deployed-marketer",
+  "book": {
+    "title": "Forward Deployed Marketer",
+    "subtitle": "Como se tornar quem leva a IA do piloto à operação de marketing",
+    "volume": 15,
+    "level": 4,
+    "levelName": "Profissão",
+    "version": "1.0.0"
+  },
+  "parts": [
+    {
+      "title": "O papel",
+      "chapters": [
+        {
+          "id": "o-que-e-um-forward-deployed-marketer",
+          "number": 1,
+          "title": "O que é um Forward Deployed Marketer",
+          "question": "O que um FDM faz que um analista de marketing, uma agência e um consultor não fazem?",
+          "purpose": "Ler qualquer vaga com o título e separar FDM de outro papel",
+          "document": {
+            "name": "O teste das quatro perguntas",
+            "text": "TESTE DAS QUATRO PERGUNTAS — <empresa> · <título> · <data>\n\n1. CONSTRÓI?\n   A pessoa constrói agentes, automações ou ferramentas,\n   ou só recomenda e treina?\n   Frase da vaga:\n   Resposta:                 constrói | recomenda | não diz\n\n2. DENTRO DO TIME DE QUEM?\n   Trabalha dentro do time de marketing que vai usar\n   o sistema (o da empresa ou o do cliente)?\n   Frase da vaga:\n   Resposta:                 dentro | ao lado | longe\n\n3. TRANSFERE?\n   A vaga diz que o time deve operar sem ela?\n   Frase da vaga:\n   Resposta:                 sim | não diz\n\n4. MEDIDA PELO QUÊ?\n   O sucesso é o que o time passa a fazer,\n   ou o que a pessoa entrega?\n   Frase da vaga:\n   Resposta:                 adoção | entrega | não diz\n\nCLASSIFICAÇÃO\n   Quatro respostas à esquerda   → FDM que instala\n   Dentro + história de cliente  → FDM que prova\n   O resto                       → outro papel com o nome",
+            "exercise": "Faça o teste com três vagas reais, de hoje. Depois, faça com o seu próprio trabalho, como se ele fosse uma vaga. Quantas das quatro respostas ficam à esquerda? As que não ficam são o mapa do que o resto deste livro tem para você."
+          }
+        },
+        {
+          "id": "por-que-agora",
+          "number": 2,
+          "title": "Por que agora",
+          "question": "Por que esse papel aparece justo agora, e não daqui a cinco anos?",
+          "purpose": "Medir a distância entre o marketer que usa IA e o time que opera com ela",
+          "document": {
+            "name": "O mapa da última milha",
+            "text": "MAPA DA ÚLTIMA MILHA — <time> · <data>\n\nFERRAMENTAS PAGAS\n  <ferramenta> · <quantas licenças> · <quantas pessoas usam\n  toda semana>\n\nUSO POR PESSOA\n  <pessoa> · usa para <o quê> · o uso ajuda mais alguém?\n  sim | não\n\nFLUXOS RECORRENTES\n  <fluxo> · <frequência> · <quantas pessoas tocam>\n  mudou para sempre | mais rápido para um | não\n\nO NÚMERO DA STRIPE\n  Das tarefas da semana, quantas começaram com uma\n  ferramenta de IA?          <n> de <total>\n\nDONO DA ADOÇÃO\n  <nome> | ninguém\n\nA MILHA\n  Fluxos que mudaram para sempre:  <n> de <total>",
+            "exercise": "Preencha o mapa com o time que você conhece melhor, mesmo que seja um time de uma pessoa. Conte os fluxos que mudaram para sempre. Se o número for zero, e quase sempre é, a distância entre ele e o total é o tamanho do trabalho de um FDM nesse time. Escolha o fluxo que já funciona para uma pessoa e serve a mais gente: ele é o seu primeiro candidato."
+          }
+        },
+        {
+          "id": "entre-o-fde-o-gtm-engineer-e-a-agencia",
+          "number": 3,
+          "title": "Entre o FDE, o GTM engineer e a agência",
+          "question": "Em que o FDM é diferente do FDE, do GTM engineer, do marketing ops e da agência?",
+          "purpose": "Ler uma proposta pelo que fica com o cliente depois",
+          "document": {
+            "name": "A tabela do que fica depois",
+            "text": "O QUE FICA DEPOIS — <proposta> · <cliente> · <data>\n\nENTREGA                  <o que é>\nMORA ONDE                conta do cliente | conta de quem entrega\nDONO INTERNO             <nome, cargo> | ninguém ainda\nO TIME CONSEGUE\n  operar?                sim | não | com ajuda\n  avaliar?               sim | não | com ajuda\n  manter?                sim | não | com ajuda\n  melhorar?              sim | não | com ajuda\n  não refazer do zero?   sim | não\nREGISTRO                 onde ficam as regras, as decisões\n                         e o porquê\n\nCLASSIFICAÇÃO\n  Tudo \"sim\", na conta do cliente, com dono  → trabalho de FDM\n  \"Não\" em operar, ou na conta de quem entrega\n                                             → trabalho de agência\n  Só o documento                             → consultoria",
+            "exercise": "Passe a última proposta que você mandou, ou recebeu, pela tabela. Conte as entregas que ficam com o cliente, com dono e com registro. Se forem menos da metade, a proposta é de agência com nome de FDM. Reescreva uma entrega, uma só, pela última coluna, mudando o verbo e o lugar onde ela mora."
+          }
+        }
+      ]
+    },
+    {
+      "title": "O engajamento",
+      "chapters": [
+        {
+          "id": "entrar-a-restricao-real",
+          "number": 4,
+          "title": "Entrar: a restrição real, não o briefing",
+          "question": "Por onde começo quando chego a um time de marketing que quer \"usar IA\"?",
+          "purpose": "Trocar o briefing pela restrição real, o fluxo e o número da marca",
+          "document": {
+            "name": "O escopo de uma página de marketing",
+            "text": "ESCOPO — <cliente> · <time> · <data>\n\nA RESTRIÇÃO\n  Onde o trabalho trava, nas palavras de quem trava:\n  Em quantas conversas apareceu:      <n> de 3\n  Quantas pessoas tocam esse ponto:\n  O que acontece quando trava:\n\nO FLUXO QUE A ATRAVESSA\n  Do primeiro passo ao último, em uma linha:\n\nO NÚMERO DA MARCA\n  Qual é:\n  De onde sai, com a definição:\n  Hoje:              <valor> | sem fonte\n  Responde em:       <semanas>\n  Empurra qual número maior:\n\nDADO OU DEFINIÇÃO?\n  Problema de dado (vai para):\n  Problema de definição (resolvo eu):\n\nOS CINCO FILTROS\n  Importa · Repete · Tem dado · Tem dona · Cabe no teste\n  <sim | não, e o que falta>\n\nQUEM DECIDE\n  Dona do número:    <nome, cargo>\n  Quem aprova o que sai em nome da marca:\n\nFORA DESTE ESCOPO\n  <o resto do briefing, com o motivo>\n\nPRONTO QUANDO\n  <o time roda o fluxo toda semana, e o número saiu\n   de onde estava>",
+            "exercise": "Escreva o escopo de um time que você conhece, com três conversas de verdade, pelo roteiro. Depois, escreva o briefing que esse time daria se alguém perguntasse \"o que vocês querem de IA?\". Compare os dois. O que estava no briefing e saiu do escopo é o trabalho que você acabou de economizar; o que está no escopo e não estava no briefing é o que só a conversa achou."
+          }
+        },
+        {
+          "id": "descobrir-o-trabalho-de-cada-marketer",
+          "number": 5,
+          "title": "Descobrir: o trabalho de cada marketer, tarefa a tarefa",
+          "question": "Como entendo o que o time faz de verdade, e não o que o organograma diz?",
+          "purpose": "Mapear as tarefas que voltam e marcar cada passo",
+          "document": {
+            "name": "O mapa das tarefas recorrentes",
+            "text": "MAPA DAS TAREFAS — <pessoa> · <cargo> · <data>\n\nTAREFA          <nome, como a pessoa chama>\nDISPARA QUANDO  <dia, hora ou evento>\nFREQUÊNCIA      <diária | semanal | mensal>\nTEMPO           <horas de trabalho por vez>\nESPERA          <tempo parado entre os passos, por vez>\nQUEM MAIS FAZ   <outras pessoas com a mesma tarefa>\n\nPASSOS (entra → sai · a conferência · a marca)\n  1 <puxar>     <painéis> → <planilha>\n                confere <total bate> · regra fixa\n  2 <limpar>    <planilha> → <planilha>\n                confere <moeda certa> · regra fixa\n  3 <comparar>  <duas semanas> → <diferenças>\n                confere <mesma janela> · agente\n  4 <explicar>  <diferenças> → <texto>\n                confere <número no dado> · agente + revisão\n  5 <decidir>   <texto> → <orçamento>\n                pessoa\n  6 <enviar>    <texto> → <e-mail>\n                confere <lista certa> · regra fixa\n\nONDE ESTÁ NA CABEÇA DE ALGUÉM\n  <o passo que só a pessoa sabe fazer, e por quê>\n\nONDE A REVISÃO ENTRA HOJE\n  <passo> · e onde deveria entrar: <passo>\n\nCOMO SABER QUE DESVIOU\n  <o sinal de que a saída do agente piorou>",
+            "exercise": "Faça o mapa de uma tarefa sua, a que mais volta na sua semana, com o arquivo da última vez aberto na sua frente. Conte os passos marcados como regra fixa ou agente, e some a espera. Esse é o tamanho da primeira fatia que você poderia construir para si mesmo, antes de construir para alguém."
+          }
+        },
+        {
+          "id": "construir-a-fatia-fina",
+          "number": 6,
+          "title": "Construir a fatia fina: o primeiro agente que tira trabalho de verdade",
+          "question": "Qual é o primeiro agente que vale construir?",
+          "purpose": "Escrever antes o critério de usado de verdade, e conferir depois de uma semana",
+          "document": {
+            "name": "A ficha da fatia fina",
+            "text": "FATIA FINA — <cliente> · <pessoa> · <data>\n\nO FLUXO               <a tarefa do mapa>\nQUEM USA              <uma pessoa, com nome>\nO DADO                <onde está, real, com a bagunça>\nO QUE O AGENTE FAZ    <os passos de regra fixa e de agente>\nONDE A PESSOA APROVA  <o passo marcado como pessoa>\nO QUE NUNCA FAZ       <publicar, gastar, mandar em nome\n                       da marca sem aprovação>\nCOMO SEI QUE DESVIOU  <o sinal de que a saída piorou>\n\nANTES\n  Tempo por vez:                     <horas>\n  Vezes por semana:                  <n>\n  O número do escopo:                <valor> | sem fonte\n\nUSADO DE VERDADE QUANDO\n  <n> vezes na semana de <data>, sem eu pedir, no dado real\n\nUMA SEMANA DEPOIS\n  Vezes que rodou sem eu pedir:      <n>\n  Vezes que a pessoa corrigiu:       <n>, e o que corrigiu:\n  Tempo por vez:                     <antes> → <agora>\n  O número do escopo:                <antes> → <agora> | cedo\n  Próximo degrau (uso regular?):     sim | não, porque",
+            "exercise": "Escreva a ficha de uma fatia fina para você mesmo, com a tarefa do exercício do capítulo anterior. Anote o antes, e o critério de \"usado de verdade\", antes de abrir qualquer ferramenta. Construa em uma semana, com qualquer ferramenta. Na semana seguinte, conte as vezes que rodou sem você lembrar. Se foi zero, o problema não é o agente: é o gatilho, e o capítulo sobre transferir volta a ele."
+          }
+        },
+        {
+          "id": "medir-sem-atribuicao-inventada",
+          "number": 7,
+          "title": "Medir: o conteúdo, a voz e o número, sem atribuição inventada",
+          "question": "Como sei que o que construí funciona, se marketing é tão difícil de medir?",
+          "purpose": "Separar a qualidade do conteúdo do efeito no número, sem eco",
+          "document": {
+            "name": "O plano de medida",
+            "text": "PLANO DE MEDIDA — <fatia fina> · escrito em <data>\n\nQUALIDADE (o conjunto de avaliação)\n  Casos:          20, escolhidos de <onde>, incluindo\n                  <n> difíceis\n  Julgados por:   <nome, cargo> e <nome, cargo>\n  Critérios:      precisão · voz · público · utilidade\n  Respostas:      sem editar · editando · não aprovaria\n  Passa quando:   <n> de 20 aprovados sem edição\n  Roda de novo:   a cada mudança de instrução, modelo\n                  ou dado\n\nEFEITO (o número da marca)\n  Número:         <o do escopo, um só>\n  Controle:       <quem fica de fora, quantos, quanto\n                  tempo> | sem controle: <motivo>\n  Comparação:     <contra o controle> | <contra o mesmo\n                  período do ano anterior>\n  Mínimo:         <n> pessoas antes de concluir\n  Decidido por:   <dona do número>\n\nDESVIO\n  O sinal:        <o que muda quando escorrega>\n  Quem olha:      <nome>, <com que frequência>\n\nNUNCA SE ATRIBUI\n  - abertura de e-mail como leitura\n  - venda do último clique como efeito do agente\n  - etapa sem fonte como zero\n  - tempo economizado como produtividade\n  - <o eco específico deste cliente>",
+            "exercise": "Pegue o último número de marketing que você mostrou a alguém. Escreva, ao lado, o que ele conta de verdade, se tinha controle, e o que nele pode ser eco. Depois, procure no número cada linha da lista do \"nunca se atribui\". Se alguma estava lá, refaça o número e mostre de novo, com uma frase dizendo o que mudou."
+          }
+        },
+        {
+          "id": "instalar-dados-aprovacao-e-lei",
+          "number": 8,
+          "title": "Instalar: dados, aprovação, marca e lei",
+          "question": "O que precisa estar de pé para o sistema entrar na rotina sem risco?",
+          "purpose": "Ligar o sistema a donos, aprovação, dado, marca e lei antes do time inteiro usar",
+          "document": {
+            "name": "O checklist de instalação de marketing",
+            "text": "INSTALAÇÃO — <fluxo> · <cliente> · <data>\n\nDONOS\n  Dono do fluxo:               <nome, cargo>\n  Quem aprova o que sai:       <nome, cargo>\n  Quem atende quando falha:    <nome, cargo>\n\nGATILHOS\n  O que faz o agente começar:  <horário | evento | pedido>\n\nONDE O AGENTE AGE, ONDE A PESSOA DECIDE\n  Age sozinho:                 <verbos>\n  Rascunha e espera:           <verbos>\n  Nunca faz:                   preço, desconto, promessa,\n                               publicar, mudar verba, apagar,\n                               primeira mensagem a alguém\n\nDADO (LGPD)\n  Que dado lê:                 <fonte, campos>\n  Para quê (art. 6º, I):       <finalidade>\n  Base legal (art. 7º):        <consentimento | contrato |\n                               legítimo interesse | outra>\n  Onde está a prova (art. 8º): <sistema>\n  Como se revoga (art. 8º):    <caminho, em um passo>\n  Dado sensível (art. 11):     não entra | decisão do jurídico\n  Decisão automatizada\n  sobre a pessoa (art. 20):    não há | <critério e dono>\n  Quem atende o titular\n  (art. 18):                   <nome>\n\nMARCA\n  A voz, escrita em:           <documento>\n  O que a marca nunca diz:     <lista>\n  Promessas permitidas:        <lista, cada uma com a fonte>\n\nPUBLICIDADE (CDC)\n  Preço e condição vêm de:     <fonte viva> (arts. 30 e 31)\n  Toda promessa tem fonte\n  guardada (art. 36):          sim | não\n  A peça é identificável\n  como publicidade (art. 36):  sim | não\n  Quem prova a veracidade\n  (art. 38):                   <nome>\n\nQUANDO FALHA\n  O que acontece:              <volta para a pessoa | para>\n  Quem fica sabendo:           <nome>, <como>\n\nTESTE DE CONTORNO\n  Pedidos tentados:            <3>\n  O sistema segurou:           sim | não\n\nASSINADO POR\n  Dona do número:              <nome, data>\n  Jurídico:                    <nome, data>\n  Revisar em:                  <data ou evento>",
+            "exercise": "Pegue a fatia fina do capítulo 6, ou qualquer agente que já fale em nome de uma marca. Faça o teste de contorno: os três pedidos de desconto acima, ou três do seu ramo. Depois, preencha o bloco \"Onde o agente age, onde a pessoa decide\" e o bloco \"Dado\" do checklist. Marque as linhas que hoje moram só na instrução do agente: cada uma é um risco que o sistema ainda não segura."
+          }
+        },
+        {
+          "id": "transferir-o-time-que-opera-sem-voce",
+          "number": 9,
+          "title": "Transferir: o time que opera sem você",
+          "question": "Como saio sem o sistema morrer comigo?",
+          "purpose": "Deixar dono, playbook, sessão gravada e alarme antes de sair",
+          "document": {
+            "name": "O plano de transferência",
+            "text": "TRANSFERÊNCIA — <sistema> · <cliente> · <data>\n\nONDE MORA\n  Conta:                  <do cliente, com o login dele>\n  Quem tem acesso:        <nomes>\n  Depende de algo meu:    não | <o quê, e como sair dele>\n\nDONO INTERNO\n  Nome, cargo:\n  Sabe onde roda:         sim | não\n  É avisado quando falha: sim | não, por <canal>\n  Responde por:           operação · qualidade · contexto ·\n                          manutenção técnica · desempenho ·\n                          melhoria   (risque o que é de outro,\n                          e escreva de quem)\n\nPLAYBOOK (escrito durante a construção, com data)\n  Qual caso vem primeiro, e por quê:\n  O que o sistema faz, e o que nunca faz:\n  As definições que sobreviveram ao uso real:\n  O que olhar na segunda semana:\n  Falhas normais, e o que fazer em cada uma:\n  Limites conhecidos:\n\nSESSÃO GRAVADA\n  Endereço:               <link>\n  Conduzida por:          <o dono, na segunda gravação>\n\nJULGAMENTO\n  Conjunto de avaliação:  <onde está>\n  O dono julgou sozinho:  <data> | ainda não\n\nO ALARME DA AUSÊNCIA\n  O registro de cada execução fica em: <lugar>\n  Se faltar o registro do dia, quem fica sabendo: <nome>\n\nRODA SEM VOCÊ QUANDO\n  O time rodou o segundo fluxo sem você em: <data> | ainda não\n  Acessar · operar · avaliar · manter · melhorar:\n                          sim | não, em cada um\n  Quatro semanas sem você, sem parar:       sim | não\n\nVOLTAR\n  Revisão marcada para:   <data, quando as ferramentas\n                          tiverem mudado>",
+            "exercise": "Escolha o último sistema que você entregou, ou o último que alguém entregou para você. Preencha o plano de transferência como ele está hoje, sem melhorar nada antes. Depois, faça as cinco perguntas a quem usa o sistema: acessar, operar, avaliar, manter, melhorar. Cada linha vazia e cada \"não\" é uma razão para ele parar em silêncio no mês em que você não estiver olhando."
+          }
+        },
+        {
+          "id": "provar-a-implantacao-que-vira-caso",
+          "number": 10,
+          "title": "Provar: a implantação que vira caso",
+          "question": "Como o que funcionou vira prova que o mercado acredita?",
+          "purpose": "Contar o engajamento com o número que o cliente reconhece e a permissão",
+          "document": {
+            "name": "O caso de implantação",
+            "text": "CASO — <cliente | anônimo: setor, porte> · <data>\n\nA RESTRIÇÃO           <a do escopo, nas palavras do cliente>\nO QUE FOI CONSTRUÍDO  <o fluxo, o que o agente faz, onde aprova>\nO QUE O TIME FAZ HOJE <roda sem o FDM desde <data>;\n                      o segundo fluxo>\n\nO NÚMERO\n  Qual:               <o do escopo>\n  Antes → depois:     <valor> → <valor>\n  Como foi medido:    <controle | mesmo período>, <mínimo>\n  Fonte:              <sistema, relatório, na pasta da prova>\n  A minha parte:      <o que foi do sistema; o que já existia>\n  O que não se atribui: <a lista do plano de medida>\n  Em quantas contas:  <n funcionaram, n não>\n\nA PROVA QUE SE MOSTRA\n  <a gravação, o fluxo antes e depois, o registro de semanas>\n\nPERMISSÕES (por escrito)\n  Nome da empresa:    sim | não, em <data>, por <nome>\n  Nome e cargo:       sim | não\n  Citação (literal):  sim | não\n  Número:             sim | não\n  Vantagem ligada ao caso: nenhuma | <qual, dita no texto>\n\nAPROVADO PELA DONA DO NÚMERO\n  <nome, data>: \"foi isso mesmo\"\n\nREVISAR EM            <data>: o cliente ainda usa? o número vale?",
+            "exercise": "Escreva o caso de um trabalho seu, mesmo pequeno, com o artefato. Mostre à pessoa dona do número antes de mostrar a qualquer outra. Se ela corrigir o número, a correção é o caso; se ela não reconhecer o número, o caso não existe ainda."
+          }
+        }
+      ]
+    },
+    {
+      "title": "O ofício",
+      "chapters": [
+        {
+          "id": "os-dados-do-marketing",
+          "number": 11,
+          "title": "Os dados do marketing: eventos, CRM, consentimento e integração",
+          "question": "Que dados um agente de marketing precisa, e onde eles moram?",
+          "purpose": "Saber onde mora cada dado, com que definição e base legal, e como chega ao agente",
+          "document": {
+            "name": "O inventário de dados de marketing",
+            "text": "INVENTÁRIO DE DADOS — <fluxo> · <cliente> · <data>\n\nA DECISÃO DO AGENTE   <a frase do passo 1>\n\n  dado | família | mora em | dono | definição | base legal\n       (para este uso) | lê por\n  -----|---------|---------|------|-----------|------------\n  <última compra> | evento | <loja> | <nome> |\n       <pedido pago, não cancelado> | <decidida por <jurídico>,\n       em <data>> | <API | exportação | conector | não lê>\n  <estágio> | ficha | <CRM> | <nome> |\n       <cliente = pagamento confirmado> | <...> | <...>\n  <aceite de e-mail> | consentimento | <e-mail> | <nome> |\n       <confirmação dupla> | consentimento, prova em <sistema>\n       | <...>\n  <origem> | origem | <links, UTM> | <nome> |\n       <campanha + peça> | <...> | <...>\n\nONDE DOIS SISTEMAS DISCORDAM\n  <dado> · <sistema A> conta <x> · <sistema B> conta <y>\n  · causa: <dado | definição>\n\nDIAGNÓSTICO\n  Problema de dado (vai para):       <quem conserta, até quando>\n  Problema de definição (resolvo):   <o quê, aprovado por quem>\n\nNUNCA ENTRA\n  <dado sensível, de terceiros, sem base; a coluna de onde vaza>",
+            "exercise": "Faça o inventário do dado de que o seu fluxo do capítulo 6 precisa. Marque cada linha em que o agente \"não lê\". Escreva, ao lado, se o problema é de dado ou de definição, e quem resolve cada um. Se puder, rode uma contagem num dos dados em dois lugares e anote a diferença."
+          }
+        },
+        {
+          "id": "agentes-de-conteudo-que-a-marca-aguenta",
+          "number": 12,
+          "title": "Agentes de conteúdo que a marca aguenta",
+          "question": "Como faço um agente escrever na voz da marca sem prometer o que ela não cumpre?",
+          "purpose": "Dar ao agente de conteúdo o teto, a voz, a lista do que nunca se diz e a revisão",
+          "document": {
+            "name": "A ficha do agente de conteúdo",
+            "text": "AGENTE DE CONTEÚDO — <marca> · <canal> · <data>\n\nO TETO (o arquivo do que é verdade)\n  Onde está:        <documento>\n  Dono e data:      <nome>, <data da última revisão>\n  O que fica fora:  <documentos de sonho, versões antigas>\n\nA VOZ\n  Como fala:        <três frases>\n  Nunca usa:        <lista>\n  Exemplos bons:    <3, com o porquê>\n  Exemplos ruins:   <3, com o porquê>\n\nNUNCA SE DIZ (conferido por programa)\n  <expressões, entre aspas>\n  Todo número do texto está no teto: sim,\n    conferido por <programa>\n  Citar para negar não reprova: sim\n\nO PEDIDO\n  Cada afirmação com a frase do teto de onde saiu\n  Se falta fato: pergunta, não escreve\n\nREVISÃO\n  O programa reprova:     <expressões, números sem fonte>\n  A pessoa julga:         precisão · voz · público · utilidade\n  Quem decide o que sai:  <nome>\n  Volume por semana:      <o que essa pessoa lê com atenção>\n  Metadados revisados:    título · descrição · texto\n                          alternativo\n\nPOLÍTICA DE IA\n  Quando o conteúdo é feito com IA:\n  Quem revisa:\n  Quando se avisa o leitor, e como:\n  O que nunca sai sem pessoa:",
+            "exercise": "Escreva o teto da marca para a qual você mais escreve, em uma página: o que faz, o que não faz, o que é proibido afirmar. Peça a um agente um texto de venda com o pedido estruturado deste capítulo. Confira, na tabela que ele devolver, se cada promessa aponta para uma frase do teto. A que não aponta é o próximo item da lista do que nunca se diz."
+          }
+        },
+        {
+          "id": "agentes-de-operacao",
+          "number": 13,
+          "title": "Agentes de operação: campanha, segmentação, relatório e atendimento",
+          "question": "Que trabalho de operação de marketing um agente pode tocar sozinho?",
+          "purpose": "Separar o que o agente faz sozinho do que espera aprovação e do que nunca faz",
+          "document": {
+            "name": "A triagem da operação de marketing",
+            "text": "TRIAGEM DA OPERAÇÃO — <time> · <data>\n\nCAMPANHA\n  Sozinho:          acompanhar, comparar, propor\n  Espera aprovação: pausar, trocar peça\n  Nunca:            mudar orçamento, criar campanha paga\n\nSEGMENTAÇÃO\n  Sozinho:          montar o público, mostrar quem entrou\n  Espera aprovação: disparar para o público\n  Nunca:            usar contato sem base legal,\n                    comprar lista\n\nRELATÓRIO\n  Sozinho:          puxar, limpar, comparar, explicar\n  Espera aprovação: enviar à diretoria (até subir)\n  Nunca:            decidir o que fazer com o relatório\n\nATENDIMENTO\n  Sozinho:          responder o que está numa página\n                    pública\n  Espera aprovação: o resto\n  Nunca:            preço, desconto, dinheiro de volta,\n                    reclamação\n\nA TRAVA DE CADA \"NUNCA\"\n  <ação> · instrução | acesso | sistema · <onde>\n\nASSINATURA E DESVIO\n  <saída> · assina: <quem> · desvio: <sinal>\n\nREGRA DE SUBIDA\n  Relatório sobe com <n> semanas sem edição;\n  decide: <quem>",
+            "exercise": "Faça a triagem de uma frente só de um time que você conhece, mesmo o seu: a campanha, se ele anuncia. Na seção da trava, escreva onde mora cada \"nunca\" hoje, e não onde deveria morar. Depois abra a conta de anúncio e confira o nível de acesso de cada integração e de cada pessoa que mexe nela. Todo \"nunca\" que mora só na instrução é uma sexta-feira à tarde esperando para acontecer."
+          }
+        },
+        {
+          "id": "o-agente-de-codigo-para-quem-nao-e-engenheiro",
+          "number": 14,
+          "title": "O agente de código para quem não é engenheiro",
+          "question": "Preciso programar para ser FDM?",
+          "purpose": "Conferir em cinco minutos o que um agente de código entregou",
+          "document": {
+            "name": "A conferência de cinco minutos do FDM",
+            "text": "CONFERÊNCIA — <ferramenta> · <data>\n\nO PEDIDO (escrito antes)\n  O que faz:         <uma frase>\n  Com que dado:      <fonte real>\n  O que entrega:     <onde, para quem>\n  O que nunca faz:   <publicar, gastar, apagar, mandar>\n\nAS CINCO PERGUNTAS\n  1. Rodou no dado real?\n     sim | só no exemplo\n  2. O tamanho bate?\n     esperado <n> (origem) · veio <n> (ferramenta)\n  3. E se o dado vier errado?\n     <o que acontece> · testado: sim | não\n  4. Onde está a chave, e quem a vê?\n     <lugar> · <quem>\n  5. Quem fica sabendo quando para?\n     <nome> · <como>\n\nA EVIDÊNCIA\n  Comando ou tela que provou a pergunta 2: <qual>\n\nCHAMAR UM ENGENHEIRO?\n  Sistema de produção · dado sensível · dinheiro\n  · dono de longo prazo · muitos usuários\n  Algum \"sim\":       <qual>, chamar <quem>",
+            "exercise": "Peça a um agente de código a ferramenta do resumo de segunda, com o dado de um formulário seu, usando o pedido acima como modelo. Antes de usar, passe pelas cinco perguntas e preencha a evidência. Se a pergunta 2 deu número diferente, você acabou de pegar o erro da cena do começo. Se deu igual, estrague o dado de propósito e veja a pergunta 3."
+          }
+        }
+      ]
+    },
+    {
+      "title": "O caminho",
+      "chapters": [
+        {
+          "id": "de-onde-vem-os-fdms",
+          "number": 15,
+          "title": "De onde vêm os FDMs",
+          "question": "Que trajetória leva a esse papel, e a minha serve?",
+          "purpose": "Achar a sua porta de entrada e a lacuna que ela traz",
+          "document": {
+            "name": "O autodiagnóstico das cinco origens",
+            "text": "AUTODIAGNÓSTICO — <seu nome> · <data>\n\nO NÚMERO (antes da porta)\n  Meta e resultado:   <qual, de quando>\n  O que construí:     <o quê>\n  A parte que era minha: <qual> | só apoiei\n\nALGO QUE UM TIME ADOTOU\n  <o quê> · <semanas de uso> | ainda não\n\nA MINHA PORTA\n  1 construtor de marketing\n  2 conta de agência\n  3 crescimento de marca\n  4 soluções de plataforma\n  5 nenhuma\n\nAS SEIS COISAS (0 a 3, com a prova)\n  Experiência de marketing:      _ · <prova>\n  Aptidão para construir:        _ · <prova>\n  Profundidade de produto:       _ · <prova>\n  Iniciativa e senso de dono:    _ · <prova>\n  Credibilidade com o cliente:   _ · <prova>\n  Fluência nas ferramentas:      _ · <prova>\n\nQUEM CONFERIU\n  <nome> · onde discordou: <qual nota>\n\nA LACUNA QUE FECHO PRIMEIRO\n  <a menor nota> · o projeto: <qual> · <semanas>",
+            "exercise": "Preencha o autodiagnóstico com honestidade, começando pelo número, e mostre a alguém que trabalhou com você. Se a pessoa discordar de uma nota, a discordância é o dado. Depois, escreva a candidatura da Minerva para você mesmo, em cinco linhas: o número, o que construiu, o que aconteceu, a parte que era sua e o link do que você construiu. Se uma das cinco linhas ficou vazia, ela é o primeiro módulo do próximo capítulo."
+          }
+        },
+        {
+          "id": "o-que-estudar",
+          "number": 16,
+          "title": "O que estudar",
+          "question": "O que estudo primeiro, e o que ignoro?",
+          "purpose": "Montar a ordem de estudo pela lacuna, com um projeto por módulo",
+          "document": {
+            "name": "O plano de estudo pessoal",
+            "text": "PLANO DE ESTUDO — <seu nome> · <data>\n\nA MINHA PORTA E A LACUNA\n  Porta:                  <1 a 5>\n  Lacuna (menor nota):    <habilidade>\n\nA ORDEM DOS MÓDULOS\n  1º <M_> · 2º <M_> · 3º <M_> · ...\n  Pulo, porque já tenho:  <M_>, prova: <projeto, quem usou>\n\nHORAS POR SEMANA          <h>\nFIM PREVISTO              <mês>\nREVISÃO DAS VAGAS         a cada dois módulos: <datas>\n\nCADA MÓDULO\n  M_ · o projeto:         <o quê>\n       quem vai usar:     <nome>\n       endereço:          <link>\n       pronto quando:     <a pessoa usou por <n> semanas>",
+            "exercise": "Monte o seu plano com a ordem da sua porta, sem ter lido o resto do livro. Escolha o projeto do primeiro módulo e escreva o nome de quem vai usá-lo. Se você não consegue dizer quem vai usar, o projeto ainda é um exercício, e não um módulo."
+          }
+        },
+        {
+          "id": "o-processo-seletivo-e-o-portfolio",
+          "number": 17,
+          "title": "O processo seletivo e o portfólio",
+          "question": "O que mostro quando o cargo ainda nem existe onde eu quero trabalhar?",
+          "purpose": "Mostrar o número e o sistema, e não o slide",
+          "document": {
+            "name": "O portfólio de uma implantação",
+            "text": "PORTFÓLIO — <seu nome> · <data>\n\nO NÚMERO (primeira linha)\n  <o resultado que foi seu>: <antes> → <depois>, em <prazo>,\n  medido por <método>; a minha parte: <qual>\n\nA RESTRIÇÃO\n  <o que travava, nas palavras de quem travava>\n\nO SISTEMA\n  O que faz:        <fluxo, agente, onde a pessoa aprova>\n  O link:           <repositório | vídeo | o próprio sistema>\n  O que nunca faz:  <o desenho das travas>\n\nO DEPOIS\n  O time faz hoje sem mim: <o quê, desde quando>\n  O segundo fluxo:        <quem construiu>\n\nO QUE PODE SER MOSTRADO\n  Nome do cliente:        sim | não (setor, porte)\n  Dado:                   real | inventado, declarado\n  Permissões:             <quais, por escrito>\n\nAS QUATRO PROVAS (Profound)\n  Entendi o problema:     <onde está no portfólio>\n  Construí:               <o link>\n  Avaliei:                <como conferi a saída>\n  Expliquei:              <o vídeo, a página>\n\nPARA O TESTE AO VIVO\n  Um caso de uso que eu desenharia com tempo marcado,\n  do público à medida: <qual>",
+            "exercise": "Monte o portfólio com o trabalho que você tem hoje, mesmo que seja o seu próprio fluxo, sem ter lido o resto do livro. Mostre a alguém de fora por dois minutos e pergunte qual foi o número. Se a pessoa não souber dizer, a primeira linha do portfólio ainda não está na primeira linha."
+          }
+        },
+        {
+          "id": "o-mercado-no-brasil",
+          "number": 18,
+          "title": "O mercado no Brasil",
+          "question": "Quem contrata esse trabalho no Brasil, mesmo sem o nome?",
+          "purpose": "Achar dez lugares no Brasil que compram o trabalho sem o título",
+          "document": {
+            "name": "O mapa de alvos no Brasil",
+            "text": "MAPA DE ALVOS — <seu nome> · <data>\n\n  alvo | porta | a frase da vaga | o nome que usam | quem\n       |       | (ou o sinal)    | para o trabalho | decide\n  -----|-------|-----------------|-----------------|-------\n  <empresa> | time interno | <mapear e automatizar\n       o trabalho manual> | <marketing ops> | <diretora>\n  <agência> | agência | <desenvolver agentes de IA\n       para mídia> | <excelência operacional> | <sócio>\n  <consultoria> | consultoria | <conectar o CRM dos\n       clientes> | <GTM engineer> | <head de operações>\n  <de fora> | remota | <100% em inglês> | <marketing ops>\n       | <gestor no exterior>\n\nO PRIMEIRO CONTATO\n  Alvo:                         <o mais quente>\n  A restrição que eu suspeito:  <qual>\n  O que eu mostro:              <o portfólio do capítulo 17>\n  A data em que li a vaga:      <dd/mm>",
+            "exercise": "Monte o mapa com dez alvos reais, com a frase da vaga ou o sinal de cada um, sem ter lido o resto do livro. Escolha o mais quente e escreva a restrição que você suspeita que ele tem. Na primeira conversa, confira a suspeita: se errou, a conversa já foi a descoberta do capítulo 5."
+          }
+        },
+        {
+          "id": "depois-do-campo",
+          "number": 19,
+          "title": "Depois do campo",
+          "question": "Para onde esse papel leva?",
+          "purpose": "Escrever antes o que levar do campo e quando sair",
+          "document": {
+            "name": "O plano de 18 meses",
+            "text": "PLANO DE 18 MESES — <seu nome> · <data>\n\nMESES 1 A 6: APRENDER O CAMPO\n  Implantações:            <1 a 2>\n  O que anoto em cada uma: a restrição, o fluxo, o número, o que\n                           se repetiu\n  Pronto quando:           um time roda o segundo fluxo sem mim\n\nMESES 7 A 12: VER O PADRÃO\n  Implantações:            <1 a 2>\n  Padrões que se repetiram em 3 ou mais:  <lista>\n  Levei ao produto:        <itens, a quem, e se entraram\n                           no roteiro>\n\nMESES 13 A 18: ESCOLHER A SAÍDA\n  Implantações:            <1 a 2>\n  Liderar | produto | fundar | consultoria própria\n  A saída escolhida, porque:\n  O que levo:              os padrões, sem dado de cliente\n  O que não levo:          dado, texto e estratégia de cliente\n\nQUANDO SAIO\n  <data>, ou quando <condição>",
+            "exercise": "Escreva o plano com a data de hoje, sem ter lido o resto do livro. No caderno, anote, desde já, o que você já construiu mais de uma vez na sua vida de marketing. Se a lista tiver três itens, você já começou o campo, mesmo sem o título."
+          }
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "title": "As vagas e as definições",
+      "intro": null,
+      "items": [
+        {
+          "name": "Stripe, Forward Deployed AI Accelerator, Marketing",
+          "text": "A vaga que embarca o FDM num grupo de 25 a 45 marketers e mede o trabalho pelos fluxos mudados para sempre; atualizada em 29 de outubro de 2026.",
+          "href": "https://stripe.com/jobs/search?gh_jid=7747640"
+        },
+        {
+          "name": "Stripe, Forward Deployed AI Accelerator, Sales Development",
+          "text": "A vaga irmã, para pré-vendas, com o mesmo desenho.",
+          "href": "https://stripe.com/jobs/search?gh_jid=8055930"
+        },
+        {
+          "name": "Minerva, Forward Deployed Marketer",
+          "text": "A vaga com o nome, em Nova York, com as cinco origens de candidato e o processo seletivo que pede um número; publicada em 1º de outubro de 2026.",
+          "href": "https://jobs.ashbyhq.com/minerva/d2d11ac5-09fb-43bc-b310-34161f16ee16"
+        },
+        {
+          "name": "Profound, Forward Deployed Marketing Engineer",
+          "text": "A vaga de quem leva o \"Marketing Engineer\" para dentro dos clientes; publicada em 7 de outubro de 2026.",
+          "href": "https://jobs.ashbyhq.com/profound/0621c0d3-d4b2-41dd-8eaa-eeb5197d7ec8"
+        },
+        {
+          "name": "Myosin, What Is Forward Deployed Marketing?",
+          "text": "A definição em quatro capacidades (julgar, construir, instalar, transferir), de Olly Jones, de 28 de julho de 2026.",
+          "href": "https://myosin.xyz/thinking/what-is-forward-deployed-marketing"
+        },
+        {
+          "name": "Darkroom, What Is a Forward Deployed Marketer",
+          "text": "A definição de uma agência, com a triagem dos passos e as cinco habilidades, de 19 de outubro de 2026.",
+          "href": "https://www.darkroomagency.com/observatory/forward-deployed-marketer"
+        }
+      ]
+    },
+    {
+      "title": "As pesquisas com método",
+      "intro": null,
+      "items": [
+        {
+          "name": "McKinsey, The state of AI in 2026",
+          "text": "A pesquisa anual, com 1.719 respostas de 97 países, de 25 de agosto de 2026; a distância entre o ganho de cada pessoa e o resultado da empresa.",
+          "href": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+        },
+        {
+          "name": "Conversion, Tendências de Marketing 2026",
+          "text": "A pesquisa com 637 profissionais de marketing no Brasil, de novembro e dezembro de 2025, com margem de erro de 3,8 pontos.",
+          "href": "https://www.conversion.com.br/wp-content/uploads/2026/01/Tendencias_de_Marketing-2026.pdf"
+        }
+      ]
+    },
+    {
+      "title": "A lei",
+      "intro": "No site do Planalto, com a redação em vigor; a aplicação ao trabalho do FDM é leitura do livro, e o jurídico do cliente decide.",
+      "items": [
+        {
+          "name": "LGPD",
+          "text": "A Lei 13.709/2018, com as bases legais (art. 7º) e a prova do consentimento (art. 8º, § 2º).",
+          "href": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm"
+        },
+        {
+          "name": "Código de Defesa do Consumidor",
+          "text": "A Lei 8.078/1990, com a oferta que obriga (art. 30), a publicidade identificável (art. 36), a enganosa (art. 37) e o ônus da prova de quem patrocina (art. 38).",
+          "href": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+        },
+        {
+          "name": "CONAR, Guia de Publicidade por Influenciadores Digitais 2026",
+          "text": "O guia de 2026, que avisa não tratar de aviso sobre o uso de IA.",
+          "href": "https://conar.wpenginepowered.com/wp-content/uploads/2026/05/260525_GUIA_INFLUENCIADORES_CONAR_v6.pdf"
+        }
+      ]
+    }
+  ],
+  "checkedOn": "2 de novembro de 2026",
+  "page": {
+    "intro": "O guia de bolso de quem leva a IA do piloto à operação de marketing. Os documentos do livro, do escopo de uma página ao caso de implantação, para preencher aqui e levar ao time; uma primeira semana para começar; e os recursos que o livro indica, conferidos.",
+    "promises": [
+      "Uma primeira semana para começar",
+      "Fica só no seu navegador"
+    ],
+    "documentsTitle": "Preencha aqui, leve para o time",
+    "seoDescription": "Os documentos do livro Forward Deployed Marketer, do escopo de uma página ao caso de implantação, para preencher no navegador, copiar e levar ao time; uma primeira semana e os recursos conferidos.",
+    "triage": false,
+    "week": [
+      {
+        "id": "o-que-e-um-forward-deployed-marketer",
+        "day": "Segunda",
+        "text": "Leia três vagas com o teste das quatro perguntas e separe as que são FDM das que só usam o título."
+      },
+      {
+        "id": "descobrir-o-trabalho-de-cada-marketer",
+        "day": "Terça",
+        "text": "Faça o mapa da tarefa que mais volta na sua semana e marque cada passo como regra fixa, agente ou pessoa."
+      },
+      {
+        "id": "entrar-a-restricao-real",
+        "day": "Quarta",
+        "text": "Escreva o escopo de uma página para essa tarefa, com a restrição real e o número da marca, e mostre a alguém que decide."
+      },
+      {
+        "id": "medir-sem-atribuicao-inventada",
+        "day": "Quinta",
+        "text": "Pegue o último número de marketing que você mostrou e escreva o que ele conta de verdade, se tinha controle e o que nele pode ser eco."
+      },
+      {
+        "id": "o-agente-de-codigo-para-quem-nao-e-engenheiro",
+        "day": "Sexta",
+        "text": "Peça a um agente de código uma ferramenta pequena, com um dado seu, e passe pelas cinco perguntas antes de usar."
+      }
+    ]
+  }
+}
