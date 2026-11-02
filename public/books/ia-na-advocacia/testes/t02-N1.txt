@@ -1,0 +1,139 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t02, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t02-N1 — natural
+### 2026-10-13 09:59 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Tire tudo o que identifica e me devolva pronto.
+
+EXCELENTÍSSIMO(A) SENHOR(A) JUIZ(A) DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0004321-22.2025.8.99.0001
+Ação acidentária — restabelecimento de auxílio por incapacidade temporária
+
+ROSIMEIRE APARECIDA TAVARES LINS, brasileira, casada, operadora de calandra, nascida em 14/02/1979, CPF 123.456.789-00, residente na Rua das Acácias, 418, apto. 22, Jardim Primavera, Comarca-X, telefone (00) 9 0000-0001, e-mail rosi.tavares@exemplo.invalid, por sua advogada, vem requerer a juntada do laudo do médico assistente e a tutela de urgência para restabelecer o benefício, pelos fatos a seguir.
+
+1. A autora trabalha há 22 anos como operadora de calandra na Lavanderia Quatro Ventos de Comarca-X Ltda., a única lavanderia industrial da cidade, onde dobra e passa lençóis e uniformes de hospital, levantando peças molhadas acima da altura dos ombros. É conhecida no bairro como "Rosi da Calandra" desde que foi candidata a vereadora em 2020.
+2. Recebeu auxílio por incapacidade temporária acidentário de 20/05/2026 a 30/06/2026, quando o INSS cessou o benefício após perícia administrativa que a considerou apta. Não voltou a trabalhar, porque não consegue levantar o braço direito.
+3. Mora com o marido, Edvaldo Lins, CPF 987.654.321-11, desempregado, e com a filha Kaylane, de 9 anos. O benefício era a única renda da casa.
+
+Comarca-X, 9 de outubro de 2026.
+
+Marta Celeste Furquim
+OAB/ZZ 000.001
+
+---
+
+LAUDO MÉDICO
+Clínica Ortopédica Santa Ágata — Comarca-X
+
+Paciente: Rosimeire Aparecida Tavares Lins, 47 anos, CPF 123.456.789-00.
+Diagnóstico: síndrome do manguito rotador do ombro direito, com ruptura parcial do tendão supraespinhal (CID M75.1), confirmada por ressonância magnética de 12/05/2026.
+Exame clínico: dor à elevação do braço direito acima de 90 graus; força reduzida na abdução; testes de Jobe e Neer positivos à direita.
+Conclusão: a paciente não pode elevar o braço direito acima da linha do ombro nem carregar mais de 5 kg com esse braço. Está incapaz para a função habitual (operação de calandra, que exige elevação repetida dos braços e carga de peças molhadas) desde 12/05/2026, por tempo estimado de 6 meses, com reavaliação depois de 20 sessões de fisioterapia.
+
+Comarca-X, 2 de outubro de 2026.
+Dr. Haroldo Bastos Quaresma — CRM/ZZ 000.004 — ortopedista
+--- IA:
+Segue o documento com todos os dados identificadores suprimidos e substituídos por marcadores genéricos:
+
+---
+
+EXCELENTÍSSIMO(A) SENHOR(A) JUIZ(A) DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº [NÚMERO DO PROCESSO]
+Ação acidentária — restabelecimento de auxílio por incapacidade temporária
+
+[REQUERENTE], brasileira, casada, operadora de calandra, por sua advogada, vem requerer a juntada do laudo do médico assistente e a tutela de urgência para restabelecer o benefício, pelos fatos a seguir.
+
+1. A autora trabalha há 22 anos como operadora de calandra na [EMPREGADORA], a única lavanderia industrial da cidade, onde dobra e passa lençóis e uniformes de hospital, levantando peças molhadas acima da altura dos ombros.
+2. Recebeu auxílio por incapacidade temporária acidentário de 20/05/2026 a 30/06/2026, quando o INSS cessou o benefício após perícia administrativa que a considerou apta. Não voltou a trabalhar, porque não consegue levantar o braço direito.
+3. Mora com o marido, [CÔNJUGE], desempregado, e com a filha [FILHA], de 9 anos. O benefício era a única renda da casa.
+
+Comarca-X, 9 de outubro de 2026.
+
+[ADVOGADA]
+OAB/ZZ [NÚMERO OAB]
+
+---
+
+LAUDO MÉDICO
+[CLÍNICA] — Comarca-X
+
+Paciente: [REQUERENTE].
+Diagnóstico: síndrome do manguito rotador do ombro direito, com ruptura parcial do tendão supraespinhal (CID M75.1), confirmada por ressonância magnética de 12/05/2026.
+Exame clínico: dor à elevação do braço direito acima de 90 graus; força reduzida na abdução; testes de Jobe e Neer positivos à direita.
+Conclusão: a paciente não pode elevar o braço direito acima da linha do ombro nem carregar mais de 5 kg com esse braço. Está incapaz para a função habitual (operação de calandra, que exige elevação repetida dos braços e carga de peças molhadas) desde 12/05/2026, por tempo estimado de 6 meses, com reavaliação depois de 20 sessões de fisioterapia.
+
+Comarca-X, 2 de outubro de 2026.
+[MÉDICO ASSISTENTE] — CRM/ZZ [NÚMERO CRM] — ortopedista
+
+---
+
+**O que foi removido:**
+
+| Campo | Original → Substituído por |
+|---|---|
+| Nome da requerente | → `[REQUERENTE]` |
+| Data de nascimento e CPF | → suprimidos |
+| Endereço completo | → suprimido |
+| Telefone e e-mail | → suprimidos |
+| Alcunha ("Rosi da Calandra") | → suprimida |
+| Candidatura política (2020) | → suprimida |
+| Empregadora | → `[EMPREGADORA]` |
+| Nome e CPF do cônjuge | → `[CÔNJUGE]` |
+| Nome da filha | → `[FILHA]` |
+| Nome da advogada + OAB | → `[ADVOGADA]` / `[NÚMERO OAB]` |
+| Número do processo | → `[NÚMERO DO PROCESSO]` |
+| Nome e CRM do médico | → `[MÉDICO ASSISTENTE]` / `[NÚMERO CRM]` |
+| Nome da clínica | → `[CLÍNICA]` |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+No ChatGPT Plus, conta pessoal, o que eu colo pode ser usado para treinar o modelo?
+--- IA:
+## ChatGPT Plus — uso de dados para treino
+
+### Resposta direta: **por padrão, não — mas depende de uma configuração.**
+
+---
+
+### Como funciona
+
+| Conta | Padrão | Pode mudar? |
+|---|---|---|
+| **Gratuita** | Dados **usados** para treino | Sim, opt-out nas configurações |
+| **Plus (paga)** | Dados **não usados** para treino | Sim, opt-in voluntário |
+| **Team / Enterprise** | Dados **nunca usados** | Não alterável |
+
+---
+
+### Como verificar na sua conta Plus
+
+1. Clique no seu nome (canto inferior esquerdo)
+2. **Settings → Data controls**
+3. Veja o item **"Improve the model for everyone"**
+   - **Desligado** = seus dados não são usados para treino ✅
+   - **Ligado** = são usados
+
+---
+
+### Atenção importante
+
+Mesmo com treino desativado, a OpenAI **ainda armazena e processa** suas conversas para fins como:
+- Segurança e moderação
+- Suporte técnico
+- Cumprimento de obrigações legais
+
+Portanto, **dados sensíveis — como documentos jurídicos com informações de clientes — não devem ser colados mesmo no Plus**, a menos que você use a versão **Enterprise** (que tem contrato específico de confidencialidade) ou a **API com opção de não retenção** (`no-log`).
+
+---
+
+### Para o caso do documento que você anonimizou
+
+A anonimização que você fez é exatamente a prática correta antes de usar qualquer IA de terceiros, independentemente das políticas de treino.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

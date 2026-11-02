@@ -1,0 +1,159 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# rodar-t06-resto.sh (13/10/2026, mesmo dia): as SEIS conversas do t06 de novo, EM PARALELO, com o teto de saída maior.
+# Por quê: em rodar-t06.sh a N1 rodou 30 minutos e CAIU: "Claude's response exceeded the 32000 output token maximum"
+# (json/t06-N1-caiu-32k-m1.json; transcrição em t06-N1-caiu-32k.txt). A resposta (raciocínio + texto) para 13 prazos
+# passou do teto padrão do claude -p. Por isso as seis conversas rodam aqui com CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000
+# (só o teto de tamanho da resposta; o texto, a função conversa, o modelo e a configuração neutra são os mesmos) e ao
+# mesmo tempo, cada uma num .part, juntadas em t06-prazos.txt na ordem N1, N2, N3, C1, C2, C3. O gabarito é o de
+# rodar-t06.sh, copiado abaixo sem mudança, escrito antes de rodar.
+# t06. Prazo processual (cap. 6). 13/10/2026, Claude (grupo t05-t09 do PLANO.md).
+# Método e configuração de ../../../ia-na-sala-de-aula/research/testes/rodar-t00-bilhete.sh (função conversa de
+# rodar-t07c-t11d.sh do vol. 7, copiada abaixo sem mudança): configuração neutra, saída JSON em json/,
+# MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t06-resto.txt. 3 conversas naturais (N) e 3 com o prompt do capítulo
+# (C), uma mensagem cada.
+# MATERIAL (fictício): m06-publicacoes.txt, doze publicações no DJEN de Comarca-X (itens 1 a 12; o item 6 é a
+#  publicação do JEF que ../lacunas.md, "Leituras de 13/10/2026", §4, pôs no teste), a intimação pessoal da procuradoria
+#  do município pelo Domicílio (item 13, P-17) e as duas perguntas do Domicílio (A e B, P-19). Sem número de processo.
+#  As datas evitam de propósito os feriados nacionais (nenhum cai em janela de prazo) e o 11/08 (feriado só da Justiça
+#  Federal); o único feriado dentro de uma janela é o municipal fictício, 19/08/2026 (itens 2 e 3). O recesso
+#  (20/12 a 20/01) atravessa os itens 10, 11 e 12.
+# O QUE MUDA ENTRE N E C: o C é o N palavra por palavra, mais o calendário colado (m06-calendario.txt, P-37) e a regra
+#  do capítulo. Duas coisas a mais: a análise não separa o efeito do calendário do efeito da regra.
+#
+# GABARITO (escrito ANTES de rodar, à mão, publicação por publicação; conferido, também antes de rodar, com uma conta em
+#  Python fora do repositório, que bateu nas 13). Normas [V] (cópias em ../fontes-2026-10-09/): Lei 11.419, art. 4º, §§ 3º e 4º, e
+#  art. 5º, §§ 1º a 3º e 6º (t-lei-11419-2006.txt l. 28 a 42); CPC, arts. 183, 216, 219, 220, 224, 229, § 2º, 231, V,
+#  VII e IX, 246, §§ 1º-A a 1º-C, 335, 1.003, §§ 5º e 6º, 1.023 (d-cpc-2015-compilado.txt); CLT, arts. 775, 775-A, 895,
+#  I (d-clt-1943-compilado.txt l. 12803, 12828, 14862); Lei 9.099, arts. 12-A e 42 (d-lei-9099-1995.txt l. 194, 474);
+#  Lei 10.259, arts. 1º e 9º (../fontes-2026-10-13/i-planalto-l10259.txt l. 14, 60); CPP, arts. 593, 798, §§ 1º e 3º,
+#  798-A, I (d-cpp-1941-compilado.txt l. 9140, 10994, 11020); Res. CNJ 455, art. 11, §§ 2º e 3º
+#  (t-cnj-res-455-2022-compilada.txt l. 108).
+#  Regra de todas as do DJEN: disponibilizada em D -> publicada no 1º dia útil seguinte (Lei 11.419, art. 4º, § 3º; CPC,
+#  art. 224, § 2º) -> o prazo começa no dia útil seguinte à publicação, que é o dia 1 (art. 4º, § 4º; CPC, art. 224,
+#  § 3º). Sábado e domingo não são dias úteis (CPC, art. 216).
+#   1  Contestação, 15 dias úteis (CPC, arts. 335 e 231, VII; 219). D 16/07 (qui) -> pub 17/07 (sex) -> início 20/07
+#      (seg): 20,21,22,23,24 (5); 27,28,29,30,31 (10); 03,04,05,06,07/08 (15) -> FIM 07/08/2026 (sex).
+#   2  Apelação, 15 dias úteis (1.003, § 5º). D 11/08 (ter) -> pub 12/08 (qua) -> início 13/08 (qui): 13,14 (2); 17,18
+#      (4); [19/08 feriado municipal]; 20,21 (6); 24,25,26,27,28 (11); 31/08 (12); 01,02,03/09 (15) -> FIM C 03/09/2026
+#      (qui). Sem o feriado: FIM 02/09. N: passa se disser que depende do calendário da comarca/feriado local (ressalva
+#      geral na resposta conta); 02/09 sem ressalva nenhuma = não passa. C: passa = 03/09. Anotar: 1.003, § 6º (provar o
+#      feriado local no recurso).
+#   3  Embargos de declaração, 5 dias úteis (1.023). D 11/08 -> pub 12/08 -> início 13/08: 13,14,17,18 (4); [19/08];
+#      20 (5) -> FIM C 20/08/2026 (qui). Sem o feriado: FIM 19/08, o próprio feriado. N: como no 2 (ressalva = passa;
+#      19/08 sem ressalva = não passa). C: passa = 20/08.
+#   4  Recurso ordinário, 8 dias úteis (CLT, arts. 895, I, e 775). D 24/07 (sex) -> pub 27/07 (seg) -> início 28/07
+#      (ter): 28,29,30,31 (4); 03,04,05,06 (8) -> FIM 06/08/2026 (qui). Erro: 15 dias; corridos.
+#   5  Recurso inominado, 10 dias úteis (Lei 9.099, arts. 42 e 12-A). D 22/07 (qua) -> pub 23/07 (qui) -> início 24/07
+#      (sex): 24 (1); 27 a 31 (6); 03,04,05,06 (10) -> FIM 06/08/2026 (qui). Erro: 15 dias; corridos.
+#   6  JEF, recurso inominado, 10 dias úteis (Lei 10.259, art. 1º, com a Lei 9.099, arts. 42 e 12-A; a ligação é leitura
+#      do art. 1º, ../lacunas.md §4). D 20/08 (qui) -> pub 21/08 (sex) -> início 24/08 (seg): 24 a 28 (5); 31 (6); 01,02,
+#      03,04/09 (10) -> FIM 04/09/2026 (sex). INSS: SEM prazo em dobro (Lei 10.259, art. 9º). Erro: 15 dias; corridos;
+#      dobro para o INSS.
+#   7  Apelação do AUTOR contra o Estado, 15 dias úteis, SEM dobro (o dobro do art. 183 é do ente público). D 17/07 (sex)
+#      -> pub 20/07 (seg) -> início 21/07 (ter): 21 a 24 (4); 27 a 31 (9); 03 a 07 (14); 10/08 (15) -> FIM 10/08/2026
+#      (seg). Erro: dobro para o autor.
+#   8  Apelação, litisconsortes com advogados de escritórios diferentes, autos eletrônicos: 15 dias úteis, SEM dobro
+#      (CPC, art. 229, § 2º). D 08/09 (ter) -> pub 09/09 (qua) -> início 10/09 (qui): 10,11 (2); 14 a 18 (7); 21 a 25
+#      (12); 28,29,30 (15) -> FIM 30/09/2026 (qua). Erro: dobro.
+#   9  Apelação criminal, réu solto: 5 dias CORRIDOS (CPP, arts. 593 e 798), contados do dia útil seguinte à publicação
+#      (Lei 11.419, art. 4º, §§ 3º e 4º; CPP, art. 798, § 1º). D 14/09 (seg) -> pub 15/09 (ter) -> início 16/09 (qua):
+#      16,17,18,19,20 -> 20/09 é DOMINGO -> prorroga (798, § 3º) -> FIM 21/09/2026 (seg). Erro: 20/09 sem prorrogar;
+#      dias úteis (daria 22/09); 15 dias.
+#   10 Apelação criminal, réu PRESO: 5 dias corridos, SEM suspensão no recesso (CPP, art. 798-A, I). D 15/12 (ter) ->
+#      pub 16/12 (qua) -> início 17/12 (qui): 17,18,19,20,21 -> FIM 21/12/2026 (seg). Erro: suspender no recesso
+#      (qualquer data em janeiro); dias úteis; 15 dias.
+#   11 Apelação cível que atravessa o recesso (CPC, art. 220: suspensão de 20/12 a 20/01, inclusive). D 10/12 (qui) ->
+#      pub 11/12 (sex) -> início 14/12 (seg): 14 a 18 (5); [suspensão]; 21/01 (6); 22 (7); 25 a 29 (12); 01/02 (13);
+#      02 (14); 03 (15) -> FIM 03/02/2027 (qua). Erro: recesso esquecido (sem recesso daria 05/01/2027).
+#   12 Recurso ordinário que atravessa o recesso (CLT, art. 775-A). D 11/12 (sex) -> pub 14/12 (seg) -> início 15/12
+#      (ter): 15,16,17,18 (4); [suspensão]; 21/01 (5); 22 (6); 25 (7); 26 (8) -> FIM 26/01/2027 (ter). Erro: recesso
+#      esquecido (daria 24/12/2026); 15 dias.
+#   13 Domicílio, procuradoria do município (intimação pessoal: Lei 11.419, art. 5º, § 6º; Res. CNJ 455, art. 11, § 2º):
+#      enviada 08/06 (seg); consulta em até 10 dias corridos do envio (art. 5º, § 3º; o dia do envio excluído): 09 a
+#      18/06 -> INTIMAÇÃO TÁCITA 18/06/2026 (qui). Dia do começo: o dia útil seguinte, 19/06 (sex) (CPC, art. 231, V),
+#      excluído (art. 224) -> contagem de 22/06 (seg). Prazo: 15 dias úteis em dobro = 30 dias úteis (CPC, arts. 183 e
+#      1.003, § 5º): 22 a 26/06 (5); 29/06 a 03/07 (10); 06 a 10/07 (15); 13 a 17/07 (20); 20 a 24/07 (25); 27 a 31/07
+#      (30) -> FIM 31/07/2026 (sex). Nenhum feriado nacional entre 08/06 e 31/07. Erro: contar do DJEN; sem dobro;
+#      "não abriu, não foi intimada". Variação de um dia (tácita em 17/06, ou fim em 30/07 por contar o 19/06 como dia 1):
+#      não passa, anotada como "um dia".
+#   A  Citação pelo Domicílio não aberta. Certo = NÃO está citada; sem confirmação em 3 dias úteis, a citação se faz por
+#      outro meio (correio, oficial de justiça, escrivão, edital) (CPC, art. 246, § 1º-A). Erro = "está citada",
+#      "citação tácita/automática", "o prazo já corre".
+#   B  Certo = o prazo começa no quinto dia útil seguinte à confirmação (CPC, art. 231, IX); multa de até 5% do valor da
+#      causa, ato atentatório, por deixar de confirmar no prazo SEM justa causa (§ 1º-C; a justa causa se apresenta na
+#      primeira oportunidade, § 1º-B). Erro = prazo "do dia seguinte à confirmação" ou "da abertura"; "não há multa";
+#      outro percentual. Multa de até 5% dita sem a condição da justa causa = "parcial".
+#  CONTAR por resposta e por item: o fim (passa/não passa); o número de dias e o tipo (úteis/corridos); recesso, dobro,
+#   intimação pessoal e réu preso marcados quando se aplicam. E a CONCORDÂNCIA DAS RODADAS: por item, se as três
+#   conversas de cada variante dão o mesmo fim.
+#  ANOTADO (não conta como erro): datas de publicação e início certas ou erradas quando o fim está certo; o C escrever
+#   "conferir" em item que o calendário colado já resolve (anotar como excesso de cautela).
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+export CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t06-resto.txt 2>&1
+claude --version >> modelo-t06-resto.txt 2>&1
+
+# conversa ROTULO PREFIXO_JSON "mensagem 1" ["mensagem 2" ...]  (a de rodar-t07c-t11d.sh do vol. 7, sem mudança)
+conversa() {
+  local ROTULO=$1 PREF=$2; shift 2
+  local P=$(mktemp -d); echo '{"mcpServers":{}}' > "$P/vazio.json"
+  local K=1 SID="" J
+  echo "##### $ROTULO"
+  echo "### $(date '+%Y-%m-%d %H:%M') · modelo=$MODELO · configuração neutra (conversa.sh, saída JSON)"
+  for MSG in "$@"; do
+    echo "--- Você:"
+    echo "$MSG"
+    echo "--- IA:"
+    J="json/${PREF}-m${K}.json"
+    if [[ -z $SID ]]; then
+      ( cd "$P" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+          --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+          "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    else
+      ( cd "$P" && claude -p --resume "$SID" --model "$MODELO" --tools "" --setting-sources "" \
+          --strict-mcp-config --mcp-config vazio.json --output-format json \
+          --system-prompt "Você é um assistente prestativo." "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    fi
+    [[ -s "$J.err" ]] || rm -f "$J.err"
+    python3 -c '
+import json,sys
+try:
+    d=json.load(open(sys.argv[1]))
+    print(d.get("result",""))
+    print()
+    print("[modelUsage:", ", ".join(d.get("modelUsage",{}).keys()) + "]")
+except Exception as e:
+    print(open(sys.argv[1]).read()); print("[erro ao ler o JSON:", e, "]")
+' "$J"
+    SID=$(python3 -c 'import json,sys
+try: print(json.load(open(sys.argv[1])).get("session_id",""))
+except Exception: print("")' "$J")
+    K=$((K+1))
+    echo
+  done
+}
+
+PUB=$(cat m06-publicacoes.txt); CAL=$(cat m06-calendario.txt)
+[[ -n $PUB && -n $CAL ]] || { echo "material não lido" >&2; exit 1; }
+REGRA6='Regras: calcule a data de publicação e o início; conte em dias úteis, salvo no processo penal; marque recesso, dobro, intimação pessoal e réu preso; o que depender de feriado não colado, escreva "conferir".'
+
+for i in 1 2 3; do conversa "t06-N$i — prompt natural" "t06-N$i" "$PUB" > t06-N$i.part 2>&1 & done
+for i in 1 2 3; do conversa "t06-C$i — prompt do capítulo" "t06-C$i" "$PUB
+
+$CAL
+
+$REGRA6" > t06-C$i.part 2>&1 & done
+wait
+: > t06-prazos.txt
+for p in N1 N2 N3 C1 C2 C3; do cat t06-$p.part >> t06-prazos.txt; done

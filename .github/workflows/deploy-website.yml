@@ -1,0 +1,161 @@
+name: Site — ciromaciel.click
+
+on:
+    push:
+        branches: [main]
+        paths-ignore:
+            - 'docs/**'
+            - '**.md'
+    workflow_dispatch:
+    # O repositório tools dispara este deploy quando uma ferramenta
+    # muda (applications/.github/workflows/deploy-tools-website.yml): as ferramentas
+    # sobem dentro do dist deste site, então não existe deploy só delas.
+    repository_dispatch:
+        types: [tools-updated]
+
+# NO CANCEL (31/10/2026). A burst of tools-updated (four applications pushes in an hour)
+# cancelled each deploy mid-build, the Sprite runner took minutes to stop, and the next one
+# rebuilt from an unsaved cache. Now the running deploy finishes and at most one waits,
+# already on the newest main: GitHub keeps only the latest pending run of the group.
+concurrency:
+    group: deploy-website
+    cancel-in-progress: false
+
+jobs:
+    deploy:
+        name: Site — construir e publicar
+        # Roda nas Sprites da casa (infrastructure/docs/2026-10-25-runners.md)
+        # quando a variável RUNNER_LABELS do repositório existe; vazia ou
+        # apagada, volta para o runner pago do GitHub sem commit nenhum.
+        runs-on: ${{ vars.RUNNER_LABELS && fromJSON(vars.RUNNER_LABELS) || 'ubuntu-latest' }}
+        # Um job travado sem teto queima até 6 h (360 min) de uma vez.
+        timeout-minutes: 25
+
+        steps:
+            - uses: actions/checkout@v4
+
+            # AS FERRAMENTAS de /tools/<id>/ vivem em outro repositório,
+            # privado, e o GITHUB_TOKEN deste workflow só lê este aqui.
+            #
+            # `APPLICATIONS_DEPLOY_KEY` é a parte privada de uma DEPLOY KEY de
+            # leitura do tools ("website CI — leitura", criada em 22/09/2026,
+            # quando o repositório se chamava applications — daí o nome do
+            # secret). Uma chave presa a um repositório só, sem escrita —
+            # menos que qualquer token, que enxergaria a conta inteira.
+            #
+            # Sem o secret o checkout falha, e é o certo: um deploy sem as
+            # ferramentas apagaria /tools/* do ar, porque o Hoster substitui o
+            # projeto inteiro.
+            #
+            # SÓ `apps/` E `shared/` (e os arquivos da raiz, que o modo cone
+            # traz sozinho): é tudo o que build-tools.js e sync-footer.js leem.
+            # O repositório inteiro são 440 MB, quase tudo vídeo e projetos de
+            # `archives/`; baixá-lo levava de 15 a 24 s de cada deploy
+            # (23/10/2026). `blob:none` busca só os arquivos dessas pastas.
+            - uses: actions/checkout@v4
+              with:
+                  repository: ciro-maciel/applications
+                  path: .tools
+                  ssh-key: ${{ secrets.APPLICATIONS_DEPLOY_KEY }}
+                  sparse-checkout: |
+                      apps
+                      shared
+                  filter: blob:none
+
+            # AS ILUSTRAÇÕES LICENCIADAS (02/11/2026) vêm do repositório privado
+            # `assets`, só a pasta `illustrations/website`, com uma chave de deploy só
+            # de leitura: este repositório nunca guarda os arquivos (scripts/sync-art.js).
+            - uses: actions/checkout@v4
+              with:
+                  repository: ciro-maciel/assets
+                  path: .assets
+                  ssh-key: ${{ secrets.ILLUSTRATIONS_DEPLOY_KEY }}
+                  sparse-checkout: |
+                      illustrations/website
+                  filter: blob:none
+
+            # A VERSÃO DO BUN FICA FIXA. A impressão digital de cada ferramenta
+            # inclui `Bun.version` (build-tools.js, `fingerprint`): com
+            # `latest`, cada Bun novo invalidava o cache e recompilava as 20
+            # ferramentas, uns 4 minutos. Subir a versão é uma decisão, com o
+            # custo de um deploy longo, não um efeito colateral.
+            - name: Setup Bun
+              uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version: 1.4.4
+
+            - name: Install dependencies
+              run: bun install
+
+            # AS FERRAMENTAS QUE NÃO MUDARAM vêm prontas deste cache, já com o
+            # HTML do prerender (scripts/build-tools.js, "O CACHE"). Sem ele,
+            # cada deploy recompilava as 18 e abria todas no Chromium: 4min35s
+            # de um build de 4min49s (16/10/2026). A chave muda a cada
+            # execução para o cache ser salvo sempre; `restore-keys` traz o
+            # mais recente. Dentro dele, cada ferramenta tem a impressão
+            # digital dos seus arquivos: o que mudou é recompilado.
+            #
+            # O Chromium não tem mais passo próprio: prerender-tools.js o
+            # instala só quando alguma ferramenta mudou.
+            # Restore here, save right after the build (below): a deploy that fails or waits
+            # after the build still leaves the compiled tools for the next one.
+            - name: Cache das ferramentas
+              uses: actions/cache/restore@v4
+              with:
+                  path: .cache/tools
+                  key: tools-${{ github.run_id }}
+                  restore-keys: tools-
+
+            - name: Build
+              run: bun run build
+              env:
+                  TOOLS_REPO_DIR: ${{ github.workspace }}/.tools
+                  ASSETS_DIR: ${{ github.workspace }}/.assets
+
+            - name: Guardar o cache das ferramentas
+              uses: actions/cache/save@v4
+              with:
+                  path: .cache/tools
+                  key: tools-${{ github.run_id }}
+
+            - name: Deploy to Hoster
+              # A 1.1.0 envia só os arquivos que mudaram (o resto o Hoster já
+              # tem): de 80 a 176 s para segundos. A versão fica fixa para o
+              # deploy não depender de qual versão o `bunx` encontra.
+              run: bunx @ciromaciel/hoster-cli@1.1.0 deploy --project ciromaciel-website --dir ./dist --token ${{ secrets.HOSTER_TOKEN }}
+
+            # O HTML NÃO PODE FICAR EM CACHE. Ele é o índice que aponta para os
+            # assets com hash, então um `index.html` velho faz o visitante
+            # carregar o bundle anterior inteiro — o deploy sai, o site não
+            # muda, e nada na tela explica por quê.
+            #
+            # A estratégia `balanced` do Hoster aplica `max-age=3600` a TUDO,
+            # sem distinguir HTML de asset. `no-cache` não quer dizer "não
+            # guarde": quer dizer "guarde, mas pergunte antes de usar" — o
+            # navegador manda um condicional e recebe 304 vazio quando nada
+            # mudou. Os assets continuam `immutable` por um ano.
+            - name: Cache do HTML — revalidar sempre
+              run: |
+                  curl -fsS -X POST \
+                    -H "Authorization: Bearer ${{ secrets.HOSTER_TOKEN }}" \
+                    -H "Content-Type: application/json" \
+                    -d '{"cacheStrategy":"no-cache, must-revalidate"}' \
+                    https://hoster.worker.myinfrastructure.click/projects/ciromaciel-website/cache
+
+            # A estratégia governa o que a borda guarda daqui para a frente,
+            # não o que já está guardado — por isso o purge vem junto.
+            #
+            # A purga falhar NÃO desfaz o deploy, que já subiu, e o HTML já é
+            # `no-cache`. Até 25/09/2026 este passo usava `curl -f`: a
+            # Cloudflare recusava a purga (o Hoster repassa como 502), o
+            # deploy que tinha dado certo ficava vermelho — em 47 de 139
+            # execuções — e o motivo sumia, porque `-f` descarta a resposta.
+            # Agora o motivo aparece como aviso, e o deploy fica verde.
+            - name: Purgar o cache da borda
+              run: |
+                  code=$(curl -sS -o purge.json -w '%{http_code}' -X POST \
+                    -H "Authorization: Bearer ${{ secrets.HOSTER_TOKEN }}" \
+                    https://hoster.worker.myinfrastructure.click/projects/ciromaciel-website/purge-cache) || code=000
+                  if [ "$code" != "200" ]; then
+                    echo "::warning::a purga do cache respondeu $code: $(head -c 500 purge.json 2>/dev/null)"
+                  fi

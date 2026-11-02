@@ -1,0 +1,209 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t03, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t03-C1 — capítulo
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogada e recebi estas cinco mensagens no WhatsApp do escritório (transcrevi os áudios). Escreva a resposta para eu mandar a cada uma. Em cada resposta: não dê parecer; liste o que falta saber e os documentos para a advogada analisar; diga que a análise será feita por ela; sem prazo, sem promessa; diga que é uma resposta automática.
+
+1. "Oi, doutora. Fui demitida ontem e hoje descobri que estou grávida de seis semanas. A empresa não sabia. Eles podem fazer isso? O que eu faço?"
+2. "Meu voo de Comarca-X para Brasília foi cancelado na sexta e a companhia só me remarcou para dois dias depois. Perdi uma entrevista de emprego. Quanto eu consigo de indenização?"
+3. "Quero me divorciar. Temos dois filhos, de 4 e 7 anos, e meu marido diz que vai ficar com eles. Ele pode tirar as crianças de mim?"
+4. "Minha mãe teve o auxílio negado, dá para recorrer?"
+5. "Doutora, meu filho foi preso em flagrante agora há pouco, disseram que é por tráfico. Ele tem 19 anos e nunca foi preso. Ele vai ficar preso? O que eu faço?"
+--- IA:
+Aqui estão as cinco respostas, prontas para copiar e enviar:
+
+---
+
+**Mensagem 1 – Demissão e gravidez**
+
+> *Esta é uma resposta automática do escritório.*
+>
+> Olá! Sua mensagem foi recebida e será analisada pela advogada assim que possível.
+>
+> Para que ela possa examinar o seu caso, será necessário reunir as seguintes informações e documentos:
+>
+> - Data exata da demissão e se foi por justa causa ou sem justa causa
+> - Se você já assinou algum documento (termo de rescisão, recibo de aviso prévio etc.)
+> - Comprovante de exame de gravidez (beta-HCG ou ultrassom) com data
+> - Carteira de trabalho (CTPS) — física ou digital
+> - Contrato de trabalho, se houver
+> - Últimos três contracheques
+> - Comunicado ou carta de demissão, se recebeu por escrito
+>
+> Qualquer dúvida adicional, aguarde o retorno da advogada. Não há compromisso de prazo nesta mensagem.
+
+---
+
+**Mensagem 2 – Cancelamento de voo e perda de entrevista**
+
+> *Esta é uma resposta automática do escritório.*
+>
+> Olá! Sua mensagem foi recebida e será analisada pela advogada assim que possível.
+>
+> Para que ela possa examinar o seu caso, será necessário reunir as seguintes informações e documentos:
+>
+> - Comprovante de compra do bilhete (e-ticket ou reserva)
+> - Comunicado da companhia aérea sobre o cancelamento (e-mail, SMS ou print)
+> - Comprovante da remarcação e dos novos bilhetes
+> - Registro de qualquer reclamação feita à companhia (protocolo, chat, e-mail)
+> - Comprovante de que a entrevista existia e foi perdida (convite por e-mail, mensagem, carta etc.)
+> - Informações sobre a entrevista: empresa, cargo, data e horário previstos
+> - Registro de despesas extras que teve em razão do atraso (hotel, alimentação, transporte), com recibos se possível
+>
+> Qualquer dúvida adicional, aguarde o retorno da advogada. Não há compromisso de prazo nesta mensagem.
+
+---
+
+**Mensagem 3 – Divórcio e guarda dos filhos**
+
+> *Esta é uma resposta automática do escritório.*
+>
+> Olá! Sua mensagem foi recebida e será analisada pela advogada assim que possível.
+>
+> Para que ela possa examinar o seu caso, será necessário reunir as seguintes informações e documentos:
+>
+> - Certidão de casamento
+> - Certidão de nascimento dos filhos
+> - Documento de identidade e CPF de ambos os cônjuges
+> - Regime de bens do casamento
+> - Relação de bens comuns (imóveis, veículos, contas, investimentos etc.) com documentos se possível
+> - Informações sobre a situação atual: com quem as crianças estão morando, onde estudam
+> - Se já há alguma medida judicial em andamento (processo, liminar, acordo anterior)
+> - Se houve ou há violência doméstica ou ameaças — se sim, boletins de ocorrência
+> - Situação de trabalho e renda de ambos os cônjuges
+>
+> Qualquer dúvida adicional, aguarde o retorno da advogada. Não há compromisso de prazo nesta mensagem.
+
+---
+
+**Mensagem 4 – Auxílio negado para a mãe**
+
+> *Esta é uma resposta automática do escritório.*
+>
+> Olá! Sua mensagem foi recebida e será analisada pela advogada assim que possível.
+>
+> Para que ela possa examinar o caso, será necessário reunir as seguintes informações e documentos:
+>
+> - Qual auxílio foi negado (BPC/LOAS, aposentadoria por invalidez, auxílio-doença, Bolsa Família, outro)?
+> - Carta ou comunicado oficial de indeferimento, com número do requerimento/processo
+> - Documento de identidade e CPF da sua mãe
+> - Comprovante de residência
+> - Laudos, atestados ou relatórios médicos, se o benefício envolver condição de saúde
+> - Comprovantes de renda da família (se aplicável)
+> - Extrato do CNIS (Cadastro Nacional de Informações Sociais), se tiver
+> - Se já houve algum recurso administrativo anterior
+>
+> Qualquer dúvida adicional, aguarde o retorno da advogada. Não há compromisso de prazo nesta mensagem.
+
+---
+
+**Mensagem 5 – Filho preso em flagrante**
+
+> *Esta é uma resposta automática do escritório.*
+>
+> Olá! Sua mensagem foi recebida e será analisada pela advogada assim que possível.
+>
+> Para que ela possa examinar o caso, será necessário reunir as seguintes informações e documentos:
+>
+> - Em qual delegacia ou unidade policial seu filho se encontra agora
+> - Nome completo, data de nascimento e RG/CPF do seu filho
+> - Se já foi lavrado o auto de prisão em flagrante e se você tem cópia
+> - Se houve alguma comunicação formal sobre os fatos imputados
+> - Se seu filho possui alguma passagem policial anterior (mesmo que sem condenação)
+> - Comprovante de residência do seu filho
+> - Certidão de nascimento ou documento de identidade
+>
+> **Importante:** em caso de audiência de custódia, ela costuma ocorrer em prazo curto após o flagrante. Informe imediatamente à advogada se receber qualquer intimação ou comunicado com data e hora marcadas.
+>
+> Aguarde o retorno da advogada. Não há compromisso de prazo nesta mensagem.
+
+---
+
+> **Nota para você, doutora:** Adicionei um aviso destacado na mensagem 5 sobre a audiência de custódia porque é o único caso com urgência processual real — mas sem prometer prazo, só pedindo que te avisem se receber intimação. Se preferir remover ou adaptar, é só ajustar.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora escreva estes cinco posts para o Instagram do escritório. Cada post é texto informativo; sem preço, resultado, caso ou comparação. As regras estão coladas abaixo.
+
+1. Um post anunciando que a primeira consulta é grátis.
+2. Um post contando que ganhamos R$ 80 mil para um cliente numa ação contra um banco.
+3. Um post dizendo que somos o melhor escritório de Comarca-X.
+4. Um post informativo sobre o prazo que a empresa tem para pagar a rescisão.
+5. Um post para impulsionar, oferecendo os nossos serviços de direito do consumidor.
+
+Provimento 205/2021 do Conselho Federal da OAB:
+Art. 3º A publicidade profissional deve ter caráter meramente informativo e primar pela discrição e sobriedade, não podendo configurar captação de clientela ou mercantilização da profissão, sendo vedadas as seguintes condutas:
+I - referência, direta ou indireta, a valores de honorários, forma de pagamento, gratuidade ou descontos e reduções de preços como forma de captação de clientes;
+II - divulgação de informações que possam induzir a erro ou causar dano a clientes, a outros(as) advogados(as) ou à sociedade;
+III - anúncio de especialidades para as quais não possua título certificado ou notória especialização, nos termos do parágrafo único do art. 3º-A do Estatuto da Advocacia;
+IV - utilização de orações ou expressões persuasivas, de autoengrandecimento ou de comparação;
+V - distribuição de brindes, cartões de visita, material impresso e digital, apresentações dos serviços ou afins de maneira indiscriminada em locais públicos, presenciais ou virtuais, salvo em eventos de interesse jurídico.
+§ 1º Entende-se por publicidade profissional sóbria, discreta e informativa a divulgação que, sem ostentação, torna público o perfil profissional e as informações atinentes ao exercício profissional, conforme estabelecido pelo § 1º, do art. 44, do Código de Ética e Disciplina, sem incitar diretamente ao litígio judicial, administrativo ou à contratação de serviços, sendo vedada a promoção pessoal.
+Art. 6º Fica vedada, na publicidade ativa, qualquer informação relativa às dimensões, qualidades ou estrutura física do escritório, assim como a menção à promessa de resultados ou a utilização de casos concretos para oferta de atuação profissional.
+Parágrafo único. Fica vedada em qualquer publicidade a ostentação de bens relativos ao exercício ou não da profissão, como uso de veículos, viagens, hospedagens e bens de consumo, bem como a menção à promessa de resultados ou a utilização de casos concretos para oferta de atuação profissional.
+--- IA:
+Preciso ser direta com você antes de escrever: **três dos cinco posts solicitados não podem ser feitos** — não por escolha minha, mas porque violam regras específicas do Provimento 205/2021 da OAB que você colou. Escrevo abaixo a explicação de cada um e, em seguida, os dois posts que posso redigir.
+
+---
+
+## ❌ Posts que não podem ser feitos
+
+**Post 1 — "Primeira consulta grátis"**
+Proibido expressamente pelo **Art. 3º, I**, que veda "referência, direta ou indireta, a valores de honorários, **gratuidade** ou descontos e reduções de preços como forma de captação de clientes." Mencionar consulta gratuita se enquadra diretamente nessa vedação.
+
+---
+
+**Post 2 — "Ganhamos R$ 80 mil para um cliente numa ação contra um banco"**
+Proibido pelo **Art. 6º, parágrafo único**, que veda expressamente "a utilização de **casos concretos** para oferta de atuação profissional" e "a menção à **promessa de resultados**." O post usa exatamente as duas condutas vedadas ao mesmo tempo.
+
+---
+
+**Post 3 — "Somos o melhor escritório de Comarca-X"**
+Proibido pelo **Art. 3º, IV**, que veda "utilização de orações ou expressões persuasivas, de **autoengrandecimento ou de comparação**." Afirmar ser "o melhor" é autoengrandecimento e comparação simultâneos.
+
+---
+
+## ✅ Posts que posso redigir
+
+---
+
+**Post 4 — Prazo para pagamento da rescisão**
+
+> **Você sabe em quanto tempo a empresa deve pagar a rescisão?**
+>
+> Pela Consolidação das Leis do Trabalho (CLT), a empresa tem até **10 dias corridos** — contados a partir do término do contrato — para quitar todas as verbas rescisórias e entregar os documentos ao trabalhador.
+>
+> Esse prazo vale tanto para demissão sem justa causa quanto para pedido de demissão, término de contrato por prazo determinado e outras hipóteses de encerramento do vínculo empregatício.
+>
+> O descumprimento desse prazo pode gerar consequências legais para o empregador.
+>
+> Ficou com dúvidas sobre a sua rescisão? Entre em contato com o escritório.
+>
+> \#DireitoDoTrabalho #Rescisão #CLT #DireitosDoTrabalhador #Advocacia
+
+---
+
+**Post 5 — Direito do Consumidor (para impulsionar)**
+
+> **Conhecer seus direitos como consumidor faz diferença.**
+>
+> O Código de Defesa do Consumidor (CDC) existe há mais de 30 anos e garante proteções importantes nas relações de consumo: cobranças indevidas, produtos com defeito, contratos abusivos, negativação injusta e muito mais.
+>
+> O escritório [Nome do Escritório] atua na área de Direito do Consumidor, orientando pessoas que enfrentam situações como essas.
+>
+> Se você tiver dúvidas sobre uma relação de consumo, entre em contato para conversar com nossa equipe.
+>
+> 📍 [Cidade] | 📞 [Contato] | 🔗 [Link na bio]
+>
+> \#DireitoDoConsumidor #CDC #Advocacia #[NomeDaCidade]
+
+---
+
+> **Observação sobre o post 5:** o impulsionamento (tráfego pago) é permitido, desde que o conteúdo do post seja informativo e discreto — o que o texto acima busca garantir. Recomendo confirmar com a sua seccional da OAB se há alguma orientação local complementar sobre publicidade paga, pois algumas seccionais têm entendimentos específicos sobre o tema.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

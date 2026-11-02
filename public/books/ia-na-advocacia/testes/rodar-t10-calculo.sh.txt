@@ -1,0 +1,174 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# t10. Cálculo trabalhista e cível (capítulo 10), 13/10/2026, Claude (agente do grupo t10–t13, PLANO.md "Os grupos").
+# Método e configuração de ../../../ia-na-sala-de-aula/research/testes/rodar-t07c-t11d.sh e rodar-t00-bilhete.sh:
+# configuração neutra (pasta vazia, sem ferramentas, sem MCP, sem configurações do usuário, instrução de sistema
+# mínima), saída JSON em json/, MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t10.txt.
+# 3 conversas com o prompt natural (N1-N3) e 3 com o prompt do capítulo (C1-C3), uma mensagem por conversa.
+# O GABARITO abaixo foi escrito ANTES de rodar, com as contas feitas antes (python, Decimal, 13/10/2026).
+#
+# FONTES DO GABARITO (todas [V]; linha = linha do .txt da cópia):
+#  - CC, art. 389, parágrafo único, e art. 406, §§ 1º e 3º, Lei 14.905/2024 (../fontes-2026-10-09/d-cc-2002-compilado.txt,
+#    l. 3044-3048, 3152-3185); efeitos desde 30/08/2024 (DOU de 01/07/2024 + 60 dias, conta nossa pela LC 95;
+#    ../lacunas.md §3; a SDI-1 diz a mesma data, ../lacunas.md "Leituras de 13/10/2026" §2).
+#  - CC, art. 406 antigo e art. 1.336, § 1º, antigo (../fontes-2026-10-13/i-planalto-cc-l10406.txt, l. 1881, 5934, 5936).
+#  - Lei 8.213, art. 41-A (../fontes-2026-10-09/t-lei-8213-1991.txt, l. 1503-1509).
+#  - EC 113, art. 3º, na redação da EC 136 (../fontes-2026-10-09/t-ec-113-2021-compilada.txt, l. 218-230), EC 136 em
+#    vigor na publicação, DOU de 10/09/2025 (t-ec-136-2025.txt, l. 454, 488); ADCT, art. 97, §§ 16 e 16-A, "A partir de
+#    1º de agosto de 2025" (t-ec-136-2025.txt, l. 196-205) (P-21).
+#  - ADC 58, mérito, item 7, e ED ("a partir do ajuizamento da ação") (i-stf-adc-58-acordao.txt, l. 182-189;
+#    i-stf-adc-58-ed-acordao.txt, l. 119-122); TST, SDI-1, E-ED-RR-713-03.2010.5.04.0029, dispositivo
+#    (i-tst-sdi1-e-ed-rr-713-2010-acordao.txt, l. 199).
+#  [NV, fora do gabarito, "não conferível" se a IA falar]: a taxa do art. 406 antigo para a dívida cível comum segundo o
+#  STJ (Selic ou 1% com o CTN); o índice de correção da dívida cível e do condomínio antes de 30/08/2024 (o texto antigo do
+#  art. 389 diz só "índices oficiais regularmente estabelecidos"); o valor dos juros do art. 39, caput, da Lei 8.177 (lei
+#  não lida); o regime do requisitório federal antes da EC 136 (a redação original do art. 3º da EC 113 não está nas
+#  cópias); a metodologia do CMN/BC para a taxa legal (art. 406, § 2º); o cálculo pro rata do primeiro reajuste do benefício.
+#
+# MATERIAL: taxas mensais FICTÍCIAS (rotuladas assim no material), constantes: IPCA 0,40%; IPCA-E 0,45%; INPC 0,35%;
+# TR 0,10%; Selic 0,90%, exceto nov/2024 e dez/2024, Selic 0,30% (ali Selic − IPCA = −0,10%: o juro do período novo é 0).
+# Convenção de conta escrita no material (igual nas duas variantes; não é regra de lei): meses inteiros; correção =
+# produto dos fatores mensais; juros e Selic = soma simples das taxas mensais, aplicada sobre o valor corrigido no fim do
+# período; o valor do fim de um período é a base do seguinte. O mês de agosto de 2024 conta no período antigo no
+# gabarito; pôr agosto de 2024 no período novo NÃO é erro (o corte é 30/08; a diferença é de centavos).
+#
+# GABARITO (por resposta, por conta e por período). "Erro de regra" é o que está abaixo como erro; nada mais entra.
+#  CONTA 1 (cível; mútuo de R$ 10.000,00 vencido em 31/01/2023; fev/2023 a set/2026).
+#   P1 fev/2023-ago/2024 (19 meses). CERTO: a taxa do art. 406 antigo ("mora dos impostos devidos à Fazenda Nacional")
+#     identificada como a Selic, sem correção somada; ou a regra citada pela letra. NÃO CONFERÍVEL: 1% ao mês (com ou sem
+#     CTN, art. 161, § 1º), com ou sem correção; Selic somada a um índice de correção. ERRO: TR; juro negativo.
+#   P2 set/2024-set/2026 (25 meses). CERTO: IPCA (fator 1,004^25 = 1,104950) + taxa legal Selic − IPCA = 0,50% em 23
+#     meses e 0 em nov e dez/2024 (11,50%). ERRO: Selic pura; 1% ao mês; TR; IPCA-E ou INPC no lugar do IPCA; juro
+#     negativo (−0,10% usado em nov e dez/2024); corte em outra data que não 30/08/2024 (agosto de 2024 em qualquer lado
+#     não conta).
+#   RESULTADO: 10.000 × 1,171 = 11.710,00 no fim de ago/2024; × 1,104950 × 1,115 = R$ 14.426,95. Certo se entre
+#     14.383,67 e 14.470,23 (±0,3%). Referências de erro: Selic pura no P2, 14.204,23; juro negativo, 14.401,07 (CABE
+#     na tolerância: só a contagem de regra pega); 1% + IPCA no P1 e regra nova no P2, 15.816,31 (não conferível no P1).
+#     Se a resposta usar no P1 uma regra "não conferível", o resultado é "não conferível".
+#  CONTA 2 (condomínio; cota de R$ 800,00 vencida em 31/03/2024; abr/2024 a set/2026; convenção sem juros nem índice;
+#   multa de 2% prevista).
+#   P1 abr-ago/2024 (5 meses). CERTO: juros de 1% ao mês (art. 1.336, § 1º, redação antiga). Correção no P1: NÃO
+#     CONFERÍVEL (qualquer índice oficial), salvo TR = ERRO. ERRO: juros pela taxa legal ou Selic no P1 sem dizer o 1%;
+#     juros acima de 1%.
+#   P2 set/2024-set/2026. CERTO: IPCA + taxa legal (0 em nov e dez/2024). ERRO: 1% ao mês no P2; Selic pura; juro negativo.
+#   MULTA: 2% uma vez. ERRO: multa acima de 2%; multa mensal.
+#   RESULTADO: não conferido (a correção do P1 é não conferível). Só informativo: 1.055,76 sem multa com IPCA no P1.
+#  CONTA 3 (previdência; DIB 01/01/2024; RMI R$ 3.000,00; reajustes de jan/2025 e jan/2026).
+#   CERTO: INPC (Lei 8.213, art. 41-A), 12 meses em cada reajuste: 3.000 × 1,0035^24 = R$ 3.262,41 (jan/2025:
+#     3.128,45). Certo se entre 3.252,62 e 3.272,20. ERRO: IPCA (daria 3.301,64); IPCA-E; TR; reajuste pelo salário
+#     mínimo. Primeiro reajuste com menos de 12 meses (pro rata): NÃO CONFERÍVEL.
+#  CONTA 4 (RPV federal de R$ 50.000,00 expedida em 01/10/2025, não paga; out/2025 a set/2026, 12 meses).
+#   CERTO: IPCA + juros simples de 2% ao ano (EC 113, art. 3º, redação da EC 136, em vigor desde 10/09/2025), Selic como
+#     teto (§ 1º): 1,004^12 = 1,049070; × 1,02 = 7,005% < Selic do período 10,80%, o teto não se aplica.
+#     50.000 × 1,049070 × 1,02 = R$ 53.502,58. Certo se entre 53.342,07 e 53.663,09.
+#   ERRO: "Selic uma única vez" (EC 113 sem a EC 136; daria 55.400,00); IPCA-E, TR ou poupança; juros de 6% ou 12% ao
+#     ano; dizer que a EC 136 ainda não vale. ANOTADO: se a resposta menciona e confere o teto da Selic.
+#  CONTA 5 (RPV contra o Município de Comarca-X, R$ 30.000,00, expedida em 01/09/2025, não paga; set/2025 a set/2026,
+#   13 meses).
+#   CERTO: a mesma regra, IPCA + 2% ao ano simples, teto Selic, desde 01/08/2025 (ADCT, art. 97, §§ 16 e 16-A):
+#     1,004^13 × (1 + 2,1667%) = 7,609% < Selic 11,70%. 30.000 × ... = R$ 32.282,62. Certo se entre 32.185,77 e
+#     32.379,47.
+#   ERRO: a EC 136 tratada como só federal ou o município fora da regra nova; "Selic uma única vez" (33.510,00); a regra
+#     nova só a partir de 10/09/2025 para o município (o texto diz 01/08/2025).
+#  CONTA 6 (trabalhista; verbas de R$ 20.000,00 devidas em 31/10/2022; ajuizamento em 01/03/2023; citação em 01/05/2023;
+#   nov/2022 a set/2026).
+#   P0 nov/2022-fev/2023 (4 meses, pré-judicial). CERTO: IPCA-E (1,0045^4 = 1,018122) acrescido dos juros do art. 39,
+#     caput, da Lei 8.177 (a taxa desses juros é NÃO CONFERÍVEL; TR/TRD como juros, não conferível). ERRO: TR como
+#     correção; IPCA no lugar do IPCA-E; omitir os juros da fase pré-judicial; Selic na fase pré-judicial.
+#   P1 mar/2023-ago/2024 (18 meses, do ajuizamento a 29/08/2024). CERTO: só a Selic (16,20%), sem índice somado.
+#     ERRO: Selic a partir da citação (o mérito da ADC 58 dizia citação, corrigido nos ED para o ajuizamento: conta como
+#     erro de marco, com a nota); Selic somada a IPCA-E ou IPCA (bis in idem, item 7); TR; 1% ao mês; IPCA-E no período
+#     judicial.
+#   P2 set/2024-set/2026. CERTO: IPCA + (Selic − IPCA), 0 em nov e dez/2024. ERRO: Selic pura; IPCA-E; juro negativo; 1%.
+#   Dizer "art. 406, parágrafo único" (como o acórdão da SDI-1) não é erro; o certo é o § 1º.
+#   RESULTADO: com juros pré-judiciais pela TR (0,40%): 20.443,89 → 23.755,80 → R$ 29.267,61; sem eles: 20.362,44 →
+#     23.661,15 → R$ 29.151,01. Certo se entre 29.063,56 e 29.355,41 (±0,3% de um ou de outro). Referências de erro:
+#     TR + 1% ao mês em tudo, 30.814,06; Selic pura do ajuizamento até o fim, 28.110,34; Selic desde a citação,
+#     29.132,07 (CABE na tolerância: só a contagem de regra pega).
+#  POR RESPOSTA: "passa" = nenhum ERRO de regra nas seis contas. Conta-se também: quantas contas têm número final (de 6);
+#   resultados certos (de 5 conferíveis: 1, 3, 4, 5, 6); concordância das 3 rodadas por conta (mesmo resultado ±0,3%).
+#  ANOTADO (sem passa/não passa): avisa que as taxas são fictícias ou que não conferiu índice real; manda conferir na
+#   calculadora do tribunal; a conta confere com a regra que a própria resposta escolheu; pede dado que falta.
+#
+# O QUE MUDA DE UMA VARIANTE PARA OUTRA (duas coisas; a análise não separa qual fez o efeito):
+#  1) a frase "Monte a planilha com a fórmula, período a período; não me dê o número de cabeça." no fim do pedido;
+#  2) o bloco "As regras de cada período (texto colado)" depois do material.
+#  O pedido natural, o material e a convenção de conta são os mesmos, palavra por palavra.
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t10.txt 2>&1
+claude --version >> modelo-t10.txt 2>&1
+
+# conversa ROTULO PREFIXO_JSON "mensagem": a função de rodar-t07c-t11d.sh do vol. 7, lida de lá sem mudança
+eval "$(sed -n '/^conversa() {/,/^}/p' ../../../ia-na-sala-de-aula/research/testes/rodar-t07c-t11d.sh)"
+
+PEDIDO_N='Atualize estas seis contas e me dê o valor de cada uma em setembro de 2026 (na conta 3, a renda mensal depois do reajuste de janeiro de 2026).'
+PEDIDO_C="$PEDIDO_N Monte a planilha com a fórmula, período a período; não me dê o número de cabeça."
+
+MATERIAL=$(cat <<'FIM'
+TAXAS MENSAIS (FICTÍCIAS, inventadas para este exercício; não são os índices reais)
+- De janeiro de 2022 a setembro de 2026, em todos os meses: IPCA 0,40%; IPCA-E 0,45%; INPC 0,35%; TR 0,10%; Selic 0,90%.
+- Exceção: em novembro de 2024 e em dezembro de 2024, a Selic foi de 0,30% (os outros índices não mudam).
+
+CONVENÇÃO DESTA CONTA (vale para todas as contas)
+- Meses inteiros; cada conta corre do mês indicado até setembro de 2026, inclusive.
+- Correção monetária: multiplique os fatores mensais.
+- Juros (e a Selic, quando usada): some as taxas mensais (juros simples), aplicadas sobre o valor já corrigido no fim do período.
+- Quando a regra mudar no meio da conta, o valor do fim de um período é a base do período seguinte.
+
+CONTA 1 (cível). Mútuo entre particulares de R$ 10.000,00, vencido em 31/01/2023 e não pago. O contrato não fixa índice de correção nem taxa de juros. Correr de fevereiro de 2023 a setembro de 2026.
+
+CONTA 2 (condomínio). Cota condominial de R$ 800,00, vencida em 31/03/2024 e não paga. A convenção do condomínio não fixa índice de correção nem juros; prevê multa de 2%. Correr de abril de 2024 a setembro de 2026.
+
+CONTA 3 (previdência). Aposentadoria do Regime Geral com data de início em 01/01/2024 e renda mensal inicial de R$ 3.000,00 (acima do salário mínimo). Qual a renda mensal depois dos reajustes anuais de janeiro de 2025 e de janeiro de 2026?
+
+CONTA 4 (requisitório federal). RPV contra a União, de R$ 50.000,00, expedida em 01/10/2025 e ainda não paga. Correr de outubro de 2025 a setembro de 2026.
+
+CONTA 5 (requisitório municipal). RPV contra o Município de Comarca-X, de R$ 30.000,00, expedida em 01/09/2025 e ainda não paga. Correr de setembro de 2025 a setembro de 2026.
+
+CONTA 6 (trabalhista). Verbas rescisórias de R$ 20.000,00, devidas em 31/10/2022 e não pagas. A reclamação trabalhista foi ajuizada em 01/03/2023; a reclamada foi citada em 01/05/2023. Correr de novembro de 2022 a setembro de 2026.
+FIM
+)
+
+REGRAS=$(cat <<'FIM'
+AS REGRAS DE CADA PERÍODO (texto colado)
+
+1. Código Civil, desde 30/08/2024 (Lei 14.905/2024, publicada no DOU de 01/07/2024; estes dispositivos produzem efeitos 60 dias depois da publicação):
+- Art. 389, parágrafo único: "Na hipótese de o índice de atualização monetária não ter sido convencionado ou não estar previsto em lei específica, será aplicada a variação do Índice Nacional de Preços ao Consumidor Amplo (IPCA), apurado e divulgado pela Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), ou do índice que vier a substituí-lo."
+- Art. 406: "Quando não forem convencionados, ou quando o forem sem taxa estipulada, ou quando provierem de determinação da lei, os juros serão fixados de acordo com a taxa legal." § 1º "A taxa legal corresponderá à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic), deduzido o índice de atualização monetária de que trata o parágrafo único do art. 389 deste Código." § 3º "Caso a taxa legal apresente resultado negativo, este será considerado igual a 0 (zero) para efeito de cálculo dos juros no período de referência."
+- Art. 1.336, § 1º: "O condômino que não pagar a sua contribuição ficará sujeito à correção monetária e aos juros moratórios convencionados ou, não sendo previstos, aos juros estabelecidos no art. 406 deste Código, bem como à multa de até 2% (dois por cento) sobre o débito."
+
+2. Código Civil, redação anterior (até 29/08/2024):
+- Art. 406: "Quando os juros moratórios não forem convencionados, ou o forem sem taxa estipulada, ou quando provierem de determinação da lei, serão fixados segundo a taxa que estiver em vigor para a mora do pagamento de impostos devidos à Fazenda Nacional."
+- Art. 1.336, § 1º: "O condômino que não pagar a sua contribuição ficará sujeito aos juros moratórios convencionados ou, não sendo previstos, os de um por cento ao mês e multa de até dois por cento sobre o débito."
+
+3. Lei 8.213/1991, art. 41-A: "O valor dos benefícios em manutenção será reajustado, anualmente, na mesma data do reajuste do salário mínimo, pro rata, de acordo com suas respectivas datas de início ou do último reajustamento, com base no Índice Nacional de Preços ao Consumidor - INPC, apurado pela Fundação Instituto Brasileiro de Geografia e Estatística - IBGE."
+
+4. Requisitório federal: EC 113/2021, art. 3º, na redação da EC 136/2025 (publicada e em vigor em 10/09/2025): "Nos requisitórios que envolvam a Fazenda Pública federal, a partir da sua expedição até o efetivo pagamento, a atualização monetária será feita pela variação do Índice Nacional de Preços ao Consumidor Amplo (IPCA), e, para fins de compensação da mora, incidirão juros simples de 2% a.a. (dois por cento ao ano), vedada a incidência de juros compensatórios. § 1º Caso o percentual a ser aplicado a título de atualização monetária e juros de mora, apurado na forma do caput deste artigo, seja superior à variação da taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic) para o mesmo período, esta deve ser aplicada em substituição àquele."
+
+5. Requisitório de Estado, DF e Município: ADCT, art. 97, na redação da EC 136/2025: "§ 16. A partir de 1º de agosto de 2025, a atualização de valores de requisitórios expedidos contra os Estados, o Distrito Federal e os Municípios, a partir da sua expedição até o efetivo pagamento, será feita pela variação do Índice Nacional de Preços ao Consumidor Amplo (IPCA), e, para fins de compensação da mora, desde a expedição, incidirão juros simples de 2% a.a. (dois por cento ao ano), ficando excluída a incidência de juros compensatórios. § 16-A. Caso o índice de atualização e juros calculado nos termos do § 16 deste artigo represente valor superior à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic), esta deve ser aplicada em substituição àquele."
+
+6. Trabalho:
+- STF, ADC 58, embargos de declaração (2021): "a incidência do IPCA-E na fase pré-judicial e, a partir do ajuizamento da ação, a incidência da taxa SELIC (art. 406 do Código Civil)". Ementa do mérito, item 7: a Selic "não pode ser cumulada com a aplicação de outros índices de atualização monetária, cumulação que representaria bis in idem".
+- TST, SDI-1, E-ED-RR-713-03.2010.5.04.0029 (julgado em 17/10/2024): "a) o IPCA-E na fase pré-judicial acrescido dos juros de mora (art. 39, caput, da Lei 8.177, de 1991); b) a partir do ajuizamento da ação até 29/08/2024, a taxa SELIC [...]; c) a partir de 30/08/2024, no cálculo da atualização monetária, será utilizado o IPCA (art. 389, parágrafo único, do Código Civil); os juros de mora corresponderão ao resultado da subtração SELIC - IPCA (art. 406, parágrafo único, do Código Civil), com a possibilidade de não incidência (taxa 0), nos termos do § 3º do artigo 406."
+FIM
+)
+
+{ for i in 1 2 3; do conversa "t10-N$i — natural" "t10-N$i" "$PEDIDO_N
+
+$MATERIAL"; done; } > t10-calculo-natural.txt 2>&1 &
+{ for i in 1 2 3; do conversa "t10-C$i — do capítulo" "t10-C$i" "$PEDIDO_C
+
+$MATERIAL
+
+$REGRAS"; done; } > t10-calculo-capitulo.txt 2>&1 &
+wait

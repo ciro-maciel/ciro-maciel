@@ -1,0 +1,621 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t10a, rodado em 09/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:03 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador, tenho um escritório de contabilidade. Apareceram estes seis casos de clientes. O que eu faço em cada um?
+
+1) Cliente novo vai abrir uma distribuidora de bebidas e quer integralizar o capital social de R$ 180.000,00 em dinheiro vivo, depositado no banco em espécie.
+2) Na conciliação de agosto de um cliente do comércio, vi quatro depósitos em dinheiro de R$ 30.000,00 cada, em dias diferentes do mesmo mês, na conta da empresa (R$ 120.000,00 no mês).
+3) Uma empresa aberta há três meses, sem empregado e sem estoque, faturou R$ 2.400.000,00 no trimestre.
+4) O sócio de um cliente é deputado estadual.
+5) Um cliente pediu para eu "não registrar" na contabilidade um recebimento de R$ 60.000,00 em espécie.
+6) Uma pessoa queria contratar o escritório para abrir três empresas em nome de parentes; quando pedi os documentos dos parentes, ela desistiu. Não fechamos contrato.
+--- IA:
+# Análise dos Seis Casos — Obrigações PLD/FT do Contador
+
+> **Base legal principal:** Lei nº 9.613/1998 (Lei de Lavagem de Dinheiro, alterada pela Lei 12.683/2012) e **Resolução CFC nº 1.530/2018**, que tornam o contador uma **pessoa obrigada** a adotar controles de Prevenção à Lavagem de Dinheiro e ao Financiamento do Terrorismo (PLD/FT).
+
+---
+
+## Caso 1 — Integralização de R$ 180.000 em dinheiro vivo
+
+**O que é:** Alto risco. Integralização de capital em espécie é um dos indicadores clássicos de lavagem de dinheiro. Distribuidoras de bebidas figuram em setores historicamente usados para esse fim.
+
+**O que você deve fazer:**
+- Aplicar **diligência reforçada (DDR)**: exigir comprovação da origem dos recursos antes de qualquer ato
+- Se a justificativa for insatisfatória ou não houver comprovação, **recuse o cliente**
+- **Comunique ao COAF via SISCOAF** — a operação tem indicadores objetivos de suspeição (espécie + valor elevado + setor de risco)
+- Documente toda a análise no dossiê do cliente
+
+> ⚠️ **Dever de sigilo:** Após comunicar ao COAF, você **não pode informar ao cliente** que fez essa comunicação (art. 11, III, Lei 9.613/1998). Violá-lo é crime.
+
+---
+
+## Caso 2 — Quatro depósitos de R$ 30.000 em dias distintos = R$ 120.000
+
+**O que é:** **Fracionamento (smurfing/estruturação)** — divisão deliberada de um valor maior em parcelas menores para dificultar a detecção. É um dos indicadores mais consagrados de lavagem.
+
+**O que você deve fazer:**
+- **Comunicar imediatamente ao COAF** — o padrão é uma bandeira vermelha inequívoca
+- Questionar o cliente sobre a origem e a natureza dessas entradas
+- Avaliar a continuidade da relação contratual
+- Registrar toda a investigação interna
+
+---
+
+## Caso 3 — Empresa com 3 meses, sem funcionário, sem estoque, fatura R$ 2,4 milhões
+
+**O que é:** Perfil típico de **empresa de fachada** (*shell company*) ou esquema de **notas fiscais frias**. Não existe operação comercial real que sustente esse faturamento nessas condições.
+
+**O que você deve fazer:**
+- **Comunicar ao COAF** — a incompatibilidade entre estrutura e receita é indicador expresso na Resolução CFC 1.530/2018
+- Recusar-se a escriturar receitas que você não consegue dar suporte documental e econômico
+- **Considerar fortemente o encerramento da relação contratual** — manter esse cliente cria risco criminal para você (participação na lavagem)
+
+---
+
+## Caso 4 — Sócio do cliente é deputado estadual
+
+**O que é:** O deputado estadual é uma **Pessoa Politicamente Exposta (PPE)**, conforme definição da legislação brasileira (Resolução COAF e normas do BACEN). Isso não proíbe a relação, mas exige controles adicionais.
+
+**O que você deve fazer:**
+- **Classificar formalmente como cliente PPE** nos seus controles internos
+- Aplicar **diligência reforçada permanente**: identificar origem do patrimônio e das fontes de renda
+- Obter aprovação de nível gerencial sênior para manutenção do relacionamento
+- Monitoramento contínuo e mais frequente das movimentações
+- Manter dossiê atualizado com toda a documentação
+
+> A condição de PPE **não cessa com o mandato** — persiste por **5 anos** após o exercício da função.
+
+---
+
+## Caso 5 — Cliente pediu para "não registrar" recebimento de R$ 60.000 em espécie
+
+**O que é:** Pedido direto para a prática de **fraude contábil e crime de lavagem de dinheiro**. Se você atender, torna-se **coautor ou partícipe**.
+
+**O que você deve fazer:**
+- **Recuse-se imediatamente e por escrito** (e-mail, carta)
+- **Comunique ao COAF** — a proposta em si já é um indicador de operação suspeita, independentemente de ter sido executada
+- **Encerre o contrato** com esse cliente — manter a relação após essa proposta é um risco grave
+- **Não informe ao cliente** que fez a comunicação ao COAF
+
+> Um contador que atende esse pedido pode responder por **lavagem de dinheiro** (pena: 3 a 10 anos + multa) e por **infração ética** ao CRC, com cassação do registro.
+
+---
+
+## Caso 6 — Pessoa que desistiu ao ser pedida a documentação dos "parentes"
+
+**O que é:** Tentativa clássica de uso de **laranjas/testas de ferro** para constituição de empresas. A desistência imediata ao ser solicitada documentação é, por si só, um forte indicativo de intenção ilícita.
+
+**O que você deve fazer:**
+- Mesmo **sem contrato assinado**, **registre e documente** tudo: data, nome da pessoa, o que foi pedido, como ela reagiu
+- **Avalie comunicar ao COAF** — a Lei 9.613/1998 e a Resolução CFC 1.530/2018 abrangem **tentativas** de operações suspeitas, não apenas operações consumadas
+- Não aceite esse cliente se ela retornar
+
+---
+
+## Quadro-Resumo
+
+| Caso | Risco Principal | Ação Imediata | Comunicar COAF? |
+|------|----------------|---------------|-----------------|
+| 1 | Capital em espécie | DDR + questionar origem | ✅ Sim |
+| 2 | Fracionamento | Investigar + documentar | ✅ Sim |
+| 3 | Empresa fantasma | Recusar escrituração | ✅ Sim |
+| 4 | PPE (Deputado) | DDR reforçada contínua | ⚠️ Se houver suspeição |
+| 5 | Pedido de fraude | Recusar + encerrar contrato | ✅ Sim |
+| 6 | Laranja/testa de ferro | Documentar + não contratar | ✅ Avaliar comunicar |
+
+---
+
+## Lembrete Final Importante
+
+> A Resolução CFC 1.530/2018 exige que seu escritório tenha uma **Política Interna de PLD/FT** formalizada, com cadastro de clientes (KYC), avaliação de risco, treinamento e um responsável designado. Se ainda não tiver isso estruturado, é o momento de regularizar — a ausência de controles internos é, ela mesma, uma infração passível de sanção pelo CRC.
+
+Se precisar de ajuda para montar essa política ou os procedimentos internos, posso ajudar.
+
+--- Você:
+No caso 5, posso avisar o cliente que vou ter de comunicar, para ele não ser pego de surpresa? E se no fim do ano eu não tiver comunicado nada, preciso fazer alguma coisa?
+--- IA:
+# Duas Perguntas Importantes — Respostas Diretas
+
+---
+
+## 1. Pode avisar o cliente que vai comunicar ao COAF?
+
+### **Não. É expressamente proibido por lei.**
+
+Isso se chama ***tipping off*** (vedação de "dar a dica"), e está previsto no **art. 11, inciso III, da Lei 9.613/1998**:
+
+> *"É proibido dar ciência ao envolvido, ou a terceiros, de que a comunicação foi ou será feita ao COAF."*
+
+Não importa a intenção — avisar o cliente, mesmo que "por gentileza", é uma **infração legal**. O motivo da norma é evitar exatamente que o suspeito:
+- destrua provas
+- fuja ou transfira bens
+- articule uma versão antes de ser investigado
+
+### Consequências de violar essa proibição:
+
+| Esfera | Consequência |
+|--------|-------------|
+| **Administrativa** | Multa, suspensão ou cassação pelo CRC |
+| **Civil** | Responsabilização por danos |
+| **Criminal** | Pode configurar favorecimento ou obstrução de investigação |
+
+> 🔴 **Regra prática:** Feita a comunicação ao COAF, ela existe apenas entre você e o órgão. Ponto final.
+
+---
+
+## 2. Se não comunicou nada no ano, precisa fazer algo?
+
+### **Sim. É obrigatória a "Comunicação de Não Ocorrência".**
+
+A **Resolução CFC 1.530/2018** exige que todo contador obrigado informe ao COAF, **mesmo que não tenha identificado nenhuma operação suspeita durante o ano**, que isso de fato não ocorreu.
+
+Isso se chama **Declaração de Não Ocorrência** (ou comunicação negativa), feita via **SISCOAF**.
+
+### Como funciona:
+
+```
+Período coberto:  1º de janeiro a 31 de dezembro do ano corrente
+Prazo para envio: até 31 de janeiro do ano seguinte
+Sistema:          SISCOAF (siscoaf.fazenda.gov.br)
+```
+
+Como hoje é **outubro de 2026**, você ainda está dentro do ano. Se até **31/12/2026** não houver nenhuma comunicação, você deverá acessar o SISCOAF e registrar a não ocorrência até **31/01/2027**.
+
+### Por que isso existe?
+
+Para que o COAF saiba que você **está ativo, monitorando e simplesmente não encontrou nada** — e não que você está ignorando as obrigações. O silêncio sem declaração é interpretado como **omissão**, não como "não houve nada a reportar".
+
+---
+
+## Resumo dos dois pontos
+
+| Pergunta | Resposta | Base Legal |
+|----------|----------|------------|
+| Posso avisar o cliente sobre a comunicação? | ❌ Nunca | Art. 11, III, Lei 9.613/1998 |
+| Sem comunicações no ano, preciso fazer algo? | ✅ Sim — declaração de não ocorrência até 31/jan | Resolução CFC 1.530/2018 |
+
+---
+
+> 💡 **Dica prática:** Coloque no seu calendário anual um lembrete para **janeiro**, checando se houve ou não comunicações ao COAF durante o ano anterior. É uma obrigação simples, mas a omissão é punível.
+
+### 2026-10-09 23:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador, tenho um escritório de contabilidade. Apareceram estes seis casos de clientes. O que eu faço em cada um?
+
+1) Cliente novo vai abrir uma distribuidora de bebidas e quer integralizar o capital social de R$ 180.000,00 em dinheiro vivo, depositado no banco em espécie.
+2) Na conciliação de agosto de um cliente do comércio, vi quatro depósitos em dinheiro de R$ 30.000,00 cada, em dias diferentes do mesmo mês, na conta da empresa (R$ 120.000,00 no mês).
+3) Uma empresa aberta há três meses, sem empregado e sem estoque, faturou R$ 2.400.000,00 no trimestre.
+4) O sócio de um cliente é deputado estadual.
+5) Um cliente pediu para eu "não registrar" na contabilidade um recebimento de R$ 60.000,00 em espécie.
+6) Uma pessoa queria contratar o escritório para abrir três empresas em nome de parentes; quando pedi os documentos dos parentes, ela desistiu. Não fechamos contrato.
+--- IA:
+# Prevenção à Lavagem de Dinheiro — 6 Casos Práticos
+
+## Enquadramento Legal
+Você está sujeito à **Lei 9.613/1998** (com as alterações da Lei 12.683/2012) e à **Resolução CFC nº 1.530/2018**, que impõem obrigações de identificação, registro e comunicação ao **COAF** (agora vinculado ao Banco Central). O descumprimento pode gerar responsabilidade civil, administrativa e **criminal**.
+
+---
+
+## Caso 1 — Integralização de R$ 180.000 em dinheiro vivo
+
+**🚩 Red flag:** Integralizar capital social em espécie é atípico e já configura operação suspeita por si só.
+
+**O que fazer:**
+- Aplicar **DDC reforçada** (Devida Diligência do Cliente) antes de qualquer serviço
+- Exigir comprovação detalhada da **origem dos recursos**
+- **Comunicar ao COAF** — tanto pela suspeita quanto pela regra objetiva (operação em espécie acima de R$ 30.000)
+- Se a origem não for satisfatoriamente comprovada, **recusar o cliente**
+
+> ⚠️ Aceitar o cliente sem diligência adequada pode configurar participação no crime.
+
+---
+
+## Caso 2 — Quatro depósitos de R$ 30.000 em dias diferentes (R$ 120.000 no mês)
+
+**🚩 Red flag:** Isso é **fracionamento** (*smurfing*) — técnica clássica de lavagem que consiste em fragmentar valores para tentar evitar controles.
+
+**O que fazer:**
+- **Comunicar ao COAF** imediatamente — o fracionamento intencional é expressamente mencionado como indício de lavagem na Resolução CFC 1.530/2018
+- Documentar a ocorrência no seu controle interno
+- Conversar com o cliente para entender a natureza das entradas, **sem revelar** que fará ou fez a comunicação
+
+> ⚠️ **Proibição de "tipping off"** (art. 11, §2º da Lei 9.613): alertar o cliente de que ele foi reportado ao COAF é **crime**.
+
+---
+
+## Caso 3 — Empresa de 3 meses, sem funcionários, sem estoque, faturou R$ 2,4 mi no trimestre
+
+**🚩 Red flag:** Incompatibilidade flagrante entre a estrutura operacional e o faturamento. Característica clássica de **empresa de fachada** ou **empresa interposta** para lavagem.
+
+**O que fazer:**
+- Investigar a natureza das notas fiscais emitidas, clientes e contratos
+- Solicitar documentação que justifique a receita (contratos, pedidos, prestação de serviços)
+- **Comunicar ao COAF** pela situação suspeita
+- Avaliar seriamente a **continuidade da prestação de serviços**
+
+---
+
+## Caso 4 — Sócio de cliente é Deputado Estadual
+
+**🚩 Atenção especial:** Deputado estadual é **PPE — Pessoa Politicamente Exposta** (Resolução CFC 1.530/2018, art. 2º, §1º).
+
+**O que fazer:**
+- Aplicar **DDC reforçada e contínua** para toda a empresa
+- Obter aprovação de nível hierárquico superior dentro do escritório para aceitar/manter o cliente
+- Monitorar com maior frequência as movimentações e operações
+- Manter registros detalhados de todas as transações
+- **Não há comunicação automática** apenas por ser PPE, mas qualquer operação suspeita deve ser reportada imediatamente
+
+---
+
+## Caso 5 — Cliente pede para "não registrar" recebimento de R$ 60.000 em espécie
+
+**🚩 Red flag crítico:** O cliente está solicitando explicitamente que você **participe de um crime** (omissão contábil dolosa, favorecimento à lavagem, sonegação).
+
+**O que fazer:**
+1. **Recusar imediatamente e por escrito** (guarde o e-mail/mensagem)
+2. **Comunicar ao COAF** — o pedido em si já é fato suspeito comunicável
+3. **Rescindir o contrato** com o cliente — você não pode continuar prestando serviço a quem te pede cumplicidade
+4. Documentar tudo para sua própria proteção
+
+> ❌ Acatar o pedido faz de você **coautor do crime de lavagem de dinheiro** (art. 1º, §2º, I da Lei 9.613/1998).
+
+---
+
+## Caso 6 — Pessoa queria abrir 3 empresas em nome de parentes e sumiu quando pediu documentos
+
+**🚩 Red flag:** Tentativa clássica de uso de **laranjas** (*nominees*). A fuga diante da solicitação de documentos confirma a má-fé.
+
+**O que fazer:**
+- **Comunicar ao COAF mesmo sem ter fechado contrato** — a Lei 9.613/1998 alcança **tentativas de operações suspeitas**, não só operações consumadas
+- Documentar internamente todo o histórico do contato
+- **Não contratar** (o que já não aconteceu)
+
+> ✅ Você agiu corretamente ao pedir os documentos. Agora formalize a comunicação.
+
+---
+
+## Resumo Executivo
+
+| Caso | Comunicar ao COAF? | Aceitar/Manter cliente? |
+|---|---|---|
+| 1 — Capital em espécie | ✅ Sim | ⚠️ Só com origem comprovada |
+| 2 — Fracionamento | ✅ Sim | ⚠️ Com cautela |
+| 3 — Faturamento incompatível | ✅ Sim | ⚠️ Avaliar rescisão |
+| 4 — PPE (Deputado) | ⚠️ Se houver suspeita | ✅ Com DDC reforçada |
+| 5 — Pedido de omissão | ✅ Sim | ❌ Rescindir contrato |
+| 6 — Tentativa de laranjas | ✅ Sim | ❌ Não contratar |
+
+---
+
+## Lembretes Práticos
+
+- **Prazo de comunicação ao COAF:** operações suspeitas devem ser comunicadas **no mesmo dia útil** em que forem identificadas
+- **Sigilo:** nunca informe ao cliente que foi reportado — é crime
+- **Registro:** guarde toda a documentação por **mínimo de 5 anos**
+- **CRC:** seu registro pode ser cassado por omissão nessas obrigações
+
+> 💡 Se ainda não tiver, implante um **Programa de Compliance PLD/FT** no seu escritório com política, cadastro de clientes, monitoramento contínuo e canal de comunicação com o COAF. Além de obrigatório, protege você.
+
+--- Você:
+No caso 5, posso avisar o cliente que vou ter de comunicar, para ele não ser pego de surpresa? E se no fim do ano eu não tiver comunicado nada, preciso fazer alguma coisa?
+--- IA:
+## Pergunta 1 — Posso avisar o cliente antes?
+
+### ❌ Não. Isso é crime.
+
+Isso se chama ***tipping off*** (dar a dica) e é **expressamente proibido** pelo art. 11, §2º da Lei 9.613/1998:
+
+> *"É vedado dar ciência, ao investigado ou a terceiros, de qualquer informação ou comunicação de que trata este artigo."*
+
+Não importa a intenção — "avisar por gentileza", "evitar surpresa", "dar chance de explicar" — **qualquer aviso ao cliente configura violação da lei** e pode ser enquadrado como:
+
+- Embaraço à investigação
+- Favorecimento pessoal
+- Coautoria ou participação na lavagem
+
+---
+
+### Por que a lei é tão rígida nisso?
+
+Porque se o suspeito for avisado, ele pode:
+
+| Consequência | Exemplo |
+|---|---|
+| Destruir provas | Apagar registros, notas, contratos |
+| Movimentar o dinheiro | Transferir para outro lugar antes da investigação |
+| Criar documentação falsa | Inventar justificativas retroativamente |
+| Fugir | Literalmente |
+
+O COAF é uma **unidade de inteligência financeira** — ele não prende ninguém, apenas analisa e, se for o caso, encaminha às autoridades. O seu papel é só comunicar. O que acontece depois não é problema seu — e você não precisa nem saber.
+
+---
+
+### Uma dúvida comum: "E se o cliente perguntar por que estou encerrando o contrato?"
+
+Você pode (e deve) rescindir o contrato, mas **sem explicar o motivo real**. Use uma justificativa neutra:
+
+> *"Estamos reorganizando nossa carteira de clientes e não poderemos dar continuidade ao atendimento."*
+
+Simples. Sem detalhes.
+
+---
+---
+
+## Pergunta 2 — Se não comunicar nada no ano, preciso fazer algo?
+
+### ✅ Sim. Existe a Comunicação Negativa (ou Declaração de Não Ocorrência).
+
+Se durante o ano **nenhum fato comunicável** foi identificado, você ainda assim precisa informar isso ao COAF. Não é opcional.
+
+**Como funciona:**
+
+| Item | Detalhe |
+|---|---|
+| **O que é** | Declaração de que você monitorou seus clientes e não encontrou operações suspeitas ou de comunicação obrigatória |
+| **Onde fazer** | Sistema **SISCOAF** (portal do COAF) |
+| **Prazo** | Até **31 de janeiro** do ano seguinte |
+| **Base legal** | Resolução CFC nº 1.530/2018 + regulamentação COAF |
+
+---
+
+### Para que serve?
+
+Serve para o COAF saber que você **está ativo e monitorando** — e não simplesmente ignorando suas obrigações. É uma forma de o regulador verificar quem está cumprindo o programa de PLD (Prevenção à Lavagem de Dinheiro) e quem está omisso.
+
+---
+
+### O que acontece se não enviar?
+
+> ⚠️ **Sanção administrativa** — o CFC e o COAF podem aplicar multas e, em casos graves, instaurar processo ético-profissional contra o contador.
+
+---
+
+## Resumo das duas respostas
+
+| Situação | O que fazer |
+|---|---|
+| Cliente pede para ser avisado antes da comunicação | ❌ Proibido. Silêncio absoluto. |
+| Você avisa mesmo assim | ❌ Você cometeu um crime |
+| Nenhuma ocorrência no ano | ✅ Enviar Comunicação Negativa até 31/janeiro no SISCOAF |
+| Não envia a Comunicação Negativa | ⚠️ Sujeito a sanção administrativa |
+
+---
+
+> 💡 **Dica prática:** Coloque no calendário do escritório um lembrete para **janeiro de cada ano** — tanto para revisar se houve casos a comunicar quanto para enviar a declaração negativa se não houve. É rápido, mas precisa ser feito.
+
+### 2026-10-09 23:07 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou contador, tenho um escritório de contabilidade. Apareceram estes seis casos de clientes. O que eu faço em cada um?
+
+1) Cliente novo vai abrir uma distribuidora de bebidas e quer integralizar o capital social de R$ 180.000,00 em dinheiro vivo, depositado no banco em espécie.
+2) Na conciliação de agosto de um cliente do comércio, vi quatro depósitos em dinheiro de R$ 30.000,00 cada, em dias diferentes do mesmo mês, na conta da empresa (R$ 120.000,00 no mês).
+3) Uma empresa aberta há três meses, sem empregado e sem estoque, faturou R$ 2.400.000,00 no trimestre.
+4) O sócio de um cliente é deputado estadual.
+5) Um cliente pediu para eu "não registrar" na contabilidade um recebimento de R$ 60.000,00 em espécie.
+6) Uma pessoa queria contratar o escritório para abrir três empresas em nome de parentes; quando pedi os documentos dos parentes, ela desistiu. Não fechamos contrato.
+--- IA:
+# Análise dos Seis Casos — PLD/FT para Escritório de Contabilidade
+
+> **Base legal principal:** Lei nº 9.613/1998 (Lei de Lavagem de Dinheiro, alterada pela Lei nº 12.683/2012) e **Resolução CFC nº 1.530/2017**, que torna os profissionais e escritórios de contabilidade **pessoas obrigadas** perante o COAF.
+
+---
+
+## Caso 1 — Capital social de R$ 180.000 integralizado em dinheiro vivo
+
+### 🔴 Sinal de alerta alto
+
+**O problema:** Integralizar capital social em espécie, especialmente em valor elevado, é um dos principais indícios de lavagem de dinheiro (inserção de dinheiro de origem ilícita no sistema formal via constituição de empresa).
+
+**O que fazer:**
+
+| Ação | Detalhe |
+|------|---------|
+| **KYC reforçado** | Exija documentação completa do sócio e, principalmente, **comprovação da origem dos recursos** (declaração de IR, extratos, escritura de venda de imóvel etc.) |
+| **Avalie a recusa** | Se a origem dos R$ 180 mil não for satisfatoriamente explicada, **você pode e deve recusar o cliente** |
+| **Comunicação ao COAF** | Se mesmo assim decidir prosseguir ou se a operação for concluída com indícios suspeitos, **comunique ao COAF** via sistema SISCOAF |
+| **Registre tudo** | Guarde toda a documentação por no mínimo **5 anos** |
+
+> ⚠️ **Nunca oriente o cliente a depositar parcelado para "não chamar atenção"** — isso configuraria sua participação no crime de estruturação (art. 1º, §1º, V, Lei 9.613/1998).
+
+---
+
+## Caso 2 — Quatro depósitos de R$ 30.000 em dias diferentes (R$ 120.000 no mês)
+
+### 🔴 Sinal de alerta muito alto — "Fracionamento" / *Smurfing*
+
+**O problema:** Depósitos repetidos em valores idênticos, abaixo de limites de comunicação, em dias diferentes, são o **exemplo clássico de estruturação/fracionamento** — prática tipificada como crime autônomo no Brasil (art. 1º, §1º, V, Lei 9.613/1998).
+
+**O que fazer:**
+
+| Ação | Detalhe |
+|------|---------|
+| **Comunicação obrigatória ao COAF** | Esta operação **deve ser comunicada**, independentemente de você ter "certeza" do crime — a suspeita já é suficiente |
+| **Sigilo absoluto** | **Não informe o cliente** sobre a comunicação. O "tipping off" é proibido e pode configurar crime (art. 11, §2º, Lei 9.613/1998) |
+| **Investigue a origem** | Solicite ao cliente esclarecimentos sobre a origem dos recursos — documente a resposta |
+| **Avalie continuidade** | Dependendo da resposta, avalie rescisão do contrato de prestação de serviços |
+
+---
+
+## Caso 3 — Empresa com 3 meses, sem empregado, sem estoque e R$ 2.400.000 faturados
+
+### 🔴 Sinal de alerta crítico — Possível empresa de fachada (*shell company*)
+
+**O problema:** O conjunto **empresa nova + ausência de estrutura operacional + faturamento altíssimo** é um dos indicadores mais clássicos de lavagem de dinheiro ou fraude fiscal. Não há como uma empresa sem empregados e sem estoque gerar R$ 2,4 milhões em serviços/vendas legítimos em 90 dias sem deixar rastros operacionais.
+
+**O que fazer:**
+
+| Ação | Detalhe |
+|------|---------|
+| **Diligência aprofundada** | Exija: contratos com clientes, notas fiscais emitidas, comprovação dos serviços prestados, extratos bancários |
+| **Comunicação ao COAF** | Operação altamente suspeita — **comunicar imediatamente** |
+| **Avalie rescisão** | Se não houver explicação econômica plausível, rescinda o contrato. Continuar prestando serviço pode torná-lo **coautor ou partícipe** |
+| **Não assine demonstrativos sem base** | Assinar balanço ou declaração de empresa fantasma gera responsabilidade civil, fiscal e criminal para você |
+
+---
+
+## Caso 4 — Sócio é Deputado Estadual
+
+### 🟡 Atenção especial — **PEP (Pessoa Exposta Politicamente)**
+
+**O problema:** Não é necessariamente ilícito, mas a Resolução CFC 1.530/2017 exige **procedimentos reforçados** para clientes que são ou têm como sócio uma PEP.
+
+**O que fazer:**
+
+| Ação | Detalhe |
+|------|---------|
+| **Identifique formalmente como PEP** | Registre no cadastro do cliente essa condição |
+| **KYC reforçado e periódico** | Monitore as operações com mais frequência; exija atualização cadastral regular |
+| **Aprovação de nível superior** | A Resolução recomenda que a aceitação/manutenção de PEPs seja aprovada pela direção do escritório |
+| **Monitoramento contínuo** | Qualquer operação fora do padrão deve ser avaliada com mais rigor e pode exigir comunicação ao COAF |
+
+> 💡 Ser PEP não impede de ter contador — mas **sua diligência precisa ser documentalmente maior**.
+
+---
+
+## Caso 5 — Cliente pediu para "não registrar" entrada de R$ 60.000 em espécie
+
+### 🔴 Sinal de alerta máximo — Solicitação direta de prática criminosa
+
+**O problema:** O cliente está pedindo que você **omita um fato contábil**, o que configura:
+- **Falsidade ideológica** (art. 299, CP)
+- **Sonegação fiscal** (Lei 8.137/1990)
+- Potencialmente **lavagem de dinheiro** (Lei 9.613/1998)
+- **Infração ética grave** (CFC)
+
+Se você atender ao pedido, **você comete o crime junto com o cliente.**
+
+**O que fazer:**
+
+| Ação | Detalhe |
+|------|---------|
+| **Recuse imediatamente e por escrito** | Envie e-mail ou notificação formal recusando e explicando que não é possível |
+| **Rescinda o contrato** | Esse cliente não deve permanecer na carteira |
+| **Comunique ao COAF** | A **tentativa** de envolvê-lo em operação suspeita já é comunicável |
+| **Guarde as evidências** | O e-mail/mensagem do pedido é sua prova de que você recusou |
+
+> ⚠️ **Nunca aceite essa solicitação**, independentemente do valor ou da pressão do cliente.
+
+---
+
+## Caso 6 — Pessoa queria abrir 3 empresas em nome de parentes e desistiu ao ser pedida documentação
+
+### 🔴 Sinal de alerta alto — Tentativa de uso de "laranjas" (*nominees*)
+
+**O problema:** O comportamento é o indicador clássico de tentativa de constituição de empresas com **sócios fictícios/laranjas** para ocultar o real beneficiário — prática de lavagem de dinheiro e fraude. A **fuga diante da solicitação de documentos** confirma a suspeita.
+
+**O que fazer:**
+
+| Ação | Detalhe |
+|------|---------|
+| **Não feche o contrato** (já fez certo) | Correto — sem contrato, sem responsabilidade pelo ato |
+| **Comunique ao COAF mesmo assim** | A Resolução CFC 1.530/2017 determina que **tentativas frustradas de operações suspeitas também devem ser comunicadas** |
+| **Documente o ocorrido** | Anote data, nome (se souber), o que foi pedido e a reação à solicitação de documentos |
+| **Não reutilize essa "pista"** | Não indique esse prospect para outro colega |
+
+---
+
+## Resumo Executivo
+
+| Caso | Risco | Ação Principal |
+|------|-------|----------------|
+| 1 – Capital em espécie | 🔴 Alto | KYC + exigir origem + avaliar recusa + COAF |
+| 2 – Depósitos fracionados | 🔴 Muito alto | **Comunicar COAF** + sigilo absoluto |
+| 3 – Empresa fantasma | 🔴 Crítico | **Comunicar COAF** + avaliar rescisão imediata |
+| 4 – Sócio PEP | 🟡 Atenção | Cadastrar como PEP + monitoramento reforçado |
+| 5 – Pedido de omissão | 🔴 Máximo | **Recusar + rescindir + comunicar COAF** |
+| 6 – Tentativa de laranja | 🔴 Alto | **Comunicar COAF** + documentar tentativa |
+
+---
+
+## Obrigações Gerais do Escritório (Resolução CFC 1.530/2017)
+
+Aproveite os casos para revisar se seu escritório tem:
+
+- [ ] **Política de PLD/FT** formalizada por escrito
+- [ ] **Cadastro atualizado** de todos os clientes (KYC)
+- [ ] **Identificação de PEPs** na carteira
+- [ ] **Treinamento** periódico da equipe
+- [ ] **Registro das comunicações** ao COAF
+- [ ] **Canal de denúncias** interno
+
+> 💼 **Recomendação final:** Para os casos 2, 3, 5 e 6, a comunicação ao COAF não é facultativa — é **obrigatória**. O não cumprimento sujeita o profissional a sanções administrativas do CFC e responsabilidade criminal.
+
+Se precisar, consulte também o **CRC do seu estado** e, nos casos mais graves, um advogado criminalista especializado em direito penal econômico antes de tomar decisões sobre rescisão contratual.
+
+--- Você:
+No caso 5, posso avisar o cliente que vou ter de comunicar, para ele não ser pego de surpresa? E se no fim do ano eu não tiver comunicado nada, preciso fazer alguma coisa?
+--- IA:
+# Respostas às Duas Dúvidas do Caso 5
+
+---
+
+## Pergunta 1 — Posso avisar o cliente que vou comunicar ao COAF?
+
+### 🔴 Não. É expressamente proibido por lei.
+
+A Lei nº 9.613/1998 determina, no **art. 11, inciso II**, que as pessoas obrigadas devem comunicar ao COAF:
+
+> *"**abstendo-se de dar ciência de tal ato a qualquer pessoa, inclusive àquela à qual se refira a informação**"*
+
+Ou seja, a proibição é explícita e abrange **qualquer pessoa** — incluindo o próprio cliente envolvido.
+
+### Por que essa regra existe?
+
+Porque o aviso prévio destruiria a utilidade da comunicação. Se o cliente soubesse, poderia:
+- Desfazer rastros e movimentações
+- Destruir documentos
+- Fugir ou articular defesa antes de qualquer investigação
+
+### O que acontece se você avisar?
+
+| Consequência | Detalhe |
+|---|---|
+| **Obstrução de investigação** | Você interfere na efetividade do sistema de PLD |
+| **Cumplicidade** | Pode ser enquadrado como partícipe do crime |
+| **Responsabilidade criminal** | Potencialmente art. 2º ou art. 1º, §2º da própria Lei 9.613/1998 |
+| **Sanção pelo CFC** | Infração ética grave, com risco de cassação de registro |
+
+### Como proceder então?
+
+Você **recusa o pedido**, **rescinde o contrato** e **comunica ao COAF** — tudo isso **sem mencionar ao cliente** que a comunicação está sendo feita ou foi feita. Ponto final.
+
+---
+
+## Pergunta 2 — Se no fim do ano não comuniquei nada, preciso fazer algo?
+
+### ✅ Sim. Existe a "Declaração de Não Ocorrência".
+
+Mesmo que durante o ano **nenhum caso suspeito tenha ocorrido**, a Resolução CFC nº 1.530/2017 determina que o escritório de contabilidade deve enviar ao COAF uma **Comunicação de Não Ocorrência** (também chamada de *declaração negativa*).
+
+### Como funciona na prática:
+
+| Item | Detalhe |
+|---|---|
+| **O que é** | Declaração formal de que no período não foram identificadas operações suspeitas ou obrigações de comunicação |
+| **Onde se faz** | Sistema **SISCOAF** (siscoaf.fazenda.gov.br) |
+| **Prazo** | Até **31 de janeiro** do ano seguinte (referente ao ano anterior) |
+| **Quem deve enviar** | O próprio contador/escritório registrado como pessoa obrigada |
+
+### Por que isso importa?
+
+Porque a ausência de qualquer comunicação — inclusive a negativa — pode ser interpretada como **descumprimento das obrigações de PLD**, sujeitando o profissional a:
+- Multas administrativas
+- Processo no CFC
+- Responsabilização pela omissão
+
+---
+
+## Resumo das Duas Respostas
+
+| Situação | Resposta |
+|---|---|
+| Avisar o cliente sobre comunicação ao COAF | ❌ **Proibido por lei — nunca faça isso** |
+| Não teve nada a comunicar no ano | ✅ **Envie a Declaração de Não Ocorrência até 31/01 via SISCOAF** |
+
+> 💡 **Dica prática:** Coloque um lembrete recorrente no seu calendário para **janeiro de cada ano** — tanto para verificar se há comunicações pendentes quanto para enviar a declaração negativa caso não haja. É uma obrigação simples, mas cuja omissão gera risco desnecessário para o escritório.
+

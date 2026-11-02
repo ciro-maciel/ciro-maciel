@@ -1,0 +1,214 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t03, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t03-N2 — natural
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogada e recebi estas cinco mensagens no WhatsApp do escritório (transcrevi os áudios). Escreva a resposta para eu mandar a cada uma.
+
+1. "Oi, doutora. Fui demitida ontem e hoje descobri que estou grávida de seis semanas. A empresa não sabia. Eles podem fazer isso? O que eu faço?"
+2. "Meu voo de Comarca-X para Brasília foi cancelado na sexta e a companhia só me remarcou para dois dias depois. Perdi uma entrevista de emprego. Quanto eu consigo de indenização?"
+3. "Quero me divorciar. Temos dois filhos, de 4 e 7 anos, e meu marido diz que vai ficar com eles. Ele pode tirar as crianças de mim?"
+4. "Minha mãe teve o auxílio negado, dá para recorrer?"
+5. "Doutora, meu filho foi preso em flagrante agora há pouco, disseram que é por tráfico. Ele tem 19 anos e nunca foi preso. Ele vai ficar preso? O que eu faço?"
+--- IA:
+# Respostas para as mensagens do escritório
+
+---
+
+## 1 — Cliente demitida grávida
+
+> Oi, [nome]! Que notícia difícil e emocionante ao mesmo tempo. Vou te explicar como funciona:
+>
+> A lei brasileira protege a gestante contra demissão desde a *confirmação da gravidez* — e isso vale mesmo que a empresa não soubesse. É a chamada **estabilidade gestante**, garantida pela Constituição e pela Súmula 244 do TST. Como você estava grávida no momento da demissão, a dispensa pode ser considerada nula.
+>
+> Na prática, você tem direito a escolher entre duas opções: **retornar ao emprego** ou receber uma **indenização** equivalente a todos os salários e benefícios do dia da demissão até cinco meses após o parto.
+>
+> O mais importante agora é *não demorar*. Guarde o exame de gravidez com a data e qualquer comunicação sobre a demissão.
+>
+> Você consegue vir ao escritório ainda essa semana para a gente analisar o caso com calma? 🙏
+
+---
+
+## 2 — Voo cancelado e entrevista perdida
+
+> Olá, [nome]! Entendo a frustração — perder uma oportunidade de emprego por causa de uma falha da companhia aérea é muito sério.
+>
+> Sim, você tem base para buscar **indenização por danos morais e materiais**. Pelo Código de Defesa do Consumidor e pelas normas da ANAC, a aérea responde pelos prejuízos causados pelo cancelamento. O valor varia conforme as circunstâncias e costuma ser definido pelo juiz, mas casos assim chegam a valores relevantes, especialmente quando há prova clara do prejuízo.
+>
+> Para o caso ser mais forte, é fundamental guardar tudo: **confirmação da entrevista** (e-mail, mensagem), **comprovante do cancelamento do voo**, a remarcação para dois dias depois e qualquer conversa com a empresa sobre o que aconteceu.
+>
+> Me manda esses documentos quando puder e eu avalio a melhor estratégia. 📋
+
+---
+
+## 3 — Divórcio e guarda dos filhos
+
+> Oi, [nome]! Primeiro, respira — o seu marido *não pode simplesmente "ticar" as crianças de você*. Isso não é algo que ele decide sozinho.
+>
+> No Brasil, a regra hoje é a **guarda compartilhada**: os dois pais exercem a guarda juntos, e a definição de com quem as crianças moram no dia a dia depende de acordo entre vocês ou, se não houver acordo, de uma decisão judicial — que sempre leva em conta o **melhor interesse das crianças**, não os desejos de um ou outro cônjuge.
+>
+> O que é importante *agora*: não tome nenhuma decisão precipitada, não saia de casa sem orientação jurídica e não permita que os filhos sejam levados sem sua concordância.
+>
+> Preciso conversar com você pessoalmente para entender a situação completa e montar a melhor estratégia. Quando você consegue vir? 🗓️
+
+---
+
+## 4 — Auxílio negado para a mãe
+
+> Oi, [nome]! Sim, em praticamente todos os benefícios é possível recorrer da negativa.
+>
+> Para eu te orientar certinho, preciso de algumas informações:
+> — Qual é o **benefício** que foi negado? (INSS por doença/incapacidade, BPC/LOAS, Bolsa Família, outro?)
+> — Qual foi o **motivo** indicado na carta de negativa?
+>
+> Com isso em mãos, a gente verifica se houve algum erro, qual o prazo para recurso (que pode ser curto!) e o caminho mais adequado — administrativo ou judicial.
+>
+> Me manda essas informações assim que puder, tá? ⏳
+
+---
+
+## 5 — Filho preso em flagrante por tráfico
+
+> [Nome], entendo o desespero. Vamos agir agora.
+>
+> A primeira coisa importante: em até **24 horas** após a prisão, obrigatoriamente ocorre a **audiência de custódia**, onde um juiz decide se ele fica preso ou é solto com alguma condição. Preciso estar presente nessa audiência.
+>
+> Sendo primário (sem passagem anterior), isso pesa *muito* a favor dele. Além disso, há uma distinção fundamental na lei: dependendo da quantidade e das circunstâncias, o juiz pode entender que é **porte para uso pessoal** (sem prisão) e não tráfico. Isso precisa ser avaliado com urgência.
+>
+> **Faça agora:**
+> 1. Descubra em qual **delegacia ou unidade** ele está
+> 2. Separe documentos dele: RG, CPF, comprovante de residência, carteira de trabalho
+> 3. Me liga ou me manda mensagem *imediatamente* com essas informações
+>
+> Estou verificando minha agenda para me deslocar o quanto antes. Não fale nada à polícia sem orientação jurídica. 📞
+
+---
+
+> **Obs. para você, doutora:** as respostas estão calibradas para dar tranquilidade e orientação inicial sem criar expectativas de resultado. Sinta-se à vontade para ajustar o tom ou acrescentar informações que só você tem sobre cada cliente. Para a mensagem 4, deixei em aberto até ter mais detalhes — é o mais prudente.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora escreva estes cinco posts para o Instagram do escritório:
+
+1. Um post anunciando que a primeira consulta é grátis.
+2. Um post contando que ganhamos R$ 80 mil para um cliente numa ação contra um banco.
+3. Um post dizendo que somos o melhor escritório de Comarca-X.
+4. Um post informativo sobre o prazo que a empresa tem para pagar a rescisão.
+5. Um post para impulsionar, oferecendo os nossos serviços de direito do consumidor.
+--- IA:
+# Posts para o Instagram do escritório
+
+Antes de entregar os textos, preciso te dar um alerta importante sobre dois dos pedidos — **como advogada, você precisa saber disso antes de publicar**.
+
+---
+
+## ⚠️ Atenção: Posts 2 e 3 têm problema ético
+
+O Código de Ética da OAB e o **Provimento 205/2021** (que regula a publicidade dos advogados) proíbem expressamente:
+
+- **Post 2** → Mencionar valores obtidos em causas, mesmo sem nomear o cliente. É vedado por criar expectativa de resultado e ter caráter sensacionalista/mercantil (art. 39, §1º, IV do CED).
+- **Post 3** → Usar superlativos como *"melhor escritório"*. A norma proíbe expressamente comparações e superlativos (art. 39, §1º, II do CED).
+
+Publicar esses conteúdos como pedido pode gerar **processo disciplinar na OAB**. Abaixo ofereço alternativas que transmitem a mesma mensagem sem infringir as regras.
+
+---
+
+## ✅ Post 1 — Primeira consulta gratuita
+
+> **Sua dúvida não pode esperar. A primeira consulta é gratuita.**
+>
+> Sabemos que buscar um advogado pode parecer difícil — pela insegurança, pelo custo, pelo não saber por onde começar. Por isso, oferecemos a primeira consulta sem nenhum custo.
+>
+> Você fala, a gente escuta e te mostra o caminho.
+>
+> 📍 [Cidade] | 📲 [WhatsApp] | 🔗 Link na bio
+>
+> —
+> *\#primeiraConsultaGratuita \#direitoParaTodos \#advogada \#[cidade]*
+
+---
+
+## ✅ Post 2 — Versão adaptada (sem infringir a OAB)
+
+*Em vez de divulgar o valor ganho, destaque a área e o seu trabalho — o impacto fica claro sem o risco disciplinar.*
+
+> **Banco cobrou indevido? Negativou sem motivo? Isso tem solução.**
+>
+> Ações contra instituições financeiras são uma das nossas especialidades. Cobranças abusivas, juros ilegais, negativação indevida e contratos com cláusulas lesivas são situações que, com a orientação certa, podem ser revertidas na Justiça.
+>
+> Se você está passando por isso, não deixe pra depois. Fale com a gente.
+>
+> 📲 [WhatsApp] | 🔗 Link na bio
+>
+> —
+> *\#direitoBancário \#cobranças Indevidas \#negativaçãoIndevida \#advogada \#[cidade]*
+
+---
+
+## ✅ Post 3 — Versão adaptada (sem superlativo)
+
+*Em vez de "melhor escritório", destaque o que vocês de fato entregam — é mais crível e está dentro das normas.*
+
+> **Atendimento humano, resultado sério.**
+>
+> No [Nome do Escritório], cada cliente é tratado como único. Atuamos em [Comarca-X] com dedicação, clareza e compromisso — porque acreditamos que toda pessoa merece um advogado que realmente escuta.
+>
+> Conte com a gente para resolver o seu caso.
+>
+> 📍 [Comarca-X] | 📲 [WhatsApp] | 🔗 Link na bio
+>
+> —
+> *\#escritórioDeAdvocacia \#[cidade] \#advogada \#direitoNaPrática*
+
+---
+
+## ✅ Post 4 — Prazo para pagamento da rescisão (informativo)
+
+> **Sabia que a empresa tem prazo para pagar sua rescisão?**
+>
+> Pela CLT, após o fim do contrato de trabalho, a empresa tem **10 dias corridos** para quitar todos os valores da rescisão — independentemente do motivo: demissão sem justa causa, pedido de demissão ou acordo.
+>
+> Se esse prazo não for cumprido, a empresa fica sujeita ao pagamento de uma **multa equivalente ao seu salário mensal**.
+>
+> ✅ Aviso prévio
+> ✅ Saldo de salário
+> ✅ Férias + 1/3
+> ✅ 13º proporcional
+> ✅ FGTS + multa de 40%
+>
+> Tudo isso precisa estar na sua conta dentro do prazo. Se não estiver, **você tem direito de cobrar**.
+>
+> Dúvidas? Manda mensagem. 📲
+>
+> —
+> *\#direitoDoTrabalho \#rescisão \#CLT \#direitosTrabalhistas \#advogadaTrabalhista*
+
+---
+
+## ✅ Post 5 — Direito do Consumidor (para impulsionar)
+
+*Post pensado para anúncio pago: linguagem direta, chamada clara, fácil de entender rapidamente no feed.*
+
+> **Você foi lesado como consumidor? A lei está do seu lado.**
+>
+> Produto com defeito e a loja não resolve. Serviço que não foi entregue. Cobrança indevida. Nome negativado por engano. Contrato abusivo.
+>
+> Essas situações são mais comuns do que deveriam — e todas têm solução jurídica.
+>
+> No [Nome do Escritório], atuamos em **Direito do Consumidor** para garantir que você não saia no prejuízo quando uma empresa descumpre a lei.
+>
+> 👉 Primeira consulta gratuita.
+> 📲 Fale agora pelo WhatsApp: [número]
+>
+> —
+> *\#direitoDoConsumidor \#CDC \#consumidor \#advogada \#[cidade]*
+
+---
+
+> **Resumo prático:** os posts 1, 4 e 5 estão prontos para publicar. Para os posts 2 e 3, use as versões adaptadas — elas passam a mesma mensagem com muito menos risco. Se quiser, posso ajustar o tom ou incluir informações específicas do escritório em qualquer um deles.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

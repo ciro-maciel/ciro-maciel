@@ -1,0 +1,1291 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t10b, rodado em 09/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:03 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Revise este contrato que vamos usar com clientes novos.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS CONTÁBEIS
+
+Cláusula 1 – Partes. CONTRATADA: Organização Contábil Pé de Serra Ltda., CNPJ 33.180.746/0001-25, responsável técnico Hélio Damasceno Furtado, CRC fictício 0-000000. CONTRATANTE: Padaria Grão Dourado Ltda., CNPJ 18.904.627/0001-60, representada por sua sócia-administradora Marlene Toscano Vidal, CPF 284.613.957-12.
+
+Cláusula 2 – Serviços. A CONTRATADA prestará, de forma permanente: escrituração contábil e fiscal; apuração do Simples Nacional e emissão do DAS; folha de pagamento e eSocial de até 8 empregados; DCTFWeb; elaboração do balanço anual. De forma eventual, quando pedidos: alteração contratual, certidões negativas e declaração de faturamento.
+
+Cláusula 3 – O que cabe à CONTRATANTE. Enviar até o dia 5 de cada mês os extratos bancários, as notas fiscais de entrada e de saída e as informações da folha (admissões, faltas, horas extras, afastamentos); guardar os documentos originais; pagar os tributos nas datas das guias.
+
+Cláusula 4 – Duração. Prazo indeterminado, a partir de 01/11/2026.
+
+Cláusula 5 – Honorários. Serviços permanentes: R$ 1.250,00 por mês. Serviços eventuais: pelos valores da tabela anexa, um por serviço (alteração contratual R$ 600,00; certidões R$ 80,00 cada; declaração de faturamento R$ 120,00).
+
+Cláusula 6 – Pagamento. Até o dia 10 de cada mês, por boleto.
+
+Cláusula 7 – Reajuste. Anual, em janeiro, pelo IPCA dos doze meses anteriores.
+
+Cláusula 8 – Responsabilidades. A CONTRATADA responde pelos erros técnicos dos serviços que executar. A CONTRATANTE responde pela veracidade e pelo prazo dos documentos e informações que enviar; a CONTRATADA não responde por multa decorrente de documento entregue fora do prazo da cláusula 3.
+
+Cláusula 9 – Aditamento. Mudança de serviços, de número de empregados ou de valores será feita por termo aditivo assinado pelas partes.
+
+Cláusula 10 – Sigilo e dados. As partes manterão sigilo sobre as informações trocadas; a CONTRATADA tratará os dados pessoais dos empregados da CONTRATANTE só para cumprir as obrigações legais da folha.
+
+Cláusula 11 – Foro. Fica eleito o foro da comarca de Caruaru (PE).
+--- IA:
+# Revisão do Contrato de Prestação de Serviços Contábeis
+
+---
+
+## ✅ Pontos Positivos
+
+- A divisão entre serviços **permanentes e eventuais** está bem feita e protege o escritório de demandas não remuneradas.
+- A **cláusula 3** é importante e frequentemente omitida: fixar o dia 5 como prazo do cliente cria base sólida para a cláusula 8 (isenção de multa por atraso).
+- A **cláusula 8** delimita bem as responsabilidades de cada parte.
+- Mencionar **LGPD na cláusula 10** é necessário e correto.
+- O **reajuste pelo IPCA** está adequado e é o mais usual no setor.
+
+---
+
+## 🔴 Problemas Críticos — Corrigir Antes de Usar
+
+### 1. CRC "Fictício"
+O número `0-000000` precisa ser substituído pelo CRC real do responsável técnico. Contratos com dados incorretos de identificação profissional podem gerar questionamentos éticos junto ao CRC e são nulos quanto à identificação da parte.
+
+### 2. Contrato com Dados Específicos Sendo Usado como Template
+O documento já contém nome, CNPJ e CPF reais de uma cliente (Padaria Grão Dourado / Marlene Toscano Vidal). Se for um **modelo para novos clientes**, todos esses campos devem virar variáveis em branco — ex.: `[RAZÃO SOCIAL]`, `[CNPJ]`, `[REPRESENTANTE]`, `[CPF]`. Usar um contrato com dados de outro cliente por descuido gera problema sério de LGPD.
+
+### 3. Ausência de Cláusula de Rescisão
+Esta é a lacuna mais grave. O contrato não diz **como e quando pode ser encerrado**. Recomendo incluir:
+
+> *"Qualquer das partes poderá rescindir este contrato mediante aviso prévio de **30 (trinta) dias** por escrito, sem multa. Na rescisão, a CONTRATADA entregará à CONTRATANTE, no prazo de **15 dias**, os livros, arquivos digitais e documentos sob sua guarda, desde que não haja débito pendente de honorários."*
+
+Sem essa cláusula, qualquer encerramento pode virar litígio.
+
+### 4. Ausência de Penalidades por Atraso no Pagamento
+A cláusula 6 diz apenas "até o dia 10, por boleto". Falta prever o que acontece se o cliente não pagar. Sugestão:
+
+> *"O atraso no pagamento sujeitará a CONTRATANTE a multa de **2%**, juros de mora de **1% ao mês** e correção pelo IGPM, sem prejuízo da suspensão dos serviços após **30 dias** de inadimplência e rescisão após **60 dias**."*
+
+---
+
+## 🟡 Pontos Importantes — Fortemente Recomendados
+
+### 5. Reajuste em Janeiro: Timing Problemático
+O contrato inicia em **01/11/2026**, e o primeiro reajuste seria em **janeiro/2027** — apenas dois meses depois. Considere incluir que o primeiro reajuste só ocorre após **12 meses** do início da vigência:
+
+> *"O primeiro reajuste só incidirá após completados 12 (doze) meses de vigência contratual."*
+
+### 6. LGPD Precisa de Mais Conteúdo
+A cláusula 10 menciona LGPD mas está incompleta. O escritório atua como **operador** (Art. 5º, VII da Lei 13.709/2020) dos dados dos empregados da cliente. Acrescente:
+
+- Identificação explícita das partes como **controladora** (cliente) e **operador** (escritório);
+- Obrigação de notificação de **incidente de segurança** em até 72 horas;
+- Prazo de **retenção e eliminação** dos dados após o encerramento do contrato.
+
+### 7. Prazo de Entrega do Balanço Anual
+A cláusula 2 prevê "elaboração do balanço anual", mas não diz até quando ele será entregue. Inclua algo como: *"até 31 de março do ano subsequente"*, o que é padrão para empresas do Simples.
+
+### 8. Proporcionalidade do Prazo do Escritório
+A cláusula 3 obriga o cliente a enviar documentos até o dia 5. Mas não está previsto que, se o cliente atrasar, os **prazos do escritório se estendem proporcionalmente**. Recomendo adicionar:
+
+> *"O atraso na entrega dos documentos pela CONTRATANTE prorroga os prazos de execução da CONTRATADA pelo mesmo número de dias de atraso."*
+
+### 9. Limite de Empregados e Lacuna de Cobertura
+A cláusula 2 limita a folha a **até 8 empregados**, e a cláusula 9 exige aditivo para mudanças. Mas não está previsto o que o escritório faz se o cliente admitir um 9º empregado antes de assinar o aditivo. Sugestão de previsão:
+
+> *"A prestação de serviços relacionados a empregados que ultrapassem o limite previsto ficará condicionada à formalização de termo aditivo; até sua assinatura, os serviços excedentes poderão ser recusados ou cobrados como eventuais."*
+
+---
+
+## 🟠 Cláusulas Faltantes — Recomendadas
+
+| Lacuna | Por que Incluir |
+|---|---|
+| **Força maior / caso fortuito** | Protege o escritório em situações como quedas de sistemas do governo (e-CAC, eSocial), greves, etc. |
+| **Limitação de responsabilidade** | Mesmo respondendo por erros técnicos, é prudente limitar o valor máximo à indenização a, por exemplo, o total de honorários pagos nos últimos 12 meses. |
+| **Guarda de arquivos digitais** | Definir por quanto tempo o escritório mantém cópias dos arquivos (recomenda-se mínimo de 5 anos, seguindo prazos prescicionais tributários). |
+| **Comunicação oficial** | Definir que notificações e comunicados serão feitos por e-mail com aviso de recebimento, o que facilita provar que o cliente foi comunicado. |
+| **Testemunhas e assinatura digital** | Prever que o contrato pode ser assinado por plataforma digital (DocuSign, ClickSign etc.), com validade pela MP 2.200-2/2001. |
+
+---
+
+## 📋 Resumo das Prioridades
+
+```
+URGENTE (bloqueia o uso do contrato)
+├── Corrigir CRC fictício
+├── Transformar dados específicos em campos variáveis
+└── Incluir cláusula de rescisão
+
+IMPORTANTE (risco jurídico e financeiro)
+├── Incluir multa e juros por inadimplência
+├── Prever suspensão de serviços por falta de pagamento
+├── Corrigir timing do primeiro reajuste
+└── Complementar a cláusula de LGPD
+
+RECOMENDADO (boa prática contratual)
+├── Prazo para entrega do balanço
+├── Proporcionalidade de prazo por atraso do cliente
+├── Tratamento do excesso de empregados
+└── Força maior, limitação de responsabilidade, guarda de arquivos
+```
+
+---
+
+Se quiser, posso redigir as cláusulas corrigidas prontas para inserção no contrato.
+
+--- Você:
+Agora me monta um checklist do cadastro de um cliente novo.
+--- IA:
+# Checklist de Cadastro de Cliente Novo
+
+---
+
+## 1. Documentação da Empresa
+
+- [ ] Contrato Social ou Estatuto Social (última versão consolidada)
+- [ ] Todas as alterações contratuais registradas
+- [ ] Cartão CNPJ atualizado (emitido há no máximo 30 dias)
+- [ ] Inscrição Estadual — IE (se contribuinte de ICMS)
+- [ ] Inscrição Municipal — IM / Alvará de funcionamento
+- [ ] Certidão de enquadramento no Simples Nacional (ou comprovante do regime tributário atual)
+- [ ] Comprovante de endereço da empresa (conta de luz, água ou telefone)
+- [ ] Certificado Digital e-CNPJ (verificar validade; orientar renovação se < 60 dias)
+
+---
+
+## 2. Documentação dos Sócios e Representante Legal
+
+- [ ] RG e CPF de todos os sócios
+- [ ] Comprovante de endereço de cada sócio
+- [ ] Qualificação de cada sócio: nome completo, estado civil, profissão, e-mail, telefone
+- [ ] Certificado Digital e-CPF do sócio-administrador (se necessário para assinaturas)
+
+---
+
+## 3. Situação Fiscal e Tributária
+
+- [ ] Última DEFIS transmitida (ou última declaração do regime anterior)
+- [ ] Últimas 3 guias DAS pagas (verificar adimplência)
+- [ ] Certidão Negativa de Débitos — CND Federal (Receita + PGFN)
+- [ ] CND Estadual
+- [ ] CND Municipal
+- [ ] CND FGTS (Caixa Econômica)
+- [ ] Verificar se há parcelamentos ativos (Simples, FGTS, outros)
+- [ ] Verificar se há pendências no Domicílio Tributário Eletrônico (DTE / e-CAC)
+
+---
+
+## 4. Informações Contábeis e Fiscais Correntes
+
+- [ ] Balancete ou balanço mais recente (se houver escrituração anterior)
+- [ ] Livro Diário e Livro Razão do exercício em curso (ou SPED ECD, se aplicável)
+- [ ] Notas fiscais de entrada e saída dos últimos 3 meses
+- [ ] Extratos bancários dos últimos 3 meses (todas as contas)
+- [ ] Relação de imobilizado (bens do ativo — equipamentos, veículos, imóveis)
+- [ ] Contratos de financiamento ou leasing ativos
+- [ ] Saldo de empréstimos e dívidas bancárias
+
+---
+
+## 5. Folha de Pagamento e eSocial
+
+- [ ] Número de empregados ativos (confirmar enquadramento no contrato — até 8)
+- [ ] Ficha de registro de cada empregado (CTPS, CPF, PIS/NIT, data de admissão, salário, função, CBO)
+- [ ] Comprovante de cadastro no eSocial (verificar se já há empregador cadastrado)
+- [ ] Últimas 3 folhas de pagamento processadas pelo escritório anterior
+- [ ] Últimas guias FGTS (GFIP ou SEFIP) pagas
+- [ ] Últimas guias GPS (INSS) pagas
+- [ ] Férias: relação de férias vencidas, em curso e a vencer
+- [ ] 13º salário: verificar parcelas já pagas no exercício
+- [ ] Afastamentos ativos (INSS, licença maternidade, etc.)
+- [ ] Acordos coletivos ou convenção coletiva aplicável (verificar categoria e sindicato)
+
+---
+
+## 6. Acesso aos Sistemas
+
+- [ ] Procuração eletrônica no e-CAC outorgada ao escritório (perfil completo)
+- [ ] Credencial de acesso ao Simples Nacional / PGDAS outorgada
+- [ ] Acesso ao portal eSocial vinculado ao escritório
+- [ ] Acesso à Nota Fiscal Eletrônica municipal (NFS-e), se aplicável
+- [ ] Acesso ao SEFAZ estadual (NF-e / CT-e), se aplicável
+- [ ] Login e senha do sistema bancário para download de extratos (ou autorização de acesso via Open Finance)
+- [ ] Cadastro do cliente no software de gestão do escritório
+
+---
+
+## 7. Formalização do Contrato e LGPD
+
+- [ ] Contrato de prestação de serviços assinado (duas vias físicas ou assinatura digital)
+- [ ] Tabela de serviços eventuais (anexo do contrato) assinada junto
+- [ ] Termo de consentimento LGPD assinado pelo representante legal
+- [ ] E-mail e WhatsApp oficial do responsável pelo envio dos documentos mensais
+- [ ] Definição do contato interno do cliente (quem vai enviar documentos todo dia 5)
+- [ ] Orientação ao cliente sobre o processo mensal: o que enviar, como enviar e até quando
+
+---
+
+## 8. Verificações Internas do Escritório
+
+- [ ] Pasta do cliente criada no servidor / nuvem (documentos, contratos, arquivos fiscais)
+- [ ] Cliente incluído no agenda de obrigações acessórias do escritório
+- [ ] Alerta de vencimento do certificado digital do cliente cadastrado
+- [ ] Responsável interno (colaborador do escritório) designado para o cliente
+- [ ] Primeiro contato de boas-vindas enviado ao cliente com orientações do fluxo de trabalho
+
+---
+
+## 📌 Observações Práticas
+
+> **Prazo sugerido para conclusão do cadastro:** até 10 dias antes do início da vigência do contrato, para não comprometer as primeiras obrigações.
+
+> **Documentos pendentes:** registrar formalmente o que ainda falta e estipular prazo para o cliente entregar — isso afasta a responsabilidade do escritório por eventuais multas no período de transição.
+
+> **Escritório anterior:** solicitar carta de transferência ou distrato com o contador anterior; em alguns casos é necessário para obter os arquivos digitais (SPED, eSocial, etc.).
+
+---
+
+Quer que eu monte também um modelo de **e-mail de boas-vindas** para enviar ao cliente com as instruções do fluxo mensal?
+
+### 2026-10-09 23:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Revise este contrato que vamos usar com clientes novos.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS CONTÁBEIS
+
+Cláusula 1 – Partes. CONTRATADA: Organização Contábil Pé de Serra Ltda., CNPJ 33.180.746/0001-25, responsável técnico Hélio Damasceno Furtado, CRC fictício 0-000000. CONTRATANTE: Padaria Grão Dourado Ltda., CNPJ 18.904.627/0001-60, representada por sua sócia-administradora Marlene Toscano Vidal, CPF 284.613.957-12.
+
+Cláusula 2 – Serviços. A CONTRATADA prestará, de forma permanente: escrituração contábil e fiscal; apuração do Simples Nacional e emissão do DAS; folha de pagamento e eSocial de até 8 empregados; DCTFWeb; elaboração do balanço anual. De forma eventual, quando pedidos: alteração contratual, certidões negativas e declaração de faturamento.
+
+Cláusula 3 – O que cabe à CONTRATANTE. Enviar até o dia 5 de cada mês os extratos bancários, as notas fiscais de entrada e de saída e as informações da folha (admissões, faltas, horas extras, afastamentos); guardar os documentos originais; pagar os tributos nas datas das guias.
+
+Cláusula 4 – Duração. Prazo indeterminado, a partir de 01/11/2026.
+
+Cláusula 5 – Honorários. Serviços permanentes: R$ 1.250,00 por mês. Serviços eventuais: pelos valores da tabela anexa, um por serviço (alteração contratual R$ 600,00; certidões R$ 80,00 cada; declaração de faturamento R$ 120,00).
+
+Cláusula 6 – Pagamento. Até o dia 10 de cada mês, por boleto.
+
+Cláusula 7 – Reajuste. Anual, em janeiro, pelo IPCA dos doze meses anteriores.
+
+Cláusula 8 – Responsabilidades. A CONTRATADA responde pelos erros técnicos dos serviços que executar. A CONTRATANTE responde pela veracidade e pelo prazo dos documentos e informações que enviar; a CONTRATADA não responde por multa decorrente de documento entregue fora do prazo da cláusula 3.
+
+Cláusula 9 – Aditamento. Mudança de serviços, de número de empregados ou de valores será feita por termo aditivo assinado pelas partes.
+
+Cláusula 10 – Sigilo e dados. As partes manterão sigilo sobre as informações trocadas; a CONTRATADA tratará os dados pessoais dos empregados da CONTRATANTE só para cumprir as obrigações legais da folha.
+
+Cláusula 11 – Foro. Fica eleito o foro da comarca de Caruaru (PE).
+--- IA:
+# Revisão do Contrato de Prestação de Serviços Contábeis
+
+O contrato está bem estruturado para um escritório de pequeno porte e cobre os pontos essenciais. Abaixo aponto os **problemas que precisam ser corrigidos antes de qualquer assinatura**, seguidos de **sugestões de melhoria**.
+
+---
+
+## 🔴 Problemas que exigem correção imediata
+
+### 1. CRC com valor fictício (Cláusula 1)
+O contrato traz `CRC fictício 0-000000`. Isso precisa ser substituído pelo número real de registro do responsável técnico no CRC de Pernambuco. Um contrato assinado com esse dado inconsistente pode gerar questionamentos sobre a validade do vínculo profissional.
+
+### 2. Falta de endereço das partes (Cláusula 1)
+Não há endereço completo de nenhuma das partes. Isso é essencial para:
+- Identificar a comarca competente (reforça o foro eleito na Cláusula 11);
+- Validade formal do instrumento particular;
+- Eventual cobrança judicial.
+
+**Sugestão de texto:** acrescentar após cada qualificação — *"com sede à [endereço completo], CEP XXXXX-XXX"*.
+
+### 3. Ausência total de cláusula de rescisão
+Este é o ponto mais crítico. O contrato não prevê **como ele pode ser encerrado**. Sem isso:
+- O cliente pode simplesmente parar de pagar sem qualquer consequência contratual clara;
+- O escritório não tem base para cobrar aviso prévio.
+
+**Sugestão de cláusula a incluir:**
+
+> **Cláusula X – Rescisão.** Qualquer das partes poderá resilir este contrato mediante aviso escrito com antecedência mínima de **30 (trinta) dias**. A rescisão não dispensa o pagamento dos honorários dos serviços já executados ou em andamento. Em caso de inadimplemento superior a **30 (trinta) dias**, a CONTRATADA poderá suspender os serviços e rescindir o contrato imediatamente, sem prejuízo da cobrança dos valores em aberto. Rescindido o contrato, a CONTRATADA colocará à disposição da CONTRATANTE toda a documentação contábil e fiscal que lhe pertence, no prazo de **15 (quinze) dias**.
+
+### 4. Sem multa e juros por atraso de pagamento (Cláusula 6)
+O contrato define a data de pagamento, mas não prevê nenhuma consequência para o atraso. Isso enfraquece a posição do escritório em uma cobrança.
+
+**Sugestão:** acrescentar ao final da Cláusula 6 —
+> *"O atraso no pagamento sujeitará a CONTRATANTE a multa de 2% (dois por cento) sobre o valor devido, acrescida de juros de mora de 1% (um por cento) ao mês e correção monetária pelo IPCA, sem prejuízo da rescisão prevista na Cláusula X."*
+
+---
+
+## 🟡 Sugestões de melhoria relevantes
+
+### 5. Prazo de entrega dos serviços (Cláusula 2)
+O contrato detalha bem o que o escritório faz, mas **não diz em quanto tempo**. Isso pode gerar conflito com o cliente.
+
+**Sugestão:** indicar prazos mínimos, por exemplo:
+> *"Os serviços permanentes serão executados observando os prazos legais de cada obrigação. A execução depende do recebimento completo dos documentos na forma da Cláusula 3."*
+
+### 6. LGPD mencionada de forma genérica (Cláusula 10)
+A Cláusula 10 trata de sigilo e dados, mas não menciona a **Lei nº 13.709/2018 (LGPD)** expressamente, nem define papéis (quem é controlador, quem é operador). Para um escritório que processa dados de empregados e sócios, isso é relevante.
+
+**Sugestão de acréscimo:**
+> *"As partes cumprirão as disposições da Lei nº 13.709/2018 (LGPD). A CONTRATADA atuará como operadora dos dados pessoais dos empregados da CONTRATANTE, tratando-os exclusivamente para cumprimento das obrigações trabalhistas e previdenciárias deste contrato. Os dados serão mantidos pelo prazo legal aplicável a cada obrigação e, findo o contrato, serão devolvidos ou eliminados conforme orientação da CONTRATANTE."*
+
+### 7. Limite de empregados não vinculado a consequência clara (Cláusulas 2 e 9)
+A Cláusula 2 limita a folha a 8 empregados e a Cláusula 9 remete a termo aditivo em caso de mudança. Isso está correto, mas seria prudente deixar explícito o que ocorre **enquanto o aditivo não é assinado**:
+> *"Enquanto não formalizado o aditivo, a CONTRATADA não estará obrigada a processar os empregados excedentes ao limite contratado."*
+
+### 8. Reajuste e contratos iniciados no meio do ano (Cláusula 7)
+O contrato começa em novembro de 2026, mas o reajuste é em janeiro de todo ano. Isso significa que **em janeiro de 2027 — apenas 2 meses após o início — já haverá reajuste**. Considere definir que o primeiro reajuste só ocorre após **12 meses de vigência**:
+> *"O primeiro reajuste ocorrerá somente após completados 12 (doze) meses de vigência do contrato."*
+
+### 9. Ausência de assinatura, data e testemunhas
+O contrato não tem bloco de assinaturas. Para instrumento particular, recomenda-se:
+- Local e data de assinatura;
+- Assinatura e qualificação de **duas testemunhas**;
+- Rubrica das partes em todas as páginas.
+
+> 💡 Se as assinaturas forem digitais (ex.: DocuSign, Gov.br), isso já supre a necessidade de testemunhas, desde que com certificado ICP-Brasil ou equivalente aceito pelas partes.
+
+---
+
+## 🟢 O que está bem
+
+| Ponto | Avaliação |
+|---|---|
+| Separação entre serviços permanentes e eventuais | ✅ Claro e prático |
+| Tabela de preços dos serviços eventuais | ✅ Evita discussão futura |
+| Responsabilidade por documentos entregues fora do prazo (Cláusula 8) | ✅ Protege bem o escritório |
+| Reajuste pelo IPCA com periodicidade anual | ✅ Índice adequado e padrão |
+| Obrigações do contratante listadas (Cláusula 3) | ✅ Base para isenção de responsabilidade |
+| Foro eleito (Cláusula 11) | ✅ Adequado |
+
+---
+
+## Resumo das ações necessárias
+
+| Prioridade | Ação |
+|---|---|
+| 🔴 Urgente | Substituir CRC fictício pelo número real |
+| 🔴 Urgente | Incluir endereços das partes |
+| 🔴 Urgente | Adicionar cláusula de rescisão com aviso prévio e entrega de documentos |
+| 🔴 Urgente | Prever multa e juros por atraso de pagamento |
+| 🟡 Importante | Reforçar a cláusula de LGPD com papéis definidos |
+| 🟡 Importante | Definir prazo do primeiro reajuste |
+| 🟡 Importante | Esclarecer consequência do excedente de empregados sem aditivo |
+| 🟢 Recomendado | Adicionar bloco de assinaturas com data, local e testemunhas |
+
+---
+
+> ⚠️ **Observação importante:** esta revisão é de natureza técnico-documental. Para validação jurídica do instrumento e adequação à legislação mais recente, recomenda-se consulta a um advogado, de preferência com experiência em direito empresarial e contratos de prestação de serviços.
+
+--- Você:
+Agora me monta um checklist do cadastro de um cliente novo.
+--- IA:
+# Checklist de Cadastro de Cliente Novo
+### Escritório de Contabilidade
+
+---
+
+## 1. Dados Cadastrais da Empresa
+
+### Identificação
+- [ ] Razão social
+- [ ] Nome fantasia
+- [ ] CNPJ
+- [ ] Data de abertura
+- [ ] NIRE (número de registro na Junta Comercial)
+- [ ] Inscrição Estadual
+- [ ] Inscrição Municipal
+
+### Endereço
+- [ ] Logradouro, número, complemento
+- [ ] Bairro, cidade, estado, CEP
+- [ ] O endereço do contrato é o mesmo do alvará? *(se não, registrar os dois)*
+
+### Contato
+- [ ] Telefone principal
+- [ ] WhatsApp para envio de documentos
+- [ ] E-mail do responsável financeiro *(para cobranças e boletos)*
+- [ ] E-mail do sócio-administrador *(para documentos e contratos)*
+
+---
+
+## 2. Dados dos Sócios e Administradores
+
+*Preencher para cada sócio*
+
+- [ ] Nome completo
+- [ ] CPF
+- [ ] RG / órgão expedidor
+- [ ] Data de nascimento
+- [ ] Estado civil
+- [ ] Endereço residencial completo
+- [ ] Participação societária (%)
+- [ ] É administrador? Sim / Não
+- [ ] Possui e-CPF (certificado digital)? Sim / Não
+
+---
+
+## 3. Enquadramento Tributário e Fiscal
+
+- [ ] Regime tributário atual: Simples Nacional / Lucro Presumido / Lucro Real
+- [ ] Anexo do Simples Nacional (I ao V), se aplicável
+- [ ] CNAE principal
+- [ ] CNAEs secundários *(listar todos)*
+- [ ] Apura ICMS? Estado de destaque nas NF-e
+- [ ] Apura ISS? Município de incidência
+- [ ] Contribuinte do IPI? Sim / Não
+- [ ] Obrigado à emissão de NF-e ou NFS-e?
+- [ ] Possui regime especial de tributação? Sim / Não *(se sim, anexar documento)*
+
+---
+
+## 4. Documentos a Coletar
+
+### Documentos da empresa
+- [ ] Contrato social / estatuto social *(versão consolidada ou última alteração)*
+- [ ] Cartão CNPJ atualizado
+- [ ] Alvará de funcionamento vigente
+- [ ] Inscrição Estadual *(documento de concessão)*
+- [ ] Inscrição Municipal *(documento de concessão)*
+- [ ] Licenças específicas do setor, se houver *(ex.: vigilância sanitária)*
+
+### Certidões — verificar situação na entrada
+- [ ] CND Federal (Receita Federal + PGFN)
+- [ ] CND Estadual
+- [ ] CND Municipal
+- [ ] CRF do FGTS
+- [ ] CNDT (trabalhista)
+- [ ] Anotar validade de cada certidão e pendências encontradas
+
+### Documentos dos sócios
+- [ ] CPF e RG de cada sócio (frente e verso)
+- [ ] Comprovante de residência recente de cada sócio
+
+---
+
+## 5. Certificado Digital
+
+- [ ] A empresa possui e-CNPJ? Sim / Não
+- [ ] Tipo: A1 (arquivo) ou A3 (token/cartão)
+- [ ] Validade do certificado: \_\_\_/\_\_\_/\_\_\_\_
+- [ ] Algum sócio possui e-CPF? Sim / Não *(informar quais)*
+- [ ] Escritório terá procuração eletrônica no e-CAC? *(providenciar se necessário)*
+
+> ⚠️ **Atenção:** sem o e-CNPJ ou a procuração eletrônica, não é possível operar eSocial, DCTFWeb e outros sistemas obrigatórios. Providenciar antes do início dos serviços.
+
+---
+
+## 6. Acessos a Sistemas e Portais
+
+- [ ] e-CAC (Receita Federal) — vincular procuração
+- [ ] Portal do Simples Nacional
+- [ ] SEFAZ Estadual — acesso às NF-e / NFC-e
+- [ ] Prefeitura — acesso às NFS-e
+- [ ] eSocial
+- [ ] FGTS Digital / Conectividade Social (CAIXA)
+- [ ] Portal SPED
+- [ ] Junta Comercial do estado *(se houver portal de acesso)*
+- [ ] Banco(s) — verificar se o escritório terá acesso ao extrato ou se o cliente enviará manualmente
+
+---
+
+## 7. Folha de Pagamento
+
+*(preencher somente se o contrato incluir RH/eSocial)*
+
+- [ ] Quantidade atual de empregados: \_\_\_\_
+- [ ] Lista de empregados com: nome completo, CPF, NIS/PIS, data de admissão, cargo, salário, jornada
+- [ ] Cópia das CTPs *(página de identificação e contratos de trabalho)*
+- [ ] Exames admissionais e ASOs em dia
+- [ ] Acordos ou convenções coletivas aplicáveis *(sindicato da categoria)*
+- [ ] Data de dissídio / data-base da categoria
+- [ ] Benefícios vigentes: VA / VR / VT / plano de saúde / outros
+- [ ] Banco para crédito dos salários
+- [ ] Conta vinculada ao FGTS já aberta? Sim / Não
+
+---
+
+## 8. Histórico Contábil
+
+- [ ] Tinha contador anterior? Sim / Não
+  - [ ] Se sim: nome do contador / escritório e contato
+  - [ ] Solicitar carta de apresentação / rescisão com contador anterior
+  - [ ] Verificar se há pendências de entrega de documentos e arquivos
+- [ ] Solicitar backup dos arquivos contábeis anteriores *(livros, SPED, declarações)*
+- [ ] Último balanço patrimonial assinado
+- [ ] Últimas declarações entregues: DEFIS, DASN, DIRF, RAIS *(verificar ano a ano)*
+- [ ] Há parcelamentos de tributos ativos? *(REFIS, PERT, parcelamentos ordinários)*
+- [ ] Há processos administrativos ou fiscais em aberto?
+
+---
+
+## 9. Dados Bancários
+
+- [ ] Banco(s) utilizado(s), agência e conta
+- [ ] Tipo de conta: corrente / pagamento
+- [ ] CNPJ vinculado à conta confere com o cadastro?
+- [ ] Forma de envio dos extratos: acesso ao internet banking / exportação em OFX ou PDF / envio manual
+
+---
+
+## 10. Formalização do Contrato
+
+- [ ] Contrato de prestação de serviços assinado pelas partes
+- [ ] Todas as páginas rubricadas
+- [ ] Duas vias físicas assinadas *(ou assinatura digital com validade jurídica)*
+- [ ] Tabela de serviços eventuais entregue ao cliente *(anexo do contrato)*
+- [ ] Dados bancários do escritório informados para pagamento
+- [ ] Primeiro boleto gerado e enviado
+
+---
+
+## 11. Comunicações Iniciais
+
+- [ ] Boas-vindas enviadas ao cliente *(e-mail ou WhatsApp)*
+- [ ] Instrução de uso enviada ao cliente: como e onde enviar documentos, prazo (dia 5), contato do responsável no escritório
+- [ ] Pasta do cliente criada no sistema interno *(físico e/ou digital)*
+- [ ] Cliente incluído nos grupos/fluxos de comunicação do escritório
+- [ ] Data de início dos serviços confirmada: \_\_\_/\_\_\_/\_\_\_\_
+
+---
+
+## Observações gerais
+
+> 📋 **Documentos com pendência:** anotar o que não foi entregue no ato do cadastro, com prazo combinado para entrega.
+
+> 🔒 **LGPD:** os documentos coletados devem ser armazenados de forma segura, com acesso restrito à equipe responsável pelo cliente.
+
+> 📁 **Recomendação:** manter este checklist arquivado no prontuário do cliente para consulta futura e auditoria interna.
+
+### 2026-10-09 23:06 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Revise este contrato que vamos usar com clientes novos.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS CONTÁBEIS
+
+Cláusula 1 – Partes. CONTRATADA: Organização Contábil Pé de Serra Ltda., CNPJ 33.180.746/0001-25, responsável técnico Hélio Damasceno Furtado, CRC fictício 0-000000. CONTRATANTE: Padaria Grão Dourado Ltda., CNPJ 18.904.627/0001-60, representada por sua sócia-administradora Marlene Toscano Vidal, CPF 284.613.957-12.
+
+Cláusula 2 – Serviços. A CONTRATADA prestará, de forma permanente: escrituração contábil e fiscal; apuração do Simples Nacional e emissão do DAS; folha de pagamento e eSocial de até 8 empregados; DCTFWeb; elaboração do balanço anual. De forma eventual, quando pedidos: alteração contratual, certidões negativas e declaração de faturamento.
+
+Cláusula 3 – O que cabe à CONTRATANTE. Enviar até o dia 5 de cada mês os extratos bancários, as notas fiscais de entrada e de saída e as informações da folha (admissões, faltas, horas extras, afastamentos); guardar os documentos originais; pagar os tributos nas datas das guias.
+
+Cláusula 4 – Duração. Prazo indeterminado, a partir de 01/11/2026.
+
+Cláusula 5 – Honorários. Serviços permanentes: R$ 1.250,00 por mês. Serviços eventuais: pelos valores da tabela anexa, um por serviço (alteração contratual R$ 600,00; certidões R$ 80,00 cada; declaração de faturamento R$ 120,00).
+
+Cláusula 6 – Pagamento. Até o dia 10 de cada mês, por boleto.
+
+Cláusula 7 – Reajuste. Anual, em janeiro, pelo IPCA dos doze meses anteriores.
+
+Cláusula 8 – Responsabilidades. A CONTRATADA responde pelos erros técnicos dos serviços que executar. A CONTRATANTE responde pela veracidade e pelo prazo dos documentos e informações que enviar; a CONTRATADA não responde por multa decorrente de documento entregue fora do prazo da cláusula 3.
+
+Cláusula 9 – Aditamento. Mudança de serviços, de número de empregados ou de valores será feita por termo aditivo assinado pelas partes.
+
+Cláusula 10 – Sigilo e dados. As partes manterão sigilo sobre as informações trocadas; a CONTRATADA tratará os dados pessoais dos empregados da CONTRATANTE só para cumprir as obrigações legais da folha.
+
+Cláusula 11 – Foro. Fica eleito o foro da comarca de Caruaru (PE).
+--- IA:
+# Revisão do Contrato de Prestação de Serviços Contábeis
+
+---
+
+## ✅ Pontos Positivos
+
+- Distinção clara entre serviços **permanentes e eventuais**
+- Cláusula de responsabilidades bem distribuída (Cl. 8)
+- Reajuste pelo IPCA com periodicidade definida
+- Menção à LGPD na cláusula de sigilo
+- Limite de empregados para o eSocial explicitado
+
+---
+
+## 🚨 Problemas Críticos
+
+### 1. CRC fictício (Cláusula 1)
+O contrato declara literalmente *"CRC fictício 0-000000"*. Isso invalida o documento e pode configurar irregularidade perante o CFC. **Substituir pelo CRC válido do responsável técnico antes de qualquer uso.**
+
+### 2. Ausência total de cláusula rescisória (Cláusula 4)
+Este é o maior problema do contrato. Com prazo indeterminado e **sem regras de rescisão**, surgem questões sem resposta:
+- Qual o aviso prévio necessário? (recomenda-se **30 a 60 dias**)
+- O que ocorre com documentos e arquivos do cliente após o encerramento?
+- Há multa contratual por rescisão imotivada?
+- Quem entrega o quê para quem ao final?
+
+> **Sugestão de cláusula:**
+> *"O contrato poderá ser rescindido por qualquer das partes mediante aviso prévio de 30 (trinta) dias. Na data da rescisão, a CONTRATADA entregará à CONTRATANTE todos os documentos, arquivos digitais e declarações transmitidas, sendo vedada a retenção de qualquer documento como garantia de pagamento."*
+
+### 3. Ausência de cláusula de inadimplemento
+Não há nenhuma consequência para o **não pagamento dos honorários**. O contrato deveria prever:
+- Multa moratória (sugestão: **2%**) e juros (ex.: **1% ao mês**)
+- Prazo a partir do qual a CONTRATADA pode **suspender os serviços**
+- Possibilidade de rescisão por inadimplemento reiterado
+
+---
+
+## ⚠️ Lacunas Relevantes
+
+### 4. Admissões de empregados — urgência não tratada (Cláusula 3)
+O eSocial exige o registro do empregado **antes do início das atividades**, o que é incompatível com o prazo genérico do dia 5. Recomenda-se adicionar:
+
+> *"Admissões de empregados deverão ser comunicadas à CONTRATADA com antecedência mínima de 1 (um) dia útil antes do início do trabalho, sob pena de a CONTRATADA não se responsabilizar por eventuais multas decorrentes do registro intempestivo no eSocial."*
+
+### 5. Excedente de empregados sem previsão de preço (Cláusulas 2 e 5)
+O contrato limita a folha a **8 empregados**, mas não diz quanto será cobrado se esse número for superado. Isso gera conflito futuro. Defina o valor por empregado adicional (ex.: *"R$ XX,00 por empregado adicional por mês"*) ou remeta ao termo aditivo com prazo para celebração.
+
+### 6. Certificado digital — omissão importante
+eSocial, DCTFWeb e SPED exigem **e-CNPJ do cliente** para transmissão. O contrato não menciona quem fornece/renova o certificado nem o que acontece se ele estiver vencido.
+
+### 7. DEFIS não está listada (Cláusula 2)
+A **Declaração de Informações Socioeconômicas e Fiscais** (DEFIS) é obrigatória para empresas do Simples Nacional e não aparece nos serviços permanentes. Verificar se é intenção excluí-la ou se foi omitida por descuido.
+
+### 8. Imprecisão no índice de reajuste (Cláusula 7)
+*"IPCA dos doze meses anteriores"* é ambíguo. Em janeiro/2027, quais seriam esses 12 meses — jan/2026 a dez/2026, ou fev/2025 a jan/2026? Sugestão:
+
+> *"…pelo IPCA acumulado no ano civil imediatamente anterior (janeiro a dezembro), apurado e divulgado pelo IBGE."*
+
+### 9. Responsabilidade por períodos anteriores ao contrato (Cláusula 8)
+A cláusula de responsabilidades é silente sobre **obrigações e passivos anteriores a 01/11/2026**. Recomenda-se incluir:
+
+> *"A CONTRATADA não se responsabiliza por obrigações fiscais, trabalhistas ou previdenciárias geradas em períodos anteriores ao início deste contrato."*
+
+### 10. LGPD insuficiente (Cláusula 10)
+A menção à LGPD é superficial. Considere acrescentar:
+- Papel das partes (a contábil geralmente é **operadora** dos dados dos empregados)
+- Prazo de retenção dos dados após o encerramento do contrato
+- Obrigação de comunicar **incidentes de segurança** no prazo legal (72h ao cliente)
+- Proibição de compartilhamento com terceiros sem autorização
+
+---
+
+## 📝 Outras Sugestões Menores
+
+| Item | Observação |
+|---|---|
+| **Força maior** | Incluir cláusula eximindo as partes em casos fortuitos (ex.: indisponibilidade de sistemas do governo — Receita Federal, eSocial) |
+| **Procuração** | Se a contábil acessar sistemas em nome do cliente, mencionar a necessidade de procuração digital |
+| **Guarda de arquivos** | Definir prazo mínimo de guarda dos arquivos digitais (mínimo legal: 5 anos) e responsabilidade por isso |
+| **Assinaturas** | Falta espaço para assinaturas, data, testemunhas e modalidade (física ou eletrônica via ICP-Brasil/plataforma) |
+| **Tabela de eventuais** | Referenciada como "tabela anexa", mas os valores já estão no corpo do contrato — definir qual prevalece em caso de divergência |
+| **Mudança de regime tributário** | Se o cliente deixar o Simples Nacional, os serviços e honorários mudam. Prever obrigação de aditamento |
+
+---
+
+## Resumo das Prioridades
+
+```
+URGENTE (corrigir antes de usar)
+  ├─ Substituir o CRC fictício
+  └─ Incluir cláusula de rescisão com aviso prévio e devolução de documentos
+
+IMPORTANTE (lacunas que geram risco)
+  ├─ Multa e juros por inadimplemento + possibilidade de suspensão
+  ├─ Regra para admissões urgentes no eSocial
+  ├─ Preço do excedente de empregados
+  └─ Responsabilidade limitada a período posterior ao contrato
+
+RECOMENDADO (boa prática)
+  ├─ Aprimorar cláusula LGPD
+  ├─ Precisar índice de reajuste
+  ├─ Incluir DEFIS nos serviços permanentes
+  └─ Adicionar cláusula de força maior e guarda de arquivos
+```
+
+---
+
+Se quiser, posso redigir o texto completo das cláusulas sugeridas ou formatar o contrato revisado.
+
+--- Você:
+Agora me monta um checklist do cadastro de um cliente novo.
+--- IA:
+# Checklist de Cadastro de Cliente Novo
+### Escritório de Contabilidade
+
+---
+
+## 1. Proposta e Contrato
+
+- [ ] Proposta comercial enviada e aprovada
+- [ ] Contrato de prestação de serviços assinado pelas partes
+- [ ] Tabela de serviços eventuais assinada (anexo do contrato)
+- [ ] Definida a data de início dos serviços
+- [ ] Honorários e forma de pagamento confirmados
+- [ ] Procuração para representação perante órgãos públicos assinada *(se aplicável)*
+
+---
+
+## 2. Documentos da Empresa
+
+- [ ] Contrato social consolidado (ou Requerimento de Empresário, se MEI/EI)
+- [ ] Todas as alterações contratuais anteriores
+- [ ] Cartão CNPJ atualizado
+- [ ] Inscrição Estadual *(se contribuinte de ICMS)*
+- [ ] Inscrição Municipal / Alvará de funcionamento
+- [ ] Certidão Negativa de Débitos Federal (CND/Receita Federal)
+- [ ] Certidão Negativa Estadual
+- [ ] Certidão Negativa Municipal
+- [ ] Certidão Negativa Trabalhista (TST)
+- [ ] Certidão Negativa do FGTS (CEF)
+- [ ] Comprovante de endereço da sede (atualizado)
+
+---
+
+## 3. Documentos dos Sócios / Titular
+
+- [ ] CPF e RG (ou CNH) de todos os sócios
+- [ ] Comprovante de residência de todos os sócios
+- [ ] Qualificação completa: estado civil, profissão, nacionalidade
+- [ ] e-CPF dos sócios *(validade e tipo — A1 ou A3)*
+
+---
+
+## 4. Certificado Digital da Empresa
+
+- [ ] e-CNPJ disponível e **dentro da validade**
+- [ ] Tipo do certificado (A1 ou A3) e data de vencimento registrada
+- [ ] Responsável pela guarda/renovação identificado
+- [ ] Escritório incluído como procurador nos sistemas que exigem *(eSocial, e-CAC, etc.)*
+
+---
+
+## 5. Situação Tributária
+
+- [ ] Regime tributário atual confirmado
+  - [ ] Simples Nacional — verificar anexo(s) de atividade e alíquotas
+  - [ ] Lucro Presumido
+  - [ ] Lucro Real
+- [ ] Histórico de faturamento dos últimos 12 meses (para Simples Nacional)
+- [ ] Parcelamentos ativos (PGFN, Simples, estadual, municipal) — nº do processo e saldo
+- [ ] Pendências ou autuações fiscais conhecidas — documentadas e assumidas pelo cliente
+- [ ] Última declaração entregue de cada obrigação (DEFIS, ECF, ECD, etc.)
+- [ ] DAS em atraso identificados
+
+---
+
+## 6. Situação Trabalhista e eSocial
+
+- [ ] Relação atualizada de **todos os empregados ativos**
+  - [ ] Nome completo, CPF, PIS/NIS, data de admissão, função, salário
+- [ ] Cópias dos contratos de trabalho
+- [ ] Fichas de registro de empregados
+- [ ] Livro ou sistema de registro de empregados
+- [ ] Férias vencidas e a vencer por empregado
+- [ ] 13º salário proporcional acumulado no ano
+- [ ] Afastamentos ativos (INSS, licenças)
+- [ ] Empregados com processo trabalhista — documentados
+- [ ] Acesso ao **eSocial** verificado (eventos enviados, pendências, inconsistências)
+- [ ] Cadastro da empresa no eSocial conferido (tabelas: cargos, lotações, rubricas)
+- [ ] FGTS em dia — extrato FGTS do último mês
+- [ ] GFIP/eSocial do mês anterior entregue
+
+---
+
+## 7. Escrituração e Documentação Fiscal
+
+- [ ] Notas fiscais de entrada e saída dos últimos meses recebidas
+- [ ] Extratos bancários de todas as contas do último mês
+- [ ] Controle de caixa (se houver movimento em espécie)
+- [ ] Contratos de financiamentos e empréstimos ativos
+- [ ] Imobilizado — relação de bens com data de aquisição e valor
+- [ ] Estoque — inventário mais recente disponível
+- [ ] Sistema de emissão de NF-e / NFS-e identificado e acesso verificado
+
+---
+
+## 8. Obrigações Acessórias — Levantamento Inicial
+
+- [ ] Mapear **todas as obrigações** do regime tributário do cliente e marcar as em dia:
+
+| Obrigação | Periodicidade | Última entregue | Situação |
+|---|---|---|---|
+| DAS (Simples Nacional) | Mensal | | |
+| DEFIS | Anual | | |
+| DCTFWeb | Mensal | | |
+| eSocial (folha) | Mensal | | |
+| ECD | Anual | | |
+| ECF | Anual | | |
+| DIRF | Anual | | |
+| RAIS | Anual | | |
+| CAGED / eSocial | Mensal | | |
+| GIA Estadual | Mensal | | |
+| DeSTDA | Mensal | | |
+
+---
+
+## 9. Acessos e Cadastros Internos
+
+- [ ] Cliente cadastrado no sistema contábil do escritório
+- [ ] Pasta física e/ou digital criada e organizada
+- [ ] Acesso ao **e-CAC** vinculado (procuração eletrônica ativa)
+- [ ] Acesso ao portal do **Simples Nacional** verificado
+- [ ] Acesso à **prefeitura municipal** para NFS-e verificado
+- [ ] Acesso ao **portal estadual** verificado *(se contribuinte de ICMS)*
+- [ ] Contato principal do cliente definido (nome, telefone, e-mail)
+- [ ] Responsável interno do escritório designado para a conta
+
+---
+
+## 10. Reunião de Onboarding com o Cliente
+
+- [ ] Explicado o fluxo de envio mensal de documentos (prazo, formato, canal)
+- [ ] Explicada a responsabilidade do cliente sobre admissões **antes do início do trabalho** (eSocial)
+- [ ] Orientado sobre renovação do certificado digital
+- [ ] Alinhado o calendário de pagamento dos honorários
+- [ ] Alinhado o calendário das principais obrigações do ano
+- [ ] Cliente ciente do que **não está incluído** no contrato (serviços eventuais e valores)
+
+---
+
+## 11. Verificações Finais Antes de Iniciar os Serviços
+
+- [ ] Nenhuma pendência crítica não documentada
+- [ ] Passivo fiscal/trabalhista anterior ao contrato formalmente registrado
+- [ ] Contábil anterior comunicada sobre a transição *(se houver)*
+- [ ] Arquivos, balancetes e livros do período anterior recebidos *(se houver contábil anterior)*
+- [ ] Primeiro boleto de honorários gerado e enviado
+
+---
+
+> **💡 Dica de uso:** mantenha este checklist no prontuário do cliente com data de conclusão de cada item e nome do responsável pelo preenchimento. Itens em aberto na data de início dos serviços devem ser formalizados por e-mail ao cliente com prazo de entrega.
+
+---
+
+Quer que eu adapte este checklist para algum regime tributário específico (Lucro Presumido, MEI, etc.) ou inclua campos para preenchimento em formato de tabela?
+
+### 2026-10-09 23:08 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Confira este modelo de contrato contra os 13 itens colados abaixo: para cada item, diga em que cláusula está ou escreva "não está no contrato". Não acrescente exigência que não esteja nos 13 itens como se fosse da norma.
+
+Os 13 itens mínimos do contrato (Res. CFC 1.590/2020, art. 2º): "a) identificação das partes contratantes; b) detalhamento dos serviços a serem prestados de forma eventual, habitual ou permanente; c) cláusula que explicite e especifique quais serviços serão executados pelo contratante; d) duração do contrato; e) valor dos honorários profissionais cobrados por cada serviço prestado, eventual, habitual ou permanente; f) prazo de pagamento; g) condições de reajuste dos honorários; h) responsabilidades das partes; i) previsão de aditamento contratual, se necessário; j) obrigatoriedade do fornecimento da Carta de Responsabilidade da Administração; k) cláusula contendo a ciência do contratante relativa à Lei n.º 9.613/1998. l) cláusula rescisória com a fixação de prazo de prévio aviso para o encerramento da relação contratual; m) foro para dirimir os conflitos."
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS CONTÁBEIS
+
+Cláusula 1 – Partes. CONTRATADA: Organização Contábil Pé de Serra Ltda., CNPJ 33.180.746/0001-25, responsável técnico Hélio Damasceno Furtado, CRC fictício 0-000000. CONTRATANTE: Padaria Grão Dourado Ltda., CNPJ 18.904.627/0001-60, representada por sua sócia-administradora Marlene Toscano Vidal, CPF 284.613.957-12.
+
+Cláusula 2 – Serviços. A CONTRATADA prestará, de forma permanente: escrituração contábil e fiscal; apuração do Simples Nacional e emissão do DAS; folha de pagamento e eSocial de até 8 empregados; DCTFWeb; elaboração do balanço anual. De forma eventual, quando pedidos: alteração contratual, certidões negativas e declaração de faturamento.
+
+Cláusula 3 – O que cabe à CONTRATANTE. Enviar até o dia 5 de cada mês os extratos bancários, as notas fiscais de entrada e de saída e as informações da folha (admissões, faltas, horas extras, afastamentos); guardar os documentos originais; pagar os tributos nas datas das guias.
+
+Cláusula 4 – Duração. Prazo indeterminado, a partir de 01/11/2026.
+
+Cláusula 5 – Honorários. Serviços permanentes: R$ 1.250,00 por mês. Serviços eventuais: pelos valores da tabela anexa, um por serviço (alteração contratual R$ 600,00; certidões R$ 80,00 cada; declaração de faturamento R$ 120,00).
+
+Cláusula 6 – Pagamento. Até o dia 10 de cada mês, por boleto.
+
+Cláusula 7 – Reajuste. Anual, em janeiro, pelo IPCA dos doze meses anteriores.
+
+Cláusula 8 – Responsabilidades. A CONTRATADA responde pelos erros técnicos dos serviços que executar. A CONTRATANTE responde pela veracidade e pelo prazo dos documentos e informações que enviar; a CONTRATADA não responde por multa decorrente de documento entregue fora do prazo da cláusula 3.
+
+Cláusula 9 – Aditamento. Mudança de serviços, de número de empregados ou de valores será feita por termo aditivo assinado pelas partes.
+
+Cláusula 10 – Sigilo e dados. As partes manterão sigilo sobre as informações trocadas; a CONTRATADA tratará os dados pessoais dos empregados da CONTRATANTE só para cumprir as obrigações legais da folha.
+
+Cláusula 11 – Foro. Fica eleito o foro da comarca de Caruaru (PE).
+--- IA:
+## Conferência do Contrato × 13 Itens Obrigatórios (Res. CFC 1.590/2020, art. 2º)
+
+| Item | Exigência | Situação no contrato |
+|------|-----------|----------------------|
+| **a** | Identificação das partes contratantes | **Cláusula 1** |
+| **b** | Detalhamento dos serviços eventuais, habituais ou permanentes | **Cláusula 2** |
+| **c** | Serviços a serem executados pelo contratante | **Cláusula 3** |
+| **d** | Duração do contrato | **Cláusula 4** |
+| **e** | Valor dos honorários por cada serviço | **Cláusula 5** |
+| **f** | Prazo de pagamento | **Cláusula 6** |
+| **g** | Condições de reajuste dos honorários | **Cláusula 7** |
+| **h** | Responsabilidades das partes | **Cláusula 8** |
+| **i** | Previsão de aditamento contratual | **Cláusula 9** |
+| **j** | Obrigatoriedade da Carta de Responsabilidade da Administração | ❌ **Não está no contrato** |
+| **k** | Ciência do contratante sobre a Lei nº 9.613/1998 (lavagem de dinheiro) | ❌ **Não está no contrato** |
+| **l** | Cláusula rescisória com prazo de prévio aviso | ❌ **Não está no contrato** |
+| **m** | Foro para dirimir conflitos | **Cláusula 11** |
+
+---
+
+### Resumo
+O contrato atende **10 dos 13 itens**. Estão faltando:
+
+1. **Item j** – Cláusula prevendo a entrega periódica da **Carta de Responsabilidade da Administração** pela contratante.
+2. **Item k** – Cláusula registrando a **ciência do contratante sobre a Lei nº 9.613/1998** (prevenção à lavagem de dinheiro e obrigações do contador como profissional sujeito a reporte).
+3. **Item l** – **Cláusula rescisória** com fixação de prazo mínimo de aviso prévio para encerramento do contrato por qualquer das partes.
+
+--- Você:
+Agora monte o checklist de cadastro do cliente novo com o art. 3º colado abaixo. Sem dado de cliente. O que não estiver no artigo e for prática do escritório, marque como "prática do escritório".
+
+Art. 3º da Res. CFC 1.721/2024: cadastro atualizado dos contratantes e das pessoas autorizadas a representá-los, contendo, no mínimo: "I - se pessoa física: a) nome completo; b) inscrição no Cadastro de Pessoa Física (CPF); c) documento de identificação e nome do órgão expedidor ou, se estrangeiro, dados do passaporte ou da carteira civil; d) eventual enquadramento na condição de pessoa exposta politicamente; e e) endereço completo, inclusive eletrônico; II - se pessoa jurídica: a) denominação social; b) inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ); c) nome completo, inscrição no Cadastro de Pessoa Física (CPF), documento de identificação, nome do órgão expedidor ou, se estrangeiro, dados do passaporte ou da carteira civil dos sócios-proprietários, administradores e/ou procuradores/representantes legais, bem como eventual enquadramento na condição de pessoa exposta politicamente; d) identificação de beneficiário final, quando possível; e e) endereço completo, inclusive eletrônico."
+--- IA:
+## Checklist de Cadastro – Cliente Novo
+
+---
+
+### PESSOA FÍSICA
+
+| # | Item | Base | ✓ |
+|---|------|------|---|
+| 1 | Nome completo | Art. 3º, I, *a* | ☐ |
+| 2 | CPF | Art. 3º, I, *b* | ☐ |
+| 3 | Documento de identificação (RG, CNH etc.) e órgão expedidor | Art. 3º, I, *c* | ☐ |
+| 4 | Se estrangeiro: dados do passaporte ou carteira civil | Art. 3º, I, *c* | ☐ |
+| 5 | É pessoa politicamente exposta (PPE)? (S/N) | Art. 3º, I, *d* | ☐ |
+| 6 | Endereço residencial completo (logradouro, nº, bairro, cidade, UF, CEP) | Art. 3º, I, *e* | ☐ |
+| 7 | E-mail | Art. 3º, I, *e* | ☐ |
+| 8 | Telefone / WhatsApp | Prática do escritório | ☐ |
+| 9 | Atividade profissional / ocupação | Prática do escritório | ☐ |
+| 10 | Regime tributário aplicável | Prática do escritório | ☐ |
+| 11 | Inscrição Municipal (se autônomo/prestador) | Prática do escritório | ☐ |
+| 12 | Dados bancários (banco, agência, conta) | Prática do escritório | ☐ |
+
+---
+
+### PESSOA JURÍDICA
+
+#### Dados da Empresa
+
+| # | Item | Base | ✓ |
+|---|------|------|---|
+| 1 | Denominação social | Art. 3º, II, *a* | ☐ |
+| 2 | CNPJ | Art. 3º, II, *b* | ☐ |
+| 3 | Endereço completo da sede (logradouro, nº, bairro, cidade, UF, CEP) | Art. 3º, II, *e* | ☐ |
+| 4 | E-mail da empresa | Art. 3º, II, *e* | ☐ |
+| 5 | Identificação do beneficiário final, quando possível | Art. 3º, II, *d* | ☐ |
+| 6 | Telefone / WhatsApp da empresa | Prática do escritório | ☐ |
+| 7 | Atividade econômica principal (CNAE) | Prática do escritório | ☐ |
+| 8 | Regime tributário (Simples Nacional, Lucro Presumido, Lucro Real) | Prática do escritório | ☐ |
+| 9 | Inscrição Estadual (IE) | Prática do escritório | ☐ |
+| 10 | Inscrição Municipal (IM) | Prática do escritório | ☐ |
+| 11 | Data de abertura | Prática do escritório | ☐ |
+| 12 | Número de empregados na admissão | Prática do escritório | ☐ |
+| 13 | Dados bancários (banco, agência, conta) | Prática do escritório | ☐ |
+| 14 | Cópia do contrato/estatuto social consolidado | Prática do escritório | ☐ |
+| 15 | Alvará de funcionamento vigente | Prática do escritório | ☐ |
+
+#### Sócios, Administradores e/ou Procuradores/Representantes Legais
+*(preencher um bloco por pessoa)*
+
+| # | Item | Base | ✓ |
+|---|------|------|---|
+| 16 | Nome completo | Art. 3º, II, *c* | ☐ |
+| 17 | Qualificação (sócio / administrador / procurador) | Art. 3º, II, *c* | ☐ |
+| 18 | CPF | Art. 3º, II, *c* | ☐ |
+| 19 | Documento de identificação e órgão expedidor | Art. 3º, II, *c* | ☐ |
+| 20 | Se estrangeiro: dados do passaporte ou carteira civil | Art. 3º, II, *c* | ☐ |
+| 21 | É pessoa politicamente exposta (PPE)? (S/N) | Art. 3º, II, *c* | ☐ |
+| 22 | Telefone / WhatsApp pessoal | Prática do escritório | ☐ |
+| 23 | E-mail pessoal | Prática do escritório | ☐ |
+
+---
+
+> **Observação:** Os itens marcados como **"prática do escritório"** não constam expressamente no art. 3º da Res. CFC 1.721/2024, mas são coletados por rotina operacional e/ou exigência de sistemas (eSocial, Simples Nacional, prefeitura etc.).
+
+### 2026-10-09 23:09 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Confira este modelo de contrato contra os 13 itens colados abaixo: para cada item, diga em que cláusula está ou escreva "não está no contrato". Não acrescente exigência que não esteja nos 13 itens como se fosse da norma.
+
+Os 13 itens mínimos do contrato (Res. CFC 1.590/2020, art. 2º): "a) identificação das partes contratantes; b) detalhamento dos serviços a serem prestados de forma eventual, habitual ou permanente; c) cláusula que explicite e especifique quais serviços serão executados pelo contratante; d) duração do contrato; e) valor dos honorários profissionais cobrados por cada serviço prestado, eventual, habitual ou permanente; f) prazo de pagamento; g) condições de reajuste dos honorários; h) responsabilidades das partes; i) previsão de aditamento contratual, se necessário; j) obrigatoriedade do fornecimento da Carta de Responsabilidade da Administração; k) cláusula contendo a ciência do contratante relativa à Lei n.º 9.613/1998. l) cláusula rescisória com a fixação de prazo de prévio aviso para o encerramento da relação contratual; m) foro para dirimir os conflitos."
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS CONTÁBEIS
+
+Cláusula 1 – Partes. CONTRATADA: Organização Contábil Pé de Serra Ltda., CNPJ 33.180.746/0001-25, responsável técnico Hélio Damasceno Furtado, CRC fictício 0-000000. CONTRATANTE: Padaria Grão Dourado Ltda., CNPJ 18.904.627/0001-60, representada por sua sócia-administradora Marlene Toscano Vidal, CPF 284.613.957-12.
+
+Cláusula 2 – Serviços. A CONTRATADA prestará, de forma permanente: escrituração contábil e fiscal; apuração do Simples Nacional e emissão do DAS; folha de pagamento e eSocial de até 8 empregados; DCTFWeb; elaboração do balanço anual. De forma eventual, quando pedidos: alteração contratual, certidões negativas e declaração de faturamento.
+
+Cláusula 3 – O que cabe à CONTRATANTE. Enviar até o dia 5 de cada mês os extratos bancários, as notas fiscais de entrada e de saída e as informações da folha (admissões, faltas, horas extras, afastamentos); guardar os documentos originais; pagar os tributos nas datas das guias.
+
+Cláusula 4 – Duração. Prazo indeterminado, a partir de 01/11/2026.
+
+Cláusula 5 – Honorários. Serviços permanentes: R$ 1.250,00 por mês. Serviços eventuais: pelos valores da tabela anexa, um por serviço (alteração contratual R$ 600,00; certidões R$ 80,00 cada; declaração de faturamento R$ 120,00).
+
+Cláusula 6 – Pagamento. Até o dia 10 de cada mês, por boleto.
+
+Cláusula 7 – Reajuste. Anual, em janeiro, pelo IPCA dos doze meses anteriores.
+
+Cláusula 8 – Responsabilidades. A CONTRATADA responde pelos erros técnicos dos serviços que executar. A CONTRATANTE responde pela veracidade e pelo prazo dos documentos e informações que enviar; a CONTRATADA não responde por multa decorrente de documento entregue fora do prazo da cláusula 3.
+
+Cláusula 9 – Aditamento. Mudança de serviços, de número de empregados ou de valores será feita por termo aditivo assinado pelas partes.
+
+Cláusula 10 – Sigilo e dados. As partes manterão sigilo sobre as informações trocadas; a CONTRATADA tratará os dados pessoais dos empregados da CONTRATANTE só para cumprir as obrigações legais da folha.
+
+Cláusula 11 – Foro. Fica eleito o foro da comarca de Caruaru (PE).
+--- IA:
+## Conferência do Contrato × 13 Itens da Res. CFC 1.590/2020, art. 2º
+
+| Item | Descrição | Situação no contrato |
+|------|-----------|----------------------|
+| **a** | Identificação das partes contratantes | **Cláusula 1** |
+| **b** | Detalhamento dos serviços (eventual, habitual ou permanente) | **Cláusula 2** |
+| **c** | Serviços que cabem ao contratante executar | **Cláusula 3** |
+| **d** | Duração do contrato | **Cláusula 4** |
+| **e** | Valor dos honorários por serviço (eventual e permanente) | **Cláusula 5** |
+| **f** | Prazo de pagamento | **Cláusula 6** |
+| **g** | Condições de reajuste dos honorários | **Cláusula 7** |
+| **h** | Responsabilidades das partes | **Cláusula 8** |
+| **i** | Previsão de aditamento contratual | **Cláusula 9** |
+| **j** | Obrigatoriedade da Carta de Responsabilidade da Administração | ❌ **Não está no contrato** |
+| **k** | Ciência do contratante sobre a Lei nº 9.613/1998 (lavagem de dinheiro) | ❌ **Não está no contrato** |
+| **l** | Cláusula rescisória com prazo de prévio aviso | ❌ **Não está no contrato** |
+| **m** | Foro para dirimir conflitos | **Cláusula 11** |
+
+---
+
+### Resumo
+O contrato atende **10 dos 13 itens**. Faltam três cláusulas obrigatórias:
+
+1. **Item j** – Incluir cláusula exigindo que a CONTRATANTE entregue anualmente a **Carta de Responsabilidade da Administração** (NBC TA 580).
+2. **Item k** – Incluir cláusula declarando a ciência da CONTRATANTE sobre a **Lei nº 9.613/1998** e as obrigações do contador quanto à prevenção à lavagem de dinheiro.
+3. **Item l** – Incluir **cláusula rescisória** com prazo mínimo de aviso prévio para encerramento do contrato por qualquer das partes.
+
+--- Você:
+Agora monte o checklist de cadastro do cliente novo com o art. 3º colado abaixo. Sem dado de cliente. O que não estiver no artigo e for prática do escritório, marque como "prática do escritório".
+
+Art. 3º da Res. CFC 1.721/2024: cadastro atualizado dos contratantes e das pessoas autorizadas a representá-los, contendo, no mínimo: "I - se pessoa física: a) nome completo; b) inscrição no Cadastro de Pessoa Física (CPF); c) documento de identificação e nome do órgão expedidor ou, se estrangeiro, dados do passaporte ou da carteira civil; d) eventual enquadramento na condição de pessoa exposta politicamente; e e) endereço completo, inclusive eletrônico; II - se pessoa jurídica: a) denominação social; b) inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ); c) nome completo, inscrição no Cadastro de Pessoa Física (CPF), documento de identificação, nome do órgão expedidor ou, se estrangeiro, dados do passaporte ou da carteira civil dos sócios-proprietários, administradores e/ou procuradores/representantes legais, bem como eventual enquadramento na condição de pessoa exposta politicamente; d) identificação de beneficiário final, quando possível; e e) endereço completo, inclusive eletrônico."
+--- IA:
+## Checklist de Cadastro de Cliente Novo
+*(baseado no art. 3º da Res. CFC 1.721/2024)*
+
+---
+
+### BLOCO A – Tipo de cliente
+
+| | |
+|---|---|
+| ☐ Pessoa Física | ☐ Pessoa Jurídica |
+
+---
+
+### BLOCO B – Pessoa Física
+*(preencher quando o contratante for PF)*
+
+| # | Campo | Base |
+|---|-------|------|
+| ☐ | Nome completo | Art. 3º, I, *a* |
+| ☐ | CPF | Art. 3º, I, *b* |
+| ☐ | Documento de identificação (nº, tipo) | Art. 3º, I, *c* |
+| ☐ | Órgão expedidor do documento | Art. 3º, I, *c* |
+| ☐ | Se estrangeiro: nº do passaporte ou carteira civil e país emissor | Art. 3º, I, *c* |
+| ☐ | Pessoa Exposta Politicamente (PEP)? ☐ Sim ☐ Não | Art. 3º, I, *d* |
+| ☐ | Endereço completo (logradouro, nº, complemento, bairro, município, UF, CEP) | Art. 3º, I, *e* |
+| ☐ | E-mail | Art. 3º, I, *e* |
+| ☐ | Telefone / WhatsApp | Prática do escritório |
+| ☐ | Ocupação / atividade profissional | Prática do escritório |
+| ☐ | Regime tributário (IRPF – carnê-leão, livro-caixa etc.) | Prática do escritório |
+| ☐ | Inscrição Municipal (se autônomo com ISS) | Prática do escritório |
+
+---
+
+### BLOCO C – Pessoa Jurídica
+*(preencher quando o contratante for PJ)*
+
+**C.1 – Dados da empresa**
+
+| # | Campo | Base |
+|---|-------|------|
+| ☐ | Denominação social | Art. 3º, II, *a* |
+| ☐ | CNPJ | Art. 3º, II, *b* |
+| ☐ | Endereço completo da sede (logradouro, nº, complemento, bairro, município, UF, CEP) | Art. 3º, II, *e* |
+| ☐ | E-mail da empresa | Art. 3º, II, *e* |
+| ☐ | Identificação do(s) beneficiário(s) final(is), quando possível | Art. 3º, II, *d* |
+| ☐ | Nome fantasia | Prática do escritório |
+| ☐ | Inscrição Estadual | Prática do escritório |
+| ☐ | Inscrição Municipal | Prática do escritório |
+| ☐ | NIRE / nº de registro no órgão de registro | Prática do escritório |
+| ☐ | Data de abertura | Prática do escritório |
+| ☐ | CNAE principal | Prática do escritório |
+| ☐ | Regime tributário (Simples, Lucro Presumido, Lucro Real) | Prática do escritório |
+| ☐ | Número de empregados | Prática do escritório |
+| ☐ | Telefone / WhatsApp da empresa | Prática do escritório |
+
+---
+
+**C.2 – Sócios-proprietários**
+*(repetir para cada sócio)*
+
+| # | Campo | Base |
+|---|-------|------|
+| ☐ | Nome completo | Art. 3º, II, *c* |
+| ☐ | CPF | Art. 3º, II, *c* |
+| ☐ | Documento de identificação (nº, tipo) | Art. 3º, II, *c* |
+| ☐ | Órgão expedidor do documento | Art. 3º, II, *c* |
+| ☐ | Se estrangeiro: nº do passaporte ou carteira civil e país emissor | Art. 3º, II, *c* |
+| ☐ | PEP? ☐ Sim ☐ Não | Art. 3º, II, *c* |
+| ☐ | Percentual de participação | Prática do escritório |
+| ☐ | E-mail pessoal | Prática do escritório |
+| ☐ | Telefone / WhatsApp pessoal | Prática do escritório |
+
+---
+
+**C.3 – Administradores (se diferentes dos sócios)**
+*(repetir para cada administrador)*
+
+| # | Campo | Base |
+|---|-------|------|
+| ☐ | Nome completo | Art. 3º, II, *c* |
+| ☐ | CPF | Art. 3º, II, *c* |
+| ☐ | Documento de identificação (nº, tipo) e órgão expedidor | Art. 3º, II, *c* |
+| ☐ | Se estrangeiro: nº do passaporte ou carteira civil e país emissor | Art. 3º, II, *c* |
+| ☐ | PEP? ☐ Sim ☐ Não | Art. 3º, II, *c* |
+| ☐ | E-mail pessoal | Prática do escritório |
+| ☐ | Telefone / WhatsApp pessoal | Prática do escritório |
+
+---
+
+**C.4 – Procuradores / Representantes legais (se houver)**
+*(repetir para cada procurador)*
+
+| # | Campo | Base |
+|---|-------|------|
+| ☐ | Nome completo | Art. 3º, II, *c* |
+| ☐ | CPF | Art. 3º, II, *c* |
+| ☐ | Documento de identificação (nº, tipo) e órgão expedidor | Art. 3º, II, *c* |
+| ☐ | Se estrangeiro: nº do passaporte ou carteira civil e país emissor | Art. 3º, II, *c* |
+| ☐ | PEP? ☐ Sim ☐ Não | Art. 3º, II, *c* |
+| ☐ | Nº e validade da procuração | Prática do escritório |
+
+---
+
+### BLOCO D – Contato operacional do escritório
+*(independente de PF ou PJ)*
+
+| # | Campo | Base |
+|---|-------|------|
+| ☐ | Responsável pelo envio mensal de documentos (nome + contato) | Prática do escritório |
+| ☐ | Responsável financeiro / pagamento de honorários (nome + contato) | Prática do escritório |
+| ☐ | Como o cliente chegou ao escritório (indicação, internet, etc.) | Prática do escritório |
+| ☐ | Data prevista de início dos serviços | Prática do escritório |
+| ☐ | Contador anterior (nome + CRC), se houver | Prática do escritório |
+
+---
+
+### BLOCO E – Documentos a anexar ao cadastro
+
+| # | Documento | Base |
+|---|-----------|------|
+| ☐ | Cópia do documento de identificação (sócio(s) / representante(s)) | Art. 3º, I, *c* / II, *c* |
+| ☐ | Contrato social / estatuto / requerimento de empresário atualizado | Prática do escritório |
+| ☐ | Cartão CNPJ atualizado | Prática do escritório |
+| ☐ | Alvará de funcionamento vigente | Prática do escritório |
+| ☐ | Procuração (se aplicável) | Prática do escritório |
+| ☐ | Contrato de prestação de serviços assinado | Prática do escritório |
+| ☐ | Carta de Responsabilidade da Administração assinada | Prática do escritório |
+
+---
+
+> **Legenda:**
+> - **Art. 3º, …** = exigência expressa da Res. CFC 1.721/2024
+> - **Prática do escritório** = item não previsto no artigo, adotado por conveniência operacional ou gestão interna
+
+### 2026-10-09 23:09 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou de um escritório de contabilidade. Confira este modelo de contrato contra os 13 itens colados abaixo: para cada item, diga em que cláusula está ou escreva "não está no contrato". Não acrescente exigência que não esteja nos 13 itens como se fosse da norma.
+
+Os 13 itens mínimos do contrato (Res. CFC 1.590/2020, art. 2º): "a) identificação das partes contratantes; b) detalhamento dos serviços a serem prestados de forma eventual, habitual ou permanente; c) cláusula que explicite e especifique quais serviços serão executados pelo contratante; d) duração do contrato; e) valor dos honorários profissionais cobrados por cada serviço prestado, eventual, habitual ou permanente; f) prazo de pagamento; g) condições de reajuste dos honorários; h) responsabilidades das partes; i) previsão de aditamento contratual, se necessário; j) obrigatoriedade do fornecimento da Carta de Responsabilidade da Administração; k) cláusula contendo a ciência do contratante relativa à Lei n.º 9.613/1998. l) cláusula rescisória com a fixação de prazo de prévio aviso para o encerramento da relação contratual; m) foro para dirimir os conflitos."
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS CONTÁBEIS
+
+Cláusula 1 – Partes. CONTRATADA: Organização Contábil Pé de Serra Ltda., CNPJ 33.180.746/0001-25, responsável técnico Hélio Damasceno Furtado, CRC fictício 0-000000. CONTRATANTE: Padaria Grão Dourado Ltda., CNPJ 18.904.627/0001-60, representada por sua sócia-administradora Marlene Toscano Vidal, CPF 284.613.957-12.
+
+Cláusula 2 – Serviços. A CONTRATADA prestará, de forma permanente: escrituração contábil e fiscal; apuração do Simples Nacional e emissão do DAS; folha de pagamento e eSocial de até 8 empregados; DCTFWeb; elaboração do balanço anual. De forma eventual, quando pedidos: alteração contratual, certidões negativas e declaração de faturamento.
+
+Cláusula 3 – O que cabe à CONTRATANTE. Enviar até o dia 5 de cada mês os extratos bancários, as notas fiscais de entrada e de saída e as informações da folha (admissões, faltas, horas extras, afastamentos); guardar os documentos originais; pagar os tributos nas datas das guias.
+
+Cláusula 4 – Duração. Prazo indeterminado, a partir de 01/11/2026.
+
+Cláusula 5 – Honorários. Serviços permanentes: R$ 1.250,00 por mês. Serviços eventuais: pelos valores da tabela anexa, um por serviço (alteração contratual R$ 600,00; certidões R$ 80,00 cada; declaração de faturamento R$ 120,00).
+
+Cláusula 6 – Pagamento. Até o dia 10 de cada mês, por boleto.
+
+Cláusula 7 – Reajuste. Anual, em janeiro, pelo IPCA dos doze meses anteriores.
+
+Cláusula 8 – Responsabilidades. A CONTRATADA responde pelos erros técnicos dos serviços que executar. A CONTRATANTE responde pela veracidade e pelo prazo dos documentos e informações que enviar; a CONTRATADA não responde por multa decorrente de documento entregue fora do prazo da cláusula 3.
+
+Cláusula 9 – Aditamento. Mudança de serviços, de número de empregados ou de valores será feita por termo aditivo assinado pelas partes.
+
+Cláusula 10 – Sigilo e dados. As partes manterão sigilo sobre as informações trocadas; a CONTRATADA tratará os dados pessoais dos empregados da CONTRATANTE só para cumprir as obrigações legais da folha.
+
+Cláusula 11 – Foro. Fica eleito o foro da comarca de Caruaru (PE).
+--- IA:
+## Conferência: 13 Itens × Contrato
+
+| Item | Exigência | Situação no contrato |
+|------|-----------|----------------------|
+| **a** | Identificação das partes contratantes | **Cláusula 1** |
+| **b** | Detalhamento dos serviços (eventual, habitual ou permanente) | **Cláusula 2** |
+| **c** | Serviços a serem executados pelo contratante | **Cláusula 3** |
+| **d** | Duração do contrato | **Cláusula 4** |
+| **e** | Valor dos honorários por cada serviço | **Cláusula 5** |
+| **f** | Prazo de pagamento | **Cláusula 6** |
+| **g** | Condições de reajuste dos honorários | **Cláusula 7** |
+| **h** | Responsabilidades das partes | **Cláusula 8** |
+| **i** | Previsão de aditamento contratual | **Cláusula 9** |
+| **j** | Obrigatoriedade da Carta de Responsabilidade da Administração | ❌ **Não está no contrato** |
+| **k** | Ciência do contratante sobre a Lei n.º 9.613/1998 | ❌ **Não está no contrato** |
+| **l** | Cláusula rescisória com prazo de prévio aviso | ❌ **Não está no contrato** |
+| **m** | Foro para dirimir conflitos | **Cláusula 11** |
+
+---
+
+### Resumo
+O contrato atende **10 dos 13 itens**. Faltam três cláusulas obrigatórias:
+
+- **Item j** – Não há nenhuma menção à Carta de Responsabilidade da Administração.
+- **Item k** – Não há ciência expressa do contratante sobre a Lei n.º 9.613/1998 (prevenção à lavagem de dinheiro).
+- **Item l** – Não há cláusula rescisória com fixação de prazo de prévio aviso para encerramento do contrato.
+
+--- Você:
+Agora monte o checklist de cadastro do cliente novo com o art. 3º colado abaixo. Sem dado de cliente. O que não estiver no artigo e for prática do escritório, marque como "prática do escritório".
+
+Art. 3º da Res. CFC 1.721/2024: cadastro atualizado dos contratantes e das pessoas autorizadas a representá-los, contendo, no mínimo: "I - se pessoa física: a) nome completo; b) inscrição no Cadastro de Pessoa Física (CPF); c) documento de identificação e nome do órgão expedidor ou, se estrangeiro, dados do passaporte ou da carteira civil; d) eventual enquadramento na condição de pessoa exposta politicamente; e e) endereço completo, inclusive eletrônico; II - se pessoa jurídica: a) denominação social; b) inscrição no Cadastro Nacional de Pessoas Jurídicas (CNPJ); c) nome completo, inscrição no Cadastro de Pessoa Física (CPF), documento de identificação, nome do órgão expedidor ou, se estrangeiro, dados do passaporte ou da carteira civil dos sócios-proprietários, administradores e/ou procuradores/representantes legais, bem como eventual enquadramento na condição de pessoa exposta politicamente; d) identificação de beneficiário final, quando possível; e e) endereço completo, inclusive eletrônico."
+--- IA:
+## Checklist de Cadastro – Cliente Novo
+
+---
+
+### BLOCO A — Pessoa Física
+*(preencher quando o contratante ou representante for PF)*
+
+| # | Item | Fonte |
+|---|------|-------|
+| A1 | Nome completo | Art. 3º, I, *a* |
+| A2 | CPF | Art. 3º, I, *b* |
+| A3 | Documento de identificação (número, tipo) | Art. 3º, I, *c* |
+| A4 | Órgão expedidor do documento (ou dados do passaporte / carteira civil, se estrangeiro) | Art. 3º, I, *c* |
+| A5 | Enquadramento como Pessoa Exposta Politicamente – PEP? (sim / não) | Art. 3º, I, *d* |
+| A6 | Endereço completo (logradouro, número, complemento, bairro, município, UF, CEP) | Art. 3º, I, *e* |
+| A7 | Endereço eletrônico (e-mail) | Art. 3º, I, *e* |
+| A8 | Telefone / WhatsApp | Prática do escritório |
+| A9 | Profissão / atividade principal | Prática do escritório |
+
+---
+
+### BLOCO B — Pessoa Jurídica
+*(dados da empresa contratante)*
+
+| # | Item | Fonte |
+|---|------|-------|
+| B1 | Denominação social | Art. 3º, II, *a* |
+| B2 | CNPJ | Art. 3º, II, *b* |
+| B3 | Endereço completo (logradouro, número, complemento, bairro, município, UF, CEP) | Art. 3º, II, *e* |
+| B4 | Endereço eletrônico (e-mail corporativo) | Art. 3º, II, *e* |
+| B5 | Identificação do beneficiário final, quando possível | Art. 3º, II, *d* |
+| B6 | Telefone / WhatsApp | Prática do escritório |
+| B7 | CNAE principal (e secundários, se houver) | Prática do escritório |
+| B8 | Inscrição Estadual e/ou Inscrição Municipal | Prática do escritório |
+| B9 | Regime tributário atual (Simples Nacional / Lucro Presumido / Lucro Real) | Prática do escritório |
+| B10 | Data de abertura / início de atividades | Prática do escritório |
+| B11 | Cópia do contrato social ou estatuto social vigente | Prática do escritório |
+| B12 | Nome do responsável pelo envio de documentos mensais e contato direto | Prática do escritório |
+| B13 | Contador / escritório anterior e data de encerramento da relação | Prática do escritório |
+
+---
+
+### BLOCO C — Sócios, Administradores e/ou Procuradores / Representantes Legais
+*(preencher uma linha por pessoa; exigido pelo art. 3º, II, c para todos os envolvidos)*
+
+| # | Item | Fonte |
+|---|------|-------|
+| C1 | Nome completo | Art. 3º, II, *c* |
+| C2 | Qualificação (sócio / administrador / procurador / representante legal) | Art. 3º, II, *c* |
+| C3 | CPF | Art. 3º, II, *c* |
+| C4 | Documento de identificação (número, tipo) | Art. 3º, II, *c* |
+| C5 | Órgão expedidor (ou dados do passaporte / carteira civil, se estrangeiro) | Art. 3º, II, *c* |
+| C6 | Enquadramento como PEP? (sim / não) | Art. 3º, II, *c* |
+| C7 | Telefone / WhatsApp | Prática do escritório |
+| C8 | Endereço eletrônico pessoal | Prática do escritório |
+
+---
+
+> **Observação operacional** *(prática do escritório)*: o cadastro deve ser revisado sempre que houver alteração contratual da empresa ou substituição de representante, e ao menos uma vez por ano como parte do procedimento de atualização cadastral.
+

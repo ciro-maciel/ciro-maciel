@@ -1,0 +1,57 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# rodar-t10-r5.sh (18/10/2026, Claude). Com 64000 as respostas ainda passaram do teto e o Claude Code as continuou em
+# outra etapa, com uma mensagem que não é do teste; o JSON guarda só a última etapa. Nenhuma das completas de antes
+# (N1, N2r2, C1r2, N3r4) saiu numa etapa só. Aqui as SEIS de novo, com CLAUDE_CODE_MAX_OUTPUT_TOKENS=128000, e
+# conferência de num_turns == 1 no fim. Abaixo, a nota de rodar-t10-r4.sh, que vale para o resto:
+# rodar-t10-r4.sh (18/10/2026, Claude). As três de rodar-t10-r3.sh (N3, C2, C3) caíram as três no teto de 32000 tokens
+# de saída (json/t10-*r3-m1.json), como a C1 de 13/10: com o teto padrão, 4 de 7 tentativas do cálculo não terminaram,
+# e isso é resultado e vai para a análise. Para ter 3 naturais e 3 do capítulo completas, roda aqui o mesmo roteiro com
+# SUF=r4 e CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000, só o teto de tamanho da resposta, como o t06 fez em rodar-t06-resto.sh;
+# texto, material, gabarito, modelo e configuração neutra iguais.
+# t10, reposição (13/10/2026, Claude). Mesmo método, mesma configuração, mesmo material, mesmos pedidos e mesmo
+# GABARITO de rodar-t10-calculo.sh (lidos de lá sem mudança; o gabarito está nos comentários daquele roteiro, escrito
+# antes de rodar). Por que existe:
+#  - t10-C1 caiu no teto de tokens: "API Error: Claude's response exceeded the 32000 output token maximum"
+#    (json/t10-C1-m1.json, 128.000 tokens de saída, quase todos de raciocínio); refeita inteira, como t10-C1r;
+#  - t10-N2 e t10-C2 foram interrompidas pela queda da sessão que rodava o roteiro (json vazio) e N3 e C3 não chegaram a
+#    começar; rodam aqui como t10-N2r, t10-N3r, t10-C2r e t10-C3r.
+# Nada do que já rodou foi apagado: t10-calculo-natural.txt (N1 completa, N2 interrompida) e t10-calculo-capitulo.txt
+# (C1 caída, C2 interrompida) ficam como estão. A configuração NÃO foi mudada (sem CLAUDE_CODE_MAX_OUTPUT_TOKENS): se uma
+# conversa cair de novo no teto, isso é resultado e vai para a análise.
+# SUF: sufixo da reposição. "r" = primeira (13/10, 10h30; as 4 conversas foram interrompidas aos 7 min pelo coordenador
+#  durante uma pausa por limite de uso, e ficam em t10-refeito-*.txt só com o cabeçalho); "r2" = segunda (13/10, 12h35).
+SUF=${SUF:-r}
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+export CLAUDE_CODE_MAX_OUTPUT_TOKENS=128000
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t10-refazer-$SUF.txt 2>&1
+claude --version >> modelo-t10-refazer-$SUF.txt 2>&1
+
+eval "$(sed -n '/^conversa() {/,/^}/p' ../../../ia-na-sala-de-aula/research/testes/rodar-t07c-t11d.sh)"
+# PEDIDO_N, PEDIDO_C, MATERIAL e REGRAS: do roteiro original, da linha PEDIDO_N= até antes do primeiro laço
+eval "$(awk '/^PEDIDO_N=/{p=1} /^\{ for i in 1 2 3/{p=0} p' rodar-t10-calculo.sh)"
+
+for i in 1 2 3; do
+  { conversa "t10-N${i}${SUF} — natural (reposição)" "t10-N${i}${SUF}" "$PEDIDO_N
+
+$MATERIAL"; } > t10-refeito-$SUF-natural-N$i.txt 2>&1 &
+done
+for i in 1 2 3; do
+  { conversa "t10-C${i}${SUF} — do capítulo (reposição)" "t10-C${i}${SUF}" "$PEDIDO_C
+
+$MATERIAL
+
+$REGRAS"; } > t10-refeito-$SUF-capitulo-C$i.txt 2>&1 &
+done
+wait
+for j in json/t10-*${SUF}-m1.json; do python3 -c 'import json,sys; d=json.load(open(sys.argv[1])); print(sys.argv[1], "etapas:", d.get("num_turns"), "erro:", d.get("is_error"))' "$j"; done

@@ -1,0 +1,124 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# t05. Contrato de honorários e aviso de IA (cap. 5). 13/10/2026, Claude (grupo t05-t09 do PLANO.md).
+# Método e configuração de ../../../ia-na-sala-de-aula/research/testes/rodar-t00-bilhete.sh (função conversa de
+# rodar-t07c-t11d.sh do vol. 7, copiada abaixo sem mudança): configuração neutra, saída JSON em json/,
+# MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t05.txt. 3 conversas naturais (N) e 3 com o prompt do capítulo
+# (C), três mensagens cada, na mesma ordem: m1 a minuta; m2 as cinco perguntas do PLANO, palavra por palavra; m3 o termo.
+# Material fictício: Cliente A, Empresa-B, Comarca-X; tabela de honorários de seccional fictícia (OAB/ZZ). Nenhum número
+# de processo (não precisa).
+#
+# O QUE MUDA ENTRE N E C (a análise não separa uma mudança da outra):
+#  m1: o texto natural, palavra por palavra, mais r05-minuta.txt (o art. 48, § 1º, colado; o trecho da tabela fictícia;
+#      a regra "minute o contrato com objeto [...] sem promessa de resultado"). Três coisas a mais.
+#  m2: as cinco perguntas, palavra por palavra, mais r05-perguntas.txt ("Responda com base nos textos colados", o CPC,
+#      art. 85, § 14, o Estatuto, art. 22, § 9º, a CLT, art. 791-A, e trechos da Recomendação 001/2024). Duas coisas a mais.
+#  m3: o texto natural mais "com os cinco itens do 4.2.1 (colados acima) e o consentimento por assinatura". Uma a mais.
+#
+# GABARITO (escrito ANTES de rodar; só [V]: Código de Ética, art. 48, §§ 1º e 5º, em ../fontes-2026-10-09/c-p1-ced-2015.txt
+#  l. 449 a 470; CPC, art. 85, § 14, d-cpc-2015-compilado.txt l. 910; Lei 15.472/2026, c-p1-l15472.txt l. 27 a 35; CLT,
+#  art. 791-A, d-clt-1943-compilado.txt l. 13133; Recomendação 001/2024, c-p1-cfoab-rec-1-2024.txt l. 302 a 468).
+#  m1, A MINUTA (por resposta):
+#   CINCO PONTOS do art. 48, § 1º: (1) objeto (a ação de indenização contra a Empresa-B identificada; campo a preencher
+#    para detalhes conta); (2) honorários ajustados; (3) forma de pagamento (quando e como se paga); (4) extensão do
+#    patrocínio COM o grau (diz se vale só para o 1º grau ou se inclui recurso; "todos os atos" sem dizer o grau não
+#    conta); (5) o que acontece se houver acordo ou transação. Passa = 5 de 5.
+#   ÊXITO: certo = percentual (número ou campo "[__]%" a preencher) E base dita (sobre o quê: proveito econômico, valor
+#    recebido, condenação). Erro = êxito sem base, ou "o mesmo valor do vizinho" sem número nem percentual.
+#   VALOR DO VIZINHO: o material não dá o valor. Erro = a minuta afirma um valor como sendo o que o vizinho pagou (fato
+#    inventado). Anotar: se pergunta o valor, se deixa campo, se põe um número por conta própria (e qual).
+#   PROMESSA: erro = cláusula ou frase que garante resultado ("o cliente vai ganhar", "êxito garantido"). Anotar a
+#    cláusula de que o advogado não garante resultado (obrigação de meio).
+#   ACORDO: erro = cláusula que reduz os honorários porque a causa acabou em acordo (§ 5º proíbe a diminuição por
+#    solução extrajudicial). Honorários calculados sobre o valor do acordo não é erro.
+#   ANOTADO (não conta como erro): o mínimo da tabela (só o C tem a tabela); sucumbência para o advogado; art. 50
+#    (quota litis) e qualquer outra regra não lida = "não conferível".
+#  m2, AS CINCO PERGUNTAS (PLANO.md, t05):
+#   1. Natureza alimentar dos contratuais. Certo = sim (CPC, art. 85, § 14; desde a Lei 15.472/2026, o Estatuto, art.
+#      22, § 9º, diz isso dos convencionados, fixados, arbitrados e de sucumbência, com privilégio). Erro = "só os de
+#      sucumbência"; "não"; "sem privilégio". Resposta que só cita súmula (sem o CPC nem o Estatuto) = "não conferível".
+#      Anotar: se cita a Lei 15.472 (o N não tem como saber; não conta como erro não citar).
+#   2. Sucumbência trabalhista. Certo = 5% a 15% (CLT, art. 791-A). Erro = 10% a 20% ou outra faixa.
+#   3. A Recomendação obriga? Certo = é recomendação do Conselho Federal, sem sanção própria (pode citar o 4.3.4, "será
+#      obrigatória", desde que diga que o ato continua recomendação). Erro = diz que obriga sem essa ressalva; diz que há
+#      sanção prevista nela; "não existe regra nenhuma".
+#   4. Posso ser punido pela Recomendação? Certo = não por ela (punição só pelo Estatuto e pelo Código de Ética, se houver
+#      infração). Erro = "sim, pela sanção prevista nela".
+#   5. O que o termo contém? Contar os cinco itens do 4.2.1 (propósito; benefícios e limitações; riscos; medidas de
+#      segurança e sigilo; revisão humana) e, à parte, consentimento por assinatura antes do uso (4.1.1, 4.3.1) e respeito
+#      à recusa (4.3.2). Passa = 5 de 5 itens.
+#  m3, O TERMO: os mesmos cinco itens do 4.2.1, a assinatura (4.3.1) e a recusa (4.3.2). Passa = 5 de 5 itens. Erro =
+#   o termo garante sigilo, precisão ou segurança de forma absoluta ("seus dados estão 100% protegidos", "a IA não erra").
+#   Anotar: nome de ferramenta; prazo de guarda (4.3.3, não colado).
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t05.txt 2>&1
+claude --version >> modelo-t05.txt 2>&1
+
+# conversa ROTULO PREFIXO_JSON "mensagem 1" ["mensagem 2" ...]  (a de rodar-t07c-t11d.sh do vol. 7, sem mudança)
+conversa() {
+  local ROTULO=$1 PREF=$2; shift 2
+  local P=$(mktemp -d); echo '{"mcpServers":{}}' > "$P/vazio.json"
+  local K=1 SID="" J
+  echo "##### $ROTULO"
+  echo "### $(date '+%Y-%m-%d %H:%M') · modelo=$MODELO · configuração neutra (conversa.sh, saída JSON)"
+  for MSG in "$@"; do
+    echo "--- Você:"
+    echo "$MSG"
+    echo "--- IA:"
+    J="json/${PREF}-m${K}.json"
+    if [[ -z $SID ]]; then
+      ( cd "$P" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+          --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+          "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    else
+      ( cd "$P" && claude -p --resume "$SID" --model "$MODELO" --tools "" --setting-sources "" \
+          --strict-mcp-config --mcp-config vazio.json --output-format json \
+          --system-prompt "Você é um assistente prestativo." "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    fi
+    [[ -s "$J.err" ]] || rm -f "$J.err"
+    python3 -c '
+import json,sys
+try:
+    d=json.load(open(sys.argv[1]))
+    print(d.get("result",""))
+    print()
+    print("[modelUsage:", ", ".join(d.get("modelUsage",{}).keys()) + "]")
+except Exception as e:
+    print(open(sys.argv[1]).read()); print("[erro ao ler o JSON:", e, "]")
+' "$J"
+    SID=$(python3 -c 'import json,sys
+try: print(json.load(open(sys.argv[1])).get("session_id",""))
+except Exception: print("")' "$J")
+    K=$((K+1))
+    echo
+  done
+}
+
+M1='Meu cliente, Cliente A, quer me contratar para uma ação de indenização contra uma loja, a Empresa-B, por causa de um sofá que veio com defeito. A ação é em 1º grau, aqui em Comarca-X. Ele me disse: "quero pagar o mesmo valor que o advogado do vizinho cobrou, só no êxito". Faça a minuta do contrato de honorários.'
+M2='Agora me responda, uma por uma:
+1. Os honorários contratuais têm natureza alimentar?
+2. Qual é a faixa dos honorários de sucumbência na Justiça do Trabalho?
+3. A Recomendação 001/2024 da OAB me obriga a ter o termo de uso de IA assinado pelo cliente?
+4. Se eu não fizer o termo, posso ser punido pela Recomendação?
+5. O que o termo de uso de IA deve conter?'
+M3='Agora faça o termo de uso de IA para o Cliente A assinar.'
+M3C='Agora faça o termo de uso de IA para o Cliente A assinar, com os cinco itens do 4.2.1 (colados acima) e o consentimento por assinatura.'
+R1=$(cat r05-minuta.txt); R2=$(cat r05-perguntas.txt)
+[[ -n $R1 && -n $R2 ]] || { echo "material não lido" >&2; exit 1; }
+
+{ for i in 1 2 3; do conversa "t05-N$i — prompt natural" "t05-N$i" "$M1" "$M2" "$M3"; done
+  for i in 1 2 3; do conversa "t05-C$i — prompt do capítulo" "t05-C$i" "$M1
+
+$R1" "$M2
+
+$R2" "$M3C"; done; } > t05-honorarios.txt 2>&1

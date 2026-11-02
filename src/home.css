@@ -1,0 +1,259 @@
+/* The shift, as a single vertical timeline.
+
+   One rail runs through the block: the before/after pair are the two nodes at
+   the top, the three people are the three below. The rail is what makes them
+   one movement — the cost falling, and the people who showed up because of it.
+
+   The dots are drawn on the list items, not on the rail, so a node can never
+   drift away from the sentence it belongs to. */
+
+/* Centred in the section. The rail keeps its own width — what is centred is
+   the column, not the text inside it. */
+.shift-rail {
+    position: relative;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 0 0 40px;
+    width: fit-content;
+}
+
+/* The rail itself. It stops 8px short at each end so it reads as a segment
+   between the first and last dot, not as a line the content hangs off. */
+.shift-rail::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: var(--mantine-color-gray-3);
+}
+
+.shift-rail__node,
+.shift-rail__person {
+    position: relative;
+}
+
+.shift-rail__node {
+    padding-bottom: 40px;
+}
+
+/* A rail of nodes only (the path band, since 22/09/2026) ends on a node, and
+   its bottom padding would carry the line past the arrival. When the people
+   follow, the group is the last child and this never matches. */
+.shift-rail__node:last-child {
+    padding-bottom: 0;
+}
+
+/* The dot. `border` rather than a filled circle so the hollow and the solid
+   states are the same shape at the same size — only the fill changes, which
+   is what makes "agora" read as an arrival instead of a different object. */
+.shift-rail__node::before,
+.shift-rail__person::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: var(--mantine-color-white);
+    border: 2px solid var(--mantine-color-gray-4);
+}
+
+.shift-rail__node[data-solid]::before {
+    background: var(--mantine-color-gray-9);
+    border-color: var(--mantine-color-gray-9);
+}
+
+/* The people are a different kind of node: hollow, but ringed in the dark —
+   they are not a later step in the before/after series. */
+.shift-rail__person::before {
+    border-color: var(--mantine-color-gray-9);
+    top: 5px;
+}
+
+/* Value and label share a baseline: the number leads and the word sits next
+   to it, so the eye never travels to find which one it belongs to. That
+   distance was the flaw in the previous version, where the description sat a
+   thousand pixels away at the other edge of the row. */
+.shift-rail__head {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.shift-rail__value {
+    letter-spacing: -0.035em;
+    line-height: 1;
+    margin: 0;
+}
+
+.shift-rail__label {
+    letter-spacing: 0.1em;
+}
+
+.shift-rail__desc {
+    margin-top: 6px;
+    max-width: 440px;
+}
+
+.shift-rail__group {
+    position: relative;
+}
+
+.shift-rail__grouptitle {
+    display: block;
+    letter-spacing: 0.1em;
+    margin-bottom: 22px;
+}
+
+.shift-rail__people {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shift-rail__person {
+    padding-bottom: 28px;
+}
+
+.shift-rail__person:last-child {
+    padding-bottom: 0;
+}
+
+.shift-rail__person p {
+    max-width: 480px;
+}
+
+@media (max-width: 48em) {
+    .shift-rail {
+        padding-left: 30px;
+    }
+
+    .shift-rail::before {
+        left: 6px;
+    }
+
+    .shift-rail__node::before,
+    .shift-rail__person::before {
+        left: -30px;
+        width: 14px;
+        height: 14px;
+    }
+}
+.shift-rail__link { display: inline-block; }
+
+/* The lines (components/LineShowcase.jsx), in the design system's grays
+   (design-system/tokens.js). Three states that never look alike:
+   rest     transparent on the gray band, gray.3 outline, gray.7 name
+   hover    white, gray.4 outline
+   chosen   filled in the brand black (gray.9), like the system's filled
+            button: white name, gray.4 address (7:1 on the black)
+   The keyboard ring stands 3px off the tab, so on the black tab it reads as
+   a ring and not as a second border (it did at 2px, 08/10/2026). */
+.line-tab {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 18px;
+    border: 1px solid var(--mantine-color-gray-3);
+    background: transparent;
+    color: var(--mantine-color-gray-7);
+    transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.line-tab {
+    --line-tab-domain: var(--mantine-color-gray-5);
+}
+
+.line-tab:hover {
+    background: var(--mantine-color-white);
+    border-color: var(--mantine-color-gray-4);
+}
+
+.line-tab[data-active] {
+    background: var(--mantine-color-gray-9);
+    border-color: var(--mantine-color-gray-9);
+    color: var(--mantine-color-white);
+}
+
+.line-tab[data-active] {
+    --line-tab-domain: var(--mantine-color-gray-4);
+}
+
+.line-tab:focus-visible {
+    outline: 2px solid var(--mantine-color-gray-9);
+    outline-offset: 3px;
+}
+
+.line-tab-icon {
+    flex: none;
+    color: var(--mantine-color-gray-5);
+    transition: color 160ms ease;
+}
+
+.line-tab:hover .line-tab-icon {
+    color: var(--mantine-color-gray-7);
+}
+
+.line-tab[data-active] .line-tab-icon {
+    color: var(--mantine-color-white);
+}
+
+.line-tab-text {
+    min-width: 0;
+}
+
+.line-tab-domain {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* The block under the tabs: its text slides in from the side of the tab that
+   was clicked and the art settles a beat later. Keyed in React, so every
+   click replays it. */
+.line-panel > * {
+    padding-top: 56px !important;
+}
+
+.line-panel h2,
+.line-panel .mantine-List-root,
+.line-panel p,
+.line-panel a {
+    animation: line-in 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.line-panel p { animation-delay: 40ms; }
+.line-panel .mantine-List-root { animation-delay: 80ms; }
+.line-panel a { animation-delay: 120ms; }
+
+.line-panel img {
+    animation: line-art-in 560ms cubic-bezier(0.22, 1, 0.36, 1) 60ms both;
+}
+
+@keyframes line-in {
+    from { opacity: 0; transform: translateX(var(--line-from, 32px)); }
+    to { opacity: 1; transform: none; }
+}
+
+@keyframes line-art-in {
+    from { opacity: 0; transform: translateY(16px) scale(0.96); }
+    to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .line-panel *,
+    .line-panel img {
+        animation: none !important;
+    }
+}
+
+@media (max-width: 48em) {
+    .line-tab { padding: 12px 14px; gap: 10px; }
+    /* Two tabs per row leave ~120px of text: the address would only show cut. */
+    .line-tab-domain { display: none !important; }
+    .line-panel > * { padding-top: 40px !important; }
+}

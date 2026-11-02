@@ -1,0 +1,412 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t11, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t11a-N1 — contrato, natural
+### 2026-10-13 09:59 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, uma empresa de manutenção predial, vai assinar este contrato com um condomínio. Dê uma olhada e me diga os riscos para ele.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREDIAL
+
+[Página 1 de 3]
+
+CONTRATANTE: CONDOMÍNIO RESIDENCIAL-B, com sede em Comarca-X, neste ato representado por seu síndico.
+CONTRATADA: PRESTADORA-A MANUTENÇÃO PREDIAL LTDA., com sede em Comarca-X, neste ato representada por seu sócio administrador.
+
+Cláusula 1 – Objeto. A CONTRATADA prestará ao CONDOMÍNIO serviços de manutenção preventiva e corretiva das instalações elétricas, hidráulicas, das bombas de recalque e do portão automático das duas torres do condomínio, conforme o plano de visitas do Anexo Único.
+
+Cláusula 2 – Prazo. Este contrato vigorará por 36 (trinta e seis) meses, contados da assinatura.
+
+Cláusula 3 – Preço. O CONDOMÍNIO pagará à CONTRATADA R$ 6.500,00 (seis mil e quinhentos reais) por mês, até o dia 10 do mês seguinte ao da prestação, mediante boleto.
+
+Cláusula 4 – Preço fixo. O preço da Cláusula 3 é fixo e irreajustável durante toda a vigência deste contrato, renunciando a CONTRATADA, desde já, a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos.
+
+[Página 2 de 3]
+
+Cláusula 5 – Obrigações da CONTRATADA. (a) cumprir o plano de visitas; (b) atender chamados de emergência em até 4 horas; (c) fornecer mão de obra própria, com uniforme e equipamentos de proteção; (d) manter seguro de responsabilidade civil durante a vigência.
+
+Cláusula 6 – Obrigações do CONDOMÍNIO. (a) pagar o preço no prazo da Cláusula 3; (b) dar acesso às áreas técnicas; (c) indicar um responsável para receber os relatórios mensais.
+
+Cláusula 7 – Penalidades. Pelo descumprimento de qualquer obrigação deste contrato, a CONTRATADA pagará ao CONDOMÍNIO multa de 20% (vinte por cento) do valor total do contrato, sem prejuízo das perdas e danos.
+
+Cláusula 8 – Rescisão. Qualquer das partes poderá rescindir este contrato, sem multa, mediante aviso por escrito com 60 (sessenta) dias de antecedência.
+
+Cláusula 9 – Materiais. Peças de reposição de valor superior a R$ 500,00 serão compradas pelo CONDOMÍNIO, mediante orçamento prévio apresentado pela CONTRATADA.
+
+[Página 3 de 3]
+
+Cláusula 10 – Confidencialidade. A CONTRATADA manterá sigilo sobre os dados dos condôminos a que tiver acesso em razão dos serviços.
+
+Cláusula 11 – Foro. Fica eleito o foro da Comarca-Y, distante 1.900 km da sede de ambas as partes, com renúncia a qualquer outro, por mais privilegiado que seja.
+
+Comarca-X, 05 de outubro de 2026.
+
+CONDOMÍNIO RESIDENCIAL-B — síndico
+PRESTADORA-A MANUTENÇÃO PREDIAL LTDA. — sócio administrador
+--- IA:
+# Análise de Riscos para a PRESTADORA-A
+
+> ⚠️ Esta análise identifica os pontos de atenção jurídica e comercial no contrato. Não substitui aconselhamento jurídico formal — recomendo que um advogado revise o documento antes da assinatura.
+
+---
+
+## 🔴 Riscos Críticos
+
+### 1. Preço fixo e irreajustável por 36 meses (Cláusula 4)
+Este é o maior risco do contrato. A cláusula vai além de simplesmente não prever reajuste — ela exige que a CONTRATADA **renuncie expressamente** a qualquer pedido de revisão, mesmo diante de:
+- Aumento do salário mínimo ou convenção coletiva da categoria
+- Inflação de materiais (fios, canos, motores etc.)
+- Aumento de tributos (INSS, FGTS, ISS, etc.)
+
+**Impacto financeiro ilustrativo:** Com inflação de ~5% ao ano, o poder real de R$ 6.500 em 2028 será equivalente a cerca de R$ 5.570 de hoje — uma perda silenciosa de ~14% na margem.
+
+**Nota jurídica:** Embora a cláusula tente bloquear qualquer revisão, o Art. 478 do Código Civil brasileiro prevê a resolução do contrato por **onerosidade excessiva superveniente**. A renúncia prévia a esse direito é de validade discutível, mas litigar sobre isso tem custo e incerteza.
+
+---
+
+### 2. Penalidades totalmente assimétricas (Cláusula 7)
+
+| Parte | Penalidade por descumprimento |
+|---|---|
+| **CONTRATADA** | 20% do valor total do contrato + perdas e danos |
+| **CONDOMÍNIO** | **Nenhuma menção** |
+
+- 20% de R$ 234.000 (36 × R$ 6.500) = **R$ 46.800** por qualquer descumprimento, por menor que seja
+- A multa se aplica a **"qualquer obrigação"** — um atraso numa visita agendada, por exemplo, poderia ensejar essa cobrança
+- Não há multa recíproca se o condomínio pagar em atraso ou negar acesso às áreas técnicas
+
+**Ponto de negociação prioritário:** incluir multa equivalente para o CONDOMÍNIO e restringir a aplicação da penalidade a descumprimentos materiais e não sanados após notificação.
+
+---
+
+## 🟠 Riscos Relevantes
+
+### 3. Foro em comarca distante 1.900 km (Cláusula 11)
+Ambas as partes estão em Comarca-X. A eleição de Comarca-Y, a 1.900 km, **não beneficia nenhuma das partes de boa-fé** — e só serviria para tornar qualquer disputa judicial inviável economicamente para a CONTRATADA.
+
+O Art. 63, §4º do CPC permite ao juiz declarar ineficaz a cláusula quando dificultar em demasia o acesso à justiça, mas não há garantia. O mais seguro é **não assinar com essa cláusula**.
+
+---
+
+### 4. Rescisão sem ônus para o CONDOMÍNIO (Cláusula 8)
+O aviso de 60 dias é razoável, mas a rescisão sem qualquer indenização expõe a CONTRATADA a:
+- Perda de investimentos feitos para atender o contrato (contratação de funcionários, compra de equipamentos)
+- Ausência de compensação por "desmobilização"
+
+**Sugestão:** Incluir indenização equivalente a 2–3 mensalidades caso o CONDOMÍNIO rescinda sem justa causa antes de determinado período mínimo (ex.: 12 meses).
+
+---
+
+### 5. Materiais sem definição do limite inferior (Cláusula 9)
+A cláusula diz que peças **acima de R$ 500** são por conta do CONDOMÍNIO. Isso implica que peças **abaixo de R$ 500** são responsabilidade da CONTRATADA — mas isso **nunca é dito explicitamente**.
+
+Em dois prédios com instalações elétricas, hidráulicas, bombas e portões automáticos, o custo acumulado de pequenas peças pode ser expressivo. Esse valor (R$ 500) não tem reajuste, logo com o tempo mais itens "caem" dentro da responsabilidade da CONTRATADA.
+
+---
+
+### 6. "Emergência" sem definição (Cláusula 5b)
+O prazo de 4 horas para atendimento de emergência é objetivamente apertado (especialmente à noite ou em feriados), e o contrato **não define o que é emergência**. Sem essa definição:
+- O CONDOMÍNIO pode caracterizar qualquer chamado como "emergência"
+- O descumprimento do prazo expõe a CONTRATADA à multa da Cláusula 7
+
+---
+
+## 🟡 Pontos de Menor Risco, Mas Que Merecem Atenção
+
+### 7. Ausência de encargos por atraso do CONDOMÍNIO (Cláusula 3)
+Se o condomínio pagar após o dia 10, não há multa nem juros previstos. Inclua ao menos **multa de 2% + juros de 1% ao mês + correção pelo IPCA** em caso de inadimplência.
+
+### 8. Seguro sem valor mínimo definido (Cláusula 5d)
+A obrigação de manter seguro de responsabilidade civil existe, mas sem indicar valor mínimo de cobertura. O custo do seguro (que subirá ao longo do contrato) está absorvido no preço fixo.
+
+### 9. Anexo Único não disponível para análise
+Todo o escopo dos serviços depende do plano de visitas desse Anexo. Certifique-se de que ele está bem detalhado, com frequência, tipo de serviço e limites de abrangência. Um anexo vago pode ser usado para ampliar obrigações da CONTRATADA.
+
+---
+
+## Resumo Executivo
+
+| # | Risco | Severidade | Recomendação |
+|---|---|---|---|
+| 1 | Preço fixo 36 meses | 🔴 Crítico | Negociar reajuste anual pelo IPCA/INPC |
+| 2 | Multa assimétrica | 🔴 Crítico | Multa recíproca e limitar aplicação |
+| 3 | Foro a 1.900 km | 🟠 Alto | Alterar para Comarca-X |
+| 4 | Rescisão sem indenização | 🟠 Alto | Incluir indenização por rescisão imotivada |
+| 5 | Materiais sem limite mínimo | 🟠 Alto | Definir que todos os materiais são do CONDOMÍNIO |
+| 6 | "Emergência" indefinida | 🟠 Alto | Definir critérios objetivos |
+| 7 | Sem encargos por atraso | 🟡 Médio | Incluir multa + juros ao CONDOMÍNIO |
+| 8 | Seguro sem cobertura mínima | 🟡 Médio | Fixar valor mínimo |
+| 9 | Anexo Único não analisado | 🟡 Médio | Revisar antes de assinar |
+
+**Recomendação geral:** O contrato, na forma atual, é fortemente favorável ao CONDOMÍNIO. Os riscos 1 e 2 isoladamente já justificariam recusar a assinatura ou exigir renegociação substancial. Envie uma contraproposta com as alterações acima antes de seguir em frente.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t11a-N2 — contrato, natural
+### 2026-10-13 10:00 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, uma empresa de manutenção predial, vai assinar este contrato com um condomínio. Dê uma olhada e me diga os riscos para ele.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREDIAL
+
+[Página 1 de 3]
+
+CONTRATANTE: CONDOMÍNIO RESIDENCIAL-B, com sede em Comarca-X, neste ato representado por seu síndico.
+CONTRATADA: PRESTADORA-A MANUTENÇÃO PREDIAL LTDA., com sede em Comarca-X, neste ato representada por seu sócio administrador.
+
+Cláusula 1 – Objeto. A CONTRATADA prestará ao CONDOMÍNIO serviços de manutenção preventiva e corretiva das instalações elétricas, hidráulicas, das bombas de recalque e do portão automático das duas torres do condomínio, conforme o plano de visitas do Anexo Único.
+
+Cláusula 2 – Prazo. Este contrato vigorará por 36 (trinta e seis) meses, contados da assinatura.
+
+Cláusula 3 – Preço. O CONDOMÍNIO pagará à CONTRATADA R$ 6.500,00 (seis mil e quinhentos reais) por mês, até o dia 10 do mês seguinte ao da prestação, mediante boleto.
+
+Cláusula 4 – Preço fixo. O preço da Cláusula 3 é fixo e irreajustável durante toda a vigência deste contrato, renunciando a CONTRATADA, desde já, a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos.
+
+[Página 2 de 3]
+
+Cláusula 5 – Obrigações da CONTRATADA. (a) cumprir o plano de visitas; (b) atender chamados de emergência em até 4 horas; (c) fornecer mão de obra própria, com uniforme e equipamentos de proteção; (d) manter seguro de responsabilidade civil durante a vigência.
+
+Cláusula 6 – Obrigações do CONDOMÍNIO. (a) pagar o preço no prazo da Cláusula 3; (b) dar acesso às áreas técnicas; (c) indicar um responsável para receber os relatórios mensais.
+
+Cláusula 7 – Penalidades. Pelo descumprimento de qualquer obrigação deste contrato, a CONTRATADA pagará ao CONDOMÍNIO multa de 20% (vinte por cento) do valor total do contrato, sem prejuízo das perdas e danos.
+
+Cláusula 8 – Rescisão. Qualquer das partes poderá rescindir este contrato, sem multa, mediante aviso por escrito com 60 (sessenta) dias de antecedência.
+
+Cláusula 9 – Materiais. Peças de reposição de valor superior a R$ 500,00 serão compradas pelo CONDOMÍNIO, mediante orçamento prévio apresentado pela CONTRATADA.
+
+[Página 3 de 3]
+
+Cláusula 10 – Confidencialidade. A CONTRATADA manterá sigilo sobre os dados dos condôminos a que tiver acesso em razão dos serviços.
+
+Cláusula 11 – Foro. Fica eleito o foro da Comarca-Y, distante 1.900 km da sede de ambas as partes, com renúncia a qualquer outro, por mais privilegiado que seja.
+
+Comarca-X, 05 de outubro de 2026.
+
+CONDOMÍNIO RESIDENCIAL-B — síndico
+PRESTADORA-A MANUTENÇÃO PREDIAL LTDA. — sócio administrador
+--- IA:
+# Análise de Riscos para a PRESTADORA-A
+
+Identifiquei **dez riscos**, agrupados por gravidade.
+
+---
+
+## 🔴 Riscos Críticos
+
+### 1. Preço fixo e irreajustável por 36 meses (Cláusula 4)
+Este é o risco mais grave. A cláusula vai além de simplesmente não prever índice de reajuste — ela faz sua cliente **renunciar expressamente** a qualquer revisão, mesmo por onerosidade excessiva (arts. 478–480 do Código Civil). Em três anos, aumentos de salário mínimo, convenção coletiva, insumos e tributos podem consumir toda a margem. **Recomendo negociar ao menos reajuste anual pelo INPC ou IPCA.**
+
+### 2. Multa de 20% do valor total do contrato — unilateral e desproporcional (Cláusula 7)
+O cálculo: R$ 6.500 × 36 meses = **R$ 234.000** de valor total. 20% disso = **R$ 46.800**, cumulativos com perdas e danos, por **qualquer** descumprimento — inclusive atraso de 1 hora num chamado emergencial. Dois problemas graves:
+- **Unilateral:** a cláusula diz expressamente que "a CONTRATADA pagará ao CONDOMÍNIO". O condomínio não tem multa equivalente (atraso no pagamento sujeita apenas a juros legais de 1% a.m. + correção).
+- **Base de cálculo absurda:** a multa deveria incidir sobre a mensalidade ou no máximo sobre algumas parcelas, não sobre o contrato inteiro.
+
+### 3. Foro em comarca 1.900 km de distância (Cláusula 11)
+Ambas as partes são sediadas em Comarca-X; o foro eleito é Comarca-Y. Na prática, qualquer litígio exige deslocamento, advogado local e custos elevados — o que inviabiliza economicamente a defesa de sua cliente em caso de cobrança indevida. Cláusula de eleição de foro prejudicial ao prestador pode ser impugnada por abusividade em contrato de adesão (art. 63, §3º, do CPC), mas o melhor é negociar a alteração antes de assinar.
+
+---
+
+## 🟠 Riscos Sérios
+
+### 4. Rescisão sem multa pelo condomínio a qualquer tempo (Cláusula 8)
+O condomínio pode encerrar o contrato com 60 dias de aviso, sem pagar nada. Se sua cliente contratou funcionários, comprou equipamentos ou deixou outros contratos para atender este, fica sem proteção. **Recomendo inserir multa rescisória para a hipótese de rescisão imotivada pelo condomínio** (ex.: equivalente a 3 mensalidades).
+
+### 5. "Chamado de emergência" sem definição (Cláusula 5-b)
+O prazo de 4 horas corre, mas o contrato não diz o que é emergência. O condomínio pode classificar qualquer chamado como emergencial e acionar a multa da Cláusula 7 por um atraso. **Recomendo incluir rol taxativo** (ex.: falta de energia em área comum, vazamento com risco de dano estrutural etc.) e prever que o prazo começa a correr após confirmação formal do chamado.
+
+### 6. Ausência de força maior e caso fortuito
+Não há cláusula eximindo a CONTRATADA em situações alheias à sua vontade (greve, desastre natural, indisponibilidade de peças no mercado). Qualquer atraso, por qualquer causa, ativa a multa da Cláusula 7.
+
+---
+
+## 🟡 Riscos Moderados
+
+### 7. Limiar de R$ 500 para materiais sem correção monetária (Cláusula 9)
+Em 36 meses, a inflação corrói esse valor. Peças que hoje custam R$ 450 podem passar de R$ 500, e a CONTRATADA poderá ser obrigada a absorver o custo sem ressarcimento. **Recomendo prever reajuste anual do limite.**
+
+### 8. Anexo Único não transcrito no contrato
+O escopo dos serviços é definido pelo "plano de visitas do Anexo Único", mas ele não está no texto. Se houver divergência sobre o que está incluído no plano, sua cliente fica exposta a interpretações desfavoráveis.
+
+### 9. Seguro de responsabilidade civil sem valor mínimo (Cláusula 5-d)
+A obrigação de manter seguro não especifica limite mínimo de cobertura. O condomínio pode argumentar que a apólice contratada é insuficiente e exigir ampliação a qualquer momento.
+
+### 10. Ausência de disposições sobre LGPD (Cláusula 10)
+A cláusula de confidencialidade é genérica e não trata das obrigações como operador de dados pessoais (Lei 13.709/2018). Em caso de vazamento de dados de condôminos durante a prestação do serviço, a responsabilidade fica indefinida.
+
+---
+
+## Resumo das negociações prioritárias
+
+| Prioridade | Ponto | O que pedir |
+|---|---|---|
+| 🔴 1 | Cláusula 4 | Reajuste anual por INPC/IPCA |
+| 🔴 2 | Cláusula 7 | Reduzir base de cálculo; tornar multa bilateral |
+| 🔴 3 | Cláusula 11 | Alterar para Comarca-X |
+| 🟠 4 | Cláusula 8 | Multa rescisória por iniciativa do condomínio |
+| 🟠 5 | Cláusula 5-b | Definir "emergência" e marco inicial do prazo |
+
+---
+
+> ⚠️ **Aviso:** Esta análise tem caráter informativo e não substitui orientação jurídica formal. Recomendo que sua cliente consulte um advogado antes de assinar.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t11a-N3 — contrato, natural
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente, uma empresa de manutenção predial, vai assinar este contrato com um condomínio. Dê uma olhada e me diga os riscos para ele.
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE MANUTENÇÃO PREDIAL
+
+[Página 1 de 3]
+
+CONTRATANTE: CONDOMÍNIO RESIDENCIAL-B, com sede em Comarca-X, neste ato representado por seu síndico.
+CONTRATADA: PRESTADORA-A MANUTENÇÃO PREDIAL LTDA., com sede em Comarca-X, neste ato representada por seu sócio administrador.
+
+Cláusula 1 – Objeto. A CONTRATADA prestará ao CONDOMÍNIO serviços de manutenção preventiva e corretiva das instalações elétricas, hidráulicas, das bombas de recalque e do portão automático das duas torres do condomínio, conforme o plano de visitas do Anexo Único.
+
+Cláusula 2 – Prazo. Este contrato vigorará por 36 (trinta e seis) meses, contados da assinatura.
+
+Cláusula 3 – Preço. O CONDOMÍNIO pagará à CONTRATADA R$ 6.500,00 (seis mil e quinhentos reais) por mês, até o dia 10 do mês seguinte ao da prestação, mediante boleto.
+
+Cláusula 4 – Preço fixo. O preço da Cláusula 3 é fixo e irreajustável durante toda a vigência deste contrato, renunciando a CONTRATADA, desde já, a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro, ainda que sobrevenham aumentos de custos de mão de obra, materiais ou tributos.
+
+[Página 2 de 3]
+
+Cláusula 5 – Obrigações da CONTRATADA. (a) cumprir o plano de visitas; (b) atender chamados de emergência em até 4 horas; (c) fornecer mão de obra própria, com uniforme e equipamentos de proteção; (d) manter seguro de responsabilidade civil durante a vigência.
+
+Cláusula 6 – Obrigações do CONDOMÍNIO. (a) pagar o preço no prazo da Cláusula 3; (b) dar acesso às áreas técnicas; (c) indicar um responsável para receber os relatórios mensais.
+
+Cláusula 7 – Penalidades. Pelo descumprimento de qualquer obrigação deste contrato, a CONTRATADA pagará ao CONDOMÍNIO multa de 20% (vinte por cento) do valor total do contrato, sem prejuízo das perdas e danos.
+
+Cláusula 8 – Rescisão. Qualquer das partes poderá rescindir este contrato, sem multa, mediante aviso por escrito com 60 (sessenta) dias de antecedência.
+
+Cláusula 9 – Materiais. Peças de reposição de valor superior a R$ 500,00 serão compradas pelo CONDOMÍNIO, mediante orçamento prévio apresentado pela CONTRATADA.
+
+[Página 3 de 3]
+
+Cláusula 10 – Confidencialidade. A CONTRATADA manterá sigilo sobre os dados dos condôminos a que tiver acesso em razão dos serviços.
+
+Cláusula 11 – Foro. Fica eleito o foro da Comarca-Y, distante 1.900 km da sede de ambas as partes, com renúncia a qualquer outro, por mais privilegiado que seja.
+
+Comarca-X, 05 de outubro de 2026.
+
+CONDOMÍNIO RESIDENCIAL-B — síndico
+PRESTADORA-A MANUTENÇÃO PREDIAL LTDA. — sócio administrador
+--- IA:
+# Análise de Riscos para a PRESTADORA-A
+
+> ⚠️ **Aviso:** Esta análise identifica riscos contratuais, mas não substitui a consulta a um advogado. Recomendo revisão jurídica antes da assinatura.
+
+---
+
+## 🔴 Riscos Críticos
+
+### 1. Preço fixo por 36 meses sem reajuste (Cláusula 4)
+Este é o maior risco do contrato. A contratada **renuncia expressamente** a qualquer reajuste, revisão ou reequilíbrio econômico-financeiro durante 3 anos, mesmo diante de:
+- Aumento do custo de mão de obra (dissídios, nova convenção coletiva)
+- Alta de preços de materiais e peças
+- Aumento de tributos (encargos trabalhistas, ISS, etc.)
+
+**Impacto estimado:** Considerando inflação histórica no setor de serviços no Brasil, uma perda real de 15–25% no poder de compra ao longo do contrato é plausível. Sobre R$ 234.000,00 (valor total), isso pode representar uma perda de R$ 35.000–58.000.
+
+**O que pedir:** Cláusula de reajuste anual pelo INPC ou IPCA, ou ao menos pelo piso da convenção coletiva da categoria.
+
+---
+
+### 2. Foro em Comarca distante 1.900 km (Cláusula 11)
+A eleição de foro em local distante de ambas as partes é **abusiva e desproporcional**. Qualquer demanda judicial — inclusive para cobrar inadimplência do condomínio — obrigaria a contratada a:
+- Contratar advogado na Comarca-Y
+- Arcar com custas de deslocamento de testemunhas e prepostos
+- Suportar um litígio economicamente inviável para valores mensais de R$ 6.500,00
+
+**Fundamento legal:** O STJ tem entendimento consolidado de que cláusula de eleição de foro que dificulta o acesso à Justiça é ineficaz (súmula e jurisprudência sobre contratos de adesão). Mesmo que não seja formalmente um contrato de adesão, o argumento de abusividade é forte.
+
+**O que pedir:** Substituir por foro da Comarca-X (sede de ambas as partes).
+
+---
+
+### 3. Multa assimétrica e desproporcional (Cláusula 7)
+- A multa de **20% do valor total do contrato** recai **somente sobre a contratada**
+- Valor total = R$ 6.500 × 36 = **R$ 234.000** → multa = **R$ 46.800**
+- Qualquer descumprimento, mesmo menor (ex.: atraso de 1 hora no chamado de emergência), pode ensejar a multa integral
+- O condomínio, por outro lado, **não tem nenhuma penalidade** prevista por atraso no pagamento
+
+**O que pedir:**
+1. Multa proporcional ao tipo de infração (ex.: multa por evento, com teto)
+2. Multa recíproca para o condomínio em caso de atraso no pagamento (juros + multa moratória de 2%)
+
+---
+
+## 🟠 Riscos Relevantes
+
+### 4. Rescisão sem ônus para o condomínio (Cláusula 8)
+O condomínio pode encerrar o contrato a qualquer momento com apenas 60 dias de aviso, **sem pagar nenhuma indenização**, mesmo após a contratada ter:
+- Comprado equipamentos dedicados
+- Alocado equipe exclusiva
+- Feito investimentos iniciais no onboarding
+
+**O que pedir:** Multa rescisória para o condomínio em caso de rescisão imotivada (ex.: 3 mensalidades, proporcional ao tempo restante), em linha com o que seria cobrado da contratada se ela rescindisse.
+
+---
+
+### 5. Obrigação de atendimento emergencial em 4 horas (Cláusula 5b)
+Sem definição de:
+- O que constitui "emergência" (quem classifica?)
+- Limite de chamados por mês
+- Horário de cobertura (24h? Finais de semana? Feriados)
+
+Um condomínio com duas torres pode gerar chamados emergenciais frequentes, e o custo de sobreaviso/plantão não está refletido no preço fixo.
+
+**O que pedir:** Definir "emergência" objetivamente, limitar chamados incluídos no preço mensal, e prever adicional para atendimentos noturnos/fins de semana/feriados.
+
+---
+
+### 6. Escopo amplo sem definição de limites de horas (Cláusula 1)
+O objeto cobre elétricas, hidráulicas, bombas e portões das **duas torres** por preço único. O contrato não especifica:
+- Número máximo de horas mensais inclusas
+- O que é manutenção "preventiva" vs. "corretiva" (a corretiva pode ser ilimitada?)
+- Exclusões (ex.: danos por vandalismo, por obra de terceiros)
+
+**O que pedir:** Incluir no Anexo Único (plano de visitas) o escopo preciso, com horas incluídas, definição de corretiva não coberta e processo de aprovação para serviços extras.
+
+---
+
+### 7. Ausência de correção por inadimplência do condomínio
+Não há previsão de:
+- Juros moratórios por atraso no pagamento
+- Multa por atraso
+- Direito de suspender os serviços após X dias de inadimplência
+
+**O que pedir:** Acrescentar cláusula de mora (ex.: juros de 1% a.m. + multa de 2% + correção pelo IPCA) e direito de suspender serviços após 30 dias de inadimplência.
+
+---
+
+## 🟡 Pontos de Atenção Menores
+
+| Item | Observação |
+|---|---|
+| **Cláusula 9 – Materiais** | O limite de R$ 500 pode ser muito baixo; peças de bomba de recalque facilmente superam esse valor. Avaliar se o processo de orçamento não vai gerar atraso na execução. |
+| **Cláusula 10 – Confidencialidade** | Não há prazo de vigência pós-contrato nem penalidade definida. Em si não prejudica a contratada, mas pode expô-la caso funcionários acessem dados indevidamente. |
+| **Anexo Único** | Não está reproduzido no contrato. É fundamental revisar o plano de visitas antes de assinar — ele define o volume real de trabalho. |
+| **Seguro de RC (Cláusula 5d)** | Custo recorrente do seguro não está separado; deve ser considerado na margem do preço fixo. |
+
+---
+
+## Resumo Executivo
+
+| Prioridade | Cláusula | Risco |
+|---|---|---|
+| 🔴 Crítico | 4 | Sem reajuste por 36 meses |
+| 🔴 Crítico | 11 | Foro 1.900 km de distância |
+| 🔴 Crítico | 7 | Multa de R$ 46.800 só contra a contratada |
+| 🟠 Relevante | 8 | Rescisão sem ônus pelo condomínio |
+| 🟠 Relevante | 5b | Emergência sem definição e sem limite |
+| 🟠 Relevante | 1 | Escopo aberto sem teto de horas |
+| 🟡 Atenção | 3 | Sem multa por atraso do condomínio |
+
+**Recomendação geral:** O contrato, como está, é substancialmente favorável ao condomínio. Antes de assinar, a contratada deve negociar ao menos os três pontos críticos — preço fixo, foro e assimetria de multas — e buscar assessoria jurídica para redação das alterações.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

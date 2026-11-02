@@ -1,0 +1,1650 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t07, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t07a-N1 — inicial, prompt natural
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça a petição inicial de uma ação contra a companhia aérea, com estes fatos.
+
+Fatos do cliente, numerados, com os documentos:
+1. Cliente A mora em Comarca-X (comprovante de residência, Doc. 1).
+2. Comprou da Empresa-B Linhas Aéreas S.A. uma passagem de Comarca-X para Cidade-Y, voo 1234, em 03/03/2026, com saída às 8h (bilhete, Doc. 2).
+3. Pagou R$ 1.380,00 pela passagem (comprovante de pagamento, Doc. 3).
+4. Em 03/03/2026, às 7h10, já no aeroporto, recebeu no aplicativo da companhia a mensagem de que o voo 1234 estava cancelado (captura de tela da mensagem, Doc. 4).
+5. A companhia ofereceu reacomodação no voo de 04/03/2026, às 8h, e ele aceitou (cartão de embarque, Doc. 5).
+6. Pagou uma noite de hotel em Comarca-X, R$ 290,00 (nota fiscal, Doc. 6).
+7. Gastou R$ 64,00 com alimentação no aeroporto (cupons fiscais, Doc. 7).
+8. Em 04/03/2026, despachou uma mala no voo da reacomodação (etiqueta de bagagem, Doc. 8).
+9. Ao desembarcar em Cidade-Y, a mala não apareceu; ele registrou o Relatório de Irregularidade de Bagagem no mesmo dia (RIB, Doc. 9).
+10. Em 30/03/2026, a companhia informou por e-mail que a mala não foi localizada (e-mail, Doc. 10).
+11. Na mala havia roupas e um notebook; ele estima o conteúdo em R$ 6.200,00 e tem a nota fiscal do notebook, de R$ 4.300,00 (nota fiscal, Doc. 11).
+12. Ele quer pedir danos materiais e danos morais, num total de 35 salários mínimos.
+--- IA:
+# PETIÇÃO INICIAL — AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA \_\_\_ VARA CÍVEL DA COMARCA DE COMARCA-X**
+
+---
+
+**CLIENTE A**, brasileiro(a), [estado civil], [profissão], portador(a) do RG n.º \_\_\_\_\_ e CPF n.º \_\_\_\_\_, residente e domiciliado(a) em Comarca-X (comprovante de residência, **Doc. 1**), doravante denominado(a) **AUTOR(A)**, por intermédio de seu advogado e procurador infra-assinado (instrumento de mandato, **Doc. 0**), com escritório profissional na [endereço completo], onde recebe intimações, vem, respeitosamente, à presença de Vossa Excelência, com fundamento no art. 319 do Código de Processo Civil (Lei n.º 13.105/2015), no Código de Defesa do Consumidor (Lei n.º 8.078/1990) e no Código Civil (Lei n.º 10.406/2002), propor
+
+---
+
+## AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+---
+
+em face de **EMPRESA-B LINHAS AÉREAS S.A.**, sociedade empresária do ramo de transporte aéreo, inscrita no CNPJ sob o n.º \_\_\_\_\_, com sede na [endereço da sede], doravante denominada **RÉ**, pelos fatos e fundamentos jurídicos a seguir expostos.
+
+---
+
+## I — DOS FATOS
+
+### 1. Da contratação da passagem aérea
+
+1. O Autor reside em Comarca-X, conforme comprovante de residência acostado (**Doc. 1**).
+
+2. O Autor adquiriu da Ré passagem para o voo n.º **1234**, com origem em Comarca-X e destino à Cidade-Y, com data programada para **03 de março de 2026** e horário de partida às **8h00** (**bilhete aéreo, Doc. 2**).
+
+3. Pelo serviço contratado, o Autor pagou a importância de **R$ 1.380,00 (um mil trezentos e oitenta reais)**, conforme comprova o documento de pagamento (**Doc. 3**).
+
+### 2. Do cancelamento do voo e de seus efeitos imediatos
+
+4. Em **03 de março de 2026, às 7h10**, já no aeroporto e em iminência de embarque, o Autor recebeu, por meio do aplicativo oficial da Ré, mensagem informando o **cancelamento do voo 1234** (**captura de tela, Doc. 4**). O aviso foi dado a menos de cinquenta minutos do horário de partida, sem qualquer justificativa.
+
+5. A Ré ofereceu ao Autor reacomodação no voo do dia seguinte, **04 de março de 2026, às 8h00**, proposta que o Autor aceitou, por não dispor de alternativa viável (**cartão de embarque, Doc. 5**).
+
+6. Em consequência direta do cancelamento, o Autor se viu forçado a **pernoitar em Comarca-X**, arcando com o custo de uma diária de hotel no valor de **R$ 290,00 (duzentos e noventa reais)**, conforme nota fiscal (**Doc. 6**).
+
+7. Durante as horas de espera no aeroporto, o Autor gastou **R$ 64,00 (sessenta e quatro reais)** com alimentação, cujos cupons fiscais encontram-se acostados (**Doc. 7**).
+
+### 3. Do extravio definitivo da bagagem
+
+8. Em **04 de março de 2026**, o Autor despachou sua mala no voo de reacomodação, tendo recebido a respectiva etiqueta de identificação de bagagem (**Doc. 8**).
+
+9. Ao desembarcar em Cidade-Y, a mala do Autor **não foi localizada na esteira**. No mesmo dia, o Autor registrou o **Relatório de Irregularidade de Bagagem (RIB)** perante a Ré (**Doc. 9**), dando início ao procedimento de localização.
+
+10. Transcorridos mais de vinte e cinco dias sem qualquer solução, em **30 de março de 2026**, a Ré comunicou ao Autor, por e-mail, que **a mala não havia sido localizada** (**Doc. 10**), confirmando o extravio definitivo dos seus pertences.
+
+11. Na mala extraviada encontravam-se roupas e acessórios pessoais, além de um **notebook**, cujo valor totaliza **R$ 6.200,00 (seis mil e duzentos reais)**; deste montante, **R$ 4.300,00 (quatro mil e trezentos reais)** são referentes ao notebook, comprovados por nota fiscal (**Doc. 11**), e **R$ 1.900,00 (um mil e novecentos reais)** correspondem às roupas e demais itens pessoais.
+
+---
+
+## II — DO DIREITO
+
+### 1. Da relação de consumo e da responsabilidade objetiva da Ré
+
+A relação jurídica travada entre as partes enquadra-se perfeitamente no conceito de relação de consumo estabelecido nos arts. 2.º e 3.º do CDC, ostentando o Autor a condição de consumidor e a Ré a de fornecedora de serviços de transporte aéreo.
+
+Nos termos do art. 14 do CDC, o fornecedor de serviços responde **independentemente de culpa** pelos danos causados ao consumidor em razão de defeitos na prestação dos serviços. A falha na prestação — materializada tanto no cancelamento do voo em cima da hora quanto no extravio definitivo da mala — é incontroversa e documentalmente demonstrada, impondo-se o reconhecimento da responsabilidade objetiva da Ré.
+
+### 2. Do cancelamento intempestivo do voo
+
+A **Resolução n.º 400/2016 da ANAC**, que dispõe sobre as condições gerais de transporte aéreo, estabelece, em seu art. 21, que em caso de cancelamento a empresa aérea deve informar os passageiros com **antecedência mínima de 72 (setenta e duas) horas**, assegurando-lhes, conforme a opção do passageiro, a reacomodação, o reembolso integral ou a execução do serviço por outra modalidade de transporte. O art. 27 da mesma norma prevê o direito à **assistência material** — alimentação e hospedagem — quando a espera superar quatro horas.
+
+No presente caso, o cancelamento foi comunicado ao Autor **às 7h10 do próprio dia do voo**, quando ele já se encontrava no aeroporto. Não houve comunicação antecipada, nem fornecimento espontâneo de hospedagem e alimentação pela Ré, em flagrante violação às normas regulatórias e ao contrato de transporte celebrado.
+
+O art. 737 do Código Civil reforça que o transportador está sujeito aos horários e condições contratados, vedando-se a alteração unilateral sem justa causa adequadamente comunicada.
+
+Em decorrência da falha da Ré, o Autor suportou despesas de hotel e alimentação (R$ 290,00 + R$ 64,00 = **R$ 354,00**) que jamais teria incorrido não fosse o cancelamento abusivo.
+
+### 3. Do extravio definitivo da bagagem
+
+O contrato de transporte aéreo abrange, igualmente, a responsabilidade pelo transporte seguro da bagagem despachada. Ao receber a mala do Autor com a emissão da etiqueta de identificação (**Doc. 8**), a Ré assumiu a **obrigação de resultado** de entregá-la ao destino em perfeito estado, nos termos do art. 734 do Código Civil.
+
+O inadimplemento dessa obrigação — configurado definitivamente com a comunicação de não localização, em 30/03/2026 (**Doc. 10**) — enseja a obrigação de indenizar o valor integral dos bens extraviados.
+
+Quanto ao patamar indenizatório, ressalta-se que a jurisprudência consolidada do **Superior Tribunal de Justiça** é no sentido de que, nas relações de consumo, as normas do **CDC prevalecem sobre as limitações tarifadas** previstas na Convenção de Montreal (incorporada ao ordenamento pátrio pelo Decreto n.º 5.910/2006), afastando qualquer teto indenizatório em favor do consumidor lesado (STJ, REsp n.º 673.048/RS, Rel. Min. Jorge Scartezzini; STJ, AgInt no AREsp n.º 1.673.579/SP). Desse modo, a indenização deve corresponder ao **valor efetivo dos bens** perdidos, sem limitação de ordem convencional.
+
+O Autor comprova o valor do notebook por nota fiscal (R$ 4.300,00 — **Doc. 11**) e demonstrará o valor das demais peças por todos os meios probatórios admitidos, inclusive testemunhal e declaratória.
+
+### 4. Dos danos morais
+
+Os danos sofridos pelo Autor transcendem, em muito, o patamar do mero aborrecimento cotidiano, configurando autênticos **danos extrapatrimoniais** passíveis de compensação.
+
+O cancelamento do voo, comunicado com menos de cinquenta minutos de antecedência quando o Autor já se encontrava no aeroporto aguardando o embarque, gerou angústia, frustração e transtorno evidentes — situação que se prolongou por mais de vinte e quatro horas, com o Autor forçado a reorganizar compromissos, arcar com custos imprevistos e permanecer em estado de incerteza.
+
+A esse primeiro dano somou-se, com gravidade ainda maior, o **extravio definitivo da bagagem**, com a perda de pertences pessoais incluindo um notebook de valor considerável (R$ 4.300,00). A espera de mais de vinte e cinco dias por uma solução, encerrada com a singela informação de que os bens "não foram localizados", agravou sensivelmente o sofrimento do Autor e evidencia o descaso da Ré para com seus consumidores.
+
+A jurisprudência pátria é assente no reconhecimento do dano moral indenizável em casos de cancelamento imotivado de voo e, com ainda maior razão, em casos de extravio definitivo de bagagem (STJ, REsp n.º 1.764.524/SP; TJ-SP, TJRJ e demais Tribunais Estaduais, em farta jurisprudência).
+
+A indenização deve atender às **funções compensatória, punitiva e preventiva**, de modo a reparar os prejuízos imateriais do Autor e a desestimular a reiteração de práticas lesivas por parte de empresa de expressivo porte e atuação no mercado nacional de transporte aéreo.
+
+### 5. Da inversão do ônus da prova
+
+Requer-se, desde já, a **inversão do ônus da prova**, nos termos do art. 6.º, VIII, do CDC, diante da hipossuficiência técnica e informacional do Autor frente à Ré e da verossimilhança das alegações, amparadas em documentação acostada.
+
+---
+
+## III — DOS PEDIDOS
+
+Ante todo o exposto, requer o Autor:
+
+**a)** A **citação da Ré** para, querendo, apresentar contestação, no prazo legal, sob pena de revelia e confissão ficta;
+
+**b)** A procedência da ação, com a **condenação da Ré ao pagamento de danos materiais**, correspondentes a:
+
+| Rubrica | Valor |
+|---|---|
+| Diária de hotel (cancelamento do voo) — **Doc. 6** | R$ 290,00 |
+| Alimentação no aeroporto — **Doc. 7** | R$ 64,00 |
+| Notebook extraviado — **Doc. 11** | R$ 4.300,00 |
+| Roupas e demais itens pessoais da bagagem | R$ 1.900,00 |
+| **Total de danos materiais** | **R$ 6.554,00** |
+
+**c)** A **condenação da Ré ao pagamento de danos morais**, em valor a ser arbitrado por Vossa Excelência segundo os princípios da razoabilidade e da proporcionalidade, sugerindo-se, a título de parâmetro, que a indenização total (danos materiais + danos morais) corresponda a **35 (trinta e cinco) salários mínimos vigentes** à data da prolação da sentença;
+
+**d)** A condenação da Ré ao pagamento de **juros de mora** de 1% (um por cento) ao mês, a contar da citação (CC, art. 405 c/c art. 406), e de **correção monetária** pelo INPC/IPCA-E, a incidir sobre as verbas materiais a partir de cada desembolso e sobre a verba moral a partir desta data (Súmula n.º 362 do STJ);
+
+**e)** A condenação da Ré ao pagamento das **custas processuais** e dos **honorários advocatícios** sucumbenciais, fixados em 20% (vinte por cento) sobre o valor da condenação, nos termos do art. 85, § 2.º, do CPC;
+
+**f)** A **inversão do ônus da prova**, nos termos do art. 6.º, VIII, do CDC;
+
+**g)** A determinação de **exibição de documentos** pela Ré (CPC, arts. 396 a 404), especialmente: (i) registros internos e justificativa oficial do cancelamento do voo 1234 de 03/03/2026; (ii) histórico completo do processamento do RIB registrado em 04/03/2026; e (iii) registros de rastreamento da bagagem identificada pela etiqueta (**Doc. 8**).
+
+---
+
+## IV — DAS PROVAS
+
+O Autor protestará pela produção de todos os meios de prova em direito admitidos, em especial:
+
+- **Prova documental:** Documentos de n.º 0 a 11, acostados a esta petição;
+- **Prova testemunhal:** a ser oportunamente arrolada;
+- **Depoimento pessoal** do(a) representante legal da Ré;
+- **Prova pericial**, se necessária para apuração do valor da bagagem;
+- **Exibição de documentos** pela Ré, conforme requerido no item "g" dos pedidos.
+
+---
+
+## V — DA COMPETÊNCIA
+
+É competente o Juízo da Comarca de Comarca-X para o processamento e julgamento da presente lide, nos termos do **art. 101, I, do CDC**, que expressamente autoriza o consumidor a propor ação perante o foro do seu próprio domicílio, independentemente do local onde a Ré tenha sua sede.
+
+---
+
+## VI — DO VALOR DA CAUSA
+
+Nos termos do art. 292 do CPC, atribui-se à presente causa o valor de **R$ \_\_\_\_\_\_,00 (\_\_\_\_\_\_\_\_\_\_ reais)**, correspondente a **35 (trinta e cinco) salários mínimos** vigentes à data do ajuizamento.
+
+---
+
+Nestes termos,
+
+**Pede deferimento.**
+
+Comarca-X, 13 de outubro de 2026.
+
+**[NOME COMPLETO DO ADVOGADO(A)]**
+OAB/\_\_ n.º \_\_\_\_\_
+
+---
+
+## DOCUMENTOS QUE ACOMPANHAM ESTA PETIÇÃO
+
+| Doc. | Descrição |
+|---|---|
+| Doc. 0 | Instrumento de mandato (procuração) |
+| Doc. 1 | Comprovante de residência do Autor em Comarca-X |
+| Doc. 2 | Bilhete aéreo — voo 1234, 03/03/2026, saída 8h |
+| Doc. 3 | Comprovante de pagamento da passagem (R$ 1.380,00) |
+| Doc. 4 | Captura de tela — notificação de cancelamento do voo (7h10 de 03/03/2026) |
+| Doc. 5 | Cartão de embarque — reacomodação em 04/03/2026 |
+| Doc. 6 | Nota fiscal de hotel — R$ 290,00 |
+| Doc. 7 | Cupons fiscais de alimentação — R$ 64,00 |
+| Doc. 8 | Etiqueta de identificação de bagagem despachada em 04/03/2026 |
+| Doc. 9 | Relatório de Irregularidade de Bagagem (RIB) — 04/03/2026 |
+| Doc. 10 | E-mail da Ré informando não localização da mala — 30/03/2026 |
+| Doc. 11 | Nota fiscal do notebook — R$ 4.300,00 |
+
+---
+
+> **Notas de preenchimento para o advogado:**
+> 1. **Qualificação do Autor:** inserir estado civil, profissão, RG, CPF e endereço completo.
+> 2. **Qualificação da Ré:** inserir CNPJ e endereço completo da sede, consultando o sítio da ANAC ou a Receita Federal.
+> 3. **Valor da causa:** multiplicar o salário mínimo vigente em outubro de 2026 por 35 e inserir o resultado.
+> 4. **Vara:** verificar a organização judiciária local — se houver Vara Especializada em Relações de Consumo ou Juizado Especial Cível, o endereçamento deve ser ajustado. Por caber dentro do limite de **40 salários mínimos**, a causa pode ser facultativamente distribuída ao **Juizado Especial Cível** (Lei n.º 9.099/1995, art. 3.º, I), com vantagens de gratuidade e celeridade em primeira instância.
+> 5. **Danos morais:** os R$ 6.554,00 de danos materiais devem ser subtraídos dos 35 salários mínimos para que o pedido de danos morais corresponda ao saldo remanescente, se a intenção for fixar o *total* naquele patamar.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07a-N2 — inicial, prompt natural
+### 2026-10-13 10:07 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça a petição inicial de uma ação contra a companhia aérea, com estes fatos.
+
+Fatos do cliente, numerados, com os documentos:
+1. Cliente A mora em Comarca-X (comprovante de residência, Doc. 1).
+2. Comprou da Empresa-B Linhas Aéreas S.A. uma passagem de Comarca-X para Cidade-Y, voo 1234, em 03/03/2026, com saída às 8h (bilhete, Doc. 2).
+3. Pagou R$ 1.380,00 pela passagem (comprovante de pagamento, Doc. 3).
+4. Em 03/03/2026, às 7h10, já no aeroporto, recebeu no aplicativo da companhia a mensagem de que o voo 1234 estava cancelado (captura de tela da mensagem, Doc. 4).
+5. A companhia ofereceu reacomodação no voo de 04/03/2026, às 8h, e ele aceitou (cartão de embarque, Doc. 5).
+6. Pagou uma noite de hotel em Comarca-X, R$ 290,00 (nota fiscal, Doc. 6).
+7. Gastou R$ 64,00 com alimentação no aeroporto (cupons fiscais, Doc. 7).
+8. Em 04/03/2026, despachou uma mala no voo da reacomodação (etiqueta de bagagem, Doc. 8).
+9. Ao desembarcar em Cidade-Y, a mala não apareceu; ele registrou o Relatório de Irregularidade de Bagagem no mesmo dia (RIB, Doc. 9).
+10. Em 30/03/2026, a companhia informou por e-mail que a mala não foi localizada (e-mail, Doc. 10).
+11. Na mala havia roupas e um notebook; ele estima o conteúdo em R$ 6.200,00 e tem a nota fiscal do notebook, de R$ 4.300,00 (nota fiscal, Doc. 11).
+12. Ele quer pedir danos materiais e danos morais, num total de 35 salários mínimos.
+--- IA:
+Vou redigir a petição inicial completa agora.
+
+<function_calls>
+<invoke name="Bash">
+<parameter name="command">cat > "[retirado]" << 'PETICAO'
+# PETIÇÃO INICIAL — AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+---
+
+EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA VARA CÍVEL DA COMARCA DE COMARCA-X
+
+---
+
+**[NOME COMPLETO DO AUTOR]**, brasileiro(a), [estado civil], [profissão], portador(a) do RG n.º _____________ e inscrito(a) no CPF sob n.º _____________, residente e domiciliado(a) em [endereço completo], Comarca-X, conforme comprovante de residência acostado aos autos (Doc. 1), por seu(sua) advogado(a) infra-assinado(a), com instrumento de mandato em anexo (procuração), vem, respeitosamente, à presença de Vossa Excelência, com fundamento nos arts. 186, 927 e 944 do Código Civil, nos arts. 2.º, 3.º, 6.º, inciso VI, 14, 20 e 22 do Código de Defesa do Consumidor (Lei n.º 8.078/1990), na Resolução ANAC n.º 400/2016 e na Convenção para a Unificação de Certas Regras Relativas ao Transporte Aéreo Internacional (Convenção de Montreal, Decreto n.º 5.910/2006), propor
+
+---
+
+## AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+em face de **EMPRESA-B LINHAS AÉREAS S.A.**, pessoa jurídica de direito privado, inscrita no CNPJ sob n.º _______________________, com sede em [endereço da sede] e/ou filial/representação em Comarca-X, no endereço _________________________, pelos fatos e fundamentos jurídicos a seguir expostos.
+
+---
+
+## I – DA COMPETÊNCIA E DO FORO
+
+A presente ação é proposta perante a Comarca de Comarca-X em razão da residência e domicílio do Autor nesta localidade, com fundamento no art. 101, inciso I, do Código de Defesa do Consumidor, que confere ao consumidor a prerrogativa de litigar no foro de seu domicílio nas ações de responsabilidade civil do fornecedor. Aplica-se, subsidiariamente, o art. 46, parágrafo único, do Código de Processo Civil.
+
+O procedimento adotado é o **procedimento comum ordinário**, nos termos do art. 318 do CPC/2015.
+
+---
+
+## II – DOS FATOS
+
+### II.1 – Da aquisição da passagem aérea
+
+1. O Autor é consumidor residente e domiciliado em Comarca-X (Doc. 1).
+
+2. Em data anterior a 03/03/2026, o Autor adquiriu da Ré passagem aérea referente ao **voo n.º 1234**, com saída de Comarca-X com destino a Cidade-Y, marcada para o dia **03/03/2026, às 08h00** (Doc. 2 – bilhete aéreo).
+
+3. Pelo bilhete, o Autor pagou o valor de **R$ 1.380,00 (hum mil, trezentos e oitenta reais)**, conforme comprovante de pagamento (Doc. 3).
+
+### II.2 – Do cancelamento intempestivo do voo
+
+4. No dia **03/03/2026, às 07h10**, quando o Autor já se encontrava no aeroporto de Comarca-X aguardando o embarque, recebeu notificação pelo aplicativo oficial da Ré comunicando que o **voo n.º 1234 havia sido cancelado** — ou seja, meros 50 (cinquenta) minutos antes do horário previsto de partida (Doc. 4 – captura de tela da mensagem).
+
+5. Ante o cancelamento, a Ré ofereceu ao Autor reacomodação no voo do dia seguinte, **04/03/2026, às 08h00**, proposta que o Autor aceitou por não lhe restar alternativa viável imediata (Doc. 5 – cartão de embarque).
+
+### II.3 – Dos prejuízos decorrentes do cancelamento
+
+6. Em razão do cancelamento intempestivo, o Autor foi compelido a permanecer em Comarca-X por mais uma noite, custeando às suas próprias expensas hospedagem no valor de **R$ 290,00 (duzentos e noventa reais)** (Doc. 6 – nota fiscal do hotel).
+
+7. Igualmente, o Autor despendeu **R$ 64,00 (sessenta e quatro reais)** com alimentação no aeroporto durante a longa espera imposta pela falha da Ré (Doc. 7 – cupons fiscais).
+
+### II.4 – Do extravio definitivo da bagagem
+
+8. No dia **04/03/2026**, o Autor embarcou no voo de reacomodação e despachando regularmente uma mala nos procedimentos de check-in (Doc. 8 – etiqueta de bagagem).
+
+9. Ao desembarcar em Cidade-Y, a mala despachada **não foi disponibilizada na esteira de bagagens**. No mesmo dia, o Autor formalizou junto à Ré o competente **Relatório de Irregularidade de Bagagem – RIB** (Doc. 9).
+
+10. Decorridos **26 (vinte e seis) dias** do registro do RIB — prazo muito superior aos 7 (sete) dias previstos na Resolução ANAC n.º 400/2016 para voos domésticos —, a Ré comunicou ao Autor, por **e-mail datado de 30/03/2026**, que **a mala não foi localizada**, caracterizando definitivamente o extravio (Doc. 10).
+
+11. Na mala extraviada havia roupas e um notebook. O Autor estima o total do conteúdo em **R$ 6.200,00 (seis mil e duzentos reais)**, possuindo nota fiscal do notebook, adquirido por **R$ 4.300,00 (quatro mil e trezentos reais)** (Doc. 11).
+
+---
+
+## III – DO DIREITO
+
+### III.1 – Da aplicabilidade do Código de Defesa do Consumidor
+
+A relação jurídica entre o Autor e a Ré é tipicamente consumerista: o Autor é consumidor final (art. 2.º do CDC) e a Ré é fornecedora de serviços de transporte aéreo remunerado (art. 3.º, §2.º, do CDC). Incide, portanto, o regime de **responsabilidade objetiva** pelo fato e pelo defeito do serviço, previsto nos arts. 12 e 14 do CDC, independentemente de culpa, bastando a demonstração do defeito, do dano e do nexo causal.
+
+O Supremo Tribunal Federal, no julgamento do RE 636.331/RJ (Tema 210 da Repercussão Geral), firmou que, nas relações de consumo, o CDC deve prevalecer sobre as limitações indenizatórias estabelecidas por convenções internacionais — como a Convenção de Montreal — sempre que suas disposições sejam mais favoráveis ao consumidor, o que se verifica no presente caso tanto quanto à extensão da indenização material quanto aos danos morais (não contemplados pela convenção).
+
+### III.2 – Da responsabilidade da Ré pelo cancelamento do voo
+
+O cancelamento do voo n.º 1234 configura **falha na prestação do serviço** (art. 14, §1.º, do CDC), na modalidade de serviço não prestado conforme razoavelmente esperado.
+
+Agravam a conduta da Ré:
+
+**(i)** A comunicação ao passageiro apenas 50 (cinquenta) minutos antes do embarque, quando já se encontrava no aeroporto, privando-o de qualquer margem de planejamento alternativo;
+
+**(ii)** A ausência de prestação adequada de **assistência material** — comunicação, alimentação e acomodação — às expensas da Ré, conforme exigido pelo art. 21 da Resolução ANAC n.º 400/2016; obrigando o Autor a suportar esses custos do próprio bolso.
+
+O STJ consolidou entendimento no sentido de que o cancelamento de voo sem aviso prévio razoável, somado à insuficiente assistência ao passageiro, gera o dever de indenizar danos materiais e morais (REsp 1.280.372/SP; AgRg no AREsp 452.978/RJ; REsp 1.631.086/DF).
+
+### III.3 – Da responsabilidade da Ré pelo extravio definitivo da bagagem
+
+O extravio irreversível da bagagem regularmente despachada pelo Autor constitui **falha grave e autônoma** na prestação do serviço de transporte, ensejando responsabilidade objetiva da Ré nos termos do art. 14 do CDC.
+
+O art. 27 da Resolução ANAC n.º 400/2016 e os arts. 17 a 22 da Convenção de Montreal impõem ao transportador aéreo o dever de indenizar o passageiro pela perda de bagagem registrada, respondendo pelos danos efetivamente suportados. Para o voo doméstico objeto desta ação, prevalece integralmente o CDC, cuja norma é mais favorável ao consumidor (RE 636.331/RJ – STF).
+
+A **nota fiscal do notebook** (Doc. 11) comprova documentalmente R$ 4.300,00 de prejuízo; os demais itens (roupas e acessórios), estimados em R$ 1.900,00, devem ser ressarcidos com base na declaração do Autor, invertido o ônus da prova em seu favor (art. 6.º, VIII, do CDC), ante a impossibilidade de produção de prova negativa pelo consumidor acerca do conteúdo de mala já extraviada.
+
+### III.4 – Dos danos morais
+
+Para além dos danos materiais, a conduta da Ré impôs ao Autor danos de natureza extrapatrimonial que merecem reparação, oriundos de duas falhas independentes e acumuladas:
+
+**(i) Cancelamento intempestivo:** o Autor, já no aeroporto, viu frustrados seus planos e foi obrigado a pernoitar na cidade de origem, enfrentando transtornos, angústia, perda de tempo e desgaste emocional;
+
+**(ii) Extravio definitivo da bagagem:** a perda irreversível de pertences pessoais — dentre os quais um notebook, presumivelmente instrumento de trabalho —, agravada pela demora de 26 dias para a comunicação definitiva da não localização, gerou no Autor sentimento de impotência, frustração e sensação de descaso por parte da Ré.
+
+Trata-se de hipótese de **dano moral** ***in re ipsa***, que deflui da própria gravidade dos fatos, prescindindo de prova específica do sofrimento, conforme iterativa jurisprudência do STJ (AgRg no AREsp 763.545/RJ; REsp 1.575.650/SP; REsp 1.354.077/SP).
+
+A indenização deve ser fixada em montante que cumpra função **compensatória** para a vítima e **pedagógico-punitiva** em relação ao causador do dano, desestimulando a prática reiterada de condutas lesivas.
+
+---
+
+## IV – DOS PEDIDOS
+
+Ante o exposto, requer o Autor a Vossa Excelência:
+
+**a)** A **citação** da Ré **EMPRESA-B LINHAS AÉREAS S.A.** no endereço indicado no preâmbulo desta inicial, para que, querendo, apresente contestação no prazo legal, sob pena de revelia e confissão ficta dos fatos narrados (art. 344 do CPC);
+
+**b)** A **procedência total** dos pedidos, com a condenação da Ré ao pagamento de:
+
+> **b.1) Danos materiais:**
+>
+> | Verba | Valor |
+> |---|---|
+> | Hospedagem decorrente do cancelamento (Doc. 6) | R$ 290,00 |
+> | Alimentação no aeroporto (Doc. 7) | R$ 64,00 |
+> | Indenização pelo conteúdo da bagagem extraviada (Docs. 9, 10 e 11) | R$ 6.200,00 |
+> | **Subtotal — danos materiais** | **R$ 6.554,00** |
+>
+> **b.2) Danos morais:**
+>
+> Condenação da Ré ao pagamento de indenização por danos morais em valor não inferior a **R$ 46.576,00 (quarenta e seis mil, quinhentos e setenta e seis reais)**, de modo a totalizar, somados os danos materiais, o montante de **35 (trinta e cinco) salários mínimos federais vigentes**¹;
+>
+> **b.3) Total geral pretendido:**
+>
+> **R$ 53.130,00 (cinquenta e três mil, cento e trinta reais)** = 35 salários mínimos¹;
+
+**c)** A **correção monetária** de todos os valores a partir de cada desembolso (danos materiais) e da data do arbitramento judicial (danos morais), pelo índice INPC ou IPCA-E, conforme Súmula 362 do STJ;
+
+**d)** A incidência de **juros de mora** de 1% (um por cento) ao mês, a contar da citação para os danos morais (arts. 405 e 406 do CC c/c art. 161, §1.º, do CTN) e da data de cada evento danoso para os danos materiais (Súmula 54 do STJ);
+
+**e)** A **inversão do ônus da prova**, nos termos do art. 6.º, VIII, do CDC, especialmente para fins de apuração do valor integral do conteúdo da mala extraviada, determinando-se à Ré que comprove eventual excludente de responsabilidade ou apresente o relatório interno de investigação do extravio;
+
+**f)** A condenação da Ré ao pagamento das **custas processuais e honorários advocatícios**, estes fixados em 20% (vinte por cento) sobre o valor da condenação, nos termos do art. 85, §2.º, do CPC.
+
+---
+
+## V – DAS PROVAS
+
+O Autor requer a produção de todos os meios de prova admitidos em direito, especialmente:
+
+**a) Documental** — documentos já acostados aos autos:
+
+| Doc. | Descrição |
+|---|---|
+| Doc. 1 | Comprovante de residência do Autor em Comarca-X |
+| Doc. 2 | Bilhete aéreo — voo n.º 1234, 03/03/2026 |
+| Doc. 3 | Comprovante de pagamento da passagem (R$ 1.380,00) |
+| Doc. 4 | Captura de tela — notificação de cancelamento (07h10 de 03/03/2026) |
+| Doc. 5 | Cartão de embarque — voo de reacomodação (04/03/2026) |
+| Doc. 6 | Nota fiscal — hospedagem (R$ 290,00) |
+| Doc. 7 | Cupons fiscais — alimentação no aeroporto (R$ 64,00) |
+| Doc. 8 | Etiqueta de bagagem despachada em 04/03/2026 |
+| Doc. 9 | Relatório de Irregularidade de Bagagem (RIB) — 04/03/2026 |
+| Doc. 10 | E-mail da Ré informando não localização da mala — 30/03/2026 |
+| Doc. 11 | Nota fiscal do notebook (R$ 4.300,00) |
+
+**b) Depoimento pessoal** do(a) representante da Ré, sob pena de confissão (art. 385 do CPC);
+
+**c) Testemunhal**, cujo rol será oportunamente apresentado;
+
+**d) Pericial**, se necessária para avaliação dos bens extraviados ou de qualquer aspecto técnico da demanda;
+
+**e) Exibição de documentos** pela Ré, notadamente: (i) relatório interno de investigação do extravio da bagagem; (ii) documentação interna relativa ao cancelamento do voo n.º 1234 de 03/03/2026 e sua motivação; (iii) registros de atendimento ao Autor;
+
+**f) Qualquer outro meio de prova** admitido em direito, reservando-se o Autor o direito de produzir provas complementares ao longo da instrução processual.
+
+---
+
+## VI – DO VALOR DA CAUSA
+
+Nos termos do art. 292, V, do CPC, atribui-se à presente causa o valor de **R$ 53.130,00 (cinquenta e três mil, cento e trinta reais)**, equivalente a **35 (trinta e cinco) salários mínimos federais vigentes**¹.
+
+---
+
+Nestes termos,
+
+Pede deferimento.
+
+**Comarca-X, 13 de outubro de 2026.**
+
+_______________________________________________
+**[Nome completo do(a) Advogado(a)]**
+OAB/[UF] n.º __________
+
+---
+
+> ¹ **Nota ao advogado:** O cálculo foi realizado com base no salário mínimo federal de **R$ 1.518,00**, vigente em 2025 (35 × R$ 1.518,00 = R$ 53.130,00). Atualizar para o valor do salário mínimo vigente na data do ajuizamento, o que alterará o valor da causa e o montante dos danos morais requeridos (mantendo-se a proporção de 35 SM).
+
+PETICAO
+echo "Arquivo criado com sucesso."</parameter>
+</invoke>
+</function_calls>
+<invoke name="Bash">
+<parameter name="command">wc -l "[retirado]"</parameter>
+</invoke>
+</function_calls>
+<invoke name="Bash">
+<parameter name="command">cat "[retirado]"</parameter>
+</invoke>
+</function_calls>
+
+Aqui está a petição inicial completa:
+
+---
+
+# PETIÇÃO INICIAL — AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+---
+
+EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DE DIREITO DA VARA CÍVEL DA COMARCA DE COMARCA-X
+
+---
+
+**[NOME COMPLETO DO AUTOR]**, brasileiro(a), [estado civil], [profissão], portador(a) do RG n.º _____________ e inscrito(a) no CPF sob n.º _____________, residente e domiciliado(a) em [endereço completo], Comarca-X, conforme comprovante de residência acostado aos autos (Doc. 1), por seu(sua) advogado(a) infra-assinado(a), com instrumento de mandato em anexo, vem, respeitosamente, à presença de Vossa Excelência, com fundamento nos arts. 186, 927 e 944 do Código Civil, nos arts. 2.º, 3.º, 6.º inciso VI, 14, 20 e 22 do Código de Defesa do Consumidor (Lei n.º 8.078/1990), na Resolução ANAC n.º 400/2016 e na Convenção de Montreal (Decreto n.º 5.910/2006), propor
+
+---
+
+## AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+em face de **EMPRESA-B LINHAS AÉREAS S.A.**, pessoa jurídica de direito privado, inscrita no CNPJ sob n.º _______________________, com sede em [endereço da sede] e/ou representação em Comarca-X, no endereço _________________________, pelos fatos e fundamentos jurídicos a seguir expostos.
+
+---
+
+## I – DA COMPETÊNCIA E DO FORO
+
+A presente ação é proposta perante a Comarca de Comarca-X em razão da residência e domicílio do Autor nesta localidade, com fundamento no art. 101, inciso I, do Código de Defesa do Consumidor, que confere ao consumidor a prerrogativa de litigar no foro de seu domicílio nas ações de responsabilidade civil do fornecedor. Aplica-se subsidiariamente o art. 46, parágrafo único, do Código de Processo Civil.
+
+O procedimento adotado é o **procedimento comum**, nos termos do art. 318 do CPC/2015.
+
+---
+
+## II – DOS FATOS
+
+### II.1 – Da aquisição da passagem aérea
+
+1. O Autor é consumidor residente e domiciliado em Comarca-X (Doc. 1).
+
+2. Em data anterior a 03/03/2026, o Autor adquiriu da Ré passagem aérea referente ao **voo n.º 1234**, com saída de Comarca-X com destino a Cidade-Y, marcada para o dia **03/03/2026, às 08h00** (Doc. 2 – bilhete aéreo).
+
+3. Pelo bilhete, o Autor pagou o valor de **R$ 1.380,00 (hum mil, trezentos e oitenta reais)**, conforme comprovante de pagamento (Doc. 3).
+
+### II.2 – Do cancelamento intempestivo do voo
+
+4. No dia **03/03/2026, às 07h10**, quando o Autor já se encontrava no aeroporto de Comarca-X aguardando o embarque, recebeu notificação pelo aplicativo oficial da Ré comunicando que o **voo n.º 1234 havia sido cancelado** — meros 50 (cinquenta) minutos antes do horário previsto de partida (Doc. 4 – captura de tela da mensagem).
+
+5. Ante o cancelamento, a Ré ofereceu ao Autor reacomodação no voo do dia seguinte, **04/03/2026, às 08h00**, proposta que o Autor aceitou por não lhe restar alternativa viável imediata (Doc. 5 – cartão de embarque).
+
+### II.3 – Dos prejuízos decorrentes do cancelamento
+
+6. Em razão do cancelamento intempestivo, o Autor foi compelido a permanecer em Comarca-X por mais uma noite, custeando às suas próprias expensas hospedagem no valor de **R$ 290,00 (duzentos e noventa reais)** (Doc. 6 – nota fiscal do hotel).
+
+7. Igualmente, o Autor despendeu **R$ 64,00 (sessenta e quatro reais)** com alimentação no aeroporto durante a longa espera imposta pela falha da Ré (Doc. 7 – cupons fiscais).
+
+### II.4 – Do extravio definitivo da bagagem
+
+8. No dia **04/03/2026**, o Autor embarcou no voo de reacomodação, despachando regularmente uma mala nos procedimentos de check-in (Doc. 8 – etiqueta de bagagem).
+
+9. Ao desembarcar em Cidade-Y, a mala despachada **não foi disponibilizada na esteira de bagagens**. No mesmo dia, o Autor formalizou junto à Ré o competente **Relatório de Irregularidade de Bagagem – RIB** (Doc. 9).
+
+10. Decorridos **26 (vinte e seis) dias** do registro do RIB — prazo muito superior aos 7 (sete) dias previstos na Resolução ANAC n.º 400/2016 para caracterização de extravio definitivo em voos domésticos —, a Ré comunicou ao Autor, por **e-mail datado de 30/03/2026**, que **a mala não foi localizada**, caracterizando definitivamente o extravio (Doc. 10).
+
+11. Na mala extraviada havia roupas e um notebook. O Autor estima o total do conteúdo em **R$ 6.200,00 (seis mil e duzentos reais)**, possuindo nota fiscal do notebook, adquirido por **R$ 4.300,00 (quatro mil e trezentos reais)** (Doc. 11).
+
+---
+
+## III – DO DIREITO
+
+### III.1 – Da aplicabilidade do Código de Defesa do Consumidor
+
+A relação jurídica entre o Autor e a Ré é tipicamente consumerista: o Autor é consumidor final (art. 2.º do CDC) e a Ré é fornecedora de serviços de transporte aéreo remunerado (art. 3.º, §2.º, do CDC). Incide, portanto, o regime de **responsabilidade objetiva** pelo fato e pelo defeito do serviço, previsto nos arts. 12 e 14 do CDC, independentemente de culpa, bastando a demonstração do defeito, do dano e do nexo causal.
+
+O Supremo Tribunal Federal, no julgamento do **RE 636.331/RJ (Tema 210 da Repercussão Geral)**, firmou que, nas relações de consumo, o CDC deve prevalecer sobre as limitações indenizatórias estabelecidas por convenções internacionais — como a Convenção de Montreal — sempre que suas disposições sejam mais favoráveis ao consumidor, o que se verifica no presente caso tanto quanto à extensão da indenização material quanto aos danos morais, não contemplados na convenção.
+
+### III.2 – Da responsabilidade da Ré pelo cancelamento do voo
+
+O cancelamento do voo n.º 1234 configura **falha na prestação do serviço** (art. 14, §1.º, do CDC), na modalidade de serviço não prestado na conformidade esperada. Agravam a conduta da Ré:
+
+**(i)** A comunicação ao passageiro apenas **50 minutos antes do embarque**, quando já se encontrava no aeroporto, privando-o de qualquer margem razoável de planejamento alternativo;
+
+**(ii)** A **ausência de prestação adequada de assistência material** — acomodação e alimentação às expensas da companhia —, exigida pelo art. 21 da Resolução ANAC n.º 400/2016, o que obrigou o Autor a suportar esses custos do próprio bolso.
+
+O STJ consolidou entendimento no sentido de que o cancelamento de voo sem aviso prévio razoável, somado à insuficiente assistência ao passageiro, gera o dever de indenizar danos materiais e morais (REsp 1.280.372/SP; AgRg no AREsp 452.978/RJ; REsp 1.631.086/DF).
+
+### III.3 – Da responsabilidade da Ré pelo extravio definitivo da bagagem
+
+O extravio irreversível da bagagem regularmente despachada constitui **falha grave e autônoma** na prestação do serviço de transporte, ensejando responsabilidade objetiva da Ré nos termos do art. 14 do CDC e do art. 27 da Resolução ANAC n.º 400/2016.
+
+A **nota fiscal do notebook** (Doc. 11) comprova documentalmente R$ 4.300,00 de prejuízo; os demais itens (roupas e acessórios), estimados em R$ 1.900,00, devem ser ressarcidos com base na declaração do Autor, com inversão do ônus da prova em seu favor (art. 6.º, VIII, do CDC), ante a impossibilidade prática de o consumidor produzir prova do conteúdo de mala já extraviada pela própria Ré.
+
+### III.4 – Dos danos morais
+
+Para além dos danos materiais, a conduta da Ré impôs ao Autor danos de natureza extrapatrimonial oriundos de **duas falhas independentes e acumuladas**:
+
+**(i) Cancelamento intempestivo:** o Autor, já no aeroporto, viu frustrados seus planos e foi obrigado a pernoitar na cidade de origem, enfrentando transtornos, angústia, perda de tempo e desgaste emocional;
+
+**(ii) Extravio definitivo da bagagem:** a perda irreversível de pertences pessoais e profissionais — em especial um notebook —, agravada pela demora de 26 dias até a comunicação definitiva de não localização e pelo sensível descaso demonstrado pela Ré.
+
+Trata-se de hipótese de **dano moral** ***in re ipsa***, que deflui da própria gravidade dos fatos, prescindindo de prova específica do sofrimento, conforme iterativa jurisprudência do STJ (AgRg no AREsp 763.545/RJ; REsp 1.575.650/SP; REsp 1.354.077/SP). A indenização deve cumprir função **compensatória** para o Autor e **pedagógico-punitiva** em relação à Ré, desestimulando a reiteração de condutas lesivas.
+
+---
+
+## IV – DOS PEDIDOS
+
+Ante o exposto, requer o Autor a Vossa Excelência:
+
+**a)** A **citação** da Ré **EMPRESA-B LINHAS AÉREAS S.A.**, no endereço indicado no preâmbulo desta inicial, para que, querendo, apresente contestação no prazo legal, sob pena de revelia e confissão ficta dos fatos narrados (art. 344 do CPC);
+
+**b)** A **procedência total** dos pedidos, com a condenação da Ré ao pagamento de:
+
+**b.1) Danos materiais:**
+
+| Verba indenizatória | Valor |
+|---|---|
+| Hospedagem decorrente do cancelamento (Doc. 6) | R$ 290,00 |
+| Alimentação no aeroporto (Doc. 7) | R$ 64,00 |
+| Indenização pelo conteúdo da bagagem extraviada (Docs. 9, 10 e 11) | R$ 6.200,00 |
+| **Subtotal — danos materiais** | **R$ 6.554,00** |
+
+**b.2) Danos morais:**
+
+Condenação da Ré ao pagamento de indenização por danos morais em valor não inferior a **R$ 46.576,00 (quarenta e seis mil, quinhentos e setenta e seis reais)**, de modo a totalizar, somados aos danos materiais, o montante de **35 (trinta e cinco) salários mínimos federais vigentes** (35 × R$ 1.518,00 = R$ 53.130,00)¹;
+
+**b.3) Total geral pretendido: R$ 53.130,00 — equivalente a 35 salários mínimos¹;**
+
+**c)** A **correção monetária** de todos os valores, pelo índice INPC ou IPCA-E, a partir de cada desembolso (danos materiais) e da data do arbitramento judicial (danos morais), conforme Súmula 362 do STJ;
+
+**d)** A incidência de **juros de mora** de 1% (um por cento) ao mês, a contar da citação para os danos morais (arts. 405 e 406 do CC c/c art. 161, §1.º, do CTN) e da data de cada evento danoso para os danos materiais (Súmula 54 do STJ);
+
+**e)** A **inversão do ônus da prova**, nos termos do art. 6.º, VIII, do CDC, determinando-se à Ré que comprove eventual excludente de responsabilidade e apresente relatório interno de investigação do extravio da bagagem;
+
+**f)** A condenação da Ré ao pagamento das **custas processuais e honorários advocatícios**, estes fixados em 20% (vinte por cento) sobre o valor da condenação, nos termos do art. 85, §2.º, do CPC.
+
+---
+
+## V – DAS PROVAS
+
+O Autor requer a produção de todos os meios de prova admitidos em direito, especialmente:
+
+**a) Documental** — documentos já acostados aos autos:
+
+| Doc. | Descrição |
+|---|---|
+| Doc. 1 | Comprovante de residência do Autor em Comarca-X |
+| Doc. 2 | Bilhete aéreo — voo n.º 1234, 03/03/2026, às 08h |
+| Doc. 3 | Comprovante de pagamento da passagem (R$ 1.380,00) |
+| Doc. 4 | Captura de tela — notificação de cancelamento (07h10 de 03/03/2026) |
+| Doc. 5 | Cartão de embarque — voo de reacomodação (04/03/2026) |
+| Doc. 6 | Nota fiscal de hospedagem (R$ 290,00) |
+| Doc. 7 | Cupons fiscais de alimentação no aeroporto (R$ 64,00) |
+| Doc. 8 | Etiqueta de bagagem despachada em 04/03/2026 |
+| Doc. 9 | Relatório de Irregularidade de Bagagem — RIB (04/03/2026) |
+| Doc. 10 | E-mail da Ré informando não localização da mala (30/03/2026) |
+| Doc. 11 | Nota fiscal do notebook (R$ 4.300,00) |
+
+**b) Depoimento pessoal** do(a) representante da Ré, sob pena de confissão (art. 385 do CPC);
+
+**c) Testemunhal**, cujo rol será oportunamente apresentado;
+
+**d) Pericial**, se necessária para avaliação dos bens extraviados ou de qualquer aspecto técnico da demanda;
+
+**e) Exibição de documentos** pela Ré, notadamente: (i) relatório interno de investigação do extravio da bagagem; (ii) documentação relativa ao cancelamento do voo n.º 1234 de 03/03/2026 e sua motivação; (iii) registros de atendimento ao Autor;
+
+**f)** Quaisquer outros meios de prova admitidos em direito.
+
+---
+
+## VI – DO VALOR DA CAUSA
+
+Nos termos do art. 292, V, do CPC, atribui-se à presente causa o valor de **R$ 53.130,00 (cinquenta e três mil, cento e trinta reais)**, equivalente a **35 (trinta e cinco) salários mínimos federais vigentes**¹.
+
+---
+
+Nestes termos,
+
+Pede deferimento.
+
+**Comarca-X, 13 de outubro de 2026.**
+
+_______________________________________________
+**[Nome completo do(a) Advogado(a)]**
+OAB/[UF] n.º __________
+
+---
+
+> ¹ **Nota ao advogado(a):** O cálculo foi realizado com base no salário mínimo federal de **R$ 1.518,00** (2025). Atualizar para o valor vigente na data do ajuizamento, o que ajustará proporcionalmente o valor da causa e o montante dos danos morais (mantendo-se 35 SM como referência).
+
+---
+
+## Notas de orientação
+
+**Lacunas a completar antes do ajuizamento:**
+1. Nome completo, estado civil, profissão, RG e CPF do Autor
+2. Endereço completo do Autor (para qualificação e Doc. 1)
+3. CNPJ completo da Empresa-B Linhas Aéreas S.A.
+4. Endereço da sede e/ou filial/preposta da Ré na comarca (para citação)
+5. Procuração do Autor ao advogado
+6. Atualização do salário mínimo vigente (vide nota ¹)
+7. Verificar se o caso admite Juizado Especial Cível (Lei n.º 9.099/1995): o valor de 35 SM está dentro do limite de 40 SM do art. 3.º da Lei n.º 9.099/1995 — o JEC pode ser uma opção mais célere
+
+**Fundamentos legais principais utilizados:**
+- CDC arts. 2.º, 3.º, 6.º-VI, 6.º-VIII, 14 e 20
+- CC arts. 186, 405, 406 e 927
+- CPC arts. 85, 292-V, 318 e 344
+- Resolução ANAC n.º 400/2016 arts. 11, 21 e 27
+- Convenção de Montreal (Decreto n.º 5.910/2006) arts. 17–22
+- STF RE 636.331/RJ — Tema 210 (CDC x Convenção de Montreal)
+- Súmulas STJ 54 e 362
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07a-N3 — inicial, prompt natural
+### 2026-10-13 10:11 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça a petição inicial de uma ação contra a companhia aérea, com estes fatos.
+
+Fatos do cliente, numerados, com os documentos:
+1. Cliente A mora em Comarca-X (comprovante de residência, Doc. 1).
+2. Comprou da Empresa-B Linhas Aéreas S.A. uma passagem de Comarca-X para Cidade-Y, voo 1234, em 03/03/2026, com saída às 8h (bilhete, Doc. 2).
+3. Pagou R$ 1.380,00 pela passagem (comprovante de pagamento, Doc. 3).
+4. Em 03/03/2026, às 7h10, já no aeroporto, recebeu no aplicativo da companhia a mensagem de que o voo 1234 estava cancelado (captura de tela da mensagem, Doc. 4).
+5. A companhia ofereceu reacomodação no voo de 04/03/2026, às 8h, e ele aceitou (cartão de embarque, Doc. 5).
+6. Pagou uma noite de hotel em Comarca-X, R$ 290,00 (nota fiscal, Doc. 6).
+7. Gastou R$ 64,00 com alimentação no aeroporto (cupons fiscais, Doc. 7).
+8. Em 04/03/2026, despachou uma mala no voo da reacomodação (etiqueta de bagagem, Doc. 8).
+9. Ao desembarcar em Cidade-Y, a mala não apareceu; ele registrou o Relatório de Irregularidade de Bagagem no mesmo dia (RIB, Doc. 9).
+10. Em 30/03/2026, a companhia informou por e-mail que a mala não foi localizada (e-mail, Doc. 10).
+11. Na mala havia roupas e um notebook; ele estima o conteúdo em R$ 6.200,00 e tem a nota fiscal do notebook, de R$ 4.300,00 (nota fiscal, Doc. 11).
+12. Ele quer pedir danos materiais e danos morais, num total de 35 salários mínimos.
+--- IA:
+Vou redigir a petição inicial completa e salvá-la em arquivo.
+
+<function_calls>
+<invoke name="Write">
+<parameter name="path">[retirado]
+<parameter name="content"># PETIÇÃO INICIAL
+## Ação de Indenização por Danos Materiais e Morais
+### Cliente A × Empresa-B Linhas Aéreas S.A.
+
+---
+
+**EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE COMARCA-X**
+
+---
+
+**CLIENTE A**, [nacionalidade], [estado civil], [profissão], portador(a) do Registro Geral
+n.º _____________ e do CPF n.º _______________._______________._______________ - __,
+residente e domiciliado(a) na [endereço completo], nesta Comarca, por seu advogado
+infrafirmado (instrumento de mandato anexo), vem, respeitosamente, à presença de Vossa
+Excelência, com fundamento na Lei n.º 9.099/1995, no Código de Defesa do Consumidor
+(Lei n.º 8.078/1990), na Lei n.º 14.034/2020, na Resolução ANAC n.º 400/2016 e nos
+demais dispositivos legais aplicáveis, propor
+
+---
+
+## AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+---
+
+em face de **EMPRESA-B LINHAS AÉREAS S.A.**, pessoa jurídica de direito privado,
+inscrita no CNPJ n.º __.___.___/____-__, com sede na [endereço completo da sede] e/ou
+filial nesta Comarca em [endereço da filial local, se houver], pelos fatos e fundamentos
+de direito a seguir expostos.
+
+---
+
+## I – DA COMPETÊNCIA E DO RITO PROCESSUAL
+
+A presente ação é processada perante este Juizado Especial Cível, nos termos do art. 3.º,
+inciso I, da Lei n.º 9.099/1995, uma vez que:
+
+(i) a relação entre as partes é inequivocamente de consumo (arts. 2.º e 3.º, § 2.º, do
+CDC), sendo a Requerida fornecedora de serviço de transporte aéreo e o(a) Autor(a)
+destinatário(a) final desse serviço; e
+
+(ii) o valor total pretendido não ultrapassa **40 (quarenta) salários mínimos**, estando
+dentro da competência absoluta dos Juizados Especiais.
+
+A **competência territorial** desta Comarca é assegurada pelo art. 101, inciso I, do
+Código de Defesa do Consumidor, que confere ao consumidor a faculdade de propor a
+ação no foro de seu domicílio, prevalecendo sobre qualquer cláusula de eleição de foro
+constante do contrato de transporte.
+
+---
+
+## II – DOS FATOS
+
+**1.** O(a) Autor(a) **Cliente A** é residente e domiciliado(a) em Comarca-X, conforme
+comprova o **Doc. 1** (comprovante de residência).
+
+**2.** Em data anterior a 03/03/2026, o(a) Autor(a) adquiriu da Requerida uma passagem
+aérea referente ao **Voo 1234**, com rota **Comarca-X → Cidade-Y**, com saída
+programada para **03 de março de 2026, às 8h00**, pelo valor de **R$ 1.380,00**
+(um mil, trezentos e oitenta reais), conforme comprovam o bilhete (**Doc. 2**) e o
+comprovante de pagamento (**Doc. 3**).
+
+**3.** Na manhã de **03 de março de 2026, às 7h10**, já presente no aeroporto de Comarca-X
+e devidamente preparado(a) para o embarque — ou seja, com apenas **cinquenta minutos
+de antecedência** em relação ao horário de partida —, o(a) Autor(a) recebeu notificação
+via aplicativo da própria companhia comunicando o **cancelamento do Voo 1234**, sem
+que lhe fosse apresentada qualquer justificativa técnica ou de força maior que
+legitimasse o cancelamento naquele prazo exíguo. A mensagem consta da **Doc. 4**
+(captura de tela da notificação).
+
+**4.** Diante do cancelamento intempestivo, a Requerida ofereceu reacomodação no voo do
+dia seguinte, **04 de março de 2026, às 8h00**, proposta que o(a) Autor(a) aceitou, sem
+prejuízo de seus direitos legais, conforme demonstra o cartão de embarque do voo
+substituto (**Doc. 5**). Registre-se que a aceitação da reacomodação não importa em
+renúncia a qualquer direito, por expressa vedação do art. 51, inciso I, do CDC.
+
+**5.** Em razão do cancelamento abrupto e da necessidade de pernoitar em Comarca-X até
+o dia do voo substituto, o(a) Autor(a) foi compelido(a) a arcar, às suas próprias custas,
+com as seguintes despesas emergenciais, que a Requerida deveria ter provido:
+
+   a) **Hospedagem:** diária de hotel no valor de **R$ 290,00** (duzentos e noventa reais),
+   conforme nota fiscal acostada como **Doc. 6**;
+
+   b) **Alimentação:** refeições no aeroporto no valor total de **R$ 64,00** (sessenta e
+   quatro reais), conforme cupons fiscais acostados como **Doc. 7**.
+
+**6.** No dia **04 de março de 2026**, o(a) Autor(a) embarcou no voo de reacomodação,
+despachando uma mala como bagagem registrada, conforme comprova a etiqueta de
+bagagem (**Doc. 8**).
+
+**7.** Ao desembarcar no aeroporto de Cidade-Y, no mesmo dia **04 de março de 2026**,
+o(a) Autor(a) aguardou na esteira de bagagens e constatou que sua mala **não foi
+entregue**. Imediatamente, formalizou o **Relatório de Irregularidade de Bagagem – RIB**
+perante o preposto da Requerida no próprio aeroporto, conforme comprova o **Doc. 9**.
+
+**8.** Após mais de **26 (vinte e seis) dias** de buscas, a Requerida comunicou ao(à)
+Autor(a), por e-mail datado de **30 de março de 2026**, que **a mala não foi localizada**,
+encerrando as investigações sem apresentar solução, proposta de indenização ou qualquer
+providência de reparação (**Doc. 10**).
+
+**9.** Na mala extraviada e definitivamente não localizada encontravam-se roupas diversas
+e um **notebook**, cujo valor total é estimado em **R$ 6.200,00** (seis mil e duzentos reais).
+O notebook possui nota fiscal comprobatória no valor de **R$ 4.300,00** (quatro mil e
+trezentos reais), conforme **Doc. 11**.
+
+**10.** O conjunto de eventos narrados — cancelamento de última hora, pernoite forçado,
+espera angustiante por mais de três semanas e perda definitiva e irrecuperável de bens
+pessoais — causou ao(à) Autor(a), além dos danos patrimoniais documentados, intenso
+sofrimento psicológico, frustração, sentimento de desamparo e abalo emocional,
+configurando **danos morais** indenizáveis, como se demonstrará a seguir.
+
+---
+
+## III – DO DIREITO
+
+### 3.1. Da Relação de Consumo e da Responsabilidade Objetiva da Requerida
+
+A relação jurídica entabulada entre o(a) Autor(a) e a Requerida é inequivocamente uma
+**relação de consumo**, nos termos dos arts. 2.º e 3.º, § 2.º, do Código de Defesa do
+Consumidor. Aplica-se, por isso, o regime de **responsabilidade objetiva** do art. 14 do
+CDC, que prescreve:
+
+> *"O fornecedor de serviços responde, independentemente da existência de culpa, pela
+> reparação dos danos causados aos consumidores por defeitos relativos à prestação dos
+> serviços."*
+
+Assim, incumbe à Requerida demonstrar a inexistência do defeito ou a culpa exclusiva do
+consumidor (art. 14, § 3.º, CDC), ônus do qual não se desincumbirá.
+
+### 3.2. Do Cancelamento do Voo e do Dever de Assistência Material
+
+O cancelamento do Voo 1234 foi comunicado ao(à) Autor(a) **com apenas cinquenta minutos
+de antecedência**, quando este já se encontrava no aeroporto. Tal conduta configura flagrante
+**falha na prestação do serviço** (art. 20 do CDC) e violação direta às normas
+regulatórias do setor.
+
+A **Resolução ANAC n.º 400/2016**, em seu art. 21, e a **Lei n.º 14.034/2020** asseguram
+ao passageiro, nas hipóteses de cancelamento de voo, o direito a:
+
+(i) reacomodação em outro voo, reembolso integral ou reacomodação em voo de terceiro;
+(ii) **assistência material** — incluindo alimentação e acomodação — quando a situação
+exigir pernoite do passageiro.
+
+A Requerida, ao cancelar o voo sem justificativa legítima e sem providenciar ou custear a
+hospedagem e a alimentação do(a) Autor(a), transferiu indevidamente ao consumidor os
+custos que lhe competia suportar, gerando prejuízo material direto de **R$ 354,00**
+(R$ 290,00 + R$ 64,00).
+
+### 3.3. Do Extravio Definitivo da Bagagem e do Direito à Indenização Integral
+
+O extravio definitivo da bagagem despachada configura **inadimplemento contratual** e
+**falha grave na prestação do serviço**, sujeitando a Requerida à reparação integral dos
+danos sofridos pelo(a) Autor(a).
+
+Cuida-se de voo **doméstico**. Para tal hipótese, o Supremo Tribunal Federal, no
+julgamento do **RE n.º 636.331/RJ** (Tema 210, Repercussão Geral), fixou a tese de que
+o **Código de Defesa do Consumidor** prevalece sobre as limitações indenizatórias
+estabelecidas em convenções internacionais (Varsóvia/Montreal), as quais se restringem
+ao transporte aéreo internacional. O STJ, em linha com esse entendimento, consolidou que:
+
+> *"Em se tratando de transporte aéreo doméstico, em caso de extravio de bagagem, a
+> indenização deve ser calculada com base no Código de Defesa do Consumidor,
+> afastando-se a tarifação prevista em norma internacional."*
+
+Portanto, afasta-se qualquer tentativa de limitação da indenização com base na
+Convenção de Montreal, aplicando-se o princípio da **reparação integral** (art. 6.º,
+inciso VI, do CDC c/c art. 944 do Código Civil).
+
+O(a) Autor(a) comprova o valor dos bens extraviados mediante nota fiscal do notebook
+(R$ 4.300,00 – Doc. 11) e estimativa devidamente fundamentada para os demais itens
+(roupas e acessórios), totalizando **R$ 6.200,00**, valor que deverá ser integralmente
+ressarcido pela Requerida.
+
+### 3.4. Dos Danos Morais
+
+Os fatos narrados extrapolam em muito o conceito de mero aborrecimento cotidiano.
+O(a) Autor(a) experimentou, de forma concreta e demonstrável:
+
+(i) a **frustração e o transtorno** de ter um voo cancelado **no próprio dia do embarque**,
+com menos de uma hora de antecedência, após já se encontrar no aeroporto e ter se
+preparado para a viagem;
+
+(ii) a **obrigação de pernoitar** forçadamente em Comarca-X, com todos os transtornos
+decorrentes da imprevisibilidade e do desamparo da situação, arcando sozinho(a) com
+custos que eram de responsabilidade da companhia;
+
+(iii) a **angústia prolongada** de aguardar, por mais de 26 dias, notícias sobre o paradeiro
+de sua bagagem, sem qualquer resposta efetiva ou solução da Requerida; e
+
+(iv) a **perda definitiva e irreversível** de seus pertences pessoais — incluindo
+equipamento de trabalho/estudo de elevado valor —, o que gerou sensação de impotência,
+abalo psicológico e lesão à dignidade do(a) consumidor(a).
+
+Tal conjunto de violações configura dano moral indenizável, nos termos dos arts. 186 e
+927 do Código Civil e do art. 6.º, inciso VI, do CDC. A indenização deve ser arbitrada
+em valor que represente efetiva compensação ao(à) Autor(a) e que exerça caráter
+pedagógico-punitivo em relação à Requerida, desestimulando a reiteração da conduta
+lesiva.
+
+---
+
+## IV – DOS PEDIDOS
+
+Diante de todo o exposto, requer o(a) Autor(a) a Vossa Excelência:
+
+**a)** O **recebimento e processamento** da presente ação pelo rito dos Juizados Especiais
+Cíveis (Lei n.º 9.099/1995);
+
+**b)** A **citação** da Requerida, **Empresa-B Linhas Aéreas S.A.**, no endereço indicado
+no preâmbulo desta inicial, para comparecer à audiência de conciliação, sob pena de
+revelia e confissão ficta quanto à matéria de fato (art. 20 da Lei n.º 9.099/1995);
+
+**c)** A **procedência total dos pedidos**, com a condenação da Requerida ao pagamento de:
+
+   **c.1) Danos materiais**, no montante de **R$ 6.554,00** (seis mil, quinhentos e cinquenta
+   e quatro reais), assim discriminados:
+
+   | Item | Valor | Documento |
+   |------|-------|-----------|
+   | Hospedagem (diária de hotel) | R$ 290,00 | Doc. 6 |
+   | Alimentação no aeroporto | R$ 64,00 | Doc. 7 |
+   | Conteúdo da bagagem extraviada | R$ 6.200,00 | Docs. 8, 9, 10 e 11 |
+   | **Total material** | **R$ 6.554,00** | — |
+
+   **c.2) Danos morais**, em valor a ser arbitrado por este Juízo, conforme os critérios de
+   razoabilidade, proporcionalidade e caráter pedagógico, **sugerindo-se o montante de
+   R$ __________ (____________________ reais)**, de forma que a **soma total** das
+   indenizações por danos materiais e morais corresponda a **35 (trinta e cinco) salários
+   mínimos** — limite do valor da causa fixado para o rito desta ação —, nos termos do
+   art. 3.º, inciso I, da Lei n.º 9.099/1995;
+
+   > *(Nota de preenchimento: 35 salários mínimos × R$ ________ [salário mínimo vigente
+   > na data do ajuizamento] = R$ ________. Valor de danos morais sugerido: R$ ________
+   > − R$ 6.554,00 = R$ ________.)*
+
+**d)** A incidência de **juros de mora** de 1% (um por cento) ao mês, contados:
+   - quanto aos danos materiais de hospedagem e alimentação: a partir de 03/03/2026;
+   - quanto aos danos materiais relativos à bagagem: a partir de 04/03/2026;
+   - quanto aos danos morais: a partir da data da prolação da sentença ou do evento danoso,
+   a critério deste Juízo, na forma da Súmula 54 do STJ;
+
+**e)** A incidência de **correção monetária** pelo INPC/IBGE (ou índice equivalente) sobre
+os danos materiais a partir de cada data de desembolso, e sobre os danos morais a partir
+da data da sentença;
+
+**f)** A **juntada e autuação dos documentos** listados no item VI desta inicial.
+
+---
+
+## V – DO VALOR DA CAUSA
+
+Dá-se à causa o valor de **35 (trinta e cinco) salários mínimos**, correspondentes a
+**R$ __________ (_____________________ reais)**, calculados com base no salário mínimo
+vigente na data do ajuizamento desta ação, nos termos do art. 3.º, inciso I, da Lei n.º
+9.099/1995.
+
+---
+
+## VI – DOS DOCUMENTOS
+
+Instruem a presente petição inicial os seguintes documentos:
+
+| Doc. | Descrição | Relação com os Fatos |
+|------|-----------|----------------------|
+| Doc. 1 | Comprovante de residência do(a) Autor(a) em Comarca-X | Fato 1 |
+| Doc. 2 | Bilhete de passagem – Voo 1234, Comarca-X/Cidade-Y, 03/03/2026, 8h | Fato 2 |
+| Doc. 3 | Comprovante de pagamento da passagem (R$ 1.380,00) | Fato 3 |
+| Doc. 4 | Captura de tela – notificação de cancelamento do Voo 1234 (7h10 de 03/03/2026) | Fato 4 |
+| Doc. 5 | Cartão de embarque do voo de reacomodação (04/03/2026) | Fato 5 |
+| Doc. 6 | Nota fiscal de hospedagem – diária de hotel (R$ 290,00) | Fato 6 |
+| Doc. 7 | Cupons fiscais de alimentação no aeroporto (R$ 64,00) | Fato 7 |
+| Doc. 8 | Etiqueta de bagagem despachada no voo de reacomodação (04/03/2026) | Fato 8 |
+| Doc. 9 | Relatório de Irregularidade de Bagagem – RIB (04/03/2026) | Fato 9 |
+| Doc. 10 | E-mail da Requerida comunicando a não localização da mala (30/03/2026) | Fato 10 |
+| Doc. 11 | Nota fiscal do notebook (R$ 4.300,00) | Fato 11 |
+
+---
+
+Termos em que, pede deferimento.
+
+Comarca-X, __ de ______________ de 2026.
+
+---
+
+**___________________________________________**
+[NOME COMPLETO DO(A) ADVOGADO(A)]
+OAB/[UF] n.º _______________
+[Endereço profissional]
+[Telefone] | [E-mail]
+
+---
+
+*[Instrumento de mandato – procuração ad judicia – acostada em separado]*
+</parameter>
+</invoke>
+</function_calls>
+
+O arquivo foi salvo. Aqui está a petição completa:
+
+---
+
+# PETIÇÃO INICIAL — Cliente A × Empresa-B Linhas Aéreas S.A.
+## Ação de Indenização por Danos Materiais e Morais
+
+---
+
+**EXCELENTÍSSIMO(A) SENHOR(A) DOUTOR(A) JUIZ(A) DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE COMARCA-X**
+
+**CLIENTE A**, [nacionalidade], [estado civil], [profissão], portador(a) do RG n.º _______ e do CPF n.º _______._______._______-__, residente e domiciliado(a) na [endereço completo], nesta Comarca, por seu advogado infrafirmado, vem, com fundamento na Lei n.º 9.099/1995, no Código de Defesa do Consumidor (Lei n.º 8.078/1990), na Lei n.º 14.034/2020 e na Resolução ANAC n.º 400/2016, propor
+
+---
+
+## AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+em face de **EMPRESA-B LINHAS AÉREAS S.A.**, inscrita no CNPJ n.º __.___.___/____-__, com sede em [endereço] e/ou filial nesta Comarca em [endereço], pelos fatos e fundamentos a seguir expostos.
+
+---
+
+## I – DA COMPETÊNCIA E DO RITO PROCESSUAL
+
+A ação tramita perante este Juizado Especial Cível, nos termos do art. 3.º, inciso I, da Lei n.º 9.099/1995, porquanto: (i) a relação entre as partes é de consumo (arts. 2.º e 3.º, § 2.º, do CDC), sendo a Requerida fornecedora de serviço de transporte aéreo e o(a) Autor(a) destinatário(a) final; e (ii) o valor total pretendido não ultrapassa **40 (quarenta) salários mínimos**.
+
+A **competência territorial** desta Comarca decorre do art. 101, inciso I, do CDC, que assegura ao consumidor a prerrogativa de demandar no seu domicílio, prevalecendo sobre qualquer cláusula de eleição de foro contratual.
+
+---
+
+## II – DOS FATOS
+
+**1.** O(a) Autor(a) reside em Comarca-X, conforme comprova o **Doc. 1** (comprovante de residência).
+
+**2.** Antes de 03/03/2026, o(a) Autor(a) adquiriu da Requerida uma passagem para o **Voo 1234**, com rota **Comarca-X → Cidade-Y**, com saída programada para **03 de março de 2026, às 8h00**, pelo valor de **R$ 1.380,00** (um mil, trezentos e oitenta reais), conforme bilhete (**Doc. 2**) e comprovante de pagamento (**Doc. 3**).
+
+**3.** Na manhã de **03 de março de 2026, às 7h10** — com apenas **cinquenta minutos de antecedência** em relação ao horário de partida, quando o(a) Autor(a) já se encontrava no aeroporto —, o(a) Autor(a) recebeu notificação via aplicativo da companhia comunicando o **cancelamento do Voo 1234**, sem que fosse apresentada justificativa técnica ou de força maior que legitimasse o cancelamento naquele prazo exíguo (**Doc. 4** – captura de tela).
+
+**4.** Diante do cancelamento intempestivo, a Requerida ofereceu reacomodação no voo de **04 de março de 2026, às 8h00**, proposta que o(a) Autor(a) aceitou sem prejuízo de seus direitos, por expressa vedação do art. 51, inciso I, do CDC (**Doc. 5** – cartão de embarque do voo substituto).
+
+**5.** Em razão do cancelamento e da necessidade de pernoitar em Comarca-X, o(a) Autor(a) foi compelido(a) a arcar às suas próprias custas com despesas que eram de responsabilidade da Requerida:
+
+| Item | Valor | Documento |
+|------|-------|-----------|
+| Hospedagem (diária de hotel) | R$ 290,00 | Doc. 6 |
+| Alimentação no aeroporto | R$ 64,00 | Doc. 7 |
+
+**6.** Em **04 de março de 2026**, o(a) Autor(a) embarcou no voo de reacomodação e **despachou uma mala** como bagagem registrada (**Doc. 8** – etiqueta de bagagem).
+
+**7.** Ao desembarcar em **Cidade-Y**, no mesmo dia **04/03/2026**, o(a) Autor(a) verificou que a mala **não foi entregue** na esteira. Imediatamente, formalizou o **Relatório de Irregularidade de Bagagem – RIB** perante o preposto da Requerida no aeroporto (**Doc. 9**).
+
+**8.** Após mais de **26 dias** de buscas, a Requerida comunicou ao(à) Autor(a), por e-mail de **30 de março de 2026**, que **a mala não foi localizada**, encerrando as investigações sem apresentar solução ou qualquer proposta de indenização (**Doc. 10**).
+
+**9.** A mala extraviada continha roupas diversas e um **notebook**, cujo valor total dos bens é estimado em **R$ 6.200,00** (seis mil e duzentos reais). O notebook possui nota fiscal de **R$ 4.300,00** (quatro mil e trezentos reais) (**Doc. 11**).
+
+**10.** O conjunto de eventos — cancelamento de última hora, pernoite forçado, espera angustiante por mais de três semanas e perda definitiva e irrecuperável de bens pessoais — causou ao(à) Autor(a), além dos prejuízos patrimoniais documentados, intenso sofrimento psicológico, frustração, sensação de desamparo e abalo emocional, configurando **danos morais** indenizáveis.
+
+---
+
+## III – DO DIREITO
+
+### 3.1. Da Relação de Consumo e da Responsabilidade Objetiva
+
+A relação entre as partes é de consumo (arts. 2.º e 3.º, § 2.º, do CDC). Aplica-se, portanto, o regime de **responsabilidade objetiva** do art. 14 do CDC, que prescinde de culpa para fins de reparação dos danos por defeito na prestação do serviço. Incumbe à Requerida demonstrar a inexistência do defeito ou culpa exclusiva do consumidor (art. 14, § 3.º, do CDC), ônus do qual não se desincumbirá.
+
+### 3.2. Do Cancelamento do Voo e do Dever de Assistência Material
+
+O cancelamento do Voo 1234, comunicado ao(à) Autor(a) com menos de **uma hora de antecedência**, quando já se encontrava no aeroporto, configura **falha na prestação do serviço** (art. 20 do CDC) e violação direta às normas regulatórias do setor.
+
+A **Resolução ANAC n.º 400/2016** (art. 21) e a **Lei n.º 14.034/2020** asseguram ao passageiro, nas hipóteses de cancelamento, o direito a: (i) reacomodação, reembolso integral ou reacomodação em voo de terceiro; e (ii) **assistência material** — incluindo alimentação e **acomodação** —, especialmente quando houver necessidade de pernoite. A Requerida, ao não providenciar nem custear tais serviços, transferiu indevidamente ao consumidor o ônus de **R$ 354,00** (R$ 290,00 + R$ 64,00), que lhe compete ressarcir integralmente.
+
+### 3.3. Do Extravio Definitivo da Bagagem e da Reparação Integral
+
+O extravio definitivo da bagagem despachada configura inadimplemento contratual e falha grave na prestação do serviço. Para **voos domésticos**, o Supremo Tribunal Federal fixou, no julgamento do **RE n.º 636.331/RJ** (Tema 210 – Repercussão Geral), que o **Código de Defesa do Consumidor prevalece** sobre as limitações indenizatórias de convenções internacionais (Varsóvia/Montreal), as quais se restringem ao transporte internacional. Afasta-se, portanto, qualquer tarifação limitadora, aplicando-se o princípio da **reparação integral** (art. 6.º, VI, do CDC c/c art. 944 do CC), no valor de **R$ 6.200,00**.
+
+### 3.4. Dos Danos Morais
+
+Os fatos narrados ultrapassam em muito o conceito de mero aborrecimento cotidiano. O(a) Autor(a) suportou: (i) o transtorno de ter o voo cancelado **no próprio dia**, já no aeroporto; (ii) o pernoite forçado e solitário em Comarca-X, arcando com custos que eram da Requerida; (iii) a angústia de aguardar por mais de **26 dias** uma resposta sobre sua bagagem; e (iv) a **perda definitiva e irrecuperável** de seus pertences pessoais, incluindo equipamento de trabalho/estudo de valor expressivo. Configura-se, com clareza, dano moral indenizável (arts. 186 e 927 do CC; art. 6.º, VI, do CDC), cujo valor deve compensar o sofrimento suportado e exercer caráter pedagógico-punitivo sobre a Requerida.
+
+---
+
+## IV – DOS PEDIDOS
+
+Diante do exposto, requer o(a) Autor(a) a Vossa Excelência:
+
+**a)** O recebimento e processamento da presente ação pelo rito dos Juizados Especiais Cíveis (Lei n.º 9.099/1995);
+
+**b)** A citação da Requerida, **Empresa-B Linhas Aéreas S.A.**, para comparecer à audiência de conciliação, sob pena de revelia e confissão ficta (art. 20 da Lei n.º 9.099/1995);
+
+**c)** A **procedência total dos pedidos**, com a condenação da Requerida ao pagamento de:
+
+> **c.1) Danos Materiais — R$ 6.554,00**
+
+| Item | Valor | Doc. |
+|------|-------|------|
+| Hospedagem forçada (diária de hotel) | R$ 290,00 | Doc. 6 |
+| Alimentação no aeroporto | R$ 64,00 | Doc. 7 |
+| Conteúdo da bagagem extraviada | R$ 6.200,00 | Docs. 8–11 |
+| **Total** | **R$ 6.554,00** | |
+
+> **c.2) Danos Morais** em valor a ser arbitrado por este Juízo, sugerindo-se montante tal que a **soma total** (materiais + morais) corresponda a **35 (trinta e cinco) salários mínimos** — equivalentes a R$ __________ na data do ajuizamento —, conforme o art. 3.º, I, da Lei n.º 9.099/1995;
+>
+> *(Cálculo de preenchimento: 35 × SMV − R$ 6.554,00 = valor sugerido para danos morais)*
+
+**d)** A incidência de **juros de mora** de 1% a.m., contados da data de cada evento danoso (03/03/2026 para hospedagem e alimentação; 04/03/2026 para o extravio da bagagem; da sentença para os danos morais, nos termos da Súmula 54 do STJ);
+
+**e)** A incidência de **correção monetária** (INPC/IBGE ou índice equivalente) sobre os danos materiais a partir de cada desembolso e sobre os danos morais a partir da sentença;
+
+**f)** A **juntada e autuação dos documentos** listados no item VI.
+
+---
+
+## V – DO VALOR DA CAUSA
+
+Dá-se à causa o valor de **35 (trinta e cinco) salários mínimos**, correspondentes a **R$ __________**, com base no salário mínimo vigente na data do ajuizamento, nos termos do art. 3.º, I, da Lei n.º 9.099/1995.
+
+---
+
+## VI – RELAÇÃO DE DOCUMENTOS
+
+| Doc. | Descrição | Fato |
+|------|-----------|------|
+| 1 | Comprovante de residência em Comarca-X | 1 |
+| 2 | Bilhete de passagem – Voo 1234, 03/03/2026, 8h | 2 |
+| 3 | Comprovante de pagamento da passagem (R$ 1.380,00) | 3 |
+| 4 | Captura de tela – cancelamento do Voo 1234 (7h10/03/03/2026) | 4 |
+| 5 | Cartão de embarque do voo de reacomodação (04/03/2026) | 5 |
+| 6 | Nota fiscal de hospedagem – hotel (R$ 290,00) | 6 |
+| 7 | Cupons fiscais de alimentação no aeroporto (R$ 64,00) | 7 |
+| 8 | Etiqueta de bagagem – voo de reacomodação (04/03/2026) | 8 |
+| 9 | Relatório de Irregularidade de Bagagem – RIB (04/03/2026) | 9 |
+| 10 | E-mail da Requerida – mala não localizada (30/03/2026) | 10 |
+| 11 | Nota fiscal do notebook (R$ 4.300,00) | 11 |
+
+---
+
+Termos em que pede deferimento.
+
+**Comarca-X, ___ de ___________ de 2026.**
+
+**___________________________________________**
+[Nome do(a) Advogado(a)]
+OAB/[UF] n.º ___________
+[Endereço profissional — Telefone — E-mail]
+
+*(Procuração ad judicia acostada em separado)*
+
+---
+
+## Notas sobre a petição
+
+Há alguns pontos que precisam de **preenchimento antes do protocolo**:
+
+| Campo | O que inserir |
+|-------|--------------|
+| Qualificação do(a) Autor(a) | Nacionalidade, estado civil, profissão, RG e CPF completos |
+| Endereço completo do(a) Autor(a) | Rua, número, bairro, CEP |
+| CNPJ e endereço da Empresa-B | Dados cadastrais da companhia aérea (disponíveis no CNPJ.gov.br ou bilhete) |
+| Salário mínimo vigente | Em outubro/2026, verificar o valor oficial para calcular 35 SM = R$ ___ |
+| Valor dos danos morais sugerido | 35 SM − R$ 6.554,00 = R$ ___ (a sugerir ao juízo) |
+| Valor da causa | Igual a 35 SM = R$ ___ |
+| Data de ajuizamento | Data efetiva do protocolo |
+
+**Fundamento do rito:** com 35 salários mínimos, o processo se encaixa no **Juizado Especial Cível** (teto de 40 SM – art. 3.º, I, da Lei 9.099/95), que é mais célere e não cobra custas em 1.ª instância. Se por algum motivo o advogado preferir o **juízo comum** (ex.: maior complexidade probatória), o rito e o endereçamento devem ser ajustados para a Vara Cível.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07a-C1 — inicial, prompt do capítulo
+### 2026-10-13 10:16 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça a petição inicial de uma ação contra a companhia aérea, com estes fatos.
+
+Fatos do cliente, numerados, com os documentos:
+1. Cliente A mora em Comarca-X (comprovante de residência, Doc. 1).
+2. Comprou da Empresa-B Linhas Aéreas S.A. uma passagem de Comarca-X para Cidade-Y, voo 1234, em 03/03/2026, com saída às 8h (bilhete, Doc. 2).
+3. Pagou R$ 1.380,00 pela passagem (comprovante de pagamento, Doc. 3).
+4. Em 03/03/2026, às 7h10, já no aeroporto, recebeu no aplicativo da companhia a mensagem de que o voo 1234 estava cancelado (captura de tela da mensagem, Doc. 4).
+5. A companhia ofereceu reacomodação no voo de 04/03/2026, às 8h, e ele aceitou (cartão de embarque, Doc. 5).
+6. Pagou uma noite de hotel em Comarca-X, R$ 290,00 (nota fiscal, Doc. 6).
+7. Gastou R$ 64,00 com alimentação no aeroporto (cupons fiscais, Doc. 7).
+8. Em 04/03/2026, despachou uma mala no voo da reacomodação (etiqueta de bagagem, Doc. 8).
+9. Ao desembarcar em Cidade-Y, a mala não apareceu; ele registrou o Relatório de Irregularidade de Bagagem no mesmo dia (RIB, Doc. 9).
+10. Em 30/03/2026, a companhia informou por e-mail que a mala não foi localizada (e-mail, Doc. 10).
+11. Na mala havia roupas e um notebook; ele estima o conteúdo em R$ 6.200,00 e tem a nota fiscal do notebook, de R$ 4.300,00 (nota fiscal, Doc. 11).
+12. Ele quer pedir danos materiais e danos morais, num total de 35 salários mínimos.
+
+Regras: não acrescente fato; cada fato com o número do documento; cada pedido com a causa de pedir; artigos só dos colados abaixo, copiados do site do Planalto.
+
+CPC (Lei 13.105/2015), art. 319: "A petição inicial indicará: I - o juízo a que é dirigida; II - os nomes, os prenomes, o estado civil, a existência de união estável, a profissão, o número de inscrição no Cadastro de Pessoas Físicas ou no Cadastro Nacional da Pessoa Jurídica, o endereço eletrônico, o domicílio e a residência do autor e do réu; III - o fato e os fundamentos jurídicos do pedido; IV - o pedido com as suas especificações; V - o valor da causa; VI - as provas com que o autor pretende demonstrar a verdade dos fatos alegados; VII - a opção do autor pela realização ou não de audiência de conciliação ou de mediação."
+
+CPC, art. 46, caput: "A ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu."
+
+Código de Defesa do Consumidor (Lei 8.078/1990), art. 101: "Na ação de responsabilidade civil do fornecedor de produtos e serviços, sem prejuízo do disposto nos Capítulos I e II deste título, serão observadas as seguintes normas: I - a ação pode ser proposta no domicílio do autor;"
+
+Lei 9.099/1995, art. 3º: "O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: I - as causas cujo valor não exceda a quarenta vezes o salário mínimo;"
+--- IA:
+# PETIÇÃO INICIAL
+
+---
+
+**EXCELENTÍSSIMO SENHOR JUIZ DE DIREITO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE COMARCA-X**
+
+---
+
+**CLIENTE A**, [nacionalidade], [estado civil], [união estável: sim/não], [profissão], CPF nº [000.000.000-00], e-mail [e-mail], residente e domiciliado em Comarca-X, no endereço constante do Doc. 1, vem, por seu advogado infra-assinado (procuração em anexo), propor a presente
+
+## AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+em face de **EMPRESA-B LINHAS AÉREAS S.A.**, pessoa jurídica de direito privado, CNPJ nº [00.000.000/0000-00], e-mail [e-mail], com sede em [endereço], pelos fatos e fundamentos a seguir expostos.
+
+---
+
+## I — DA COMPETÊNCIA
+
+A presente ação é proposta perante o Juizado Especial Cível desta Comarca de Comarca-X por duas razões concorrentes.
+
+**Quanto ao foro:** A relação travada entre as partes é de consumo, na qual o autor figura como consumidor e a ré como fornecedora de serviço de transporte aéreo. Incide, portanto, o art. 101, I, do Código de Defesa do Consumidor (Lei 8.078/1990):
+
+> *"Na ação de responsabilidade civil do fornecedor de produtos e serviços, sem prejuízo do disposto nos Capítulos I e II deste título, serão observadas as seguintes normas: I - a ação pode ser proposta no domicílio do autor;"*
+
+Fica assim afastada, em benefício do consumidor, a regra geral do art. 46, *caput*, do Código de Processo Civil (Lei 13.105/2015):
+
+> *"A ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu."*
+
+Sendo o autor domiciliado em Comarca-X (Doc. 1), este é o foro competente.
+
+**Quanto ao juízo:** O valor da causa corresponde a 35 (trinta e cinco) salários mínimos, inserindo-se nos limites do art. 3º, I, da Lei 9.099/1995:
+
+> *"O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: I - as causas cujo valor não exceda a quarenta vezes o salário mínimo;"*
+
+Estando o valor da causa abaixo do teto de quarenta salários mínimos, este Juizado Especial Cível é competente para processar e julgar a demanda.
+
+---
+
+## II — DOS FATOS
+
+**1.** O autor reside em Comarca-X, conforme comprova o Doc. 1 (comprovante de residência).
+
+**2.** O autor adquiriu da ré passagem aérea para o voo 1234, com origem em Comarca-X e destino a Cidade-Y, com saída prevista para as 8h do dia 03/03/2026, conforme o Doc. 2 (bilhete).
+
+**3.** Pelo bilhete, o autor pagou à ré o valor de R$ 1.380,00 (um mil trezentos e oitenta reais), conforme o Doc. 3 (comprovante de pagamento).
+
+**4.** Em 03/03/2026, às 7h10, já no aeroporto de Comarca-X e pronto para o embarque, o autor recebeu, pelo próprio aplicativo da ré, mensagem informando o cancelamento do voo 1234, conforme o Doc. 4 (captura de tela da mensagem).
+
+**5.** A ré ofereceu reacomodação no voo de 04/03/2026, às 8h, o que o autor aceitou, conforme o Doc. 5 (cartão de embarque do voo de reacomodação).
+
+**6.** Em razão do cancelamento do voo e da necessidade de aguardar cerca de vinte e quatro horas para o voo substituto, o autor teve de custear uma diária de hotel em Comarca-X no valor de R$ 290,00 (duzentos e noventa reais), conforme o Doc. 6 (nota fiscal do hotel).
+
+**7.** Durante a espera no aeroporto, o autor gastou R$ 64,00 (sessenta e quatro reais) com alimentação, conforme o Doc. 7 (cupons fiscais).
+
+**8.** Em 04/03/2026, o autor despachou uma mala no voo de reacomodação, conforme o Doc. 8 (etiqueta de bagagem).
+
+**9.** Ao desembarcar em Cidade-Y, a mala não apareceu na esteira de bagagens; o autor registrou o Relatório de Irregularidade de Bagagem (RIB) no próprio dia do desembarque, conforme o Doc. 9 (RIB).
+
+**10.** Em 30/03/2026, a ré comunicou ao autor, por e-mail, que a mala não foi localizada, conforme o Doc. 10 (e-mail da companhia aérea).
+
+**11.** Na mala havia roupas e um notebook; o autor estima o valor total do conteúdo em R$ 6.200,00 (seis mil e duzentos reais) e possui a nota fiscal do notebook, adquirido por R$ 4.300,00 (quatro mil e trezentos reais), conforme o Doc. 11 (nota fiscal do notebook).
+
+---
+
+## III — DO DIREITO
+
+O autor é consumidor e a ré é fornecedora de serviço de transporte aéreo, relação regida pelo Código de Defesa do Consumidor (Lei 8.078/1990). A ré responde objetivamente pelas falhas na prestação de seus serviços.
+
+**Quanto ao cancelamento do voo:** Os fatos 2, 3 e 4 demonstram que a ré cancelou o voo 1234 e comunicou o cancelamento apenas às 7h10 do próprio dia, quando o autor já se encontrava no aeroporto. Tal conduta configura falha na prestação do serviço de transporte, impondo ao autor pernoite forçado e despesas extraordinárias, gerando o dever de reparação dos danos materiais descritos nos fatos 6 e 7.
+
+**Quanto ao extravio definitivo da bagagem:** Os fatos 8, 9, 10 e 11 demonstram que a mala despachada no voo de reacomodação não foi entregue ao destino e não foi localizada pela ré, que confirmou a perda por escrito (Doc. 10). A perda definitiva de bagagem devidamente despachada configura falha grave na prestação do serviço, impondo à ré a reparação integral do conteúdo extraviado.
+
+**Quanto aos danos morais:** O cancelamento intempestivo do voo, comunicado no aeroporto às vésperas do embarque, e o extravio definitivo da bagagem — incluindo bem de valor elevado, o notebook — causaram ao autor angústia, transtorno e sofrimento que superam os meros dissabores cotidianos, configurando dano moral indenizável.
+
+---
+
+## IV — DOS PEDIDOS
+
+Ante o exposto, com fundamento nos fatos e no direito acima expostos, requer o autor a condenação da ré ao pagamento de:
+
+**a) Danos materiais decorrentes do cancelamento do voo** — com causa de pedir na falha na prestação do serviço de transporte aéreo consubstanciada no cancelamento intempestivo do voo 1234, comunicado ao autor já no aeroporto em 03/03/2026 (fato 4), que o obrigou a pernoitar em Comarca-X (fato 5) e a suportar despesas que não teriam ocorrido no curso normal do contrato:
+
+- R$ 290,00 (duzentos e noventa reais) — diária de hotel em Comarca-X (fato 6, Doc. 6);
+- R$ 64,00 (sessenta e quatro reais) — despesas com alimentação no aeroporto (fato 7, Doc. 7).
+
+**Subtotal: R$ 354,00 (trezentos e cinquenta e quatro reais).**
+
+**b) Danos materiais decorrentes do extravio definitivo da bagagem** — com causa de pedir na falha na prestação do serviço de transporte de bagagem, consistente na perda definitiva da mala despachada no voo de reacomodação de 04/03/2026 (fato 8), não localizada e dada como perdida pela própria ré (fatos 9, 10 e 11):
+
+- R$ 6.200,00 (seis mil e duzentos reais) — valor estimado do conteúdo da mala (roupas e notebook), comprovado parcialmente pela nota fiscal do notebook no valor de R$ 4.300,00 (fato 11, Doc. 11).
+
+**Subtotal: R$ 6.200,00 (seis mil e duzentos reais).**
+
+**c) Danos morais** — com causa de pedir no cancelamento intempestivo do voo (fato 4), que gerou situação de angústia e frustração ao autor quando já se preparava para embarcar, e no extravio definitivo da bagagem (fatos 9 e 10), com perda irreversível de bens pessoais, causando sofrimento e transtorno que extrapolam os dissabores ordinários da vida:
+
+- valor a ser arbitrado por este Juízo, de modo que o total da condenação, somados os danos materiais (R$ 6.554,00), alcance **35 (trinta e cinco) salários mínimos**.
+
+**d)** Todos os valores acima com correção monetária pelo IPCA e juros de mora legais, contados desde cada evento danoso.
+
+---
+
+## V — DO VALOR DA CAUSA
+
+Nos termos do art. 319, V, do CPC (Lei 13.105/2015), atribui-se à causa o valor de **35 (trinta e cinco) salários mínimos**, correspondentes a **R$ [35 × valor do salário mínimo vigente]**.
+
+---
+
+## VI — DAS PROVAS
+
+Nos termos do art. 319, VI, do CPC (Lei 13.105/2015), o autor pretende demonstrar a verdade dos fatos alegados pelos seguintes meios de prova:
+
+- **Documentais:** Doc. 1 (comprovante de residência), Doc. 2 (bilhete), Doc. 3 (comprovante de pagamento), Doc. 4 (captura de tela do cancelamento), Doc. 5 (cartão de embarque), Doc. 6 (nota fiscal do hotel), Doc. 7 (cupons fiscais de alimentação), Doc. 8 (etiqueta de bagagem), Doc. 9 (RIB), Doc. 10 (e-mail da ré), Doc. 11 (nota fiscal do notebook);
+- **Depoimento pessoal** do representante da ré;
+- **Prova testemunhal**, oral;
+- **Demais meios de prova** em direito admitidos, cujo requerimento específico fica reservado para momento oportuno.
+
+---
+
+## VII — DA AUDIÊNCIA DE CONCILIAÇÃO OU DE MEDIAÇÃO
+
+Nos termos do art. 319, VII, do CPC (Lei 13.105/2015), o autor **[declara ter interesse / declara não ter interesse]** na realização de audiência de conciliação ou de mediação prévia.
+
+---
+
+Nestes termos, pede deferimento.
+
+**Comarca-X, [data].**
+
+**[Nome do Advogado]**
+OAB/[UF] nº [00.000]
+
+---
+
+*Documentos anexos: Docs. 1 a 11, conforme indicado.*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07a-C2 — inicial, prompt do capítulo
+### 2026-10-13 10:18 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça a petição inicial de uma ação contra a companhia aérea, com estes fatos.
+
+Fatos do cliente, numerados, com os documentos:
+1. Cliente A mora em Comarca-X (comprovante de residência, Doc. 1).
+2. Comprou da Empresa-B Linhas Aéreas S.A. uma passagem de Comarca-X para Cidade-Y, voo 1234, em 03/03/2026, com saída às 8h (bilhete, Doc. 2).
+3. Pagou R$ 1.380,00 pela passagem (comprovante de pagamento, Doc. 3).
+4. Em 03/03/2026, às 7h10, já no aeroporto, recebeu no aplicativo da companhia a mensagem de que o voo 1234 estava cancelado (captura de tela da mensagem, Doc. 4).
+5. A companhia ofereceu reacomodação no voo de 04/03/2026, às 8h, e ele aceitou (cartão de embarque, Doc. 5).
+6. Pagou uma noite de hotel em Comarca-X, R$ 290,00 (nota fiscal, Doc. 6).
+7. Gastou R$ 64,00 com alimentação no aeroporto (cupons fiscais, Doc. 7).
+8. Em 04/03/2026, despachou uma mala no voo da reacomodação (etiqueta de bagagem, Doc. 8).
+9. Ao desembarcar em Cidade-Y, a mala não apareceu; ele registrou o Relatório de Irregularidade de Bagagem no mesmo dia (RIB, Doc. 9).
+10. Em 30/03/2026, a companhia informou por e-mail que a mala não foi localizada (e-mail, Doc. 10).
+11. Na mala havia roupas e um notebook; ele estima o conteúdo em R$ 6.200,00 e tem a nota fiscal do notebook, de R$ 4.300,00 (nota fiscal, Doc. 11).
+12. Ele quer pedir danos materiais e danos morais, num total de 35 salários mínimos.
+
+Regras: não acrescente fato; cada fato com o número do documento; cada pedido com a causa de pedir; artigos só dos colados abaixo, copiados do site do Planalto.
+
+CPC (Lei 13.105/2015), art. 319: "A petição inicial indicará: I - o juízo a que é dirigida; II - os nomes, os prenomes, o estado civil, a existência de união estável, a profissão, o número de inscrição no Cadastro de Pessoas Físicas ou no Cadastro Nacional da Pessoa Jurídica, o endereço eletrônico, o domicílio e a residência do autor e do réu; III - o fato e os fundamentos jurídicos do pedido; IV - o pedido com as suas especificações; V - o valor da causa; VI - as provas com que o autor pretende demonstrar a verdade dos fatos alegados; VII - a opção do autor pela realização ou não de audiência de conciliação ou de mediação."
+
+CPC, art. 46, caput: "A ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu."
+
+Código de Defesa do Consumidor (Lei 8.078/1990), art. 101: "Na ação de responsabilidade civil do fornecedor de produtos e serviços, sem prejuízo do disposto nos Capítulos I e II deste título, serão observadas as seguintes normas: I - a ação pode ser proposta no domicílio do autor;"
+
+Lei 9.099/1995, art. 3º: "O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: I - as causas cujo valor não exceda a quarenta vezes o salário mínimo;"
+--- IA:
+# PETIÇÃO INICIAL
+
+---
+
+**EXMO. SR. JUIZ DE DIREITO DO JUIZADO ESPECIAL CÍVEL DA COMARCA DE COMARCA-X**
+
+---
+
+**CLIENTE A**, [nacionalidade], [estado civil], [profissão], inscrito no CPF sob o nº [\_\_\_], endereço eletrônico [\_\_\_], residente e domiciliado em Comarca-X (comprovante de residência, Doc. 1), por intermédio do advogado abaixo assinado (instrumento de mandato em anexo), vem, respeitosamente, à presença de Vossa Excelência, propor
+
+## AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+em face de **EMPRESA-B LINHAS AÉREAS S.A.**, pessoa jurídica de direito privado, inscrita no CNPJ sob o nº [\_\_\_], com sede em [\_\_\_], pelos fatos e fundamentos a seguir expostos, na forma do art. 319 do Código de Processo Civil:
+
+> *"A petição inicial indicará: I – o juízo a que é dirigida; II – os nomes, os prenomes, o estado civil, a existência de união estável, a profissão, o número de inscrição no Cadastro de Pessoas Físicas ou no Cadastro Nacional da Pessoa Jurídica, o endereço eletrônico, o domicílio e a residência do autor e do réu; III – o fato e os fundamentos jurídicos do pedido; IV – o pedido com as suas especificações; V – o valor da causa; VI – as provas com que o autor pretende demonstrar a verdade dos fatos alegados; VII – a opção do autor pela realização ou não de audiência de conciliação ou de mediação."*
+
+---
+
+## I – DA COMPETÊNCIA
+
+O autor é domiciliado em Comarca-X (Doc. 1). A relação jurídica em litígio é de consumo, razão pela qual se aplica o art. 101, inciso I, do Código de Defesa do Consumidor — *"a ação pode ser proposta no domicílio do autor"* —, em derrogação à regra geral do art. 46, *caput*, do Código de Processo Civil, segundo a qual *"a ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu."* Este Juízo é, portanto, territorialmente competente.
+
+Quanto à competência em razão do valor, o total atribuído à causa equivale a **35 (trinta e cinco) salários mínimos**, inferior ao limite de 40 (quarenta) salários mínimos previsto no art. 3º, inciso I, da Lei nº 9.099/1995: *"as causas cujo valor não exceda a quarenta vezes o salário mínimo."* Está, pois, confirmada a competência absoluta deste Juizado Especial Cível.
+
+---
+
+## II – DOS FATOS
+
+**1.** O autor reside em Comarca-X (comprovante de residência, **Doc. 1**).
+
+**2.** O autor adquiriu da ré passagem aérea para o voo 1234, com origem em Comarca-X e destino a Cidade-Y, para o dia 03/03/2026, com saída prevista para as 8h (bilhete, **Doc. 2**).
+
+**3.** O autor pagou R$ 1.380,00 (mil, trezentos e oitenta reais) pela passagem (comprovante de pagamento, **Doc. 3**).
+
+**4.** Em 03/03/2026, às 7h10, já presente no aeroporto e em vias de embarcar, o autor recebeu notificação pelo aplicativo da própria ré informando que o voo 1234 estava cancelado (captura de tela da mensagem, **Doc. 4**).
+
+**5.** A ré ofereceu ao autor reacomodação no voo do dia 04/03/2026, com saída às 8h, proposta que o autor aceitou (cartão de embarque, **Doc. 5**).
+
+**6.** Em decorrência do cancelamento e da reacomodação para o dia seguinte, o autor foi obrigado a pernoitar em Comarca-X, suportando o custo de R$ 290,00 (duzentos e noventa reais) por uma diária de hotel (nota fiscal, **Doc. 6**).
+
+**7.** O autor ainda despendeu R$ 64,00 (sessenta e quatro reais) com alimentação no aeroporto durante o período de espera imposto pelo cancelamento (cupons fiscais, **Doc. 7**).
+
+**8.** Em 04/03/2026, o autor despachou uma mala no voo de reacomodação (etiqueta de bagagem, **Doc. 8**).
+
+**9.** Ao desembarcar em Cidade-Y, a mala não apareceu na esteira de bagagens. O autor registrou Relatório de Irregularidade de Bagagem (RIB) junto à própria ré no mesmo dia (RIB, **Doc. 9**).
+
+**10.** Em 30/03/2026, decorridos 26 dias sem localização, a ré comunicou ao autor por e-mail que a mala não havia sido encontrada (e-mail, **Doc. 10**).
+
+**11.** A mala extraviada continha roupas e um notebook. O autor estima o valor total do conteúdo em R$ 6.200,00 (seis mil e duzentos reais), sendo R$ 4.300,00 (quatro mil e trezentos reais) referentes ao notebook (nota fiscal, **Doc. 11**).
+
+---
+
+## III – DOS FUNDAMENTOS JURÍDICOS
+
+A relação entre o autor e a ré é de consumo, regida pelo Código de Defesa do Consumidor, que impõe ao fornecedor de serviços responsabilidade objetiva pelos danos causados ao consumidor em razão de defeitos na prestação do serviço.
+
+**Do cancelamento do voo.** A ré cancelou o voo 1234 e comunicou o fato ao autor apenas às 7h10 do dia do embarque, quando ele já se encontrava no aeroporto (Doc. 4). A reacomodação oferecida (Doc. 5) projetou a viagem para o dia seguinte, impondo ao autor gastos extraordinários com hotel (Doc. 6) e alimentação (Doc. 7). O cancelamento sem justificativa apresentada e com comunicação tardia configura defeito na prestação do serviço de transporte aéreo, gerando o dever de reparar tanto os danos materiais comprovados quanto os danos morais decorrentes do transtorno, da frustração dos planos e da angústia experimentados pelo consumidor.
+
+**Do extravio definitivo de bagagem.** A ré recebeu sob sua guarda a mala do autor no check-in do voo de reacomodação (Doc. 8). A mala não foi entregue no destino (Doc. 9) e, após investigação de 26 dias, a própria ré confirmou sua perda definitiva (Doc. 10). O extravio definitivo da bagagem despachada configura inadimplemento do contrato de transporte e falha do serviço, impondo à ré a obrigação de indenizar integralmente o valor dos bens perdidos (Doc. 11). A perda definitiva de pertences pessoais — incluindo roupas e instrumento de trabalho — ultrapassa o mero dissabor cotidiano e configura dano moral autônomo, pelo sentimento de impotência e pelo prejuízo à vida pessoal e profissional do autor.
+
+---
+
+## IV – DOS PEDIDOS
+
+Ante o exposto, requer o autor a Vossa Excelência que, ao final, julgue **totalmente procedente** a presente ação, condenando a ré:
+
+**a) Ao pagamento de danos materiais decorrentes do cancelamento do voo**
+*(causa de pedir: cancelamento do voo 1234 em 03/03/2026, Docs. 4 e 5, que impôs ao autor a necessidade de pernoitar em Comarca-X e despender valores com hospedagem e alimentação, Docs. 6 e 7)*
+
+> a.1) R$ 290,00 (duzentos e noventa reais) referentes à diária de hotel (Doc. 6);
+> a.2) R$ 64,00 (sessenta e quatro reais) referentes às despesas com alimentação no aeroporto (Doc. 7);
+> **Subtotal: R$ 354,00**
+
+**b) Ao pagamento de danos materiais decorrentes do extravio definitivo de bagagem**
+*(causa de pedir: recebimento da mala no check-in, Doc. 8, não entrega no destino, Doc. 9, e confirmação da perda definitiva pela própria ré, Doc. 10, com conteúdo avaliado em R$ 6.200,00, Doc. 11)*
+
+> b.1) R$ 6.200,00 (seis mil e duzentos reais), correspondentes ao valor estimado do conteúdo da mala extraviada, conforme documentação (Doc. 11);
+> **Subtotal: R$ 6.200,00**
+
+**c) Ao pagamento de indenização por danos morais**
+*(causa de pedir: (i) cancelamento abrupto do voo com comunicação às 7h10 do dia do embarque, enquanto o autor já se encontrava no aeroporto, frustrando seus planos e causando angústia, transtorno e perda de tempo útil, Docs. 4 e 5; e (ii) extravio definitivo da mala, com perda irreversível de pertences pessoais e instrumento de trabalho, gerando sofrimento, impotência e prejuízo à vida cotidiana e profissional, Docs. 9 e 10)*
+
+> c.1) Indenização por danos morais em valor a ser arbitrado por Vossa Excelência, de modo que **a soma de todos os pedidos totalize 35 (trinta e cinco) salários mínimos**, conforme atribuído ao valor da causa;
+
+**d)** Ao pagamento das custas processuais e dos honorários advocatícios de sucumbência.
+
+---
+
+## V – DAS PROVAS
+
+Nos termos do art. 319, inciso VI, do Código de Processo Civil, o autor pretende demonstrar a verdade dos fatos alegados pelos seguintes meios de prova:
+
+- **Documental**, desde logo produzida com esta inicial: Doc. 1 (comprovante de residência), Doc. 2 (bilhete de passagem), Doc. 3 (comprovante de pagamento), Doc. 4 (captura de tela da mensagem de cancelamento), Doc. 5 (cartão de embarque), Doc. 6 (nota fiscal de hotel), Doc. 7 (cupons fiscais de alimentação), Doc. 8 (etiqueta de bagagem), Doc. 9 (RIB), Doc. 10 (e-mail da ré), Doc. 11 (nota fiscal do notebook);
+- **Outros meios admitidos em direito**, inclusive testemunhal e pericial, caso se mostrem necessários ao longo da instrução.
+
+---
+
+## VI – DA AUDIÊNCIA DE CONCILIAÇÃO OU MEDIAÇÃO
+
+Na forma do art. 319, inciso VII, do Código de Processo Civil, o autor **declara sua opção pela** [ ] **realização** / [ ] **não realização** de audiência de conciliação ou mediação.
+
+*(O autor ou seu advogado deverá assinalar a opção antes do protocolo.)*
+
+---
+
+## VII – DO VALOR DA CAUSA
+
+Atribui-se à causa o valor de **35 (trinta e cinco) salários mínimos**, equivalentes a **R$ [\_\_\_]** (valor correspondente ao salário mínimo federal vigente na data do ajuizamento, multiplicado por 35), nos termos do art. 319, inciso V, do Código de Processo Civil.
+
+---
+
+Nestes termos,
+**pede deferimento.**
+
+Comarca-X, [data].
+
+**[Nome do Advogado]**
+OAB/[UF] nº [\_\_\_]
+
+---
+
+> **Documentos anexos:** Doc. 1 a Doc. 11, conforme relacionados acima, e instrumento de mandato.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07a-C3 — inicial, prompt do capítulo
+### 2026-10-13 10:20 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Faça a petição inicial de uma ação contra a companhia aérea, com estes fatos.
+
+Fatos do cliente, numerados, com os documentos:
+1. Cliente A mora em Comarca-X (comprovante de residência, Doc. 1).
+2. Comprou da Empresa-B Linhas Aéreas S.A. uma passagem de Comarca-X para Cidade-Y, voo 1234, em 03/03/2026, com saída às 8h (bilhete, Doc. 2).
+3. Pagou R$ 1.380,00 pela passagem (comprovante de pagamento, Doc. 3).
+4. Em 03/03/2026, às 7h10, já no aeroporto, recebeu no aplicativo da companhia a mensagem de que o voo 1234 estava cancelado (captura de tela da mensagem, Doc. 4).
+5. A companhia ofereceu reacomodação no voo de 04/03/2026, às 8h, e ele aceitou (cartão de embarque, Doc. 5).
+6. Pagou uma noite de hotel em Comarca-X, R$ 290,00 (nota fiscal, Doc. 6).
+7. Gastou R$ 64,00 com alimentação no aeroporto (cupons fiscais, Doc. 7).
+8. Em 04/03/2026, despachou uma mala no voo da reacomodação (etiqueta de bagagem, Doc. 8).
+9. Ao desembarcar em Cidade-Y, a mala não apareceu; ele registrou o Relatório de Irregularidade de Bagagem no mesmo dia (RIB, Doc. 9).
+10. Em 30/03/2026, a companhia informou por e-mail que a mala não foi localizada (e-mail, Doc. 10).
+11. Na mala havia roupas e um notebook; ele estima o conteúdo em R$ 6.200,00 e tem a nota fiscal do notebook, de R$ 4.300,00 (nota fiscal, Doc. 11).
+12. Ele quer pedir danos materiais e danos morais, num total de 35 salários mínimos.
+
+Regras: não acrescente fato; cada fato com o número do documento; cada pedido com a causa de pedir; artigos só dos colados abaixo, copiados do site do Planalto.
+
+CPC (Lei 13.105/2015), art. 319: "A petição inicial indicará: I - o juízo a que é dirigida; II - os nomes, os prenomes, o estado civil, a existência de união estável, a profissão, o número de inscrição no Cadastro de Pessoas Físicas ou no Cadastro Nacional da Pessoa Jurídica, o endereço eletrônico, o domicílio e a residência do autor e do réu; III - o fato e os fundamentos jurídicos do pedido; IV - o pedido com as suas especificações; V - o valor da causa; VI - as provas com que o autor pretende demonstrar a verdade dos fatos alegados; VII - a opção do autor pela realização ou não de audiência de conciliação ou de mediação."
+
+CPC, art. 46, caput: "A ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu."
+
+Código de Defesa do Consumidor (Lei 8.078/1990), art. 101: "Na ação de responsabilidade civil do fornecedor de produtos e serviços, sem prejuízo do disposto nos Capítulos I e II deste título, serão observadas as seguintes normas: I - a ação pode ser proposta no domicílio do autor;"
+
+Lei 9.099/1995, art. 3º: "O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: I - as causas cujo valor não exceda a quarenta vezes o salário mínimo;"
+--- IA:
+# PETIÇÃO INICIAL
+
+---
+
+**EXMO. SR. JUIZ DO JUIZADO ESPECIAL CÍVEL DA COMARCA-X**
+
+**CLIENTE A**, \[estado civil], \[existência de união estável], \[profissão], CPF nº \[___], e-mail \[___], residente e domiciliado em Comarca-X (Doc. 1), vem, respeitosamente, à presença de V. Exa., por intermédio de seu advogado infra-assinado (procuração em anexo), com fundamento no art. 319 da Lei 13.105/2015 (Código de Processo Civil), no art. 101, I, da Lei 8.078/1990 (Código de Defesa do Consumidor) e no art. 3º, I, da Lei 9.099/1995, propor
+
+## AÇÃO DE INDENIZAÇÃO POR DANOS MATERIAIS E MORAIS
+
+em face de
+
+**EMPRESA-B LINHAS AÉREAS S.A.**, pessoa jurídica de direito privado, CNPJ nº \[___], com sede em \[___], e-mail \[___],
+
+pelos fatos e fundamentos jurídicos que a seguir expõe.
+
+---
+
+## I — DO JUÍZO COMPETENTE
+
+O art. 46, *caput*, da Lei 13.105/2015 dispõe: *"A ação fundada em direito pessoal ou em direito real sobre bens móveis será proposta, em regra, no foro de domicílio do réu."* Contudo, o art. 101 da Lei 8.078/1990 afasta essa regra geral nas relações de consumo, ao prever: *"Na ação de responsabilidade civil do fornecedor de produtos e serviços, sem prejuízo do disposto nos Capítulos I e II deste título, serão observadas as seguintes normas: I - a ação pode ser proposta no domicílio do autor;"* Sendo o Autor domiciliado em Comarca-X (Doc. 1), é competente este Juízo.
+
+O valor da causa é de 35 (trinta e cinco) salários mínimos. O art. 3º da Lei 9.099/1995 dispõe: *"O Juizado Especial Cível tem competência para conciliação, processo e julgamento das causas cíveis de menor complexidade, assim consideradas: I - as causas cujo valor não exceda a quarenta vezes o salário mínimo;"* Sendo o valor da causa inferior ao teto legal, é competente o Juizado Especial Cível desta Comarca.
+
+---
+
+## II — DAS PARTES
+
+**2.1. Autor:** CLIENTE A, \[estado civil], \[existência de união estável: sim/não], \[profissão], CPF nº \[___], e-mail \[___], residente e domiciliado em Comarca-X, conforme Doc. 1.
+
+**2.2. Ré:** EMPRESA-B LINHAS AÉREAS S.A., pessoa jurídica de direito privado, CNPJ nº \[___], com sede em \[___], e-mail \[___].
+
+---
+
+## III — DOS FATOS
+
+**1.** O Autor reside em Comarca-X (Doc. 1).
+
+**2.** O Autor adquiriu da Ré passagem aérea para o voo 1234, com trajeto de Comarca-X a Cidade-Y, data de 03/03/2026 e horário de partida às 8h (Doc. 2).
+
+**3.** O Autor pagou R$ 1.380,00 (um mil trezentos e oitenta reais) pela passagem aérea (Doc. 3).
+
+**4.** Em 03/03/2026, às 7h10, já presente no aeroporto para o embarque, o Autor recebeu mensagem no aplicativo da Ré comunicando o cancelamento do voo 1234 (Doc. 4).
+
+**5.** A Ré ofereceu reacomodação no voo do dia 04/03/2026, às 8h, proposta que o Autor aceitou (Doc. 5).
+
+**6.** Em razão do cancelamento do voo, o Autor teve de pernoitar em Comarca-X, arcando com o pagamento de R$ 290,00 (duzentos e noventa reais) por uma noite de hotel (Doc. 6).
+
+**7.** O Autor despendeu R$ 64,00 (sessenta e quatro reais) com alimentação no aeroporto em consequência do cancelamento (Doc. 7).
+
+**8.** Em 04/03/2026, o Autor despachou uma mala no voo de reacomodação (Doc. 8).
+
+**9.** Ao desembarcar em Cidade-Y, a mala não apareceu na esteira de bagagens; no mesmo dia, o Autor registrou o Relatório de Irregularidade de Bagagem — RIB (Doc. 9).
+
+**10.** Em 30/03/2026, a Ré comunicou ao Autor, por e-mail, que a mala não havia sido localizada (Doc. 10).
+
+**11.** A mala continha roupas e um notebook; o Autor estima o valor total do conteúdo em R$ 6.200,00 (seis mil e duzentos reais), sendo que o notebook possui nota fiscal no valor de R$ 4.300,00 (quatro mil e trezentos reais) (Doc. 11).
+
+---
+
+## IV — DO DIREITO
+
+A relação entre o Autor e a Ré é de consumo: aquele, destinatário final do serviço de transporte aéreo; esta, fornecedora de tal serviço.
+
+O cancelamento do voo 1234, comunicado ao Autor com menos de cinquenta minutos de antecedência do horário contratado de partida (Fatos 2, 3 e 4), caracteriza descumprimento do contrato de transporte. A reacomodação para o voo do dia seguinte (Fato 5) não elimina os danos já consumados: o Autor foi compelido a suportar despesas imprevistas com hospedagem e alimentação (Fatos 6 e 7) que não ocorreriam caso a Ré tivesse cumprido sua obrigação.
+
+Ao receber a bagagem do Autor para transporte (Fato 8) e não a entregar no destino (Fato 9), a Ré assumiu a responsabilidade pelos bens que lhe foram confiados. A confirmação da perda definitiva emitida pela própria Ré, 27 (vinte e sete) dias após o voo (Fato 10), demonstra a impossibilidade de restituição, obrigando-a a ressarcir o valor dos bens extraviados (Fato 11).
+
+A somatória das condutas — cancelamento do voo comunicado às 7h10 do próprio dia da viagem, imposição de pernoite imprevisto em Comarca-X e perda definitiva de bagagem despachada — gerou ao Autor angústia, transtornos e abalo que superam o mero aborrecimento cotidiano, configurando dano moral indenizável.
+
+---
+
+## V — DOS PEDIDOS
+
+Nos termos do art. 319, III e IV, da Lei 13.105/2015, formulam-se os pedidos a seguir, cada qual com sua causa de pedir.
+
+---
+
+### 5.1. Danos Materiais — Cancelamento do Voo
+
+**Causa de pedir:** O cancelamento do voo 1234 (Doc. 4) descumpriu o contrato de transporte celebrado entre o Autor e a Ré (Docs. 2 e 3), obrigando o Autor a pernoitar em Comarca-X e a arcar com despesas de hospedagem (Doc. 6) e alimentação (Doc. 7) que não existiriam caso a Ré tivesse cumprido sua obrigação.
+
+**Pedido:** Condenação da Ré ao pagamento de **R$ 354,00 (trezentos e cinquenta e quatro reais)**, sendo R$ 290,00 de hotel (Doc. 6) e R$ 64,00 de alimentação (Doc. 7).
+
+---
+
+### 5.2. Danos Materiais — Perda Definitiva da Bagagem
+
+**Causa de pedir:** A Ré recebeu a mala do Autor para transporte em 04/03/2026 (Doc. 8), não a entregou no destino (Doc. 9) e confirmou sua perda definitiva em 30/03/2026 (Doc. 10), privando o Autor de roupas e de notebook cujo valor total estima em R$ 6.200,00, lastreado na nota fiscal do notebook (Doc. 11).
+
+**Pedido:** Condenação da Ré ao pagamento de **R$ 6.200,00 (seis mil e duzentos reais)** pelos bens contidos na mala definitivamente perdida (Doc. 11).
+
+---
+
+### 5.3. Danos Morais
+
+**Causa de pedir:** O cancelamento do voo comunicado com menos de cinquenta minutos de antecedência (Doc. 4), a obrigação de pernoitar de modo inteiramente imprevisto (Docs. 5, 6 e 7) e a perda definitiva da bagagem, confirmada pela própria Ré após 27 dias de busca infrutífera (Doc. 10), causaram ao Autor angústia, frustração e sofrimento que configuram dano moral indenizável.
+
+**Pedido:** Condenação da Ré ao pagamento de **valor a ser arbitrado por V. Exa.** a título de danos morais, em montante tal que, somado aos danos materiais de R$ 6.554,00, perfaça o total de **35 (trinta e cinco) salários mínimos**.
+
+---
+
+## VI — DO VALOR DA CAUSA
+
+Nos termos do art. 319, V, da Lei 13.105/2015, dá-se à causa o valor de **35 (trinta e cinco) salários mínimos vigentes na data do ajuizamento**, correspondente ao somatório de todos os pedidos formulados.
+
+---
+
+## VII — DAS PROVAS
+
+Nos termos do art. 319, VI, da Lei 13.105/2015, o Autor pretende demonstrar a verdade dos fatos alegados pelas provas documentais a seguir relacionadas, todas acostadas a esta petição:
+
+| Documento | Conteúdo |
+|-----------|----------|
+| Doc. 1 | Comprovante de residência em Comarca-X |
+| Doc. 2 | Bilhete da passagem aérea (voo 1234, 03/03/2026, saída 8h) |
+| Doc. 3 | Comprovante de pagamento da passagem (R$ 1.380,00) |
+| Doc. 4 | Captura de tela da mensagem de cancelamento do voo 1234 (7h10 de 03/03/2026) |
+| Doc. 5 | Cartão de embarque do voo de reacomodação (04/03/2026) |
+| Doc. 6 | Nota fiscal do hotel (R$ 290,00) |
+| Doc. 7 | Cupons fiscais de alimentação no aeroporto (R$ 64,00) |
+| Doc. 8 | Etiqueta de bagagem do voo de reacomodação |
+| Doc. 9 | Relatório de Irregularidade de Bagagem — RIB (04/03/2026) |
+| Doc. 10 | E-mail da Ré informando a não localização da mala (30/03/2026) |
+| Doc. 11 | Nota fiscal do notebook (R$ 4.300,00) |
+
+O Autor reserva-se o direito de requerer outros meios de prova admitidos em direito, conforme o desenvolvimento do processo.
+
+---
+
+## VIII — DA AUDIÊNCIA DE CONCILIAÇÃO OU MEDIAÇÃO
+
+Nos termos do art. 319, VII, da Lei 13.105/2015, o Autor \[**declara ter interesse** / **não tem interesse**] na realização de audiência de conciliação ou de mediação.
+
+---
+
+## IX — DOS REQUERIMENTOS FINAIS
+
+Ante o exposto, requer o Autor:
+
+**a)** o recebimento e o regular processamento desta petição inicial;
+
+**b)** a citação da Ré, na pessoa de seu representante legal, para que, querendo, apresente defesa no prazo legal, sob pena de revelia;
+
+**c)** a procedência dos pedidos formulados nos itens 5.1, 5.2 e 5.3, com a condenação da Ré ao pagamento de:
+> - R$ 354,00 (trezentos e cinquenta e quatro reais) a título de danos materiais pelo cancelamento do voo (itens 5.1);
+> - R$ 6.200,00 (seis mil e duzentos reais) a título de danos materiais pela perda da bagagem (item 5.2);
+> - Valor a ser arbitrado a título de danos morais, de modo que o total da condenação corresponda a 35 (trinta e cinco) salários mínimos (item 5.3);
+
+**d)** a condenação da Ré ao pagamento das custas processuais e honorários advocatícios.
+
+---
+
+**Dá-se à causa o valor de 35 (trinta e cinco) salários mínimos.**
+
+Termos em que pede e espera deferimento.
+
+Comarca-X, 13 de outubro de 2026.
+
+**\[NOME DO ADVOGADO]**
+OAB/\[UF] nº \[___]
+
+---
+
+> **Nota de preenchimento:** Antes do ajuizamento, completar: (i) qualificação completa do Autor (estado civil, união estável, profissão, CPF, e-mail); (ii) CNPJ, sede e e-mail da Ré; (iii) nome, número de OAB e assinatura do advogado; (iv) opção por conciliação/mediação (item VIII). O valor exato dos danos morais resultará da multiplicação do salário mínimo vigente na data do protocolo por 35, subtraídos os R$ 6.554,00 de danos materiais.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

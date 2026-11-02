@@ -1,0 +1,1042 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t09, rodado em 09/10/2026 e 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:53 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Os clientes me mandaram estas perguntas. Me ajuda a responder?
+
+1. O empregado novo começa na segunda-feira, dia 9. Até quando eu tenho de registrar no eSocial?
+2. Uma microempresa cliente esqueceu de registrar um empregado. Qual é a multa?
+3. O empregado tem um período aquisitivo vencido há 14 meses e ainda não tirou férias: o que acontece se ele sair de férias no mês que vem?
+4. Paguei as férias um dia antes do início, e não dois. Tenho de pagar em dobro?
+5. Até quando eu pago a primeira parcela do 13º?
+6. A rescisão foi paga no 12º dia depois do fim do contrato. O que acontece?
+--- IA:
+# Respostas — Departamento Pessoal
+
+---
+
+## 1. Prazo de registro no eSocial (admissão na segunda-feira, dia 9)
+
+Há duas opções:
+
+| Evento | O que é | Prazo |
+|---|---|---|
+| **S-2200** (admissão completa) | Registro definitivo | Até o **dia anterior** ao início — ou seja, até domingo, dia 8 |
+| **S-2190** (admissão preliminar) | Registro simplificado | Até o **próprio dia de início** (dia 9, até 23h59), com obrigação de complementar pelo S-2200 em até **7 dias corridos** (até o dia 16) |
+
+> ⚠️ O empregado **não pode iniciar as atividades sem o prévio registro**. Se o dia 8 for domingo e o cliente não enviou o S-2200, a saída é o S-2190 até as 23h59 de segunda.
+
+---
+
+## 2. Multa por empregado não registrado — Microempresa
+
+Com base no **Art. 47, §1º da CLT** (incluído pela Reforma Trabalhista):
+
+- **Microempresa (ME) e Empresa de Pequeno Porte (EPP):** **R$ 800,00 por empregado** não registrado
+- Empregadores em geral: R$ 3.000,00 por empregado; dobro em caso de reincidência
+
+---
+
+## 3. Período aquisitivo vencido há 14 meses — férias no mês que vem
+
+O raciocínio é:
+- **Período aquisitivo** encerrado → abre **período concessivo de 12 meses**
+- 14 meses se passaram → o período concessivo **expirou há 2 meses**
+- Se o empregado sair de férias no mês que vem (mês 15), as férias serão concedidas **fora do prazo legal**
+
+**Consequência (Art. 137 da CLT):** o empregador é obrigado a pagar **férias em dobro** — ou seja, o dobro da remuneração normal (salário + ⅓ constitucional, tudo multiplicado por 2). O número de dias de descanso permanece o mesmo (ex.: 30 dias).
+
+> ⚠️ O empregado ainda pode acionar a Justiça do Trabalho para exigir o gozo das férias (Art. 137, §1º CLT).
+
+---
+
+## 4. Férias pagas 1 dia antes — há obrigação de pagar em dobro?
+
+**Sim.** O Art. 145 da CLT exige o pagamento **até 2 dias antes** do início das férias. Pagar 1 dia antes descumpre esse prazo.
+
+O TST pacificou o tema na **Súmula 450**:
+
+> *"É devido o pagamento em dobro da remuneração de férias, incluído o terço constitucional, com base no art. 137 da CLT, quando, ainda que gozadas na época própria, o empregador tenha descumprido o prazo previsto no art. 145 do mesmo diploma legal."*
+
+**Conclusão:** há risco concreto de condenação ao pagamento em dobro das férias. Vale regularizar e, se o empregado ainda não entrou de férias, garantir o pagamento com a antecedência correta.
+
+---
+
+## 5. Prazo para a 1ª parcela do 13º salário
+
+| Parcela | Prazo |
+|---|---|
+| **1ª parcela** | Até **30 de novembro** |
+| **2ª parcela** | Até **20 de dezembro** |
+
+> 📌 Se o empregado solicitar o adiantamento por ocasião das férias (entre fevereiro e outubro), a 1ª parcela deve ser paga junto com a remuneração das férias. Nesse caso, ela não pode ser paga novamente em novembro.
+
+---
+
+## 6. Rescisão paga no 12º dia após o fim do contrato
+
+O **Art. 477, §6º da CLT** (Reforma Trabalhista) unificou o prazo: pagamento e entrega dos documentos em até **10 dias corridos** a partir do término do contrato.
+
+Pagar no **12º dia = 2 dias de atraso**.
+
+**Sanção (Art. 477, §8º da CLT):**
+- **Multa equivalente a 1 salário** do empregado, paga diretamente a ele
+- Possibilidade de multa administrativa
+
+> ⚠️ A multa é devida salvo se ficar comprovado que o atraso foi causado pelo próprio empregado.
+
+---
+
+Qualquer dúvida adicional, estou à disposição! 👍
+
+--- Você:
+Agora uma rescisão de um cliente (microempresa, comércio, Simples Nacional):
+- Empregado: Gersino Paiva, admitido em 01/03/2023, salário fixo de R$ 2.400,00 desde a admissão.
+- Dispensa sem justa causa, comunicada em 30/09/2026, com aviso prévio indenizado. O salário de setembro ainda não foi pago.
+- Férias: todos os períodos aquisitivos completos já foram gozados e pagos; o período atual começou em 01/03/2026.
+- 13º de 2026: nada pago ainda.
+- FGTS (extrato do FGTS Digital): depósitos de mar. a dez./2023: R$ 1.920,00; de 2024: R$ 2.496,00; de 2025: R$ 2.496,00; de jan. a set./2026: R$ 1.728,00. Total depositado: R$ 8.640,00. Atualização e juros creditados: R$ 610,00. Saque para moradia em maio de 2025: R$ 1.500,00. Saldo hoje: R$ 7.750,00.
+
+Calcula as verbas da rescisão e a multa do FGTS. E se, em vez de ser dispensado, ele tivesse pedido demissão no mesmo dia?
+--- IA:
+# RESCISÃO — GERSINO PAIVA
+
+## Dados Gerais
+
+| Item | Detalhe |
+|---|---|
+| Admissão | 01/03/2023 |
+| Data da dispensa | 30/09/2026 |
+| Tempo de serviço | 3 anos e 7 meses |
+| Salário | R$ 2.400,00 |
+
+**Aviso prévio (Lei 12.506/2011):** 30 dias + 3 anos completos × 3 dias = **39 dias**
+**Projeção do aviso prévio:** 30/09/2026 + 39 dias = **08/11/2026**
+
+---
+
+# CENÁRIO 1 — DISPENSA SEM JUSTA CAUSA
+
+## Verbas Rescisórias
+
+| # | Verba | Memória de Cálculo | Valor |
+|---|---|---|---|
+| 1 | Saldo de Salário (setembro) | Mês completo trabalhado | R$ 2.400,00 |
+| 2 | Aviso Prévio Indenizado (39 dias) | R$ 2.400 × 39 ÷ 30 | R$ 3.120,00 |
+| 3 | Férias Proporcionais — 8/12 ¹ | R$ 2.400 × 8 ÷ 12 | R$ 1.600,00 |
+| 4 | 1/3 Constitucional s/ Férias | R$ 1.600 ÷ 3 | R$ 533,33 |
+| 5 | 13º Proporcional 2026 — 10/12 ² | R$ 2.400 × 10 ÷ 12 | R$ 2.000,00 |
+| | **Total Bruto** | | **R$ 9.653,33** |
+
+> ¹ **Férias:** período aquisitivo iniciado em 01/03/2026. Contagem até a projeção (08/11/2026): **março a outubro = 8 meses**. Novembro tem apenas 8 dias (< 15) → não conta.
+>
+> ² **13º:** de janeiro a outubro de 2026 = **10 meses**. Novembro (8 dias) → não conta.
+
+*(Sujeito a desconto de INSS do empregado e IRRF conforme tabelas vigentes.)*
+
+---
+
+## FGTS — Depósitos Rescisórios
+
+O FGTS de setembro (R$ 192,00) já está no extrato (Jan–Set/2026 = R$ 1.728,00). Faltam depositar:
+
+| Item | Cálculo | Valor |
+|---|---|---|
+| FGTS — Aviso Prévio Indenizado | 8% × R$ 3.120,00 | R$ 249,60 |
+| FGTS — 13º Proporcional | 8% × R$ 2.000,00 | R$ 160,00 |
+| **Total a depositar via GRRF** | | **R$ 409,60** |
+
+---
+
+## Multa do FGTS — 40%
+
+| Item | Valor |
+|---|---|
+| Depósitos históricos (Mar/2023 – Set/2026) | R$ 8.640,00 |
+| Depósitos rescisórios (acima) | R$ 409,60 |
+| Correção monetária e juros creditados | R$ 610,00 |
+| **Base de cálculo da multa** | **R$ 9.659,60** |
+| ⚠️ A retirada de moradia (R$ 1.500,00) **não reduz a base** | |
+| **Multa de 40%** | **R$ 3.863,84** |
+
+> **Por que R$ 9.659,60?** A lei (Art. 18, §1º, Lei 8.036/90) determina que a multa incide sobre *todos os depósitos realizados + correção + juros*, independentemente de saques anteriores. Conferência: saldo atual (R$ 7.750) + saque moradia (R$ 1.500) + depósitos rescisórios (R$ 409,60) = **R$ 9.659,60** ✓
+
+## FGTS Disponível para Saque
+
+| Item | Valor |
+|---|---|
+| Saldo atual | R$ 7.750,00 |
+| + Depósitos rescisórios | R$ 409,60 |
+| + Multa (40%) | R$ 3.863,84 |
+| **Total disponível para saque** | **R$ 12.023,44** |
+
+---
+---
+
+# CENÁRIO 2 — PEDIDO DE DEMISSÃO (mesma data: 30/09/2026)
+
+> Assumindo que o empregador **libera do aviso prévio** (hipótese mais comum). Sem projeção → rescisão efetiva em **30/09/2026**.
+
+## Verbas Rescisórias
+
+| # | Verba | Memória de Cálculo | Valor |
+|---|---|---|---|
+| 1 | Saldo de Salário (setembro) | Mês completo | R$ 2.400,00 |
+| 2 | Aviso Prévio | Não recebe | R$ 0,00 |
+| 3 | Férias Proporcionais — 7/12 ³ | R$ 2.400 × 7 ÷ 12 | R$ 1.400,00 |
+| 4 | 1/3 Constitucional s/ Férias | R$ 1.400 ÷ 3 | R$ 466,67 |
+| 5 | 13º Proporcional 2026 — 9/12 ⁴ | R$ 2.400 × 9 ÷ 12 | R$ 1.800,00 |
+| | **Total Bruto** | | **R$ 6.066,67** |
+
+> ³ Período 01/03/2026 a 30/09/2026 = **7 meses** (sem projeção de aviso).
+>
+> ⁴ Janeiro a setembro = **9 meses**.
+
+## FGTS no Pedido de Demissão
+
+| Item | Situação |
+|---|---|
+| FGTS — 13º Proporcional | 8% × R$ 1.800 = **R$ 144,00** (a depositar) |
+| Multa de 40% | ❌ **Não devida** |
+| Saldo FGTS pós-depósito | R$ 7.750 + R$ 144 = **R$ 7.894,00** |
+| Direito a saque | 🔒 **Bloqueado** — pedido de demissão não habilita o saque |
+
+*(O saldo não é perdido: permanece na conta vinculada e pode ser sacado em situações previstas em lei: aposentadoria, doença grave, compra de imóvel, rescisão futura sem justa causa etc.)*
+
+---
+---
+
+# COMPARATIVO
+
+| | Dispensa S/ Justa Causa | Pedido de Demissão | Diferença |
+|---|---|---|---|
+| Verbas brutas pagas ao empregado | R$ 9.653,33 | R$ 6.066,67 | **R$ 3.586,66** |
+| Multa FGTS (custo do empregador) | R$ 3.863,84 | R$ 0,00 | **R$ 3.863,84** |
+| FGTS para saque imediato | R$ 12.023,44 | 🔒 Bloqueado | — |
+| **Custo total p/ empregador** ⁵ | **R$ 13.926,77** | **R$ 6.210,67** | **R$ 7.716,10** |
+| **Total que o empregado recebe** ⁶ | **R$ 21.676,77** | **R$ 6.066,67** | **R$ 15.610,10** |
+
+> ⁵ Custo do empregador = verbas pagas + FGTS a depositar + multa.
+> **Dispensa:** R$ 9.653,33 + R$ 409,60 + R$ 3.863,84 = R$ 13.926,77
+> **Pedido:** R$ 6.066,67 + R$ 144,00 = R$ 6.210,67
+>
+> ⁶ Total do empregado inclui FGTS sacável. No pedido de demissão, os R$ 7.894,00 do FGTS ficam retidos (não estão no total).
+
+### 2026-10-09 23:53 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Os clientes me mandaram estas perguntas. Me ajuda a responder?
+
+1. O empregado novo começa na segunda-feira, dia 9. Até quando eu tenho de registrar no eSocial?
+2. Uma microempresa cliente esqueceu de registrar um empregado. Qual é a multa?
+3. O empregado tem um período aquisitivo vencido há 14 meses e ainda não tirou férias: o que acontece se ele sair de férias no mês que vem?
+4. Paguei as férias um dia antes do início, e não dois. Tenho de pagar em dobro?
+5. Até quando eu pago a primeira parcela do 13º?
+6. A rescisão foi paga no 12º dia depois do fim do contrato. O que acontece?
+--- IA:
+# Respostas — Departamento Pessoal
+
+---
+
+## 1. Prazo para admissão no eSocial
+
+O evento **S-2200 (Admissão)** deve ser enviado **até o dia imediatamente anterior ao início das atividades** do empregado (Manual do eSocial). Se ele começa na segunda-feira, dia 9, o prazo é **domingo, dia 8**. Como o sistema funciona 24h, tecnicamente é válido, mas o recomendável é enviar até **sexta-feira, dia 7**, para evitar qualquer risco.
+
+> ⚠️ O registro deve ser feito **antes** do empregado pisar na empresa.
+
+---
+
+## 2. Multa por falta de registro — Microempresa
+
+Conforme o **art. 47, § 1º da CLT** (incluído pela Reforma Trabalhista):
+
+> Microempresas e EPPs pagam **R$ 800,00 por empregado não registrado**.
+
+Em caso de reincidência, acrescenta-se igual valor. Empregadores em geral pagam R$ 3.000,00 por empregado — a ME/EPP tem tratamento diferenciado pela LC 123/2006.
+
+---
+
+## 3. Período aquisitivo vencido há 14 meses
+
+O **período concessivo** (prazo que o empregador tem para conceder as férias) é de **12 meses** após o fim do período aquisitivo. Com 14 meses, esse prazo **já expirou há 2 meses**.
+
+Consequência direta: **art. 137 da CLT** — as férias devem ser **pagas em dobro**, mesmo que concedidas agora. Isso já é obrigação desde o 13º mês. A **Súmula 81 do TST** confirma que o empregador não pode se recusar ao pagamento em dobro quando o prazo for ultrapassado.
+
+---
+
+## 4. Férias pagas um dia antes — é devido o dobro?
+
+**Sim.** O **art. 145 da CLT** exige pagamento das férias **até 2 dias antes** do início do período. Pagar com apenas 1 dia de antecedência descumpre esse prazo.
+
+A **Súmula 450 do TST** é expressa:
+
+> *"É devido o pagamento em dobro da remuneração de férias, incluído o terço constitucional, quando o empregador descumprir o prazo previsto no art. 145 da CLT."*
+
+Infelizmente, mesmo sendo um dia de atraso, o entendimento consolidado é pelo **pagamento em dobro**.
+
+---
+
+## 5. Prazo para a 1ª parcela do 13º salário
+
+Conforme a **Lei 4.090/1962** e o **Decreto 57.155/1965**, o adiantamento da primeira parcela deve ser pago entre **1º de fevereiro e 30 de novembro**. Portanto, o prazo final é **30 de novembro**.
+
+> 💡 Se o empregado entrar em férias antes disso, pode solicitar o adiantamento junto com o pagamento das férias.
+
+A **segunda parcela** vence em **20 de dezembro**.
+
+---
+
+## 6. Rescisão paga no 12º dia
+
+O **art. 477, § 6º da CLT** (pós-Reforma Trabalhista) estabelece prazo de **10 dias** contados do término do contrato para pagamento das verbas rescisórias. O pagamento no 12º dia está **2 dias em atraso**.
+
+Penalidade prevista no **art. 477, § 8º da CLT**:
+
+> Multa administrativa **+** multa em favor do **empregado no valor equivalente a 1 salário mensal**, salvo se o próprio empregado tiver dado causa ao atraso.
+
+---
+
+Qualquer dúvida adicional, é só acionar! 👍
+
+--- Você:
+Agora uma rescisão de um cliente (microempresa, comércio, Simples Nacional):
+- Empregado: Gersino Paiva, admitido em 01/03/2023, salário fixo de R$ 2.400,00 desde a admissão.
+- Dispensa sem justa causa, comunicada em 30/09/2026, com aviso prévio indenizado. O salário de setembro ainda não foi pago.
+- Férias: todos os períodos aquisitivos completos já foram gozados e pagos; o período atual começou em 01/03/2026.
+- 13º de 2026: nada pago ainda.
+- FGTS (extrato do FGTS Digital): depósitos de mar. a dez./2023: R$ 1.920,00; de 2024: R$ 2.496,00; de 2025: R$ 2.496,00; de jan. a set./2026: R$ 1.728,00. Total depositado: R$ 8.640,00. Atualização e juros creditados: R$ 610,00. Saque para moradia em maio de 2025: R$ 1.500,00. Saldo hoje: R$ 7.750,00.
+
+Calcula as verbas da rescisão e a multa do FGTS. E se, em vez de ser dispensado, ele tivesse pedido demissão no mesmo dia?
+--- IA:
+⅓ sobre férias proporcionais | R$ 1.600 ÷ 3 | **R$ 533,33** |
+| 5 | 13º proporcional | 10/12 × R$ 2.400 *(jan–out = 10 meses)* | **R$ 2.000,00** |
+| | **Total bruto** | | **R$ 8.933,33** |
+
+**FGTS no pedido de demissão:**
+- Depósito outubro (normal): 8% × R$ 2.400 = R$ 192,00
+- FGTS s/ 13º proporcional: R$ 160,00
+- **Sem multa de 40%**
+- ⚠️ O empregado **não tem direito ao saque** do FGTS por pedido de demissão
+
+---
+
+### Bloco 5 — Quadro Comparativo Final
+
+| Item | Dispensa s/ JC | Pedido de Demissão |
+|------|:--------------:|:------------------:|
+| Saldo salário set/2026 | R$ 2.400,00 | R$ 2.400,00 |
+| Aviso prévio indenizado (39 d.) | R$ 3.120,00 | — |
+| Salário out/2026 (aviso trabalhado) | — | R$ 2.400,00 |
+| Férias proporcionais + ⅓ | R$ 2.133,33 | R$ 2.133,33 |
+| 13º proporcional | R$ 2.000,00 | R$ 2.000,00 |
+| **Total bruto pago ao empregado** | **R$ 9.653,33** | **R$ 8.933,33** |
+| Multa FGTS (40%) | R$ 3.863,84 | — |
+| Depósitos GRRF/outubro | R$ 409,60 | R$ 352,00 |
+| **Custo total à empresa** | **≈ R$ 13.926,77** | **≈ R$ 9.285,33** |
+| FGTS disponível para saque | R$ 12.023,44 | Bloqueado |
+
+A dispensa custa **≈ R$ 4.641 a mais** — basicamente a multa de 40% (R$ 3.864) mais a diferença entre aviso indenizado de 39 dias e salário de 30 dias trabalhados (R$ 720).
+
+---
+
+### Observações Finais
+
+| # | Ponto | Detalhe |
+|---|-------|---------|
+| 1 | **INSS (empregado)** | Incide sobre saldo de salário, aviso prévio indenizado e 13º. **Não incide** sobre férias indenizadas proporcionais nem sobre a multa do FGTS. |
+| 2 | **IRRF** | Aplicar tabela progressiva sobre os rendimentos tributáveis (salário, aviso prévio, 13º). Férias indenizadas têm tratamento específico; multa FGTS é isenta. |
+| 3 | **Prazo de pagamento** | 10 dias a contar do **fim do aviso** (08/11/2026) → **até 18/11/2026**. Atraso gera multa de 1 salário ao empregado (art. 477, §8º, CLT). |
+| 4 | **Seguro-desemprego** | Com mais de 24 meses de vínculo: **5 parcelas**. |
+| 5 | **Simples Nacional** | INSS patronal já está no DAS; não há recolhimento separado de CPP na rescisão. |
+
+### 2026-10-13 09:40 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Os clientes me mandaram estas perguntas. Me ajuda a responder?
+
+1. O empregado novo começa na segunda-feira, dia 9. Até quando eu tenho de registrar no eSocial?
+2. Uma microempresa cliente esqueceu de registrar um empregado. Qual é a multa?
+3. O empregado tem um período aquisitivo vencido há 14 meses e ainda não tirou férias: o que acontece se ele sair de férias no mês que vem?
+4. Paguei as férias um dia antes do início, e não dois. Tenho de pagar em dobro?
+5. Até quando eu pago a primeira parcela do 13º?
+6. A rescisão foi paga no 12º dia depois do fim do contrato. O que acontece?
+--- IA:
+# Respostas — Departamento Pessoal
+
+---
+
+## 1. Prazo de registro no eSocial (admissão na segunda-feira, dia 9)
+
+O evento **S-2200** deve ser transmitido até o **dia anterior ao início das atividades** — ou seja, até **domingo, dia 8** (o eSocial funciona 24 h, incluindo fins de semana).
+
+> 💡 Alternativa: o evento simplificado **S-2190** pode ser enviado até o próprio dia do início (dia 9), mas deverá ser complementado com o S-2200 posteriormente.
+
+---
+
+## 2. Multa por empregado não registrado (microempresa)
+
+Conforme o **art. 47, § 1º da CLT** (redação da Reforma Trabalhista):
+
+| Tipo de empresa | Multa por empregado não registrado |
+|---|---|
+| Empresa em geral | R$ 3.000,00 |
+| **ME / EPP** | **R$ 800,00** |
+
+Em caso de **reincidência**, o valor é acrescido de igual quantia.
+
+---
+
+## 3. Período aquisitivo vencido há 14 meses — férias no mês que vem
+
+O período **concessivo** (12 meses após o término do aquisitivo) **já se esgotou há 2 meses**. A empresa está em mora desde então.
+
+Consequência: as férias **deverão ser pagas em dobro** (art. 137 da CLT), e isso vale independentemente de as férias serem gozadas "agora" ou terem sido atrasadas. O direito ao dobro nasce no estouro do período concessivo.
+
+> ⚠️ Além do pagamento em dobro ao empregado, a empresa fica sujeita a autuação pela fiscalização do trabalho.
+
+---
+
+## 4. Pagamento das férias com apenas 1 dia de antecedência — é necessário pagar em dobro?
+
+**Sim.** O art. 145 da CLT exige que o pagamento das férias seja feito **até 2 dias antes** do início do período. O descumprimento desse prazo — mesmo que por apenas 1 dia — gera o direito ao pagamento em dobro, conforme a **Súmula nº 450 do TST**:
+
+> *"É devido o pagamento em dobro da remuneração de férias, incluído o terço constitucional, com base no art. 137 da CLT, quando, ainda que gozadas na época própria, o empregador tenha descumprido o prazo previsto no art. 145 do mesmo diploma legal."*
+
+---
+
+## 5. Prazo para pagamento da 1ª parcela do 13º salário
+
+A **1ª parcela** (adiantamento) deve ser paga até **30 de novembro**.
+
+A **2ª parcela** deve ser paga até **20 de dezembro**.
+
+> 💡 O empregado pode solicitar o adiantamento junto com as férias, desde que faça o requerimento com pelo menos **30 dias de antecedência** em relação ao início do gozo (Lei 4.749/1965, art. 2º).
+
+---
+
+## 6. Rescisão paga no 12º dia — consequências
+
+O prazo legal para pagamento das verbas rescisórias é de **10 dias corridos** a contar do término do contrato (art. 477, § 6º da CLT). O pagamento no 12º dia configura **atraso de 2 dias**.
+
+Consequências (art. 477, § 8º da CLT):
+
+- **Multa a favor do empregado** equivalente ao valor de **1 salário mensal** do trabalhador;
+- Sujeição a **autuação administrativa** pelo Ministério do Trabalho.
+
+> ⚠️ A multa é devida pelo simples atraso, independentemente de quantos dias. Não há proporcionalidade: 1 dia ou 10 dias de atraso geram a mesma penalidade.
+
+---
+
+Se precisar de mais detalhes em algum ponto, é só perguntar!
+
+--- Você:
+Agora uma rescisão de um cliente (microempresa, comércio, Simples Nacional):
+- Empregado: Gersino Paiva, admitido em 01/03/2023, salário fixo de R$ 2.400,00 desde a admissão.
+- Dispensa sem justa causa, comunicada em 30/09/2026, com aviso prévio indenizado. O salário de setembro ainda não foi pago.
+- Férias: todos os períodos aquisitivos completos já foram gozados e pagos; o período atual começou em 01/03/2026.
+- 13º de 2026: nada pago ainda.
+- FGTS (extrato do FGTS Digital): depósitos de mar. a dez./2023: R$ 1.920,00; de 2024: R$ 2.496,00; de 2025: R$ 2.496,00; de jan. a set./2026: R$ 1.728,00. Total depositado: R$ 8.640,00. Atualização e juros creditados: R$ 610,00. Saque para moradia em maio de 2025: R$ 1.500,00. Saldo hoje: R$ 7.750,00.
+
+Calcula as verbas da rescisão e a multa do FGTS. E se, em vez de ser dispensado, ele tivesse pedido demissão no mesmo dia?
+--- IA:
+[Nota de 13/10/2026: o claude -p imprimiu só o fim desta resposta. A resposta bateu no teto de saída (32.000 tokens, quase todos de pensamento) e foi continuada; a primeira parte do texto, abaixo até a linha "[continuação]", foi copiada sem mudança do registro da sessão (arquivo .jsonl do claude, mensagem com stop_reason max_tokens).]
+## Rescisão — Gersino Paiva
+
+---
+
+### Premissas e Aviso Prévio
+
+| Item | Dado |
+|---|---|
+| Admissão | 01/03/2023 |
+| Comunicação da dispensa | 30/09/2026 |
+| Tempo de serviço | 3 anos e 7 meses |
+| Aviso prévio (Lei 12.506/2011) | 30 + (2 anos × 3 dias) = **36 dias** |
+| Fim projetado do contrato | 01/10 + 36 dias = **05/11/2026** |
+
+> Com 3 anos completos de serviço, o aviso prévio indenizado é de 36 dias. O projetar esse prazo adianta a contagem de férias e 13º.
+
+---
+
+### 1 — DISPENSA SEM JUSTA CAUSA
+
+#### Apuração dos meses proporcionais
+
+| Verba | Período contado | Meses |
+|---|---|---|
+| Férias proporcionais | 01/03/2026 a 05/11/2026 → mar/abr/mai/jun/jul/ago/set/out completos; nov. tem só 5 dias (< 15) | **8/12** |
+| 13º proporcional | jan a out/2026 (nov. < 15 dias) | **10/12** |
+
+#### Verbas Rescisórias — Créditos
+
+| Verba | Cálculo | Valor |
+|---|---|---|
+| Saldo de salário (setembro) | R$ 2.400,00 × 30/30 | R$ 2.400,00 |
+| Aviso prévio indenizado (36 dias) | R$ 2.400,00 × 36/30 | R$ 2.880,00 |
+| Férias proporcionais (8/12) | R$ 2.400,00 × 8/12 | R$ 1.600,00 |
+| 1/3 constitucional s/ férias | R$ 1.600,00 ÷ 3 | R$ 533,33 |
+| 13º proporcional (10/12) | R$ 2.400,00 × 10/12 | R$ 2.000,00 |
+| **Total bruto** | | **R$ 9.413,33** |
+
+#### Deduções *(tabela 2025 — atualizar para a vigente em out/26)*
+
+| Dedução | Base de cálculo | Valor |
+|---|---|---|
+| INSS — salário | R$ 2.400,00 (1.518 × 7,5% + 882 × 9%) | R$ 193,23 |
+| INSS — 13º | R$ 2.000,00 (1.518 × 7,5% + 482 × 9%) | R$ 157,23 |
+| IRRF | Ambas as bases ficam abaixo do limite de isenção | R$ 0,00 |
+| **Total deduções** | | **R$ 350,46** |
+
+> O aviso prévio indenizado e as férias proporcionais **não sofrem INSS nem IRRF** (natureza indenizatória — RE 576.967/STF e art. 6º, V, Lei 7.713/88).
+
+#### ✅ Líquido a pagar no TRCT: **R$ 9.062,87**
+
+---
+
+#### FGTS na Rescisão
+
+| Item | Valor |
+|---|---|
+| Saldo atual em conta (fornecido) | R$ 7.750,00 |
+| + FGTS s/ aviso prévio indenizado (8% × R$ 2.880) | R$ 230,40 |
+| + FGTS s/ 13º proporcional (8% × R$ 2.000) | R$ 160,00 |
+| = **Saldo após depósitos rescisórios** | **R$ 8.140,40** |
+
+#### Multa rescisória de 40%
+
+| | Valor |
+|---|---|
+| Depósitos históricos (extrato) | R$ 8.640,00 |
+| + FGTS aviso prévio (novo) | R$ 230,40 |
+| + FGTS 13º (novo) | R$ 160,00 |
+| **Base de cálculo da multa** | **R$ 9.030,40** |
+| **Multa 40%** | **R$ 3.612,16** |
+
+> ⚠️ A base é o total de **depósitos realizados**, não o saldo atual — o saque de R$ 1.500 para moradia em maio/2025 **não reduz** a base da multa.
+
+#### ✅ Total disponível para saque pelo empregado: **R$ 11.752,56**
+*(R$ 8.140,40 de saldo + R$ 3.612,16 de multa, depositados via GRRF)*
+
+---
+
+### 2 — SE FOSSE PEDIDO DE DEMISSÃO (mesma data, aviso dispensado pelo empregador)
+
+Sem aviso prévio indenizado, o contrato encerra em **30/09/2026**, reduzindo os meses proporcionais.
+
+| Verba | Cálculo | Valor |
+|---|---|---|
+| Saldo de salário (setembro) | R$ 2.400,00 | R$ 2.400,00 |
+| Aviso prévio indenizado | Não cabe | — |
+| Férias proporcionais **(7/12)** | R$ 2.400 × 7/12 | R$ 1.400,00 |
+| 1/3 s/ férias | R$ 1.400 ÷ 3 | R$ 466,67 |
+| 13º proporcional **(9/12)** | R$ 2
+[continuação]
+.400 × 9/12 | R$ 1.800,00 |
+| **Total bruto** | | **R$ 6.066,67** |
+
+| Dedução | Base | Valor |
+|---|---|---|
+| INSS — salário | R$ 2.400,00 | R$ 193,23 |
+| INSS — 13º | R$ 1.800,00 (1.518 × 7,5% + 282 × 9%) | R$ 139,23 |
+| IRRF | Abaixo do limite | R$ 0,00 |
+| **Total** | | **R$ 332,46** |
+
+#### ✅ Líquido a pagar: **R$ 5.734,21**
+
+**FGTS:** Sem multa de 40%. Conta bloqueada para saque ordinário — o saldo permanece disponível apenas para situações legais específicas (aposentadoria, doença grave, compra de imóvel, etc.).
+
+---
+
+### 3 — COMPARATIVO FINAL
+
+| | Dispensa s/ JC | Pedido de demissão | Diferença |
+|---|---|---|---|
+| Saldo salário | R$ 2.400,00 | R$ 2.400,00 | — |
+| Aviso prévio | R$ 2.880,00 | — | − R$ 2.880,00 |
+| Férias + 1/3 | R$ 2.133,33 | R$ 1.866,67 | − R$ 266,67 |
+| 13º | R$ 2.000,00 | R$ 1.800,00 | − R$ 200,00 |
+| INSS + IRRF | − R$ 350,46 | − R$ 332,46 | + R$ 18,00 |
+| **Líquido TRCT** | **R$ 9.062,87** | **R$ 5.734,21** | **− R$ 3.328,66** |
+| Multa FGTS (40%) | R$ 3.612,16 | — | − R$ 3.612,16 |
+| Saque FGTS | R$ 11.752,56 | Bloqueado | — |
+| **Total recebido à vista** | **R$ 20.815,43** | **R$ 5.734,21** | **− R$ 15.081,22** |
+
+---
+
+### Observações Finais
+
+| # | Ponto |
+|---|---|
+| **Prazo de pagamento** | 10 dias corridos a partir de 30/09/2026 → até **10/10/2026** (CLT, art. 477, §6º) |
+| **Tabelas** | INSS e IRRF calculados com a tabela de 2025; aplicar a tabela vigente em outubro/2026 |
+| **FGTS 2023 — 13º** | O extrato indica R$ 1.920 para mar–dez/2023, sem o depósito do 13º daquele ano (R$ 160 esperados). Verificar se há recolhimento em atraso |
+| **GRRF** | Depositar R$ 390,40 (depósitos rescisórios) + R$ 3.612,16 (multa) = **R$ 4.002,56** via GRRF antes do pagamento do TRCT |
+
+### 2026-10-09 23:53 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Os clientes me mandaram estas perguntas. Me ajuda a responder?
+
+1. O empregado novo começa na segunda-feira, dia 9. Até quando eu tenho de registrar no eSocial?
+2. Uma microempresa cliente esqueceu de registrar um empregado. Qual é a multa?
+3. O empregado tem um período aquisitivo vencido há 14 meses e ainda não tirou férias: o que acontece se ele sair de férias no mês que vem?
+4. Paguei as férias um dia antes do início, e não dois. Tenho de pagar em dobro?
+5. Até quando eu pago a primeira parcela do 13º?
+6. A rescisão foi paga no 12º dia depois do fim do contrato. O que acontece?
+
+As regras, como estão no texto (use só elas; o que não estiver aqui, diga "conferir"):
+- Registro: os eventos de admissão vão ao eSocial "até o final do dia imediatamente anterior ao do início da prestação do serviço pelo empregado admitido" (Manual de Orientação do eSocial, S-1.3).
+- Empregado sem registro: multa de "R$ 3.000,00 (três mil reais) por empregado não registrado"; "o valor final da multa aplicada será de R$ 800,00 (oitocentos reais) por empregado não registrado, quando se tratar de microempresa ou empresa de pequeno porte" (CLT, art. 47, caput e § 1º).
+- Férias: concedidas "nos 12 (doze) meses subseqüentes à data em que o empregado tiver adquirido o direito" (CLT, art. 134); "Sempre que as férias forem concedidas após o prazo de que trata o art. 134, o empregador pagará em dobro a respectiva remuneração" (art. 137); o pagamento será efetuado "até 2 (dois) dias antes do início do respectivo período" (art. 145). O STF "julgou procedente a arguição de descumprimento de preceito fundamental para: (a) declarar a inconstitucionalidade da Súmula 450 do Tribunal Superior do Trabalho; e (b) invalidar decisões judiciais não transitadas em julgado que, amparadas no texto sumular, tenham aplicado a sanção de pagamento em dobro com base no art. 137 da CLT" (ADPF 501, 2022). Multa administrativa por infração às férias (art. 153), à rescisão (art. 477, § 8º) e ao 13º: R$ 176,03 por empregado (Portaria MTE 1.131/2025, tabela em vigor desde 04/07/2025).
+- 13º: o adiantamento será pago "Entre os meses de fevereiro e novembro de cada ano" (Lei 4.749, art. 2º); a 2ª parcela "até o dia 20 de dezembro" (art. 1º). A gratificação é de "1/12 avos da remuneração devida em dezembro, por mês de serviço"; "A fração igual ou superior a 15 (quinze) dias de trabalho será havida como mês integral" (Lei 4.090, art. 1º, §§ 1º e 2º).
+- Rescisão: pagamento "até dez dias contados a partir do término do contrato" (CLT, art. 477, § 6º); se não, "multa de 160 BTN, por trabalhador" (hoje R$ 176,03, Portaria MTE 1.131/2025) "bem assim ao pagamento da multa a favor do empregado, em valor equivalente ao seu salário" (art. 477, § 8º).
+- Aviso prévio: "30 (trinta) dias aos empregados que contem até 1 (um) ano de serviço na mesma empresa"; "Ao aviso prévio previsto neste artigo serão acrescidos 3 (três) dias por ano de serviço prestado na mesma empresa, até o máximo de 60 (sessenta) dias, perfazendo um total de até 90 (noventa) dias" (Lei 12.506/2011). "A falta do aviso prévio por parte do empregador dá ao empregado o direito aos salários correspondentes ao prazo do aviso, garantida sempre a integração desse período no seu tempo de serviço" (CLT, art. 487, § 1º); "A falta de aviso prévio por parte do empregado dá ao empregador o direito de descontar os salários correspondentes ao prazo respectivo" (§ 2º).
+- FGTS na dispensa sem justa causa: o empregador deposita "importância igual a quarenta por cento do montante de todos os depósitos realizados na conta vinculada durante a vigência do contrato de trabalho, atualizados monetariamente e acrescidos dos respectivos juros" (Lei 8.036, art. 18, § 1º).
+Hoje é 09/10/2026. Depois vou mandar uma rescisão: nela, calcule cada verba numa linha e marque o que depende da convenção coletiva.
+--- IA:
+## Respostas às perguntas dos clientes
+
+---
+
+### 1. Prazo de registro no eSocial
+
+O evento de admissão deve ser enviado **até o final do dia imediatamente anterior ao do início da prestação de serviços** (Manual de Orientação do eSocial, S-1.3). Se o empregado começa na segunda-feira, dia 9, o prazo é o **domingo, dia 8, até as 23h59**.
+
+> ⚠️ **Atenção:** o prazo cai num domingo. As regras fornecidas não tratam do que ocorre quando o dia anterior é não útil — **conferir** se o eSocial admite transmissão nesse dia ou se há orientação específica para essa situação.
+
+---
+
+### 2. Multa por empregado não registrado — microempresa
+
+**R$ 800,00 por empregado não registrado** (CLT, art. 47, § 1º). O valor geral é R$ 3.000,00, mas para microempresa e empresa de pequeno porte aplica-se o valor reduzido.
+
+---
+
+### 3. Férias com período aquisitivo vencido há 14 meses
+
+O empregador tem **12 meses após o fim do período aquisitivo** para conceder as férias (CLT, art. 134 — período concessivo). Como já se passaram 14 meses, o prazo legal expirou **há 2 meses**.
+
+Conceder férias no mês que vem (mês 15) significa concedê-las **após o prazo do art. 134**, o que gera:
+
+| Consequência | Base legal |
+|---|---|
+| **Remuneração de férias paga em dobro** | CLT, art. 137 |
+| **Multa administrativa de R$ 176,03** por empregado | CLT, art. 153 c/c Portaria MTE 1.131/2025 |
+
+---
+
+### 4. Férias pagas um dia antes — há pagamento em dobro?
+
+O art. 145 da CLT exige o pagamento **até 2 dias antes** do início das férias. Pagar com apenas 1 dia de antecedência viola esse prazo.
+
+Porém, **não há pagamento em dobro**: o STF, na **ADPF 501 (2022)**, declarou inconstitucional a Súmula 450 do TST, que impunha a dobra justamente por atraso no pagamento das férias. O pagamento em dobro do art. 137 aplica-se somente quando as **férias são concedidas fora do período concessivo** (situação da pergunta 3 acima), não pelo mero atraso no depósito do valor.
+
+O que pode ocorrer é a **multa administrativa de R$ 176,03** por empregado (CLT, art. 153 c/c Portaria MTE 1.131/2025).
+
+---
+
+### 5. Prazo da primeira parcela do 13º
+
+A lei determina que o adiantamento seja pago **entre os meses de fevereiro e novembro de cada ano** (Lei 4.749/1968, art. 2º), ou seja, o prazo final é **30 de novembro**. A 2ª parcela vai até 20 de dezembro (Lei 4.749, art. 1º).
+
+---
+
+### 6. Rescisão paga no 12º dia — o que acontece?
+
+O prazo legal é de **até 10 dias** contados do término do contrato (CLT, art. 477, § 6º). O pagamento no 12º dia configura atraso e gera **duas penalidades cumulativas**:
+
+| # | Penalidade | Valor / Base |
+|---|---|---|
+| 1 | **Multa administrativa** | R$ 176,03 por trabalhador — Portaria MTE 1.131/2025 |
+| 2 | **Multa a favor do empregado** | Equivalente a **1 salário do empregado** — CLT, art. 477, § 8º |
+
+---
+
+> 📌 Quando enviar a rescisão, calculo cada verba em linha separada e indico o que depende de convenção coletiva.
+
+--- Você:
+Agora uma rescisão de um cliente (microempresa, comércio, Simples Nacional):
+- Empregado: Gersino Paiva, admitido em 01/03/2023, salário fixo de R$ 2.400,00 desde a admissão.
+- Dispensa sem justa causa, comunicada em 30/09/2026, com aviso prévio indenizado. O salário de setembro ainda não foi pago.
+- Férias: todos os períodos aquisitivos completos já foram gozados e pagos; o período atual começou em 01/03/2026.
+- 13º de 2026: nada pago ainda.
+- FGTS (extrato do FGTS Digital): depósitos de mar. a dez./2023: R$ 1.920,00; de 2024: R$ 2.496,00; de 2025: R$ 2.496,00; de jan. a set./2026: R$ 1.728,00. Total depositado: R$ 8.640,00. Atualização e juros creditados: R$ 610,00. Saque para moradia em maio de 2025: R$ 1.500,00. Saldo hoje: R$ 7.750,00.
+
+Calcula as verbas da rescisão e a multa do FGTS. E se, em vez de ser dispensado, ele tivesse pedido demissão no mesmo dia?
+--- IA:
+# RESCISÃO — GERSINO PAIVA
+
+## Datas e prazo de aviso prévio
+
+| | |
+|---|---|
+| Admissão | 01/03/2023 |
+| Comunicação da dispensa | 30/09/2026 |
+| Anos completos de serviço em 30/09/2026 | **3** (01/03/2023 → 01/03/2026) |
+| Aviso prévio (Lei 12.506/2011) | 30 + (3 × 3) = **39 dias** |
+| **Fim do contrato** | 30/09/2026 + 39 d. = **08/11/2026** |
+| Prazo máx. de pagamento (CLT, art. 477, § 6.º) | **18/11/2026** |
+
+---
+
+## Verbas rescisórias — Dispensa sem justa causa
+
+| # | Verba | Memória de cálculo | Valor |
+|---|-------|--------------------|-------|
+| 1 | Saldo de salário — set/2026 (30 dias) | 30/30 × R$ 2.400,00 | **R$ 2.400,00** |
+| 2 | Aviso prévio indenizado — 39 dias | R$ 2.400,00 × 39/30 | **R$ 3.120,00** |
+| 3 | Férias proporcionais — 8/12 ¹ | 8/12 × R$ 2.400,00 | **R$ 1.600,00** |
+| 4 | Adicional constitucional de ⅓ sobre férias prop. | R$ 1.600,00 ÷ 3 | **R$ 533,33** |
+| 5 | 13.º proporcional 2026 — 10/12 ² | 10/12 × R$ 2.400,00 | **R$ 2.000,00** |
+| ★ | Verbas previstas em CCT | *ver abaixo* | — |
+| | **Total bruto** | | **R$ 9.653,33** |
+| | Desconto INSS | *conferir tabela vigente* | (–) |
+| | Desconto IRRF | *conferir tabela vigente* | (–) |
+
+> ¹ **Férias — 8 meses:** período aquisitivo vigente iniciado em 01/03/2026; fim do contrato em 08/11/2026. Meses contados: **mar · abr · mai · jun · jul · ago · set · out = 8**. Novembro conta apenas 8 dias, aquém do mínimo para ser considerado mês inteiro.
+
+> ² **13.º — 10 meses:** com o aviso prévio indenizado integrado ao tempo de serviço, o contrato vai até 08/11/2026. Meses com ≥ 15 dias de trabalho em 2026: **jan a out = 10**. Novembro: 8 dias < 15 — não conta (Lei 4.090, art. 1.º, § 2.º).
+
+### ★ Itens a verificar na CCT (Comércio)
+- Piso salarial da categoria — confirmar se R$ 2.400,00 ≥ piso vigente
+- PLR — verificar cláusula e competência
+- Vale-refeição / vale-alimentação — se convertidos na rescisão
+- Cláusulas específicas de rescisão (multa contratual, AP diferenciado)
+- Contribuição assistencial / mensalidade sindical (desconto)
+
+---
+
+## Multa do FGTS — 40%
+
+| Item | Valor |
+|------|-------|
+| Total de depósitos realizados (mar/2023 a set/2026) | R$ 8.640,00 |
+| Correção monetária e juros creditados | R$ 610,00 |
+| **Base de cálculo** | **R$ 9.250,00** |
+| **Multa 40%** (Lei 8.036, art. 18, § 1.º) | **R$ 3.700,00** |
+
+**Por que o saque não entra na conta?** A lei manda calcular sobre *"todos os depósitos realizados... atualizados monetariamente e acrescidos dos respectivos juros"* — independentemente de saques. O saque para moradia (R$ 1.500,00) reduziu o saldo atual, mas não apagou os depósitos já feitos. A base correta é R$ 9.250,00, **não** R$ 7.750,00. Verifique: R$ 8.640 + R$ 610 − R$ 1.500 = R$ 7.750 (saldo atual ✓).
+
+> O empregador paga os R$ 3.700,00 **com recursos próprios**, creditando-os na conta vinculada. Somados ao saldo existente: R$ 7.750 + R$ 3.700 = **R$ 11.450,00** disponíveis para saque pelo empregado (antes dos depósitos sobre as verbas rescisórias — ver abaixo).
+
+> 🔍 **Conferir no FGTS Digital:** sobre as verbas desta rescisão (saldo de salário, AP indenizado, 13.º e férias proporcionais) incide depósito de 8% de FGTS, e sobre esses novos depósitos também recai a multa de 40%. O sistema gera o DARF com o valor complementar automaticamente.
+
+---
+
+## Hipótese: pedido de demissão (mesma data — 30/09/2026)
+
+### Aviso prévio na saída voluntária
+A obrigação se inverte: quem deve o aviso é **o empregado**. Se não der: o empregador tem o direito de **descontar** os salários correspondentes ao prazo (CLT, art. 487, § 2.º).
+
+> 🔍 **Conferir:** se o prazo proporcional da Lei 12.506/2011 (39 dias) se aplica também ao aviso do *empregado* — há divergência jurisprudencial; **a prática mais comum é 30 dias**.
+
+### Verbas — aviso de 30 dias dado e cumprido (ou liberado pelo empregador)
+
+Fim do contrato: **30/10/2026** → meses de férias e 13.º ficam **idênticos** ao cenário anterior (8/12 e 10/12). ³
+
+| # | Verba | Memória de cálculo | Valor |
+|---|-------|--------------------|-------|
+| 1 | Saldo de salário — set/2026 | 30/30 × R$ 2.400,00 | **R$ 2.400,00** |
+| 2 | Aviso prévio indenizado | Não se aplica — empregado é quem deve | — |
+| 3 | Férias proporcionais — 8/12 | 8/12 × R$ 2.400,00 | **R$ 1.600,00** |
+| 4 | Adicional constitucional de ⅓ | R$ 1.600,00 ÷ 3 | **R$ 533,33** |
+| 5 | 13.º proporcional 2026 — 10/12 | 10/12 × R$ 2.400,00 | **R$ 2.000,00** |
+| ★ | Verbas previstas em CCT | *conferir CCT* | — |
+| | **Total bruto** | | **R$ 6.533,33** |
+
+> ³ Com 30 dias de AP (01/10 a 30/10/2026): outubro tem 30 dias de serviço ≥ 15 → conta. Novembro: zero dias → não conta. Resultado: jan–out = 10 meses para 13.º; mar–out = 8 meses para férias. ✓
+
+> **Se o empregado *não* der aviso** (saída imediata em 30/09/2026): desconto de R$ 2.400,00; contrato encerra na mesma data; 13.º recalculado em 9/12 = R$ 1.800,00 e férias em 7/12 = R$ 1.866,67 — total bruto cai para ~R$ 6.066,67, com desconto do AP resultando em **~R$ 3.666,67 líquidos**.
+
+### Comparativo: o que está em jogo
+
+| Item | Dispensa s/ justa causa | Pedido de demissão |
+|------|------------------------|-------------------|
+| Total bruto das verbas | R$ 9.653,33 | R$ 6.533,33 |
+| Multa FGTS 40% | R$ 3.700,00 | **Zero** |
+| Saldo FGTS disponível para saque | ✅ R$ 7.750,00+ | ❌ Bloqueado |
+| Seguro-desemprego | ✅ Sim (*conferir parcelas*) | ❌ Não |
+| **Diferença direta (verbas + multa)** | | **− R$ 6.820,00** |
+| **FGTS que fica bloqueado** | | **− R$ 7.750,00** |
+
+### 2026-10-09 23:53 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Os clientes me mandaram estas perguntas. Me ajuda a responder?
+
+1. O empregado novo começa na segunda-feira, dia 9. Até quando eu tenho de registrar no eSocial?
+2. Uma microempresa cliente esqueceu de registrar um empregado. Qual é a multa?
+3. O empregado tem um período aquisitivo vencido há 14 meses e ainda não tirou férias: o que acontece se ele sair de férias no mês que vem?
+4. Paguei as férias um dia antes do início, e não dois. Tenho de pagar em dobro?
+5. Até quando eu pago a primeira parcela do 13º?
+6. A rescisão foi paga no 12º dia depois do fim do contrato. O que acontece?
+
+As regras, como estão no texto (use só elas; o que não estiver aqui, diga "conferir"):
+- Registro: os eventos de admissão vão ao eSocial "até o final do dia imediatamente anterior ao do início da prestação do serviço pelo empregado admitido" (Manual de Orientação do eSocial, S-1.3).
+- Empregado sem registro: multa de "R$ 3.000,00 (três mil reais) por empregado não registrado"; "o valor final da multa aplicada será de R$ 800,00 (oitocentos reais) por empregado não registrado, quando se tratar de microempresa ou empresa de pequeno porte" (CLT, art. 47, caput e § 1º).
+- Férias: concedidas "nos 12 (doze) meses subseqüentes à data em que o empregado tiver adquirido o direito" (CLT, art. 134); "Sempre que as férias forem concedidas após o prazo de que trata o art. 134, o empregador pagará em dobro a respectiva remuneração" (art. 137); o pagamento será efetuado "até 2 (dois) dias antes do início do respectivo período" (art. 145). O STF "julgou procedente a arguição de descumprimento de preceito fundamental para: (a) declarar a inconstitucionalidade da Súmula 450 do Tribunal Superior do Trabalho; e (b) invalidar decisões judiciais não transitadas em julgado que, amparadas no texto sumular, tenham aplicado a sanção de pagamento em dobro com base no art. 137 da CLT" (ADPF 501, 2022). Multa administrativa por infração às férias (art. 153), à rescisão (art. 477, § 8º) e ao 13º: R$ 176,03 por empregado (Portaria MTE 1.131/2025, tabela em vigor desde 04/07/2025).
+- 13º: o adiantamento será pago "Entre os meses de fevereiro e novembro de cada ano" (Lei 4.749, art. 2º); a 2ª parcela "até o dia 20 de dezembro" (art. 1º). A gratificação é de "1/12 avos da remuneração devida em dezembro, por mês de serviço"; "A fração igual ou superior a 15 (quinze) dias de trabalho será havida como mês integral" (Lei 4.090, art. 1º, §§ 1º e 2º).
+- Rescisão: pagamento "até dez dias contados a partir do término do contrato" (CLT, art. 477, § 6º); se não, "multa de 160 BTN, por trabalhador" (hoje R$ 176,03, Portaria MTE 1.131/2025) "bem assim ao pagamento da multa a favor do empregado, em valor equivalente ao seu salário" (art. 477, § 8º).
+- Aviso prévio: "30 (trinta) dias aos empregados que contem até 1 (um) ano de serviço na mesma empresa"; "Ao aviso prévio previsto neste artigo serão acrescidos 3 (três) dias por ano de serviço prestado na mesma empresa, até o máximo de 60 (sessenta) dias, perfazendo um total de até 90 (noventa) dias" (Lei 12.506/2011). "A falta do aviso prévio por parte do empregador dá ao empregado o direito aos salários correspondentes ao prazo do aviso, garantida sempre a integração desse período no seu tempo de serviço" (CLT, art. 487, § 1º); "A falta de aviso prévio por parte do empregado dá ao empregador o direito de descontar os salários correspondentes ao prazo respectivo" (§ 2º).
+- FGTS na dispensa sem justa causa: o empregador deposita "importância igual a quarenta por cento do montante de todos os depósitos realizados na conta vinculada durante a vigência do contrato de trabalho, atualizados monetariamente e acrescidos dos respectivos juros" (Lei 8.036, art. 18, § 1º).
+Hoje é 09/10/2026. Depois vou mandar uma rescisão: nela, calcule cada verba numa linha e marque o que depende da convenção coletiva.
+--- IA:
+# Respostas às dúvidas dos clientes
+
+---
+
+## 1. Prazo para enviar a admissão ao eSocial
+
+O evento deve ser transmitido **até o final do dia imediatamente anterior** ao início das atividades (Manual eSocial, S-1.3). Se o empregado começa na **segunda-feira, dia 9**, o prazo é **domingo, dia 8, até 23h59**.
+> ⚠️ Se ainda não foi enviado, o registro já está em atraso.
+
+---
+
+## 2. Multa por empregado não registrado (microempresa)
+
+Para **microempresa ou empresa de pequeno porte**, a multa é de **R$ 800,00 por empregado não registrado** (CLT, art. 47, § 1º). A multa geral seria R$ 3.000,00, mas o valor reduzido se aplica ao porte deste cliente.
+
+---
+
+## 3. Férias vencidas há 14 meses — concessão no mês que vem
+
+| Prazo | Situação |
+|---|---|
+| Período aquisitivo encerrado | Há 14 meses |
+| Prazo concessivo (12 meses) | Expirou há **2 meses** |
+| Concessão prevista | Mês que vem → ainda fora do prazo |
+
+Como as férias serão concedidas **após o prazo do art. 134**, o empregador deverá pagar a remuneração **em dobro** (CLT, art. 137). Também cabe **multa administrativa de R$ 176,03** por empregado (art. 153 / Portaria MTE 1.131/2025).
+
+---
+
+## 4. Pagamento das férias um dia antes — deve pagar em dobro?
+
+**Não.** O art. 145 exige pagamento até **2 dias antes**, então pagar com 1 dia de antecedência é uma infração. Porém, o STF, na **ADPF 501 (2022)**, declarou **inconstitucional** a Súmula 450 do TST, que aplicava o pagamento em dobro (art. 137) para o descumprimento desse prazo. Portanto:
+
+- ❌ Pagamento em dobro: **não é devido**
+- ✅ Multa administrativa: **R$ 176,03** por empregado pode ser aplicada (Portaria MTE 1.131/2025)
+
+---
+
+## 5. Prazo para pagar a 1ª parcela do 13º
+
+| Parcela | Prazo |
+|---|---|
+| 1ª parcela (adiantamento) | Até **30 de novembro** (Lei 4.749, art. 2º — "entre fevereiro e novembro") |
+| 2ª parcela | Até **20 de dezembro** (art. 1º) |
+
+> O valor do adiantamento é metade do salário do mês anterior ao pagamento.
+
+---
+
+## 6. Rescisão paga no 12º dia
+
+O prazo legal é de **até 10 dias** após o término do contrato (CLT, art. 477, § 6º). O pagamento no 12º dia configura **atraso de 2 dias**, com as seguintes consequências cumulativas:
+
+| Penalidade | Valor | Beneficiário |
+|---|---|---|
+| Multa administrativa | **R$ 176,03** por trabalhador (Portaria MTE 1.131/2025) | Governo |
+| Multa ao empregado | **1 salário** do empregado (art. 477, § 8º) | Empregado |
+
+---
+
+> 📌 **Lembrete:** quando você enviar a rescisão para o cálculo, lançarei cada verba em linha separada e indicarei quais dependem de convenção coletiva.
+
+--- Você:
+Agora uma rescisão de um cliente (microempresa, comércio, Simples Nacional):
+- Empregado: Gersino Paiva, admitido em 01/03/2023, salário fixo de R$ 2.400,00 desde a admissão.
+- Dispensa sem justa causa, comunicada em 30/09/2026, com aviso prévio indenizado. O salário de setembro ainda não foi pago.
+- Férias: todos os períodos aquisitivos completos já foram gozados e pagos; o período atual começou em 01/03/2026.
+- 13º de 2026: nada pago ainda.
+- FGTS (extrato do FGTS Digital): depósitos de mar. a dez./2023: R$ 1.920,00; de 2024: R$ 2.496,00; de 2025: R$ 2.496,00; de jan. a set./2026: R$ 1.728,00. Total depositado: R$ 8.640,00. Atualização e juros creditados: R$ 610,00. Saque para moradia em maio de 2025: R$ 1.500,00. Saldo hoje: R$ 7.750,00.
+
+Calcula as verbas da rescisão e a multa do FGTS. E se, em vez de ser dispensado, ele tivesse pedido demissão no mesmo dia?
+--- IA:
+ § 1.º integra o período ao tempo de serviço | **Não** — § 2.º não contém essa expressão; sem projeção |
+| Saque do FGTS | Sim | Não (conferir exceções) |
+
+---
+
+### Verbas — pedido de demissão (aviso não cumprido, empregador desconta)
+
+| # | Verba | Período / Base | Cálculo | Valor |
+|---|---|---|---|---|
+| 1 | Saldo de salário — set./2026 | 30 dias | 30 × R$ 80,00 | **R$ 2.400,00** |
+| 2 | Férias proporcionais — **7/12** ³ | 01/03/2026 a 30/09/2026 | 7⁄12 × R$ 2.400,00 | **R$ 1.400,00** |
+| 3 | 1/3 constitucional s/ férias | | 1⁄3 × R$ 1.400,00 | **R$ 466,67** |
+| 4 | 13.º proporcional — **9/12** ⁴ | jan. a set./2026 | 9⁄12 × R$ 2.400,00 | **R$ 1.800,00** |
+| 5 | (–) Desconto aviso prévio | 39 dias | 39 × R$ 80,00 | **(R$ 3.120,00)** |
+| | **Total** | | | **R$ 2.946,67** |
+
+> ³ **Férias:** de 01/03 a 01/09 = 6 meses completos; de 01/09 a 30/09 = 29 dias **≥ 15 → conta**. Total: **7/12**.
+>
+> ⁴ **13.º:** janeiro a setembro = 9 meses (setembro: 30 dias ✓). Total: **9/12**.
+>
+> 💡 O desconto do AP é **direito do empregador, não obrigação**. Se optar por não descontar: total = **R$ 6.066,67**.
+>
+> 💡 Se o empregado **trabalhar** os 39 dias de aviso: contrato termina em 08/11/2026, férias voltam a **8/12** e 13.º a **10/12** — mesmos avos da dispensa, sem desconto e sem multa FGTS.
+
+---
+
+## Resumo comparativo final
+
+| Item | Dispensa s/ justa causa | Pedido de demissão |
+|---|---|---|
+| Saldo salário | R$ 2.400,00 | R$ 2.400,00 |
+| Aviso prévio | +R$ 3.120,00 | (R$ 3.120,00) |
+| Férias proporc. + 1/3 | R$ 2.133,33 — 8/12 | R$ 1.866,67 — 7/12 |
+| 13.º proporcional | R$ 2.000,00 — 10/12 | R$ 1.800,00 — 9/12 |
+| **Total verbas** | **R$ 9.653,33** | **R$ 2.946,67** |
+| Multa FGTS (40%) | **R$ 3.700,00** | **—** |
+| Saque FGTS | Sim | Não (conferir) |
+| **Diferença total** | **+ R$ 10.406,66** a favor do empregado na dispensa | |
+
+### 2026-10-09 23:53 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou do departamento pessoal de um escritório de contabilidade. Os clientes me mandaram estas perguntas. Me ajuda a responder?
+
+1. O empregado novo começa na segunda-feira, dia 9. Até quando eu tenho de registrar no eSocial?
+2. Uma microempresa cliente esqueceu de registrar um empregado. Qual é a multa?
+3. O empregado tem um período aquisitivo vencido há 14 meses e ainda não tirou férias: o que acontece se ele sair de férias no mês que vem?
+4. Paguei as férias um dia antes do início, e não dois. Tenho de pagar em dobro?
+5. Até quando eu pago a primeira parcela do 13º?
+6. A rescisão foi paga no 12º dia depois do fim do contrato. O que acontece?
+
+As regras, como estão no texto (use só elas; o que não estiver aqui, diga "conferir"):
+- Registro: os eventos de admissão vão ao eSocial "até o final do dia imediatamente anterior ao do início da prestação do serviço pelo empregado admitido" (Manual de Orientação do eSocial, S-1.3).
+- Empregado sem registro: multa de "R$ 3.000,00 (três mil reais) por empregado não registrado"; "o valor final da multa aplicada será de R$ 800,00 (oitocentos reais) por empregado não registrado, quando se tratar de microempresa ou empresa de pequeno porte" (CLT, art. 47, caput e § 1º).
+- Férias: concedidas "nos 12 (doze) meses subseqüentes à data em que o empregado tiver adquirido o direito" (CLT, art. 134); "Sempre que as férias forem concedidas após o prazo de que trata o art. 134, o empregador pagará em dobro a respectiva remuneração" (art. 137); o pagamento será efetuado "até 2 (dois) dias antes do início do respectivo período" (art. 145). O STF "julgou procedente a arguição de descumprimento de preceito fundamental para: (a) declarar a inconstitucionalidade da Súmula 450 do Tribunal Superior do Trabalho; e (b) invalidar decisões judiciais não transitadas em julgado que, amparadas no texto sumular, tenham aplicado a sanção de pagamento em dobro com base no art. 137 da CLT" (ADPF 501, 2022). Multa administrativa por infração às férias (art. 153), à rescisão (art. 477, § 8º) e ao 13º: R$ 176,03 por empregado (Portaria MTE 1.131/2025, tabela em vigor desde 04/07/2025).
+- 13º: o adiantamento será pago "Entre os meses de fevereiro e novembro de cada ano" (Lei 4.749, art. 2º); a 2ª parcela "até o dia 20 de dezembro" (art. 1º). A gratificação é de "1/12 avos da remuneração devida em dezembro, por mês de serviço"; "A fração igual ou superior a 15 (quinze) dias de trabalho será havida como mês integral" (Lei 4.090, art. 1º, §§ 1º e 2º).
+- Rescisão: pagamento "até dez dias contados a partir do término do contrato" (CLT, art. 477, § 6º); se não, "multa de 160 BTN, por trabalhador" (hoje R$ 176,03, Portaria MTE 1.131/2025) "bem assim ao pagamento da multa a favor do empregado, em valor equivalente ao seu salário" (art. 477, § 8º).
+- Aviso prévio: "30 (trinta) dias aos empregados que contem até 1 (um) ano de serviço na mesma empresa"; "Ao aviso prévio previsto neste artigo serão acrescidos 3 (três) dias por ano de serviço prestado na mesma empresa, até o máximo de 60 (sessenta) dias, perfazendo um total de até 90 (noventa) dias" (Lei 12.506/2011). "A falta do aviso prévio por parte do empregador dá ao empregado o direito aos salários correspondentes ao prazo do aviso, garantida sempre a integração desse período no seu tempo de serviço" (CLT, art. 487, § 1º); "A falta de aviso prévio por parte do empregado dá ao empregador o direito de descontar os salários correspondentes ao prazo respectivo" (§ 2º).
+- FGTS na dispensa sem justa causa: o empregador deposita "importância igual a quarenta por cento do montante de todos os depósitos realizados na conta vinculada durante a vigência do contrato de trabalho, atualizados monetariamente e acrescidos dos respectivos juros" (Lei 8.036, art. 18, § 1º).
+Hoje é 09/10/2026. Depois vou mandar uma rescisão: nela, calcule cada verba numa linha e marque o que depende da convenção coletiva.
+--- IA:
+## Respostas às perguntas dos clientes
+
+---
+
+### 1. Prazo de registro no eSocial
+
+O prazo é **até o final do domingo, dia 8** — ou seja, o final do dia imediatamente anterior ao início da prestação de serviço (Manual de Orientação do eSocial, S-1.3).
+
+> ⚠️ Atenção: o dia anterior cai num **domingo**. O texto da regra não prevê exceção para fins de semana; recomenda-se **conferir** as orientações técnicas do eSocial sobre disponibilidade do sistema nesse caso.
+
+---
+
+### 2. Multa por empregado não registrado — microempresa
+
+A multa é de **R$ 800,00 por empregado não registrado**, por se tratar de microempresa ou empresa de pequeno porte (CLT, art. 47, § 1º).
+
+---
+
+### 3. Férias concedidas 14 meses após o fim do período aquisitivo
+
+As férias deveriam ter sido concedidas dentro dos **12 meses subsequentes** à aquisição do direito (CLT, art. 134). Como já se passaram 14 meses, estão vencidas.
+
+Consequências se saírem no mês que vem:
+
+| Item | O que acontece |
+|---|---|
+| **Remuneração das férias** | Deve ser paga **em dobro** (CLT, art. 137) |
+| **Multa administrativa** | R$ 176,03 por empregado (Portaria MTE 1.131/2025) |
+
+> 📌 A ADPF 501/2022 do STF declarou inconstitucional a **Súmula 450 do TST** (que aplicava o dobro também ao pagamento fora do prazo do art. 145). Aqui, porém, o caso é de **concessão após o prazo** — hipótese do próprio art. 137, que **permanece válido**.
+
+---
+
+### 4. Férias pagas com 1 dia de antecedência (e não 2)
+
+A CLT exige pagamento **até 2 dias antes** do início (art. 145). Pagar com 1 dia viola esse prazo.
+
+Porém, o STF, na **ADPF 501 (2022)**, declarou **inconstitucional a Súmula 450 do TST**, que era a base para exigir pagamento em dobro nessa situação.
+
+**Conclusão: não há obrigação de pagar em dobro.** Pode, no entanto, incidir:
+
+| Item | Valor |
+|---|---|
+| Multa administrativa (art. 153) | R$ 176,03 por empregado |
+
+---
+
+### 5. Prazo para a 1ª parcela do 13º salário
+
+A primeira parcela (adiantamento) deve ser paga **entre fevereiro e novembro** de cada ano, portanto o prazo final é **30 de novembro** (Lei 4.749/1965, art. 2º).
+
+> O empregado também pode solicitar o adiantamento por ocasião das férias — **conferir** se há pedido formal nesse sentido.
+
+---
+
+### 6. Rescisão paga no 12º dia após o fim do contrato
+
+O prazo legal é de **até 10 dias** contados do término do contrato (CLT, art. 477, § 6º). O pagamento no 12º dia caracteriza **mora**.
+
+Consequências (CLT, art. 477, § 8º):
+
+| Sanção | Valor / Destinatário |
+|---|---|
+| Multa administrativa | R$ 176,03 por trabalhador → **cofres públicos** |
+| Multa indenizatória | 1 salário do empregado → **favor do empregado** |
+
+---
+
+### Rescisão
+
+Pode enviar quando quiser. Calcularei cada verba em linha separada e indicarei o que depende de convenção coletiva. 👍
+
+--- Você:
+Agora uma rescisão de um cliente (microempresa, comércio, Simples Nacional):
+- Empregado: Gersino Paiva, admitido em 01/03/2023, salário fixo de R$ 2.400,00 desde a admissão.
+- Dispensa sem justa causa, comunicada em 30/09/2026, com aviso prévio indenizado. O salário de setembro ainda não foi pago.
+- Férias: todos os períodos aquisitivos completos já foram gozados e pagos; o período atual começou em 01/03/2026.
+- 13º de 2026: nada pago ainda.
+- FGTS (extrato do FGTS Digital): depósitos de mar. a dez./2023: R$ 1.920,00; de 2024: R$ 2.496,00; de 2025: R$ 2.496,00; de jan. a set./2026: R$ 1.728,00. Total depositado: R$ 8.640,00. Atualização e juros creditados: R$ 610,00. Saque para moradia em maio de 2025: R$ 1.500,00. Saldo hoje: R$ 7.750,00.
+
+Calcula as verbas da rescisão e a multa do FGTS. E se, em vez de ser dispensado, ele tivesse pedido demissão no mesmo dia?
+--- IA:
+o aviso prévio; contrato cessa em **30/09/2026** (sem projeção).
+
+| # | Verba | Cálculo | Valor |
+|---|-------|---------|------:|
+| 1 | Saldo de salário — set./2026 | 30 d × R$ 80,00 | R$ 2.400,00 |
+| 2 | Férias proporcionais (7/12) ³ | 7/12 × R$ 2.400,00 | R$ 1.400,00 |
+| 3 | 1/3 constitucional s/ férias | R$ 1.400,00 ÷ 3 | R$ 466,67 |
+| 4 | 13º proporcional (9/12) ⁴ | 9/12 × R$ 2.400,00 | R$ 1.800,00 |
+| 5 | (−) Desconto aviso prévio não cumprido | 39 d × R$ 80,00 | −R$ 3.120,00 |
+| 6 | Multa rescisória convencional | — | ⚠️ **CCT** |
+| | **(−) INSS e IRRF** | calcular com tabelas vigentes | a deduzir |
+| | **Total bruto** | | **R$ 2.946,67** |
+
+> ³ **Férias — 7/12:** 01/03/2026 → 30/09/2026 = exatos 7 meses completos.
+>
+> ⁴ **13º — 9/12:** Janeiro a setembro/2026 = 9 meses. Sem projeção de aviso, outubro não entra.
+
+**FGTS no pedido de demissão:**
+- **Sem multa de 40%**
+- Saldo **permanece bloqueado** — empregado não pode sacar em pedido de demissão
+- Único depósito ainda devido: 8% × R$ 1.800 (13º) = **R$ 144,00** → entra na conta bloqueada
+
+---
+
+### Comparativo rápido
+
+| Item | Dispensa s/ JC | Pedido de demissão |
+|------|:-------------:|:-----------------:|
+| Término do contrato | 07/11/2026 | 30/09/2026 |
+| Aviso prévio | **+R$ 3.120,00** | **−R$ 3.120,00** |
+| Férias proporcionais | 8/12 → R$ 1.600,00 | 7/12 → R$ 1.400,00 |
+| 13º proporcional | 10/12 → R$ 2.000,00 | 9/12 → R$ 1.800,00 |
+| Multa FGTS (40%) | **R$ 3.863,84** | **Não há** |
+| FGTS liberado | **R$ 12.023,44** | **Bloqueado** |
+| **Total bruto recebido** | **R$ 9.653,33** | **R$ 2.946,67** |
+
+---
+
+### Itens a conferir na CCT do Comércio
+
+- [ ] **Piso salarial** — se R$ 2.400 < piso vigente, todas as verbas mudam
+- [ ] **Aviso prévio adicional** — algumas CCTs preveem prazo superior ao legal
+- [ ] **Multa rescisória convencional** — percentual extra sobre FGTS ou verbas
+- [ ] **PLR** — verificar parcela proporcional devida
+- [ ] **Vale-alimentação / cesta básica** — checar se há saldo rescisório
+- [ ] **Seguro de vida / auxílio funeral** — verificar cláusula rescisória, se houver
+

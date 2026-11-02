@@ -1,0 +1,1014 @@
+IA na contabilidade (O Novo Básico, vol. 8)
+Teste t06, rodado em 09/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+### 2026-10-09 23:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Me diz o CFOP, o CST ou o CSOSN e a NCM de cada operação abaixo.
+
+Duas empresas, as duas no mesmo estado:
+- Empresa N: distribuidora do regime normal (lucro presumido), CRT 3.
+- Empresa S: loja optante pelo Simples Nacional, CRT 1.
+
+As operações:
+1. Empresa N compra, de fornecedor do mesmo estado, caixas de água mineral sem gás para revender.
+2. Empresa N vende essa água mineral sem gás (produto nacional, comprado de terceiros) para cliente do mesmo estado; ICMS tributado integralmente, sem substituição tributária.
+3. Empresa N vende smartphones para cliente de outro estado; os aparelhos foram importados por outra empresa e comprados aqui no Brasil; ICMS tributado integralmente.
+4. Empresa N vende cerveja de malte comprada de terceiros, cujo ICMS já foi retido por substituição tributária na compra (a Empresa N é contribuinte substituído), para cliente do mesmo estado.
+5. Empresa N devolve ao fornecedor do mesmo estado parte das caixas de água da operação 1.
+6. Empresa S vende café torrado, não descafeinado (nacional, comprado de terceiros), a consumidor final do mesmo estado; sem permissão de crédito; sem substituição tributária.
+7. Empresa S vende camisetas de algodão (nacionais, compradas de terceiros) para uma empresa contribuinte do mesmo estado, com permissão de crédito.
+8. Empresa S manda uma máquina de café do próprio uso para conserto numa assistência técnica do mesmo estado.
+--- IA:
+# CFOP, CST/CSOSN e NCM por Operação
+
+---
+
+## Empresa N — CRT 3 (Regime Normal) | CST
+
+| # | Operação | CFOP | CST | NCM |
+|---|----------|------|-----|-----|
+| 1 | **Compra** de água mineral (mesmo estado, para revenda) | **1.102** | **000** *(Nacional / Tributada integralmente)* | **2201.10.00** |
+| 2 | **Venda** de água mineral (mesmo estado, ICMS pleno) | **5.102** | **000** *(Nacional / Tributada integralmente)* | **2201.10.00** |
+| 3 | **Venda** de smartphones para **outro estado** (importados por terceiros, adquiridos no mercado interno) | **6.102** | **200** *(Estrangeira – adquirida no mercado interno / Tributada integralmente)* | **8517.13.00** |
+| 4 | **Venda** de cerveja de malte com ICMS-ST **já retido** (Empresa N = substituído) | **5.405** | **060** *(Nacional / ICMS cobrado anteriormente por ST)* | **2203.00.00** |
+| 5 | **Devolução** ao fornecedor da água mineral (mesmo estado) | **5.202** | **000** *(Nacional / Tributada integralmente)* | **2201.10.00** |
+
+> **Notas:**
+> - Op. 1: CFOP de **entrada**; o CST reflete o que consta na NF-e do fornecedor.
+> - Op. 3: origem **2** porque os aparelhos foram importados por outra empresa; Empresa N os adquiriu no mercado interno.
+> - Op. 4: CFOP **5.405** é específico para o contribuinte **substituído** revendendo mercadoria já com ST retida; CST **060** confirma que o imposto foi recolhido na etapa anterior.
+> - Op. 5: espelha a operação de compra (1.102 → 5.202); o CST deve ser idêntico ao da NF original.
+
+---
+
+## Empresa S — CRT 1 (Simples Nacional) | CSOSN
+
+| # | Operação | CFOP | CSOSN | NCM |
+|---|----------|------|-------|-----|
+| 6 | **Venda** de café torrado não descafeinado a consumidor final (mesmo estado, sem crédito, sem ST) | **5.102** | **102** *(Tributada pelo SN **sem** permissão de crédito)* | **0901.21.00** |
+| 7 | **Venda** de camisetas de algodão a empresa contribuinte (mesmo estado, **com** permissão de crédito) | **5.102** | **101** *(Tributada pelo SN **com** permissão de crédito)* | **6109.10.00** |
+| 8 | **Remessa** de máquina de café (bem de uso próprio) para conserto (mesmo estado) | **5.915** | **400** *(Não tributada pelo Simples Nacional)* | **8516.71.00** |
+
+> **Notas:**
+> - Op. 6 × Op. 7: a diferença entre **CSOSN 101** e **102** está na destinação: venda a **contribuinte** que pode aproveitar crédito → 101; venda a **consumidor final** (ou sem permissão de crédito) → 102.
+> - Op. 8: remessa para conserto **não é venda** — não há transferência de propriedade nem fato gerador do ICMS; por isso CFOP **5.915** e CSOSN **400**. Quando a assistência técnica devolver a máquina consertada, a Empresa S emitirá a entrada com CFOP **1.915**.
+
+--- Você:
+Agora sobre o IBS e a CBS neste ano de 2026:
+1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+2. Esses valores entram no total da nota?
+3. A Empresa S, do Simples, destaca?
+4. Se a Empresa N não preencher o IBS e a CBS, o que acontece?
+--- IA:
+# IBS e CBS em 2026 — Fase de Teste (LC 214/2025)
+
+## Contexto rápido
+
+A LC 214/2025 inaugurou a transição: em **2026** os dois tributos existem em alíquotas de teste — **CBS 0,9 %** (federal) e **IBS 0,1 %** (subnacional) — totalizando **1 %**, ainda em coexistência com PIS/COFINS e ICMS/ISS.
+
+---
+
+## 1. A Empresa N tem de destacar IBS e CBS nas notas?
+
+**Sim.** Contribuintes do regime normal (CRT 3) são sujeitos passivos da CBS e do IBS desde o início de 2026. O leiaute da NF-e foi atualizado (Nota Técnica SPED) para campos específicos de CBS e IBS, e o preenchimento é **obrigatório** para cada item tributado.
+
+> **Detalhe prático:** a CBS de 0,9 % pode ser abatida do PIS/COFINS do mesmo período, então a carga efetiva não aumenta — mas o destaque na nota é exigido mesmo assim.
+
+---
+
+## 2. Esses valores entram no total da nota?
+
+**Não adicionam um valor a mais.** CBS e IBS são tributos **"por dentro"** (assim como ICMS, PIS e COFINS): já estão embutidos no preço negociado. Na NF-e eles aparecem **destacados em campos informativos**, mas o `vNF` (valor total da nota) **não cresce** por causa deles — ao contrário do IPI, que é "por fora" e entra no total.
+
+| Tributo | Natureza | Compõe o vNF? |
+|---------|----------|---------------|
+| ICMS | Por dentro | Não (já está no preço) |
+| IPI | **Por fora** | **Sim** |
+| PIS / COFINS | Por dentro | Não |
+| **CBS / IBS** | **Por dentro** | **Não** |
+
+---
+
+## 3. A Empresa S (Simples Nacional) destaca?
+
+**Não.** As empresas optantes pelo Simples Nacional **ficam fora** do sistema CBS/IBS em 2026. Elas continuam recolhendo tudo pelo DAS; os campos de CBS e IBS na NF-e não são exigidos para CRT 1 neste período de teste. A inclusão do Simples no novo regime está prevista para etapas posteriores da transição (a partir de 2029, conforme cronograma).
+
+---
+
+## 4. Se a Empresa N não preencher CBS e IBS, o que acontece?
+
+Há **três camadas de consequência**:
+
+1. **Rejeição da NF-e** — A SEFAZ valida o XML antes de autorizar; campos obrigatórios ausentes geram rejeição automática. A nota simplesmente **não é autorizada**, e sem NF-e autorizada a mercadoria não pode circular legalmente.
+
+2. **Documento inválido** — Se, por alguma brecha operacional, a mercadoria sair sem nota válida, a empresa fica exposta a **apreensão de mercadoria**, arbitramento de tributos e auto de infração.
+
+3. **Multas por descumprimento de obrigação acessória** — As legislações federal e estadual preveem penalidades específicas para emissão de documento fiscal com informações incorretas ou omitidas, independentemente do impacto no tributo principal.
+
+---
+
+### Resumo em tabela
+
+| Pergunta | Empresa N (CRT 3) | Empresa S (CRT 1) |
+|----------|:-----------------:|:-----------------:|
+| Destaca CBS e IBS na NF-e? | ✅ Sim | ❌ Não |
+| Tributos entram no total (vNF)? | Não — são "por dentro" | — |
+| O que ocorre se omitir? | NF-e rejeitada + multas | N/A |
+
+### 2026-10-09 23:10 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Me diz o CFOP, o CST ou o CSOSN e a NCM de cada operação abaixo.
+
+Duas empresas, as duas no mesmo estado:
+- Empresa N: distribuidora do regime normal (lucro presumido), CRT 3.
+- Empresa S: loja optante pelo Simples Nacional, CRT 1.
+
+As operações:
+1. Empresa N compra, de fornecedor do mesmo estado, caixas de água mineral sem gás para revender.
+2. Empresa N vende essa água mineral sem gás (produto nacional, comprado de terceiros) para cliente do mesmo estado; ICMS tributado integralmente, sem substituição tributária.
+3. Empresa N vende smartphones para cliente de outro estado; os aparelhos foram importados por outra empresa e comprados aqui no Brasil; ICMS tributado integralmente.
+4. Empresa N vende cerveja de malte comprada de terceiros, cujo ICMS já foi retido por substituição tributária na compra (a Empresa N é contribuinte substituído), para cliente do mesmo estado.
+5. Empresa N devolve ao fornecedor do mesmo estado parte das caixas de água da operação 1.
+6. Empresa S vende café torrado, não descafeinado (nacional, comprado de terceiros), a consumidor final do mesmo estado; sem permissão de crédito; sem substituição tributária.
+7. Empresa S vende camisetas de algodão (nacionais, compradas de terceiros) para uma empresa contribuinte do mesmo estado, com permissão de crédito.
+8. Empresa S manda uma máquina de café do próprio uso para conserto numa assistência técnica do mesmo estado.
+--- IA:
+# CFOP, CST/CSOSN e NCM por Operação
+
+## Empresa N — CRT 3 (Regime Normal) → usa **CST**
+
+| # | Operação | CFOP | CST | NCM |
+|---|----------|------|-----|-----|
+| 1 | **Entrada** de água mineral (compra p/ revenda, mesmo estado) | **1.102** | **000** | **2201.10.00** |
+| 2 | **Saída** de água mineral (venda de mercadoria de terceiros, mesmo estado, ICMS integral) | **5.102** | **000** | **2201.10.00** |
+| 3 | **Saída** de smartphones (mercadoria de origem estrangeira adquirida no mercado interno, outro estado, ICMS integral) | **6.102** | **200** | **8517.13.00** |
+| 4 | **Saída** de cerveja (mercadoria de terceiros, ICMS-ST retido anteriormente — contribuinte substituído, mesmo estado) | **5.405** | **060** | **2203.00.00** |
+| 5 | **Devolução** de compra para comercialização ao fornecedor (mesmo estado) | **5.202** | **000** | **2201.10.00** |
+
+---
+
+## Empresa S — CRT 1 (Simples Nacional) → usa **CSOSN**
+
+| # | Operação | CFOP | CSOSN | NCM |
+|---|----------|------|-------|-----|
+| 6 | **Saída** de café torrado (venda a consumidor final, mesmo estado, **sem** permissão de crédito, sem ST) | **5.102** | **102** | **0901.21.00** |
+| 7 | **Saída** de camisetas de algodão (venda a contribuinte, mesmo estado, **com** permissão de crédito) | **5.102** | **101** | **6109.10.00** |
+| 8 | **Remessa** de máquina de café do ativo próprio para conserto (mesmo estado) | **5.915** | **400** | **8516.71.10** |
+
+---
+
+## Notas de fundamentação
+
+| Código | Por quê |
+|--------|---------|
+| **CST 000** | Origem nacional (0) + tributado integralmente (00) |
+| **CST 200** | Origem estrangeira adquirida no mercado interno (2) + tributado integralmente (00); os smartphones foram importados por terceiros — Empresa N os comprou no Brasil |
+| **CST 060** | Origem nacional (0) + ICMS cobrado anteriormente por ST (60); Empresa N é substituída, não destaca ICMS próprio |
+| **CSOSN 101** | Tributada pelo Simples Nacional **com** permissão de crédito — destinatário contribuinte pode se apropriar do crédito |
+| **CSOSN 102** | Tributada pelo Simples Nacional **sem** permissão de crédito — enunciado expressamente vedou o crédito |
+| **CSOSN 400** | Não tributada; remessa para conserto não é venda, não há fato gerador do ICMS (saída temporária de bem do ativo) |
+| **CFOP 5.405** | Específico para o contribuinte **substituído** que revende mercadoria com ST previamente recolhida |
+| **CFOP 5.915** | Remessa de bem para conserto/reparo (saída temporária) |
+| **CFOP 5.202** | Devolução de mercadoria adquirida para comercialização (espelha a compra original — CFOP 1.102) |
+
+--- Você:
+Agora sobre o IBS e a CBS neste ano de 2026:
+1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+2. Esses valores entram no total da nota?
+3. A Empresa S, do Simples, destaca?
+4. Se a Empresa N não preencher o IBS e a CBS, o que acontece?
+--- IA:
+# IBS e CBS em 2026
+
+## 1. Empresa N precisa destacar IBS e CBS nas notas?
+
+**Sim, é obrigatório.** O ano de 2026 é o chamado **período de observação (alíquotas-teste)**, inaugurado pela LC 214/2025. As alíquotas que vigoram agora são:
+
+| Tributo | Alíquota-teste 2026 |
+|---------|-------------------|
+| CBS (federal) | 0,9% |
+| IBS (subnacional) | 0,1% (≈ 0,065% estado + 0,035% município) |
+
+> **Ponto importante — efeito líquido é neutro por ora:** o valor recolhido de CBS é compensado com o PIS/COFINS devido (que é reduzido equivalentemente); o IBS recolhido é integralmente devolvido ao contribuinte. A carga tributária real não aumenta — mas a **obrigação de destacar e recolher é plenamente válida**.
+
+---
+
+## 2. Esses valores entram no total da nota?
+
+**Não somam ao valor total (vNF).** O IBS e a CBS são tributos calculados **"por dentro"** na fase de testes de 2026 — assim como o ICMS e o PIS/COFINS atuais, já estão embutidos no preço praticado e são **destacados em campos informativos próprios** do XML da NF-e 4.0 (campos inseridos por Nota Técnica específica da SEFAZ/RFB para acomodar a reforma).
+
+Isso tende a mudar ao longo da transição: o modelo final do IBS/CBS é **"por fora"** (transparente, como o IVA europeu), com o imposto aparecendo somado ao total. Em 2026, porém, a coexistência com PIS/COFINS (ainda "por dentro") impede essa virada imediata.
+
+> **Outro ponto relevante — split payment:** o sistema de **pagamento em partes** está sendo testado em 2026. Quando o comprador paga via meio eletrônico, a instituição financeira já separa automaticamente a parcela de IBS/CBS e a repassa ao Fisco, sem que o vendedor precise gerir esse fluxo. Isso é novo e afeta o controle de caixa.
+
+---
+
+## 3. Empresa S (Simples Nacional) destaca IBS/CBS?
+
+**Não.** O Simples Nacional tem regime próprio de transição. Em 2026, as empresas optantes **não são contribuintes do IBS nem da CBS** — continuam recolhendo pelo DAS normalmente. Os campos de IBS/CBS ficam em branco ou zerados na NF-e delas.
+
+A integração do Simples Nacional ao novo sistema está prevista para uma fase posterior (a partir de **2029**, com alíquotas diferenciadas e créditos parciais para os destinatários).
+
+---
+
+## 4. O que acontece se Empresa N não preencher IBS/CBS?
+
+Há três camadas de consequência:
+
+| Nível | Consequência |
+|-------|-------------|
+| **Técnico (NF-e)** | A nota pode ser **rejeitada pela SEFAZ** na autorização, se os campos IBS/CBS forem obrigatórios no schema XML — a operação comercial simplesmente não sai com documento válido |
+| **Obrigação acessória** | Mesmo que a nota passe (ex.: contingência), o fisco pode autuar com **multa por descumprimento de obrigação acessória** |
+| **Cadeia de créditos** | O destinatário (tomador da nota) **perde o direito ao crédito** de IBS/CBS, quebrando a não-cumulatividade — o que pode gerar reclamação contratual ou perda de cliente |
+
+---
+
+### Resumo rápido
+
+| Questão | Resposta |
+|---------|---------|
+| Empresa N destaca? | ✅ Sim — CBS 0,9% + IBS 0,1% |
+| Somam ao total da nota? | ❌ Não (campos informativos em 2026) |
+| Empresa S destaca? | ❌ Não — Simples segue fora até 2029+ |
+| Risco de não preencher | Rejeição da NF-e + multa + perda de crédito do destinatário |
+
+### 2026-10-09 23:18 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Me diz o CFOP, o CST ou o CSOSN e a NCM de cada operação abaixo.
+
+Duas empresas, as duas no mesmo estado:
+- Empresa N: distribuidora do regime normal (lucro presumido), CRT 3.
+- Empresa S: loja optante pelo Simples Nacional, CRT 1.
+
+As operações:
+1. Empresa N compra, de fornecedor do mesmo estado, caixas de água mineral sem gás para revender.
+2. Empresa N vende essa água mineral sem gás (produto nacional, comprado de terceiros) para cliente do mesmo estado; ICMS tributado integralmente, sem substituição tributária.
+3. Empresa N vende smartphones para cliente de outro estado; os aparelhos foram importados por outra empresa e comprados aqui no Brasil; ICMS tributado integralmente.
+4. Empresa N vende cerveja de malte comprada de terceiros, cujo ICMS já foi retido por substituição tributária na compra (a Empresa N é contribuinte substituído), para cliente do mesmo estado.
+5. Empresa N devolve ao fornecedor do mesmo estado parte das caixas de água da operação 1.
+6. Empresa S vende café torrado, não descafeinado (nacional, comprado de terceiros), a consumidor final do mesmo estado; sem permissão de crédito; sem substituição tributária.
+7. Empresa S vende camisetas de algodão (nacionais, compradas de terceiros) para uma empresa contribuinte do mesmo estado, com permissão de crédito.
+8. Empresa S manda uma máquina de café do próprio uso para conserto numa assistência técnica do mesmo estado.
+--- IA:
+## Classificação Fiscal por Operação
+
+---
+
+### Empresa N — CRT 3 (Regime Normal) → usa **CST**
+
+| Op. | Descrição resumida | CFOP | CST (ICMS) | NCM |
+|---|---|---|---|---|
+| 1 | **Compra** de água mineral s/ gás — mesmo estado, para revenda | **1.102** | **000** | **2201.10.00** |
+| 2 | **Venda** de água mineral s/ gás — mesmo estado, ICMS integral | **5.102** | **000** | **2201.10.00** |
+| 3 | **Venda** de smartphones — outro estado, ICMS integral | **6.102** | **200** | **8517.13.00** |
+| 4 | **Venda** de cerveja de malte — mesmo estado, ST já retida (substituído) | **5.405** | **060** | **2203.00.00** |
+| 5 | **Devolução** ao fornecedor — mesmo estado | **5.202** | **000** | **2201.10.00** |
+
+---
+
+### Empresa S — CRT 1 (Simples Nacional) → usa **CSOSN**
+
+| Op. | Descrição resumida | CFOP | CSOSN | NCM |
+|---|---|---|---|---|
+| 6 | **Venda** de café torrado n/ descaf. — consumidor final, sem crédito | **5.102** | **102** | **0901.21.00** |
+| 7 | **Venda** de camiseta de algodão — contribuinte, com crédito | **5.102** | **101** | **6109.10.00** |
+| 8 | **Remessa** de máquina de café p/ conserto — mesmo estado | **5.915** | **900** | **8516.71.00** |
+
+---
+
+## Justificativas
+
+### CFOPs
+
+| Código | Lógica |
+|---|---|
+| **1.102** | Entrada (1) + compra de mercadoria de terceiros p/ comercialização |
+| **5.102** | Saída interna (5) + venda de mercadoria adquirida de terceiros |
+| **6.102** | Saída interestadual (6) + venda de mercadoria adquirida de terceiros |
+| **5.405** | Saída interna + venda de mercadoria sujeita à ST na condição de **substituído** |
+| **5.202** | Saída interna + devolução de compra para comercialização |
+| **5.915** | Saída interna + remessa de bem para conserto/reparo |
+
+### CSTs de ICMS (Empresa N)
+
+| Código | Lógica |
+|---|---|
+| **000** | Dígito de origem **0** (nacional) + situação **00** (tributada integralmente) |
+| **200** | Dígito de origem **2** (estrangeira adquirida no mercado interno¹) + situação **00** |
+| **060** | Dígito de origem **0** (nacional) + situação **60** (ICMS cobrado anteriormente por ST — substituído) |
+
+> ¹ Importados por *outra* empresa e comprados no Brasil = origem **2** (não é importação direta pela própria N).
+
+### CSOSNs (Empresa S)
+
+| Código | Lógica |
+|---|---|
+| **101** | Tributada pelo SN **com permissão de crédito** (comprador contribuinte) |
+| **102** | Tributada pelo SN **sem permissão de crédito** (consumidor final) |
+| **900** | **Outros** — remessa para conserto não é venda; ICMS suspenso/não incidente na maioria dos estados |
+
+### NCMs
+
+| Código | Produto |
+|---|---|
+| **2201.10.00** | Águas minerais (com ou sem gás — mesmo NCM) |
+| **8517.13.00** | Smartphones (posição criada no HS 2022) |
+| **2203.00.00** | Cerveja de malte |
+| **0901.21.00** | Café torrado, não descafeinado |
+| **6109.10.00** | Camisetas de malha, de algodão |
+| **8516.71.00** | Aparelhos para preparar café ou chá |
+
+--- Você:
+Agora sobre o IBS e a CBS neste ano de 2026:
+1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+2. Esses valores entram no total da nota?
+3. A Empresa S, do Simples, destaca?
+4. Se a Empresa N não preencher o IBS e a CBS, o que acontece?
+--- IA:
+## IBS e CBS em 2026
+
+> **Contexto:** LC 214/2025 iniciou a fase de transição em janeiro/2026. As alíquotas deste ano são de **teste** (*ano-teste*): CBS = **0,9%** e IBS = **0,1%**.
+
+---
+
+### 1. Empresa N precisa destacar?
+
+**Sim, obrigatoriamente.**
+
+A Empresa N (regime normal, CRT 3) deve preencher os campos de IBS e CBS em todas as NF-e, com as alíquotas acima.
+
+**Ponto importante sobre o ano-teste:** existe um mecanismo de **compensação** — o valor de CBS recolhido pode ser abatido do PIS/COFINS a pagar, e o IBS pode ser abatido do ICMS/ISS. Na prática, em 2026 o impacto de caixa líquido adicional é próximo de zero. Mas o destaque na nota **é obrigatório mesmo assim** — o sistema está sendo testado operacionalmente.
+
+---
+
+### 2. Os valores entram no total da nota?
+
+**Sim.** IBS e CBS são tributos calculados **por fora** (sobre o preço, não embutidos nele como o ICMS), e integram o valor total da NF-e.
+
+| Descrição | Valor |
+|---|---|
+| Produtos | R$ 100,00 |
+| CBS (0,9%) | R$ 0,90 |
+| IBS (0,1%) | R$ 0,10 |
+| **Total da NF-e** | **R$ 101,00** |
+
+Isso difere do ICMS, que é *por dentro* (o imposto já está embutido no preço e não infla o total).
+
+---
+
+### 3. A Empresa S (Simples Nacional) destaca?
+
+**Não, da mesma forma que a Empresa N.**
+
+As optantes pelo Simples Nacional têm tratamento diferenciado:
+
+- O IBS e a CBS devidos nas suas operações são **incorporados ao cálculo do DAS**, com alíquotas próprias dentro do Simples — não são destacados como campos separados na NF-e
+- Em consequência, os **compradores não conseguem apropriar crédito** de IBS/CBS em compras feitas de empresas do Simples (mesma lógica que já existe hoje para ICMS/PIS/COFINS)
+- A LC 214/2025 previu uma **opção** para que empresas do Simples adotem sistemática que permita ao comprador aproveitar crédito, mas essa é uma escolha, não a regra padrão
+
+---
+
+### 4. O que acontece se a Empresa N não preencher?
+
+Há três camadas de consequência:
+
+**🔴 Técnica — Rejeição da NF-e**
+Os campos de IBS e CBS são **obrigatórios no schema XML** da NF-e (conforme NT específica publicada pelo ENCAT/SEFAZ). Nota emitida sem esses campos pode ser **rejeitada pelo autorizador** e não ter validade jurídica.
+
+**🔴 Tributária — Autuação**
+| Tributo | Autoridade fiscalizadora |
+|---|---|
+| CBS | Receita Federal do Brasil |
+| IBS | Comitê Gestor do IBS |
+
+Sujeita a multa de ofício + juros (SELIC), com base na LC 214/2025.
+
+**🔴 Relação com o cliente — Perda de crédito**
+O destinatário contribuinte **perde o direito ao crédito** de IBS e CBS que seria aproveitável — o que pode gerar reclamação, retrabalho (carta de correção não resolve campos omitidos; exigiria NF-e complementar ou cancelamento) e até litígio comercial.
+
+---
+
+> ⚠️ **Recomendação prática:** confirme com a NT vigente do SEFAZ do seu estado e com o portal da Receita Federal a versão mais recente do leiaute da NF-e para IBS/CBS, pois os manuais técnicos foram atualizados ao longo de 2025/2026 com detalhes de preenchimento.
+
+### 2026-10-09 23:35 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Me diga o CFOP, o CST ou o CSOSN e a NCM de cada operação abaixo. Use só os códigos do recorte colado; se nenhum servir, diga "não está na lista". Sobre o IBS e a CBS, responda só com os trechos colados e diga se cada um é lei ou orientação.
+
+Duas empresas, as duas no mesmo estado:
+- Empresa N: distribuidora do regime normal (lucro presumido), CRT 3.
+- Empresa S: loja optante pelo Simples Nacional, CRT 1.
+
+As operações:
+1. Empresa N compra, de fornecedor do mesmo estado, caixas de água mineral sem gás para revender.
+2. Empresa N vende essa água mineral sem gás (produto nacional, comprado de terceiros) para cliente do mesmo estado; ICMS tributado integralmente, sem substituição tributária.
+3. Empresa N vende smartphones para cliente de outro estado; os aparelhos foram importados por outra empresa e comprados aqui no Brasil; ICMS tributado integralmente.
+4. Empresa N vende cerveja de malte comprada de terceiros, cujo ICMS já foi retido por substituição tributária na compra (a Empresa N é contribuinte substituído), para cliente do mesmo estado.
+5. Empresa N devolve ao fornecedor do mesmo estado parte das caixas de água da operação 1.
+6. Empresa S vende café torrado, não descafeinado (nacional, comprado de terceiros), a consumidor final do mesmo estado; sem permissão de crédito; sem substituição tributária.
+7. Empresa S vende camisetas de algodão (nacionais, compradas de terceiros) para uma empresa contribuinte do mesmo estado, com permissão de crédito.
+8. Empresa S manda uma máquina de café do próprio uso para conserto numa assistência técnica do mesmo estado.
+
+Recorte das tabelas oficiais (copiado das fontes):
+CFOP (Convênio s/nº de 1970, tabela do Ajuste SINIEF 07/2001):
+- 1.102 – Compra para comercialização
+- 5.101 – Venda de produção do estabelecimento
+- 5.102 – Venda de mercadoria adquirida ou recebida de terceiros
+- 5.405 – Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituído
+- 6.102 – Venda de mercadoria adquirida ou recebida de terceiros (o primeiro dígito 6 é para outro estado; 5, dentro do estado; 1, entrada do mesmo estado)
+CST do ICMS: "três dígitos na forma ABB, onde o 1º dígito deve indicar a origem da mercadoria ou serviço, com base na Tabela A e os 2º e 3º dígitos a tributação pelo ICMS, com base na Tabela B" (Ajuste SINIEF 39/2023).
+Tabela A (origem): 0 - Nacional, exceto as indicadas nos códigos 3 a 5; 1 - Estrangeira - Importação direta, exceto a indicada no código 6; 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7.
+Tabela B (tributação): 00 Tributada integralmente; 20 Tributada com redução de base de cálculo; 40 Isenta; 41 Não tributada; 60 ICMS cobrado anteriormente por substituição tributária ou por antecipação com encerramento de tributação.
+CSOSN (Simples Nacional): "será usado na Nota Fiscal Eletrônica exclusivamente quando o Código de Regime Tributário - CRT - for igual a 1 ou 4, e substituirá os códigos da Tabela B": 101 Tributada pelo Simples Nacional com permissão de crédito; 102 Tributada pelo Simples Nacional sem permissão de crédito; 103 Isenção do ICMS no Simples Nacional para faixa de receita bruta; 500 ICMS cobrado anteriormente por substituição tributária (substituído) ou por antecipação; 900 Outros.
+NCM (tabela vigente em 09/10/2026, Res. Gecex 926/2026), com a posição:
+- 0901.21.00 -- Não descafeinado (posição 09.01, café torrado)
+- 2201.10.00 - Águas minerais e águas gaseificadas (posição 22.01, águas)
+- 2203.00.00 Cervejas de malte.
+- 6109.10.00 - De algodão (posição 61.09, camisetas)
+- 8517.13.00 -- Telefones inteligentes (smartphones)
+
+Trechos sobre o IBS e a CBS em 2026:
+- Comitê Gestor do IBS, nota de 31/12/2025 (orientação, não lei): "A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais deverão destacar o IBS e a CBS nas notas fiscais, sem que esses valores componham o total da operação. Esse destaque terá caráter exclusivamente informativo, desde que cumpridas as obrigações acessórias previstas na legislação." "Para as empresas optantes pelo Simples Nacional, não haverá qualquer alteração em 2026. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais a partir de 2027." "não haverá incidência de sanções administrativas até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos."
+- LC 214/2025, art. 348, § 1º (lei): "Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação." Art. 348, III, c: as alíquotas de teste "não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional." § 3º (LC 227/2026): lavrado auto de infração pelas obrigações acessórias do IBS e da CBS, "o sujeito passivo será intimado para, no prazo de 60 (sessenta) dias contado da intimação, suprir a omissão apontada pela fiscalização." § 4º: "O atendimento à intimação a que se refere o § 3º deste artigo importa extinção da penalidade imposta ao sujeito passivo."
+--- IA:
+# CFOP, CST/CSOSN e NCM por Operação
+
+> **Regra geral usada:**
+> - **Empresa N** (CRT 3) → **CST** (formato ABB: dígito A = origem / Tabela A; dígitos BB = tributação / Tabela B)
+> - **Empresa S** (CRT 1) → **CSOSN** (substitui a Tabela B na NF-e)
+
+---
+
+## Operação 1 — Empresa N compra água mineral para revenda (entrada, mesmo estado)
+
+| Campo | Código | Por quê |
+|-------|--------|---------|
+| CFOP | **1.102** | Compra para comercialização |
+| CST | **000** | A = 0 (Nacional) · BB = 00 (Tributada integralmente) |
+| NCM | **2201.10.00** | Águas minerais |
+
+---
+
+## Operação 2 — Empresa N vende água mineral (saída, mesmo estado, ICMS tributado integralmente)
+
+| Campo | Código | Por quê |
+|-------|--------|---------|
+| CFOP | **5.102** | Venda de mercadoria adquirida ou recebida de terceiros |
+| CST | **000** | A = 0 (Nacional) · BB = 00 (Tributada integralmente) |
+| NCM | **2201.10.00** | Águas minerais |
+
+---
+
+## Operação 3 — Empresa N vende smartphones para outro estado (ICMS tributado integralmente)
+
+| Campo | Código | Por quê |
+|-------|--------|---------|
+| CFOP | **6.102** | Venda de mercadoria adquirida ou recebida de terceiros — 1.º dígito **6** = outro estado |
+| CST | **200** | A = **2** (Estrangeira – adquirida no mercado interno, pois importada por outra empresa e comprada aqui no Brasil) · BB = 00 (Tributada integralmente) |
+| NCM | **8517.13.00** | Smartphones |
+
+---
+
+## Operação 4 — Empresa N vende cerveja com ICMS já retido por ST (contribuinte substituído, mesmo estado)
+
+| Campo | Código | Por quê |
+|-------|--------|---------|
+| CFOP | **5.405** | Venda de mercadoria adquirida de terceiros em operação com ST, na condição de contribuinte **substituído** |
+| CST | **060** | A = 0 (Nacional) · BB = **60** (ICMS cobrado anteriormente por substituição tributária ou por antecipação com encerramento de tributação) |
+| NCM | **2203.00.00** | Cervejas de malte |
+
+---
+
+## Operação 5 — Empresa N devolve água mineral ao fornecedor do mesmo estado
+
+| Campo | Código | Por quê |
+|-------|--------|---------|
+| CFOP | **não está na lista** | O código adequado seria **5.201** (Devolução de compra para comercialização), que não consta no recorte |
+| CST | **000** | A = 0 (Nacional) · BB = 00 (Tributada integralmente) — espelha a operação original da Op. 1 |
+| NCM | **2201.10.00** | Águas minerais |
+
+---
+
+## Operação 6 — Empresa S vende café torrado (saída, mesmo estado, sem permissão de crédito, sem ST)
+
+| Campo | Código | Por quê |
+|-------|--------|---------|
+| CFOP | **5.102** | Venda de mercadoria adquirida ou recebida de terceiros |
+| CSOSN | **102** | Tributada pelo Simples Nacional **sem** permissão de crédito |
+| NCM | **0901.21.00** | Café torrado, não descafeinado |
+
+---
+
+## Operação 7 — Empresa S vende camisetas de algodão (saída, mesmo estado, com permissão de crédito)
+
+| Campo | Código | Por quê |
+|-------|--------|---------|
+| CFOP | **5.102** | Venda de mercadoria adquirida ou recebida de terceiros |
+| CSOSN | **101** | Tributada pelo Simples Nacional **com** permissão de crédito |
+| NCM | **6109.10.00** | Camisetas de algodão |
+
+---
+
+## Operação 8 — Empresa S remete máquina de café para conserto (mesmo estado)
+
+| Campo | Código | Por quê |
+|-------|--------|---------|
+| CFOP | **não está na lista** | O código adequado seria **5.915** (Remessa de bem para conserto/reparo), que não consta no recorte |
+| CSOSN | **900** | Outros — não é venda; não se enquadra em 101, 102, 103 ou 500 |
+| NCM | **não está na lista** | A NCM de máquinas de café (ex.: 8516.71.00) não consta no recorte |
+
+---
+
+---
+
+# IBS e CBS — Somente com os trechos colados
+
+## Fonte 1 — Comitê Gestor do IBS, nota de 31/12/2025 → **ORIENTAÇÃO (não é lei)**
+
+**Para Empresa N (regime normal):**
+
+> "A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais deverão destacar o IBS e a CBS nas notas fiscais, sem que esses valores componham o total da operação. Esse destaque terá caráter exclusivamente informativo, desde que cumpridas as obrigações acessórias previstas na legislação."
+
+> "não haverá incidência de sanções administrativas até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos."
+
+**Para Empresa S (Simples Nacional):**
+
+> "Para as empresas optantes pelo Simples Nacional, não haverá qualquer alteração em 2026. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais a partir de 2027."
+
+---
+
+## Fonte 2 — LC 214/2025, art. 348 → **LEI**
+
+**Para Empresa N (regime normal):**
+
+> § 1.º: "Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação."
+
+> § 3.º (LC 227/2026): lavrado auto de infração pelas obrigações acessórias do IBS e da CBS, "o sujeito passivo será intimado para, no prazo de 60 (sessenta) dias contado da intimação, suprir a omissão apontada pela fiscalização."
+
+> § 4.º: "O atendimento à intimação a que se refere o § 3.º deste artigo importa extinção da penalidade imposta ao sujeito passivo."
+
+**Para Empresa S (Simples Nacional):**
+
+> Art. 348, III, c: as alíquotas de teste "não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional."
+
+--- Você:
+Agora sobre o IBS e a CBS neste ano de 2026:
+1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+2. Esses valores entram no total da nota?
+3. A Empresa S, do Simples, destaca?
+4. Se a Empresa N não preencher o IBS e a CBS, o que acontece?
+--- IA:
+# IBS e CBS em 2026 — Respostas com base apenas nos trechos colados
+
+---
+
+## 1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+
+**Sim.** As duas fontes apontam na mesma direção:
+
+> **Comitê Gestor — orientação:** "A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais **deverão** destacar o IBS e a CBS nas notas fiscais."
+
+> **LC 214/2025, § 1.º — lei:** A dispensa do *recolhimento* vale para "os sujeitos passivos que **cumprirem as obrigações acessórias** previstas na legislação" — ou seja, o destaque na nota é condição para ficar dispensado de pagar.
+
+---
+
+## 2. Esses valores entram no total da nota?
+
+**Não.**
+
+> **Comitê Gestor — orientação:** "sem que esses valores **componham o total da operação**. Esse destaque terá caráter **exclusivamente informativo**."
+
+Nenhum dos trechos da LC 214/2025 contraria isso.
+
+---
+
+## 3. A Empresa S, do Simples, destaca em 2026?
+
+**Não, só a partir de 2027.**
+
+> **Comitê Gestor — orientação:** "Para as empresas optantes pelo Simples Nacional, **não haverá qualquer alteração em 2026**. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais **a partir de 2027**."
+
+> **LC 214/2025, art. 348, III, c — lei:** as alíquotas de teste "**não serão aplicadas** em relação às operações dos contribuintes optantes pelo Simples Nacional."
+
+---
+
+## 4. Se a Empresa N não preencher, o que acontece?
+
+A resposta tem **três camadas**, e é importante saber qual é lei e qual é orientação:
+
+| Camada | Fonte | Natureza | O que diz |
+|--------|-------|----------|-----------|
+| **Sem sanção imediata** | Comitê Gestor | **Orientação** | "não haverá incidência de sanções administrativas até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos" |
+| **Se vier auto de infração** | LC 214/2025, § 3.º | **Lei** | "o sujeito passivo será intimado para, no prazo de **60 dias** contado da intimação, suprir a omissão apontada pela fiscalização" |
+| **Se corrigir no prazo** | LC 214/2025, § 4.º | **Lei** | "O atendimento à intimação… **importa extinção da penalidade** imposta ao sujeito passivo" |
+
+> ⚠️ **Ponto de atenção:** a ausência de sanção imediata vem de uma **orientação**, não de lei. A **lei** (LC 214/2025, § 1.º) vincula a dispensa do *pagamento* do IBS e da CBS ao cumprimento das obrigações acessórias — logo, se a Empresa N não destacar, corre o risco de perder a dispensa e ter de recolher os tributos, além de enfrentar eventual auto de infração.
+
+### 2026-10-09 23:35 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Me diga o CFOP, o CST ou o CSOSN e a NCM de cada operação abaixo. Use só os códigos do recorte colado; se nenhum servir, diga "não está na lista". Sobre o IBS e a CBS, responda só com os trechos colados e diga se cada um é lei ou orientação.
+
+Duas empresas, as duas no mesmo estado:
+- Empresa N: distribuidora do regime normal (lucro presumido), CRT 3.
+- Empresa S: loja optante pelo Simples Nacional, CRT 1.
+
+As operações:
+1. Empresa N compra, de fornecedor do mesmo estado, caixas de água mineral sem gás para revender.
+2. Empresa N vende essa água mineral sem gás (produto nacional, comprado de terceiros) para cliente do mesmo estado; ICMS tributado integralmente, sem substituição tributária.
+3. Empresa N vende smartphones para cliente de outro estado; os aparelhos foram importados por outra empresa e comprados aqui no Brasil; ICMS tributado integralmente.
+4. Empresa N vende cerveja de malte comprada de terceiros, cujo ICMS já foi retido por substituição tributária na compra (a Empresa N é contribuinte substituído), para cliente do mesmo estado.
+5. Empresa N devolve ao fornecedor do mesmo estado parte das caixas de água da operação 1.
+6. Empresa S vende café torrado, não descafeinado (nacional, comprado de terceiros), a consumidor final do mesmo estado; sem permissão de crédito; sem substituição tributária.
+7. Empresa S vende camisetas de algodão (nacionais, compradas de terceiros) para uma empresa contribuinte do mesmo estado, com permissão de crédito.
+8. Empresa S manda uma máquina de café do próprio uso para conserto numa assistência técnica do mesmo estado.
+
+Recorte das tabelas oficiais (copiado das fontes):
+CFOP (Convênio s/nº de 1970, tabela do Ajuste SINIEF 07/2001):
+- 1.102 – Compra para comercialização
+- 5.101 – Venda de produção do estabelecimento
+- 5.102 – Venda de mercadoria adquirida ou recebida de terceiros
+- 5.405 – Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituído
+- 6.102 – Venda de mercadoria adquirida ou recebida de terceiros (o primeiro dígito 6 é para outro estado; 5, dentro do estado; 1, entrada do mesmo estado)
+CST do ICMS: "três dígitos na forma ABB, onde o 1º dígito deve indicar a origem da mercadoria ou serviço, com base na Tabela A e os 2º e 3º dígitos a tributação pelo ICMS, com base na Tabela B" (Ajuste SINIEF 39/2023).
+Tabela A (origem): 0 - Nacional, exceto as indicadas nos códigos 3 a 5; 1 - Estrangeira - Importação direta, exceto a indicada no código 6; 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7.
+Tabela B (tributação): 00 Tributada integralmente; 20 Tributada com redução de base de cálculo; 40 Isenta; 41 Não tributada; 60 ICMS cobrado anteriormente por substituição tributária ou por antecipação com encerramento de tributação.
+CSOSN (Simples Nacional): "será usado na Nota Fiscal Eletrônica exclusivamente quando o Código de Regime Tributário - CRT - for igual a 1 ou 4, e substituirá os códigos da Tabela B": 101 Tributada pelo Simples Nacional com permissão de crédito; 102 Tributada pelo Simples Nacional sem permissão de crédito; 103 Isenção do ICMS no Simples Nacional para faixa de receita bruta; 500 ICMS cobrado anteriormente por substituição tributária (substituído) ou por antecipação; 900 Outros.
+NCM (tabela vigente em 09/10/2026, Res. Gecex 926/2026), com a posição:
+- 0901.21.00 -- Não descafeinado (posição 09.01, café torrado)
+- 2201.10.00 - Águas minerais e águas gaseificadas (posição 22.01, águas)
+- 2203.00.00 Cervejas de malte.
+- 6109.10.00 - De algodão (posição 61.09, camisetas)
+- 8517.13.00 -- Telefones inteligentes (smartphones)
+
+Trechos sobre o IBS e a CBS em 2026:
+- Comitê Gestor do IBS, nota de 31/12/2025 (orientação, não lei): "A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais deverão destacar o IBS e a CBS nas notas fiscais, sem que esses valores componham o total da operação. Esse destaque terá caráter exclusivamente informativo, desde que cumpridas as obrigações acessórias previstas na legislação." "Para as empresas optantes pelo Simples Nacional, não haverá qualquer alteração em 2026. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais a partir de 2027." "não haverá incidência de sanções administrativas até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos."
+- LC 214/2025, art. 348, § 1º (lei): "Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação." Art. 348, III, c: as alíquotas de teste "não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional." § 3º (LC 227/2026): lavrado auto de infração pelas obrigações acessórias do IBS e da CBS, "o sujeito passivo será intimado para, no prazo de 60 (sessenta) dias contado da intimação, suprir a omissão apontada pela fiscalização." § 4º: "O atendimento à intimação a que se refere o § 3º deste artigo importa extinção da penalidade imposta ao sujeito passivo."
+--- IA:
+# Resposta por operação
+
+## Empresa N — CRT 3 (Regime Normal) → usa CST
+
+| Op. | Descrição resumida | CFOP | CST | NCM |
+|---|---|---|---|---|
+| 1 | Compra de água mineral s/ gás p/ revenda (mesmo estado) | **1.102** | **000** (A=0 nacional · BB=00 tributada integralmente) | **2201.10.00** |
+| 2 | Venda de água mineral s/ gás (terceiros, mesmo estado, ICMS integral) | **5.102** | **000** (A=0 nacional · BB=00 tributada integralmente) | **2201.10.00** |
+| 3 | Venda de smartphones (importados por terceiros, comprados no BR) para outro estado | **6.102** | **200** (A=2 estrangeira adquirida no mercado interno · BB=00 tributada integralmente) | **8517.13.00** |
+| 4 | Venda de cerveja com ICMS-ST já retido (contribuinte substituído, mesmo estado) | **5.405** | **060** (A=0 nacional · BB=60 ICMS cobrado anteriormente por ST) | **2203.00.00** |
+| 5 | Devolução ao fornecedor do mesmo estado | **Não está na lista** ¹ | **000** (A=0 nacional · BB=00 tributada integralmente) | **2201.10.00** |
+
+> ¹ A devolução de compra para comercialização no mesmo estado usaria o CFOP 5.202, que não consta no recorte fornecido.
+
+---
+
+## Empresa S — CRT 1 (Simples Nacional) → usa CSOSN
+
+| Op. | Descrição resumida | CFOP | CSOSN | NCM |
+|---|---|---|---|---|
+| 6 | Venda de café torrado não descafeinado a consumidor final (mesmo estado, sem crédito, sem ST) | **5.102** | **102** (Tributada pelo Simples Nacional sem permissão de crédito) | **0901.21.00** |
+| 7 | Venda de camisetas de algodão a contribuinte (mesmo estado, com permissão de crédito) | **5.102** | **101** (Tributada pelo Simples Nacional com permissão de crédito) | **6109.10.00** |
+| 8 | Remessa de máquina do ativo próprio para conserto (mesmo estado) | **Não está na lista** ² | **900** (Outros) | **Não está na lista** ³ |
+
+> ² A remessa para conserto usaria o CFOP 5.915, que não consta no recorte fornecido.  
+> ³ A NCM de uma máquina de café (ativo imobilizado) não consta no recorte fornecido.
+
+---
+
+## IBS e CBS — apenas os trechos colados, com classificação
+
+### Para a Empresa N (regime normal, opera a partir de jan/2026)
+
+**→ Destaque nas notas fiscais**
+> "A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais deverão destacar o IBS e a CBS nas notas fiscais, sem que esses valores componham o total da operação. Esse destaque terá caráter exclusivamente informativo, desde que cumpridas as obrigações acessórias previstas na legislação."
+
+*Fonte: Comitê Gestor do IBS, nota de 31/12/2025 — **orientação, não lei**.*
+
+---
+
+**→ Dispensa de recolhimento**
+> "Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação."
+
+*Fonte: LC 214/2025, art. 348, § 1º — **lei**.*
+
+---
+
+**→ Prazo de tolerância para sanções**
+> "não haverá incidência de sanções administrativas até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos."
+
+*Fonte: Comitê Gestor do IBS, nota de 31/12/2025 — **orientação, não lei**.*
+
+---
+
+**→ Procedimento em caso de auto de infração por obrigação acessória**
+> "o sujeito passivo será intimado para, no prazo de 60 (sessenta) dias contado da intimação, suprir a omissão apontada pela fiscalização."
+> "O atendimento à intimação a que se refere o § 3º deste artigo importa extinção da penalidade imposta ao sujeito passivo."
+
+*Fonte: LC 214/2025, art. 348, §§ 3º e 4º (redação da LC 227/2026) — **lei**.*
+
+---
+
+### Para a Empresa S (Simples Nacional)
+
+**→ Sem alteração em 2026**
+> "Para as empresas optantes pelo Simples Nacional, não haverá qualquer alteração em 2026. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais a partir de 2027."
+
+*Fonte: Comitê Gestor do IBS, nota de 31/12/2025 — **orientação, não lei**.*
+
+---
+
+**→ Alíquotas de teste não se aplicam**
+> as alíquotas de teste "não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional."
+
+*Fonte: LC 214/2025, art. 348, III, "c" — **lei**.*
+
+--- Você:
+Agora sobre o IBS e a CBS neste ano de 2026:
+1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+2. Esses valores entram no total da nota?
+3. A Empresa S, do Simples, destaca?
+4. Se a Empresa N não preencher o IBS e a CBS, o que acontece?
+--- IA:
+## Respostas — apenas com base nos trechos colados
+
+---
+
+### 1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+
+**Sim.** Conforme o Comitê Gestor do IBS, nota de 31/12/2025 — **orientação**:
+
+> "A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais **deverão** destacar o IBS e a CBS nas notas fiscais…"
+
+---
+
+### 2. Esses valores entram no total da nota?
+
+**Não.** O destaque é apenas informativo. Mesmo trecho — **orientação**:
+
+> "…**sem que esses valores componham o total da operação**. Esse destaque terá caráter **exclusivamente informativo**, desde que cumpridas as obrigações acessórias previstas na legislação."
+
+---
+
+### 3. A Empresa S, do Simples, destaca?
+
+**Não em 2026.** Dois fundamentos:
+
+> "Para as empresas optantes pelo Simples Nacional, **não haverá qualquer alteração em 2026**. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais **a partir de 2027**."
+
+*Comitê Gestor do IBS, nota de 31/12/2025 — **orientação**.*
+
+> As alíquotas de teste "**não serão aplicadas** em relação às operações dos contribuintes optantes pelo Simples Nacional."
+
+*LC 214/2025, art. 348, III, "c" — **lei**.*
+
+---
+
+### 4. Se a Empresa N não preencher o IBS e a CBS, o que acontece?
+
+A resposta tem duas camadas, de fontes diferentes:
+
+**Camada 1 — enquanto os regulamentos não forem publicados** (*orientação*):
+> "**não haverá incidência de sanções administrativas** até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos."
+
+*Comitê Gestor do IBS, nota de 31/12/2025 — **orientação**.*
+
+---
+
+**Camada 2 — se mesmo assim for lavrado auto de infração** (*lei*):
+> "o sujeito passivo será intimado para, no prazo de **60 (sessenta) dias** contado da intimação, suprir a omissão apontada pela fiscalização."
+> "O atendimento à intimação a que se refere o § 3º deste artigo **importa extinção da penalidade** imposta ao sujeito passivo."
+
+*LC 214/2025, art. 348, §§ 3º e 4º (redação da LC 227/2026) — **lei**.*
+
+---
+
+> ⚠️ **Atenção importante:** a proteção da camada 1 vem de uma **orientação** do Comitê Gestor, não de lei. A proteção da camada 2 — prazo de 60 dias para sanar e extinção da penalidade — está em **lei** (LC 214/2025). Para fins de segurança jurídica do cliente, o respaldo mais sólido é o da lei.
+
+### 2026-10-09 23:35 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh)
+--- Você:
+Sou auxiliar fiscal num escritório de contabilidade. Me diga o CFOP, o CST ou o CSOSN e a NCM de cada operação abaixo. Use só os códigos do recorte colado; se nenhum servir, diga "não está na lista". Sobre o IBS e a CBS, responda só com os trechos colados e diga se cada um é lei ou orientação.
+
+Duas empresas, as duas no mesmo estado:
+- Empresa N: distribuidora do regime normal (lucro presumido), CRT 3.
+- Empresa S: loja optante pelo Simples Nacional, CRT 1.
+
+As operações:
+1. Empresa N compra, de fornecedor do mesmo estado, caixas de água mineral sem gás para revender.
+2. Empresa N vende essa água mineral sem gás (produto nacional, comprado de terceiros) para cliente do mesmo estado; ICMS tributado integralmente, sem substituição tributária.
+3. Empresa N vende smartphones para cliente de outro estado; os aparelhos foram importados por outra empresa e comprados aqui no Brasil; ICMS tributado integralmente.
+4. Empresa N vende cerveja de malte comprada de terceiros, cujo ICMS já foi retido por substituição tributária na compra (a Empresa N é contribuinte substituído), para cliente do mesmo estado.
+5. Empresa N devolve ao fornecedor do mesmo estado parte das caixas de água da operação 1.
+6. Empresa S vende café torrado, não descafeinado (nacional, comprado de terceiros), a consumidor final do mesmo estado; sem permissão de crédito; sem substituição tributária.
+7. Empresa S vende camisetas de algodão (nacionais, compradas de terceiros) para uma empresa contribuinte do mesmo estado, com permissão de crédito.
+8. Empresa S manda uma máquina de café do próprio uso para conserto numa assistência técnica do mesmo estado.
+
+Recorte das tabelas oficiais (copiado das fontes):
+CFOP (Convênio s/nº de 1970, tabela do Ajuste SINIEF 07/2001):
+- 1.102 – Compra para comercialização
+- 5.101 – Venda de produção do estabelecimento
+- 5.102 – Venda de mercadoria adquirida ou recebida de terceiros
+- 5.405 – Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituído
+- 6.102 – Venda de mercadoria adquirida ou recebida de terceiros (o primeiro dígito 6 é para outro estado; 5, dentro do estado; 1, entrada do mesmo estado)
+CST do ICMS: "três dígitos na forma ABB, onde o 1º dígito deve indicar a origem da mercadoria ou serviço, com base na Tabela A e os 2º e 3º dígitos a tributação pelo ICMS, com base na Tabela B" (Ajuste SINIEF 39/2023).
+Tabela A (origem): 0 - Nacional, exceto as indicadas nos códigos 3 a 5; 1 - Estrangeira - Importação direta, exceto a indicada no código 6; 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7.
+Tabela B (tributação): 00 Tributada integralmente; 20 Tributada com redução de base de cálculo; 40 Isenta; 41 Não tributada; 60 ICMS cobrado anteriormente por substituição tributária ou por antecipação com encerramento de tributação.
+CSOSN (Simples Nacional): "será usado na Nota Fiscal Eletrônica exclusivamente quando o Código de Regime Tributário - CRT - for igual a 1 ou 4, e substituirá os códigos da Tabela B": 101 Tributada pelo Simples Nacional com permissão de crédito; 102 Tributada pelo Simples Nacional sem permissão de crédito; 103 Isenção do ICMS no Simples Nacional para faixa de receita bruta; 500 ICMS cobrado anteriormente por substituição tributária (substituído) ou por antecipação; 900 Outros.
+NCM (tabela vigente em 09/10/2026, Res. Gecex 926/2026), com a posição:
+- 0901.21.00 -- Não descafeinado (posição 09.01, café torrado)
+- 2201.10.00 - Águas minerais e águas gaseificadas (posição 22.01, águas)
+- 2203.00.00 Cervejas de malte.
+- 6109.10.00 - De algodão (posição 61.09, camisetas)
+- 8517.13.00 -- Telefones inteligentes (smartphones)
+
+Trechos sobre o IBS e a CBS em 2026:
+- Comitê Gestor do IBS, nota de 31/12/2025 (orientação, não lei): "A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais deverão destacar o IBS e a CBS nas notas fiscais, sem que esses valores componham o total da operação. Esse destaque terá caráter exclusivamente informativo, desde que cumpridas as obrigações acessórias previstas na legislação." "Para as empresas optantes pelo Simples Nacional, não haverá qualquer alteração em 2026. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais a partir de 2027." "não haverá incidência de sanções administrativas até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos."
+- LC 214/2025, art. 348, § 1º (lei): "Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação." Art. 348, III, c: as alíquotas de teste "não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional." § 3º (LC 227/2026): lavrado auto de infração pelas obrigações acessórias do IBS e da CBS, "o sujeito passivo será intimado para, no prazo de 60 (sessenta) dias contado da intimação, suprir a omissão apontada pela fiscalização." § 4º: "O atendimento à intimação a que se refere o § 3º deste artigo importa extinção da penalidade imposta ao sujeito passivo."
+--- IA:
+# CFOP, CST/CSOSN e NCM — por operação
+
+## Tabela-resumo
+
+| Op. | Empresa | CFOP | CST / CSOSN | NCM |
+|-----|---------|------|-------------|-----|
+| 1 | N – CRT 3 | **1.102** | CST **000** | **2201.10.00** |
+| 2 | N – CRT 3 | **5.102** | CST **000** | **2201.10.00** |
+| 3 | N – CRT 3 | **6.102** | CST **200** | **8517.13.00** |
+| 4 | N – CRT 3 | **5.405** | CST **060** | **2203.00.00** |
+| 5 | N – CRT 3 | **não está na lista** | CST **000** | **2201.10.00** |
+| 6 | S – CRT 1 | **5.102** | CSOSN **102** | **0901.21.00** |
+| 7 | S – CRT 1 | **5.102** | CSOSN **101** | **6109.10.00** |
+| 8 | S – CRT 1 | **não está na lista** | CSOSN **900** | **não está na lista** |
+
+---
+
+## Justificativas operação a operação
+
+### Op. 1 — Empresa N compra água mineral sem gás para revender (mesmo estado)
+- **CFOP 1.102:** entrada de mercadoria para comercialização, fornecedor do mesmo estado → dígito inicial **1**.
+- **CST 000:** Tabela A = **0** (nacional); Tabela B = **00** (tributada integralmente).
+- **NCM 2201.10.00:** posição 22.01, águas minerais.
+
+---
+
+### Op. 2 — Empresa N vende água mineral sem gás, ICMS tributado integralmente, mesmo estado
+- **CFOP 5.102:** saída de mercadoria adquirida de terceiros, mesmo estado → dígito **5**.
+- **CST 000:** mesma lógica da op. 1 (nacional + tributada integralmente).
+- **NCM 2201.10.00.**
+
+---
+
+### Op. 3 — Empresa N vende smartphones para outro estado; importados por outra empresa, comprados no Brasil; ICMS tributado integralmente
+- **CFOP 6.102:** saída para **outro estado** → dígito **6**; mercadoria adquirida de terceiros.
+- **CST 200:** Tabela A = **2** (estrangeira adquirida no mercado interno — foram importados por outra empresa e comprados domesticamente pela Empresa N, não por importação direta dela); Tabela B = **00** (tributada integralmente).
+- **NCM 8517.13.00:** telefones inteligentes.
+
+---
+
+### Op. 4 — Empresa N vende cerveja de malte; ICMS já retido por ST na compra (contribuinte substituído), mesmo estado
+- **CFOP 5.405:** específico para venda de mercadoria adquirida de terceiros **sujeita ao regime de ST na condição de contribuinte substituído**.
+- **CST 060:** Tabela A = **0** (nacional); Tabela B = **60** (ICMS cobrado anteriormente por substituição tributária).
+- **NCM 2203.00.00:** cervejas de malte.
+
+---
+
+### Op. 5 — Empresa N devolve ao fornecedor do mesmo estado parte das caixas de água
+- **CFOP:** **não está na lista** — a devolução de compra para comercialização no mesmo estado utilizaria o código **5.201**, que não consta no recorte fornecido.
+- **CST 000:** o tratamento tributário do ICMS espelha o da operação original (nacional, tributada integralmente).
+- **NCM 2201.10.00:** mesma mercadoria da op. 1.
+
+---
+
+### Op. 6 — Empresa S vende café torrado não descafeinado a consumidor final, mesmo estado; sem permissão de crédito; sem ST
+- **CFOP 5.102:** saída de mercadoria adquirida de terceiros, mesmo estado.
+- **CSOSN 102:** "Tributada pelo Simples Nacional **sem** permissão de crédito" — o enunciado informa explicitamente que não há permissão de crédito.
+- **NCM 0901.21.00:** café torrado, não descafeinado.
+
+---
+
+### Op. 7 — Empresa S vende camisetas de algodão a empresa contribuinte do mesmo estado; com permissão de crédito
+- **CFOP 5.102:** saída de mercadoria adquirida de terceiros, mesmo estado.
+- **CSOSN 101:** "Tributada pelo Simples Nacional **com** permissão de crédito" — o enunciado informa que há permissão de crédito.
+- **NCM 6109.10.00:** camisetas de algodão.
+
+---
+
+### Op. 8 — Empresa S remete máquina de café (bem do próprio uso) para conserto, mesmo estado
+- **CFOP:** **não está na lista** — remessa para conserto/reparo de bem do ativo usaria o código **5.915**, ausente no recorte.
+- **CSOSN 900:** "Outros" — é a única opção residual disponível no recorte; a operação não é venda tributada (101/102), não é isenção por faixa de receita (103) nem envolve ST anterior (500).
+- **NCM:** **não está na lista** — máquinas de café domésticas/comerciais elétricas classificam-se tipicamente na posição 85.16 ou 84.19, nenhuma presente no recorte.
+
+---
+
+## IBS e CBS — apenas com os trechos colados
+
+### Empresa N (regime normal — não é Simples Nacional)
+
+**1. Obrigação de destacar nas NFs a partir de janeiro/2026**
+> *"A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais deverão destacar o IBS e a CBS nas notas fiscais, sem que esses valores componham o total da operação. Esse destaque terá caráter exclusivamente informativo, desde que cumpridas as obrigações acessórias previstas na legislação."*
+
+→ **Orientação** (Comitê Gestor do IBS, nota de 31/12/2025)
+
+**2. Dispensa de recolhimento enquanto cumprir as obrigações acessórias**
+> *"Fica dispensado o recolhimento do IBS e da CBS relativo aos fatos geradores ocorridos no período indicado no caput em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação."*
+
+→ **Lei** (LC 214/2025, art. 348, §1º)
+
+**3. Auto de infração: prazo de 60 dias e extinção da penalidade**
+> *"o sujeito passivo será intimado para, no prazo de 60 (sessenta) dias contado da intimação, suprir a omissão apontada pela fiscalização."*
+> *"O atendimento à intimação a que se refere o §3º deste artigo importa extinção da penalidade imposta ao sujeito passivo."*
+
+→ **Lei** (LC 214/2025, art. 348, §3º e §4º, com redação da LC 227/2026)
+
+**4. Sem sanções até a publicação dos regulamentos**
+> *"não haverá incidência de sanções administrativas até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos."*
+
+→ **Orientação** (Comitê Gestor do IBS, nota de 31/12/2025)
+
+---
+
+### Empresa S (Simples Nacional)
+
+**5. Nenhuma alteração em 2026; destaque só a partir de 2027**
+> *"Para as empresas optantes pelo Simples Nacional, não haverá qualquer alteração em 2026. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais a partir de 2027."*
+
+→ **Orientação** (Comitê Gestor do IBS, nota de 31/12/2025)
+
+**6. Alíquotas de teste não se aplicam ao Simples Nacional**
+> as alíquotas de teste *"não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional."*
+
+→ **Lei** (LC 214/2025, art. 348, III, "c")
+
+--- Você:
+Agora sobre o IBS e a CBS neste ano de 2026:
+1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+2. Esses valores entram no total da nota?
+3. A Empresa S, do Simples, destaca?
+4. Se a Empresa N não preencher o IBS e a CBS, o que acontece?
+--- IA:
+## IBS e CBS em 2026 — respondendo só com os trechos colados
+
+---
+
+### 1. A Empresa N tem de destacar o IBS e a CBS nas notas?
+
+**Sim.**
+
+> *"A partir de janeiro de 2026, os contribuintes que já emitem documentos fiscais deverão destacar o IBS e a CBS nas notas fiscais […] desde que cumpridas as obrigações acessórias previstas na legislação."*
+
+→ **Orientação** (Comitê Gestor do IBS, nota de 31/12/2025)
+
+---
+
+### 2. Esses valores entram no total da nota?
+
+**Não.**
+
+> *"sem que esses valores componham o total da operação. Esse destaque terá caráter exclusivamente informativo."*
+
+→ **Orientação** (Comitê Gestor do IBS, nota de 31/12/2025)
+
+---
+
+### 3. A Empresa S, do Simples, destaca em 2026?
+
+**Não — nem em 2026; só a partir de 2027.**
+
+Dois fundamentos, de naturezas diferentes:
+
+> *"Para as empresas optantes pelo Simples Nacional, não haverá qualquer alteração em 2026. Essas empresas somente passarão a destacar o IBS e a CBS em seus documentos fiscais a partir de 2027."*
+
+→ **Orientação** (Comitê Gestor do IBS, nota de 31/12/2025)
+
+> As alíquotas de teste *"não serão aplicadas em relação às operações dos contribuintes optantes pelo Simples Nacional."*
+
+→ **Lei** (LC 214/2025, art. 348, III, "c")
+
+---
+
+### 4. Se a Empresa N não preencher, o que acontece?
+
+A resposta tem três camadas, cada uma com sua fonte:
+
+**a) Por enquanto, sem sanção automática**
+> *"não haverá incidência de sanções administrativas até o primeiro dia do quarto mês subsequente à publicação da parte comum dos regulamentos desses tributos."*
+
+→ **Orientação** (Comitê Gestor do IBS, nota de 31/12/2025)
+
+**b) Se lavrado auto de infração: 60 dias para corrigir**
+> *"o sujeito passivo será intimado para, no prazo de 60 (sessenta) dias contado da intimação, suprir a omissão apontada pela fiscalização."*
+
+→ **Lei** (LC 214/2025, art. 348, §3º, redação da LC 227/2026)
+
+**c) Se corrigir no prazo: penalidade extinta**
+> *"O atendimento à intimação a que se refere o §3º deste artigo importa extinção da penalidade imposta ao sujeito passivo."*
+
+→ **Lei** (LC 214/2025, art. 348, §4º)
+
+**d) Risco adicional: perda da dispensa de recolhimento**
+
+O §1º da mesma lei vincula a dispensa de pagamento ao cumprimento das obrigações acessórias:
+
+> *"Fica dispensado o recolhimento do IBS e da CBS […] em relação aos sujeitos passivos que cumprirem as obrigações acessórias previstas na legislação."*
+
+→ **Lei** (LC 214/2025, art. 348, §1º)
+
+Ou seja: quem não destaca pode perder o benefício da dispensa de recolhimento — embora, na prática, a proteção contra sanções do item **a** e o prazo de cura do item **b** atenuem o risco imediato.
+

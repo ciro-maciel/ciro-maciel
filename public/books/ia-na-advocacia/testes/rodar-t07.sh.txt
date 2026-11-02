@@ -1,0 +1,131 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# t07. Petição inicial e contestação (cap. 7). 13/10/2026, Claude (grupo t05-t09 do PLANO.md).
+# Método e configuração de ../../../ia-na-sala-de-aula/research/testes/rodar-t00-bilhete.sh (função conversa de
+# rodar-t07c-t11d.sh do vol. 7, copiada abaixo sem mudança): configuração neutra, saída JSON em json/,
+# MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t07.txt. Duas partes, cada uma com 3 conversas naturais (N) e 3
+# com o prompt do capítulo (C), uma mensagem cada: t07a, a inicial; t07b, a contestação.
+# MATERIAL (fictício): m07a-fatos.txt (doze fatos numerados de uma ação contra companhia aérea, com os documentos);
+#  m07b-inicial.txt (inicial de revisional contra banco, dez alegações numeradas, processo 0001234-11.2026.8.99.0001 de
+#  numeros-ficticios.ts, CPF 123.456.789-00, OAB/ZZ 000.001, e a decisão que deferiu a gratuidade). Cliente A,
+#  Empresa-B, Banco-B, Comarca-X, Cidade-Y: inventados.
+# O QUE MUDA ENTRE N E C (a análise não separa uma mudança da outra):
+#  t07a: o C é o N palavra por palavra mais r07a-artigos.txt: a regra ("não acrescente fato; cada fato com o número do
+#   documento; cada pedido com a causa de pedir; artigos só dos colados") e quatro artigos colados (CPC, arts. 319 e 46;
+#   CDC, art. 101, I; Lei 9.099, art. 3º, I). Duas coisas a mais.
+#  t07b: o C é o N palavra por palavra mais r07b-337.txt: a regra ("impugne ponto a ponto, com o número do parágrafo;
+#   diga quais preliminares do art. 337 se aplicam e quais não") e o art. 337 colado. Duas coisas a mais.
+#
+# GABARITO (escrito ANTES de rodar; só [V], cópias em ../fontes-2026-10-09/: CPC 2015, d-cpc-2015-compilado.txt, arts.
+#  46 (l. 369), 100 (l. 1055), 292 (l. 2728), 319 (l. 3060), 330, § 2º (l. 3154), 335 a 337 (l. 3262 a 3284); CPC 1973,
+#  d-cpc-1973.txt; CDC, art. 101, I, d-cdc-1990-compilado.txt; Lei 9.099, art. 3º, I, d-lei-9099-1995.txt).
+#  t07a, A INICIAL (por resposta):
+#   FATO ACRESCENTADO: todo fato do caso (o que aconteceu, quem, quando, quanto) que não está nos doze, inclusive
+#    inferência dita como fato ("a companhia não ofereceu hospedagem", "esperou horas sem assistência", "perdeu um
+#    compromisso", "o notebook tinha arquivos de trabalho", horário de chegada, número de horas de atraso) e número
+#    trocado (valor, data, voo). Qualificação genérica do dano ("causou transtorno") é argumento, não fato; campo entre
+#    colchetes a preencher não é fato. Contar por resposta.
+#   ARTIGO DO CPC DE 1973: artigo citado como "CPC" cujo conteúdo dito é o do CPC/1973 e não o do CPC/2015 (ex.: 273
+#    tutela antecipada, 282 requisitos da inicial, 333 ônus da prova, 475-J). Artigo que não bate com nenhum dos dois =
+#    "artigo trocado". Contar.
+#   FORO: certo = Comarca-X, domicílio do autor (CDC, art. 101, I). Erro = só o domicílio do réu como foro possível.
+#   JUÍZO: certo = Juizado Especial Cível (35 salários mínimos não excede 40, Lei 9.099, art. 3º, I) ou vara cível.
+#    Erro = dizer que 35 salários mínimos passa do teto do juizado, ou dar outro teto ao juizado estadual.
+#   PEDIDO SEM CAUSA DE PEDIR: pedido sem fato que o sustente entre os doze (ex.: lucros cessantes; tutela de urgência
+#    sem urgência narrada; dano de outro tipo). Contar.
+#   ANOTADO: a Resolução 400 da ANAC, o Código Brasileiro de Aeronáutica, a Convenção de Montreal e julgados citados
+#    (não lidos: "não conferível"; julgado com número vai a VERIFICACAO.md); o valor do salário mínimo usado na conta
+#    (não lido); no C, se cada fato traz o documento e se cita artigo fora dos colados (conta como "fora dos colados").
+#  t07b, A CONTESTAÇÃO (por resposta):
+#   ALEGAÇÃO NÃO ENFRENTADA: das dez da inicial, as que a contestação não contesta nem admite de forma expressa (silêncio).
+#    Contar de 10.
+#   FATO ATRIBUÍDO AO AUTOR QUE NÃO ESTÁ NA INICIAL: o que a contestação diz que o autor disse, fez, admitiu ou juntou e
+#    não está em m07b-inicial.txt (ex.: "o autor confessa que conhecia as taxas"; número da inicial citado errado).
+#    Fato da defesa dito como do banco ("o banco informou as taxas") não conta aqui: anotar.
+#   PRELIMINARES DO ART. 337. Aplicáveis pelo material: III (valor da causa de R$ 1.000,00 "para fins de alçada", contra
+#    o art. 292, II, V e VI: valor do ato ou da parte controvertida, o dano moral pretendido, a soma dos pedidos); IV
+#    (inépcia: a revisional de financiamento não quantifica o valor incontroverso, art. 330, § 2º); XIII (gratuidade
+#    deferida a quem declara R$ 25.000,00 por mês; impugnação na contestação, art. 100). NÃO se aplicam pelo material:
+#    I, II (o réu tem sede em Comarca-X, art. 46), V a XII (nada nos autos). CONTAR: aplicáveis achadas (de 3);
+#    preliminar sem aplicação alegada (cada uma é erro). "Não há elementos" dito de uma não aplicável é certo.
+#   ARTIGO DO CPC DE 1973: como na t07a (ex.: 285-B, 301, 302 citados como "CPC").
+#   ANOTADO: súmulas e julgados citados (não lidos: "não conferível"; julgado com número vai a VERIFICACAO.md); no C, se
+#    usa o número do parágrafo.
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t07.txt 2>&1
+claude --version >> modelo-t07.txt 2>&1
+
+# conversa ROTULO PREFIXO_JSON "mensagem 1" ["mensagem 2" ...]  (a de rodar-t07c-t11d.sh do vol. 7, sem mudança)
+conversa() {
+  local ROTULO=$1 PREF=$2; shift 2
+  local P=$(mktemp -d); echo '{"mcpServers":{}}' > "$P/vazio.json"
+  local K=1 SID="" J
+  echo "##### $ROTULO"
+  echo "### $(date '+%Y-%m-%d %H:%M') · modelo=$MODELO · configuração neutra (conversa.sh, saída JSON)"
+  for MSG in "$@"; do
+    echo "--- Você:"
+    echo "$MSG"
+    echo "--- IA:"
+    J="json/${PREF}-m${K}.json"
+    if [[ -z $SID ]]; then
+      ( cd "$P" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+          --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+          "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    else
+      ( cd "$P" && claude -p --resume "$SID" --model "$MODELO" --tools "" --setting-sources "" \
+          --strict-mcp-config --mcp-config vazio.json --output-format json \
+          --system-prompt "Você é um assistente prestativo." "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    fi
+    [[ -s "$J.err" ]] || rm -f "$J.err"
+    python3 -c '
+import json,sys
+try:
+    d=json.load(open(sys.argv[1]))
+    print(d.get("result",""))
+    print()
+    print("[modelUsage:", ", ".join(d.get("modelUsage",{}).keys()) + "]")
+except Exception as e:
+    print(open(sys.argv[1]).read()); print("[erro ao ler o JSON:", e, "]")
+' "$J"
+    SID=$(python3 -c 'import json,sys
+try: print(json.load(open(sys.argv[1])).get("session_id",""))
+except Exception: print("")' "$J")
+    K=$((K+1))
+    echo
+  done
+}
+
+FATOS=$(cat m07a-fatos.txt); R7A=$(cat r07a-artigos.txt); INI=$(cat m07b-inicial.txt); R7B=$(cat r07b-337.txt)
+[[ -n $FATOS && -n $R7A && -n $INI && -n $R7B ]] || { echo "material não lido" >&2; exit 1; }
+P7A='Faça a petição inicial de uma ação contra a companhia aérea, com estes fatos.'
+P7B='Sou advogado do banco. Faça a contestação a esta petição inicial.'
+
+{ for i in 1 2 3; do conversa "t07a-N$i — inicial, prompt natural" "t07a-N$i" "$P7A
+
+$FATOS"; done
+  for i in 1 2 3; do conversa "t07a-C$i — inicial, prompt do capítulo" "t07a-C$i" "$P7A
+
+$FATOS
+
+$R7A"; done; } > t07a-inicial.txt 2>&1 &
+
+{ for i in 1 2 3; do conversa "t07b-N$i — contestação, prompt natural" "t07b-N$i" "$P7B
+
+$INI"; done
+  for i in 1 2 3; do conversa "t07b-C$i — contestação, prompt do capítulo" "t07b-C$i" "$P7B
+
+$INI
+
+$R7B"; done; } > t07b-contestacao.txt 2>&1 &
+
+wait

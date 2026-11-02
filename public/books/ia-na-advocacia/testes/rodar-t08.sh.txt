@@ -1,0 +1,130 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# t08. Recurso e recurso especial (cap. 8). 13/10/2026, Claude (grupo t05-t09 do PLANO.md).
+# Método e configuração de ../../../ia-na-sala-de-aula/research/testes/rodar-t00-bilhete.sh (função conversa de
+# rodar-t07c-t11d.sh do vol. 7, copiada abaixo sem mudança): configuração neutra, saída JSON em json/,
+# MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t08.txt. Duas partes, cada uma com 3 conversas naturais (N) e 3
+# com o prompt do capítulo (C), uma mensagem cada: t08a, a apelação; t08b, as perguntas.
+# MATERIAL (fictício): m08-sentenca.txt (sentença de improcedência numa ação de consumo, quatro fundamentos nos
+#  parágrafos [4] a [7], processo 0004321-22.2025.8.99.0001 de numeros-ficticios.ts, disponibilizada no DJEN em
+#  16/09/2026); m08b-perguntas.txt (as sete perguntas do PLANO, palavra por palavra, e a pergunta condicional do REsp em
+#  ação penal, que ../lacunas.md, "Leituras de 13/10/2026", §1, pôs no teste depois de lido o art. 105, § 3º).
+# O QUE MUDA ENTRE N E C (a análise não separa uma mudança da outra):
+#  t08a: o C é o N palavra por palavra mais r08a-regras.txt: a regra ("liste cada fundamento com o número do parágrafo
+#   [...] só com o que está nos autos colados; diga o prazo pela regra colada e o preparo") e três artigos colados
+#   (CPC, arts. 1.003, § 5º, 1.007 e 932, III). Duas coisas a mais.
+#  t08b: o C é o N palavra por palavra mais r08b-regras.txt ("Responda com base nos textos colados" e os textos: Lei
+#   15.484, arts. 4º e 7º, com a data do DOU; CPC, art. 1.035-A, §§ 1º a 6º; CF, art. 105, §§ 2º e 3º; CPP, arts. 593,
+#   600, 619 e 798). A data de publicação de cada acórdão já está nas perguntas, nas duas variantes.
+#
+# GABARITO (escrito ANTES de rodar; só [V]: CPC, d-cpc-2015-compilado.txt, arts. 932, III (l. 8825), 1.003, § 5º
+#  (l. 9662), 1.007 (l. 9700), 1.022 (l. 9946); Lei 15.484, h-planalto-l15484.txt l. 37 a 61, 197 a 216; LC 95, art. 8º,
+#  § 1º, h-planalto-lcp95.txt (vigor em 03/09/2026, ../lacunas.md §2); CF, art. 105, §§ 2º e 3º,
+#  ../fontes-2026-10-13/i-planalto-cf88.txt l. 3296 a 3310; CPP, d-cpp-1941-compilado.txt, arts. 593 (l. 9140), 600
+#  (l. 9237), 619 (l. 9383), 798 (l. 10994); Lei 11.419, art. 4º, §§ 3º e 4º).
+#  t08a, A APELAÇÃO (por resposta):
+#   FUNDAMENTOS ATACADOS (de 4): [4] ilegitimidade da loja no pedido (b); [5] falta de prova do nexo no pedido (b);
+#    [6] decadência do pedido (a); [7] ausência de dano moral. Atacado = a apelação traz um argumento contra AQUELE
+#    fundamento (não basta pedir a reforma geral). Contar de 4 (CPC, art. 932, III).
+#   FATO FORA DOS AUTOS: fato do caso usado no recurso que não está na sentença colada (ex.: "o autor juntou laudo",
+#    "a assistência deu resposta negativa em tal data", "a geladeira pegou fogo e feriu alguém"). Contar.
+#   PRAZO: certo = 15 dias úteis (CPC, arts. 1.003, § 5º, e 219). DATA: D 16/09 (qua) -> pub 17/09 (qui) -> início
+#    18/09 (sex): 18 (1); 21 a 25 (6); 28,29,30/09, 01,02/10 (11); 05,06,07,08/10 (15) -> FIM 08/10/2026 (qui); nenhum
+#    feriado nacional na janela. Data errada = erro; prazo sem data = anotar "sem data".
+#   PREPARO: o autor não tem gratuidade ([1]): certo = dizer que precisa comprovar o preparo no ato de interpor (art.
+#    1.007). Erro = "preparo esquecido" (a resposta não fala de preparo) ou dizer que não precisa.
+#   EMBARGOS SEM OMISSÃO: a sentença decide os três pedidos contra as duas rés e não deixa ponto pedido sem decisão.
+#    Erro = sugerir embargos de declaração por omissão, contradição ou obscuridade que não está no texto (conferir o
+#    que a IA apontar contra [1] a [8]). Se a IA apontar um vício que está mesmo no texto: anotar e não contar.
+#   ANOTADO: argumento jurídico de mérito com artigo não lido ou julgado (não conferível; julgado com número vai a
+#    VERIFICACAO.md); no C, se cita o parágrafo.
+#  t08b, AS PERGUNTAS:
+#   1. Não: o tópico é exigido contra acórdão publicado depois da entrada em vigor, 03/09/2026 (Lei 15.484, arts. 4º e
+#      7º). Erro = "sim" ou "desde 04/08/2026". Não conferível = "exigido desde a EC 125/2022", citando o art. 2º da
+#      emenda (../lacunas.md §1, "Atenção nova"). N: o modelo pode não conhecer a Lei 15.484; dizer que não conhece a lei
+#      e não afirmar = anotar como "não sabe", não conta como erro.
+#   2. Sim, em tópico específico e fundamentado (art. 1.035-A, § 2º). Erro = "não".
+#   3. O recurso será inadmitido (§ 3º). Erro = outra consequência (prazo para emendar, mero aviso).
+#   4. 2/3 dos membros do órgão competente (§ 6º; CF, art. 105, § 2º). Erro = maioria simples; outro número.
+#   5. 5 dias (CPP, art. 593), corridos (art. 798). Erro = 15 dias; dias úteis.
+#   6. 8 dias, depois de assinado o termo de apelação (art. 600). Erro = outro prazo.
+#   7. 2 dias da publicação (art. 619). Erro = 5 dias.
+#   8. (condicional, L-05) Certo = em ação penal a relevância é presumida/existe pela Constituição (art. 105, § 3º, I) e
+#      pela lei (art. 1.035-A, § 4º): o STJ não pode inadmitir o REsp penal por falta de relevância; certo também
+#      recomendar indicar a hipótese num tópico. Erro = "precisa demonstrar a relevância como qualquer outro, sem
+#      presunção"; "a ação penal está fora do filtro porque não cabe REsp". Não conferível = "o tópico é dispensado" dito
+#      como certo.
+#  O regimento do STJ (Lei 15.484, art. 6º) não foi lido [NV]: nada dito sobre ele conta.
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t08.txt 2>&1
+claude --version >> modelo-t08.txt 2>&1
+
+# conversa ROTULO PREFIXO_JSON "mensagem 1" ["mensagem 2" ...]  (a de rodar-t07c-t11d.sh do vol. 7, sem mudança)
+conversa() {
+  local ROTULO=$1 PREF=$2; shift 2
+  local P=$(mktemp -d); echo '{"mcpServers":{}}' > "$P/vazio.json"
+  local K=1 SID="" J
+  echo "##### $ROTULO"
+  echo "### $(date '+%Y-%m-%d %H:%M') · modelo=$MODELO · configuração neutra (conversa.sh, saída JSON)"
+  for MSG in "$@"; do
+    echo "--- Você:"
+    echo "$MSG"
+    echo "--- IA:"
+    J="json/${PREF}-m${K}.json"
+    if [[ -z $SID ]]; then
+      ( cd "$P" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+          --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+          "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    else
+      ( cd "$P" && claude -p --resume "$SID" --model "$MODELO" --tools "" --setting-sources "" \
+          --strict-mcp-config --mcp-config vazio.json --output-format json \
+          --system-prompt "Você é um assistente prestativo." "$MSG" < /dev/null ) > "$J" 2> "$J.err"
+    fi
+    [[ -s "$J.err" ]] || rm -f "$J.err"
+    python3 -c '
+import json,sys
+try:
+    d=json.load(open(sys.argv[1]))
+    print(d.get("result",""))
+    print()
+    print("[modelUsage:", ", ".join(d.get("modelUsage",{}).keys()) + "]")
+except Exception as e:
+    print(open(sys.argv[1]).read()); print("[erro ao ler o JSON:", e, "]")
+' "$J"
+    SID=$(python3 -c 'import json,sys
+try: print(json.load(open(sys.argv[1])).get("session_id",""))
+except Exception: print("")' "$J")
+    K=$((K+1))
+    echo
+  done
+}
+
+SENT=$(cat m08-sentenca.txt); R8A=$(cat r08a-regras.txt); PERG=$(cat m08b-perguntas.txt); R8B=$(cat r08b-regras.txt)
+[[ -n $SENT && -n $R8A && -n $PERG && -n $R8B ]] || { echo "material não lido" >&2; exit 1; }
+P8A='Sou advogado do autor. Faça a apelação contra esta sentença e me diga até quando posso protocolar.'
+
+{ for i in 1 2 3; do conversa "t08a-N$i — apelação, prompt natural" "t08a-N$i" "$P8A
+
+$SENT"; done
+  for i in 1 2 3; do conversa "t08a-C$i — apelação, prompt do capítulo" "t08a-C$i" "$P8A
+
+$SENT
+
+$R8A"; done; } > t08a-apelacao.txt 2>&1 &
+
+{ for i in 1 2 3; do conversa "t08b-N$i — perguntas, prompt natural" "t08b-N$i" "$PERG"; done
+  for i in 1 2 3; do conversa "t08b-C$i — perguntas, prompt do capítulo" "t08b-C$i" "$PERG
+
+$R8B"; done; } > t08b-perguntas.txt 2>&1 &
+
+wait

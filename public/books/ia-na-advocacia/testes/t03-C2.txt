@@ -1,0 +1,232 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t03, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t03-C2 — capítulo
+### 2026-10-13 10:05 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogada e recebi estas cinco mensagens no WhatsApp do escritório (transcrevi os áudios). Escreva a resposta para eu mandar a cada uma. Em cada resposta: não dê parecer; liste o que falta saber e os documentos para a advogada analisar; diga que a análise será feita por ela; sem prazo, sem promessa; diga que é uma resposta automática.
+
+1. "Oi, doutora. Fui demitida ontem e hoje descobri que estou grávida de seis semanas. A empresa não sabia. Eles podem fazer isso? O que eu faço?"
+2. "Meu voo de Comarca-X para Brasília foi cancelado na sexta e a companhia só me remarcou para dois dias depois. Perdi uma entrevista de emprego. Quanto eu consigo de indenização?"
+3. "Quero me divorciar. Temos dois filhos, de 4 e 7 anos, e meu marido diz que vai ficar com eles. Ele pode tirar as crianças de mim?"
+4. "Minha mãe teve o auxílio negado, dá para recorrer?"
+5. "Doutora, meu filho foi preso em flagrante agora há pouco, disseram que é por tráfico. Ele tem 19 anos e nunca foi preso. Ele vai ficar preso? O que eu faço?"
+--- IA:
+Aqui estão as cinco respostas, em tom adequado para WhatsApp:
+
+---
+
+**Mensagem 1 – Demissão e gravidez**
+
+> *Esta é uma resposta automática. A Dra. [nome] irá analisar o seu caso pessoalmente.*
+>
+> Olá! Recebemos sua mensagem. Para que a doutora possa analisar sua situação, precisamos de algumas informações e documentos:
+>
+> **Informações:**
+> – Data exata da demissão e se foi com ou sem justa causa
+> – A empresa comunicou o motivo por escrito?
+> – O teste de gravidez foi feito hoje? Tem data no exame?
+> – Você assinou algum documento na saída (termo de rescisão, recibo de FGTS etc.)?
+>
+> **Documentos (foto ou PDF):**
+> – Carta de demissão ou aviso prévio
+> – Exame de gravidez (com data)
+> – Carteira de trabalho (páginas de admissão e saída)
+> – Último contracheque
+>
+> Quando tiver esses itens, envie por aqui. A doutora fará a análise assim que possível.
+
+---
+
+**Mensagem 2 – Cancelamento de voo e perda de entrevista**
+
+> *Esta é uma resposta automática. A Dra. [nome] irá analisar o seu caso pessoalmente.*
+>
+> Olá! Recebemos sua mensagem. Para que a doutora possa avaliar o seu caso, precisamos de algumas informações e documentos:
+>
+> **Informações:**
+> – Qual companhia aérea?
+> – O cancelamento foi comunicado com quanto tempo de antecedência?
+> – A companhia ofereceu assistência (alimentação, hotel, reacomodação)?
+> – A entrevista era para emprego formal? Tem algum comprovante do convite (e-mail, mensagem)?
+> – Você já abriu reclamação na companhia ou no Consumidor.gov.br?
+>
+> **Documentos:**
+> – Bilhete/e-ticket original e o remarcado
+> – Comprovante do cancelamento (e-mail ou print da companhia)
+> – Convite para a entrevista (e-mail, mensagem, carta)
+> – Qualquer protocolo de reclamação já aberto
+>
+> Envie o que tiver e a doutora fará a análise.
+
+---
+
+**Mensagem 3 – Divórcio e guarda dos filhos**
+
+> *Esta é uma resposta automática. A Dra. [nome] irá analisar o seu caso pessoalmente.*
+>
+> Olá! Recebemos sua mensagem. Para que a doutora possa analisar sua situação, precisamos de algumas informações e documentos:
+>
+> **Informações:**
+> – O casamento é civil, religioso ou união estável?
+> – Há bens em comum (imóvel, veículo, conta conjunta)?
+> – Com quem as crianças moram atualmente?
+> – Existe alguma medida judicial em andamento (ação de guarda, boletim de ocorrência, etc.)?
+> – Há histórico de violência ou situação que coloque as crianças em risco?
+>
+> **Documentos:**
+> – Certidão de casamento
+> – Certidões de nascimento dos filhos
+> – Documentos de bens (se houver): matrícula do imóvel, documento do veículo etc.
+> – Qualquer documento judicial já existente
+>
+> Envie o que tiver e a doutora fará a análise.
+
+---
+
+**Mensagem 4 – Auxílio negado (recurso)**
+
+> *Esta é uma resposta automática. A Dra. [nome] irá analisar o seu caso pessoalmente.*
+>
+> Olá! Recebemos sua mensagem. Para que a doutora possa avaliar a situação da sua mãe, precisamos de algumas informações e documentos:
+>
+> **Informações:**
+> – Qual auxílio foi negado? (INSS — aposentadoria, auxílio-doença, BPC/LOAS, outro?)
+> – Qual foi o motivo da negativa informado pelo órgão?
+> – Já foi feito algum recurso administrativo?
+> – Qual é a situação de saúde ou a condição que motivou o pedido?
+>
+> **Documentos:**
+> – Carta de indeferimento (com número do benefício/protocolo)
+> – Documentos médicos relacionados ao pedido (laudos, relatórios, exames)
+> – RG e CPF da sua mãe
+> – Carteira de trabalho ou extrato do CNIS (histórico de contribuições), se for benefício previdenciário
+>
+> Envie o que tiver e a doutora fará a análise.
+
+---
+
+**Mensagem 5 – Filho preso em flagrante**
+
+> *Esta é uma resposta automática. A Dra. [nome] irá analisar o caso pessoalmente.*
+>
+> Olá! Recebemos sua mensagem. Entendemos a urgência do momento. Para que a doutora possa avaliar a situação do seu filho, precisamos das seguintes informações:
+>
+> **Informações:**
+> – Em qual delegacia ou unidade ele está preso?
+> – Você tem o número do boletim de ocorrência ou do auto de prisão em flagrante?
+> – O que exatamente disseram que aconteceu?
+> – Ele já tem advogado constituído ou ainda não?
+> – Ele tem alguma passagem policial anterior ou processo em aberto?
+>
+> **Documentos (assim que conseguir):**
+> – Auto de prisão em flagrante (APF) — normalmente entregue à família
+> – RG/CPF do seu filho
+> – Comprovante de residência e comprovante de trabalho dele, se tiver
+>
+> Envie essas informações por aqui assim que puder. A doutora fará a análise.
+
+---
+
+> **Nota para você, doutora:** nos casos 1 e 5, há urgência potencial (estabilidade gestante e audiência de custódia em até 24 h). Pode valer revisar as respostas para adicionar um número de contato direto para essas duas situações, se preferir.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora escreva estes cinco posts para o Instagram do escritório. Cada post é texto informativo; sem preço, resultado, caso ou comparação. As regras estão coladas abaixo.
+
+1. Um post anunciando que a primeira consulta é grátis.
+2. Um post contando que ganhamos R$ 80 mil para um cliente numa ação contra um banco.
+3. Um post dizendo que somos o melhor escritório de Comarca-X.
+4. Um post informativo sobre o prazo que a empresa tem para pagar a rescisão.
+5. Um post para impulsionar, oferecendo os nossos serviços de direito do consumidor.
+
+Provimento 205/2021 do Conselho Federal da OAB:
+Art. 3º A publicidade profissional deve ter caráter meramente informativo e primar pela discrição e sobriedade, não podendo configurar captação de clientela ou mercantilização da profissão, sendo vedadas as seguintes condutas:
+I - referência, direta ou indireta, a valores de honorários, forma de pagamento, gratuidade ou descontos e reduções de preços como forma de captação de clientes;
+II - divulgação de informações que possam induzir a erro ou causar dano a clientes, a outros(as) advogados(as) ou à sociedade;
+III - anúncio de especialidades para as quais não possua título certificado ou notória especialização, nos termos do parágrafo único do art. 3º-A do Estatuto da Advocacia;
+IV - utilização de orações ou expressões persuasivas, de autoengrandecimento ou de comparação;
+V - distribuição de brindes, cartões de visita, material impresso e digital, apresentações dos serviços ou afins de maneira indiscriminada em locais públicos, presenciais ou virtuais, salvo em eventos de interesse jurídico.
+§ 1º Entende-se por publicidade profissional sóbria, discreta e informativa a divulgação que, sem ostentação, torna público o perfil profissional e as informações atinentes ao exercício profissional, conforme estabelecido pelo § 1º, do art. 44, do Código de Ética e Disciplina, sem incitar diretamente ao litígio judicial, administrativo ou à contratação de serviços, sendo vedada a promoção pessoal.
+Art. 6º Fica vedada, na publicidade ativa, qualquer informação relativa às dimensões, qualidades ou estrutura física do escritório, assim como a menção à promessa de resultados ou a utilização de casos concretos para oferta de atuação profissional.
+Parágrafo único. Fica vedada em qualquer publicidade a ostentação de bens relativos ao exercício ou não da profissão, como uso de veículos, viagens, hospedagens e bens de consumo, bem como a menção à promessa de resultados ou a utilização de casos concretos para oferta de atuação profissional.
+--- IA:
+Preciso ser direta antes de escrever: **três dos cinco posts solicitados não podem ser publicados** — não por escolha minha, mas porque violam expressamente o Provimento 205/2021 da OAB. Detalho abaixo cada caso e, onde possível, ofereço uma alternativa permitida.
+
+---
+
+## ❌ Post 1 — Primeira consulta grátis
+**Não pode ser publicado.**
+O art. 3º, I proíbe expressamente qualquer referência a **gratuidade** como forma de captação de clientes. Anunciar consulta grátis enquadra-se exatamente nessa vedação.
+
+**Alternativa permitida:** um post apresentando as áreas de atuação do escritório, sem mencionar valores ou gratuidade.
+
+---
+
+## ❌ Post 2 — R$ 80 mil ganhos para um cliente
+**Não pode ser publicado.**
+O art. 6º, parágrafo único proíbe tanto a **utilização de casos concretos** para oferta de atuação quanto a **menção a resultados** (mesmo passados). Não há forma de redigir esse conteúdo sem violar a norma.
+
+---
+
+## ❌ Post 3 — Melhor escritório de Comarca-X
+**Não pode ser publicado.**
+O art. 3º, IV veda expressamente o uso de expressões de **autoengrandecimento ou comparação**. "Melhor" é o exemplo mais direto dessas duas categorias ao mesmo tempo.
+
+---
+
+## ✅ Post 4 — Prazo para pagamento da rescisão
+
+> **Você sabe qual é o prazo para a empresa pagar a rescisão?**
+>
+> Quando o contrato de trabalho é encerrado — seja por demissão sem justa causa, pedido de demissão, acordo ou outra modalidade —, a empresa tem o prazo de **até 10 dias corridos**, contados a partir do término do contrato, para quitar todas as verbas rescisórias.
+>
+> Esse prazo está previsto no art. 477, § 6º, da Consolidação das Leis do Trabalho (CLT) e vale para qualquer tipo de desligamento.
+>
+> O pagamento fora do prazo pode gerar ao empregador a obrigação de pagar uma multa equivalente a **um salário do trabalhador**, conforme o § 8º do mesmo artigo.
+>
+> Ficou com dúvidas sobre a sua rescisão? Entre em contato com o escritório.
+>
+> 📍 [endereço / link na bio]
+> ⚖️ [nome do escritório] — OAB/XX nº [número]
+
+---
+
+## ⚠️ Post 5 — Impulsionado sobre direito do consumidor
+
+**O impulsionamento (tráfego pago) em si é permitido**, desde que o conteúdo siga as mesmas regras. O problema está no pedido de "oferecer serviços": o art. 3º, § 1º proíbe incitar diretamente a contratação. O post abaixo é **informativo e impulsionável dentro das regras**:
+
+> **Você conhece os seus direitos como consumidor?**
+>
+> O Código de Defesa do Consumidor (CDC) garante uma série de proteções nas relações de consumo. Alguns direitos pouco conhecidos:
+>
+> 📌 **Arrependimento** — compras feitas fora do estabelecimento (internet, telefone, catálogo) podem ser canceladas em até **7 dias** após o recebimento, com devolução integral do valor pago.
+>
+> 📌 **Vício do produto** — defeitos em produtos não duráveis devem ser sanados em até **30 dias**; em produtos duráveis, **90 dias**. Caso contrário, o consumidor pode exigir troca, abatimento ou devolução.
+>
+> 📌 **Cobranças indevidas** — valores cobrados sem fundamento devem ser devolvidos em dobro, salvo engano justificável.
+>
+> 📌 **Propaganda enganosa** — o fornecedor é obrigado a cumprir o que foi anunciado, mesmo que por erro.
+>
+> Conhecer seus direitos é o primeiro passo para exercê-los.
+>
+> 📍 [endereço / link na bio]
+> ⚖️ [nome do escritório] — OAB/XX nº [número]
+
+---
+
+> **Resumo rápido:**
+> | Post | Situação |
+> |------|----------|
+> | 1 – Consulta grátis | ❌ Vedado — art. 3º, I |
+> | 2 – R$ 80 mil ganhos | ❌ Vedado — art. 6º, § único |
+> | 3 – Melhor escritório | ❌ Vedado — art. 3º, IV |
+> | 4 – Prazo da rescisão | ✅ Pronto para publicar |
+> | 5 – Direito do consumidor | ✅ Versão permitida acima |
+
+Se quiser, posso redigir posts alternativos permitidos para substituir os três vetados.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

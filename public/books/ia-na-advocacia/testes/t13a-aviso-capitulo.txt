@@ -1,0 +1,59 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t13, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t13a-C1 — aviso, do capítulo
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Escreva o aviso ao cliente: o escritório nunca pede Pix ou boleto por mensagem; o canal fixo é o (00) 9 0000-0003 e o e-mail contato@escritorio.exemplo, que estão no contrato; como conferir (ligar no número que você já tem; ConfirmADV, no site da OAB); sem jargão, em até 8 linhas.
+--- IA:
+**Aviso importante para nossos clientes**
+
+Nosso escritório **nunca solicita Pix, boleto ou qualquer pagamento por mensagem** — seja WhatsApp, SMS ou e-mail avulso. Se receber algo assim, não pague e não clique em links.
+
+Nossos únicos canais oficiais são o telefone **(00) 9 0000-0003** e o e-mail **contato@escritorio.exemplo**, ambos registrados no seu contrato.
+
+Em caso de dúvida, é simples confirmar: ligue para o número que você já tem salvo ou acesse o site da OAB e pesquise nossos dados pelo serviço **ConfirmADV**.
+
+Qualquer cobrança fora desses canais é golpe. Nos avise imediatamente se isso acontecer.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t13a-C2 — aviso, do capítulo
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Escreva o aviso ao cliente: o escritório nunca pede Pix ou boleto por mensagem; o canal fixo é o (00) 9 0000-0003 e o e-mail contato@escritorio.exemplo, que estão no contrato; como conferir (ligar no número que você já tem; ConfirmADV, no site da OAB); sem jargão, em até 8 linhas.
+--- IA:
+**Aviso importante — Golpes em nome do escritório**
+
+Nosso escritório **nunca pede Pix, boleto ou dados bancários por mensagem** (WhatsApp, SMS, e-mail ou redes sociais).
+
+Nossos únicos canais oficiais são o telefone **(00) 9 0000-0003** e o e-mail **contato@escritorio.exemplo** — os mesmos que constam no seu contrato.
+
+Se receber qualquer cobrança por outro meio, não pague e não clique em links.
+
+**Para confirmar que está falando conosco:** ligue no número que você já salvou no contrato ou consulte nosso registro pelo **ConfirmADV**, ferramenta gratuita disponível no site da OAB (oab.org.br).
+
+Em caso de dúvida, entre em contato antes de qualquer pagamento.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t13a-C3 — aviso, do capítulo
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Escreva o aviso ao cliente: o escritório nunca pede Pix ou boleto por mensagem; o canal fixo é o (00) 9 0000-0003 e o e-mail contato@escritorio.exemplo, que estão no contrato; como conferir (ligar no número que você já tem; ConfirmADV, no site da OAB); sem jargão, em até 8 linhas.
+--- IA:
+**Aviso importante — Segurança**
+
+Nosso escritório **nunca solicita Pix, boleto ou dados bancários por mensagem** (WhatsApp, SMS ou e-mail não esperado). Se você receber algo assim, não pague e não clique em links.
+
+Os únicos canais oficiais são o telefone **(00) 9 0000-0003** e o e-mail **contato@escritorio.exemplo** — ambos estão no seu contrato.
+
+**Em caso de dúvida, confirme assim:**
+- Ligue diretamente para o número que você já tem salvo;
+- Acesse o **ConfirmADV** (site da OAB) e verifique os dados do advogado responsável.
+
+Qualquer cobrança legítima chegará por esses canais e poderá ser conferida antes do pagamento.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

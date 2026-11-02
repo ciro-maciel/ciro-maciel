@@ -1,0 +1,244 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t02, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t02-C2 — capítulo
+### 2026-10-13 10:02 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Os nomes e números foram trocados por códigos; não tente adivinhar quem é; trabalhe só com o que está aqui. Faça a petição do auxílio a partir do laudo.
+
+EXCELENTÍSSIMO(A) SENHOR(A) JUIZ(A) DE DIREITO DA VARA-1 DE COMARCA-X
+
+Processo-1
+Ação acidentária — restabelecimento de auxílio por incapacidade temporária
+
+CLIENTE A, brasileira, casada, operadora de calandra, 47 anos, CPF-1, residente em Comarca-X, por sua advogada (ADVOGADA-1, OAB-1), vem requerer a juntada do laudo do médico assistente e a tutela de urgência para restabelecer o benefício, pelos fatos a seguir.
+
+1. A autora trabalha há mais de 20 anos como operadora de calandra numa lavanderia industrial (EMPREGADOR-1), onde dobra e passa lençóis e uniformes de hospital, levantando peças molhadas acima da altura dos ombros.
+2. Recebeu auxílio por incapacidade temporária acidentário de 20/05/2026 a 30/06/2026, quando o INSS cessou o benefício após perícia administrativa que a considerou apta. Não voltou a trabalhar, porque não consegue levantar o braço direito.
+3. Mora com o marido (CÔNJUGE-1), desempregado, e com uma filha de 9 anos (FILHA-1). O benefício era a única renda da casa.
+
+---
+
+LAUDO-1 (médico assistente, CLÍNICA-1)
+
+Paciente: CLIENTE A, 47 anos.
+Diagnóstico: síndrome do manguito rotador do ombro direito, com ruptura parcial do tendão supraespinhal (CID M75.1), confirmada por ressonância magnética de 12/05/2026.
+Exame clínico: dor à elevação do braço direito acima de 90 graus; força reduzida na abdução; testes de Jobe e Neer positivos à direita.
+Conclusão: a paciente não pode elevar o braço direito acima da linha do ombro nem carregar mais de 5 kg com esse braço. Está incapaz para a função habitual (operação de calandra, que exige elevação repetida dos braços e carga de peças molhadas) desde 12/05/2026, por tempo estimado de 6 meses, com reavaliação depois de 20 sessões de fisioterapia.
+
+Data do laudo: 02/10/2026. Assinatura: MÉDICO-1 (ortopedista), CRM-1.
+--- IA:
+# PETIÇÃO INICIAL — AÇÃO ACIDENTÁRIA
+
+---
+
+**EXCELENTÍSSIMO(A) SENHOR(A) JUIZ(A) DE DIREITO DA VARA-1 DE COMARCA-X**
+
+**Processo-1**
+
+---
+
+**CLIENTE A**, brasileira, casada, operadora de calandra, 47 anos, CPF-1, residente e domiciliada em Comarca-X, por sua advogada constituída (ADVOGADA-1, inscrita na OAB-1), com fulcro nos artigos 59 e 86 da Lei n.º 8.213/1991, no Decreto n.º 3.048/1999, nos artigos 300 e seguintes e 319 e seguintes do Código de Processo Civil (Lei n.º 13.105/2015), vem, respeitosamente, à presença de Vossa Excelência propor a presente
+
+## AÇÃO ACIDENTÁRIA COM PEDIDO DE TUTELA DE URGÊNCIA (RESTABELECIMENTO DE AUXÍLIO POR INCAPACIDADE TEMPORÁRIA)
+
+em face do **INSTITUTO NACIONAL DO SEGURO SOCIAL — INSS**, pelos fatos e fundamentos a seguir expostos.
+
+---
+
+## I — DOS FATOS
+
+**1. Da atividade laborativa e do nexo de causalidade**
+
+A autora exerce há mais de vinte anos a função de operadora de calandra na empresa EMPREGADOR-1, lavanderia industrial. Sua atividade consiste em dobrar, passar e manipular lençóis e uniformes hospitalares, impondo a elevação repetitiva e bilateral dos membros superiores acima da linha dos ombros, bem como o carregamento de peças úmidas com sobrecarga mecânica sobre o complexo articular escapuloumeral.
+
+Esse padrão biomecânico — elevação repetida acima de 90° associada a carga de itens molhados — constitui fator de risco reconhecido para lesões do manguito rotador, nos termos das Listas A e B do Anexo II do Decreto n.º 3.048/1999, que elenca a síndrome do manguito rotador (CID M75.1) entre as doenças relacionadas ao trabalho passíveis de enquadramento acidentário.
+
+**2. Do diagnóstico e da incapacidade**
+
+Em 12/05/2026, exame de ressonância magnética evidenciou **ruptura parcial do tendão supraespinhal do ombro direito**, confirmando o diagnóstico de **síndrome do manguito rotador (CID M75.1)**.
+
+O laudo médico elaborado em 02/10/2026 pela CLÍNICA-1, subscrito pelo ortopedista MÉDICO-1 (CRM-1), atesta:
+
+- dor à elevação do braço direito acima de 90°;
+- força reduzida na abdução;
+- testes de Jobe e Neer **positivos** à direita;
+- **impossibilidade de elevar o braço direito acima da linha do ombro**;
+- **impossibilidade de carregar mais de 5 kg com o membro superior direito**;
+- incapacidade para a função habitual (operação de calandra, que exige elevação repetida dos braços e carga de peças molhadas) **desde 12/05/2026**;
+- prazo estimado de incapacidade: **6 meses**, com reavaliação após 20 sessões de fisioterapia.
+
+O laudo integra a presente como **Documento 1** e constitui prova técnica suficiente da incapacidade laborativa e do nexo com a atividade exercida.
+
+**3. Do benefício concedido e da cessação indevida**
+
+O INSS concedeu à autora o **auxílio por incapacidade temporária de natureza acidentária** para o período de **20/05/2026 a 30/06/2026**. Em seguida, cessou o benefício com fundamento em perícia administrativa que a considerou apta ao trabalho.
+
+Ocorre que a requerente **não retornou ao labor**, pois permanece impossibilitada de realizar a tarefa principal de sua função — elevação repetitiva do membro superior direito com carga —, consoante comprovado pelo laudo médico assistencial juntado nos autos.
+
+A cessação em 30/06/2026 é tecnicamente incompatível com o quadro clínico documentado, em especial porque:
+
+a) a ressonância magnética de 12/05/2026 já demonstrava ruptura tendínea estrutural, lesão que não se resolve espontaneamente em 49 dias;
+b) o laudo de 02/10/2026 — quatro meses após a cessação — ainda atesta incapacidade plena para a função habitual;
+c) a própria projeção terapêutica (20 sessões de fisioterapia + reavaliação) indica que a reabilitação ainda não se completou.
+
+**4. Da situação socioeconômica**
+
+A autora reside com seu cônjuge (CÔNJUGE-1), atualmente desempregado, e com a filha menor (FILHA-1, 9 anos). O benefício cessado era a **única fonte de renda da família**, que se encontra em situação de vulnerabilidade financeira grave.
+
+---
+
+## II — DO DIREITO
+
+**2.1. Benefício acidentário — requisitos legais**
+
+O auxílio por incapacidade temporária, previsto no artigo 59 da Lei n.º 8.213/1991, é devido ao segurado que ficar incapacitado para seu trabalho ou atividade habitual por mais de 15 dias consecutivos, em razão de acidente do trabalho ou doença equiparada.
+
+A doença profissional ou do trabalho é equiparada a acidente do trabalho por força do artigo 20, inciso II, da Lei n.º 8.213/1991, e as doenças do sistema musculoesquelético relacionadas a esforço repetitivo ou posturas inadequadas figuram expressamente na Lista B do Anexo II do Decreto n.º 3.048/1999.
+
+**2.2. Do nexo técnico epidemiológico (NTEP) e da inversão do ônus da prova**
+
+A síndrome do manguito rotador (CID M75.1) está correlacionada, pelo Nexo Técnico Epidemiológico Previdenciário (NTEP), às atividades de lavanderias industriais (CNAE compatível), presumindo-se o nexo causal, nos termos do artigo 21-A da Lei n.º 8.213/1991, com o ônus de ilidí-lo recaindo sobre a autarquia ré.
+
+**2.3. Da ilegalidade da cessação**
+
+A cessação do benefício pelo INSS, sem que houvesse cura clínica comprovada ou reabilitação profissional concluída, afronta o artigo 62 da Lei n.º 8.213/1991 — que veda a cessação do benefício antes do retorno ao trabalho ou da habilitação para o exercício de outra atividade —, bem como os princípios da proteção social e da dignidade da pessoa humana (art. 1.º, III, e art. 6.º da Constituição Federal).
+
+**2.4. Do direito à manutenção até a alta médica ou aposentadoria**
+
+Persistindo a incapacidade total e temporária para a função habitual, a autora faz jus ao restabelecimento do benefício desde a data da cessação indevida (01/07/2026), com manutenção até a alta médica definitiva ou, conforme o caso, conversão em aposentadoria por incapacidade permanente, nos moldes dos artigos 59 a 63 da Lei n.º 8.213/1991.
+
+---
+
+## III — DA TUTELA DE URGÊNCIA
+
+**3.1. Fundamento legal**
+
+O artigo 300 do CPC autoriza a concessão de tutela de urgência quando houver **elementos que evidenciem a probabilidade do direito** e o **perigo de dano ou risco ao resultado útil do processo**.
+
+Ambos os requisitos estão presentes.
+
+**3.2. Probabilidade do direito (fumus boni iuris)**
+
+A probabilidade do direito decorre, de forma robusta, da prova documental já produzida:
+
+- ressonância magnética de 12/05/2026 comprovando ruptura tendínea estrutural;
+- laudo do ortopedista MÉDICO-1 (CLÍNICA-1), datado de 02/10/2026, atestando incapacidade plena e contínua para a função habitual;
+- ausência de alta médica ou de conclusão do tratamento indicado;
+- correlação epidemiológica entre a atividade (operadora de calandra) e a patologia (CID M75.1).
+
+**3.3. Perigo de dano irreparável (periculum in mora)**
+
+A autora e sua família encontram-se **sem qualquer renda desde 01/07/2026**. O cônjuge está desempregado. Há uma filha menor de 9 anos dependente do núcleo familiar. A privação prolongada de renda afeta a subsistência digna da requerente, compromete a manutenção do tratamento fisioterápico prescrito e pode agravar irreversivelmente o quadro clínico pela ausência de recursos para custeio das sessões.
+
+O dano é de natureza **continuada e progressiva**: cada dia sem o benefício representa novo prejuízo à sobrevivência familiar e à saúde da autora, prejuízo esse de difícil reparação pelo mero pagamento de atrasados ao final do processo.
+
+**3.4. Pedido liminar**
+
+Requer-se, portanto, a concessão **inaudita altera parte** da tutela de urgência, para que o INSS seja compelido a **restabelecer imediatamente o auxílio por incapacidade temporária acidentário** em favor da autora, com data de início em 01/07/2026, sob pena de multa diária (astreinte) a ser fixada por Vossa Excelência.
+
+---
+
+## IV — DOS PEDIDOS
+
+Diante do exposto, requer-se:
+
+**a) Liminarmente (tutela de urgência — art. 300, CPC):**
+
+- A determinação ao INSS de **restabelecer o auxílio por incapacidade temporária acidentário** (espécie B-91) em favor da autora, no prazo de 48 (quarenta e oito) horas, sob pena de multa diária de R$ 500,00 (quinhentos reais), com vigência a partir de 01/07/2026.
+
+**b) Ao final, no mérito:**
+
+1. A **juntada e valoração** do Laudo Médico de 02/10/2026 (MÉDICO-1, CRM-1, CLÍNICA-1) como prova pericial assistencial;
+
+2. A **procedência total da ação**, com a condenação do INSS a:
+
+   i. **Restabelecer** o auxílio por incapacidade temporária acidentário (espécie B-91) desde 01/07/2026, com manutenção até a alta médica definitiva, comprovada por laudo pericial, ou sua conversão em aposentadoria por incapacidade permanente, se assim indicado;
+
+   ii. **Pagar** as parcelas vencidas entre 01/07/2026 e a data do efetivo restabelecimento, com **correção monetária** pelo INPC e **juros de mora** na forma do artigo 406 do Código Civil, ou na forma que vier a ser definida pela jurisprudência aplicável às condenações contra a Fazenda Pública;
+
+   iii. Arcar com as **custas processuais** e **honorários advocatícios**, nos termos do artigo 85 do CPC.
+
+3. A realização de **perícia médico-judicial** para complementação probatória, caso Vossa Excelência assim entenda necessário, sem prejuízo da antecipação da tutela requerida com base nos documentos já apresentados.
+
+---
+
+## V — DAS PROVAS
+
+A autora pretende provar o alegado pelos seguintes meios:
+
+- **Documental:** laudo médico de 02/10/2026 (MÉDICO-1, CRM-1); ressonância magnética de 12/05/2026; carteira de trabalho (vínculo e função); carta de cessação do benefício; documentos pessoais.
+- **Pericial médica:** a ser realizada por perito nomeado pelo Juízo.
+- **Testemunhal:** se necessário, a indicar em momento oportuno.
+
+---
+
+## VI — DO VALOR DA CAUSA
+
+Atribui-se à causa o valor equivalente a **12 (doze) parcelas mensais** do benefício cessado, a ser apurado conforme o salário de contribuição da autora, o que se estima em **R$ [valor a completar com dados previdenciários da autora]**, nos termos do artigo 292 do CPC.
+
+---
+
+Comarca-X, 13 de outubro de 2026.
+
+**ADVOGADA-1**
+OAB-1
+Advogada da Autora
+
+---
+
+> **Documentos que acompanham esta petição:**
+> - Doc. 1 — Laudo médico ortopédico (MÉDICO-1, CLÍNICA-1, 02/10/2026)
+> - Doc. 2 — Resultado da ressonância magnética (12/05/2026)
+> - Doc. 3 — Carta/comunicado de cessação do benefício pelo INSS
+> - Doc. 4 — Documentos pessoais da autora (CPF-1, RG, comprovante de residência)
+> - Doc. 5 — Carteira de trabalho (vínculo com EMPREGADOR-1 e função de operadora de calandra)
+> - Doc. 6 — Procuração *ad judicia*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+No ChatGPT Plus, conta pessoal, o que eu colo pode ser usado para treinar o modelo?
+--- IA:
+## Uso de dados no ChatGPT Plus (conta pessoal)
+
+**Por padrão, sim** — conversas em contas pessoais podem ser usadas para treinar modelos, **a menos que você desative isso**.
+
+---
+
+### Como desativar o uso dos seus dados para treino
+
+1. Acesse **Configurações** (ícone de perfil → *Settings*)
+2. Vá em **Data Controls** (Controles de dados)
+3. **Desative** a opção *"Improve the model for everyone"*
+
+Com isso desativado, a OpenAI afirma que suas conversas não são usadas para treinar modelos futuros.
+
+---
+
+### Pontos importantes
+
+| Situação | Dados usados para treino? |
+|---|---|
+| Opção ativada (padrão) | Sim |
+| Opção desativada | Não |
+| Conversas arquivadas/deletadas | Não (após exclusão) |
+| Planos Enterprise/API | Não, por padrão |
+
+---
+
+### Atenção prática para o seu caso
+
+Como você colou dados sensíveis de processo (mesmo que codificados), é prudente:
+
+- **Verificar agora** se a opção está desativada na sua conta
+- **Deletar a conversa** se quiser garantir que o conteúdo não seja retido para revisão humana
+- Considerar usar a **OpenAI API** ou o **modo temporário** (*Temporary chat*), que não salva histórico nem usa para treino
+
+---
+
+A política pode mudar; o documento oficial de referência é o [Privacy Policy da OpenAI](https://openai.com/policies/privacy-policy) e os *Data Controls* nas configurações da conta.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

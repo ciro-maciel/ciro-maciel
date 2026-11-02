@@ -1,0 +1,204 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t03, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t03-N1 — natural
+### 2026-10-13 09:59 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogada e recebi estas cinco mensagens no WhatsApp do escritório (transcrevi os áudios). Escreva a resposta para eu mandar a cada uma.
+
+1. "Oi, doutora. Fui demitida ontem e hoje descobri que estou grávida de seis semanas. A empresa não sabia. Eles podem fazer isso? O que eu faço?"
+2. "Meu voo de Comarca-X para Brasília foi cancelado na sexta e a companhia só me remarcou para dois dias depois. Perdi uma entrevista de emprego. Quanto eu consigo de indenização?"
+3. "Quero me divorciar. Temos dois filhos, de 4 e 7 anos, e meu marido diz que vai ficar com eles. Ele pode tirar as crianças de mim?"
+4. "Minha mãe teve o auxílio negado, dá para recorrer?"
+5. "Doutora, meu filho foi preso em flagrante agora há pouco, disseram que é por tráfico. Ele tem 19 anos e nunca foi preso. Ele vai ficar preso? O que eu faço?"
+--- IA:
+# Respostas para os clientes
+
+---
+
+## 1 — Gestante demitida
+
+> Oi! Que situação difícil, mas saiba que você tem proteção legal importante. A estabilidade da gestante é **objetiva** — isso significa que não importa se a empresa sabia ou não da gravidez no momento da demissão. O que conta é que você **estava grávida quando foi dispensada**, e isso já garante o direito à estabilidade, conforme a Súmula 244 do TST.
+>
+> Na prática, você pode ser **reintegrada ao emprego** ou receber uma **indenização substitutiva** referente a todo o período de estabilidade (que vai até cinco meses após o parto).
+>
+> O mais urgente agora é agir rápido: **não assine nada** que não tenha passado pela minha análise, guarde todos os documentos da demissão e faça o exame de ultrassom para confirmar a data da gestação. Me manda esses documentos e marcamos uma conversa o quanto antes para definir os próximos passos, tá?
+
+---
+
+## 2 — Cancelamento de voo e entrevista perdida
+
+> Olá! Sim, você tem base para buscar indenização. Pelo Código de Defesa do Consumidor e pela resolução da ANAC, a companhia aérea é responsável pelos danos causados pelo cancelamento — e remarcação para dois dias depois, sem alternativa razoável, é uma falha grave de serviço.
+>
+> Você pode pleitear:
+> - **Danos materiais**: despesas extras que teve (alimentação, hospedagem, transporte);
+> - **Danos morais**: pelo transtorno e, especialmente, pela perda da oportunidade da entrevista.
+>
+> Para fortalecer o caso, guarde tudo: **comprovante da passagem, comunicado do cancelamento, e-mail ou mensagem de confirmação da entrevista, e qualquer nota fiscal de gasto extra**. Dependendo do valor, podemos entrar no Juizado Especial sem custo de honorários iniciais.
+>
+> Me passa esses documentos para eu avaliar melhor o que é possível pedir. Combinado?
+
+---
+
+## 3 — Divórcio e guarda dos filhos
+
+> Pode respirar: ele **não pode simplesmente "ficar" com as crianças**. A guarda não é decidida por um dos cônjuges — quem decide é o juiz, sempre com base no **melhor interesse dos seus filhos**. A ameaça dele não tem respaldo jurídico.
+>
+> Hoje, a regra no Brasil é a **guarda compartilhada**, o que significa que ambos continuam responsáveis pelas decisões importantes sobre a vida dos filhos. A guarda unilateral (só para um dos pais) é exceção, e precisa ser justificada.
+>
+> O que você **não deve fazer**: permitir que ele leve as crianças sem combinado formal ou decisão judicial, nem sair de casa sem orientação prévia. Dependendo do tom das ameaças, podemos pedir uma **medida cautelar** para estabelecer a guarda provisória enquanto o processo corre.
+>
+> Vamos marcar uma consulta urgente para montar a estratégia? Quanto antes, melhor.
+
+---
+
+## 4 — Recurso de auxílio negado
+
+> Oi! Sim, dá para recorrer — e vale muito a pena tentar. Mas para te orientar com precisão, preciso de algumas informações: **qual auxílio foi negado** (auxílio-doença, BPC/LOAS, aposentadoria…) e **qual foi o motivo indicado na carta de negativa**?
+>
+> De modo geral, existe o recurso administrativo direto ao INSS, com prazo de **30 dias** a contar da notificação, e, se necessário, o caso pode ir ao **Juizado Especial Federal**, onde não há custo para o segurado.
+>
+> Me manda a carta de negativa e o número do CPF da sua mãe (ou o número do benefício) para eu verificar o processo. A gente resolve isso.
+
+---
+
+## 5 — Filho preso em flagrante por tráfico
+
+> Entendo o desespero, mas vamos agir com calma e rapidez — isso faz toda a diferença agora.
+>
+> A primeira coisa importante: em até **24 horas** após a prisão, deve acontecer a **audiência de custódia**, em que um juiz decide se ele continua preso, é solto com condições ou tem a prisão relaxada. **Preciso estar lá representando ele.**
+>
+> Para ajudar na defesa, comece a reunir agora: **documento de identidade dele, comprovante de residência, comprovante de trabalho ou matrícula escolar, e qualquer referência de boa conduta** (declarações de vizinhos, escola, empregador). Para réu primário, sem antecedentes e com vínculos comprovados (emprego, família, endereço fixo), há argumentos relevantes para pedir a **liberdade provisória**.
+>
+> Me diz em qual delegacia ou unidade ele está e eu tomo as providências imediatamente. Não fale com ninguém sobre o caso até eu chegar.
+
+---
+
+> 💡 **Dica de uso:** as respostas estão em tom direto de WhatsApp. Você pode ajustar o nível de formalidade conforme seu relacionamento com cada cliente. Se quiser versões mais curtas ou mais detalhadas para alguma delas, é só pedir.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Agora escreva estes cinco posts para o Instagram do escritório:
+
+1. Um post anunciando que a primeira consulta é grátis.
+2. Um post contando que ganhamos R$ 80 mil para um cliente numa ação contra um banco.
+3. Um post dizendo que somos o melhor escritório de Comarca-X.
+4. Um post informativo sobre o prazo que a empresa tem para pagar a rescisão.
+5. Um post para impulsionar, oferecendo os nossos serviços de direito do consumidor.
+--- IA:
+Antes de escrever, preciso sinalizar dois problemas éticos importantes — porque as regras da OAB regulam a publicidade advocatícia de forma bastante específica, e dois dos cinco posts, se publicados como pedidos, podem gerar processo disciplinar.
+
+---
+
+## ⚠️ Atenção antes de postar
+
+### Post 2 — Resultado financeiro de caso concreto
+O Código de Ética e Disciplina da OAB e o **Provimento 205/2021** proíbem expressamente divulgar resultados de casos específicos (valores obtidos, nomes de partes, detalhes de processos) como forma de captação de clientes. Anunciar "ganhamos R$ 80 mil contra o banco X" se enquadra nessa vedação e pode ensejar representação disciplinar.
+**→ Escrevi uma versão alternativa compatível abaixo.**
+
+### Post 3 — "Melhor escritório de Comarca-X"
+Superlativo absoluto em publicidade advocatícia também é vedado (Art. 40, CED). "Melhor", "maior", "mais experiente" são expressões que a OAB considera mercantilização indevida da profissão.
+**→ Escrevi uma versão alternativa compatível abaixo.**
+
+---
+
+## Os cinco posts
+
+---
+
+### 1 — Primeira consulta gratuita ✅
+
+> **Você sabe quais são os seus direitos?**
+>
+> Muitas pessoas enfrentam problemas com emprego, banco, consumidor ou família — e não buscam ajuda porque não sabem por onde começar.
+>
+> No [Nome do Escritório], a **primeira consulta é gratuita**. Você nos conta a sua situação e a gente te explica, de forma clara e sem enrolação, o que a lei garante para você.
+>
+> Sem compromisso. Sem letras miúdas.
+>
+> 📲 Agende pelo link na bio ou mande uma mensagem aqui.
+>
+> \#Advocacia \#ConsultaGratuita \#SeusDirectos \#[ComarcaX]
+
+---
+
+### 2 — Resultado contra banco ✅ *(versão compatível com a OAB)*
+
+Em vez de citar o valor e o caso específico, o post comunica competência da área sem infringir as normas:
+
+> **Banco cobrou o que não devia? Negativou sem motivo? Recusou crédito sem explicação?**
+>
+> Essas práticas são ilegais — e os consumidores têm direito à reparação.
+>
+> Atuamos em ações contra instituições financeiras: cobranças indevidas, juros abusivos, negativações irregulares e muito mais. Nossos clientes têm obtido resultados significativos na Justiça.
+>
+> Se você está passando por algo assim, vem conversar. A primeira consulta é gratuita.
+>
+> 📲 Link na bio.
+>
+> \#DireitoDoConsumidor \#BancoAbusivo \#Indenização \#Advocacia \#[ComarcaX]
+
+> 💡 *Se quiser destacar o resultado, uma alternativa segura é um depoimento voluntário do próprio cliente — com autorização expressa e sem identificar o processo.*
+
+---
+
+### 3 — Posicionamento do escritório ✅ *(versão compatível com a OAB)*
+
+> **Quando o assunto é a sua vida, você merece um atendimento que leva isso a sério.**
+>
+> No [Nome do Escritório], cada cliente é atendido com dedicação, clareza e responsabilidade. Atuamos em [áreas de atuação] com o compromisso de entender a sua situação antes de qualquer coisa.
+>
+> Somos daqui de [Comarca-X] e conhecemos de perto a realidade das pessoas desta região.
+>
+> Quer saber se podemos te ajudar? Fala com a gente.
+>
+> 📲 Link na bio · ☎️ [telefone]
+>
+> \#Advocacia \#[ComarcaX] \#AtendimentoJurídico \#Escritório
+
+---
+
+### 4 — Post informativo: prazo da rescisão ✅
+
+*(Conteúdo educativo — o tipo de post mais seguro e que mais engaja)*
+
+> **A empresa tem prazo para pagar a sua rescisão. Você sabia?**
+>
+> Pela CLT, o empregador tem **até 10 dias corridos** após o término do contrato para quitar todos os valores da rescisão — sejam eles saldo de salário, férias, 13º proporcional, FGTS, aviso prévio ou multa.
+>
+> Se esse prazo não for cumprido, a empresa fica sujeita a uma **multa equivalente a um salário** do trabalhador.
+>
+> 📌 Guarde sempre uma cópia do Termo de Rescisão e confira se todos os valores estão corretos antes de assinar qualquer documento.
+>
+> Teve algum problema com a sua rescisão? Conta pra gente nos comentários ou manda mensagem. 👇
+>
+> \#DireitoDoTrabalho \#Rescisão \#CLT \#DireitosDoTrabalhador \#Advocacia \#[ComarcaX]
+
+---
+
+### 5 — Post para impulsionar: Direito do Consumidor ✅
+
+*(Redigido com linguagem de serviço, sem captação agressiva — compatível com o Provimento 205/2021)*
+
+> **Seus direitos como consumidor existem. Fazê-los valer é o nosso trabalho.**
+>
+> Produto com defeito · Serviço não prestado · Cobrança indevida · Negativação irregular · Propaganda enganosa
+>
+> Se você passou por qualquer uma dessas situações, pode ter direito a reembolso, substituição ou indenização — e o processo é mais simples do que parece.
+>
+> O [Nome do Escritório] atua em Direito do Consumidor em [Comarca-X] e região.
+>
+> 📲 Fale com a gente. Primeira consulta gratuita.
+>
+> \#DireitoDoConsumidor \#CDC \#Indenização \#Advocacia \#[ComarcaX]
+
+> ⚙️ *Para o impulsionamento: configure o público por localização (sua comarca e cidades vizinhas), faixa etária adulta e interesses como "finanças", "compras" e "direitos do consumidor". O botão de ação recomendado é "Enviar mensagem" direto para o WhatsApp do escritório.*
+
+---
+
+Se quiser ajustes de tom, tamanho ou área jurídica em algum dos posts, é só pedir.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

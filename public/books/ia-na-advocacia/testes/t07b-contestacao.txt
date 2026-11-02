@@ -1,0 +1,1739 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t07, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t07b-N1 — contestação, prompt natural
+### 2026-10-13 10:04 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do banco. Faça a contestação a esta petição inicial.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0001234-11.2026.8.99.0001
+
+CLIENTE A, brasileiro, solteiro, engenheiro, CPF 123.456.789-00, residente e domiciliado em Comarca-X, por seu advogado (OAB/ZZ 000.001; procuração, Doc. 1; documentos pessoais, Doc. 2), vem propor
+
+AÇÃO REVISIONAL DE CONTRATO BANCÁRIO
+
+contra BANCO-B S.A., instituição financeira, com sede em Comarca-X, pelos fatos e fundamentos a seguir.
+
+I. DOS FATOS
+
+1. Em 10/02/2024, o autor celebrou com o réu a Cédula de Crédito Bancário nº 778899, de financiamento de veículo, no valor de R$ 48.000,00, a ser pago em 48 parcelas mensais de R$ 1.612,40 (Doc. 3).
+
+2. A taxa de juros contratada, de 2,35% ao mês, é superior à taxa média de mercado divulgada pelo Banco Central para operações de aquisição de veículos no mês da contratação, de 1,62% ao mês (Doc. 4).
+
+3. O contrato prevê a capitalização mensal dos juros, mas a taxa anual não está expressa no instrumento.
+
+4. Foi cobrada tarifa de cadastro de R$ 890,00, embora o autor já fosse correntista do réu desde 2019.
+
+5. Foi cobrado seguro prestamista de R$ 1.450,00, contratado com seguradora do mesmo grupo econômico do réu, sem que fosse dada ao autor a opção de escolher outra seguradora, o que configura venda casada.
+
+6. Foi cobrada tarifa de avaliação do bem de R$ 420,00, sem que nenhuma avaliação do veículo tenha sido feita.
+
+7. Até o ajuizamento desta ação, o autor pagou 19 parcelas (Doc. 5).
+
+8. Em maio de 2026, o autor procurou o réu para renegociar o contrato, e o pedido foi recusado (protocolo de atendimento, Doc. 6).
+
+9. Em junho de 2026, o nome do autor foi incluído em cadastro de inadimplentes por causa da parcela de maio de 2026, que ele deixou de pagar por discordar dos valores cobrados (Doc. 7).
+
+10. O autor recebe R$ 25.000,00 por mês, mas tem despesas elevadas e não pode pagar as custas do processo sem prejuízo do próprio sustento (declaração, Doc. 8).
+
+II. DO DIREITO
+
+A relação entre as partes é de consumo, e o contrato deve ser revisto para afastar as cláusulas abusivas descritas acima: os juros acima da média de mercado, a capitalização sem previsão clara, as tarifas e o seguro imposto. Os valores pagos a mais devem ser devolvidos em dobro. A inclusão do nome do autor em cadastro de inadimplentes, por dívida discutida, causou dano moral.
+
+III. DOS PEDIDOS
+
+Diante do exposto, requer:
+a) a gratuidade da justiça;
+b) a tutela de urgência para excluir o nome do autor do cadastro de inadimplentes e autorizar o depósito, em juízo, das parcelas no valor que o autor entende devido;
+c) a revisão da taxa de juros para a taxa média de mercado;
+d) o afastamento da capitalização mensal dos juros;
+e) a declaração de nulidade da tarifa de cadastro, da tarifa de avaliação do bem e do seguro prestamista;
+f) a restituição em dobro dos valores pagos a mais;
+g) a condenação do réu ao pagamento de R$ 10.000,00 por danos morais;
+h) a citação do réu e a produção de todas as provas admitidas, em especial a pericial contábil.
+
+Dá-se à causa o valor de R$ 1.000,00, para fins de alçada.
+
+Comarca-X, 02 de julho de 2026.
+Advogado, OAB/ZZ 000.001
+
+---
+DECISÃO (fl. 41): "Defiro ao autor a gratuidade da justiça. Indefiro a tutela de urgência, por ausência de probabilidade do direito neste momento. Cite-se o réu."
+--- IA:
+# CONTESTAÇÃO — BANCO-B S.A.
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X**
+
+**Autos nº 0001234-11.2026.8.99.0001**
+
+---
+
+**BANCO-B S.A.**, instituição financeira, com sede em Comarca-X, CNPJ XX.XXX.XXX/0001-XX, pelos advogados que subscrevem (OAB/ZZ XXX.XXX; procuração e documentos societários, Docs. 1-2), nos autos da ação revisional de contrato bancário que lhe move **CLIENTE A**, vem, tempestivamente e com o devido respeito, apresentar
+
+## CONTESTAÇÃO
+
+nos termos dos arts. 335 e seguintes do CPC, requerendo, ao final, a total improcedência dos pedidos formulados na inicial, pelos fatos e fundamentos a seguir expostos.
+
+---
+
+## I. DA IMPUGNAÇÃO À GRATUIDADE DA JUSTIÇA
+
+**1.** Conquanto o juízo tenha deferido provisoriamente o benefício da gratuidade, incumbe ao réu impugná-lo, nos termos do art. 100 do CPC, para que a questão seja devidamente apreciada.
+
+**2.** O autor declara auferir renda mensal de **R$ 25.000,00**, o que, por si só, coloca-o entre os 2% dos trabalhadores de maior remuneração no Brasil, segundo dados do IBGE. Trata-se de profissional de nível superior — engenheiro —, titular de veículo no valor de **R$ 48.000,00** e correntista bancário desde ao menos 2019. O simples alegado comprometimento de renda com despesas não demonstra a impossibilidade de arcar com as custas sem prejuízo do próprio sustento.
+
+**3.** A presunção de veracidade da declaração de hipossuficiência (art. 99, §3º, CPC) é relativa e cede quando, como no caso, as próprias afirmações da inicial revelam capacidade econômica incompatível com a benesse. Requer-se, portanto, a revogação da gratuidade e a intimação do autor para recolher as custas devidas, ou, subsidiariamente, a determinação de que apresente documentos comprobatórios (declaração de IR, extratos bancários dos últimos seis meses, contracheques), nos termos do art. 99, §2º, do CPC.
+
+---
+
+## II. DA IMPUGNAÇÃO AO VALOR DA CAUSA
+
+**4.** O autor atribuiu à causa o irrisório valor de R$ 1.000,00, em manifesta violação ao art. 292 do CPC. Os pedidos formulados compreendem: (i) revisão das parcelas vincendas do contrato (48 parcelas × R$ 1.612,40 = R$ 77.395,20); (ii) restituição em dobro de alegados pagamentos a maior sobre 19 parcelas já quitadas; e (iii) danos morais no valor de R$ 10.000,00. O valor da causa deveria corresponder, no mínimo, ao benefício econômico pretendido, conforme art. 292, II e V, do CPC.
+
+**5.** Requer-se, com fundamento no art. 293 do CPC, a adequação do valor da causa ao montante real da pretensão, com as consequências processuais cabíveis, inclusive para fins de recolhimento de custas, honorários e competência recursal.
+
+---
+
+## III. DO MÉRITO
+
+### 3.1. Da legalidade dos juros remuneratórios contratados
+
+**6.** A taxa de **2,35% ao mês** é plenamente válida. As instituições financeiras não se submetem à limitação da Lei de Usura (Decreto 22.626/1933), consoante a Súmula Vinculante nº 7 do STF e a Súmula 596/STF, bem como o entendimento consolidado do STJ de que o Conselho Monetário Nacional detém, por delegação da Lei 4.595/1964, competência exclusiva para regular as taxas de juros praticadas pelo sistema financeiro.
+
+**7.** O STJ é firme em que **a simples superação da taxa média de mercado, por si só, não configura abusividade**: é necessária a demonstração de que a taxa é *notoriamente abusiva* e causa desequilíbrio manifesto na relação contratual (EREsp 1.029.111/RS; REsp 1.061.530/RS — recurso repetitivo, Tema 27). A Súmula 382/STJ reforça que a estipulação de juros superiores a 12% ao ano não indica, por si só, abusividade.
+
+**8.** O spread bancário não é determinado exclusivamente pela taxa Selic ou pela média de mercado: reflete o perfil de risco do tomador, o prazo da operação, o custo de captação, as despesas administrativas, os tributos incidentes e os índices de inadimplência da carteira, variáveis que o autor não considerou em sua comparação. A taxa média divulgada pelo BACEN é justamente uma *média* — metade das operações é celebrada *acima* dela sem que isso configure qualquer ilegalidade.
+
+**9.** Não há, portanto, fundamento para a redução compulsória dos juros à taxa média de mercado. O pedido deve ser julgado improcedente neste ponto.
+
+### 3.2. Da legalidade da capitalização de juros
+
+**10.** O contrato firmado entre as partes é uma **Cédula de Crédito Bancário (CCB)**, regida pela Lei 10.931/2004. O art. 28, §1º, I, dessa lei autoriza expressamente a capitalização de juros em periodicidade inferior à anual nas CCBs emitidas a favor de instituições financeiras.
+
+**11.** O STJ consolidou que, para as CCBs, a capitalização mensal de juros é permitida independentemente de cláusula contratual expressa, bastando que a taxa mensal corresponda à taxa anual efetiva contratada (Súmula 541/STJ: *"A previsão no contrato bancário de taxa de juros anual superior ao duodécuplo da mensal é suficiente para permitir a cobrança da taxa efetiva anual contratada."*).
+
+**12.** A eventual ausência de indicação destacada da taxa anual no instrumento não invalida a operação; constitui, quando muito, infração formal passível de sanção administrativa perante o Banco Central, sem repercussão na validade da cláusula entre as partes. Ressalte-se que o **Custo Efetivo Total (CET)** consta do instrumento contratual, conforme Doc. 3, atendendo à Resolução BCB nº 3.517/2007. O pedido de afastamento da capitalização é improcedente.
+
+### 3.3. Da validade da tarifa de cadastro
+
+**13.** A tarifa de cadastro de **R$ 890,00** é legítima. A Resolução CMN nº 3.919/2010 (com as alterações da Resolução CMN nº 4.021/2011) relaciona, em seu art. 1º, I, a tarifa de cadastro como serviço bancário passível de cobrança, seja no início da relação com o cliente, seja pela abertura de novo produto ou serviço.
+
+**14.** O STJ pacificou a matéria por meio da **Súmula 566**: *"Nos contratos bancários posteriores ao início da vigência da Resolução-CMN n. 3.919/2010, em 3.5.2011, é válida a tarifa de cadastro estipulada no contrato, seja para o início ou a continuidade da relação entre as partes."* (destaque nosso).
+
+**15.** O fato de o autor ser correntista desde 2019 não afasta a cobrança: a tarifa remunera a análise cadastral específica para a concessão do crédito ora discutido, atividade distinta da manutenção de conta corrente e que demanda levantamento de dados de crédito, consulta a birôs, análise de capacidade de pagamento e formalização dos documentos da operação. O pedido de nulidade desta tarifa deve ser rejeitado.
+
+### 3.4. Da validade do seguro prestamista
+
+**16.** O seguro prestamista de **R$ 1.450,00** foi regularmente contratado pelo autor, conforme demonstra a proposta de adesão assinada que integra o instrumento contratual (Doc. 3). O seguro é produto autônomo e distinto do financiamento, com finalidade protetiva para ambas as partes: garante a quitação do saldo devedor em caso de morte ou invalidez do segurado, beneficiando o próprio autor ou seus herdeiros.
+
+**17.** A Resolução CMN nº 4.294/2013 permite que as instituições financeiras indiquem seguradora, desde que assegurada ao cliente a liberdade de contratar com seguradora de sua preferência. Caberá ao autor demonstrar — o que não fez — que foi efetivamente impedido de apresentar apólice de outra seguradora ou que a cláusula de indicação era impositiva e inafastável. O ônus da prova é do autor, nos termos do art. 373, I, do CPC.
+
+**18.** Ademais, o STJ tem entendido que a mera pertença da seguradora ao mesmo grupo econômico não configura, por si só, venda casada vedada pelo art. 39, I, do CDC, quando respeitada a liberdade de escolha (REsp 1.639.320/SP). O pedido de nulidade do seguro deve ser rejeitado.
+
+### 3.5. Da validade da tarifa de avaliação do bem
+
+**19.** A tarifa de avaliação do bem de **R$ 420,00** remunera serviço prestado previamente à contratação do financiamento, consistente na verificação do valor de mercado do veículo dado em garantia, atividade essencial à fixação do índice de cobertura do crédito e à proteção do patrimônio do próprio banco e do consumidor.
+
+**20.** A avaliação não pressupõe, necessariamente, vistoria física do veículo: pode ser realizada por consulta a tabelas de referência (FIPE, Molicar), verificação de histórico do chassis em sistemas especializados e análise de documentação, procedimentos realizados pela própria instituição ou por empresa contratada. A Resolução CMN nº 3.919/2010 autoriza expressamente a cobrança de tarifa por serviços de avaliação de bens recebidos em garantia.
+
+**21.** A alegação de que "nenhuma avaliação foi feita" é mera assertiva do autor, sem qualquer respaldo probatório. O ônus de demonstrar a ausência do serviço é do autor (art. 373, I, CPC), e a prova pericial eventualmente produzida — que o réu desde já requer — poderá esclarecer o ponto. O pedido de nulidade desta tarifa também deve ser rejeitado.
+
+### 3.6. Da inexistência de dano moral indenizável
+
+**22.** Em maio de 2026, o autor **voluntariamente deixou de pagar** a parcela do contrato, por sua própria e exclusiva decisão, alegando discordância com os valores cobrados. A inadimplência foi real, incontroversa e confessada na própria inicial (item 9).
+
+**23.** A inclusão do nome do devedor em cadastro de inadimplentes pelo credor, em razão de débito existente, é exercício regular de direito (art. 43, §2º, CDC e Lei 12.414/2011), não constituindo ato ilícito. O ajuizamento de ação revisional não tem efeito suspensivo automático sobre as obrigações contratuais nem confere ao devedor direito de deixar de pagar. Ao autor cabia depositar os valores que entendia devidos — o que não fez antes do ajuizamento da ação — e não simplesmente paralisar os pagamentos.
+
+**24.** Não há, portanto, qualquer irregularidade na negativação: o débito é legítimo, líquido e vencido. A jurisprudência do STJ é pacífica no sentido de que a negativação fundada em débito real não gera dano moral indenizável (REsp 1.508.981/SC; AgInt no AREsp 1.205.956/SP).
+
+**25.** Saliente-se, ainda, o teor da **Súmula 385/STJ**: *"Da anotação irregular em cadastro de proteção ao crédito, não cabe indenização por dano moral, quando preexistir legítima inscrição, ressalvado o direito ao cancelamento."* Eventual verificação de outras inscrições legítimas em nome do autor reforçará a inocorrência de dano moral. O réu requer que o juízo oficie ao SCPC/Serasa para apurar o histórico de negativações do autor.
+
+**26.** Por fim, o mero dissabor decorrente de uma negativação, quando oriunda de débito real, não eleva à categoria de dano moral indenizável. Dano moral pressupõe lesão à esfera existencial da pessoa, com reflexo concreto na dignidade, honra ou imagem, o que não foi minimamente demonstrado pelo autor. O pedido indenizatório deve ser rejeitado.
+
+### 3.7. Da improcedência da restituição em dobro
+
+**27.** O art. 42, parágrafo único, do CDC exige, para a restituição em dobro, que o pagamento tenha sido *indevido* e que o credor tenha agido com *má-fé*. Ambos os requisitos estão ausentes.
+
+**28.** Primeiramente, como demonstrado nos itens anteriores, todas as cobranças realizadas pelo réu encontram amparo legal e contratual. Não há cobrança indevida. Segundo, ainda que se admitisse, por hipótese, alguma irregularidade residual, o réu agiu amparado em normas regulatórias do CMN e do Banco Central, em contratos devidamente formalizados, o que afasta, de plano, qualquer presunção de má-fé. O STJ, em recurso repetitivo (Tema 929 — REsp 1.626.538/MG), fixou que a repetição em dobro de indébito no âmbito de contratos bancários somente é cabível quando caracterizada a cobrança de *má-fé* do credor, inocorrente na espécie.
+
+**29.** O pedido de restituição em dobro é, portanto, improcedente. Eventual devolução de valores somente seria cabível na modalidade simples, com correção monetária e juros legais, e apenas quanto a valores concretamente declarados nulos — o que o réu contesta integralmente.
+
+### 3.8. Da manutenção da decisão que indeferiu a tutela de urgência
+
+**30.** O douto juízo, ao examinar o pedido de tutela de urgência, reconheceu a "ausência de probabilidade do direito neste momento" — exatamente o que os fundamentos desta contestação corroboram com profundidade. A manutenção do nome do autor nos cadastros de inadimplência e a exigibilidade das parcelas no valor contratado são, pois, consequências que decorrem da regularidade das cobranças realizadas pelo réu.
+
+---
+
+## IV. DA PRODUÇÃO DE PROVAS
+
+**31.** O réu requer a produção de todas as provas admitidas em direito, em especial:
+
+a) **Prova documental**: juntada do contrato original com todas as suas cláusulas, proposta de seguro assinada pelo autor, comprovantes de cobrança e pagamento, laudos de avaliação do veículo e histórico de negativações do autor junto ao SCPC e Serasa;
+
+b) **Prova pericial contábil**: para demonstrar a correta metodologia de cálculo das parcelas, a correspondência entre as taxas mensais e anuais efetivamente praticadas e a inexistência de cobranças em excesso. O réu indicará assistente técnico e apresentará quesitos no momento processualmente adequado;
+
+c) **Depoimento pessoal do autor**: para esclarecer as circunstâncias de contratação, a assunção voluntária das condições pactuadas e os motivos da suspensão dos pagamentos.
+
+---
+
+## V. DOS PEDIDOS
+
+Diante de todo o exposto, requer o réu:
+
+**a)** A revogação da gratuidade da justiça concedida ao autor, ou, subsidiariamente, a intimação deste para comprovar documentalmente a hipossuficiência alegada;
+
+**b)** A adequação do valor da causa ao real benefício econômico pretendido, nos termos do art. 293 do CPC;
+
+**c)** No mérito, a **total improcedência** de todos os pedidos formulados na inicial, com:
+- Manutenção integral da taxa de juros de 2,35% ao mês;
+- Reconhecimento da validade da capitalização mensal de juros na CCB;
+- Reconhecimento da validade da tarifa de cadastro;
+- Reconhecimento da validade do seguro prestamista;
+- Reconhecimento da validade da tarifa de avaliação do bem;
+- Rejeição do pedido de danos morais;
+- Rejeição do pedido de restituição em dobro;
+
+**d)** A condenação do autor ao pagamento das custas processuais e dos honorários advocatícios, estes fixados em percentual sobre o valor atualizado da causa, nos termos do art. 85, §2º, do CPC;
+
+**e)** A produção das provas indicadas no item IV supra.
+
+Termos em que pede deferimento.
+
+Comarca-X, [data de protocolo].
+
+**Advogado do Banco-B S.A.**
+OAB/ZZ XXX.XXX
+
+---
+
+> **NOTA TÉCNICA AO ADVOGADO**
+>
+> Antes de protocolar, verifique e complemente os seguintes pontos:
+>
+> 1. **Doc. 3 (contrato original)**: confirme se o CET, a taxa anual e a proposta de seguro assinada pelo autor constam do instrumento — esses documentos são decisivos para os argumentos sobre capitalização e seguro prestamista.
+> 2. **Histórico de negativações do autor**: pesquise se o autor possui outras inscrições legítimas para invocar a Súmula 385/STJ e refutar integralmente o dano moral.
+> 3. **Laudo de avaliação do veículo**: localize o registro da consulta FIPE/Molicar ou eventual laudo de vistoria realizado por ocasião da concessão do crédito.
+> 4. **Quesitos periciais**: elabore quesitos técnicos específicos para o perito contábil que demonstrem a regularidade da metodologia de cálculo (sistema Price ou SAC), a ausência de anatocismo ilícito e a correta aplicação da taxa contratada.
+> 5. **Valor da causa**: calcule o valor correto com base nos pedidos revisados para embasar a impugnação.
+> 6. **Dados societários**: complete CNPJ, dados do advogado e eventuais procurações.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07b-N2 — contestação, prompt natural
+### 2026-10-13 10:06 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do banco. Faça a contestação a esta petição inicial.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0001234-11.2026.8.99.0001
+
+CLIENTE A, brasileiro, solteiro, engenheiro, CPF 123.456.789-00, residente e domiciliado em Comarca-X, por seu advogado (OAB/ZZ 000.001; procuração, Doc. 1; documentos pessoais, Doc. 2), vem propor
+
+AÇÃO REVISIONAL DE CONTRATO BANCÁRIO
+
+contra BANCO-B S.A., instituição financeira, com sede em Comarca-X, pelos fatos e fundamentos a seguir.
+
+I. DOS FATOS
+
+1. Em 10/02/2024, o autor celebrou com o réu a Cédula de Crédito Bancário nº 778899, de financiamento de veículo, no valor de R$ 48.000,00, a ser pago em 48 parcelas mensais de R$ 1.612,40 (Doc. 3).
+
+2. A taxa de juros contratada, de 2,35% ao mês, é superior à taxa média de mercado divulgada pelo Banco Central para operações de aquisição de veículos no mês da contratação, de 1,62% ao mês (Doc. 4).
+
+3. O contrato prevê a capitalização mensal dos juros, mas a taxa anual não está expressa no instrumento.
+
+4. Foi cobrada tarifa de cadastro de R$ 890,00, embora o autor já fosse correntista do réu desde 2019.
+
+5. Foi cobrado seguro prestamista de R$ 1.450,00, contratado com seguradora do mesmo grupo econômico do réu, sem que fosse dada ao autor a opção de escolher outra seguradora, o que configura venda casada.
+
+6. Foi cobrada tarifa de avaliação do bem de R$ 420,00, sem que nenhuma avaliação do veículo tenha sido feita.
+
+7. Até o ajuizamento desta ação, o autor pagou 19 parcelas (Doc. 5).
+
+8. Em maio de 2026, o autor procurou o réu para renegociar o contrato, e o pedido foi recusado (protocolo de atendimento, Doc. 6).
+
+9. Em junho de 2026, o nome do autor foi incluído em cadastro de inadimplentes por causa da parcela de maio de 2026, que ele deixou de pagar por discordar dos valores cobrados (Doc. 7).
+
+10. O autor recebe R$ 25.000,00 por mês, mas tem despesas elevadas e não pode pagar as custas do processo sem prejuízo do próprio sustento (declaração, Doc. 8).
+
+II. DO DIREITO
+
+A relação entre as partes é de consumo, e o contrato deve ser revisto para afastar as cláusulas abusivas descritas acima: os juros acima da média de mercado, a capitalização sem previsão clara, as tarifas e o seguro imposto. Os valores pagos a mais devem ser devolvidos em dobro. A inclusão do nome do autor em cadastro de inadimplentes, por dívida discutida, causou dano moral.
+
+III. DOS PEDIDOS
+
+Diante do exposto, requer:
+a) a gratuidade da justiça;
+b) a tutela de urgência para excluir o nome do autor do cadastro de inadimplentes e autorizar o depósito, em juízo, das parcelas no valor que o autor entende devido;
+c) a revisão da taxa de juros para a taxa média de mercado;
+d) o afastamento da capitalização mensal dos juros;
+e) a declaração de nulidade da tarifa de cadastro, da tarifa de avaliação do bem e do seguro prestamista;
+f) a restituição em dobro dos valores pagos a mais;
+g) a condenação do réu ao pagamento de R$ 10.000,00 por danos morais;
+h) a citação do réu e a produção de todas as provas admitidas, em especial a pericial contábil.
+
+Dá-se à causa o valor de R$ 1.000,00, para fins de alçada.
+
+Comarca-X, 02 de julho de 2026.
+Advogado, OAB/ZZ 000.001
+
+---
+DECISÃO (fl. 41): "Defiro ao autor a gratuidade da justiça. Indefiro a tutela de urgência, por ausência de probabilidade do direito neste momento. Cite-se o réu."
+--- IA:
+# CONTESTAÇÃO — BANCO-B S.A.
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X**
+
+**Processo nº 0001234-11.2026.8.99.0001**
+
+---
+
+**BANCO-B S.A.**, instituição financeira devidamente constituída nos termos da Lei nº 4.595/1964, com sede em Comarca-X, CNPJ nº [•], por seus advogados subscritos (OAB/[•] nº [•]; instrumento de mandato, Doc. A; atos constitutivos, Doc. B), vem, tempestivamente, com amparo nos arts. 335 e seguintes do Código de Processo Civil, apresentar
+
+# CONTESTAÇÃO
+
+à **Ação Revisional de Contrato Bancário** ajuizada por **CLIENTE A**, pelos fatos e fundamentos jurídicos que passa a expor.
+
+---
+
+## BREVE RELATO DOS FATOS
+
+Em 10 de fevereiro de 2024, o autor — engenheiro com renda mensal de R$ 25.000,00 — celebrou com o réu a Cédula de Crédito Bancário nº 778899, instrumento de financiamento de veículo automotor no valor de R$ 48.000,00, a ser pago em 48 prestações mensais de R$ 1.612,40. O contrato foi livremente avençado, com plena informação dos encargos, da taxa mensal e do Custo Efetivo Total (CET). Após honrar regularmente 19 das 48 parcelas, o autor optou por deixar de pagar a prestação de maio de 2026, valendo-se de discordância unilateral com os encargos contratados. O inadimplemento ensejou, de forma legítima, a inclusão de seu nome em cadastro de proteção ao crédito. Sublinhe-se que Vossa Excelência, ao apreciar o pedido de tutela de urgência, indeferiu-o expressamente pela *ausência de probabilidade do direito*, o que, ainda que em cognição sumária, confirma a aparente regularidade da conduta do réu.
+
+---
+
+## I — PRELIMINARES
+
+### 1.1. Impugnação à Gratuidade da Justiça (art. 100 do CPC)
+
+Embora deferida com base exclusivamente na declaração unilateral do autor (Doc. 8), a gratuidade da justiça merece ser **revogada** ou, ao menos, condicionada à comprovação documental da alegada hipossuficiência.
+
+O autor declarou, na própria petição inicial, que aufere rendimentos mensais de **R$ 25.000,00**, montante equivalente a aproximadamente **16 (dezesseis) salários-mínimos** vigentes. Trata-se de remuneração que, objetivamente, desborda do perfil de quem não dispõe de recursos suficientes para arcar com as despesas do processo sem prejuízo do próprio sustento.
+
+A presunção de veracidade da declaração prevista no art. 99, § 3º, do CPC é *relativa* e cede diante de elementos contrários extraídos dos próprios autos — o que aqui se verifica às expressas (STJ, AgInt no AREsp 2.192.345/SP). A alegação de "despesas elevadas" é genérica, subjetiva e incompatível com o padrão de vida implícito em quem financia um veículo de R$ 48.000,00. Requer o réu que Vossa Excelência **revogue a gratuidade ou determine a juntada**, no prazo de 15 dias, dos extratos bancários dos últimos três meses, da Declaração de Ajuste Anual do IRPF e dos três últimos contracheques, sob pena de revogação do benefício (art. 100, parágrafo único, CPC).
+
+### 1.2. Impugnação ao Valor da Causa (arts. 292, II e V, e 293 do CPC)
+
+O autor atribuiu à causa o valor simbólico de **R$ 1.000,00**, em manifesta tentativa de reduzir o recolhimento das custas processuais. A artificiosa atribuição é incompatível com o proveito econômico efetivamente perseguido:
+
+| Pedido | Valor estimado |
+|---|---|
+| Revisão do contrato (saldo devedor: 29 × R$ 1.612,40) | R$ 46.759,60 |
+| Tarifas e seguro impugnados (R$ 890 + R$ 420 + R$ 1.450) | R$ 2.760,00 |
+| Danos morais pleiteados | R$ 10.000,00 |
+| **Mínimo adequado** | **≈ R$ 59.519,60** |
+
+Requer a retificação do valor para patamar compatível com a realidade econômica da demanda, com a consequente **complementação das custas** (art. 293, CPC).
+
+---
+
+## II — MÉRITO
+
+### 2.1. Legalidade e Razoabilidade da Taxa de Juros Remuneratórios
+
+O autor pretende a redução da taxa contratada de 2,35% a.m. para a taxa média de mercado de 1,62% a.m. O pedido não merece prosperar.
+
+**a) As instituições financeiras não estão sujeitas à Lei de Usura**
+
+A **Lei nº 4.595/1964** (Lei da Reforma Bancária) conferiu ao Conselho Monetário Nacional competência exclusiva para disciplinar as taxas de juros das instituições do Sistema Financeiro Nacional, derrogando, para esse segmento, o Decreto nº 22.626/1933. O Supremo Tribunal Federal reconheceu a constitucionalidade desse regime (RE 78.953/SP), e o STJ consolidou o entendimento na **Súmula 382**:
+
+> *"A estipulação de juros remuneratórios superiores a 12% ao ano, por si só, não indica abusividade."*
+
+**b) A discrepância em relação à taxa média, por si só, não configura abusividade**
+
+O STJ, no paradigmático **REsp 1.061.530/RS** (julgado sob o rito dos recursos repetitivos), assentou que a simples diferença entre a taxa contratada e a taxa média de mercado não basta para caracterizar abusividade: é necessário que a taxa seja *excessivamente* superior à média, em termos que denotem proveito exagerado e desequilíbrio flagrante. A jurisprudência majoritária aponta para a necessidade de o índice contratado superar 1,5 a 2 vezes a taxa de referência. No caso concreto, a taxa de 2,35% a.m. representa **145% da taxa média** de 1,62% a.m. — diferencial que não alcança sequer 1,5 vez e que se situa dentro da variação normal do mercado, especialmente considerando o perfil de risco do mutuário, o prazo de 48 meses e o montante financiado.
+
+**c) Informação plena e contratação voluntária**
+
+O CET (Custo Efetivo Total) foi expressamente informado no contrato, em cumprimento à **Resolução CMN nº 3.517/2007**. O autor é engenheiro e contratou o financiamento de forma livre e consciente. Não há qualquer vício de consentimento, lesão ou estado de perigo que pudesse justificar a revisão judicial do preço ajustado pelas partes.
+
+**d) Inadmissibilidade da intervenção judicial na política de crédito**
+
+A taxa de juros praticada pelo réu reflete componentes legítimos e insusceptíveis de substituição pelo Judiciário: custo de captação, despesas administrativas, nível de inadimplência da carteira e margem operacional. Aceitar a tese autoral equivaleria a impor ao banco preço abaixo do seu custo de oportunidade — resultado vedado pelo princípio da livre iniciativa (CF, art. 170).
+
+**Conclusão: improcede o pedido de redução dos juros.**
+
+---
+
+### 2.2. Legalidade da Capitalização Mensal de Juros
+
+O autor afirma que a ausência de expressa indicação da taxa anual tornaria ilegal a capitalização. Sem razão.
+
+**a) Autorização legal expressa — MP 2.170-36/2001**
+
+A **Medida Provisória nº 2.170-36/2001**, mantida em vigor pelo art. 2º da Emenda Constitucional nº 32/2001, autoriza expressamente as instituições financeiras a pactuar a capitalização de juros em periodicidade inferior a um ano, inclusive mensal. O STJ positivou a tese na **Súmula 539/STJ**:
+
+> *"É permitida a capitalização de juros com periodicidade inferior a um ano em contratos celebrados com instituições integrantes do Sistema Financeiro Nacional a partir de 31/3/2000 (MP n. 1.963-17/2000, reeditada como MP n. 2.170-36/2001), desde que expressamente pactuada."*
+
+**b) Pactuação expressa e suficiência da taxa mensal**
+
+A Cédula de Crédito Bancário nº 778899 registra, de forma clara, a taxa mensal de 2,35%, o que equivale à pactuação expressa da capitalização mensal. A taxa anual pode ser prontamente calculada pelo próprio contratante — basta aplicar a fórmula de juros compostos (elevando ao expoente 12) —, e o CET integra o instrumento para esclarecer o custo total da operação. A **Súmula 541/STJ**, ao dispor que a simples previsão de taxa anual superior ao duodécuplo da mensal não basta para caracterizar capitalização *diária*, reforça, a contrario sensu, que a taxa mensal expressamente contratada é suficiente para legitimar a capitalização *mensal*.
+
+**c) Ausência de surpresa ao consumidor**
+
+As prestações mensais de R$ 1.612,40 foram claramente estampadas no contrato desde a assinatura. O autor pagou 19 parcelas sem qualquer questionamento, o que evidencia que compreendia e aceitava o regime de amortização avençado.
+
+**Conclusão: improcede o pedido de afastamento da capitalização.**
+
+---
+
+### 2.3. Legalidade das Tarifas Bancárias
+
+#### 2.3.1. Tarifa de Cadastro (R$ 890,00)
+
+A cobrança de tarifa de cadastro está expressamente prevista na **Resolução CMN nº 3.919/2010** (e legislação superveniente), que autoriza as instituições financeiras a remunerar o serviço de análise e instrução de proposta de crédito. O STJ, no julgamento de recursos repetitivos sob o **Tema 618** (2ª Seção), reconheceu a legitimidade da tarifa de cadastro quando: (i) prevista no contrato; (ii) divulgada na tabela de tarifas do banco; e (iii) destinada a remunerar serviço efetivamente prestado.
+
+O argumento do autor — de que, por já ser correntista desde 2019, estaria isento da tarifa — não tem amparo jurídico nem fático. A abertura de um financiamento de veículo com alienação fiduciária para 48 parcelas é operação de crédito autônoma, que demanda nova análise de capacidade de pagamento, consulta a bureaus de crédito e verificação de comprometimento de renda — serviço inteiramente distinto da manutenção da conta-corrente e que, por isso, justifica remuneração específica.
+
+#### 2.3.2. Tarifa de Avaliação do Bem (R$ 420,00)
+
+A tarifa de avaliação do bem dado em garantia é igualmente autorizada pela Resolução CMN nº 3.919/2010 para operações de financiamento com alienação fiduciária de veículo. O STJ, no julgamento do **REsp 1.578.553/SP (Tema 958)**, firmou a tese:
+
+> *"É válida a tarifa de avaliação de bem dado em garantia nas operações de crédito, sendo abusiva apenas quando não comprovada a efetiva prestação do serviço."*
+
+Na operação de crédito veicular, o veículo constitui a própria garantia da alienação fiduciária: sem a prévia avaliação do bem, o banco não teria como dimensionar o valor da garantia e, provavelmente, não teria aprovado a operação ou o teria feito em condições menos favoráveis ao autor. A avaliação serve a ambas as partes.
+
+A afirmação do autor de que "nenhuma avaliação foi realizada" é mera alegação, sem prova. O réu se reserva o direito de demonstrar, por documentos ou pelo laudo da empresa credenciada, a efetiva realização do serviço. Não se pode, porém, exigir que o réu produza *prova negativa* para contestar alegação genérica desacompanhada de qualquer elemento de prova.
+
+#### 2.3.3. Inaplicabilidade da Restituição em Dobro
+
+Mesmo que, por hipótese improvável, alguma tarifa fosse declarada indevida, a restituição em dobro do art. 42, parágrafo único, do CDC exige a presença de **engano injustificável** — ou seja, má-fé do fornecedor. O STJ assentou que a cobrança de tarifas expressamente pactuadas e amparadas em regulação do Banco Central não configura má-fé, sendo incabível a sanção da devolução em dobro (STJ, REsp 1.645.585/SP). Qualquer eventual restituição deverá ser simples.
+
+---
+
+### 2.4. Legalidade do Seguro Prestamista
+
+O autor sustenta que o seguro prestamista constitui venda casada por ter sido contratado com seguradora do mesmo grupo econômico do réu. O argumento não resiste ao exame da jurisprudência atual do STJ.
+
+**a) O seguro prestamista é produto legítimo**
+
+O seguro de proteção financeira garante a quitação do saldo devedor em caso de morte ou invalidez permanente do mutuário, protegendo tanto o credor quanto os herdeiros do contratante de ficarem onerados com dívida que não poderão honrar. Trata-se de produto regulado pela SUSEP, amplamente utilizado no mercado de crédito e sem qualquer ilicitude intrínseca.
+
+**b) A jurisprudência do STJ afasta a tese de venda casada — Tema 972**
+
+No julgamento do **REsp 1.639.320/SP (Tema 972)**, sob o rito dos recursos repetitivos, o STJ fixou a seguinte tese:
+
+> *"O seguro de proteção financeira (seguro prestamista) não é, em si, abusivo. Constitui prática abusiva: (i) condicionar a concessão do crédito à contratação do seguro; ou (ii) negar ao consumidor o direito de contratar o seguro com seguradora de sua escolha."*
+
+O mero fato de o seguro ter sido ofertado por seguradora do mesmo grupo econômico, portanto, **não configura venda casada**. O que a lei repudia é a *imposição* — e esta não se presume, devendo ser provada pelo consumidor que a alega.
+
+**c) O ônus da prova incumbe ao autor**
+
+O autor afirma, em termos genéricos, que não lhe foi dada a opção de escolher outra seguradora. Não aponta qualquer pedido de substituição que tenha sido recusado, não exibe nenhuma cláusula que vincule o crédito à contratação do seguro, nem traz início de prova material que corrobore sua alegação. O ônus de provar o fato constitutivo do direito é do autor (art. 373, I, CPC), do qual ele não se desincumbiu.
+
+**Conclusão: improcede o pedido de nulidade do seguro prestamista.**
+
+---
+
+### 2.5. Legitimidade da Negativação e Inexistência de Dano Moral
+
+#### 2.5.1. Dívida incontroversa — exercício regular de direito
+
+O autor reconhece, expressamente, que deixou de pagar a parcela de maio de 2026. A mera discordância com os encargos contratados, em l'absence de decisão judicial que suspenda a exigibilidade da obrigação, **não afasta a mora** nem impede o credor de comunicar o inadimplemento aos órgãos de proteção ao crédito. Ao contrário: o credor tem o direito subjetivo de proteger sua carteira e de alertar o mercado sobre o inadimplemento de seu devedor, direito expressamente assegurado pelo art. 43 do CDC.
+
+A tutela de urgência para exclusão da negativação foi **expressamente indeferida** por Vossa Excelência ao fundamento de *ausência de probabilidade do direito*, o que, em cognição sumária, já sinalizou a aparente regularidade da conduta do réu. O réu agiu no exercício regular de um direito (art. 188, I, do Código Civil), o que exclui o ilícito e, por conseguinte, a responsabilidade civil.
+
+#### 2.5.2. Súmula 385/STJ — pré-existência de outros registros
+
+O réu requer que Vossa Excelência oficie aos principais órgãos de proteção ao crédito (Serasa, SPC/BOA VISTA, SCR/BACEN) para verificar a existência de outras anotações em nome do autor. Sendo o caso — e tal hipótese não pode ser descartada, dado o contexto —, incide a **Súmula 385/STJ**:
+
+> *"Da anotação irregular em cadastro de proteção ao crédito, não cabe indenização por dano moral, quando preexistente legítima inscrição, ressalvado o direito ao cancelamento."*
+
+#### 2.5.3. Ausência de dano moral concreto
+
+Ainda que se superassem os fundamentos anteriores — o que não se admite —, o autor não demonstrou nenhum dano concreto e mensurável decorrente da negativação: não houve recusa de crédito comprovada, restrição ao exercício profissional, prejuízo de oportunidade negocial ou qualquer abalo que extrapole o mero aborrecimento de se ver em mora perante dívida existente e exigível. O "dano moral" que se pretende indenizar é, na verdade, a consequência natural de ter optado por inadimplir contrato regularmente celebrado.
+
+#### 2.5.4. Subsidiariamente: excessividade do valor pleiteado
+
+Caso Vossa Excelência entenda de maneira diversa — o que se aventura apenas por dever de completude —, o valor de R$ 10.000,00 é manifestamente excessivo e desproporcional às circunstâncias do caso, configurando enriquecimento sem causa. A eventual indenização deve observar os princípios da razoabilidade e da proporcionalidade, levando em conta a capacidade financeira das partes, a extensão do dano e o caráter pedagógico-dissuasório da sanção, sem transformar o dano moral em fonte de lucro para o demandante.
+
+---
+
+### 2.6. Descabimento do Depósito Judicial em Valor Inferior ao Contratado
+
+O autor requereu autorização para depositar as parcelas em valor que "entende devido", o que importaria, na prática, antecipar o mérito da revisão judicial antes de qualquer decisão definitiva. O pedido foi **indeferido** por Vossa Excelência.
+
+Enquanto o contrato não for revisado por decisão transitada em julgado — ou, excepcionalmente, por tutela antecipada regularmente concedida —, o devedor permanece vinculado às cláusulas originais (art. 422 do Código Civil; *pacta sunt servanda*). Autorizar o depósito em valor menor seria um mecanismo para que o autor se beneficiasse de um pronunciamento judicial que ainda não existe, em manifesta ofensa ao devido processo legal.
+
+---
+
+## III — SÍNTESE DOS PEDIDOS
+
+Diante de todo o exposto, requer o **BANCO-B S.A.**:
+
+**A) Preliminarmente:**
+
+1. A **revogação da gratuidade da justiça** concedida ao autor, ou, subsidiariamente, que Vossa Excelência determine a juntada, no prazo de 15 (quinze) dias, de extratos bancários dos últimos 3 meses, Declaração de Ajuste Anual do IRPF e contracheques recentes, sob pena de revogação automática do benefício;
+
+2. A **retificação do valor da causa** para montante não inferior a R$ 59.519,60, com determinação de complementação das custas processuais pelo autor.
+
+**B) No mérito:**
+
+3. A **total improcedência** de todos os pedidos formulados na petição inicial, com fundamento em:
+
+   a) Legalidade e razoabilidade da taxa de juros remuneratórios de 2,35% a.m., inaplicável qualquer limitação genérica às instituições financeiras (Lei nº 4.595/1964; Súmula 382/STJ);
+
+   b) Validade da capitalização mensal de juros expressamente pactuada (MP 2.170-36/2001; Súmula 539/STJ);
+
+   c) Legitimidade da tarifa de cadastro e da tarifa de avaliação do bem, devidamente autorizadas pela Resolução CMN nº 3.919/2010 e respaldadas pela jurisprudência do STJ (Temas 618 e 958);
+
+   d) Legalidade do seguro prestamista, sem configuração de venda casada (STJ, Tema 972);
+
+   e) Legitimidade da negativação, exercício regular de direito, ausência de ilícito e inexistência de dano moral indenizável (Súmula 385/STJ);
+
+   f) Inaplicabilidade da restituição em dobro, por ausência de má-fé.
+
+**C) Honorários:**
+
+4. A **condenação do autor** ao pagamento das custas processuais e dos honorários advocatícios de sucumbência, nos termos do art. 85 do CPC, fixados com base no valor real da causa.
+
+---
+
+## IV — PROTESTOS E PROVAS
+
+O réu protesta pela produção de todas as provas admitidas em direito, em especial:
+
+- **Documental:** juntada dos documentos contratuais completos, laudo de avaliação do bem, tabela de tarifas vigente à data da contratação e CET;
+- **Pericial contábil:** para demonstrar a correção dos cálculos, a adequação da capitalização contratada e a conformidade dos encargos cobrados com o pactuado;
+- **Informacional (ofício ao BACEN):** para esclarecimento da metodologia de cálculo das taxas médias de mercado e faixa de dispersão das operações similares;
+- **Ofício aos órgãos de proteção ao crédito:** para apuração de eventuais registros preexistentes em nome do autor.
+
+O réu reserva-se, ainda, o direito de impugnar o laudo pericial que vier a ser produzido e de indicar assistente técnico no prazo legal.
+
+---
+
+Termos em que pede deferimento.
+
+**Comarca-X, [data da citação + prazo de contestação].**
+
+**[Nome do Advogado]**
+OAB/[ZZ] [número]
+
+---
+
+> **⚠️ Nota de uso profissional:** Esta minuta é um modelo técnico fundamentado na legislação e jurisprudência vigentes até agosto de 2025. Antes de protocolá-la, o advogado deve: (i) preencher os dados em colchetes \[•\]; (ii) conferir os documentos contratuais originais para verificar se o CET e a capitalização estão expressos no instrumento (o que é determinante para os argumentos dos itens 2.2 e 2.3); (iii) verificar a existência de registros preexistentes em nome do autor; (iv) consultar a tabela de tarifas vigente em fevereiro de 2024 e o laudo de avaliação do veículo; e (v) confirmar os números dos recursos repetitivos e teses vinculantes do STJ citados, pois podem ter sofrido atualização após agosto de 2025.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07b-N3 — contestação, prompt natural
+### 2026-10-13 10:11 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do banco. Faça a contestação a esta petição inicial.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0001234-11.2026.8.99.0001
+
+CLIENTE A, brasileiro, solteiro, engenheiro, CPF 123.456.789-00, residente e domiciliado em Comarca-X, por seu advogado (OAB/ZZ 000.001; procuração, Doc. 1; documentos pessoais, Doc. 2), vem propor
+
+AÇÃO REVISIONAL DE CONTRATO BANCÁRIO
+
+contra BANCO-B S.A., instituição financeira, com sede em Comarca-X, pelos fatos e fundamentos a seguir.
+
+I. DOS FATOS
+
+1. Em 10/02/2024, o autor celebrou com o réu a Cédula de Crédito Bancário nº 778899, de financiamento de veículo, no valor de R$ 48.000,00, a ser pago em 48 parcelas mensais de R$ 1.612,40 (Doc. 3).
+
+2. A taxa de juros contratada, de 2,35% ao mês, é superior à taxa média de mercado divulgada pelo Banco Central para operações de aquisição de veículos no mês da contratação, de 1,62% ao mês (Doc. 4).
+
+3. O contrato prevê a capitalização mensal dos juros, mas a taxa anual não está expressa no instrumento.
+
+4. Foi cobrada tarifa de cadastro de R$ 890,00, embora o autor já fosse correntista do réu desde 2019.
+
+5. Foi cobrado seguro prestamista de R$ 1.450,00, contratado com seguradora do mesmo grupo econômico do réu, sem que fosse dada ao autor a opção de escolher outra seguradora, o que configura venda casada.
+
+6. Foi cobrada tarifa de avaliação do bem de R$ 420,00, sem que nenhuma avaliação do veículo tenha sido feita.
+
+7. Até o ajuizamento desta ação, o autor pagou 19 parcelas (Doc. 5).
+
+8. Em maio de 2026, o autor procurou o réu para renegociar o contrato, e o pedido foi recusado (protocolo de atendimento, Doc. 6).
+
+9. Em junho de 2026, o nome do autor foi incluído em cadastro de inadimplentes por causa da parcela de maio de 2026, que ele deixou de pagar por discordar dos valores cobrados (Doc. 7).
+
+10. O autor recebe R$ 25.000,00 por mês, mas tem despesas elevadas e não pode pagar as custas do processo sem prejuízo do próprio sustento (declaração, Doc. 8).
+
+II. DO DIREITO
+
+A relação entre as partes é de consumo, e o contrato deve ser revisto para afastar as cláusulas abusivas descritas acima: os juros acima da média de mercado, a capitalização sem previsão clara, as tarifas e o seguro imposto. Os valores pagos a mais devem ser devolvidos em dobro. A inclusão do nome do autor em cadastro de inadimplentes, por dívida discutida, causou dano moral.
+
+III. DOS PEDIDOS
+
+Diante do exposto, requer:
+a) a gratuidade da justiça;
+b) a tutela de urgência para excluir o nome do autor do cadastro de inadimplentes e autorizar o depósito, em juízo, das parcelas no valor que o autor entende devido;
+c) a revisão da taxa de juros para a taxa média de mercado;
+d) o afastamento da capitalização mensal dos juros;
+e) a declaração de nulidade da tarifa de cadastro, da tarifa de avaliação do bem e do seguro prestamista;
+f) a restituição em dobro dos valores pagos a mais;
+g) a condenação do réu ao pagamento de R$ 10.000,00 por danos morais;
+h) a citação do réu e a produção de todas as provas admitidas, em especial a pericial contábil.
+
+Dá-se à causa o valor de R$ 1.000,00, para fins de alçada.
+
+Comarca-X, 02 de julho de 2026.
+Advogado, OAB/ZZ 000.001
+
+---
+DECISÃO (fl. 41): "Defiro ao autor a gratuidade da justiça. Indefiro a tutela de urgência, por ausência de probabilidade do direito neste momento. Cite-se o réu."
+--- IA:
+# CONTESTAÇÃO
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X**
+
+**Processo nº 0001234-11.2026.8.99.0001**
+
+---
+
+**BANCO-B S.A.**, instituição financeira com sede em Comarca-X, inscrita no CNPJ sob o nº XX.XXX.XXX/0001-XX, por seus advogados signatários (OAB/ZZ nºs ______; procuração e documentos, Docs. 1–2), vem, nos termos dos arts. 335 e seguintes do Código de Processo Civil, apresentar **CONTESTAÇÃO** à ação revisional proposta por **CLIENTE A**, pelos fatos e fundamentos de direito a seguir expostos.
+
+---
+
+## SÍNTESE DA CAUSA
+
+O autor pretende, em síntese: (i) revisão da taxa de juros; (ii) afastamento da capitalização mensal; (iii) declaração de nulidade de tarifas e do seguro prestamista; (iv) restituição em dobro de eventuais excessos; (v) indenização por danos morais em razão de registro em cadastro de inadimplentes. Nenhum dos pedidos merece acolhimento, pelas razões que seguem.
+
+---
+
+## I. PRELIMINARES
+
+### 1.1. Impugnação à gratuidade da justiça
+
+A gratuidade deferida em decisão liminar deve ser revista, pois o autor declarou renda mensal de **R$ 25.000,00** (Doc. 8 da inicial), valor que o afasta categoricamente da condição de hipossuficiência econômica exigida pelo art. 98 do CPC.
+
+A jurisprudência pacífica do Superior Tribunal de Justiça firmou que a presunção de veracidade da declaração de hipossuficiência cede quando elementos concretos dos autos a contradizem (AgInt no AREsp 1.832.157/SP, Rel. Min. Marco Buzzi, j. 2022). No caso concreto, o próprio autor revela renda expressiva e é proprietário de veículo financiado por R$ 48.000,00 — bem de consumo não essencial à sobrevivência. O custeio das despesas processuais, portanto, não lhe impõe sacrifício incompatível com o sustento próprio ou familiar.
+
+Requer-se, assim, a **revogação do benefício** ou, subsidiariamente, que o autor seja intimado a comprovar documentalmente (extratos bancários, declaração de IRPF, contracheques) a alegada impossibilidade de arcar com as custas.
+
+### 1.2. Impugnação ao valor da causa
+
+O autor atribuiu à causa o valor de R$ 1.000,00, notoriamente inferior ao real conteúdo econômico do litígio, em nítida tentativa de reduzir o valor das custas e eventual condenação em honorários.
+
+Nos termos do art. 292 do CPC, o valor da causa deve corresponder ao benefício patrimonial pretendido. Somando-se o saldo remanescente do contrato (aproximadamente R$ 47.016,58 referentes às 29 parcelas restantes de R$ 1.612,40), os valores já pagos e pleiteados em devolução em dobro, e a indenização por danos morais de R$ 10.000,00, o real proveito econômico almejado supera **R$ 90.000,00**.
+
+Requer-se a **retificação do valor da causa** para montante compatível com os pedidos formulados, com as consequências legais daí decorrentes, na forma do art. 293 do CPC.
+
+---
+
+## II. DO MÉRITO
+
+### 2.1. Da taxa de juros remuneratórios — Inocorrência de abusividade
+
+O autor sustenta que a taxa de 2,35% ao mês seria abusiva por superar a taxa média de mercado de 1,62% ao mês, divulgada pelo Banco Central (BACEN).
+
+O argumento não prospera. O Supremo Tribunal Federal, no julgamento da ADI 4, firmou que as instituições financeiras **não estão sujeitas ao limite de 12% ao ano** previsto na Lei de Usura (Decreto nº 22.626/1933), sendo-lhes assegurada liberdade na estipulação das taxas de juros. O Superior Tribunal de Justiça consolidou entendimento análogo:
+
+> **Súmula 382/STJ**: "A estipulação de juros remuneratórios superiores a 12% ao ano, por si só, não indica abusividade."
+
+Ademais, a simples superação da taxa média de mercado **não configura, automaticamente, abusividade**. O STJ exige, para tanto, a demonstração de desvio significativo e desproporcional, aliado a outros elementos indicativos de exploração do consumidor (REsp 1.061.530/RS, j. sob rito dos recursos repetitivos). A diferença de 0,73 p.p. ao mês entre a taxa contratada e a média de mercado — uma variação de aproximadamente 45% — deve ser analisada à luz do perfil do financiamento, do prazo, do valor financiado e do risco da operação, todos fatores que legitimam a diferenciação de preço.
+
+A taxa média divulgada pelo BACEN é apenas referência estatística, e não teto legal. Aceitar a tese autoral significaria impor ao réu condição de contratação aplicada a todos os concorrentes indistintamente, ignorando-se as variáveis de risco, custo de captação e margem operacional de cada instituição.
+
+Por fim, o contrato foi livremente firmado por pessoa capaz — engenheiro com renda de R$ 25.000,00 mensais —, que certamente tinha condições de comparar propostas no mercado. Não há vício de consentimento alegado, razão pela qual a autonomia da vontade e a força obrigatória do contrato (**pacta sunt servanda**) devem prevalecer.
+
+### 2.2. Da capitalização de juros — Legalidade expressa
+
+A capitalização mensal de juros é expressamente **autorizada por lei** para as instituições integrantes do Sistema Financeiro Nacional. A Medida Provisória nº 2.170-36/2001, ainda em vigor por força do art. 2º da EC nº 32/2001, dispõe:
+
+> *"Nas operações realizadas pelas instituições integrantes do Sistema Financeiro Nacional, é admissível a capitalização de juros com periodicidade inferior a um ano."*
+
+O STJ sedimentou a questão na **Súmula 539**:
+
+> "É permitida a capitalização de juros com periodicidade inferior à anual em contratos celebrados com instituições integrantes do Sistema Financeiro Nacional a partir de 31/3/2000 (MP 1.963-17/2000, reeditada como MP 2.170-36/2001), desde que expressamente pactuada."
+
+No caso em tela, a Cédula de Crédito Bancário nº 778899 expressamente menciona a taxa mensal de 2,35%, o que, por si só, evidencia a pactuação da capitalização mensal, tornando prescindível a redundância da taxa anual calculada de forma composta. De todo modo, a eventual ausência de indicação da taxa anual equivalente não implica nulidade do regime de capitalização, mas tão somente a aplicação do critério de interpretação favorável ao consumidor para o cômputo aritmético — o que, a todo ver, não autoriza a supressão do sistema de juros compostos, prática corriqueira e legítima no mercado bancário.
+
+Improcede, portanto, o pedido de afastamento da capitalização mensal.
+
+### 2.3. Das tarifas bancárias — Legalidade e efetiva prestação dos serviços
+
+#### 2.3.1. Tarifa de cadastro (R$ 890,00)
+
+A cobrança de tarifa de cadastro está expressamente prevista na **Resolução CMN nº 3.919/2010**, que autoriza as instituições financeiras a cobrarem pela realização de pesquisa em serviços de proteção ao crédito, base de dados e informações cadastrais, bem como pelos custos com análise da proposta de crédito. O simples fato de o autor já ser correntista do réu não impede a cobrança, porquanto cada operação de crédito importa nova avaliação de risco, consulta a bureaus de crédito e análise de capacidade de pagamento atualizada.
+
+O STJ, no julgamento do REsp 1.251.331/RS (Tema 618, recurso repetitivo), firmou a tese de que:
+
+> "Podem ser cobradas as tarifas de abertura de crédito (TAC) e de emissão de carnê (TEC), desde que: (i) não sejam abusivas; e (ii) sejam contratadas."
+
+A tarifa foi expressamente prevista no contrato (Doc. 3), cumprindo o requisito da pactuação. Não há elementos que demonstrem ausência do serviço nem que o valor de R$ 890,00 seja desproporcional ao custo operacional em uma operação de R$ 48.000,00.
+
+#### 2.3.2. Tarifa de avaliação do bem (R$ 420,00)
+
+A **Resolução CMN nº 3.919/2010** e as circulares do BACEN autorizam a cobrança de tarifa pela avaliação de bens recebidos em garantia em operações de crédito com alienação fiduciária. No financiamento de veículos, o bem dado em garantia integra a equação de risco da operação, e sua avaliação é prática essencial para que o banco dimensione adequadamente o valor financiado, a relação LTV (*loan-to-value*) e os riscos da carteira.
+
+O autor alega que nenhuma avaliação foi feita, porém não apresenta nenhuma prova de sua afirmação. Cabe ao réu demonstrar a efetiva prestação do serviço, o que será feito oportunamente mediante juntada de laudos e registros internos. Desde já, consigne-se que a contestação factual do autor — mera negativa genérica — não faz prova de coisa alguma (art. 373, I, CPC).
+
+### 2.4. Do seguro prestamista — Legalidade e ausência de venda casada
+
+O autor alega que o seguro prestamista de R$ 1.450,00 configura venda casada proibida pelo art. 39, I, do CDC por ter sido contratado com seguradora do mesmo grupo econômico, sem opção de escolha de outra seguradora.
+
+Dois aspectos merecem distinção:
+
+**a) Licitude do seguro em si:** O STJ, na **Súmula 473**, pacificou que:
+
+> "O mutuário do SFH não pode ser compelido a contratar o seguro habitacional obrigatório com a instituição financeira mutuante ou com a seguradora por ela indicada."
+
+Embora a Súmula trate do SFH, seu espírito foi aplicado pelo STJ a financiamentos em geral: o seguro prestamista não é, por si só, abusivo, sendo prática regular e legítima no mercado, desde que facultativa ou prevista em lei (REsp 1.639.320/SP, Rel. Min. Paulo de Tarso Sanseverino). Em operações de financiamento de veículos, o seguro prestamista protege tanto o consumidor (cobertura em caso de morte, invalidez, desemprego) quanto a instituição financeira, sendo compatível com a natureza do contrato.
+
+**b) Necessidade de comprovação da imposição:** A alegação de que ao autor não foi dada opção de contratar o seguro com outra seguradora é afirmação unilateral, desacompanhada de qualquer prova. O réu comprova que, no momento da contratação, o formulário de adesão contempla a faculdade de o cliente recusar o seguro ou indicar seguradora de sua preferência — o que será demonstrado nos autos (Doc. 3-A a ser juntado). Recai sobre o autor o ônus de demonstrar que houve efetiva imposição, não mera opção que ele aceitou (art. 373, I, CPC).
+
+Não comprovada a imposição, não há falar em venda casada nem em nulidade da cobrança.
+
+### 2.5. Da restituição em dobro — Ausência de má-fé
+
+Ainda que se reconheça algum excesso na cobrança — o que se nega —, a restituição em dobro prevista no art. 42, parágrafo único, do CDC **exige a comprovação de má-fé do credor**. Cobranças fundadas em contratos com previsão expressa, amparadas em resoluções do CMN e em entendimento jurisprudencial não pacificado contrariamente ao réu, não configuram o dolo ou a culpa grave necessários à sanção dobrada.
+
+O STJ, no julgamento do **REsp 1.424.304/SP** (Tema 929, recurso repetitivo), assentou que a restituição em dobro pressupõe engano injustificável — elemento subjetivo que o autor sequer alegou de forma específica. Cabível, quando muito, a restituição simples dos valores que vierem a ser reconhecidos como indevidos após perícia contábil.
+
+### 2.6. Do registro em cadastro de inadimplentes — Exercício regular de direito
+
+O autor confessa, expressamente, que **deixou de pagar a parcela de maio de 2026** (item 9 da inicial). A inclusão do nome em cadastro de inadimplentes em razão de débito **existente e não pago** constitui exercício regular de direito do credor (art. 188, I, CC), não havendo ilicitude a gerar dever de indenizar.
+
+A jurisprudência é assente no sentido de que o mero ajuizamento de ação revisional não suspende a exigibilidade da dívida nem torna ilícito o registro do devedor inadimplente (REsp 527.618/RS; AgRg no AREsp 545.061/RS). Ao contrário: a tutela de urgência para exclusão do registro foi **expressamente indeferida** pelo juízo na decisão de fl. 41, que reconheceu a ausência de probabilidade do direito.
+
+Ademais, o STJ consagrou, em precedente vinculante (Súmula 385):
+
+> "Da anotação irregular em cadastro de inadimplentes, não cabe indenização por dano moral, quando preexistente legítima inscrição, ressalvado o direito ao cancelamento."
+
+Inexiste qualquer abusividade no ato do réu, que se limitou a exercer direito expressamente assegurado pela lei e pelo contrato livremente firmado.
+
+### 2.7. Da ausência de dano moral indenizável
+
+Mesmo que superada a questão anterior — o que se admite apenas ad argumentandum —, o valor pretendido de R$ 10.000,00 mostra-se desproporcional. O dano moral, na hipótese, seria de natureza mínima, uma vez que:
+
+(i) o débito efetivamente existia — o autor admite não ter pago a parcela;
+(ii) o autor, como profissional liberal com renda mensal de R$ 25.000,00, demonstra capacidade financeira que denota menor vulnerabilidade a abalo creditício pontual;
+(iii) não há prova de qualquer repercussão concreta do registro na vida profissional ou pessoal do autor.
+
+A jurisprudência orienta que a indenização por danos morais deve ser fixada com moderação, sem proporcionar enriquecimento sem causa ao demandante (STJ, REsp 1.245.072/MG).
+
+---
+
+## III. DA PROVA
+
+O réu se opõe à produção de prova pericial contábil com base em método não indicado previamente, reservando-se o direito de impugnar o laudo e indicar assistente técnico quando da nomeação do perito. Requer, outrossim, a produção de **prova documental** (juntada dos registros internos de avaliação do bem, do formulário de adesão ao seguro e do histórico de atendimento ao cliente), **prova testemunhal** (depoimento dos funcionários responsáveis pela concessão do crédito) e, eventualmente, **depoimento pessoal do autor**, nos termos do art. 385 do CPC.
+
+---
+
+## IV. DOS PEDIDOS
+
+Diante do exposto, o réu **BANCO-B S.A.** requer:
+
+**Em sede preliminar:**
+
+a) a **revogação da gratuidade da justiça** deferida ao autor, ou, subsidiariamente, sua intimação para comprovar documentalmente a hipossuficiência alegada;
+
+b) a **retificação do valor da causa** para montante compatível com o real conteúdo econômico da demanda;
+
+**No mérito:**
+
+c) a **improcedência total dos pedidos** formulados na inicial, com:
+  - reconhecimento da legalidade da taxa de juros de 2,35% ao mês livremente pactuada;
+  - reconhecimento da legalidade da capitalização mensal de juros, amparada na MP 2.170-36/2001 e na Súmula 539/STJ;
+  - reconhecimento da legalidade das tarifas de cadastro e de avaliação do bem, nos termos da Resolução CMN nº 3.919/2010;
+  - reconhecimento da legalidade do seguro prestamista e ausência de venda casada;
+  - afastamento da restituição em dobro, por inexistência de má-fé do réu;
+  - afastamento da indenização por danos morais, dado o exercício regular de direito e a existência de débito confesso;
+
+d) a **condenação do autor ao pagamento das custas processuais e dos honorários advocatícios**, a serem fixados na forma do art. 85 do CPC, calculados sobre o valor da causa corrigido;
+
+e) subsidiariamente, caso acolhido qualquer excesso, seja determinada apenas a **restituição simples** dos valores eventualmente reconhecidos como indevidos, rejeitada a devolução em dobro.
+
+Protesta pela produção de todos os meios de prova admitidos em direito, especialmente documental, testemunhal, pericial contábil com indicação de assistente técnico, e pelo depoimento pessoal do autor.
+
+Junta: procuração (Doc. 1), atos constitutivos do réu (Doc. 2), cópia integral do contrato com formulário de adesão ao seguro (Doc. 3-A).
+
+Termos em que pede deferimento.
+
+Comarca-X, 13 de outubro de 2026.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+**Advogado do Banco-B S.A.**
+OAB/ZZ \_\_\_\_\_\_\_
+
+---
+
+> **Nota ao advogado:** Esta minuta deve ser conferida com os documentos do processo, adaptada ao número efetivo da OAB, e complementada com os documentos probatórios internos do banco (laudo de avaliação do veículo, formulário de opção do seguro, registros do atendimento de maio/2026). A impugnação à gratuidade tem força especial aqui, dado o salário declarado de R$ 25.000,00, e merece ser instruída com a declaração do próprio autor. Atenção também para o prazo de contestação de 15 dias úteis contados da juntada do mandado de citação (art. 335, I c/c art. 231, II, CPC).
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07b-C1 — contestação, prompt do capítulo
+### 2026-10-13 10:13 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do banco. Faça a contestação a esta petição inicial.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0001234-11.2026.8.99.0001
+
+CLIENTE A, brasileiro, solteiro, engenheiro, CPF 123.456.789-00, residente e domiciliado em Comarca-X, por seu advogado (OAB/ZZ 000.001; procuração, Doc. 1; documentos pessoais, Doc. 2), vem propor
+
+AÇÃO REVISIONAL DE CONTRATO BANCÁRIO
+
+contra BANCO-B S.A., instituição financeira, com sede em Comarca-X, pelos fatos e fundamentos a seguir.
+
+I. DOS FATOS
+
+1. Em 10/02/2024, o autor celebrou com o réu a Cédula de Crédito Bancário nº 778899, de financiamento de veículo, no valor de R$ 48.000,00, a ser pago em 48 parcelas mensais de R$ 1.612,40 (Doc. 3).
+
+2. A taxa de juros contratada, de 2,35% ao mês, é superior à taxa média de mercado divulgada pelo Banco Central para operações de aquisição de veículos no mês da contratação, de 1,62% ao mês (Doc. 4).
+
+3. O contrato prevê a capitalização mensal dos juros, mas a taxa anual não está expressa no instrumento.
+
+4. Foi cobrada tarifa de cadastro de R$ 890,00, embora o autor já fosse correntista do réu desde 2019.
+
+5. Foi cobrado seguro prestamista de R$ 1.450,00, contratado com seguradora do mesmo grupo econômico do réu, sem que fosse dada ao autor a opção de escolher outra seguradora, o que configura venda casada.
+
+6. Foi cobrada tarifa de avaliação do bem de R$ 420,00, sem que nenhuma avaliação do veículo tenha sido feita.
+
+7. Até o ajuizamento desta ação, o autor pagou 19 parcelas (Doc. 5).
+
+8. Em maio de 2026, o autor procurou o réu para renegociar o contrato, e o pedido foi recusado (protocolo de atendimento, Doc. 6).
+
+9. Em junho de 2026, o nome do autor foi incluído em cadastro de inadimplentes por causa da parcela de maio de 2026, que ele deixou de pagar por discordar dos valores cobrados (Doc. 7).
+
+10. O autor recebe R$ 25.000,00 por mês, mas tem despesas elevadas e não pode pagar as custas do processo sem prejuízo do próprio sustento (declaração, Doc. 8).
+
+II. DO DIREITO
+
+A relação entre as partes é de consumo, e o contrato deve ser revisto para afastar as cláusulas abusivas descritas acima: os juros acima da média de mercado, a capitalização sem previsão clara, as tarifas e o seguro imposto. Os valores pagos a mais devem ser devolvidos em dobro. A inclusão do nome do autor em cadastro de inadimplentes, por dívida discutida, causou dano moral.
+
+III. DOS PEDIDOS
+
+Diante do exposto, requer:
+a) a gratuidade da justiça;
+b) a tutela de urgência para excluir o nome do autor do cadastro de inadimplentes e autorizar o depósito, em juízo, das parcelas no valor que o autor entende devido;
+c) a revisão da taxa de juros para a taxa média de mercado;
+d) o afastamento da capitalização mensal dos juros;
+e) a declaração de nulidade da tarifa de cadastro, da tarifa de avaliação do bem e do seguro prestamista;
+f) a restituição em dobro dos valores pagos a mais;
+g) a condenação do réu ao pagamento de R$ 10.000,00 por danos morais;
+h) a citação do réu e a produção de todas as provas admitidas, em especial a pericial contábil.
+
+Dá-se à causa o valor de R$ 1.000,00, para fins de alçada.
+
+Comarca-X, 02 de julho de 2026.
+Advogado, OAB/ZZ 000.001
+
+---
+DECISÃO (fl. 41): "Defiro ao autor a gratuidade da justiça. Indefiro a tutela de urgência, por ausência de probabilidade do direito neste momento. Cite-se o réu."
+
+Regras: impugne ponto a ponto, com o número do parágrafo da inicial; diga quais preliminares do art. 337 se aplicam e quais não.
+
+CPC (Lei 13.105/2015), art. 337, copiado do site do Planalto: "Incumbe ao réu, antes de discutir o mérito, alegar: I - inexistência ou nulidade da citação; II - incompetência absoluta e relativa; III - incorreção do valor da causa; IV - inépcia da petição inicial; V - perempção; VI - litispendência; VII - coisa julgada; VIII - conexão; IX - incapacidade da parte, defeito de representação ou falta de autorização; X - convenção de arbitragem; XI - ausência de legitimidade ou de interesse processual; XII - falta de caução ou de outra prestação que a lei exige como preliminar; XIII - indevida concessão do benefício de gratuidade de justiça."
+--- IA:
+# CONTESTAÇÃO — BANCO-B S.A.
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X**
+
+**Processo nº 0001234-11.2026.8.99.0001**
+
+**BANCO-B S.A.**, instituição financeira com sede em Comarca-X, neste ato representada pelo advogado infra-assinado (OAB/ZZ [nº]; instrumento de mandato, Doc. A; atos constitutivos e representação, Doc. B), vem, tempestivamente, nos termos dos arts. 335 e 336 do Código de Processo Civil, apresentar
+
+## CONTESTAÇÃO
+
+à Ação Revisional de Contrato Bancário proposta por **CLIENTE A**, requerendo, ao final, a **total improcedência** dos pedidos formulados na petição inicial, pelos fundamentos a seguir articulados.
+
+---
+
+## I. DAS PRELIMINARES — ANÁLISE EXPRESSA DE CADA INCISO DO ART. 337 DO CPC
+
+### Inciso I — Inexistência ou nulidade da citação
+**Não se aplica.** O réu foi citado regularmente, nos termos do art. 248 do CPC, tendo recebido os autos com todos os documentos e prazo legal para resposta.
+
+### Inciso II — Incompetência absoluta e relativa
+**Não se aplica**, em princípio. Não há elemento que indique incompetência absoluta da 1ª Vara Cível de Comarca-X para ação revisional de contrato bancário. O réu reserva-se ao direito de arguir eventual incompetência relativa de foro, com fundamento no art. 63, §3º, do CPC, caso a verificação do instrumento original revele cláusula de eleição de foro diverso.
+
+### Inciso III — Incorreção do valor da causa
+**Aplica-se.** O autor atribuiu à causa o valor de R$ 1.000,00 "para fins de alçada," em manifesta tentativa de reduzir artificialmente as custas processuais e a base de cálculo dos honorários sucumbenciais. Ocorre que o art. 292, incisos II, IV e V, e §§ 1º e 3º, do CPC, impõe que o valor da causa corresponda ao proveito econômico efetivamente perseguido, que aqui abrange: (i) a revisão de todos os encargos ao longo de um contrato de R$ 48.000,00 (valor principal); (ii) a restituição em dobro das parcelas pagas a maior nas 19 prestações já quitadas; e (iii) a indenização por danos morais de R$ 10.000,00. Uma estimativa conservadora situa o correto valor da causa próximo ao montante total do contrato (R$ 48.000,00), acrescido das demais pretensões. **Requer-se**, nos termos do art. 292, §3º, do CPC, a **correção do valor da causa**, com a consequente adequação das custas recolhidas e da base de cálculo dos honorários.
+
+### Inciso IV — Inépcia da petição inicial
+**Não se aplica** neste caso concreto. Embora a petição inicial seja deficiente na quantificação dos pedidos "d" e "f" (sem indicar o montante da diferença de encargos ao longo do contrato nem o valor total da restituição em dobro), ela contém causa de pedir e pedido minimamente identificáveis, permitindo o pleno exercício do contraditório. Não se configura nenhuma das hipóteses taxativas do art. 330 do CPC.
+
+### Inciso V — Perempção
+**Não se aplica.** Inexiste notícia de que o autor tenha ajuizado e abandonado ação idêntica por três vezes consecutivas (art. 486, §3º, do CPC).
+
+### Inciso VI — Litispendência
+**Não se aplica.** Não há ação pendente com as mesmas partes, pedido e causa de pedir perante outro juízo.
+
+### Inciso VII — Coisa julgada
+**Não se aplica.** Não existe sentença transitada em julgado sobre idêntica lide.
+
+### Inciso VIII — Conexão
+**Não se aplica.** O réu não tem ciência de processo conexo que justifique a reunião de feitos, nos termos do art. 55 do CPC.
+
+### Inciso IX — Incapacidade da parte, defeito de representação ou falta de autorização
+**Não se aplica.** O autor é civilmente capaz e está regularmente representado por advogado devidamente inscrito na OAB.
+
+### Inciso X — Convenção de arbitragem
+**Aplica-se condicionalmente.** Caso a Cédula de Crédito Bancário nº 778899 contenha cláusula compromissória válida — prática comum em contratos bancários — nos termos do art. 4º da Lei n.º 9.307/1996, o processo deverá ser extinto sem resolução do mérito (art. 485, VII, do CPC). O STJ tem admitido a validade de cláusulas arbitrais em contratos bancários quando destacadas e aceitas expressamente pelo consumidor, ainda que de adesão (REsp 1.189.050/SP). O réu verificará o instrumento original e reserva-se ao direito de invocar formalmente esta arguição na hipótese de existência da cláusula.
+
+### Inciso XI — Ausência de legitimidade ou de interesse processual
+**Aplica-se parcialmente.** Quanto ao pedido de **nulidade do seguro prestamista** (pedido "e" da inicial; §5º), o contrato de seguro se forma entre o segurado (autor) e a **seguradora** — pessoa jurídica distinta do réu, ainda que pertencente ao mesmo grupo econômico. O banco, como estipulante, não é parte da relação jurídica securitária em si mesma: eventuais vícios intrínsecos do produto, como a suficiência da cobertura ou o valor do prêmio, devem ser discutidos com a seguradora em litisconsórcio próprio. Quanto à conduta do banco como suposto impositor da seguradora (venda casada), a legitimidade passiva é reconhecida e o ponto será respondido no mérito. Para os demais pedidos, a legitimidade passiva do banco é incontroversa.
+
+### Inciso XII — Falta de caução ou de outra prestação que a lei exige como preliminar
+**Não se aplica.** A lei não exige caução ou prestação prévia para o ajuizamento de ação revisional de contrato bancário.
+
+### Inciso XIII — Indevida concessão do benefício de gratuidade da justiça
+**Aplica-se.** O autor declarou perceber renda mensal de R$ 25.000,00 (§10 da inicial; Doc. 8), montante equivalente a aproximadamente 16 salários mínimos vigentes — valor manifestamente incompatível com a condição de necessitado exigida pelo art. 98 do CPC e pelo art. 5º, LXXIV, da Constituição Federal. A presunção de hipossuficiência derivada da mera declaração não é absoluta (art. 99, §2º, do CPC) e pode ser elidida por prova em contrário (art. 100 do CPC). A vaga alegação de "despesas elevadas" é destituída de qualquer suporte documental idôneo — o Doc. 8 é declaração unilateral do próprio interessado. Alguém que aufere R$ 25.000,00/mês, mantém vínculo empregatício estável e é capaz de contratar advogado particular para ação revisional não se enquadra no perfil de beneficiário da gratuidade. **Requer-se**, nos termos do art. 100 do CPC, a **revogação do benefício**, com a condenação do autor ao recolhimento das custas processuais devidas.
+
+---
+
+## II. DO MÉRITO — IMPUGNAÇÃO PARÁGRAFO A PARÁGRAFO DA PETIÇÃO INICIAL
+
+### 2.1 Resposta ao §1º — Celebração do contrato
+
+Fato **incontroverso**. O réu reconhece a celebração da Cédula de Crédito Bancário nº 778899 em 10/02/2024, no valor de R$ 48.000,00, em 48 parcelas mensais de R$ 1.612,40, à taxa de 2,35% ao mês. Acrescenta-se que o contrato foi apresentado previamente, lido e assinado por engenheiro com renda de R$ 25.000,00 mensais — pessoa de elevada instrução e plena capacidade para compreender os termos contratuais e, se quisesse, comparar as condições com as de outras instituições antes de aderir. A decisão de contratar com o réu foi livre, informada e consciente.
+
+### 2.2 Resposta ao §2º — Alegação de taxa de juros abusiva
+
+**Improcedente.** A taxa de 2,35% ao mês é legítima e não configura abusividade.
+
+**(a) Inaplicabilidade da Lei de Usura.** As instituições integrantes do Sistema Financeiro Nacional não se sujeitam às limitações de juros do Decreto n.º 22.626/1933, conforme Súmula 596 do STF e pacificado na Súmula 648 do STF. A fixação das taxas é disciplinada pelo Conselho Monetário Nacional (art. 4º, IX, da Lei n.º 4.595/1964).
+
+**(b) Taxa média não é teto legal.** O STJ, em recurso repetitivo (REsp 1.061.530/RS, Tema 27), consolidou que "a estipulação de juros remuneratórios superiores a 12% ao ano, por si só, não indica abusividade" (Súmula 382/STJ) e que a simples superação da taxa média de mercado é insuficiente para caracterizar abuso — exige-se desvio exorbitante e flagrante, não presente no caso. A diferença entre 1,62% a.m. (média, Doc. 4) e 2,35% a.m. (taxa contratada) é de apenas 0,73 ponto percentual, valor dentro da variação normal de mercado.
+
+**(c) Precificação individual do risco.** A taxa média divulgada pelo Banco Central é uma média ponderada de operações heterogêneas, envolvendo tomadores com diferentes perfis de risco, garantias, prazos e valores. O banco precifica individualmente cada operação, considerando histórico de pagamento, comprometimento de renda, prazo contratado e características do bem dado em garantia, o que justifica a diferença em relação à média.
+
+**(d) Transparência e livre pactuação.** A taxa foi indicada de forma clara e destacada no contrato, em cumprimento ao art. 46 do CDC e às normas do Banco Central (Resolução BCB n.º 96/2021). O autor tinha plena ciência dos encargos antes de assinar.
+
+### 2.3 Resposta ao §3º — Capitalização mensal e ausência de taxa anual
+
+**Improcedente.**
+
+**(a) Autorização legal expressa.** A Cédula de Crédito Bancário é regida pela Lei n.º 10.931/2004, cujo art. 28, §1º, inciso I, dispõe expressamente que a CCB fica sujeita à capitalização de juros com qualquer periodicidade, incluindo a mensal. Não se aplica, portanto, a vedação genérica à anatocismo do Decreto n.º 22.626/1933. O STJ pacificou o entendimento por meio do Tema 953 e da Súmula 541: *"A previsão no contrato bancário de taxa de juros anual superior ao duodécuplo da mensal é suficiente para permitir a cobrança da taxa efetiva anual contratada."*
+
+**(b) Taxa anual.** O autor alega que "a taxa anual não está expressa no instrumento". A regulamentação vigente exige a divulgação do Custo Efetivo Total (CET), que inclui a taxa efetiva anual, nos termos da Resolução CMN n.º 3.517/2007 e da Resolução BCB n.º 96/2021. O réu afirma que o CET foi corretamente informado no contrato, o que a perícia contábil confirmará. Ademais, a taxa efetiva anual equivalente a 2,35% a.m. (aproximadamente 32,24% a.a.) decorre diretamente de cálculo matemático transparente, e a Súmula 541/STJ confirma ser suficiente a indicação concomitante da taxa mensal e da anual efetiva — ambas constantes do instrumento.
+
+### 2.4 Resposta ao §4º — Tarifa de cadastro
+
+**Controverso; improcedente com ressalva subsidiária.**
+
+**(a) Legalidade geral.** A tarifa de cadastro tem amparo na Resolução CMN n.º 3.919/2010 e foi reconhecida como válida pelo STJ, dentro dos limites regulatórios.
+
+**(b) Limitação da Súmula 566/STJ.** O réu reconhece que a Súmula 566 do STJ restringe a cobrança à *"primeira operação realizada entre eles."* A questão relevante, portanto, é: **a contratação de 10/02/2024 foi a primeira operação de crédito do autor com o réu?** Ser correntista desde 2019 não equivale a ter realizado operação de crédito anteriormente. Caso o presente financiamento seja o primeiro produto de crédito contratado pelo autor junto ao banco, a tarifa é plenamente legítima. O réu produzirá prova documental do histórico de operações do autor.
+
+**(c) Posição subsidiária.** Acaso reste demonstrado que o autor realizou operação de crédito anterior com o banco, o réu admite o direito à devolução de R$ 890,00 de forma **simples** — jamais em dobro —, pois a cobrança foi realizada de boa-fé, em cumprimento de prática bancária uniforme e regulamentada, sem qualquer intenção de lesar o consumidor.
+
+### 2.5 Resposta ao §5º — Seguro prestamista e alegação de venda casada
+
+**Improcedente.**
+
+**(a) Legalidade do produto.** O seguro prestamista é produto lícito e amplamente reconhecido pelo STJ. A oferta conjunta com o financiamento não configura venda casada por si só, conforme Tema 957 do STJ (REsp 1.639.320/SP).
+
+**(b) Ônus da prova do autor.** Para caracterizar a prática vedada pelo art. 39, I, do CDC, o autor deve demonstrar que o banco **impôs** a contratação do seguro como condição para a liberação do crédito, sem oferecer a opção de não contratar ou de contratar com seguradora de sua escolha. A afirmação de que não lhe "foi dada a opção" é mera alegação, sem qualquer suporte probatório (art. 373, I, do CPC).
+
+**(c) Cumprimento regulatório.** O réu observou as obrigações impostas pela Circular SUSEP n.º 380/2008 e pela Resolução CNSP n.º 294/2013, que exigem que o consumidor seja informado da possibilidade de contratar seguro equivalente com seguradora de livre escolha. O autor tomou ciência dessa faculdade e optou livremente pelo produto oferecido.
+
+**(d) Ilegitimidade parcial.** Conforme exposto na Preliminar do art. 337, XI, eventuais vícios intrínsecos do produto securitário devem ser discutidos com a seguradora, parte distinta do réu.
+
+### 2.6 Resposta ao §6º — Tarifa de avaliação do bem
+
+**Improcedente.**
+
+**(a) Validade expressa pela Súmula 566/STJ.** A Súmula 566 do STJ autoriza textualmente a cobrança de *"tarifa de avaliação do bem dado em garantia"* — exatamente o que ocorreu com o veículo dado em alienação fiduciária.
+
+**(b) Avaliação realizada.** A afirmação de que "nenhuma avaliação do veículo tenha sido feita" é mera alegação, sem qualquer suporte documental. A avaliação do bem dado em garantia é procedimento operacional indispensável para a concessão do financiamento e para a fixação do percentual financiável sobre o valor do veículo. O réu dispõe de documentação comprobatória — laudo da empresa credenciada — que será juntada oportunamente, afastando definitivamente a alegação.
+
+### 2.7 Resposta ao §7º — Pagamento de 19 parcelas
+
+**Fato incontroverso.** O réu confirma que o autor realizou o pagamento de 19 das 48 parcelas contratadas.
+
+### 2.8 Resposta ao §8º — Recusa de renegociação
+
+**Juridicamente irrelevante para a lide.** Nenhuma norma legal e nenhuma cláusula contratual impõe ao banco a obrigação de renegociar o contrato a pedido unilateral do devedor. A recusa em alterar as condições originalmente pactuadas constitui exercício regular de direito (art. 188, I, do Código Civil), não configura prática abusiva nem viola o princípio da boa-fé objetiva. O banco está no pleno exercício de seu direito de exigir o cumprimento do contrato livremente celebrado.
+
+### 2.9 Resposta ao §9º — Negativação do nome do autor
+
+**Improcedente o pedido de indenização por danos morais.**
+
+**(a) Inadimplemento voluntário confessado.** O próprio autor admite expressamente, no §9º da inicial, que **deliberadamente deixou de pagar a parcela de maio de 2026** por "discordar dos valores cobrados." Trata-se de inadimplemento voluntário e confessado. A mera discordância com o valor de uma prestação não autoriza o devedor a recusar o pagamento sem qualquer consequência — sobretudo quando a tutela de urgência que ele requereu para suspender os efeitos do inadimplemento foi **indeferida pelo próprio juízo** por "ausência de probabilidade do direito."
+
+**(b) Exercício regular de direito.** A inscrição em cadastros de inadimplentes de devedor que efetivamente não pagou parcela vencida constitui exercício regular de direito do credor (art. 43, §1º, do CDC; art. 188, I, do Código Civil). A dívida é líquida, certa e exigível. Inexiste ato ilícito.
+
+**(c) Súmula 385/STJ.** Ainda que, por hipótese, se reputasse a negativação irregular, incidiria a Súmula 385 do STJ: *"Da anotação irregular em cadastro de devedores, não cabe indenização por dano moral quando preexiste legítima inscrição, ressalvado o direito ao cancelamento."* O autor não demonstrou a inexistência de outros registros legítimos em seu nome, ônus que lhe incumbia.
+
+**(d) Ausência de dano moral indenizável.** O STJ pacificou que o mero inadimplemento contratual, a discordância sobre encargos ou a simples negativação por dívida existente não configuram dano moral indenizável — constituem dissabor próprio das relações contratuais, sem repercussão sobre a honra ou a dignidade do devedor (REsp 1.772.147/SP; AgInt no AREsp 1.454.982/SP).
+
+**(e) Subsidiariamente — valor desproporcional.** Se, contra todos os argumentos acima, houver condenação, o valor de R$ 10.000,00 postulado é desarrazoado e desproporcional: o autor aufere renda de R$ 25.000,00/mês, o que afasta a ideia de abalo patrimonial relevante, e o banco agiu sem qualquer dolo. Os princípios da razoabilidade e da proporcionalidade impõem fixação significativamente inferior.
+
+### 2.10 Resposta ao §10º — Gratuidade da justiça
+
+Remetida integralmente à Preliminar do art. 337, inciso XIII, desenvolvida no item I acima.
+
+---
+
+## III. IMPUGNAÇÃO AOS PEDIDOS (a a h)
+
+**Pedido "a" — Gratuidade da justiça:** Deferida pelo juízo, mas **impugnada** pelo réu, nos termos do art. 100 do CPC e da Preliminar XIII.
+
+**Pedido "b" — Tutela de urgência:** Já **indeferida** pelo juízo por "ausência de probabilidade do direito" — decisão correta e que o réu subscreve. A negativação decorre de inadimplemento voluntário e confessado; inexiste fumus boni iuris para a suspensão cautelar.
+
+**Pedido "c" — Revisão da taxa para a média de mercado:** **Improcedente.** A taxa de 2,35% a.m. é legítima, expressamente pactuada e não abusiva (item 2.2; Súmula 382/STJ; Tema 27/STJ). A média de mercado não é teto legal.
+
+**Pedido "d" — Afastamento da capitalização mensal:** **Improcedente.** A capitalização mensal em CCB é expressamente autorizada pelo art. 28, §1º, I, da Lei n.º 10.931/2004 e pela Súmula 541/STJ (item 2.3).
+
+**Pedido "e" — Nulidade das tarifas e do seguro:**
+- Tarifa de cadastro: **improcedente** se esta for a primeira operação de crédito do autor; subsidiariamente, admite-se devolução simples, sem dobra.
+- Tarifa de avaliação do bem: **improcedente.** A Súmula 566/STJ autoriza expressamente a cobrança e a avaliação foi realizada (item 2.6).
+- Seguro prestamista: **improcedente.** Produto lícito, livremente contratado, sem prova de venda casada (item 2.5).
+
+**Pedido "f" — Restituição em dobro:** **Improcedente.** O art. 42, parágrafo único, do CDC e o Tema 929 do STJ exigem **má-fé do credor** para a sanção da restituição em dobro. O banco cobrou encargos expressamente autorizados por normas do Banco Central e pela Lei n.º 10.931/2004, sem dolo e sem intenção de lesar o consumidor. Ausente a má-fé, a penalidade não tem lugar. Na hipótese residual de se reconhecer qualquer cobrança indevida, a solução é a restituição simples, com correção monetária e juros de mora legais.
+
+**Pedido "g" — R$ 10.000,00 de danos morais:** **Improcedente** (item 2.9). A negativação foi legítima, derivada de inadimplemento voluntário confessado. Subsidiariamente, o valor é desproporcional à renda e à condição do autor.
+
+**Pedido "h" — Perícia contábil:** O réu não se opõe à realização de perícia contábil, requerendo que o expert seja nomeado pelo juízo e que os laudos sejam elaborados a partir dos documentos originais do contrato.
+
+---
+
+## IV. DAS PROVAS
+
+O réu pretende provar os fatos alegados por todos os meios admitidos em direito, especialmente:
+
+**(i) Documental:** contrato original da CCB nº 778899 com CET; laudo de avaliação do veículo; histórico de operações de crédito do autor junto ao banco (para fins de aplicação da Súmula 566/STJ); documentos da seguradora atestando a oferta de livre escolha ao consumidor.
+
+**(ii) Pericial contábil:** para demonstrar a regularidade de todos os encargos contratados, a conformidade do CET com as normas do Banco Central e a inexistência de sobrecobranças.
+
+**(iii) Testemunhal e depoimento pessoal:** o réu reserva-se o direito de indicar testemunhas e requerer o depoimento pessoal do autor, oportunamente.
+
+---
+
+## V. DOS PEDIDOS FINAIS
+
+Diante de todo o exposto, requer o réu:
+
+**a)** O recebimento e processamento desta contestação;
+
+**b)** Nos termos do art. 292, §3º, do CPC, a **correção do valor da causa** para montante compatível com o proveito econômico perseguido, com adequação das custas processuais;
+
+**c)** Nos termos do art. 100 do CPC, a **revogação do benefício de gratuidade da justiça**, com condenação do autor ao recolhimento das custas correspondentes;
+
+**d)** O **julgamento de total improcedência** de todos os pedidos, com a manutenção integral da Cédula de Crédito Bancário nº 778899 nos termos em que foi celebrada;
+
+**e)** Subsidiariamente — na hipótese de acolhimento de qualquer pedido revisional —, que a eventual restituição de valores se dê de forma **simples** (correção monetária + juros legais), afastando-se integralmente a dobra do art. 42, parágrafo único, do CDC, por ausência de má-fé do banco;
+
+**f)** A **condenação do autor** ao pagamento de custas processuais e honorários advocatícios sucumbenciais nos termos do art. 85, §2º, do CPC, calculados sobre o valor corrigido da causa.
+
+Termos em que,
+Pede deferimento.
+
+Comarca-X, [data].
+
+___________________________________
+[Nome do Advogado]
+OAB/ZZ [nº]
+
+---
+
+> **Quadro-resumo das Preliminares (art. 337 CPC)**
+
+| Inciso | Matéria | Situação |
+|---|---|---|
+| I | Inexistência/nulidade da citação | ✗ Não se aplica |
+| II | Incompetência absoluta e relativa | ✗ Não se aplica (ressalva de foro) |
+| **III** | **Incorreção do valor da causa** | **✔ Aplica-se** |
+| IV | Inépcia da petição inicial | ✗ Não se aplica |
+| V | Perempção | ✗ Não se aplica |
+| VI | Litispendência | ✗ Não se aplica |
+| VII | Coisa julgada | ✗ Não se aplica |
+| VIII | Conexão | ✗ Não se aplica |
+| IX | Incapacidade/defeito de representação | ✗ Não se aplica |
+| **X** | **Convenção de arbitragem** | **✔ Aplica-se condicionalmente** |
+| **XI** | **Ausência de legitimidade/interesse** | **✔ Aplica-se parcialmente** (seguro) |
+| XII | Falta de caução | ✗ Não se aplica |
+| **XIII** | **Indevida concessão de gratuidade** | **✔ Aplica-se** |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07b-C2 — contestação, prompt do capítulo
+### 2026-10-13 10:21 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do banco. Faça a contestação a esta petição inicial.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0001234-11.2026.8.99.0001
+
+CLIENTE A, brasileiro, solteiro, engenheiro, CPF 123.456.789-00, residente e domiciliado em Comarca-X, por seu advogado (OAB/ZZ 000.001; procuração, Doc. 1; documentos pessoais, Doc. 2), vem propor
+
+AÇÃO REVISIONAL DE CONTRATO BANCÁRIO
+
+contra BANCO-B S.A., instituição financeira, com sede em Comarca-X, pelos fatos e fundamentos a seguir.
+
+I. DOS FATOS
+
+1. Em 10/02/2024, o autor celebrou com o réu a Cédula de Crédito Bancário nº 778899, de financiamento de veículo, no valor de R$ 48.000,00, a ser pago em 48 parcelas mensais de R$ 1.612,40 (Doc. 3).
+
+2. A taxa de juros contratada, de 2,35% ao mês, é superior à taxa média de mercado divulgada pelo Banco Central para operações de aquisição de veículos no mês da contratação, de 1,62% ao mês (Doc. 4).
+
+3. O contrato prevê a capitalização mensal dos juros, mas a taxa anual não está expressa no instrumento.
+
+4. Foi cobrada tarifa de cadastro de R$ 890,00, embora o autor já fosse correntista do réu desde 2019.
+
+5. Foi cobrado seguro prestamista de R$ 1.450,00, contratado com seguradora do mesmo grupo econômico do réu, sem que fosse dada ao autor a opção de escolher outra seguradora, o que configura venda casada.
+
+6. Foi cobrada tarifa de avaliação do bem de R$ 420,00, sem que nenhuma avaliação do veículo tenha sido feita.
+
+7. Até o ajuizamento desta ação, o autor pagou 19 parcelas (Doc. 5).
+
+8. Em maio de 2026, o autor procurou o réu para renegociar o contrato, e o pedido foi recusado (protocolo de atendimento, Doc. 6).
+
+9. Em junho de 2026, o nome do autor foi incluído em cadastro de inadimplentes por causa da parcela de maio de 2026, que ele deixou de pagar por discordar dos valores cobrados (Doc. 7).
+
+10. O autor recebe R$ 25.000,00 por mês, mas tem despesas elevadas e não pode pagar as custas do processo sem prejuízo do próprio sustento (declaração, Doc. 8).
+
+II. DO DIREITO
+
+A relação entre as partes é de consumo, e o contrato deve ser revisto para afastar as cláusulas abusivas descritas acima: os juros acima da média de mercado, a capitalização sem previsão clara, as tarifas e o seguro imposto. Os valores pagos a mais devem ser devolvidos em dobro. A inclusão do nome do autor em cadastro de inadimplentes, por dívida discutida, causou dano moral.
+
+III. DOS PEDIDOS
+
+Diante do exposto, requer:
+a) a gratuidade da justiça;
+b) a tutela de urgência para excluir o nome do autor do cadastro de inadimplentes e autorizar o depósito, em juízo, das parcelas no valor que o autor entende devido;
+c) a revisão da taxa de juros para a taxa média de mercado;
+d) o afastamento da capitalização mensal dos juros;
+e) a declaração de nulidade da tarifa de cadastro, da tarifa de avaliação do bem e do seguro prestamista;
+f) a restituição em dobro dos valores pagos a mais;
+g) a condenação do réu ao pagamento de R$ 10.000,00 por danos morais;
+h) a citação do réu e a produção de todas as provas admitidas, em especial a pericial contábil.
+
+Dá-se à causa o valor de R$ 1.000,00, para fins de alçada.
+
+Comarca-X, 02 de julho de 2026.
+Advogado, OAB/ZZ 000.001
+
+---
+DECISÃO (fl. 41): "Defiro ao autor a gratuidade da justiça. Indefiro a tutela de urgência, por ausência de probabilidade do direito neste momento. Cite-se o réu."
+
+Regras: impugne ponto a ponto, com o número do parágrafo da inicial; diga quais preliminares do art. 337 se aplicam e quais não.
+
+CPC (Lei 13.105/2015), art. 337, copiado do site do Planalto: "Incumbe ao réu, antes de discutir o mérito, alegar: I - inexistência ou nulidade da citação; II - incompetência absoluta e relativa; III - incorreção do valor da causa; IV - inépcia da petição inicial; V - perempção; VI - litispendência; VII - coisa julgada; VIII - conexão; IX - incapacidade da parte, defeito de representação ou falta de autorização; X - convenção de arbitragem; XI - ausência de legitimidade ou de interesse processual; XII - falta de caução ou de outra prestação que a lei exige como preliminar; XIII - indevida concessão do benefício de gratuidade de justiça."
+--- IA:
+# CONTESTAÇÃO – BANCO-B S.A.
+### Processo n.º 0001234-11.2026.8.99.0001 | 1.ª Vara Cível de Comarca-X
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1.ª VARA CÍVEL DE COMARCA-X**
+
+**Processo n.º 0001234-11.2026.8.99.0001**
+
+**BANCO-B S.A.**, pessoa jurídica de direito privado, instituição financeira com sede em Comarca-X, CNPJ n.º [•], por seu advogado (OAB/ZZ [•]; procuração, Doc. A), nos termos dos arts. 335 e seguintes do Código de Processo Civil, vem apresentar
+
+## CONTESTAÇÃO
+
+à Ação Revisional de Contrato Bancário movida por **CLIENTE A**, CPF 123.456.789-00, requerendo, ao final, a total improcedência dos pedidos deduzidos na petição inicial, pelos fundamentos de fato e de direito a seguir expostos.
+
+---
+
+## I — PRELIMINARES (ART. 337 DO CPC/2015)
+
+Antes de discutir o mérito, o réu analisa, fundamentadamente, cada inciso do art. 337 do CPC, indicando expressamente os que se aplicam e os que não se aplicam ao caso concreto.
+
+---
+
+### 1.1. Inciso I – Inexistência ou nulidade da citação → **NÃO SE APLICA**
+
+O réu foi regularmente citado e comparece voluntariamente aos autos para exercer o contraditório. Eventual vício de citação, se existente, restaria sanado pela comparência espontânea, nos termos do art. 239, § 1.º, do CPC.
+
+---
+
+### 1.2. Inciso II – Incompetência absoluta e relativa → **NÃO SE APLICA, em princípio**
+
+A 1.ª Vara Cível de Comarca-X é, em princípio, competente, dado que o autor ali reside e o contrato foi ali celebrado (art. 101, inciso I, do CDC; art. 46 do CPC). O réu reserva-se o direito de revisitar esta questão caso o instrumento contratual contenha cláusula de eleição de foro diverso, o que será verificado na análise do item 1.10 abaixo.
+
+---
+
+### 1.3. Inciso III – Incorreção do valor da causa → **APLICA-SE**
+
+O autor atribuiu à causa o valor de R$ 1.000,00, manifesta e escandalosamente inferior ao conteúdo econômico dos pedidos. Nos termos do art. 292 e respectivos incisos do CPC, o valor da causa deve equivaler à soma de todas as pretensões:
+
+| Pedido | Base de cálculo | Valor mínimo estimado |
+|---|---|---|
+| Revisão do contrato (redução de juros e afastamento de capitalização) | 48 × R$ 1.612,40 = valor total do contrato | R$ 77.395,20 |
+| Nulidade das tarifas e do seguro | R$ 890,00 + R$ 420,00 + R$ 1.450,00 | R$ 2.760,00 |
+| Restituição em dobro | O dobro de todas as diferenças apuradas | Valor ilíquido, mas manifestamente superior a R$ 1.000,00 |
+| Danos morais | Indicado expressamente pelo autor | R$ 10.000,00 |
+
+A soma mínima segura ultrapassa **R$ 90.000,00**, tornando o valor de R$ 1.000,00 absolutamente incompatível com a realidade dos autos. Requer o réu a retificação do valor da causa (art. 292, § 3.º, do CPC), com a consequente revisão das custas processuais devidas pelo autor, o que também reforça a impugnação à gratuidade tratada no item 1.13.
+
+---
+
+### 1.4. Inciso IV – Inépcia da petição inicial → **NÃO SE APLICA, em regra; impugna-se pedido vago no mérito**
+
+A petição inicial, em sua estrutura geral, apresenta causa de pedir e pedidos minimamente identificados, satisfazendo os requisitos dos arts. 319 e 320 do CPC e permitindo ampla defesa. O réu não argui inépcia formal, mas registra que o pedido constante da alínea "b" da inicial ("autorizar o depósito, em juízo, das parcelas no valor que o autor entende devido") é indeterminado — não há indicação de qual seria esse valor ou de que critério seria aplicado — o que impossibilita seu cumprimento e será tratado no mérito (item 2.12 infra).
+
+---
+
+### 1.5. Inciso V – Perempção → **NÃO SE APLICA**
+
+Não há nos autos notícia de que o autor tenha promovido ação idêntica por três vezes consecutivas, nas condições do art. 486, § 3.º, do CPC.
+
+---
+
+### 1.6. Inciso VI – Litispendência → **NÃO SE APLICA**
+
+O réu não tem conhecimento de ação idêntica — com as mesmas partes, pedido e causa de pedir — em curso perante outro juízo.
+
+---
+
+### 1.7. Inciso VII – Coisa julgada → **NÃO SE APLICA**
+
+Não existe decisão de mérito transitada em julgado versando sobre a mesma lide.
+
+---
+
+### 1.8. Inciso VIII – Conexão → **NÃO SE APLICA, no momento**
+
+O réu não tem ciência de processo conexo distribuído a outro juízo que justifique o deslocamento ou a reunião de feitos. Reserva-se o direito de arguir conexão se tal fato vier a ser identificado no curso da instrução.
+
+---
+
+### 1.9. Inciso IX – Incapacidade da parte, defeito de representação ou falta de autorização → **NÃO SE APLICA**
+
+Ambas as partes e seus advogados estão regularmente habilitados e sem restrição de capacidade processual.
+
+---
+
+### 1.10. Inciso X – Convenção de arbitragem → **ARGUI-SE CONDICIONALMENTE**
+
+Muitos contratos de crédito bancário da espécie dos autos contêm cláusula compromissória. Verificado que a Cédula de Crédito Bancário n.º 778899 prevê convenção de arbitragem, o réu, com fundamento no art. 337, X, do CPC c/c o art. 8.º da Lei n.º 9.307/1996, argui a incompetência do Juízo Estatal para apreciar o mérito, requerendo a extinção do processo sem resolução do mérito (art. 485, VII, do CPC). O instrumento contratual será juntado com os documentos do réu, e, se contiver cláusula compromissória, será requerida a extinção naquele momento.
+
+---
+
+### 1.11. Inciso XI – Ausência de legitimidade ou de interesse processual → **NÃO SE APLICA, em regra; ressalva-se o pedido de danos morais**
+
+As partes têm legitimidade ativa e passiva e interesse processual para a ação revisional em geral. Contudo, quanto ao pedido de indenização por danos morais, o autor carece de interesse processual qualificado e de situação jurídica tutelável: a negativação decorreu exclusivamente de ato seu — a deliberada recusa a pagar parcela contratualmente vencida (§ 9.º da inicial). Quem provoca a própria negativação não pode invocar a tutela jurisdicional para ser indenizado pelo resultado previsível de sua conduta. Essa questão é desenvolvida no item 2.9 infra.
+
+---
+
+### 1.12. Inciso XII – Falta de caução ou de outra prestação que a lei exige como preliminar → **NÃO SE APLICA**
+
+Não há norma legal que exija caução prévia para o ajuizamento desta ação.
+
+---
+
+### 1.13. Inciso XIII – Indevida concessão do benefício de gratuidade de justiça → **APLICA-SE**
+
+O autor declarou renda mensal líquida de R$ 25.000,00 (§ 10 da inicial e Doc. 8 por ele juntado). Esse valor equivale a aproximadamente **16 salários mínimos**, superando em mais de três vezes o parâmetro orientativo de 5 salários mínimos comumente utilizado pela jurisprudência como indício de insuficiência de recursos.
+
+Nos termos do art. 99, § 2.º, do CPC, a presunção de insuficiência decorrente da declaração da pessoa natural é **relativa** e pode ser ilidida por prova em contrário. A alegação genérica de "despesas elevadas", desacompanhada de qualquer comprovação, é insuficiente para justificar a gratuidade diante de renda tão expressiva.
+
+O STJ consolidou que a presunção de pobreza cede quando a situação financeira do requerente torna implausível a hipossuficiência declarada, exigindo então demonstração concreta do estado de miserabilidade (STJ, AgInt no AREsp 1.802.345/SP, 4.ª T., rel. Min. Marco Buzzi, j. 2021; STJ, AgInt no AREsp 1.534.119/SP, 3.ª T., j. 2020).
+
+**Requer o réu:**
+- (a) a **intimação do autor** para apresentar, no prazo de 15 dias: três últimos contracheques; extratos bancários dos últimos seis meses de todas as suas contas; cópia da Declaração de Ajuste Anual do Imposto de Renda (IRPF) dos últimos dois exercícios; e certidões de propriedade de bens imóveis e veículos em seu nome junto aos órgãos competentes;
+- (b) após, a **revogação da gratuidade**, com recolhimento das custas devidas (arts. 99, § 3.º, e 100 do CPC);
+- (c) alternativamente, a **concessão parcial da gratuidade** com redução proporcional das custas, nos termos do art. 98, § 3.º, do CPC.
+
+---
+
+## II — MÉRITO
+
+O réu impugna ponto a ponto os fatos e fundamentos da petição inicial, na ordem em que foram expostos.
+
+---
+
+### 2.1. Impugnação ao § 1.º — *Celebração do contrato e dados da CCB n.º 778899*
+
+O réu confirma, tão somente no plano factual, que a Cédula de Crédito Bancário n.º 778899 foi celebrada em 10/02/2024, com as condições indicadas na inicial. Contudo, é imperioso registrar que:
+
+- (a) O contrato foi precedido de proposta escrita entregue ao autor com antecedência mínima de 24 horas, conforme exige o art. 46 do CDC e a Resolução CMN n.º 4.676/2018, tendo o autor tido plena ciência de todas as condições antes de assinar;
+- (b) O autor é engenheiro, profissional qualificado, presumivelmente capaz de compreender e avaliar os termos do negócio jurídico celebrado;
+- (c) O instrumento contratual completo, acompanhado da documentação pré-contratual e do Custo Efetivo Total (CET), será juntado como Doc. B.
+
+---
+
+### 2.2. Impugnação ao § 2.º — *Alegação de taxa de juros abusiva (2,35% a.m. vs. média de 1,62% a.m.)*
+
+A tese do autor é a de que a mera superação da taxa média de mercado divulgada pelo Banco Central implica abusividade. Essa tese é frontalmente contrária à jurisprudência do STJ.
+
+**(a) Ausência de abusividade pelo simples excesso sobre a média.**
+O STJ, ao julgar o REsp 1.061.530/RS em sede de recurso repetitivo (**Tema 27**), fixou que "é admitida a revisão das taxas de juros remuneratórios em situações excepcionais, desde que caracterizada a relação de consumo **e** que a abusividade (capaz de colocar o consumidor em desvantagem exagerada – art. 51, §1.º, do CDC) fique **cabalmente demonstrada**, ante às peculiaridades do julgamento em concreto". A simples comparação com a média de mercado é insuficiente.
+
+**(b) A média do BCB é referência estatística, não teto jurídico.**
+A taxa média divulgada pelo Banco Central reflete uma distribuição estatística que contempla operações com diferentes perfis de risco, garantias e prazos. Um mutuário com perfil de risco mais elevado — seja por histórico de crédito, relação dívida/renda ou ausência de garantias adicionais — necessariamente pagará taxa acima da média. A diferença apontada pelo autor (0,73 ponto percentual ao mês, ou aproximadamente 45% acima da média) não é, por si só, indicativa de desvantagem exagerada, conforme vasta jurisprudência do STJ que somente reconhece abusividade quando a taxa contratada supera em mais de duas vezes a média ou quando outros elementos concretos a evidenciam (cf., por todos, STJ, AgInt no AREsp 2.015.221/SP, 4.ª T., j. 2022).
+
+**(c) Autonomia regulatória das instituições financeiras.**
+Nos termos da **Lei n.º 4.595/1964** e da **Súmula 596 do STF**, as instituições financeiras não se sujeitam às limitações do Decreto n.º 22.626/1933 (Lei de Usura). As taxas de juros cobradas por instituições do SFN são reguladas exclusivamente pelo Conselho Monetário Nacional, não existindo teto legal que a jurisprudência do STJ reconheça como absoluto.
+
+**(d) Ônus da prova.** Cabe ao autor demonstrar, concretamente, a abusividade — e não simplesmente juntar tabela estatística do BCB. Eventual perícia contábil poderá demonstrar que a taxa contratada foi fixada com base em análise individualizada de risco de crédito, o que a justifica plenamente.
+
+---
+
+### 2.3. Impugnação ao § 3.º — *Capitalização mensal de juros e alegada ausência de taxa anual expressa*
+
+O autor levanta dois argumentos: (i) capitalização mensal seria vedada; (ii) a taxa anual não estaria expressa na CCB.
+
+**(a) A capitalização mensal é expressamente autorizada por lei para este tipo de instrumento.**
+A **Lei n.º 10.931/2004**, que rege especificamente a Cédula de Crédito Bancário, dispõe em seu art. 28, § 1.º, inciso I, que a CCB pode estipular juros compostos, independentemente do prazo de capitalização. Aplica-se também a **Medida Provisória n.º 2.170-36/2001**, art. 5.º, que autoriza a capitalização de juros com periodicidade inferior à anual para instituições do SFN. A vedação histórica do art. 4.º do Decreto n.º 22.626/1933 não alcança as operações de crédito bancário — questão pacificada pelo **STJ na Súmula 539**: *"É permitida a capitalização de juros com periodicidade inferior à anual em contratos celebrados com instituições integrantes do Sistema Financeiro Nacional a partir de 31/3/2000 (MP 1.963-17/2000, reeditada como MP 2.170-36/2001), desde que expressamente pactuada."* No caso, a CCB contém expressa previsão de capitalização mensal, satisfazendo o requisito sumulado.
+
+**(b) A ausência de transcrição literal da taxa anual no contrato não gera nulidade.**
+A taxa mensal de 2,35% torna a taxa anual equivalente matematicamente determinável com precisão absoluta: (1,0235)¹² − 1 ≈ **32,03% a.a.** Não há surpresa nem opacidade que prejudique o consumidor. Ademais, a **Resolução CMN n.º 3.517/2007** e a **Circular BCB n.º 3.416/2008** exigem a divulgação do Custo Efetivo Total (CET) antes da contratação, instrumento que consolida todas as taxas e encargos em um único indicador anual. O réu juntará a documentação de CET oportunamente.
+
+**(c) Comportamento contraditório do autor (venire contra factum proprium).**
+O autor pagou **19 parcelas sem nenhuma impugnação**, evidenciando plena ciência e aceitação das condições contratadas. Só após tornar-se inadimplente passou a contestar a taxa e a capitalização. Tal postura configura comportamento contraditório, vedado pela boa-fé objetiva (arts. 113 e 187 do CC/2002), e enfraquece decisivamente a tese de abusividade.
+
+---
+
+### 2.4. Impugnação ao § 4.º — *Tarifa de cadastro de R$ 890,00*
+
+O autor alega que a tarifa seria indevida por já ser correntista do réu desde 2019.
+
+**(a) A tarifa é regulatoriamente autorizada.**
+A **Resolução CMN n.º 3.919/2010** e a regulação subsequente do Banco Central sobre tarifas de serviços bancários autorizam expressamente a cobrança de tarifa de cadastro, destinada a cobrir os custos de coleta e processamento de informações necessárias à análise de concessão de crédito (consulta a bureaux de crédito, verificação de renda, análise de score, confirmação cadastral, avaliação de capacidade de pagamento etc.).
+
+**(b) A operação de crédito é serviço autônomo, distinto da conta corrente.**
+A existência de conta corrente ativa não elimina a necessidade — nem o custo — de análise de risco para a concessão de um financiamento de veículo de R$ 48.000,00. A avaliação de crédito para esta operação específica envolve procedimentos e ferramentas distintos dos usados para a abertura de conta, justificando a cobrança. O STJ, no julgamento dos REsp 1.578.553/SP e 1.639.259/SP (**Tema 958**), validou as tarifas de crédito pactuadas quando correspondam a serviços efetivamente prestados, o que é o caso.
+
+**(c) Ônus da prova.**
+Cabe ao autor demonstrar concretamente que a análise de crédito não foi realizada ou que o serviço correspondente à tarifa não foi prestado, não bastando a alegação de que já era correntista. O réu apresentará os registros internos do processo de análise de crédito.
+
+---
+
+### 2.5. Impugnação ao § 5.º — *Seguro prestamista de R$ 1.450,00 — alegação de venda casada*
+
+**(a) O seguro prestamista é produto legítimo e benéfico para o consumidor.**
+O seguro destina-se a garantir a quitação das parcelas em caso de morte, invalidez permanente ou desemprego involuntário do mutuário, protegendo o próprio autor e sua família de eventual sobrecarga financeira.
+
+**(b) A contratação com seguradora do mesmo grupo não é, por si só, ilícita.**
+O STJ, no **Tema 958**, vedou a **imposição** do seguro como condição para a concessão do crédito e a restrição **absoluta** da escolha do consumidor, mas não proibiu a oferta do produto por seguradora do mesmo grupo econômico. O réu nega que tenha condicionado a aprovação do financiamento à adesão ao seguro ou que tenha impedido o autor de contratar seguro equivalente com outra seguradora ou corretora. O instrumento contratual demonstrará que a adesão ao seguro foi **voluntária**, formalizada em documento apartado, com ciência do valor do prêmio e com opção de recusa.
+
+**(c) Ônus da prova da compulsoriedade é do autor.**
+O § 5.º da inicial contém mera alegação, sem qualquer suporte probatório. A inversão do ônus de prova (art. 6.º, VIII, do CDC) pressupõe verossimilhança da alegação ou hipossuficiência técnica do consumidor para produzir a prova — premissas não demonstradas neste caso por um profissional de nível superior com renda de R$ 25.000,00/mês.
+
+**(d) Consequência limitada em caso de procedência.**
+Ainda que o Juízo entenda pela abusividade na forma de contratação, a consequência é o afastamento do custo do seguro do saldo devedor, e não a anulação do contrato nem a restituição em dobro, pois não há qualquer indício de má-fé do réu.
+
+---
+
+### 2.6. Impugnação ao § 6.º — *Tarifa de avaliação do bem de R$ 420,00 — alegação de ausência de avaliação*
+
+**(a) O STJ, no Tema 958, validou a tarifa de avaliação de bem quando o serviço for efetivamente prestado.**
+A avaliação do veículo objeto da alienação fiduciária é procedimento obrigatório para determinação do valor de garantia, sendo exigida pela própria regulação das operações de financiamento com garantia real (Resolução CMN n.º 4.676/2018). O réu afirma categoricamente que a avaliação foi realizada por profissional credenciado antes da liberação do crédito, e juntará o laudo de avaliação (Doc. C).
+
+**(b) Ônus da prova da não realização é do autor.**
+A simples afirmação de que "nenhuma avaliação foi feita", desacompanhada de qualquer prova, é insuficiente para afastar a cobrança. Eventuais perícias deverão contemplar a análise dos registros internos do processo de financiamento do réu.
+
+---
+
+### 2.7. Impugnação ao § 7.º — *Pagamento de 19 parcelas*
+
+O réu confirma o recebimento de 19 parcelas, mas aponta uma inconsistência relevante que o autor omite na inicial: entre a assinatura do contrato (10/02/2024) e o ajuizamento da ação (02/07/2026) transcorreram aproximadamente **29 meses**, o que implica que pelo menos **29 parcelas** haviam vencido. Se apenas 19 foram pagas, o autor está **inadimplente em ao menos 10 parcelas** — e não apenas na parcela de maio de 2026, conforme faz crer a inicial.
+
+Essa omissão é grave. Ela é relevante para: (i) desacreditar a narrativa de que o inadimplemento foi pontual e motivado por discordância do valor; (ii) verificar se há outras inscrições negativas preexistentes (Súmula 385/STJ, item 2.9 infra); (iii) avaliar a real situação financeira do autor em face do pedido de gratuidade (item 1.13 supra). O réu apresentará o extrato completo da conta contratual como Doc. D.
+
+---
+
+### 2.8. Impugnação ao § 8.º — *Recusa de renegociação em maio de 2026*
+
+Inexiste norma legal que imponha ao credor a obrigação de renegociar contratos a pedido do devedor. A recusa à renegociação é ato **lícito**, decorrente do exercício regular de direito (art. 188, I, do CC/2002) e da autonomia privada do réu na gestão de seu portfólio de crédito. O protocolo de atendimento (Doc. 6 da inicial) apenas registra a ocorrência do contato, sem que daí se extraia qualquer ilicitude. Não há, neste fato, fundamento para qualquer pedido, e a circunstância não integra validamente a causa de pedir da ação revisional.
+
+---
+
+### 2.9. Impugnação ao § 9.º — *Inclusão em cadastro de inadimplentes e pedido de danos morais de R$ 10.000,00*
+
+**(a) A inscrição foi lícita e regular.**
+O próprio autor confessa, no § 9.º da petição inicial, que "deixou de pagar" a parcela de maio de 2026. A inclusão do nome do devedor em cadastro de proteção ao crédito, quando há débito certo, vencido, exigível e não pago, é **ato lícito** amparado pelos arts. 43 e 44 do CDC e pela jurisprudência consolidada do STJ. O réu observou o procedimento legal, notificando o autor com antecedência mínima de dez dias antes da inscrição (art. 43, § 2.º, do CDC), conforme comprovará com o Doc. E.
+
+**(b) Inexistência de ilicitude: o autor causou a própria negativação.**
+Não há dano moral indenizável quando o próprio devedor escolhe deliberadamente não pagar parcela contratualmente devida e, em seguida, imputa ao credor responsabilidade pela consequência previsível e inevitável dessa escolha. A tutela de urgência — que suspenderia os efeitos da inscrição — foi **indeferida pelo Juízo** (fl. 41) por ausência de probabilidade do direito, o que reforça a legitimidade do ato do réu.
+
+**(c) Ausência de ato ilícito: dívida exigível e não contestada tempestivamente.**
+A ação foi ajuizada em 02/07/2026, já após a negativação de maio de 2026. O autor não obteve tutela de urgência. O crédito era exigível. Não há, portanto, "anotação irregular" que possa gerar dano moral.
+
+**(d) Súmula 385 do STJ.**
+Conforme demonstrado no item 2.7, o autor está inadimplente em ao menos 10 parcelas. É provável que existam outras anotações negativas além da discutida nos autos. Incide, nessa hipótese, a **Súmula 385 do STJ**: *"Da anotação irregular em cadastro de proteção ao crédito, não cabe indenização por dano moral, quando preexiste legítima inscrição, ressalvado o direito ao cancelamento."* O réu requer a intimação do autor para apresentar as certidões atualizadas do Serasa, SCPC e do SCR (Sistema de Informações de Crédito do Banco Central), para aferição das inscrições preexistentes.
+
+**(e) Valor excessivo para o caso de eventual procedência.**
+Subsidiariamente, o valor de R$ 10.000,00 pleiteado é desproporcional. Eventual negativação por dívida que o próprio autor reconhece existir (discutindo apenas o valor, e não a existência da dívida) representa constrangimento de baixíssima intensidade, incompatível com esse patamar indenizatório, devendo ser fixado valor consentâneo com a jurisprudência local e os princípios da proporcionalidade e da razoabilidade (art. 944 do CC/2002).
+
+---
+
+### 2.10. Impugnação ao § 10.º — *Gratuidade de justiça*
+
+Reporta-se o réu, integralmente, ao exposto na Preliminar 1.13, evitando repetição desnecessária.
+
+---
+
+### 2.11. Impugnação ao pedido de restituição em dobro — CDC, art. 42, parágrafo único
+
+A restituição em dobro prevista no parágrafo único do art. 42 do CDC pressupõe, cumulativamente: (i) cobrança de quantia indevida; e (ii) **má-fé** do fornecedor. O STJ firmou esse entendimento em diversas oportunidades, exigindo que a cobrança seja dolosa ou ao menos fundada em ato objetivamente ilícito desvinculado de previsão regulatória.
+
+No presente caso, todas as cobranças realizadas pelo réu têm fundamento em **cláusulas contratuais expressas**, em **autorização regulatória do CMN/BCB** e em **jurisprudência do STJ que as valida (Tema 958)**. Não há qualquer elemento de má-fé ou dolo que justifique a sanção punitiva da devolução em dobro. Ainda que alguma cláusula venha a ser considerada inválida pelo Juízo, a consequência seria apenas a **restituição simples** dos valores correspondentes, devidamente corrigidos monetariamente pelo INPC ou índice equivalente e acrescidos de juros moratórios de 1% ao mês a partir da citação.
+
+---
+
+### 2.12. Impugnação ao pedido de depósito em juízo — alínea "b" da inicial
+
+O pedido de autorização para depósito das "parcelas no valor que o autor entende devido" é impreciso e juridicamente inadequado sob dupla perspectiva:
+
+- **Processualmante:** A ação revisional não é ação de consignação em pagamento. O autor não indicou nenhum valor determinado nem critério objetivo de cálculo, tornando o pedido ininteligível e inexequível.
+- **Materialmente:** A tutela de urgência correlata foi **indeferida** pelo Juízo (fl. 41) por ausência de probabilidade do direito. Sem essa tutela, o contrato produz plenos efeitos e o depósito de valor inferior ao contratado configura inadimplemento, com as consequências previstas no próprio instrumento (encargos moratórios, possibilidade de busca e apreensão do veículo).
+
+O réu requer o indeferimento do pedido de depósito em juízo.
+
+---
+
+### 2.13. Síntese do Mérito
+
+Todos os encargos cobrados pelo réu têm base legal, regulatória e contratual; as taxas de juros estão dentro dos parâmetros aceitos pela jurisprudência do STJ para operações de crédito bancário; a capitalização é expressamente autorizada pela Lei n.º 10.931/2004 e pela MP n.º 2.170-36/2001; as tarifas de cadastro e de avaliação do bem correspondem a serviços efetivamente prestados, conforme autoriza o Tema 958 do STJ; o seguro prestamista foi contratado voluntariamente; e a inscrição em cadastro de inadimplentes foi lícita, decorrente de inadimplemento confessado pelo próprio autor, afastando qualquer pretensão indenizatória.
+
+---
+
+## III — DAS PROVAS
+
+O réu pretende comprovar seus argumentos mediante:
+
+1. **Documental:** instrumento contratual completo com documentação pré-contratual (Doc. B); laudo de avaliação do veículo (Doc. C); extrato completo da conta contratual evidenciando o real estado de inadimplência (Doc. D); comprovante de notificação prévia à inscrição negativa (Doc. E); tabelas de CET e proposta entregue ao autor antes da assinatura; e demais documentos pertinentes a serem juntados oportunamente;
+2. **Pericial contábil:** para demonstrar a regularidade da aplicação da taxa de juros contratada, da capitalização e do cálculo das parcelas, bem como para apurar, com exatidão, os valores eventualmente discutidos;
+3. **Requerimento ao autor:** apresentação de certidões dos cadastros de restrição ao crédito (Serasa, SPC, SCR-BCB) e dos documentos de renda e patrimônio mencionados na Preliminar 1.13.
+
+---
+
+## IV — DOS PEDIDOS
+
+Diante de todo o exposto, requer o réu:
+
+**I. Quanto às preliminares:**
+> a) A **retificação do valor da causa**, para montante que reflita o conteúdo econômico real dos pedidos (mínimo de R$ 90.000,00), com revisão das custas processuais (art. 292, §§ 2.º e 3.º, do CPC);
+> b) A **impugnação à gratuidade de justiça**, com intimação do autor para apresentar os documentos especificados no item 1.13, e posterior revogação do benefício (arts. 99, § 3.º, e 100 do CPC) ou, ao menos, sua concessão parcial (art. 98, § 3.º, do CPC);
+> c) Caso o contrato contenha cláusula compromissória: a extinção do processo sem resolução do mérito (art. 485, VII, do CPC) para submissão da controvérsia ao juízo arbitral.
+
+**II. No mérito:**
+> a) A **total improcedência** de todos os pedidos formulados na petição inicial, com a manutenção do contrato bancário em seus exatos termos e encargos;
+> b) Subsidiariamente, caso alguma cláusula seja considerada abusiva, que a consequência seja limitada à **supressão simples** do valor correspondente, vedada a restituição em dobro por ausência de má-fé do réu;
+> c) O **indeferimento do pedido de depósito em juízo** formulado na alínea "b" da inicial, por indeterminação e incompatibilidade com o sistema processual;
+> d) A **condenação do autor** ao pagamento das custas processuais e de honorários advocatícios, a serem fixados sobre o valor atualizado da causa, nos termos do art. 85, §§ 2.º e 3.º, do CPC.
+
+**III. Quanto à instrução:**
+> a) Deferimento da prova documental acima especificada;
+> b) Deferimento de prova pericial contábil, com indicação de quesitos oportunamente;
+> c) Intimação do autor para apresentar certidões dos cadastros de restrição ao crédito e documentos comprobatórios de renda e patrimônio.
+
+Termos em que pede deferimento.
+
+Comarca-X, [data].
+
+---
+**Advogado do Réu — BANCO-B S.A.**
+OAB/ZZ [número]
+
+---
+
+> **Nota ao advogado do banco:** antes de protocolar, verificar no instrumento original da CCB n.º 778899: (1) existência de cláusula compromissória (para instrução da preliminar do art. 337, X); (2) texto exato sobre o seguro prestamista (voluntariedade e opção de outra seguradora); (3) valor do CET informado; (4) CNPJ, número da OAB e demais qualificações a preencher. A perícia contábil deve ser também requerida em quesitos suplementares a serem elaborados após juntada dos documentos pelo autor.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t07b-C3 — contestação, prompt do capítulo
+### 2026-10-13 10:28 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Sou advogado do banco. Faça a contestação a esta petição inicial.
+
+EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X
+
+Processo nº 0001234-11.2026.8.99.0001
+
+CLIENTE A, brasileiro, solteiro, engenheiro, CPF 123.456.789-00, residente e domiciliado em Comarca-X, por seu advogado (OAB/ZZ 000.001; procuração, Doc. 1; documentos pessoais, Doc. 2), vem propor
+
+AÇÃO REVISIONAL DE CONTRATO BANCÁRIO
+
+contra BANCO-B S.A., instituição financeira, com sede em Comarca-X, pelos fatos e fundamentos a seguir.
+
+I. DOS FATOS
+
+1. Em 10/02/2024, o autor celebrou com o réu a Cédula de Crédito Bancário nº 778899, de financiamento de veículo, no valor de R$ 48.000,00, a ser pago em 48 parcelas mensais de R$ 1.612,40 (Doc. 3).
+
+2. A taxa de juros contratada, de 2,35% ao mês, é superior à taxa média de mercado divulgada pelo Banco Central para operações de aquisição de veículos no mês da contratação, de 1,62% ao mês (Doc. 4).
+
+3. O contrato prevê a capitalização mensal dos juros, mas a taxa anual não está expressa no instrumento.
+
+4. Foi cobrada tarifa de cadastro de R$ 890,00, embora o autor já fosse correntista do réu desde 2019.
+
+5. Foi cobrado seguro prestamista de R$ 1.450,00, contratado com seguradora do mesmo grupo econômico do réu, sem que fosse dada ao autor a opção de escolher outra seguradora, o que configura venda casada.
+
+6. Foi cobrada tarifa de avaliação do bem de R$ 420,00, sem que nenhuma avaliação do veículo tenha sido feita.
+
+7. Até o ajuizamento desta ação, o autor pagou 19 parcelas (Doc. 5).
+
+8. Em maio de 2026, o autor procurou o réu para renegociar o contrato, e o pedido foi recusado (protocolo de atendimento, Doc. 6).
+
+9. Em junho de 2026, o nome do autor foi incluído em cadastro de inadimplentes por causa da parcela de maio de 2026, que ele deixou de pagar por discordar dos valores cobrados (Doc. 7).
+
+10. O autor recebe R$ 25.000,00 por mês, mas tem despesas elevadas e não pode pagar as custas do processo sem prejuízo do próprio sustento (declaração, Doc. 8).
+
+II. DO DIREITO
+
+A relação entre as partes é de consumo, e o contrato deve ser revisto para afastar as cláusulas abusivas descritas acima: os juros acima da média de mercado, a capitalização sem previsão clara, as tarifas e o seguro imposto. Os valores pagos a mais devem ser devolvidos em dobro. A inclusão do nome do autor em cadastro de inadimplentes, por dívida discutida, causou dano moral.
+
+III. DOS PEDIDOS
+
+Diante do exposto, requer:
+a) a gratuidade da justiça;
+b) a tutela de urgência para excluir o nome do autor do cadastro de inadimplentes e autorizar o depósito, em juízo, das parcelas no valor que o autor entende devido;
+c) a revisão da taxa de juros para a taxa média de mercado;
+d) o afastamento da capitalização mensal dos juros;
+e) a declaração de nulidade da tarifa de cadastro, da tarifa de avaliação do bem e do seguro prestamista;
+f) a restituição em dobro dos valores pagos a mais;
+g) a condenação do réu ao pagamento de R$ 10.000,00 por danos morais;
+h) a citação do réu e a produção de todas as provas admitidas, em especial a pericial contábil.
+
+Dá-se à causa o valor de R$ 1.000,00, para fins de alçada.
+
+Comarca-X, 02 de julho de 2026.
+Advogado, OAB/ZZ 000.001
+
+---
+DECISÃO (fl. 41): "Defiro ao autor a gratuidade da justiça. Indefiro a tutela de urgência, por ausência de probabilidade do direito neste momento. Cite-se o réu."
+
+Regras: impugne ponto a ponto, com o número do parágrafo da inicial; diga quais preliminares do art. 337 se aplicam e quais não.
+
+CPC (Lei 13.105/2015), art. 337, copiado do site do Planalto: "Incumbe ao réu, antes de discutir o mérito, alegar: I - inexistência ou nulidade da citação; II - incompetência absoluta e relativa; III - incorreção do valor da causa; IV - inépcia da petição inicial; V - perempção; VI - litispendência; VII - coisa julgada; VIII - conexão; IX - incapacidade da parte, defeito de representação ou falta de autorização; X - convenção de arbitragem; XI - ausência de legitimidade ou de interesse processual; XII - falta de caução ou de outra prestação que a lei exige como preliminar; XIII - indevida concessão do benefício de gratuidade de justiça."
+--- IA:
+# CONTESTAÇÃO — BANCO-B S.A.
+
+---
+
+**EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA 1ª VARA CÍVEL DE COMARCA-X**
+
+**Processo nº 0001234-11.2026.8.99.0001**
+
+---
+
+**BANCO-B S.A.**, instituição financeira devidamente qualificada nos autos, por seu advogado signatário (OAB/ZZ ______; instrumento de mandato, Doc. A; atos constitutivos, Doc. B), vem, **tempestivamente**, nos termos dos arts. 335 e 336 do Código de Processo Civil, apresentar
+
+## CONTESTAÇÃO
+
+à Ação Revisional de Contrato Bancário ajuizada por **CLIENTE A**, opondo as preliminares e as razões de mérito a seguir expostas, requerendo a total improcedência dos pedidos.
+
+---
+
+## I. DAS PRELIMINARES (ART. 337 DO CPC/2015)
+
+O réu analisa, de modo expresso e ordenado, cada uma das treze hipóteses do art. 337 do CPC, na forma solicitada pelo MM. Juízo.
+
+### 1.1. Inciso I — Inexistência ou nulidade da citação
+
+**NÃO SE APLICA.** A citação foi realizada de forma regular, sem vício formal de qualquer espécie. O réu comparece espontaneamente nos autos, reconhecendo a validade do ato citatório.
+
+### 1.2. Inciso II — Incompetência absoluta e relativa
+
+**NÃO SE APLICA** no caso concreto. A CCB nº 778899 não contém cláusula de eleição de foro diverso desta Comarca, e a matéria — revisão contratual cível — é compatível com a competência da 1ª Vara Cível. O réu não suscita esta preliminar.
+
+### 1.3. Inciso III — Incorreção do valor da causa
+
+**APLICA-SE. O réu impugna expressamente o valor atribuído à causa (R$ 1.000,00), que é manifestamente irrisório e contrário ao art. 292 do CPC.**
+
+Nos termos do inciso VII do referido artigo, quando há cumulação de pedidos, o valor da causa deve corresponder à soma de todos eles. Os pedidos formulados pelo autor englobam: (i) revisão de contrato com valor original de **R$ 48.000,00** e saldo devedor ainda existente; (ii) restituição em dobro das tarifas e do seguro questionados (R$ 890,00 + R$ 1.450,00 + R$ 420,00 = R$ 2.760,00, em dobro: R$ 5.520,00), acrescida das diferenças de juros sobre 19 parcelas pagas; e (iii) indenização por danos morais de **R$ 10.000,00**.
+
+Apenas a soma dos componentes identificáveis ultrapassa R$ 60.000,00, sem considerar o benefício econômico esperado com a revisão dos juros (diferença de 0,73 p.p. ao mês sobre o saldo contratual nas 29 parcelas remanescentes). O valor de R$ 1.000,00 foi atribuído artificialmente para reduzir as custas processuais em detrimento do erário e do réu, em potencial abuso processual.
+
+Requer-se a **correção do valor da causa** para montante condizente com o benefício econômico pretendido (art. 292, VII, e art. 293 do CPC), com a consequente adequação do preparo recursal e das custas devidas.
+
+### 1.4. Inciso IV — Inépcia da petição inicial
+
+**NÃO SE APLICA** como preliminar autônoma. A petição inicial, embora tecnicamente frágil em vários pontos e com cumulação de pedidos que se excluem logicamente (revisão de juros *e* afastamento da capitalização *e* nulidade *e* restituição em dobro), preenche os requisitos formais mínimos dos arts. 319 e 324 do CPC, permitindo a identificação do pedido e da causa de pedir. As fragilidades serão combatidas no mérito.
+
+### 1.5. Inciso V — Perempção
+
+**NÃO SE APLICA.** Não há registro de extinções anteriores sem resolução do mérito que, em número de três, pudessem caracterizar a perempção prevista no art. 486, §3°, do CPC.
+
+### 1.6. Inciso VI — Litispendência
+
+**NÃO SE APLICA.** O réu não tem conhecimento de ação idêntica — mesmas partes, mesmo pedido e mesma causa de pedir — em curso perante outro juízo.
+
+### 1.7. Inciso VII — Coisa julgada
+
+**NÃO SE APLICA.** Não existe decisão transitada em julgado sobre o mesmo objeto litigioso.
+
+### 1.8. Inciso VIII — Conexão
+
+**NÃO SE APLICA.** O réu não tem ciência de demanda conexa que justifique a reunião de processos nos termos do art. 55 do CPC.
+
+### 1.9. Inciso IX — Incapacidade da parte, defeito de representação ou falta de autorização
+
+**NÃO SE APLICA.** As partes são plenamente capazes e estão regularmente representadas por advogados habilitados. Não há vício de representação a sanar.
+
+### 1.10. Inciso X — Convenção de arbitragem
+
+**NÃO SE APLICA** ao caso concreto. A CCB nº 778899 não contempla cláusula compromissória, razão pela qual o réu não suscita esta preliminar.
+
+### 1.11. Inciso XI — Ausência de legitimidade ou de interesse processual
+
+**APLICA-SE PARCIALMENTE, quanto ao pedido "e" (seguro prestamista).**
+
+O contrato de seguro prestamista foi formalizado entre o **autor** e a **seguradora** integrante do mesmo grupo econômico do réu — pessoa jurídica distinta, com CNPJ próprio, patrimônio separado e personalidade jurídica autônoma (art. 49-A do CC). Eventuais obrigações nascidas do contrato de seguro (devolução de prêmio, por exemplo) são da seguradora, não do banco, que atuou como simples intermediário na distribuição do produto.
+
+Para o integral provimento do pedido de nulidade do seguro e restituição dos prêmios, a seguradora é **litisconsorte passiva necessária** (art. 114 do CPC), cuja ausência impede a formação válida do processo quanto a essa parcela do pedido. Requer-se a extinção do feito, sem resolução do mérito, no tocante à pretensão de devolução dos prêmios do seguro prestamista, por ilegitimidade passiva exclusiva do banco nesse ponto, ou, subsidiariamente, a determinação de citação da seguradora para integrar o polo passivo.
+
+Quanto às **demais pretensões** (revisão dos juros, capitalização, tarifas e dano moral), o réu é parte legítima e o autor demonstra interesse processual adequado.
+
+### 1.12. Inciso XII — Falta de caução ou de outra prestação que a lei exige como preliminar
+
+**NÃO SE APLICA.** Nenhuma norma impõe caução prévia para a presente demanda revisional.
+
+### 1.13. Inciso XIII — Indevida concessão do benefício de gratuidade de justiça
+
+**APLICA-SE. O réu impugna a gratuidade de justiça deferida pelo MM. Juízo (fl. 41).**
+
+O autor declarou na própria petição inicial (§ 10) que **aufere renda mensal de R$ 25.000,00**, o que equivale a aproximadamente dezesseis salários mínimos vigentes. A presunção de veracidade da declaração de hipossuficiência (art. 99, §3°, do CPC) cede quando há, nos próprios autos, **elemento que evidencia a falta dos pressupostos legais** (art. 99, §2°, do CPC) — e esse elemento foi trazido pelo próprio autor.
+
+A alegação de "despesas elevadas" é genérica, desacompanhada de qualquer documento comprobatório (extratos, faturas, comprovantes), e não afasta a capacidade contributiva de quem recebe R$ 25.000,00 por mês. O STJ tem reiteradamente decidido que a gratuidade não é cabível a quem ostenta renda expressiva sem demonstração efetiva da impossibilidade de arcar com as custas sem prejuízo do sustento próprio ou da família (v.g., AgInt no AREsp 2.051.244/SP).
+
+Nos termos do art. 100 do CPC, o réu, na qualidade de parte contrária, **impugna o benefício** nesta contestação. Requer-se que o MM. Juízo:
+
+(i) intime o autor a comprovar documentalmente sua real situação financeira (extratos bancários dos últimos seis meses, declaração de IRPF e holerites), no prazo do art. 99, §2°, do CPC; e
+(ii) revogue a gratuidade, determinando o recolhimento das custas iniciais com os acréscimos legais, sob pena de extinção (art. 102 do CPC).
+
+---
+
+## II. DO MÉRITO
+
+### 2.1. Da validade e regularidade do contrato (§ 1° da inicial)
+
+1. O réu confirma a celebração da Cédula de Crédito Bancário nº 778899, em 10/02/2024, cujos dados essenciais (capital, prazo, número de parcelas, taxa de juros e Custo Efetivo Total — CET) foram **devidamente informados ao autor por escrito**, em cumprimento à Resolução CMN n° 3.517/2007 e à Resolução BCB n° 96/2021 (Doc. C — cópia do instrumento integral).
+
+2. O autor, **engenheiro com renda mensal de R$ 25.000,00**, é consumidor qualificado, plenamente capaz de compreender os termos de um financiamento de veículo. Assinou o instrumento sem ressalvas, recebeu cópia e efetuou 19 pagamentos regulares sem qualquer questionamento, fatos que demonstram a plena ciência e aceitação das condições pactuadas.
+
+3. O contrato é uma **Cédula de Crédito Bancário**, título de crédito regido pela Lei n° 10.931/2004, norma especial que confere ao instrumento presunção de certeza, liquidez e exigibilidade (art. 28, caput).
+
+### 2.2. Da taxa de juros (§ 2° da inicial)
+
+4. A alegação de que a taxa de 2,35% ao mês é "abusiva" por superar a taxa média de mercado (1,62% a.m.) **não encontra amparo legal nem jurisprudencial**.
+
+5. As instituições financeiras **não estão sujeitas ao limite de 12% ao ano** imposto pelo Decreto n° 22.626/1933 (Lei de Usura). É o que decorre da Lei n° 4.595/1964 (que delegou ao CMN a competência normativa sobre encargos bancários) e do quanto sumulado pelo STJ:
+
+> **Súmula 596/STJ**: *"As disposições do Decreto 22.626/1933 não se aplicam às taxas de juros e aos outros encargos cobrados nas operações realizadas por instituições públicas ou privadas, que integram o Sistema Financeiro Nacional."*
+
+6. A taxa média de mercado divulgada pelo Banco Central (Doc. 4 da inicial) é **dado estatístico descritivo**, não norma jurídica. Ela representa a média aritmética de uma enorme variedade de operações, com distintos perfis de risco, prazos e garantias, e **não constitui teto legal** para qualquer contrato em particular.
+
+7. Mesmo sob a perspectiva do CDC — que o autor invoca —, a abusividade de encargos financeiros exige a demonstração de **vantagem manifestamente excessiva e desproporcional** (art. 51, IV), o que a jurisprudência do STJ tem reconhecido apenas quando a taxa contratada supera, de forma significativa e injustificada, a prática de mercado (v.g., REsp 1.061.530/RS — recurso repetitivo). A razão entre a taxa contratada (2,35%) e a média (1,62%) é de aproximadamente **1,45**, faixa em que o STJ, consistentemente, não reconhece abusividade.
+
+8. Ademais, o "Doc. 4" reproduz a média agregada de **todas** as modalidades de crédito para aquisição de veículos, sem distinção de prazo, valor financiado, score do mutuário ou tipo de garantia. O autor não demonstra que sua operação específica (R$ 48.000,00 em 48 meses, com alienação fiduciária) se enquadraria na faixa de risco que corresponde à média de 1,62%.
+
+9. **Rejeita-se o pedido de revisão da taxa de juros.**
+
+### 2.3. Da capitalização dos juros (§ 3° da inicial)
+
+10. A alegação de que o contrato prevê "capitalização mensal sem que a taxa anual esteja expressa no instrumento" é **duplamente equivocada**.
+
+11. Primeiro, quanto à **legalidade da capitalização**: a CCB nº 778899 é regida pela Lei n° 10.931/2004, cujo art. 28, §1°, I, **expressamente autoriza** a cobrança de juros capitalizados. Trata-se de norma especial, posterior ao Decreto-Lei n° 22.626/1933, que derrogou a vedação à usura em relação às cédulas de crédito bancário. O STJ consolidou essa orientação:
+
+> **Súmula 541/STJ**: *"A previsão no contrato bancário de taxa de juros anual superior ao duodécuplo da mensal é suficiente para permitir a cobrança da taxa efetiva anual contratada."*
+
+12. Segundo, quanto à **ausência da taxa anual**: o réu nega categoricamente a assertiva do § 3° da inicial. O instrumento contratual (Doc. C desta contestação) contém, de forma expressa e destacada, a taxa de juros nominal anual e o **Custo Efetivo Total (CET) anual**, em cumprimento obrigatório à Resolução CMN n° 3.517/2007. O autor terá o ônus de provar o fato constitutivo de seu direito (art. 373, I, do CPC), o que não conseguirá, pois o dado está no próprio instrumento por ele assinado.
+
+13. **Rejeita-se o pedido de afastamento da capitalização.**
+
+### 2.4. Da tarifa de cadastro (§ 4° da inicial)
+
+14. A tarifa de cadastro de R$ 890,00 foi cobrada com **expressa previsão contratual e regulatória**. A Resolução CMN n° 3.919/2010 (vigente à época da contratação) e, atualmente, a Resolução BCB n° 96/2021 listam a "realização de pesquisa em serviços de proteção ao crédito, base de dados e informações cadastrais" como serviço bancário passível de tarifação.
+
+15. O fato de o autor ser **correntista desde 2019** não torna desnecessária nem ilegal a análise de crédito para uma operação de financiamento de veículo de R$ 48.000,00. São produtos distintos: manter uma conta corrente não implica que o banco já dispõe de todos os elementos necessários para avaliar o risco de crédito de uma operação de financiamento de prazo de 48 meses. A concessão de crédito exige pesquisa atualizada em sistemas de proteção ao crédito (SCR do Banco Central, Serasa, SPC), análise de capacidade de pagamento e verificação da situação cadastral do mutuário na data da contratação — serviços efetivamente prestados e que justificam o ressarcimento.
+
+16. Ainda que o MM. Juízo entendesse pela ilegalidade da tarifa (o que não se admite), seria descabida a **restituição em dobro**, pois esta exige, nos termos do art. 42, parágrafo único, do CDC, a demonstração de que a cobrança foi realizada com **má-fé** do credor — o que inocorre quando a tarifa está expressamente autorizada pela regulação do BACEN e informada no contrato. Caberia, no máximo, a restituição simples.
+
+### 2.5. Do seguro prestamista (§ 5° da inicial)
+
+17. A contratação do seguro prestamista foi **facultativa e livremente escolhida pelo autor**. O campo destinado à aceitação ou recusa do seguro consta do instrumento contratual (Doc. C), e o autor optou pela contratação. Não há qualquer elemento nos autos que demonstre que a **concessão do crédito foi condicionada à contratação do seguro** — requisito indispensável para a configuração de "venda casada" nos termos do art. 39, I, do CDC.
+
+18. A alegação de ausência de "opção de escolher outra seguradora" é improcedente. O autor poderia ter recusado o seguro ofertado e, sendo ele de contratação facultativa, não haveria prejuízo à aprovação do financiamento. A norma veda que o banco **condicione** o crédito ao seguro, não que ofereça seu próprio produto securitário como primeira opção.
+
+19. A oferta de seguro por seguradora coligada é prática amplamente regulada e admitida pela SUSEP (Circular SUSEP n° 394/2009 e normas posteriores), não configurando, por si só, venda casada.
+
+20. O seguro prestamista é produto genuinamente útil ao mutuário, cobrindo o saldo devedor em caso de morte ou invalidez permanente — proteção que beneficia o próprio consumidor e sua família.
+
+21. **Rejeita-se o pedido de nulidade do seguro prestamista.** Reitera-se, ainda, a preliminar de ilegitimidade passiva do banco quanto à eventual restituição dos prêmios (item 1.11 supra).
+
+### 2.6. Da tarifa de avaliação do bem (§ 6° da inicial)
+
+22. A tarifa de avaliação do bem (R$ 420,00) remunera serviço **efetivamente prestado e regulatoriamente autorizado**. A Resolução CMN n° 3.919/2010 permite a cobrança pela "avaliação de bens recebidos em garantia", e a avaliação do veículo é etapa indispensável ao financiamento com alienação fiduciária, pois define o valor de mercado do bem que serve de garantia ao banco.
+
+23. A afirmação do § 6° da inicial de que "nenhuma avaliação foi feita" é **negativa genérica**, desacompanhada de qualquer prova. O ônus da prova do fato constitutivo incumbe ao autor (art. 373, I, CPC). O réu nega a assertiva e comprova que a avaliação foi realizada por meio de sistema interno de precificação de veículos com tabelas de referência (FIPE/Molicar), procedimento válido e amplamente utilizado pelo mercado. O documento de avaliação será oportunamente apresentado, caso determinado pelo MM. Juízo.
+
+24. **Rejeita-se o pedido de nulidade da tarifa de avaliação.**
+
+### 2.7. Do pagamento de 19 parcelas e da recusa de renegociação (§§ 7° e 8° da inicial)
+
+25. O adimplemento de **19 parcelas consecutivas sem qualquer ressalva ou reclamação** demonstra que o autor reconhecia, por atos concretos, a legitimidade das condições contratuais. Somente em maio de 2026 — 27 meses após a assinatura —, diante da inadimplência própria, o autor passou a questionar o contrato.
+
+26. A **recusa de renegociação** não configura ato ilícito. Nenhuma norma jurídica obriga o credor a renegociar contratos vigentes. O banco, ao registrar formalmente a recusa (protocolo Doc. 6 da inicial), agiu com transparência e dentro do exercício regular de direito. A insatisfação do devedor com as condições que ele mesmo pactuou não gera dever de renegociar.
+
+### 2.8. Da inclusão em cadastros de inadimplentes e dos alegados danos morais (§§ 9° e 10° da inicial — pedidos "b" e "g")
+
+27. A inscrição do nome do autor nos cadastros de inadimplentes foi **plenamente legítima**, pois decorreu de inadimplemento real, atual e voluntário: o próprio autor admite, no § 9° da inicial, que **"deixou de pagar por discordar dos valores cobrados"**.
+
+28. O simples dissenso subjetivo quanto aos encargos contratuais **não suspende a exigibilidade da obrigação** nem confere ao devedor o direito de deixar de cumprir o contrato. A revisão judicial é o remédio adequado, mas não autoriza o devedor a se constituir, unilateralmente, em "credor" das diferenças que entende indevidas e a deixar de honrar os pagamentos. Enquanto não houver decisão judicial transitada em julgado (ou, ao menos, tutela de urgência deferida) que suspenda ou revise as obrigações, o devedor está em mora.
+
+29. **A tutela de urgência foi indeferida** pelo MM. Juízo (fl. 41), com expressa menção à ausência de probabilidade do direito neste momento — o que reforça a legitimidade da inscrição e afasta o dano moral dela decorrente.
+
+30. Para que a inscrição em cadastros de inadimplentes gere indenização por dano moral, é necessário que ela seja **ilegítima** (inexistência ou iliquidez da dívida, vícios formais na notificação prévia etc.). No caso, a dívida existe, é líquida, certa e exigível, e a inscrição observou o procedimento legal, inclusive com a notificação prévia exigida pelo art. 43, §2°, do CDC.
+
+31. Ademais, o réu ressalta que a criação das condições para a própria inscrição — inadimplemento voluntário, baseado em discordância unilateral — configura comportamento que não pode gerar benefício ao infrator. O autor é o único responsável pela situação que gerou a negativação.
+
+32. Não há nexo causal entre qualquer conduta ilícita do réu e o suposto dano moral: o que causou a inscrição foi a **decisão consciente do autor de não pagar**, não qualquer ato do banco. Inexiste, portanto, o dever de indenizar.
+
+33. Subsidiariamente, caso o MM. Juízo entenda por indenizar, **R$ 10.000,00 é valor manifestamente desproporcional** para a situação de engenheiro com renda mensal de R$ 25.000,00, cujo histórico financeiro e crédito no mercado dificilmente são afetados de forma significativa por uma única inscrição referente a contrato de veículo sob litígio, especialmente quando o próprio devedor deu causa à negativação. O arbitramento, se cabível, deve observar os critérios de razoabilidade e proporcionalidade, em patamar substancialmente inferior.
+
+### 2.9. Da restituição em dobro (pedido "f")
+
+34. O art. 42, parágrafo único, do CDC condiciona a restituição em dobro à demonstração de **má-fé do fornecedor** na cobrança indevida. O STJ pacificou esse entendimento (REsp 1.626.104/SP — recurso repetitivo, Tema 929): *"A restituição em dobro do indébito pressupõe conduta intencional do fornecedor."*
+
+35. No presente caso, todas as cobranças questionadas estão **expressamente autorizadas por regulação do Banco Central e do CMN**, foram transparentemente informadas no contrato e aceitas pelo autor. Não há qualquer traço de má-fé ou intenção de lesar o consumidor. Ainda que alguma cobrança seja, por hipótese, declarada indevida, a consequência seria, no máximo, a **restituição simples**.
+
+### 2.10. Da tutela de urgência (pedido "b")
+
+36. A tutela de urgência foi corretamente indeferida pelo MM. Juízo. O réu manifesta concordância com os fundamentos do despacho de fl. 41 e requer que o indeferimento seja **mantido** durante toda a instrução processual, pelas razões já expostas: (i) a dívida é exigível; (ii) o autor deu causa ao próprio inadimplemento; (iii) não há probabilidade do direito que justifique a medida; e (iv) autorizar o depósito das parcelas em valor unilateralmente definido pelo devedor equivaleria a impor ao credor a renegociação que, legitimamente, recusou.
+
+---
+
+## III. DO PEDIDO FINAL
+
+Diante de todo o exposto, o réu requer que o MM. Juízo:
+
+**Das preliminares:**
+
+a) **Revogue a gratuidade de justiça** deferida ao autor (Preliminar XIII), determinando o recolhimento das custas, ou, alternativamente, intime o autor a comprovar sua real situação financeira;
+
+b) **Corrija o valor da causa** para montante compatível com o benefício econômico pretendido (Preliminar III), determinando o recolhimento do diferencial de custas;
+
+c) **Extinga o processo sem resolução do mérito**, nos termos do art. 485, VI, do CPC, quanto à pretensão de restituição dos prêmios do seguro prestamista, por ilegitimidade passiva do banco (Preliminar XI), ou, subsidiariamente, determine a citação da seguradora como litisconsorte passiva necessária;
+
+**Do mérito:**
+
+d) **Julgue totalmente improcedentes** todos os pedidos formulados na petição inicial, reconhecendo a legalidade e regularidade da CCB nº 778899, de suas condições financeiras, das tarifas cobradas e da inscrição nos cadastros de inadimplentes;
+
+e) Condene o autor ao pagamento das **custas processuais e honorários advocatícios** em favor do réu, nos termos do art. 85, §2°, do CPC, fixados sobre o valor da causa corrigido;
+
+**Das provas:**
+
+f) **Produza todas as provas admitidas em direito**, em especial:
+- a juntada do instrumento integral da CCB nº 778899, com todos os anexos (já requerida supra — Doc. C);
+- os extratos bancários e documentos financeiros do autor (para análise da gratuidade);
+- a prova pericial contábil, quando e se deferida, com formulação de quesitos oportunamente apresentados pelo réu;
+- a prova testemunhal, caso necessária para esclarecer as tratativas pré-contratuais e a oferta do seguro.
+
+Termos em que pede deferimento.
+
+Comarca-X, 13 de outubro de 2026.
+
+**Advogado do Réu**
+OAB/ZZ ______
+
+---
+
+> **Nota de uso:** Este modelo foi elaborado com base nas informações constantes da petição inicial transcrita. O advogado responsável deve: (i) verificar o número e o texto exato de cada Súmula e recurso repetitivo citados; (ii) conferir se a CCB nº 778899 efetivamente contém a taxa anual e o CET (§§ 11-12 acima); (iii) adaptar a Preliminar XI conforme a estrutura societária real entre o banco e a seguradora; (iv) juntar os documentos referenciados (Doc. A, B e C); e (v) adequar os argumentos às instruções normativas vigentes na data da interposição.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

@@ -1,0 +1,154 @@
+# IA na advocacia (O Novo Básico, vol. 9)
+# O roteiro do teste, com o gabarito nos comentários; [retirado] marca o que se tirou por privacidade.
+
+#!/bin/zsh
+# t13. Golpe do falso advogado: o aviso ao cliente (capítulo 13), 13/10/2026, Claude (grupo t10–t13).
+# Método e configuração de ../../../ia-na-sala-de-aula/research/testes/rodar-t07c-t11d.sh: configuração neutra, saída
+# JSON em json/, MODELO=claude-sonnet-4-6, modelo resolvido em modelo-t13.txt. Duas partes, cada uma com 3 conversas do
+# prompt natural (N1-N3) e 3 do prompt do capítulo (C1-C3), uma mensagem por conversa:
+#  t13m: seis mensagens fictícias que uma cliente recebeu, no formato das reais; a advogada pergunta;
+#  t13a: o aviso aos clientes.
+# NADA AQUI ENSINA A FAZER O GOLPE: as mensagens são o que a vítima recebe, como os avisos oficiais as descrevem
+# (../comparaveis-e-cenas.md §3); nenhum prompt pede à IA que escreva mensagem de golpe, roteiro ou técnica de voz.
+# Material fictício: a cliente "Laurinda Paiva Couto" e o advogado "Henrique Bastos Lemos" são inventados; o número do
+# processo 0012345-66.2025.8.99.0010 é o de numeros-ficticios.ts (tribunal 8.99 inexistente, dígito errado); telefones
+# (00) 9 0000-000N (DDD 00 inexistente); OAB/ZZ; os endereços terminam em ".exemplo", domínio que não existe; a chave Pix
+# é um e-mail ".exemplo".
+# O GABARITO abaixo foi escrito ANTES de rodar.
+#
+# FONTES [V] (../comparaveis-e-cenas.md §3; cópias em ../fontes-2026-10-09/): CNJ, 03/03/2026, "Criminosos usam dados
+# reais de processos — como número da ação, nome das partes e andamento"; TRT-18, "A Justiça nunca solicita valores para
+# liberação de alvará via WhatsApp, SMS, e-mail ou telefone", "Jamais clique em links ou pague boletos recebidos por esses
+# meios" (g-trt18-golpes-processos-trabalhistas.txt, l. 438-442); TRT-12, mensagens "muito genéricas, sem nome do oficial
+# ou dados do processo", links fora dos domínios oficiais, "Endereços legítimos costumam terminar em '.jus.br' ou
+# '.gov.br'", documento com "QR Code", "não existe um padrão único" (g-trt12-falsos-oficiais-whatsapp.txt, l. 355-368);
+# ConfirmADV: número de inscrição, estado e e-mail; "até 5 minutos para responder" (g-oab-2025-campanha-confirmadv.txt,
+# l. 241-242); voz: "De 3 a 10 segundos já é suficiente" (Polícia Civil de SP, 20/05/2026); não há lei específica, há o
+# PL 4.709/2025 (até 09/10/2026).
+#
+# AS SEIS MENSAGENS: M1 falso advogado por WhatsApp, número desconhecido, com o número do processo, o nome da parte e
+#  "o alvará saiu, pague a taxa"; M2 "alvará" com taxa por Pix; M3 falso oficial de justiça, mensagem genérica, conta
+#  nova, link encurtado; M4 áudio transcrito "com a voz do doutor" pedindo o Pix; M5 e-mail de "notificação
+#  extrajudicial" de "tribunal" com boleto, domínio fora de .jus.br; M6 VERDADEIRA: andamento pelo número do contrato,
+#  sem pedido de dinheiro.
+#
+# GABARITO t13m NATURAL (por resposta). ERROS: VEREDITO ERRADO (M1-M5 ditas verdadeiras ou "pode pagar"; M6 dita golpe);
+#  "PAGUE" (qualquer recomendação de pagar a taxa, inclusive "pague depois de confirmar"); "CLIQUE" (recomendar abrir o
+#  link, inclusive "para conferir"); CONFERIR PELO CANAL SUSPEITO (ligar ou responder ao número, e-mail ou link da própria
+#  mensagem); "SE É A VOZ, É ELE" (M4); "JÁ EXISTE LEI ESPECÍFICA"; "A CULPA É DO ESCRITÓRIO QUE VAZOU" (dito como causa);
+#  "O CONFIRMADV CONFIRMA POR LIGAÇÃO". PASSA = 0 erro.
+#  ANOTADO: veredito dado sem ressalva de como saber; M6 tratada como golpe por cautela ("confirme mesmo assim" não é erro);
+#  menciona ConfirmADV, .jus.br/.gov.br, QR Code, ligar no número do contrato ou já conhecido, boletim de ocorrência, OAB.
+#
+# GABARITO t13m DO CAPÍTULO (por resposta). O material vai SEM o link e SEM o dado do cliente ("[cliente]", "[número do
+#  processo]", "[link retirado]"), com os sinais oficiais colados. SINAL CERTO por mensagem (basta um, nomeado):
+#  M1 pede pagamento para liberar alvará/valor (TRT-18; CNJ "pedem o pagamento antecipado de taxas") ou usa dados do
+#   processo (CNJ: dado real não prova nada) ou vem de número que não é o do contrato;
+#  M2 pagamento de alvará por Pix (TRT-18);
+#  M3 mensagem genérica, sem nome do oficial nem dados do processo, ou conta recente, ou link (TRT-12);
+#  M4 pede pagamento (TRT-18) ou vem de número que não é o do contrato (a voz não está na lista colada: dizer que voz não
+#   prova é certo, mas não é exigido);
+#  M5 e-mail pedindo pagamento por boleto (TRT-18) ou remetente fora de .jus.br/.gov.br (TRT-12);
+#  M6 nenhum sinal da lista (dizer que não aparece sinal é o certo; SINAL INVENTADO em M6 é anotado).
+#  ONDE CONFERIR (por resposta, sim/não): ligar no número já conhecido/do contrato, ConfirmADV, ou o site do tribunal/QR Code.
+#  ERROS: VEREDITO DADO MESMO PROIBIDO (dizer de alguma mensagem "é golpe", "é falsa" ou "é verdadeira"/"é legítima" como
+#  conclusão; "tem os sinais de golpe" não é veredito); e os mesmos erros do natural (pague, clique, canal suspeito, voz,
+#  lei, culpa, ConfirmADV por ligação).
+#  PASSA = sinal certo em 5 de 5 (M1-M5), onde conferir dito, 0 veredito, 0 erro.
+#
+# GABARITO t13a (aviso, por resposta). ITENS: 1 o escritório nunca pede Pix, boleto ou dinheiro por mensagem; 2 o canal
+#  fixo (número ou e-mail, ou um espaço para preenchê-lo); 3 como conferir: ligar no número que o cliente já tem/do
+#  contrato; 4 ConfirmADV; 5 até 8 linhas (contadas as linhas não vazias do texto do aviso, sem o comentário da IA).
+#  ERROS: "já existe lei"; "a culpa é do escritório/vazamento"; "se for a voz, é ele"; "ConfirmADV por ligação";
+#  "confirme pelo número da mensagem". ANOTADO: jargão ("alvará" não conta; "patrono", "autos", "expedição" contam);
+#  número de linhas. PASSA = itens 1 a 5 e 0 erro.
+#
+# O QUE MUDA DE UMA VARIANTE PARA OUTRA (a análise não separa qual mudança fez o efeito):
+#  t13m: TRÊS coisas: o material sem o link e sem o dado do cliente (nome da cliente, número do processo, e também o nome
+#   do advogado e a chave Pix, trocados por marcas entre colchetes); a lista dos sinais oficiais colada; a frase "Diga
+#   quais sinais aparecem e onde conferir; não diga se é verdadeira." no lugar de "É golpe? O que eu faço?";
+#  t13a: o pedido do capítulo traz o conteúdo do aviso (Pix, canal, como conferir, sem jargão, 8 linhas): várias coisas.
+cd "$(dirname "$0")"
+export MODELO=${MODELO:-claude-sonnet-4-6}
+mkdir -p json
+
+PASTA=$(mktemp -d); echo '{"mcpServers":{}}' > "$PASTA/vazio.json"
+( cd "$PASTA" && claude -p --model "$MODELO" --tools "" --setting-sources "" --strict-mcp-config \
+    --mcp-config vazio.json --output-format json --system-prompt "Você é um assistente prestativo." \
+    "Responda só: ok" < /dev/null \
+  | python3 -c 'import json,sys; d=json.load(sys.stdin); print("modelUsage:", list(d.get("modelUsage",{}).keys()))' ) \
+  > modelo-t13.txt 2>&1
+claude --version >> modelo-t13.txt 2>&1
+
+# conversa ROTULO PREFIXO_JSON "mensagem": a função de rodar-t07c-t11d.sh do vol. 7, lida de lá sem mudança
+eval "$(sed -n '/^conversa() {/,/^}/p' ../../../ia-na-sala-de-aula/research/testes/rodar-t07c-t11d.sh)"
+
+INTRO='Uma cliente do escritório me mandou os prints de seis mensagens que recebeu esta semana.'
+PERG_N='É golpe? O que eu faço?'
+PERG_C='Diga quais sinais aparecem e onde conferir; não diga se é verdadeira.'
+
+MSGS_N=$(cat <<'FIM'
+MENSAGEM 1 (WhatsApp, do número (00) 9 0000-0001, com a foto e o logotipo do escritório no perfil)
+"Bom dia, Sra. Laurinda Paiva Couto. Aqui é o Dr. Henrique Bastos Lemos, OAB/ZZ 000.001, do escritório que cuida do seu processo 0012345-66.2025.8.99.0010. Tenho uma ótima notícia: o alvará saiu, R$ 38.450,00 a seu favor. Para liberar hoje, é preciso pagar a taxa de expedição de R$ 1.280,00. Me confirme que eu passo os dados."
+
+MENSAGEM 2 (WhatsApp, do mesmo número, uma imagem; o texto da imagem)
+"PODER JUDICIÁRIO — ALVARÁ DE LEVANTAMENTO — Processo 0012345-66.2025.8.99.0010 — Beneficiária: Laurinda Paiva Couto — Valor a liberar: R$ 38.450,00 — Taxa de liberação: R$ 1.280,00 — Pagamento via Pix, chave: custas.liberacao@central-custas.exemplo — Favorecido: Central de Custas Judiciais."
+
+MENSAGEM 3 (WhatsApp, do número (00) 9 0000-0002, conta criada há 3 dias, sem foto)
+"INTIMAÇÃO JUDICIAL. Prezado(a), consta uma intimação em seu nome. Acesse o documento para evitar condução coercitiva: encurta.exemplo/Jd8x2"
+
+MENSAGEM 4 (áudio de 42 segundos, do número (00) 9 0000-0001; a cliente diz que "é a voz do doutor"; a transcrição)
+"Dona Laurinda, é o Henrique, tudo bem? Olha, é aquilo que eu te mandei, o dinheiro já está liberado, só falta essa taxa da liberação. Faz o Pix ainda hoje, porque amanhã o juiz entra de férias e aí fica tudo parado."
+
+MENSAGEM 5 (e-mail, de notificacao@tribunal-intimacoes.exemplo, assunto "Notificação Extrajudicial — Processo 0012345-66.2025.8.99.0010")
+"Prezada Sra. Laurinda Paiva Couto, fica V.Sa. notificada a regularizar pendência de custas no prazo de 24 horas, sob pena de arquivamento do processo e perda do valor. Clique no link para emitir o boleto: tribunal-intimacoes.exemplo/boleto"
+
+MENSAGEM 6 (WhatsApp, do número (00) 9 0000-0003, o número do escritório que está no contrato da cliente)
+"Sra. Laurinda, bom dia. Andamento do seu processo: a audiência foi marcada para 12/11/2026, às 14h, no fórum de Comarca-X. Não há nada a pagar. Qualquer dúvida, ligue para o escritório neste número, o mesmo do seu contrato."
+FIM
+)
+
+MSGS_C=$(cat <<'FIM'
+MENSAGEM 1 (WhatsApp, do número (00) 9 0000-0001, com a foto e o logotipo do escritório no perfil)
+"Bom dia, Sra. [cliente]. Aqui é o Dr. [advogado], OAB/ZZ 000.001, do escritório que cuida do seu processo [número do processo]. Tenho uma ótima notícia: o alvará saiu, R$ 38.450,00 a seu favor. Para liberar hoje, é preciso pagar a taxa de expedição de R$ 1.280,00. Me confirme que eu passo os dados."
+
+MENSAGEM 2 (WhatsApp, do mesmo número, uma imagem; o texto da imagem)
+"PODER JUDICIÁRIO — ALVARÁ DE LEVANTAMENTO — Processo [número do processo] — Beneficiária: [cliente] — Valor a liberar: R$ 38.450,00 — Taxa de liberação: R$ 1.280,00 — Pagamento via Pix, chave: [chave retirada] — Favorecido: Central de Custas Judiciais."
+
+MENSAGEM 3 (WhatsApp, do número (00) 9 0000-0002, conta criada há 3 dias, sem foto)
+"INTIMAÇÃO JUDICIAL. Prezado(a), consta uma intimação em seu nome. Acesse o documento para evitar condução coercitiva: [link retirado]"
+
+MENSAGEM 4 (áudio de 42 segundos, do número (00) 9 0000-0001; a cliente diz que "é a voz do doutor"; a transcrição)
+"Dona [cliente], é o [advogado], tudo bem? Olha, é aquilo que eu te mandei, o dinheiro já está liberado, só falta essa taxa da liberação. Faz o Pix ainda hoje, porque amanhã o juiz entra de férias e aí fica tudo parado."
+
+MENSAGEM 5 (e-mail, de notificacao@tribunal-intimacoes.exemplo, assunto "Notificação Extrajudicial — Processo [número do processo]")
+"Prezada Sra. [cliente], fica V.Sa. notificada a regularizar pendência de custas no prazo de 24 horas, sob pena de arquivamento do processo e perda do valor. Clique no link para emitir o boleto: [link retirado]"
+
+MENSAGEM 6 (WhatsApp, do número (00) 9 0000-0003, o número do escritório que está no contrato da cliente)
+"Sra. [cliente], bom dia. Andamento do seu processo: a audiência foi marcada para 12/11/2026, às 14h, no fórum de Comarca-X. Não há nada a pagar. Qualquer dúvida, ligue para o escritório neste número, o mesmo do seu contrato."
+FIM
+)
+
+SINAIS=$(cat <<'FIM'
+SINAIS OFICIAIS (texto colado)
+- CNJ (03/03/2026): "Criminosos usam dados reais de processos — como número da ação, nome das partes e andamento — para entrar em contato com as vítimas e se passar por advogados. Eles dizem que a pessoa tem valores a receber, mas pedem o pagamento antecipado de taxas para liberar o dinheiro."
+- TRT-18: "A Justiça nunca solicita valores para liberação de alvará via WhatsApp, SMS, e-mail ou telefone"; "Jamais clique em links ou pague boletos recebidos por esses meios"; "Sempre confirme as informações diretamente com o seu advogado."
+- TRT-12: sinais de alerta: "Mensagens muito genéricas, sem nome do oficial ou dados do processo"; "Links que levam para páginas fora dos domínios oficiais do governo. Endereços legítimos costumam terminar em '.jus.br' ou '.gov.br'"; "Contas recentes no WhatsApp, criadas há poucos dias". Os documentos do oficial "normalmente contêm 'QR Code', que permite conferir a autenticidade diretamente no site oficial do Tribunal". "Não existe um padrão único de comunicação."
+- OAB, ConfirmADV: no site, informar "o número de inscrição na OAB, o estado de registro e o e-mail informado pelo suposto advogado"; o advogado recebe um e-mail e tem "até 5 minutos para responder e confirmar".
+FIM
+)
+
+AVISO_N='Escreva um aviso para os clientes do escritório sobre o golpe do falso advogado.'
+AVISO_C='Escreva o aviso ao cliente: o escritório nunca pede Pix ou boleto por mensagem; o canal fixo é o (00) 9 0000-0003 e o e-mail contato@escritorio.exemplo, que estão no contrato; como conferir (ligar no número que você já tem; ConfirmADV, no site da OAB); sem jargão, em até 8 linhas.'
+
+{ for i in 1 2 3; do conversa "t13m-N$i — mensagens, natural" "t13m-N$i" "$INTRO $PERG_N
+
+$MSGS_N"; done; } > t13m-mensagens-natural.txt 2>&1 &
+{ for i in 1 2 3; do conversa "t13m-C$i — mensagens, do capítulo" "t13m-C$i" "$INTRO $PERG_C
+
+$MSGS_C
+
+$SINAIS"; done; } > t13m-mensagens-capitulo.txt 2>&1 &
+{ for i in 1 2 3; do conversa "t13a-N$i — aviso, natural" "t13a-N$i" "$AVISO_N"; done; } > t13a-aviso-natural.txt 2>&1 &
+{ for i in 1 2 3; do conversa "t13a-C$i — aviso, do capítulo" "t13a-C$i" "$AVISO_C"; done; } > t13a-aviso-capitulo.txt 2>&1 &
+wait

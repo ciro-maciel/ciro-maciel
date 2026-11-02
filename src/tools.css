@@ -1,0 +1,76 @@
+/* A página /tools. O que o Mantine não expressa por prop: o estado de foco da
+   busca e o hover do card. */
+
+/* A busca: borda cinza parada, preta com foco. Preto e não azul porque a cor
+   do site carrega estado — e "estou digitando aqui" é contraste, não alerta.
+
+   `!important` PORQUE O TEMA DO KIT PÕE `borderBottom` INLINE em todo
+   TextInput, e inline ganha de classe: sem ele, com foco, três lados ficavam
+   pretos e o de baixo continuava cinza. */
+.tools-search {
+    border: 1px solid var(--mantine-color-gray-3) !important;
+    background: var(--mantine-color-white);
+    transition: border-color 150ms ease;
+}
+
+.tools-search:focus,
+.tools-search:focus-visible {
+    border-color: var(--mantine-color-gray-9) !important;
+    outline: none;
+}
+
+/* O CARD INTEIRO É O LINK. Um botão só no pé deixava três quartos do card
+   mortos para o clique — e num celular é justamente no meio que o dedo cai. */
+.tools-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: var(--mantine-spacing-xl);
+    /* White is the card: on the light theme it equals the gray.0 stage and
+       the border separates them; on the dark one it rises above the stage.
+       gray.0 here was the page base, and the cards sank into it. */
+    background: var(--mantine-color-white);
+    border: 1px solid var(--mantine-color-gray-2);
+    color: inherit;
+    text-decoration: none;
+    transition:
+        border-color 150ms ease,
+        transform 150ms ease;
+}
+
+.tools-card:hover,
+.tools-card:focus-visible {
+    border-color: var(--mantine-color-gray-9);
+}
+
+/* The lift is movement, so it only happens when motion is welcome. Focus
+   keeps the system ring (2px gray.9, offset 2px) from the kit: the darker
+   border alone was too faint to find with the keyboard. */
+@media (prefers-reduced-motion: no-preference) {
+    .tools-card:hover,
+    .tools-card:focus-visible {
+        transform: translateY(-2px);
+    }
+}
+
+/* A seta anda um pouco no hover: é o que diz "isto leva a algum lugar" sem
+   precisar de um botão preto em cada card. */
+.tools-card-cta svg {
+    transition: transform 150ms ease;
+}
+
+.tools-card:hover .tools-card-cta svg {
+    transform: translateX(4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tools-card,
+    .tools-card-cta svg {
+        transition: none;
+    }
+
+    .tools-card:hover,
+    .tools-card:hover .tools-card-cta svg {
+        transform: none;
+    }
+}

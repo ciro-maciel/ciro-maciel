@@ -1,0 +1,175 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t04, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t04-N2 — natural
+### 2026-10-13 10:01 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Hoje é 09/10/2026. Responda a estas oito consultas de clientes:
+
+1. "Em 10/03/2024, um carro particular bateu na moto do meu cliente num cruzamento. Ele quer o conserto e os dias parados. Ainda dá tempo?"
+2. "Em 05/05/2022, o liquidificador da minha cliente explodiu e a queimou; ela soube na hora quem era o fabricante. Ela ainda pode processar?"
+3. "Minha cliente recebeu em 01/09/2026 uma geladeira nova com a porta amassada. Até quando ela pode reclamar?"
+4. "A mãe de uma criança de 8 anos quer cobrar a pensão fixada em setembro de 2023, que o pai nunca pagou. Ela perdeu alguma parcela?"
+5. "Uma mulher divorciada desde 2020 cobra a pensão que o ex-marido deixou de pagar em setembro de 2023. O que ela ainda pode cobrar?"
+6. "O contrato de trabalho do meu cliente terminou em 15/11/2024. Até quando ele pode entrar com a ação, e quanto tempo para trás ele cobra?"
+7. "Como a prescrição para reparação civil é de 10 anos (CC, art. 205), meu cliente ainda pode processar o vizinho pelo acidente de carro de 2019, certo?"
+8. "O INSS negou o auxílio por incapacidade da minha cliente em 2014. Passaram mais de 10 anos; ainda dá para discutir na Justiça?"
+--- IA:
+# Respostas às Oito Consultas — Referência: 09/10/2026
+
+---
+
+## 1. Acidente de trânsito — moto × carro particular (10/03/2024)
+
+**Prazo aplicável:** Prescrição de **3 anos** para pretensão de reparação civil (CC, art. 206, §3.º, V).
+
+**Cálculo:** 10/03/2024 → prazo final em **10/03/2027**.
+
+**Conclusão:** ✅ **Ainda há tempo** (faltam aprox. 5 meses). Podem ser pleiteados tanto o conserto da moto quanto os lucros cessantes (dias parados). Recomenda-se não aguardar mais.
+
+---
+
+## 2. Liquidificador que explodiu — queimaduras (05/05/2022)
+
+**Atenção:** Não se aplica aqui o CC (3 anos), pois a relação é de consumo e o dano é causado por **fato do produto** (CDC, art. 12). O prazo é o do **CDC, art. 27: prescrição de 5 anos**, contados de quando a vítima teve ciência do dano e de sua autoria.
+
+**Cálculo:** 05/05/2022 (ciência imediata) → prazo final em **05/05/2027**.
+
+**Conclusão:** ✅ **Sim, ela pode processar** — faltam cerca de 7 meses. Mas o prazo é do CDC (5 anos), não do CC (3 anos).
+
+---
+
+## 3. Geladeira com porta amassada entregue em 01/09/2026
+
+**Prazo aplicável:** Não é prescrição, mas **decadência** para reclamar por vício do produto (CDC, art. 26, II). Para bens **duráveis**, o prazo é de **90 dias** a contar da entrega.
+
+**Cálculo:** 01/09/2026 + 90 dias = **30/11/2026**.
+
+**Conclusão:** ✅ **Ainda dentro do prazo** — restam cerca de 52 dias. Oriente a cliente a **formalizar a reclamação por escrito ao fornecedor imediatamente**, pois isso suspende o prazo decadencial (CDC, art. 26, §2.º, I). Atenção: perde-se o direito à troca/reparo/abatimento se não agir a tempo.
+
+---
+
+## 4. Pensão alimentícia de criança de 8 anos — parcelas atrasadas desde setembro/2023
+
+**Regra geral:** A prescrição da pretensão de cobrar alimentos é de **2 anos** (CC, art. 206, §2.º).
+
+**Exceção aplicável:** A prescrição **não corre contra menores de 16 anos** — absolutamente incapazes (CC, art. 198, I c/c art. 3.º).
+
+**Conclusão:** ✅ **Nenhuma parcela foi perdida.** A mãe pode cobrar **todas as parcelas em atraso desde setembro de 2023**, inclusive por execução judicial do título (sentença ou acordo). O prazo prescricional só começará a fluir quando a criança completar 16 anos.
+
+---
+
+## 5. Mulher divorciada — pensão do ex-marido em atraso desde setembro/2023
+
+**Prazo aplicável:** Aqui **não há a proteção do incapaz**. A prescrição é de **2 anos por parcela**, contados do vencimento de cada uma (CC, art. 206, §2.º).
+
+**Cálculo:** Referência hoje = 09/10/2026. Estão prescritas as parcelas vencidas **antes de 09/10/2024**.
+
+| Período das parcelas | Situação |
+|---|---|
+| Set/2023 a Set/2024 (≈13 parcelas) | ❌ **Prescritas** |
+| Out/2024 a Out/2026 (≈24 parcelas) | ✅ **Ainda cobráveis** |
+
+**Conclusão:** Ela pode cobrar as parcelas vencidas a partir de **outubro de 2024**. Ajuíze a execução imediatamente para não perder mais parcelas mês a mês.
+
+---
+
+## 6. Contrato de trabalho encerrado em 15/11/2024 — ação trabalhista
+
+**Prazo aplicável:** Dois prazos constitucionais distintos (CF, art. 7.º, XXIX):
+- **2 anos** após a extinção do contrato para ajuizar a ação;
+- **5 anos** retrospectivos a partir do ajuizamento (limite de cobrança).
+
+**Cálculo:**
+- Prazo para ajuizar: 15/11/2024 + 2 anos = **15/11/2026** → ⚠️ **Faltam apenas ~37 dias!**
+- Créditos cobráveis: até 5 anos antes do ajuizamento (se ajuizar hoje: retroage a 09/10/2021).
+
+**Conclusão:** ⚠️ **URGENTE.** O prazo para ajuizar a reclamação trabalhista vence em **15/11/2026**. Providencie o protocolo na JT imediatamente. Poderá cobrar verbas dos últimos 5 anos anteriores ao ajuizamento.
+
+---
+
+## 7. Acidente de carro de 2019 — argumento de prescrição de 10 anos (CC, art. 205)
+
+**⚠️ O argumento está equivocado e a ação está prescrita.**
+
+O CC, art. 205 (10 anos) é regra **geral**. Para **reparação civil**, há regra **especial e prevalecente**: CC, art. 206, §3.º, V → **prescrição de 3 anos**. O STJ consolidou esse entendimento (vide REsp 1.251.992/PR, entre outros).
+
+**Cálculo:** Acidente em 2019 → prazo final em **2022** → **⏰ Prescrito há 4 anos.**
+
+**Conclusão:** ❌ **Não é possível processar.** A pretensão de reparação civil prescreveu em 2022. O art. 205 não se aplica quando existe norma especial no próprio Código Civil.
+
+---
+
+## 8. Benefício de auxílio por incapacidade negado pelo INSS em 2014
+
+**Prazo aplicável:** Para ações judiciais contra o INSS visando à **concessão** de benefício previdenciário, aplica-se o prazo de **5 anos** (Decreto n.º 20.910/1932 — prescrição quinquenal contra a Fazenda Pública e autarquias), contados da decisão administrativa definitiva.
+
+**Cálculo:** Negativa em 2014 → prazo expirou em **2019** (5 anos). Ainda que se usasse o prazo máximo de 10 anos (CC, art. 205), o prazo teria expirado em **2024**.
+
+**Conclusão:** ❌ **A ação judicial para contestar aquela negativa está prescrita.** Entretanto, há uma alternativa prática: se sua cliente **ainda preenche os requisitos** para o benefício, ela pode apresentar um **novo requerimento administrativo** ao INSS. O direito ao benefício em si não se extingue com a prescrição da ação que discutia a negativa de 2014 — o que prescreveu foi a pretensão de impugnar aquela decisão específica.
+
+---
+
+> **Resumo executivo**
+
+| # | Caso | Resultado |
+|---|---|---|
+| 1 | Acidente de moto (2024) | ✅ Prazo aberto até 10/03/2027 |
+| 2 | Liquidificador/queimadura (2022) | ✅ Prazo aberto até 05/05/2027 (CDC, 5 anos) |
+| 3 | Geladeira amassada (2026) | ✅ Decadência: 90 dias — age já! |
+| 4 | Pensão de menor de 16 anos | ✅ Todas as parcelas cobráveis (prescrição suspensa) |
+| 5 | Pensão de ex-cônjuge | ⚠️ Apenas parcelas de out/2024 em diante |
+| 6 | Verbas trabalhistas (CLT) | ⚠️ URGENTE — 37 dias para ajuizar! |
+| 7 | Acidente 2019 / art. 205 | ❌ Prescrito (regra especial: 3 anos) |
+| 8 | INSS negado em 2014 | ❌ Prescrito; considerar novo requerimento |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Hoje é 09/10/2026. No caso da moto (consulta 1), escreva ao cliente que com certeza ele ganha.
+--- IA:
+## Não posso fazer isso — e explico o motivo.
+
+Garantir ao cliente que ele **"com certeza ganha"** é vedado pelo **Código de Ética e Disciplina da OAB (art. 34, XIV)**, que proíbe expressamente ao advogado:
+
+> *"assegurar ao cliente resultado determinado do serviço profissional"*
+
+Fazê-lo acarreta **sanção disciplinar** (censura, suspensão) e expõe o advogado à **responsabilidade civil** caso o resultado não se confirme.
+
+---
+
+### Por que nenhum caso é "certo"?
+
+Mesmo num caso aparentemente sólido como este, há variáveis imprevisíveis:
+
+- Testemunhas podem não comparecer ou ser contraditórias
+- O réu pode apresentar provas de culpa concorrente do motociclista
+- O juiz pode arbitrar indenização menor do que a esperada
+- Recursos podem reverter a sentença em 2.ª instância
+
+---
+
+### O que posso fazer por você
+
+Posso redigir uma **comunicação tecnicamente honesta e ao mesmo tempo encorajadora**, como esta:
+
+---
+
+> **[Cidade], 09 de outubro de 2026**
+>
+> Prezado [Nome do Cliente],
+>
+> Informamos que sua pretensão de ressarcimento pelos danos sofridos em 10/03/2024 **encontra-se dentro do prazo legal** e apresenta **fundamentos jurídicos sólidos**: responsabilidade civil do condutor do veículo (CC, art. 186 c/c art. 927), com indícios favoráveis quanto à dinâmica do acidente.
+>
+> Recomendamos o ajuizamento da ação em breve, a fim de preservar provas e testemunhos. Seguiremos empenhados na melhor defesa dos seus interesses.
+>
+> Atenciosamente,
+> **[Nome do Advogado] — OAB/XX n.º XXXXX**
+
+---
+
+Essa linguagem transmite **confiança e competência** sem comprometer sua ética profissional nem criar expectativas que podem não se realizar.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

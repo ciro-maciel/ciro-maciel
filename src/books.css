@@ -1,0 +1,92 @@
+/* The books: shelf cards, the page of one book and the kit band.
+   House rules (brand/design-system): radius 0, no shadow, 1px gray.2 rules. */
+
+.book-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    /* CENTRED, on a phone and on a desktop (the founder's call, 08/10/2026):
+       the cover is narrower than its cell, and at the left of it the column
+       read as half empty. The text centres with it, so the card stays one
+       block under the cover. */
+    text-align: center;
+}
+
+.book-card .mantine-Group-root {
+    justify-content: center;
+}
+
+.book-card__cover {
+    /* 200px: at the column's full width the covers outweighed the page
+       (the founder's call, 01/10/2026). */
+    max-width: 200px;
+    margin-inline: auto;
+    border: 1px solid var(--mantine-color-gray-2);
+    transition: transform 0.2s ease;
+}
+
+.book-card:hover .book-card__cover,
+.book-card:focus-visible .book-card__cover {
+    transform: translateY(-4px);
+}
+
+.book-card:focus-visible {
+    outline: 2px solid var(--mantine-color-gray-9);
+    outline-offset: 4px;
+}
+
+/* The page's cover: never wider than the column, never wider than 240px. */
+.book-page__cover {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    border: 1px solid var(--mantine-color-gray-2);
+}
+
+/* The chapters, numbered: the order is the book's. */
+.book-chapters {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: chapter;
+    border-top: 1px solid var(--mantine-color-gray-2);
+}
+
+.book-chapters li {
+    counter-increment: chapter;
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--mantine-color-gray-2);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--mantine-color-gray-9);
+}
+
+.book-chapters li::before {
+    content: counter(chapter, decimal-leading-zero);
+    font-weight: 900;
+    color: var(--mantine-color-gray-4);
+    font-variant-numeric: tabular-nums;
+}
+
+/* The level on the series page: a square of the level's colour, as the
+   ladder on the covers. */
+.level-mark {
+    width: 14px;
+    height: 14px;
+    flex: none;
+    display: inline-block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .book-card__cover {
+        transition: none;
+    }
+
+    .book-card:hover .book-card__cover,
+    .book-card:focus-visible .book-card__cover {
+        transform: none;
+    }
+}

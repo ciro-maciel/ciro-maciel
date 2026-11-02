@@ -1,0 +1,64 @@
+/* A GRADE DE ÍCONES DO RODAPÉ, 2×2.
+
+   POR QUE EXISTE. A coluna "Social" é a quarta de quatro no grid do rodapé e
+   mede 128px no desktop (96px a 1024). Os ícones do kit têm 28px e o `Group`
+   que os envolve usa gap de 10px, então três cabem (104px) e o quarto não
+   (142px). Com quatro canais o resultado era 3 + 1: o Instagram sozinho numa
+   segunda linha, que lê como defeito, não como layout.
+
+   O `Group` do kit é interno ao `Footer` publicado e não aceita `styles` nem
+   `className`, e esperar um publish do pacote para acrescentar um link é
+   desproporcional — por isso a correção mora aqui.
+
+   O SELETOR EXCLUI `.rlg-footer-bottom`, E ISSO NÃO É ZELO — é conserto.
+   A primeira versão mirava todo `.mantine-Group-root` dentro do `footer`,
+   e há DOIS: o dos ícones e o da linha de baixo (copyright + reserva de
+   direitos), que o kit marca com essa classe. A regra virava grade de duas
+   colunas na linha de baixo também, e no telefone isso empurrava "Todos os
+   direitos reservados" para 429px numa tela de 390 — scroll horizontal na
+   página inteira. O mesmo vale para o que mora DENTRO dela: o grupo da
+   assinatura com o botão de tema (16/10/2026) também é um `Group`, e virava
+   grade alinhada à esquerda no telefone.
+
+   Pego medindo `document.scrollWidth` contra `clientWidth` na versão em
+   disco e na do último commit: 429 contra 390. A captura de tela não
+   mostrava, porque o estouro ficava fora do quadro.
+
+   2×2 E NÃO gap menor: para os quatro caberem numa linha o gap teria de cair
+   para 5px, e a essa distância os alvos de toque encostam um no outro. Duas
+   linhas de dois é a forma que a largura comporta sem apertar nada.
+
+   SE UM QUINTO CANAL ENTRAR, isto vira 3+2 e volta a parecer quebrado. Aí a
+   resposta não é outra regra de CSS: é decidir quais canais merecem o rodapé,
+   ou mudar o `Footer` no kit para dar uma coluna maior ao social. */
+footer .mantine-Group-root:not(.rlg-footer-bottom):not(.rlg-footer-bottom *) {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 10px;
+    justify-content: start;
+}
+
+/* A ASSINATURA E O BOTÃO DE TEMA, NO MEIO DO TELEFONE.
+
+   A regra do kit para `.rlg-footer-bottom` dá a linha inteira a cada metade
+   quando elas quebram e centra o TEXTO (`text-align`). O botão de tema não é
+   texto: mora num `Group` ao lado da frase, e o `Group` é flex, que ignora
+   `text-align`. Sem isto, a frase e o botão ficavam colados à esquerda.
+   Mesma largura de corte do kit (34rem), medida no mesmo container. */
+@container (max-width: 34rem) {
+    .site-footer-end {
+        justify-content: center;
+    }
+}
+
+/* THE FOOTER TAKES THE OTHER TONE (31/10/2026). Consecutive sections alternate between the two
+   backgrounds (gray.0 and gray.1), and the footer is one more band: when it had a fixed tone, every
+   page whose last section had that same tone ran into it with only a hairline between them. The
+   footer now reads the tone of the page's last section (the inline background Mantine writes on
+   it) and takes the other one; a page whose last section has no background keeps the default. */
+body:has(main > :last-child[style*="--mantine-color-gray-1)"]) {
+    --site-footer-bg: var(--mantine-color-gray-0);
+}
+body:has(main > :last-child[style*="--mantine-color-gray-0)"]) {
+    --site-footer-bg: var(--mantine-color-gray-1);
+}

@@ -1,0 +1,38 @@
+/* Rules for every page of the site. */
+
+/* The keyboard focus in the house ink, not the browser's blue: plain <button>
+   and <a> (the header menu triggers, for one) fall back to the system ring. */
+button:focus-visible,
+a:focus-visible,
+[role='tab']:focus-visible {
+    outline: 2px solid var(--mantine-color-gray-9);
+    outline-offset: 2px;
+}
+
+/* The mega menu (components/MegaMenu.jsx): one column on a phone, two on a
+   tablet, and from md the template the menu asks for. */
+.mega-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 48em) {
+    .mega-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 62em) {
+    .mega-grid {
+        grid-template-columns: var(--mega-cols);
+    }
+}
+
+
+/* AN ANCHOR STOPS BELOW THE STICKY HEADER (21/10/2026). The header card is
+   82–84px tall; scrolled to an id, a band started under it, and on a phone
+   the lines' tabs ("Ver o que está no ar") hid behind the bar. 88px clears it
+   at every width; on the desktop the band's own padding keeps the gap. */
+main [id] {
+    scroll-margin-top: 88px;
+}

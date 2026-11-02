@@ -1,0 +1,317 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t04, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t04-C2 — capítulo
+### 2026-10-13 10:11 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Hoje é 09/10/2026. Responda a estas oito consultas de clientes:
+
+1. "Em 10/03/2024, um carro particular bateu na moto do meu cliente num cruzamento. Ele quer o conserto e os dias parados. Ainda dá tempo?"
+2. "Em 05/05/2022, o liquidificador da minha cliente explodiu e a queimou; ela soube na hora quem era o fabricante. Ela ainda pode processar?"
+3. "Minha cliente recebeu em 01/09/2026 uma geladeira nova com a porta amassada. Até quando ela pode reclamar?"
+4. "A mãe de uma criança de 8 anos quer cobrar a pensão fixada em setembro de 2023, que o pai nunca pagou. Ela perdeu alguma parcela?"
+5. "Uma mulher divorciada desde 2020 cobra a pensão que o ex-marido deixou de pagar em setembro de 2023. O que ela ainda pode cobrar?"
+6. "O contrato de trabalho do meu cliente terminou em 15/11/2024. Até quando ele pode entrar com a ação, e quanto tempo para trás ele cobra?"
+7. "Como a prescrição para reparação civil é de 10 anos (CC, art. 205), meu cliente ainda pode processar o vizinho pelo acidente de carro de 2019, certo?"
+8. "O INSS negou o auxílio por incapacidade da minha cliente em 2014. Passaram mais de 10 anos; ainda dá para discutir na Justiça?"
+
+Monte a tabela fato, prazo, artigo, marco inicial, vence em; diga se alguma regra impede a prescrição de correr; o que depender de dado que falta, escreva "perguntar ao cliente"; liste os riscos em palavras do cliente. Use os artigos colados abaixo.
+
+Código Civil:
+Art. 197. Não corre a prescrição: I - entre os cônjuges, na constância da sociedade conjugal; II - entre ascendentes e descendentes, durante o poder familiar; III - entre tutelados ou curatelados e seus tutores ou curadores, durante a tutela ou curatela.
+Art. 198. Também não corre a prescrição: I - contra os incapazes de que trata o art. 3º; II - contra os ausentes do País em serviço público da União, dos Estados ou dos Municípios; III - contra os que se acharem servindo nas Forças Armadas, em tempo de guerra.
+Art. 205. A prescrição ocorre em dez anos, quando a lei não lhe haja fixado prazo menor.
+Art. 206. Prescreve: [...] § 2º Em dois anos, a pretensão para haver prestações alimentares, a partir da data em que se vencerem. § 3º Em três anos: [...] V - a pretensão de reparação civil; [...]
+
+Código de Defesa do Consumidor:
+Art. 26. O direito de reclamar pelos vícios aparentes ou de fácil constatação caduca em: I - trinta dias, tratando-se de fornecimento de serviço e de produtos não duráveis; II - noventa dias, tratando-se de fornecimento de serviço e de produtos duráveis. § 1° Inicia-se a contagem do prazo decadencial a partir da entrega efetiva do produto ou do término da execução dos serviços. § 2° Obstam a decadência: I - a reclamação comprovadamente formulada pelo consumidor perante o fornecedor de produtos e serviços até a resposta negativa correspondente, que deve ser transmitida de forma inequívoca; II - (Vetado). III - a instauração de inquérito civil, até seu encerramento. § 3° Tratando-se de vício oculto, o prazo decadencial inicia-se no momento em que ficar evidenciado o defeito.
+Art. 27. Prescreve em cinco anos a pretensão à reparação pelos danos causados por fato do produto ou do serviço prevista na Seção II deste Capítulo, iniciando-se a contagem do prazo a partir do conhecimento do dano e de sua autoria.
+
+CLT:
+Art. 11. A pretensão quanto a créditos resultantes das relações de trabalho prescreve em cinco anos para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de trabalho.
+
+CPC:
+Art. 528, § 7º O débito alimentar que autoriza a prisão civil do alimentante é o que compreende até as 3 (três) prestações anteriores ao ajuizamento da execução e as que se vencerem no curso do processo.
+
+Lei 8.213/1991 (como está hoje no site do Planalto):
+Art. 103. O prazo de decadência do direito ou da ação do segurado ou beneficiário para a revisão do ato de concessão, indeferimento, cancelamento ou cessação de benefício e do ato de deferimento, indeferimento ou não concessão de revisão de benefício é de 10 (dez) anos, contado: (Redação dada pela Lei nº 13.846, de 2019) (Vide ADIN 6096) I - do dia primeiro do mês subsequente ao do recebimento da primeira prestação ou da data em que a prestação deveria ter sido paga com o valor revisto; ou II - do dia em que o segurado tomar conhecimento da decisão de indeferimento, cancelamento ou cessação do seu pedido de benefício ou da decisão de deferimento ou indeferimento de revisão de benefício, no âmbito administrativo.
+Parágrafo único. Prescreve em cinco anos, a contar da data em que deveriam ter sido pagas, toda e qualquer ação para haver prestações vencidas ou quaisquer restituições ou diferenças devidas pela Previdência Social, salvo o direito dos menores, incapazes e ausentes, na forma do Código Civil.
+
+STF, ADI 6096 (Plenário, sessão virtual de 2.10.2020 a 9.10.2020):
+Decisão: "O Tribunal, por maioria, julgou parcialmente procedente o pedido, declarando a inconstitucionalidade do art. 24 da Lei nº 13.846/2019 no que deu nova redação ao art. 103 da Lei nº 8.213/1991, nos termos do voto do Relator [...]."
+Ementa, item 7: "No caso dos autos, ao contrário, admitir a incidência do instituto para o caso de indeferimento, cancelamento ou cessação importa ofensa à Constituição da República e ao que assentou esta Corte em momento anterior, porquanto, não preservado o fundo de direito na hipótese em que negado o benefício, caso inviabilizada pelo decurso do tempo a rediscussão da negativa, é comprometido o exercício do direito material à sua obtenção."
+--- IA:
+# Análise das 8 Consultas — Data-base: 09/10/2026
+
+---
+
+## TABELA GERAL
+
+| # | Fato | Prazo | Artigo | Marco inicial | Vence em | Situação |
+|---|------|-------|--------|---------------|----------|----------|
+| 1 | Colisão em 10/03/2024 | 3 anos — prescrição | CC art. 206, §3º, V | 10/03/2024 | **10/03/2027** | ✅ Em curso (~5 meses restantes) |
+| 2 | Explosão/queimadura em 05/05/2022 | 5 anos — prescrição | CDC art. 27 | 05/05/2022 | **05/05/2027** | ✅ Em curso (~7 meses restantes) |
+| 3 | Entrega da geladeira em 01/09/2026 | 90 dias — **decadência** | CDC art. 26, II | 01/09/2026 | **~30/11/2026** | ✅ Em curso (~52 dias restantes) |
+| 4 | Pensão não paga desde set/2023 (filho de 8 anos) | 2 anos — prescrição **suspensa** | CC arts. 206, §2º + 197, II + 198, I | Suspensa (poder familiar + incapacidade) | Suspensa até a maioridade | ✅ Nenhuma parcela prescrita |
+| 5 | Pensão não paga desde set/2023 (ex-esposa) | 2 anos — prescrição **corre** | CC art. 206, §2º | Vencimento de cada parcela | Progressivo, mês a mês | ⚠️ Parcelas de set/2023 a set/2024 já prescritas; out/2024 prescrevendo **esta semana** |
+| 6 | Contrato encerrado em 15/11/2024 | 2 anos para ajuizar; 5 anos de retroatividade | CLT art. 11 | 15/11/2024 | **15/11/2026** | 🚨 URGENTE — 37 dias restantes |
+| 7 | Acidente em 2019 | 3 anos — prescrição (art. 205 **não se aplica**) | CC art. 206, §3º, V | Data do acidente | ~2022 | ❌ PRESCRITO |
+| 8 | Indeferimento INSS em 2014 | **Sem decadência** p/ fundo de direito (ADI 6096); 5 anos p/ prestações vencidas | Lei 8.213, art. 103 + ADI 6096 + art. 103, §único | Decisão de 2014 | Fundo de direito: sem prazo fixado. Retroativo: 5 anos a contar do ajuizamento | ✅ Pode ajuizar; perde retroativo anterior a ~out/2021 |
+
+---
+
+## ANÁLISE CASO A CASO
+
+---
+
+### Caso 1 — Colisão de carro com moto (10/03/2024)
+
+**Prazo e fundamento:** Reparação civil prescreve em **3 anos** — CC art. 206, §3º, V. O art. 205 (10 anos) é regra geral subsidiária; para reparação civil existe regra específica que prevalece.
+
+**Marco inicial:** 10/03/2024, data em que o cliente tomou conhecimento simultâneo do dano e da autoria (CDC art. 27 e CC — conhecimento do dano e autoria como marco para reparação).
+
+**Prazo de vencimento:** 10/03/2027.
+
+**Regra que impede a prescrição de correr:** Nenhuma automática identificada com os dados fornecidos. Verificar se houve negociação extrajudicial, proposta do seguro ou reconhecimento de culpa por escrito — esses fatos podem configurar causa interruptiva (CC art. 202, VI), reiniciando o prazo do zero.
+
+**Perguntar ao cliente:**
+- Houve tratativa, proposta ou comunicação formal do motorista ou da seguradora dele?
+- Existe boletim de ocorrência e laudo pericial do veículo?
+- O cliente tem documentos das despesas com conserto e comprovante dos dias sem trabalhar?
+
+**Risco em palavras do cliente:**
+> *"Se você não entrar com a ação até **10 de março de 2027**, perde para sempre o direito de cobrar o conserto da moto e os dias que ficou parado. Faltam cerca de 5 meses — há tempo, mas não para enrolar."*
+
+---
+
+### Caso 2 — Liquidificador explodiu e queimou a cliente (05/05/2022)
+
+**Prazo e fundamento:** Trata-se de **fato do produto** (acidente de consumo que causou dano físico), não de simples vício. Prescreve em **5 anos** — CDC art. 27. A contagem começa "a partir do conhecimento do dano e de sua autoria."
+
+**Marco inicial:** 05/05/2022 — a cliente soube da autoria na hora do acidente (enunciado confirma). Não há divergência sobre esse ponto.
+
+**Prazo de vencimento:** 05/05/2027.
+
+**Regra que impede a prescrição de correr:** Nenhuma automática identificada. Verificar se houve reclamação formal anterior que possa ter configurado causa interruptiva.
+
+**Perguntar ao cliente:**
+- A cliente fez alguma reclamação ao SAC do fabricante, ao Procon ou ao Juizado antes de hoje?
+- Ainda guarda o produto, a nota fiscal e os documentos médicos das queimaduras?
+- As lesões geraram sequelas permanentes? (Impacta o valor da indenização, não o prazo.)
+
+**Risco em palavras do cliente:**
+> *"Sua cliente ainda pode processar o fabricante — faltam cerca de 7 meses, até **5 de maio de 2027**. Depois disso a pretensão prescreve e ela não recebe nada, mesmo tendo prova do dano. O relógio já está correndo há 4 anos e meio."*
+
+---
+
+### Caso 3 — Geladeira com porta amassada (entregue em 01/09/2026)
+
+**Prazo e fundamento:** Porta amassada visível na entrega é **vício aparente** em **produto durável** → prazo de **90 dias** — CDC art. 26, II. Atenção: é prazo **decadencial** (não prescricional). Trata-se do direito de exigir o reparo/troca/abatimento do vício — diferente da ação por dano (fato do produto).
+
+**Marco inicial:** 01/09/2026 — entrega efetiva do produto (CDC art. 26, §1º).
+
+**Vencimento:** aproximadamente **30/11/2026** (90 dias corridos).
+
+**Regra que obsta a decadência — FUNDAMENTAL (CDC art. 26, §2º, I):** A contagem fica paralisada enquanto houver **reclamação comprovada ao fornecedor**, até a resposta negativa inequívoca. Isso significa que, se a cliente fizer uma reclamação formal **agora** (e-mail, carta, app do fornecedor, Procon, ReclameAqui com resposta rastreável), o prazo de 90 dias deixa de correr até a resposta do vendedor/fabricante. **Essa é a ação mais importante a tomar imediatamente.**
+
+**Perguntar ao cliente:**
+- A cliente já fez alguma reclamação formal (por escrito, e-mail, protocolo) à loja ou ao fabricante?
+- Tirou fotos ou vídeo da porta amassada no ato da entrega?
+- Assinou algum documento de recebimento (com ou sem ressalva)?
+
+**Risco em palavras do cliente:**
+> *"Sua cliente tem até **30 de novembro de 2026** para exigir a troca ou o conserto da porta amassada — faltam pouco mais de 50 dias. Se não fizer uma reclamação formal dentro desse prazo, perde o direito para sempre. A boa notícia: uma reclamação registrada por escrito ao vendedor ou à fabricante 'congela' esse prazo enquanto aguarda a resposta deles."*
+
+---
+
+### Caso 4 — Mãe cobra pensão alimentícia de filho menor (8 anos)
+
+**Prazo teórico:** 2 anos para prestações alimentares — CC art. 206, §2º.
+
+**Porém: DUPLA SUSPENSÃO LEGAL — o prazo não corre:**
+
+| Base legal | Fundamento | Aplicação ao caso |
+|------------|------------|-------------------|
+| CC art. 197, II | Não corre prescrição entre **ascendentes e descendentes durante o poder familiar** | O pai ainda exerce poder familiar sobre o filho de 8 anos → prescrição suspensa |
+| CC art. 198, I | Não corre prescrição contra os **absolutamente incapazes** (CC art. 3º, I — menores de 16) | A criança tem 8 anos → prescrição suspensa |
+
+**Resultado prático:** Nenhuma das parcelas não pagas desde setembro de 2023 foi perdida. Todas podem ser cobradas.
+
+**Observação sobre prisão civil — CPC art. 528, §7º:** Esse mecanismo de coerção específico (prisão civil do devedor de alimentos) só pode ser fundamentado nas **3 parcelas vencidas imediatamente antes do ajuizamento** + as que vencerem no curso do processo. As parcelas mais antigas (2023, 2024…) **continuam sendo cobráveis**, mas por **penhora/bloqueio de ativos** — não pelo caminho da prisão civil.
+
+**Perguntar ao cliente:**
+- O valor da pensão está devidamente atualizado conforme o índice previsto na sentença/acordo?
+- Há bens penhoráveis conhecidos do devedor (conta bancária, imóvel, veículo)?
+
+**Risco em palavras do cliente:**
+> *"Ótima notícia: como o filho tem menos de 16 anos, a lei proíbe que o prazo de prescrição corra contra ele enquanto estiver sob o poder do pai. Isso significa que **nenhuma parcela atrasada foi perdida** — dá para cobrar tudo desde setembro de 2023. Um detalhe importante: para pedir a prisão do pai como pressão, só valem as últimas 3 parcelas antes da ação; os valores mais antigos precisam ser cobrados por outro caminho (bloqueio de conta, penhora de bens)."*
+
+---
+
+### Caso 5 — Ex-esposa cobra pensão não paga desde setembro de 2023
+
+**Prazo e fundamento:** 2 anos por prestação alimentar, contados do vencimento de **cada parcela** — CC art. 206, §2º.
+
+**Regra que poderia impedir a prescrição — CC art. 197, I:** Suspende a prescrição entre cônjuges "na constância da **sociedade conjugal**." Como a cliente está **divorciada desde 2020**, a sociedade conjugal se encerrou naquele ano. **A prescrição corre normalmente desde então.** Não há proteção.
+
+**Status das parcelas em 09/10/2026:**
+
+| Parcela de... | Prescrição em... | Situação |
+|---------------|-----------------|----------|
+| Set/2023 a set/2024 (13 meses) | Set/2025 a set/2026 | ❌ **JÁ PRESCRITA** |
+| Out/2024 — dias 1 a 8 | Dias 1 a 8 de out/2026 | ❌ **JÁ PRESCRITA** (passou ontem ou antes) |
+| Out/2024 — dia do vencimento 9 | 09/10/2026 | ⚠️ **PRESCREVENDO HOJE** |
+| Out/2024 — dias 10 em diante | 10/10/2026 em diante | ⚠️ **PRESCREVENDO NOS PRÓXIMOS DIAS** |
+| Nov/2024 em diante | Nov/2026 em diante | ✅ Ainda dentro do prazo |
+
+**Perguntar ao cliente:**
+- Qual é o **dia exato de vencimento mensal** da pensão? (Determinante para saber quais parcelas de outubro de 2024 ainda são recuperáveis.)
+- Houve **promessa de pagamento, acordo parcial ou reconhecimento de dívida por escrito** do ex-marido em algum momento? (CC art. 202, VI — pode ter interrompido a prescrição, reiniciando o prazo do zero.)
+
+**Observação sobre prisão civil — CPC art. 528, §7º:** Mesma lógica do caso 4 — apenas as 3 últimas parcelas não pagas antes do ajuizamento + as vincendas servem de base para o pedido de prisão civil. As demais (não prescritas) são executadas por penhora.
+
+**Risco em palavras do cliente:**
+> *"⚠️ Urgente: sua cliente já perdeu as parcelas de **setembro de 2023 até setembro de 2024** — elas prescreveram. As de outubro de 2024 estão **prescrevendo esta semana, dia a dia**. É preciso entrar com a ação **imediatamente** para salvar o que ainda dá. As de novembro de 2024 em diante ainda podem ser cobradas integralmente."*
+
+---
+
+### Caso 6 — Contrato de trabalho encerrado em 15/11/2024
+
+**Prazo e fundamento — CLT art. 11:** Dois prazos distintos e cumulativos:
+1. **Prazo para ajuizar:** até **2 anos após a extinção do contrato** → último dia: **15/11/2026**.
+2. **Retroatividade (o que pode cobrar):** créditos dos últimos **5 anos** contados da data do ajuizamento (não da extinção).
+
+**Impacto do momento do ajuizamento na retroatividade:**
+
+| Se ajuizar em... | Pode cobrar créditos desde... | Perde créditos de... |
+|-----------------|-------------------------------|----------------------|
+| Hoje, 09/10/2026 | 09/10/2021 | — |
+| 15/11/2026 (último dia) | 15/11/2021 | Out–nov/2021 (~37 dias de créditos) |
+
+**Conclusão:** Quanto antes ajuizar, mais créditos antigos preserva. **Restam apenas 37 dias.**
+
+**Perguntar ao cliente:**
+- Quais verbas específicas estão sendo reclamadas (horas extras, FGTS não depositado, férias, adicional, etc.)? Isso determina a profundidade do trabalho urgente.
+- Houve tentativa de conciliação prévia (CCP — Comissão de Conciliação Prévia) que possa ter suspendido ou interrompido o prazo?
+
+**Risco em palavras do cliente:**
+> *"🚨 Emergência total: o prazo para entrar com a ação trabalhista vence em **15 de novembro de 2026** — faltam apenas 37 dias. Se perder essa data, **não há mais ação possível**, nem com toda a documentação do mundo. Além disso, quanto antes entrar, mais meses de crédito antigo consegue cobrar."*
+
+---
+
+### Caso 7 — Acidente de carro em 2019 (advogado invoca o art. 205, CC)
+
+**O advogado está equivocado — e o erro é grave.**
+
+O art. 205 (10 anos) é a **regra geral subsidiária** do Código Civil: aplica-se *somente quando a lei não houver fixado prazo menor*. Para **reparação civil**, existe regra específica:
+
+> **CC art. 206, §3º, V → prescrição de 3 anos**
+
+A regra específica sempre prevalece sobre a geral. Esse é um princípio básico de hermenêutica jurídica (lex specialis derogat generali). A jurisprudência do STJ é pacífica nesse sentido.
+
+**Status:** Acidente ocorrido em qualquer mês de 2019 → prazo de 3 anos encerrado entre 2022 e início de 2023. **A pretensão está prescrita há 3 a 4 anos.**
+
+**Perguntar ao cliente:**
+- Qual a **data exata** do acidente? (Para confirmar o período preciso.)
+- Houve **ação penal** (processo criminal) em razão do acidente? Em alguns casos, a sentença penal condenatória interrompe ou repercute no prazo civil — situação a ser analisada.
+- Houve qualquer **causa interruptiva**: reconhecimento de culpa por escrito, acordo assinado, notificação extrajudicial respondida? (CC art. 202 — restariam a esses documentos analisar se interromperam o prazo, embora a expectativa seja baixa após tantos anos.)
+
+**Risco em palavras do cliente:**
+> *"Infelizmente, a lei não é o que o advogado entendeu. Para processar alguém por batida de carro, o prazo é de **3 anos** — não 10. O art. 205 (os 10 anos) só vale para situações que não têm prazo específico, e reparação civil tem. O acidente foi em 2019, então o prazo encerrou lá por **2022**. Hoje o caso **está prescrito**. A menos que tenha havido alguma situação especial que interrompeu o prazo — o que precisa ser investigado urgentemente —, não há mais como processar."*
+
+---
+
+### Caso 8 — INSS negou auxílio por incapacidade em 2014
+
+Aqui há **dois planos jurídicos distintos**, com respostas diferentes:
+
+---
+
+**Plano 1 — Direito de contestar o indeferimento (fundo de direito)**
+
+A Lei 8.213/91, art. 103 (com redação dada pela Lei 13.846/2019) previa prazo de decadência de 10 anos para o segurado contestar o ato de **indeferimento** do benefício. O **STF declarou essa parte inconstitucional** na ADI 6096:
+
+> *"admitir a incidência do instituto [decadência] para o caso de indeferimento, cancelamento ou cessação importa ofensa à Constituição da República... não preservado o fundo de direito na hipótese em que negado o benefício, caso inviabilizada pelo decurso do tempo a rediscussão da negativa, é comprometido o exercício do direito material à sua obtenção."*
+
+**Conclusão:** A cliente **pode ir à Justiça** discutir o indeferimento de 2014, mesmo depois de mais de 10 anos. **Não há decadência para casos de negativa de benefício.**
+
+---
+
+**Plano 2 — Parcelas retroativas vencidas (o que receberá se ganhar)**
+
+Art. 103, **parágrafo único**, Lei 8.213/91: as prestações vencidas prescrevem em **5 anos** a contar de quando deveriam ter sido pagas.
+
+| Período | Situação das parcelas se ação for ajuizada em out/2026 |
+|---------|-------------------------------------------------------|
+| 2014 a ~out/2021 | ❌ **PRESCRITAS** — perdidas |
+| ~out/2021 a out/2026 | ✅ Recuperáveis (últimos 5 anos) |
+| A partir do ajuizamento | ✅ Benefício corrente (se procedente) |
+
+**Exceção importante — perguntar ao cliente:** O art. 103, §único excepciona "o direito dos menores, incapazes e ausentes, na forma do Código Civil." Se a cliente for **civilmente incapaz** (CC art. 3º — ex.: interditada, sob curatela), a prescrição de 5 anos não teria corrido contra ela. Atenção: **"incapaz para o INSS" ≠ "incapaz civil"** — ser titular de auxílio por incapacidade laboral não equivale automaticamente a ser incapaz nos termos do CC.
+
+**Perguntar ao cliente:**
+- A cliente foi declarada **civilmente incapaz** em algum momento (processo de interdição, curatela)?
+- Tem documentação médica que comprove a incapacidade desde 2014 (laudos, prontuários, perícias antigas)?
+- O indeferimento foi de auxílio por incapacidade temporária ou de benefício por incapacidade permanente (BPC/aposentadoria)? (Pode afetar a análise do mérito e da carência.)
+
+**Risco em palavras do cliente:**
+> *"Boa notícia: o Supremo Tribunal Federal já decidiu que o INSS **não pode usar o prazo de 10 anos** para barrar quem teve o benefício **negado** — então sua cliente ainda pode entrar na Justiça para questionar aquele 'não' de 2014. A má notícia: os valores atrasados que ela deixou de receber só podem ser cobrados nos **últimos 5 anos** — ou seja, a partir de aproximadamente outubro de 2021. O período de 2014 até lá está perdido. Quanto antes entrar com a ação, mais retroativo preserva."*
+
+---
+
+## PAINEL DE URGÊNCIAS — SÍNTESE EXECUTIVA
+
+| # | Urgência | Prazo fatal | Ação imediata |
+|---|----------|-------------|---------------|
+| **6** | 🚨 MÁXIMA | 15/11/2026 — **37 dias** | Ajuizar ação trabalhista **esta semana** |
+| **5** | 🚨 ALTA | **Esta semana** | Ajuizar execução alimentar **hoje** — parcelas de out/2024 prescrevendo dia a dia |
+| **3** | ⚠️ MÉDIA-ALTA | ~30/11/2026 — **52 dias** | Registrar **reclamação formal escrita** ao fornecedor para obstar a decadência |
+| **1** | ℹ️ ATENÇÃO | 10/03/2027 — 5 meses | Preparar e ajuizar ação de reparação civil |
+| **2** | ℹ️ ATENÇÃO | 05/05/2027 — 7 meses | Preparar e ajuizar ação de fato do produto (CDC) |
+| **8** | ℹ️ ATENÇÃO | Fundo de direito: sem prazo; retroativo: urgente | Ajuizar quanto antes para maximizar o período retroativo de 5 anos |
+| **4** | ✅ SEM URGÊNCIA PRESCRICIONAL | Suspensa até a maioridade | Pode ajuizar a qualquer momento; agir logo por interesse prático (bloqueio de bens, prisão civil das 3 últimas) |
+| **7** | ❌ PRESCRITO | Expirou ~2022 | Investigar causas interruptivas; expectativa de êxito muito baixa |
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+--- Você:
+Hoje é 09/10/2026. No caso da moto (consulta 1), escreva ao cliente que com certeza ele ganha.
+--- IA:
+## Não posso fazer isso — e explico por quê é importante para você.
+
+---
+
+### 1. A proibição é ética e legal
+
+O **Código de Ética e Disciplina da OAB** veda expressamente que o advogado assegure ao cliente o êxito da causa. Garantir resultado é infração disciplinar — independentemente de quão forte pareça o caso.
+
+---
+
+### 2. Nenhum caso é "ganho com certeza" antes do trânsito em julgado
+
+Mesmo num acidente com culpa aparentemente clara, o desfecho depende de variáveis que ainda não conhecemos:
+
+| Variável desconhecida | Por quê importa |
+|-----------------------|-----------------|
+| Testemunhas e o que dirão em audiência | Podem contradizer a versão do cliente |
+| Laudo pericial do veículo | Pode apontar culpa concorrente |
+| Imagens de câmeras/CFTV | Podem não confirmar a dinâmica narrada |
+| Documentação dos "dias parados" | Sem prova, o juiz pode negar esse pedido |
+| Defesa do réu | Pode apresentar versão e provas desconhecidas |
+| Valoração do dano pelo juiz | É discricionária dentro de parâmetros legais |
+
+---
+
+### 3. O que você **pode** dizer ao cliente, com segurança e honestidade
+
+> *"Os fatos que você me descreveu são favoráveis: há data identificada, autoria conhecida e o prazo ainda está em curso. Com a documentação certa — boletim de ocorrência, orçamentos do conserto, comprovantes dos dias parados —, temos uma base sólida para a ação. Mas o resultado final depende das provas produzidas e da avaliação do juiz, e nenhum advogado pode garantir resultado antecipadamente."*
+
+---
+
+### Por que isso protege você também
+
+Um advogado que garante resultado **em carta ou mensagem** cria uma expectativa que pode gerar responsabilidade civil contra ele próprio se o cliente perder. A honestidade na comunicação é a melhor proteção — sua e do cliente.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+

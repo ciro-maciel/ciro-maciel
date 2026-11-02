@@ -1,0 +1,1480 @@
+IA na advocacia (O Novo Básico, vol. 9)
+Teste t11, rodado em 13/10/2026
+Transcrição do teste, como veio; [retirado] marca o que se tirou por privacidade.
+
+##### t11b-C1 — due diligence, do capítulo
+### 2026-10-13 09:59 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente vai comprar as quotas desta clínica. Faça a due diligence destes seis contratos do data room e me dê um relatório dos riscos. Cite a cláusula e a página de cada risco; o que não estiver, escreva "não consta"; não resuma documento que não foi colado; aponte dado pessoal sensível sem copiá-lo.
+
+CHECKLIST DO ESCRITÓRIO PARA REVISÃO DE CONTRATO
+1. Partes, objeto e prazo.
+2. Preço, pagamento e reajuste: há índice? há renúncia a reajuste ou a reequilíbrio?
+3. Multas e penalidades: valem para as duas partes? têm limite?
+4. Rescisão: quem pode rescindir, com que aviso e que multa.
+5. Responsabilidade, indenização e benfeitorias.
+6. Garantias e ônus: penhor, fiança, alienação, gravames.
+7. Mudança de controle, cessão e exclusividade.
+8. Contratos de trabalho: jornada, estabilidade, verbas, cláusulas fora do padrão.
+9. Dados pessoais: há dado sensível, como dado de saúde (LGPD, art. 5º, II)? Quem é o controlador, quem trata e para quê? Dado de saúde só no indispensável (LGPD, art. 11, II, "d").
+10. Foro e solução de conflitos.
+Lembrete: nos contratos civis e empresariais, "a alocação de riscos definida pelas partes deve ser respeitada e observada" e a revisão contratual "somente ocorrerá de maneira excepcional e limitada" (Código Civil, art. 421-A). Por isso o risco tem de ser achado antes de assinar.
+
+DATA ROOM — CLÍNICA-B SERVIÇOS MÉDICOS LTDA. (seis documentos, páginas numeradas em sequência)
+
+=== DOCUMENTO 1: CONTRATO DE LOCAÇÃO NÃO RESIDENCIAL ===
+[Página 1]
+LOCADOR: IMOBILIÁRIA-C LTDA. LOCATÁRIA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Objeto: o conjunto comercial da sede da clínica, em Comarca-X, descrito no laudo de vistoria do Anexo II.
+Cláusula 2. Prazo de 60 meses, de 01/02/2023 a 31/01/2028.
+Cláusula 3. Aluguel de R$ 9.800,00 por mês, reajustado a cada 12 meses pelo IPCA.
+Cláusula 4. A LOCATÁRIA poderá fazer obras de adaptação à atividade médica, mediante autorização escrita do LOCADOR.
+Cláusula 5. Garantia: seguro-fiança.
+Cláusula 6. Rescisão antecipada pela LOCATÁRIA: multa de 3 aluguéis, proporcional ao tempo restante.
+Cláusula 7. O imóvel será devolvido no estado do laudo de vistoria do Anexo II, salvo o desgaste do uso normal.
+Cláusula 8. A LOCATÁRIA renuncia expressamente ao direito de indenização e de retenção por quaisquer benfeitorias, inclusive as necessárias, que passam a integrar o imóvel.
+[Página 2]
+Cláusula 9. Foro de Comarca-X.
+Anexo II – Laudo de vistoria: entregue em separado.
+
+=== DOCUMENTO 2: CONTRATO DE FORNECIMENTO DE INSUMOS ===
+[Página 3]
+FORNECEDOR: DISTRIBUIDORA-D LTDA. COMPRADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Fornecimento de material descartável e de curativos, conforme pedidos mensais.
+Cláusula 2. Prazo de 24 meses, renovável por acordo.
+Cláusula 3. Entrega em até 5 dias úteis do pedido.
+Cláusula 4. Pagamento em 30 dias da nota fiscal.
+Cláusula 5. O FORNECEDOR poderá reajustar os preços da tabela a qualquer tempo, mediante simples comunicação à COMPRADORA, valendo o novo preço para os pedidos seguintes.
+Cláusula 6. Rescisão por qualquer parte com 30 dias de aviso.
+
+=== DOCUMENTO 3: CONTRATO DE TRABALHO (coordenadora de enfermagem) ===
+[Página 4]
+EMPREGADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA. EMPREGADA: coordenadora de enfermagem (nome no original).
+Cláusula 1. Admissão em 01/03/2022, por prazo indeterminado.
+Cláusula 2. Salário de R$ 8.500,00 por mês.
+Cláusula 3. Jornada de 40 horas semanais, de segunda a sexta.
+Cláusula 4. Benefícios: vale-alimentação e plano de saúde.
+Cláusula 5. Função: coordenar a equipe de enfermagem e os protocolos de atendimento.
+Cláusula 6. Em caso de alteração do controle societário da EMPREGADORA, a EMPREGADA terá garantia de emprego de 36 (trinta e seis) meses, contados da alteração, e, se dispensada sem justa causa nesse período, receberá indenização equivalente a 24 (vinte e quatro) salários, além das verbas rescisórias.
+
+=== DOCUMENTO 4: CONTRATO DE TRABALHO (recepcionista) ===
+[Página 5]
+EMPREGADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA. EMPREGADO: recepcionista (nome no original).
+Cláusula 1. Admissão em 10/01/2024, por prazo indeterminado.
+Cláusula 2. Salário de R$ 2.300,00 por mês.
+Cláusula 3. Jornada de 12 (doze) horas diárias, de segunda a sábado, das 7h às 19h, com 1 hora de intervalo, ficando as horas extras já remuneradas no salário ajustado.
+Cláusula 4. Função: recepção, agenda e cadastro de pacientes.
+
+=== DOCUMENTO 5: CONTRATO DE LICENÇA DE SOFTWARE DE PRONTUÁRIO ELETRÔNICO ===
+[Página 6]
+CONTRATADA: SOFTWARE-E TECNOLOGIA LTDA. CONTRATANTE: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Licença de uso do sistema de prontuário eletrônico e agenda, em nuvem.
+Cláusula 2. Mensalidade de R$ 1.450,00.
+Cláusula 3. Suporte em horário comercial.
+Cláusula 4. Disponibilidade de 99% ao mês.
+Cláusula 5. Prazo de 12 meses, renovado automaticamente.
+Cláusula 6. A CONTRATADA manterá cópia de segurança diária dos dados.
+Cláusula 7. Os dados inseridos e armazenados na plataforma passam a ser de propriedade da CONTRATADA, que poderá utilizá-los para quaisquer fins, inclusive comerciais, de forma anonimizada ou não.
+Cláusula 8. Foro de Comarca-X.
+[Página 7]
+Anexo I – Exemplo do arquivo de exportação de prontuário (modelo enviado pela CONTRATADA na implantação):
+Paciente: Iolanda Prates Vieira | CPF 123.456.789-00 | Data de nascimento: 14/02/1971
+Diagnóstico: CID F32.2 – episódio depressivo grave sem sintomas psicóticos
+Conduta: acompanhamento psiquiátrico quinzenal; sertralina 100 mg/dia.
+
+=== DOCUMENTO 6: INSTRUMENTO PARTICULAR DE CESSÃO DE QUOTAS (2021) ===
+[Página 8]
+CEDENTE: sócio retirante. CESSIONÁRIA: sócia atual (nomes no original). SOCIEDADE: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. O CEDENTE cede à CESSIONÁRIA 5.000 quotas, representativas de 50% do capital social.
+Cláusula 2. Preço de R$ 250.000,00, pago à vista.
+Cláusula 3. As partes observarão o Acordo de Sócios de 15/03/2021, que não integra este instrumento.
+Cláusula 4. As quotas cedidas permanecem empenhadas em favor do credor do mútuo de R$ 300.000,00 celebrado pela sociedade em 2020, até a sua integral quitação, o que a CESSIONÁRIA declara conhecer e aceitar.
+Cláusula 5. Foro de Comarca-X.
+(Nota do data room: o Acordo de Sócios de 15/03/2021 não foi incluído neste data room.)
+--- IA:
+# RELATÓRIO DE DUE DILIGENCE
+**Alvo:** Clínica-B Serviços Médicos Ltda.
+**Operação:** Aquisição de quotas
+**Data:** 13/10/2026
+**Elaborado com base nos seis documentos do data room (pp. 1–8)**
+
+---
+
+## SUMÁRIO EXECUTIVO — RISCOS CRÍTICOS (leitura imediata)
+
+| # | Documento | Risco | Página / Cláusula |
+|---|-----------|-------|-------------------|
+| 1 | Licença de software | Cláusula cede dados sensíveis de saúde ao fornecedor para uso comercial — violação frontal à LGPD | p. 6, cláusula 7 |
+| 2 | Licença de software | Dado sensível de saúde de paciente identificado exposto no data room sem anonimização | p. 7, Anexo I |
+| 3 | Contrato de trabalho — coordenadora | Garantia de 36 meses + indenização de 24 salários (≈ R$ 204.000 + verbas), ativada automaticamente pela mudança de controle | p. 4, cláusula 6 |
+| 4 | Cessão de quotas (2021) | Quotas empenhadas por mútuo de R$ 300.000 — ônus real sobre o objeto da compra; quitação não confirmada | p. 8, cláusula 4 |
+| 5 | Cessão de quotas (2021) | Acordo de Sócios de 15/03/2021 não incluído no data room — conteúdo desconhecido | p. 8, cláusula 3 |
+| 6 | Contrato de trabalho — recepcionista | Jornada de 12 h/dia, segunda a sábado (≈ 66 h semanais efetivas), com cláusula de compensação genérica — passivo trabalhista relevante | p. 5, cláusula 3 |
+| 7 | Fornecimento de insumos | Reajuste de preços unilateral, sem índice e sem limite de frequência ou percentual | p. 3, cláusula 5 |
+
+---
+
+## ANÁLISE DETALHADA POR DOCUMENTO
+
+---
+
+### DOCUMENTO 1 — CONTRATO DE LOCAÇÃO NÃO RESIDENCIAL (pp. 1–2)
+
+#### 1. Partes, objeto e prazo
+Locador: Imobiliária-C Ltda.; locatária: Clínica-B. Objeto: conjunto comercial da sede, Comarca-X, descrito no Anexo II. Prazo de 60 meses: 01/02/2023 a 31/01/2028.
+
+**⚠ Risco — Anexo II ausente do data room (p. 2, menção ao Anexo II).** O laudo de vistoria que define o estado de devolução do imóvel não foi disponibilizado. Sem ele é impossível avaliar em que condições a clínica terá de devolver o imóvel — o que se agrava pela cláusula 4 (obras de adaptação) e pela cláusula 8 (renúncia a benfeitorias). **Providência:** exigir o Anexo II antes do fechamento.
+
+**Nota de prazo (referência: data de hoje, 13/10/2026):** restam aproximadamente 15 meses de vigência (até 31/01/2028). Se o comprador pretender manter a sede, deve negociar renovação antes do fechamento; se quiser sair antes, incide a multa da cláusula 6.
+
+#### 2. Preço, pagamento e reajuste
+Aluguel de R$ 9.800/mês, reajuste anual pelo IPCA (p. 1, cláusula 3). Sem renúncia a reajuste ou a reequilíbrio.
+
+#### 3. Multas e penalidades
+**⚠ Risco — assimetria (p. 1, cláusula 6).** Multa de 3 aluguéis (≈ R$ 29.400) proporcional ao tempo restante para rescisão antecipada *pela locatária*. Não há multa equivalente para o locador em caso de rescisão injustificada por ele. A Lei n.º 8.245/1991 (art. 4.º) protege em parte a locatária empresarial, mas a ausência de multa contratual para o locador fragiliza a posição da clínica.
+
+#### 4. Rescisão
+Apenas a rescisão pela locatária está regulada (cláusula 6). Rescisão pelo locador: **não consta** cláusula específica; aplica-se a Lei de Locações.
+
+#### 5. Responsabilidade, indenização e benfeitorias
+**⚠ Risco crítico — renúncia a benfeitorias necessárias (p. 1, cláusula 8).** A cláusula estende a renúncia a *todas* as benfeitorias, "inclusive as necessárias". A jurisprudência majoritária e parte da doutrina reconhecem como abusiva a renúncia a benfeitorias necessárias em contratos de locação (STJ, REsp 1.163.283/RS, entre outros), o que poderia reabrir o debate judicial. No entanto, dado o art. 421-A do Código Civil (alocação de riscos a respeitar), o risco de litígio subsiste. Considere que a clínica certamente realizou adaptações de uso médico com base na cláusula 4 (obras autorizadas), e todas passaram ao locador sem indenização.
+
+#### 6. Garantias e ônus
+Seguro-fiança (p. 1, cláusula 5). Sem outros gravames.
+
+#### 7. Mudança de controle, cessão e exclusividade
+**Não consta** cláusula expressa. A Lei de Locações (art. 13) proíbe cessão ou sublocação sem anuência do locador, mas a transferência de controle da pessoa jurídica locatária não é disciplinada no contrato. Recomenda-se verificar se o locador poderá invocar algum fundamento para rescisão após a aquisição.
+
+#### 8. Contratos de trabalho
+Não aplicável.
+
+#### 9. Dados pessoais
+Não consta dado pessoal sensível neste documento.
+
+#### 10. Foro
+Comarca-X (p. 2, cláusula 9).
+
+---
+
+### DOCUMENTO 2 — CONTRATO DE FORNECIMENTO DE INSUMOS (p. 3)
+
+#### 1. Partes, objeto e prazo
+Fornecedor: Distribuidora-D Ltda.; compradora: Clínica-B. Objeto: material descartável e curativos, conforme pedidos mensais. Prazo de 24 meses, renovável por acordo. **⚠ Risco:** data de início não consta no documento; não é possível saber se o contrato ainda está vigente ou já foi renovado.
+
+#### 2. Preço, pagamento e reajuste
+**⚠ Risco grave — reajuste unilateral irrestrito (p. 3, cláusula 5).** O fornecedor pode alterar a tabela de preços "a qualquer tempo, mediante simples comunicação", valendo imediatamente para os próximos pedidos. Não há índice, periodicidade mínima, teto percentual nem direito de rejeição da compradora. Isso expõe a clínica a variações de custo operacional sem controle — risco diretamente relevante para o EBITDA avaliado na aquisição. Pagamento: 30 dias da nota fiscal (cláusula 4).
+
+#### 3. Multas e penalidades
+**Não consta** multa para atraso de entrega (o prazo é de 5 dias úteis, cláusula 3) nem para atraso de pagamento.
+
+#### 4. Rescisão
+Qualquer parte com 30 dias de aviso, sem multa (cláusula 6). O prazo curto pode ser insuficiente para substituição do fornecedor sem interrupção do atendimento — risco operacional.
+
+#### 5. Responsabilidade, indenização e benfeitorias
+**Não consta** cláusula de responsabilidade por produto defeituoso, desabastecimento ou descumprimento do prazo de entrega.
+
+#### 6. Garantias e ônus
+Não consta.
+
+#### 7. Mudança de controle, cessão e exclusividade
+Não consta.
+
+#### 8. Contratos de trabalho
+Não aplicável.
+
+#### 9. Dados pessoais
+Não consta dado sensível.
+
+#### 10. Foro
+**Não consta.**
+
+---
+
+### DOCUMENTO 3 — CONTRATO DE TRABALHO — COORDENADORA DE ENFERMAGEM (p. 4)
+
+#### 1. Partes, objeto e prazo
+Empregadora: Clínica-B; empregada: coordenadora de enfermagem (nome no original). Admissão: 01/03/2022; prazo indeterminado. Na data de hoje, a empregada tem mais de 4 anos e 7 meses de vínculo.
+
+#### 2. Preço, pagamento e reajuste
+Salário de R$ 8.500/mês (cláusula 2). Reajuste **não consta** no contrato; seguirá instrumento coletivo da categoria.
+
+#### 3. Multas e penalidades
+**Não consta** multa contratual específica além da indenização da cláusula 6 (ver item 7 abaixo).
+
+#### 4. Rescisão
+As regras gerais da CLT se aplicam. A cláusula 6 adiciona obrigação específica por mudança de controle — ver abaixo.
+
+#### 5. Responsabilidade, indenização e benfeitorias
+Não aplicável neste contexto.
+
+#### 6. Garantias e ônus
+Não aplicável.
+
+#### 7. Mudança de controle — **RISCO CRÍTICO**
+**⚠ Cláusula 6 (p. 4):** Em caso de alteração do controle societário, a empregada tem garantia de emprego de **36 meses** contados da mudança. Se dispensada sem justa causa nesse período, receberá indenização de **24 salários** (= R$ 204.000) além de todas as verbas rescisórias legais (aviso prévio proporcional, FGTS + multa de 40%, férias acrescidas de 1/3, 13.º proporcional).
+
+Estimativa mínima de passivo imediato se demitida no dia do fechamento:
+
+| Verba | Estimativa |
+|-------|-----------|
+| Indenização contratual (24 × R$ 8.500) | R$ 204.000 |
+| Aviso prévio proporcional (~60 dias para >4 anos) | ≈ R$ 17.000 |
+| FGTS s/ aviso + multa 40% | a calcular |
+| Férias + 1/3 + 13.º proporcionais | ≈ R$ 12.000 |
+| **Total aproximado** | **> R$ 235.000** |
+
+A cláusula é exígua porém típica de negociação individual e tende a ser exigível como obrigação contratual na Justiça do Trabalho. **O passivo se torna certo no momento do fechamento.**
+
+#### 8. Contratos de trabalho — jornada, benefícios e cláusulas fora do padrão
+Jornada de 40 h semanais, segunda a sexta (cláusula 3) — dentro do limite legal. Benefícios: vale-alimentação e plano de saúde (cláusula 4). A **cláusula 6 é fora do padrão** — ver item 7.
+
+#### 9. Dados pessoais
+O nome da empregada consta no original. É dado pessoal comum; não há dado sensível de saúde neste documento.
+
+#### 10. Foro
+**Não consta** — aplicar-se-á a regra da CLT (vara do trabalho do local da prestação de serviços).
+
+---
+
+### DOCUMENTO 4 — CONTRATO DE TRABALHO — RECEPCIONISTA (p. 5)
+
+#### 1. Partes, objeto e prazo
+Empregadora: Clínica-B; empregado: recepcionista (nome no original). Admissão: 10/01/2024; prazo indeterminado.
+
+#### 2. Preço, pagamento e reajuste
+Salário de R$ 2.300/mês (cláusula 2). Reajuste **não consta**; seguirá instrumento coletivo.
+
+#### 3. Multas e penalidades
+Não consta.
+
+#### 4. Rescisão
+Não consta cláusula específica; aplica-se a CLT.
+
+#### 5. Responsabilidade, indenização e benfeitorias
+Não aplicável.
+
+#### 6. Garantias e ônus
+Não aplicável.
+
+#### 7. Mudança de controle, cessão e exclusividade
+Não consta.
+
+#### 8. Contratos de trabalho — **RISCO GRAVE — jornada ilegal**
+**⚠ Cláusula 3 (p. 5):** Jornada de 12 horas diárias, de segunda a sábado, das 7h às 19h, com 1 hora de intervalo.
+
+Análise:
+- **Carga horária:** 6 dias × 11 h efetivas = **66 h semanais** — excede o limite de 44 h semanais (CLT, art. 58) em 22 h por semana.
+- **Regime 12×36:** permitido pela Reforma Trabalhista (CLT, art. 59-A), mas exige descanso de 36 h após cada turno. Trabalhar segunda a sábado sem folga intermediária viola o intervalo interjornada mínimo de 11 h (CLT, art. 66).
+- **Cláusula de compensação genérica** ("horas extras já remuneradas no salário ajustado"): a pré-contratação de horas extras é válida até 2 h/dia (CLT, art. 59, § 6.º), mas não elimina o adicional sobre a jornada excedente nem sana o regime irregular.
+- **Passivo estimado** (desde 10/01/2024 até hoje ≈ 33 meses): horas extras não pagas (mínimo 50% sobre o valor/hora de R$ 2.300), adicional interjornada, possíveis reflexos em DSR, férias e 13.º. O volume pode ser materialmente relevante para a avaliação.
+- A função de recepção inclui **"cadastro de pacientes"** (cláusula 4), o que significa acesso direto a dados pessoais sensíveis de saúde — ver Documento 5.
+
+#### 9. Dados pessoais
+Nome do empregado consta no original. Dado pessoal comum; não há dado sensível de saúde aparente neste documento.
+
+#### 10. Foro
+**Não consta** — aplica-se regra da CLT.
+
+---
+
+### DOCUMENTO 5 — CONTRATO DE LICENÇA DE SOFTWARE DE PRONTUÁRIO ELETRÔNICO (pp. 6–7)
+
+#### 1. Partes, objeto e prazo
+Contratada: Software-E Tecnologia Ltda.; contratante: Clínica-B. Objeto: licença de uso de prontuário eletrônico e agenda, em nuvem. Prazo de 12 meses, renovado **automaticamente** (cláusula 5). **⚠ Risco:** sem prazo de aviso para não renovar — a clínica pode ficar presa em renovações sucessivas sem perceber.
+
+#### 2. Preço, pagamento e reajuste
+Mensalidade de R$ 1.450 (cláusula 2). Reajuste **não consta** — poderá ser imposto à renovação.
+
+#### 3. Multas e penalidades
+**Não consta** multa ou crédito para o contratante em caso de descumprimento do SLA de 99% de disponibilidade (cláusula 4). A obrigação existe, mas sem sanção expressa.
+
+#### 4. Rescisão
+**Não consta** cláusula expressa de rescisão. A renovação automática (cláusula 5) sem mecanismo de saída é um risco operacional e de dependência tecnológica.
+
+#### 5. Responsabilidade, indenização e benfeitorias
+**Não consta** cláusula de responsabilidade por perda ou vazamento de dados, danos a pacientes ou interrupção de serviço.
+
+#### 6. Garantias e ônus
+Backup diário (cláusula 6). Positivo, mas sem prazo de retenção, procedimento de restauração ou penalidade em caso de falha.
+
+#### 7. Mudança de controle, cessão e exclusividade
+Não consta.
+
+#### 8. Contratos de trabalho
+Não aplicável.
+
+#### 9. Dados pessoais — **RISCO CRÍTICO — LGPD**
+
+**9.1 Cláusula 7 (p. 6) — cessão de dados sensíveis de saúde para uso comercial**
+
+> "Os dados inseridos e armazenados na plataforma passam a ser de propriedade da CONTRATADA, que poderá utilizá-los para quaisquer fins, inclusive comerciais, de forma anonimizada ou não."
+
+Esta cláusula viola frontalmente a LGPD em múltiplas dimensões:
+
+| Violação | Fundamento legal |
+|----------|-----------------|
+| Dados de prontuário são dados de **saúde** = dados pessoais **sensíveis** | LGPD, art. 5.º, II |
+| Tratamento de dado sensível de saúde somente para fins de proteção à saúde, por profissional ou serviço de saúde ou autoridade sanitária | LGPD, art. 11, II, *d* |
+| Uso "para quaisquer fins, inclusive comerciais" viola o **princípio da finalidade** | LGPD, art. 6.º, I |
+| Não há base legal que autorize a Clínica-B a transferir ao fornecedor de software o direito de explorar dados de saúde dos pacientes | LGPD, arts. 7.º e 11 |
+| A cláusula é de **nulidade absoluta** por violar norma de ordem pública | CC, art. 166, VII; LGPD, art. 52 |
+
+**A Clínica-B permanece como controladora dos dados** dos pacientes e não pode contratar a transmissão desses dados para uso comercial pelo operador. A cláusula expõe a clínica a:
+- Sanções administrativas da ANPD (até 2% do faturamento do grupo, limitadas a R$ 50 milhões por infração — LGPD, art. 52, II);
+- Ações de ressarcimento por titulares prejudicados (LGPD, art. 42);
+- Risco reputacional grave em ambiente de saúde.
+
+**Providência urgente:** renegociar ou rescindir o contrato com Software-E e migrar para solução com cláusulas LGPD-compliant antes ou como condição do fechamento da aquisição.
+
+**9.2 Anexo I (p. 7) — dado sensível de saúde de paciente identificado exposto no data room**
+
+O Anexo I contém dados de uma pessoa física identificável (nome completo, CPF, data de nascimento, diagnóstico psiquiátrico por CID e conduta terapêutica). Trata-se de **dado de saúde sensível** na acepção do art. 5.º, II da LGPD — dado especialmente protegido.
+
+Não reproduzo nenhum elemento identificador do paciente neste relatório.
+
+Riscos:
+- A inclusão desse dado no data room sem anonimização configura **violação de dados pessoais** (LGPD, art. 46), notificável à ANPD em até 72 h se houver risco relevante aos titulares (art. 48);
+- Expõe a clínica a responsabilidade civil perante o titular;
+- Revela que o controle de acesso interno a prontuários pode ser insuficiente — risco regulatório de Vigilância Sanitária e CFM.
+
+**Providência:** verificar a base legal que autorizou a inserção desse dado no data room; revogar o acesso de todos os participantes da due diligence que o viram; considerar notificação à ANPD; e auditar o sistema de controle de acesso a prontuários.
+
+#### 10. Foro
+Comarca-X (p. 6, cláusula 8).
+
+---
+
+### DOCUMENTO 6 — INSTRUMENTO PARTICULAR DE CESSÃO DE QUOTAS (2021) (p. 8)
+
+#### 1. Partes, objeto e prazo
+Cedente: sócio retirante; cessionária: sócia atual (nomes no original). Objeto: 5.000 quotas = 50% do capital social. Preço: R$ 250.000, pago à vista. Negócio já consumado (2021).
+
+#### 2. Preço, pagamento e reajuste
+R$ 250.000 à vista (cláusula 2). Já liquidado — não há risco remanescente neste ponto.
+
+#### 3. Multas e penalidades
+Não consta.
+
+#### 4. Rescisão
+Não consta (negócio consumado).
+
+#### 5. Responsabilidade, indenização e benfeitorias
+**Não consta** cláusula de declarações e garantias (reps & warranties) do cedente sobre a situação das quotas, passivos ocultos ou regularidade da sociedade.
+
+#### 6. Garantias e ônus — **RISCO CRÍTICO**
+**⚠ Cláusula 4 (p. 8):** As quotas cedidas **permanecem empenhadas** (penhor) em favor do credor de um mútuo de **R$ 300.000** celebrado pela sociedade em 2020, até quitação integral.
+
+- O ônus real existe sobre as próprias quotas que serão compradas pelo cliente;
+- O mútuo é de 2020; não há informação sobre saldo devedor atual, prazo, credor ou condições;
+- Se não houver quitação, o comprador adquirirá quotas gravadas, podendo o credor penhorante executar o penhor;
+- A ausência de certidão de quitação ou de confirmação do credor é impedimento para o fechamento.
+
+**Providências:** (a) obter certidão de quitação do mútuo de 2020 ou saldo devedor atualizado; (b) caso não quitado, condicionar o fechamento à quitação ou à sub-rogação; (c) verificar se o penhor foi registrado em cartório ou no contrato social.
+
+#### 7. Mudança de controle, cessão e exclusividade — **RISCO CRÍTICO**
+**⚠ Cláusula 3 (p. 8):** As partes se comprometem a observar o **Acordo de Sócios de 15/03/2021**, que **não integra este instrumento**.
+
+A nota do data room confirma: *"o Acordo de Sócios de 15/03/2021 não foi incluído neste data room."*
+
+O Acordo de Sócios pode conter, entre outros:
+- Direito de preferência na cessão de quotas (afetaria a validade da própria aquisição se não respeitado);
+- Cláusulas de *tag along* ou *drag along*;
+- Restrições à entrada de novos sócios;
+- Regras de administração e quórum qualificado;
+- Obrigações de não-concorrência da sócia atual;
+- Previsão de resolução de conflitos ou *deadlock*.
+
+**É impossível concluir a due diligence sem este documento.** A omissão pode ser acidental ou deliberada — em qualquer caso, é inaceitável para o fechamento.
+
+**Providência obrigatória:** exigir o Acordo de Sócios de 15/03/2021 como condição precedente ao fechamento; verificar se foi arquivado na Junta Comercial ou se é apenas extrassocietário.
+
+#### 8. Contratos de trabalho
+Não aplicável.
+
+#### 9. Dados pessoais
+Nomes do cedente e da cessionária constam no original — dados pessoais comuns, sem dado sensível.
+
+#### 10. Foro
+Comarca-X (p. 8, cláusula 5).
+
+---
+
+## MATRIZ CONSOLIDADA DE RISCOS
+
+| Risco | Doc. | Página | Cláusula | Gravidade | Providência antes do fechamento |
+|-------|------|--------|----------|-----------|--------------------------------|
+| Cláusula de propriedade e uso comercial de dados de saúde — LGPD | 5 | 6 | cl. 7 | **CRÍTICA** | Renegociar/rescindir contrato |
+| Dado sensível de saúde de paciente identificado no data room | 5 | 7 | Anexo I | **CRÍTICA** | Verificar base legal; considerar notificação ANPD |
+| Garantia de 36 meses + 24 salários por mudança de controle | 3 | 4 | cl. 6 | **CRÍTICA** | Provisionar > R$ 235 k ou negociar distrato antes do fechamento |
+| Quotas empenhadas por mútuo de R$ 300.000 (2020) | 6 | 8 | cl. 4 | **CRÍTICA** | Obter certidão de quitação ou sub-rogação |
+| Acordo de Sócios 15/03/2021 ausente do data room | 6 | 8 | cl. 3 | **CRÍTICA** | Exigir o documento como condição precedente |
+| Jornada ilegal do recepcionista (≈ 66 h semanais) | 4 | 5 | cl. 3 | **Alta** | Calcular passivo; regularizar antes do fechamento |
+| Reajuste de preços unilateral e irrestrito do fornecedor | 2 | 3 | cl. 5 | **Alta** | Renegociar índice e periodicidade |
+| Renúncia a benfeitorias inclusive necessárias | 1 | 1 | cl. 8 | **Média** | Avaliar investimentos já feitos no imóvel |
+| Anexo II (laudo de vistoria) ausente do data room | 1 | 2 | Anexo II | **Média** | Exigir o documento |
+| Prazo remanescente curto do aluguel (~15 meses) | 1 | 1 | cl. 2 | **Média** | Negociar renovação com locador antes do fechamento |
+| Multa de rescisão antecipada do aluguel apenas para a locatária | 1 | 1 | cl. 6 | **Baixa** | Negociar simetria na renovação |
+| Sem cláusula de rescisão ou aviso para não renovar o software | 5 | 6 | cl. 5 | **Baixa** | Incluir na renegociação do contrato |
+| Sem multa por atraso de entrega de insumos | 2 | 3 | cl. 3/6 | **Baixa** | Incluir na renegociação |
+
+---
+
+## DOCUMENTOS E INFORMAÇÕES ADICIONAIS NECESSÁRIOS ANTES DO FECHAMENTO
+
+1. **Acordo de Sócios de 15/03/2021** — indispensável; ausência impede a due diligence societária (Doc. 6, p. 8, cl. 3).
+2. **Laudo de vistoria — Anexo II do contrato de locação** (Doc. 1, p. 2).
+3. **Certidão de quitação do mútuo de R$ 300.000 (2020)** ou saldo devedor e identificação do credor (Doc. 6, p. 8, cl. 4).
+4. **Data de início do contrato de fornecimento de insumos** e eventuais aditivos (Doc. 2, p. 3).
+5. **Histórico de pagamentos de horas extras ao recepcionista** e documentos de controle de ponto (Doc. 4, p. 5, cl. 3).
+6. **Relação completa de empregados** da clínica — os dois contratos disponibilizados podem não representar o quadro total; cláusulas similares à do Doc. 3 cl. 6 podem existir em outros vínculos.
+7. **Contrato de mútuo de 2020** completo (identificação do credor, taxa, vencimento, garantias).
+8. **Política de privacidade e registro das operações de tratamento de dados** (LGPD, art. 37) — não foi disponibilizado.
+
+---
+
+*Este relatório reflete exclusivamente os documentos colados neste data room. Riscos derivados de contratos não fornecidos (incluindo o Acordo de Sócios e o laudo de vistoria), de passivos fiscais, regulatórios, previdenciários ou de terceiros não são abrangidos e devem ser objeto de diligências complementares.*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t11b-C2 — due diligence, do capítulo
+### 2026-10-13 10:02 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente vai comprar as quotas desta clínica. Faça a due diligence destes seis contratos do data room e me dê um relatório dos riscos. Cite a cláusula e a página de cada risco; o que não estiver, escreva "não consta"; não resuma documento que não foi colado; aponte dado pessoal sensível sem copiá-lo.
+
+CHECKLIST DO ESCRITÓRIO PARA REVISÃO DE CONTRATO
+1. Partes, objeto e prazo.
+2. Preço, pagamento e reajuste: há índice? há renúncia a reajuste ou a reequilíbrio?
+3. Multas e penalidades: valem para as duas partes? têm limite?
+4. Rescisão: quem pode rescindir, com que aviso e que multa.
+5. Responsabilidade, indenização e benfeitorias.
+6. Garantias e ônus: penhor, fiança, alienação, gravames.
+7. Mudança de controle, cessão e exclusividade.
+8. Contratos de trabalho: jornada, estabilidade, verbas, cláusulas fora do padrão.
+9. Dados pessoais: há dado sensível, como dado de saúde (LGPD, art. 5º, II)? Quem é o controlador, quem trata e para quê? Dado de saúde só no indispensável (LGPD, art. 11, II, "d").
+10. Foro e solução de conflitos.
+Lembrete: nos contratos civis e empresariais, "a alocação de riscos definida pelas partes deve ser respeitada e observada" e a revisão contratual "somente ocorrerá de maneira excepcional e limitada" (Código Civil, art. 421-A). Por isso o risco tem de ser achado antes de assinar.
+
+DATA ROOM — CLÍNICA-B SERVIÇOS MÉDICOS LTDA. (seis documentos, páginas numeradas em sequência)
+
+=== DOCUMENTO 1: CONTRATO DE LOCAÇÃO NÃO RESIDENCIAL ===
+[Página 1]
+LOCADOR: IMOBILIÁRIA-C LTDA. LOCATÁRIA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Objeto: o conjunto comercial da sede da clínica, em Comarca-X, descrito no laudo de vistoria do Anexo II.
+Cláusula 2. Prazo de 60 meses, de 01/02/2023 a 31/01/2028.
+Cláusula 3. Aluguel de R$ 9.800,00 por mês, reajustado a cada 12 meses pelo IPCA.
+Cláusula 4. A LOCATÁRIA poderá fazer obras de adaptação à atividade médica, mediante autorização escrita do LOCADOR.
+Cláusula 5. Garantia: seguro-fiança.
+Cláusula 6. Rescisão antecipada pela LOCATÁRIA: multa de 3 aluguéis, proporcional ao tempo restante.
+Cláusula 7. O imóvel será devolvido no estado do laudo de vistoria do Anexo II, salvo o desgaste do uso normal.
+Cláusula 8. A LOCATÁRIA renuncia expressamente ao direito de indenização e de retenção por quaisquer benfeitorias, inclusive as necessárias, que passam a integrar o imóvel.
+[Página 2]
+Cláusula 9. Foro de Comarca-X.
+Anexo II – Laudo de vistoria: entregue em separado.
+
+=== DOCUMENTO 2: CONTRATO DE FORNECIMENTO DE INSUMOS ===
+[Página 3]
+FORNECEDOR: DISTRIBUIDORA-D LTDA. COMPRADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Fornecimento de material descartável e de curativos, conforme pedidos mensais.
+Cláusula 2. Prazo de 24 meses, renovável por acordo.
+Cláusula 3. Entrega em até 5 dias úteis do pedido.
+Cláusula 4. Pagamento em 30 dias da nota fiscal.
+Cláusula 5. O FORNECEDOR poderá reajustar os preços da tabela a qualquer tempo, mediante simples comunicação à COMPRADORA, valendo o novo preço para os pedidos seguintes.
+Cláusula 6. Rescisão por qualquer parte com 30 dias de aviso.
+
+=== DOCUMENTO 3: CONTRATO DE TRABALHO (coordenadora de enfermagem) ===
+[Página 4]
+EMPREGADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA. EMPREGADA: coordenadora de enfermagem (nome no original).
+Cláusula 1. Admissão em 01/03/2022, por prazo indeterminado.
+Cláusula 2. Salário de R$ 8.500,00 por mês.
+Cláusula 3. Jornada de 40 horas semanais, de segunda a sexta.
+Cláusula 4. Benefícios: vale-alimentação e plano de saúde.
+Cláusula 5. Função: coordenar a equipe de enfermagem e os protocolos de atendimento.
+Cláusula 6. Em caso de alteração do controle societário da EMPREGADORA, a EMPREGADA terá garantia de emprego de 36 (trinta e seis) meses, contados da alteração, e, se dispensada sem justa causa nesse período, receberá indenização equivalente a 24 (vinte e quatro) salários, além das verbas rescisórias.
+
+=== DOCUMENTO 4: CONTRATO DE TRABALHO (recepcionista) ===
+[Página 5]
+EMPREGADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA. EMPREGADO: recepcionista (nome no original).
+Cláusula 1. Admissão em 10/01/2024, por prazo indeterminado.
+Cláusula 2. Salário de R$ 2.300,00 por mês.
+Cláusula 3. Jornada de 12 (doze) horas diárias, de segunda a sábado, das 7h às 19h, com 1 hora de intervalo, ficando as horas extras já remuneradas no salário ajustado.
+Cláusula 4. Função: recepção, agenda e cadastro de pacientes.
+
+=== DOCUMENTO 5: CONTRATO DE LICENÇA DE SOFTWARE DE PRONTUÁRIO ELETRÔNICO ===
+[Página 6]
+CONTRATADA: SOFTWARE-E TECNOLOGIA LTDA. CONTRATANTE: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Licença de uso do sistema de prontuário eletrônico e agenda, em nuvem.
+Cláusula 2. Mensalidade de R$ 1.450,00.
+Cláusula 3. Suporte em horário comercial.
+Cláusula 4. Disponibilidade de 99% ao mês.
+Cláusula 5. Prazo de 12 meses, renovado automaticamente.
+Cláusula 6. A CONTRATADA manterá cópia de segurança diária dos dados.
+Cláusula 7. Os dados inseridos e armazenados na plataforma passam a ser de propriedade da CONTRATADA, que poderá utilizá-los para quaisquer fins, inclusive comerciais, de forma anonimizada ou não.
+Cláusula 8. Foro de Comarca-X.
+[Página 7]
+Anexo I – Exemplo do arquivo de exportação de prontuário (modelo enviado pela CONTRATADA na implantação):
+Paciente: Iolanda Prates Vieira | CPF 123.456.789-00 | Data de nascimento: 14/02/1971
+Diagnóstico: CID F32.2 – episódio depressivo grave sem sintomas psicóticos
+Conduta: acompanhamento psiquiátrico quinzenal; sertralina 100 mg/dia.
+
+=== DOCUMENTO 6: INSTRUMENTO PARTICULAR DE CESSÃO DE QUOTAS (2021) ===
+[Página 8]
+CEDENTE: sócio retirante. CESSIONÁRIA: sócia atual (nomes no original). SOCIEDADE: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. O CEDENTE cede à CESSIONÁRIA 5.000 quotas, representativas de 50% do capital social.
+Cláusula 2. Preço de R$ 250.000,00, pago à vista.
+Cláusula 3. As partes observarão o Acordo de Sócios de 15/03/2021, que não integra este instrumento.
+Cláusula 4. As quotas cedidas permanecem empenhadas em favor do credor do mútuo de R$ 300.000,00 celebrado pela sociedade em 2020, até a sua integral quitação, o que a CESSIONÁRIA declara conhecer e aceitar.
+Cláusula 5. Foro de Comarca-X.
+(Nota do data room: o Acordo de Sócios de 15/03/2021 não foi incluído neste data room.)
+--- IA:
+# RELATÓRIO DE DUE DILIGENCE — DATA ROOM CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+**Preparado para:** Comprador (cliente do escritório)
+**Data de referência:** 13/10/2026
+**Base:** seis documentos fornecidos, páginas 1–8
+
+---
+
+## NOTA METODOLÓGICA
+
+Este relatório segue o checklist do escritório. Para cada item do checklist que não foi encontrado no documento, consta a expressão **"não consta"**. Documentos referenciados mas ausentes do data room estão listados na seção final. Um dado pessoal sensível foi identificado no Anexo I do Documento 5; seu conteúdo foi apontado sem reprodução, conforme instrução.
+
+---
+
+## DOCUMENTO 1 — CONTRATO DE LOCAÇÃO NÃO RESIDENCIAL
+**Partes:** Imobiliária-C Ltda. (locador) × Clínica-B Serviços Médicos Ltda. (locatária) | **Páginas 1–2**
+
+---
+
+### 1. Partes, objeto e prazo
+
+| Item | Conteúdo | Risco |
+|------|----------|-------|
+| Objeto | Conjunto comercial da sede da clínica, em Comarca-X (Cláusula 1, p. 1) | Descrição remete ao Anexo II (laudo de vistoria), que **não consta no data room** — impede verificar a metragem, a configuração e o estado documentado do imóvel |
+| Prazo | 60 meses: 01/02/2023 a 31/01/2028 (Cláusula 2, p. 1) | Na data deste relatório restam **≈ 15 meses e 18 dias** de vigência. O imóvel abriga a sede da clínica; o comprador precisará renegociar ou renovar imediatamente após o fechamento da transação. Ausência de cláusula de renovação automática ou de direito de preferência agrava a exposição |
+
+---
+
+### 2. Preço, pagamento e reajuste
+
+- **Aluguel:** R$ 9.800,00/mês, reajuste anual pelo IPCA (Cláusula 3, p. 1).
+- **Risco:** não consta teto ou piso de reajuste. O IPCA é índice adequado e amplamente aceito; sem risco imediato neste ponto.
+
+---
+
+### 3. Multas e penalidades
+
+- Multa de 3 (três) aluguéis proporcionais ao tempo restante, apenas para rescisão antecipada **pela locatária** (Cláusula 6, p. 1).
+- **Risco:** Não há multa para o **locador** em caso de retomada antecipada. A assimetria é relevante: se o locador denunciar o contrato (p. ex., por venda do imóvel ou necessidade própria — Lei 8.245/91, arts. 47 e 57), a locatária/clínica não tem indenização contratual garantida além do aviso legal de 30 dias. Considerando que o imóvel é a sede operacional, a perda do local interromperia a atividade-fim.
+
+---
+
+### 4. Rescisão
+
+- Prevista apenas para a locatária, com aviso implícito e multa proporcional (Cláusula 6, p. 1).
+- **Risco:** Não consta cláusula de rescisão pelo locador e respectiva multa. A proteção depende exclusivamente da Lei de Locações (Lei 8.245/91), que admite denúncia pelo locador ao término do prazo com aviso de 30 dias — ou antes, nas hipóteses legais.
+
+---
+
+### 5. Responsabilidade, indenização e benfeitorias
+
+> **RISCO GRAVE — Cláusula 8, p. 1**
+
+A locatária **renunciou expressamente** ao direito de indenização e de retenção por **quaisquer benfeitorias, inclusive as necessárias**, que passam a integrar o imóvel.
+
+A Lei 8.245/91, art. 35, admite a renúncia contratual à indenização por benfeitorias úteis e voluptuárias, mas há controvérsia doutrinária e jurisprudencial quanto à validade da renúncia às **benfeitorias necessárias** (CC, art. 578; posição majoritária: renúncia às necessárias é nula por ferir norma de ordem pública). A Clínica-B já adaptou o imóvel para uso médico (Cláusula 4) — obras de adequação sanitária, de acessibilidade e de instalações técnicas são tipicamente necessárias ou úteis. O comprador herdará esse passivo sem direito a compensação ao término ou rescisão, salvo êxito em ação judicial contestando a renúncia às necessárias.
+
+**Ação recomendada:** levantar o histórico e o custo das obras realizadas; avaliar o valor das benfeitorias não indenizáveis como desconto no preço de aquisição.
+
+---
+
+### 6. Garantias e ônus
+
+- Garantia: seguro-fiança prestado pela locatária (Cláusula 5, p. 1).
+- Não há ônus sobre o imóvel mencionado no contrato. O Anexo II não consta para verificação.
+
+---
+
+### 7. Mudança de controle, cessão, exclusividade
+
+- Não consta cláusula de mudança de controle ou de autorização do locador para cessão da locação.
+- A mudança de controle societário da locatária **não transfere a locação** (esta permanece com a pessoa jurídica, que continua sendo a mesma); o risco de anuência do locador não existe neste ponto. Porém, **não consta** cláusula de exclusividade de uso.
+
+---
+
+### 8. a 9. (Trabalhista e LGPD)
+
+Não se aplicam a contrato de locação.
+
+---
+
+### 10. Foro
+
+Comarca-X (Cláusula 9, p. 2). Adequado.
+
+---
+
+### ⚠️ Documento Faltante — Documento 1
+
+| Documento | Mencionado em | Status |
+|-----------|--------------|--------|
+| Laudo de vistoria — Anexo II | Cláusulas 1 e 7, p. 1 | **Ausente do data room** |
+
+---
+
+---
+
+## DOCUMENTO 2 — CONTRATO DE FORNECIMENTO DE INSUMOS
+**Partes:** Distribuidora-D Ltda. (fornecedor) × Clínica-B Serviços Médicos Ltda. (compradora) | **Página 3**
+
+---
+
+### 1. Partes, objeto e prazo
+
+- Objeto: material descartável e curativos, conforme pedidos mensais (Cláusula 1, p. 3).
+- Prazo: 24 meses, renovável por acordo (Cláusula 2, p. 3). **Risco:** a data de início não consta no extrato fornecido; impossível determinar se o contrato ainda está vigente ou já venceu. Solicitar o instrumento completo com data de assinatura.
+
+---
+
+### 2. Preço, pagamento e reajuste
+
+> **RISCO GRAVE — Cláusula 5, p. 3**
+
+O fornecedor pode **reajustar os preços a qualquer tempo**, mediante simples comunicação à compradora, valendo o novo preço para os pedidos subsequentes.
+
+Não há: (a) índice de referência; (b) limite percentual; (c) prazo mínimo de comunicação; (d) direito de rescisão sem ônus pela compradora em caso de reajuste abusivo. Na prática, a clínica aceita qualquer preço ou para de comprar — sem penalidade para o fornecedor. Combinada com a dependência operacional de insumos descartáveis e de curativos, essa cláusula representa risco de descontrole de custos sem mecanismo de defesa contratual.
+
+---
+
+### 3. Multas e penalidades
+
+- Não consta multa por descumprimento do prazo de entrega de 5 dias úteis (Cláusula 3, p. 3).
+- Não consta multa por fornecimento de produto defeituoso ou fora das especificações.
+- **Risco:** assimetria total — a compradora não tem mecanismo contratual de sanção ao fornecedor.
+
+---
+
+### 4. Rescisão
+
+- Qualquer parte pode rescindir com 30 dias de aviso prévio (Cláusula 6, p. 3).
+- Não consta multa rescisória para nenhuma das partes.
+- **Risco:** o fornecedor pode encerrar o contrato com 30 dias de antecedência, afetando o abastecimento da clínica. A mitigação depende de fornecedores alternativos.
+
+---
+
+### 5. Responsabilidade, indenização e benfeitorias
+
+- Não consta cláusula de responsabilidade por produto defeituoso, contaminado ou fora de registro sanitário.
+- **Risco:** em caso de evento adverso com paciente decorrente de insumo com problema de qualidade, a clínica terá de buscar ressarcimento do fornecedor com base no CDC e no CC, sem garantia contratual expressa.
+
+---
+
+### 6 a 10.
+
+| Item | Status |
+|------|--------|
+| Garantias e ônus | Não consta |
+| Mudança de controle, cessão | Não consta |
+| Contratos de trabalho | Não aplicável |
+| Dados pessoais (LGPD) | Não consta |
+| Foro | **Não consta** — lacuna relevante em caso de litígio |
+
+---
+
+---
+
+## DOCUMENTO 3 — CONTRATO DE TRABALHO (COORDENADORA DE ENFERMAGEM)
+**Partes:** Clínica-B (empregadora) × coordenadora de enfermagem (nome no original) | **Página 4**
+
+---
+
+### 1. Partes, objeto e prazo
+
+- Admissão: 01/03/2022, prazo indeterminado (Cláusula 1, p. 4).
+- Função: coordenar a equipe de enfermagem e os protocolos de atendimento (Cláusula 5, p. 4). Trata-se de cargo de confiança operacional crítica.
+
+---
+
+### 2. Preço, pagamento e reajuste
+
+- Salário: R$ 8.500,00/mês (Cláusula 2, p. 4).
+- Não consta cláusula de reajuste salarial automático.
+
+---
+
+### 3. Multas e penalidades
+
+Não aplicável a contrato de trabalho (regido pela CLT).
+
+---
+
+### 4. Rescisão
+
+Não consta cláusula de rescisão antecipada específica além da garantia abaixo.
+
+---
+
+### 5. a 7. Responsabilidade, garantias, mudança de controle
+
+> **RISCO MUITO GRAVE — Cláusula 6, p. 4**
+
+Em caso de **alteração do controle societário** da empregadora:
+- A empregada terá **garantia de emprego de 36 (trinta e seis) meses** contados da alteração; e
+- Se dispensada sem justa causa nesse período, receberá **indenização equivalente a 24 (vinte e quatro) salários**, além das **verbas rescisórias legais** (aviso prévio proporcional, saldo de salário, 13º proporcional, férias vencidas + proporcionais + 1/3, FGTS + multa de 40%).
+
+**Cálculo estimado do passivo máximo:**
+
+| Componente | Estimativa |
+|------------|------------|
+| Indenização contratual (24 × R$ 8.500,00) | **R$ 204.000,00** |
+| Aviso prévio proporcional (~42 dias considerando ~4 anos e 7 meses de casa) | ≈ R$ 11.900,00 |
+| Férias + 1/3 (estimativa) | ≈ R$ 11.300,00 |
+| 13º proporcional (estimativa) | ≈ R$ 4.250,00 |
+| FGTS acumulado + multa 40% (estimativa aproximada) | a calcular com base nos depósitos |
+| **Total estimado sem FGTS** | **≈ R$ 231.450,00** |
+
+Este passivo é **certo e imediato** a partir do fechamento da operação: a simples alteração do controle já ativa a garantia, independentemente de dispensa. A dispensa sem justa causa no período aciona a indenização adicional. O comprador assume esse risco automaticamente ao fechar o negócio.
+
+**Ação recomendada:** (a) negociar desconto no preço de aquisição equivalente ao passivo máximo; (b) ou obter declaração da vendedora de que a empregada renunciou a essa cláusula (com assistência sindical, per CLT art. 477); (c) ou estruturar a transação de forma a minimizar a configuração de "alteração de controle" — o que, neste caso, parece difícil dado que a própria compra de quotas configura a hipótese.
+
+---
+
+### 8. Contratos de trabalho — itens específicos
+
+| Item do checklist | Avaliação |
+|-------------------|-----------|
+| Jornada | 40h semanais, seg–sex (Cláusula 3, p. 4) — regular (CF/88, art. 7º, XIII) |
+| Estabilidade especial | Sim — mudança de controle (Cláusula 6, p. 4) — **risco grave** |
+| Verbas fora do padrão | Indenização de 24 salários (Cláusula 6, p. 4) — **fora do padrão legal** |
+| Benefícios | VA e plano de saúde (Cláusula 4, p. 4) — verificar se incorporados ao salário por habitualidade |
+
+---
+
+### 9. Dados pessoais
+
+⚠️ **O nome da empregada consta no instrumento original.** Trata-se de dado pessoal (LGPD, art. 5º, I). Não é dado sensível (não é dado de saúde da empregada). Não foi reproduzido neste relatório.
+
+---
+
+### 10. Foro
+
+Não consta — litígios trabalhistas seguem a competência da Justiça do Trabalho (CF/88, art. 114).
+
+---
+
+---
+
+## DOCUMENTO 4 — CONTRATO DE TRABALHO (RECEPCIONISTA)
+**Partes:** Clínica-B (empregadora) × recepcionista (nome no original) | **Página 5**
+
+---
+
+### 1. Partes, objeto e prazo
+
+- Admissão: 10/01/2024, prazo indeterminado (Cláusula 1, p. 5).
+- Função: recepção, agenda e cadastro de pacientes (Cláusula 4, p. 5). Este empregado tem acesso a dados pessoais e sensíveis de pacientes (ver Documento 5).
+
+---
+
+### 8. Contratos de trabalho — jornada
+
+> **RISCO TRABALHISTA GRAVE — Cláusula 3, p. 5**
+
+A jornada pactuada é de **12 horas diárias, de segunda a sábado**, das 7h às 19h, com 1 hora de intervalo.
+
+**Irregular pelos seguintes fundamentos:**
+
+| Problema | Base legal |
+|----------|------------|
+| 12h/dia × 6 dias = **72h semanais** — excede em 64% o limite constitucional de 44h/semana | CF/88, art. 7º, XIII |
+| Jornada de 12×36h é admitida por acordo coletivo, mas **somente com folga de 36h após cada turno** — o regime "seg a sáb" não prevê essa folga | Súmula TST nº 444 |
+| A cláusula "horas extras já remuneradas no salário ajustado" não especifica o número de horas extras absorvidas, o que é requisito para validade da cláusula global (Súmula TST nº 340) | CLT, arts. 59 e 468 |
+| Não consta norma coletiva autorizando a jornada ampliada | CF/88, art. 7º, XIV; CLT, art. 59, § 2º |
+
+**Passivo potencial:** o empregado pode pleitear, na Justiça do Trabalho, o pagamento de horas extras (com adicional de 50% ou 100% para excedentes da 8ª hora e domingos), reflexos em férias, 13º, FGTS, desde a admissão (10/01/2024) — período prescricional de 5 anos (CF/88, art. 7º, XXIX). O valor depende de perícia contábil, mas dado o volume de horas irregulares o risco é relevante.
+
+---
+
+### Demais itens — Documento 4
+
+| Item | Status |
+|------|--------|
+| Estabilidade especial / mudança de controle | Não consta |
+| Benefícios fora do padrão | Não consta |
+| Multas/penalidades | Não consta |
+| Foro | Não consta (Justiça do Trabalho por competência constitucional) |
+| Dados pessoais da parte | Nome do empregado consta no original — dado pessoal, não reproduzido |
+
+---
+
+---
+
+## DOCUMENTO 5 — CONTRATO DE LICENÇA DE SOFTWARE DE PRONTUÁRIO ELETRÔNICO
+**Partes:** Software-E Tecnologia Ltda. (contratada) × Clínica-B Serviços Médicos Ltda. (contratante) | **Páginas 6–7**
+
+---
+
+### 1. Partes, objeto e prazo
+
+- Licença de uso de sistema de prontuário eletrônico e agenda, em nuvem (Cláusula 1, p. 6).
+- Prazo: 12 meses, **renovação automática** (Cláusula 5, p. 6).
+- **Risco:** a renovação automática sem aviso prévio de não renovação pode prender a clínica indefinidamente. Não consta prazo mínimo de comunicação para encerramento.
+
+---
+
+### 2. Preço, pagamento e reajuste
+
+- Mensalidade: R$ 1.450,00 (Cláusula 2, p. 6).
+- Não consta índice de reajuste — reajuste unilateral não está vedado expressamente.
+
+---
+
+### 3. Multas e penalidades
+
+- Não consta penalidade para a contratada em caso de descumprimento do SLA de disponibilidade de 99% (Cláusula 4, p. 6). O SLA é declaratório sem sanção.
+
+---
+
+### 4. Rescisão
+
+- Não consta cláusula de rescisão antecipada, portabilidade dos dados ou devolução ao término.
+- **Risco crítico:** ao encerrar o contrato, a clínica pode ficar sem acesso ao histórico de prontuários. Não há obrigação contratual de entrega dos dados em formato utilizável.
+
+---
+
+### 5. Responsabilidade, indenização e benfeitorias
+
+- Não consta limitação ou exclusão de responsabilidade por vazamento de dados.
+- Dado que o sistema armazena dados de saúde de pacientes, a ausência de cláusula de responsabilidade por incidente de segurança é lacuna grave.
+
+---
+
+### 6. Garantias e ônus
+
+- Backup diário pela contratada (Cláusula 6, p. 6). Não consta SLA de recuperação (RTO/RPO).
+
+---
+
+### 7. Mudança de controle, cessão
+
+- Não consta.
+
+---
+
+### 9. DADOS PESSOAIS E LGPD
+
+> ⚠️ **RISCO GRAVÍSSIMO — DUPLO — Cláusula 7, p. 6, e Anexo I, p. 7**
+
+#### 9.1 Cláusula 7 — Propriedade e uso irrestrito dos dados pelo fornecedor
+
+A cláusula estabelece que os dados inseridos na plataforma **"passam a ser de propriedade da CONTRATADA"**, que pode utilizá-los **"para quaisquer fins, inclusive comerciais, de forma anonimizada ou não"**.
+
+**Por que essa cláusula é ilegal:**
+
+| Fundamento | Norma |
+|------------|-------|
+| Dados pessoais pertencem aos **titulares** (pacientes), não à clínica nem ao fornecedor | LGPD, art. 17 |
+| A Clínica-B é **controladora** dos dados de seus pacientes; a Software-E é **operadora** e só pode tratar dados conforme as instruções da controladora | LGPD, arts. 5º, VI, VII e 39 |
+| Dados de **saúde** (prontuários, diagnósticos, condutas) são dados **sensíveis** — seu tratamento por operador para fins próprios e comerciais é expressamente vedado | LGPD, arts. 5º, II; 11; e 39 |
+| Uso não anonimizado para fins comerciais não encontra base legal em nenhuma das hipóteses do art. 11, II | LGPD, art. 11 |
+| A cláusula é nula de pleno direito por contrariar norma de ordem pública | LGPD, art. 45; CC, art. 166, VII |
+
+**Consequências para o comprador:** (a) sanções administrativas da ANPD (multa de até 2% do faturamento, limitada a R$ 50 milhões por infração — LGPD, art. 52); (b) responsabilidade solidária da clínica perante os titulares (LGPD, art. 42); (c) necessidade imediata de renegociar ou rescindir o contrato e migrar os dados.
+
+#### 9.2 Anexo I, p. 7 — Dado de saúde real de paciente identificado no data room
+
+⚠️ **O Anexo I contém dado de saúde real de paciente identificado (nome completo, CPF, data de nascimento, diagnóstico psiquiátrico — CID F32 — e conduta terapêutica).** Trata-se de **dado sensível** (LGPD, art. 5º, II: "dado pessoal sobre saúde"). O conteúdo **não é reproduzido** neste relatório.
+
+**Riscos específicos deste anexo:**
+
+| Problema | Análise |
+|----------|---------|
+| Dado real de paciente em documento comercial de data room | Violação do art. 11 da LGPD — dado sensível sem base legal para esse tratamento |
+| Compartilhamento com o comprador no processo de M&A | Evento de compartilhamento sem consentimento do titular e sem base legal (art. 11, II) |
+| Diagnóstico psiquiátrico associado a dados identificadores | Categoria de máxima sensibilidade — risco de discriminação e de dano ao titular |
+| Ausência de pseudonimização ou anonimização no arquivo de exemplo | Boa prática e exigência do princípio da segurança (LGPD, art. 6º, VII) |
+
+**Ação imediata recomendada:** (a) notificar internamente o incidente; (b) avaliar comunicação à ANPD (LGPD, art. 48); (c) excluir o documento com dado real de todos os repositórios do data room; (d) substituir por exemplo com dados fictícios ou anonimizados.
+
+---
+
+### 10. Foro
+
+Comarca-X (Cláusula 8, p. 6).
+
+---
+
+---
+
+## DOCUMENTO 6 — INSTRUMENTO PARTICULAR DE CESSÃO DE QUOTAS (2021)
+**Partes:** sócio retirante (cedente) × sócia atual (cessionária) | **Página 8**
+
+---
+
+### 1. Partes, objeto e prazo
+
+- Cessão de 5.000 quotas = 50% do capital social da Clínica-B (Cláusula 1, p. 8).
+- Preço: R$ 250.000,00, pago à vista (Cláusula 2, p. 8).
+- Trata-se de negócio pretérito (2021), relevante para a auditoria da cadeia dominial das quotas.
+
+---
+
+### 6. Garantias e ônus
+
+> **RISCO GRAVE — Cláusula 4, p. 8**
+
+As quotas cedidas **"permanecem empenhadas em favor do credor do mútuo de R$ 300.000,00 celebrado pela sociedade em 2020, até a sua integral quitação"**, e a cessionária declarou conhecer e aceitar o ônus.
+
+**Análise:**
+
+| Problema | Consequência |
+|----------|-------------|
+| **Penhor de quotas** constituído em 2020, ônus ainda existente à época da cessão (2021) | As quotas que são hoje objeto da nova aquisição podem ainda estar gravadas com penhor |
+| Não consta documentação de quitação do mútuo nem de liberação do penhor | O comprador pode adquirir quotas oneradas — o credor pignoratício tem preferência sobre elas |
+| Valor original do mútuo: R$ 300.000,00 (2020) | Com juros e correção, o saldo devedor pode ser significativamente maior; ou o mútuo pode já estar quitado — impossível confirmar sem documentação |
+| O penhor de quotas pode exigir registro (CC, art. 1.432; Lei das S.A. por analogia; contrato social) | Verificar se há averbação no contrato social ou em cartório |
+
+**Ação imediata:** exigir no data room: (a) o instrumento de mútuo de 2020; (b) comprovante de quitação integral; (c) instrumento de liberação do penhor; (d) última alteração do contrato social confirmando ausência de ônus sobre as quotas.
+
+---
+
+### 7. Mudança de controle, cessão, Acordo de Sócios
+
+> **RISCO GRAVE — Cláusula 3, p. 8**
+
+O instrumento menciona que **"as partes observarão o Acordo de Sócios de 15/03/2021"**, mas esse Acordo **não foi incluído no data room** (conforme nota expressa do data room).
+
+**Conteúdo potencialmente relevante de um Acordo de Sócios:**
+
+| Cláusula típica | Impacto na transação |
+|----------------|---------------------|
+| Direito de preferência na cessão de quotas | Terceiros podem ter preferência sobre o comprador |
+| Tag-along / drag-along | Podem impor ou impedir a venda |
+| Não-concorrência do sócio retirante | Se descumprida, responsabilidade da sociedade |
+| Regras de governança, veto, quórum | Impactam o controle efetivo pós-aquisição |
+| Cláusulas de lock-up | Podem restringir alienação futura |
+| Cláusula penal por inadimplemento | Passivo desconhecido |
+
+**A ausência desse documento torna impossível avaliar restrições à transação atual.** Sem o Acordo de Sócios, o comprador não pode confirmar que a venda das quotas é lícita, que não há preferência de terceiros e que não existem obrigações pendentes entre os sócios.
+
+---
+
+### Demais itens — Documento 6
+
+| Item | Status |
+|------|--------|
+| Preço, pagamento, reajuste | Cessão à vista por R$ 250.000,00 em 2021 — histórico; sem risco direto na nova transação |
+| Multas e penalidades | Não consta |
+| Rescisão | Não aplicável — instrumento já executado |
+| Responsabilidade | Não consta declarações de inexistência de ônus (ao contrário — há ônus declarado) |
+| Dados pessoais | Nomes das partes constam no original — dados pessoais, não reproduzidos |
+| Foro | Comarca-X (Cláusula 5, p. 8) |
+
+---
+
+---
+
+## TABELA CONSOLIDADA DE RISCOS
+
+| # | Documento | Cláusula / Página | Classificação | Passivo estimado |
+|---|-----------|------------------|---------------|-----------------|
+| R-01 | Locação | Cl. 8, p. 1 | **Alto** — renúncia a benfeitorias necessárias, possivelmente nula | Valor das obras realizadas (não quantificado sem o Anexo II) |
+| R-02 | Locação | Cl. 2, p. 1 | **Alto** — prazo restante ≈ 15 meses; risco de perda da sede | Custo de mudança + adequação de novo imóvel |
+| R-03 | Locação | Cl. 6, p. 1 | **Médio** — assimetria: multa só para a locatária | — |
+| R-04 | Fornecimento | Cl. 5, p. 3 | **Alto** — reajuste unilateral ilimitado pelo fornecedor | Indefinido — risco de custo operacional |
+| R-05 | Fornecimento | Cl. 3 e 6, p. 3 | **Médio** — sem multa por atraso ou por rescisão do fornecedor | — |
+| R-06 | Trabalho (coord.) | Cl. 6, p. 4 | **Muito alto** — estabilidade de 36 meses + indenização de 24 salários após mudança de controle | ≈ **R$ 231.450,00** (mínimo, sem FGTS) |
+| R-07 | Trabalho (recep.) | Cl. 3, p. 5 | **Alto** — jornada de 72h semanais; regime ilegal; passivo trabalhista retroativo | A calcular por perícia (admissão jan/2024) |
+| R-08 | Software | Cl. 7, p. 6 | **Gravíssimo** — "propriedade" e uso irrestrito de dados sensíveis pelo operador; cláusula nula; violação da LGPD | Multa ANPD até R$ 50 mi/infração; responsabilidade solidária |
+| R-09 | Software | Anexo I, p. 7 | **Gravíssimo** — dado de saúde real de paciente identificado no data room; violação da LGPD | Idem R-08; notificação à ANPD a avaliar |
+| R-10 | Cessão de quotas | Cl. 4, p. 8 | **Grave** — penhor sobre quotas de 2020 sem confirmação de liberação | Até o saldo do mútuo de R$ 300.000,00 + juros |
+| R-11 | Cessão de quotas | Cl. 3, p. 8 | **Grave** — Acordo de Sócios ausente; restrições à transação desconhecidas | Indefinido |
+
+---
+
+## DOCUMENTOS AUSENTES DO DATA ROOM
+
+| Documento | Referenciado em | Impacto se não fornecido |
+|-----------|----------------|--------------------------|
+| **Laudo de vistoria (Anexo II)** | Contrato de Locação, Cláusulas 1 e 7, p. 1 | Impossível verificar estado do imóvel e fundamento da cláusula de devolução |
+| **Acordo de Sócios de 15/03/2021** | Cessão de Quotas, Cláusula 3, p. 8 | Impossível verificar direitos de preferência, drag/tag-along, restrições à venda |
+| **Instrumento de mútuo de 2020** | Cessão de Quotas, Cláusula 4, p. 8 | Impossível verificar existência e saldo do ônus sobre as quotas |
+| **Comprovante de quitação do mútuo e liberação do penhor** | Cessão de Quotas, Cláusula 4, p. 8 | Impossível confirmar se o ônus ainda existe |
+
+---
+
+## RECOMENDAÇÕES PRIORITÁRIAS
+
+1. **Antes de assinar qualquer documento de vinculação:**
+   - Exigir o Acordo de Sócios de 2021 e o instrumento de mútuo de 2020.
+   - Exigir comprovante de quitação do mútuo e liberação formal do penhor de quotas.
+
+2. **Negociação de preço:**
+   - O passivo da coordenadora de enfermagem (≈ R$ 231.450,00 mais FGTS) é certo e imediato; deve ser refletido como desconto ou retenção de preço (escrow).
+   - O passivo trabalhista do recepcionista deve ser calculado e igualmente provisionado.
+
+3. **Contrato de Software (urgente):**
+   - A Cláusula 7 é nula de pleno direito e expõe a clínica a sanções da ANPD.
+   - O Anexo I com dado real de paciente representa incidente de privacidade que pode demandar notificação à ANPD (LGPD, art. 48).
+   - Renegociar imediatamente o contrato antes ou como condição precedente ao fechamento.
+
+4. **Contrato de Locação:**
+   - Com apenas ≈ 15 meses de prazo residual, iniciar negociação de renovação como condição precedente ou condição resolutiva da aquisição.
+   - Quantificar o custo das benfeitorias realizadas para ajuste de preço.
+
+5. **Contrato de Fornecimento:**
+   - Negociar aditivo para estabelecer índice de reajuste (IPCA ou INPC) e prazo mínimo de comunicação de 30 dias, além de multa por atraso de entrega.
+
+---
+
+*Este relatório foi elaborado com base exclusivamente nos seis documentos fornecidos no data room. Documentos referenciados e ausentes, indicados na tabela acima, são indispensáveis para a conclusão da due diligence. O relatório não substitui parecer jurídico formal e pressupõe revisão pelo advogado responsável pela transação.*
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
+##### t11b-C3 — due diligence, do capítulo
+### 2026-10-13 10:06 · modelo=claude-sonnet-4-6 · configuração neutra (conversa.sh, saída JSON)
+--- Você:
+Meu cliente vai comprar as quotas desta clínica. Faça a due diligence destes seis contratos do data room e me dê um relatório dos riscos. Cite a cláusula e a página de cada risco; o que não estiver, escreva "não consta"; não resuma documento que não foi colado; aponte dado pessoal sensível sem copiá-lo.
+
+CHECKLIST DO ESCRITÓRIO PARA REVISÃO DE CONTRATO
+1. Partes, objeto e prazo.
+2. Preço, pagamento e reajuste: há índice? há renúncia a reajuste ou a reequilíbrio?
+3. Multas e penalidades: valem para as duas partes? têm limite?
+4. Rescisão: quem pode rescindir, com que aviso e que multa.
+5. Responsabilidade, indenização e benfeitorias.
+6. Garantias e ônus: penhor, fiança, alienação, gravames.
+7. Mudança de controle, cessão e exclusividade.
+8. Contratos de trabalho: jornada, estabilidade, verbas, cláusulas fora do padrão.
+9. Dados pessoais: há dado sensível, como dado de saúde (LGPD, art. 5º, II)? Quem é o controlador, quem trata e para quê? Dado de saúde só no indispensável (LGPD, art. 11, II, "d").
+10. Foro e solução de conflitos.
+Lembrete: nos contratos civis e empresariais, "a alocação de riscos definida pelas partes deve ser respeitada e observada" e a revisão contratual "somente ocorrerá de maneira excepcional e limitada" (Código Civil, art. 421-A). Por isso o risco tem de ser achado antes de assinar.
+
+DATA ROOM — CLÍNICA-B SERVIÇOS MÉDICOS LTDA. (seis documentos, páginas numeradas em sequência)
+
+=== DOCUMENTO 1: CONTRATO DE LOCAÇÃO NÃO RESIDENCIAL ===
+[Página 1]
+LOCADOR: IMOBILIÁRIA-C LTDA. LOCATÁRIA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Objeto: o conjunto comercial da sede da clínica, em Comarca-X, descrito no laudo de vistoria do Anexo II.
+Cláusula 2. Prazo de 60 meses, de 01/02/2023 a 31/01/2028.
+Cláusula 3. Aluguel de R$ 9.800,00 por mês, reajustado a cada 12 meses pelo IPCA.
+Cláusula 4. A LOCATÁRIA poderá fazer obras de adaptação à atividade médica, mediante autorização escrita do LOCADOR.
+Cláusula 5. Garantia: seguro-fiança.
+Cláusula 6. Rescisão antecipada pela LOCATÁRIA: multa de 3 aluguéis, proporcional ao tempo restante.
+Cláusula 7. O imóvel será devolvido no estado do laudo de vistoria do Anexo II, salvo o desgaste do uso normal.
+Cláusula 8. A LOCATÁRIA renuncia expressamente ao direito de indenização e de retenção por quaisquer benfeitorias, inclusive as necessárias, que passam a integrar o imóvel.
+[Página 2]
+Cláusula 9. Foro de Comarca-X.
+Anexo II – Laudo de vistoria: entregue em separado.
+
+=== DOCUMENTO 2: CONTRATO DE FORNECIMENTO DE INSUMOS ===
+[Página 3]
+FORNECEDOR: DISTRIBUIDORA-D LTDA. COMPRADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Fornecimento de material descartável e de curativos, conforme pedidos mensais.
+Cláusula 2. Prazo de 24 meses, renovável por acordo.
+Cláusula 3. Entrega em até 5 dias úteis do pedido.
+Cláusula 4. Pagamento em 30 dias da nota fiscal.
+Cláusula 5. O FORNECEDOR poderá reajustar os preços da tabela a qualquer tempo, mediante simples comunicação à COMPRADORA, valendo o novo preço para os pedidos seguintes.
+Cláusula 6. Rescisão por qualquer parte com 30 dias de aviso.
+
+=== DOCUMENTO 3: CONTRATO DE TRABALHO (coordenadora de enfermagem) ===
+[Página 4]
+EMPREGADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA. EMPREGADA: coordenadora de enfermagem (nome no original).
+Cláusula 1. Admissão em 01/03/2022, por prazo indeterminado.
+Cláusula 2. Salário de R$ 8.500,00 por mês.
+Cláusula 3. Jornada de 40 horas semanais, de segunda a sexta.
+Cláusula 4. Benefícios: vale-alimentação e plano de saúde.
+Cláusula 5. Função: coordenar a equipe de enfermagem e os protocolos de atendimento.
+Cláusula 6. Em caso de alteração do controle societário da EMPREGADORA, a EMPREGADA terá garantia de emprego de 36 (trinta e seis) meses, contados da alteração, e, se dispensada sem justa causa nesse período, receberá indenização equivalente a 24 (vinte e quatro) salários, além das verbas rescisórias.
+
+=== DOCUMENTO 4: CONTRATO DE TRABALHO (recepcionista) ===
+[Página 5]
+EMPREGADORA: CLÍNICA-B SERVIÇOS MÉDICOS LTDA. EMPREGADO: recepcionista (nome no original).
+Cláusula 1. Admissão em 10/01/2024, por prazo indeterminado.
+Cláusula 2. Salário de R$ 2.300,00 por mês.
+Cláusula 3. Jornada de 12 (doze) horas diárias, de segunda a sábado, das 7h às 19h, com 1 hora de intervalo, ficando as horas extras já remuneradas no salário ajustado.
+Cláusula 4. Função: recepção, agenda e cadastro de pacientes.
+
+=== DOCUMENTO 5: CONTRATO DE LICENÇA DE SOFTWARE DE PRONTUÁRIO ELETRÔNICO ===
+[Página 6]
+CONTRATADA: SOFTWARE-E TECNOLOGIA LTDA. CONTRATANTE: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. Licença de uso do sistema de prontuário eletrônico e agenda, em nuvem.
+Cláusula 2. Mensalidade de R$ 1.450,00.
+Cláusula 3. Suporte em horário comercial.
+Cláusula 4. Disponibilidade de 99% ao mês.
+Cláusula 5. Prazo de 12 meses, renovado automaticamente.
+Cláusula 6. A CONTRATADA manterá cópia de segurança diária dos dados.
+Cláusula 7. Os dados inseridos e armazenados na plataforma passam a ser de propriedade da CONTRATADA, que poderá utilizá-los para quaisquer fins, inclusive comerciais, de forma anonimizada ou não.
+Cláusula 8. Foro de Comarca-X.
+[Página 7]
+Anexo I – Exemplo do arquivo de exportação de prontuário (modelo enviado pela CONTRATADA na implantação):
+Paciente: Iolanda Prates Vieira | CPF 123.456.789-00 | Data de nascimento: 14/02/1971
+Diagnóstico: CID F32.2 – episódio depressivo grave sem sintomas psicóticos
+Conduta: acompanhamento psiquiátrico quinzenal; sertralina 100 mg/dia.
+
+=== DOCUMENTO 6: INSTRUMENTO PARTICULAR DE CESSÃO DE QUOTAS (2021) ===
+[Página 8]
+CEDENTE: sócio retirante. CESSIONÁRIA: sócia atual (nomes no original). SOCIEDADE: CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+Cláusula 1. O CEDENTE cede à CESSIONÁRIA 5.000 quotas, representativas de 50% do capital social.
+Cláusula 2. Preço de R$ 250.000,00, pago à vista.
+Cláusula 3. As partes observarão o Acordo de Sócios de 15/03/2021, que não integra este instrumento.
+Cláusula 4. As quotas cedidas permanecem empenhadas em favor do credor do mútuo de R$ 300.000,00 celebrado pela sociedade em 2020, até a sua integral quitação, o que a CESSIONÁRIA declara conhecer e aceitar.
+Cláusula 5. Foro de Comarca-X.
+(Nota do data room: o Acordo de Sócios de 15/03/2021 não foi incluído neste data room.)
+--- IA:
+# RELATÓRIO DE DUE DILIGENCE — CLÍNICA-B SERVIÇOS MÉDICOS LTDA.
+**Finalidade:** Aquisição de quotas pelo cliente | **Data:** 13/10/2026
+**Base:** 6 documentos, páginas 1–8 do data room
+
+---
+
+> **Nota metodológica.** A análise segue o checklist do escritório. Cada risco indica o documento, a cláusula e a página. Itens ausentes recebem a marcação **"não consta"**. Dados pessoais sensíveis são apontados sem transcrição. Gravidade: 🔴 Crítico | 🟠 Alto | 🟡 Médio | 🟢 Baixo.
+
+---
+
+## DOCUMENTO 1 — CONTRATO DE LOCAÇÃO NÃO RESIDENCIAL (pp. 1–2)
+
+### 1. Partes, objeto e prazo
+Locador: Imobiliária-C Ltda. | Locatária: Clínica-B. Objeto: conjunto comercial sede da clínica em Comarca-X (Cl. 1, p. 1). Prazo: 60 meses, 01/02/2023–31/01/2028 (Cl. 2, p. 1).
+
+**⚠ Risco 1.1 🟠 — Prazo residual curto**
+Na data desta análise (13/10/2026), restam aproximadamente **15 meses** de vigência. O imóvel é a sede operacional da clínica. Não há cláusula de renovação compulsória ou preferência de renovação. Se o locador não renovar, a clínica pode perder seu endereço.
+> Cláusula 2, p. 1. Cláusula de renovação: **não consta**.
+
+---
+
+### 2. Preço, pagamento e reajuste
+Aluguel de R$ 9.800,00/mês, reajuste anual pelo IPCA (Cl. 3, p. 1). Índice previsto; sem renúncia a reequilíbrio.
+> Sem riscos relevantes neste item.
+
+---
+
+### 3. Multas e penalidades
+Multa de 3 aluguéis (= R$ 29.400,00) na rescisão antecipada pela locatária, proporcional ao tempo restante (Cl. 6, p. 1).
+
+**⚠ Risco 1.2 🟡 — Multa assimétrica**
+A multa está prevista apenas para a locatária. Não há multa ou reparação se o locador rescindir o contrato antecipadamente ou recusar a renovação.
+> Cláusula 6, p. 1. Multa para o locador: **não consta**.
+
+---
+
+### 4. Rescisão
+Rescisão antecipada pela locatária com multa proporcional (Cl. 6, p. 1). Rescisão pelo locador: **não consta**. Aviso prévio para qualquer parte: **não consta**.
+
+---
+
+### 5. Responsabilidade, indenização e benfeitorias
+
+**⚠ Risco 1.3 🟠 — Renúncia a benfeitorias necessárias**
+A cláusula 8 estabelece renúncia expressa a indenização e retenção por **quaisquer** benfeitorias, "inclusive as necessárias". O Código Civil (art. 1.219) e a Lei do Inquilinato (art. 35) protegem o locatário quanto às benfeitorias necessárias, e parte da jurisprudência considera inválida essa renúncia. Contudo, em contratos não residenciais celebrados entre empresas, a autonomia da vontade pode ser invocada (CC, art. 421-A). O risco concreto: obras de adaptação médica (acesso, biossegurança, rede elétrica) podem somar valores expressivos sem direito a ressarcimento ou retenção.
+> Cláusula 8, p. 1.
+
+---
+
+### 6. Garantias e ônus
+Seguro-fiança (Cl. 5, p. 1). Sem penhor, fiança pessoal ou alienação sobre o imóvel mencionados.
+
+---
+
+### 7. Mudança de controle, cessão e exclusividade
+**⚠ Risco 1.4 🟡 — Ausência de cláusula de mudança de controle**
+Não há previsão sobre o que ocorre com o contrato após a alteração societária da locatária. Dependendo da posição do locador, é possível que invoque rescisão por inadimplemento contratual implícito. Recomenda-se obter anuência formal do locador antes do fechamento.
+> Cláusula de mudança de controle/cessão: **não consta**.
+
+---
+
+### 8–9. Contratos de trabalho / Dados pessoais
+Não se aplica a este documento.
+
+---
+
+### 10. Foro
+Comarca-X (Cl. 9, p. 2).
+
+---
+
+### ⚠ Risco 1.5 🟠 — Anexo II ausente do data room
+O laudo de vistoria (Anexo II) é referência obrigatória para definir o estado de devolução do imóvel (Cl. 7, p. 1) e delimitar a extensão das obras autorizadas. Sem ele, o comprador não sabe quais adaptações já existiam, quais serão exigidas na devolução e qual o custo de restauração.
+> Cláusula 7, p. 1; Anexo II, p. 2. **Documento não incluído no data room.**
+
+---
+
+## DOCUMENTO 2 — CONTRATO DE FORNECIMENTO DE INSUMOS (p. 3)
+
+### 1. Partes, objeto e prazo
+Fornecedor: Distribuidora-D Ltda. | Compradora: Clínica-B. Objeto: materiais descartáveis e curativos (Cl. 1). Prazo: 24 meses, renovável por acordo (Cl. 2). **Data de início não consta** — não é possível saber se o prazo está vigente ou vencido.
+> Data de início: **não consta**.
+
+---
+
+### 2. Preço, pagamento e reajuste
+
+**⚠ Risco 2.1 🔴 — Reajuste unilateral ilimitado pelo fornecedor**
+A cláusula 5 autoriza o fornecedor a "reajustar os preços da tabela **a qualquer tempo**, mediante simples comunicação à compradora, valendo o novo preço para os pedidos seguintes". Não há índice, percentual máximo, periodicidade mínima nem direito de recusa da compradora. Na prática, o fornecedor pode dobrar preços de insumos cirúrgicos entre um pedido e o próximo, impactando diretamente a margem operacional da clínica. A rescisão é o único remédio (30 dias de aviso, Cl. 6), tempo insuficiente para substituição de fornecedor de insumos médicos regulados pela Anvisa.
+> Cláusula 5, p. 3.
+
+---
+
+### 3. Multas e penalidades
+**⚠ Risco 2.2 🟡 — Ausência de penalidade para o fornecedor**
+Não há multa por atraso na entrega (prazo: 5 dias úteis, Cl. 3), por entrega incompleta ou por fornecimento de produto fora das especificações. Todo o risco de descontinuidade de insumos recai sobre a clínica.
+> Multas para o fornecedor: **não consta**.
+
+---
+
+### 4. Rescisão
+Qualquer parte pode rescindir com 30 dias de aviso (Cl. 6, p. 3). Aviso curto para substituição de fornecedor de insumos médicos com registro Anvisa.
+
+---
+
+### 5–9. Responsabilidade / Garantias / Mudança de controle / Dados pessoais
+Responsabilidade por produto defeituoso: **não consta**. Garantias: **não consta**. Mudança de controle: **não consta**. Dados pessoais: não aplicável.
+
+---
+
+### 10. Foro
+**Não consta.**
+
+---
+
+## DOCUMENTO 3 — CONTRATO DE TRABALHO — COORDENADORA DE ENFERMAGEM (p. 4)
+
+> **Dado pessoal:** o nome da empregada consta no original do documento. Não é transcrito neste relatório.
+
+### 1. Partes, objeto e prazo
+Admissão: 01/03/2022, prazo indeterminado. Função: coordenar equipe de enfermagem e protocolos (Cl. 1 e 5, p. 4).
+
+---
+
+### 2. Preço/salário e reajuste
+Salário: R$ 8.500,00/mês (Cl. 2, p. 4). Benefícios: vale-alimentação e plano de saúde (Cl. 4, p. 4). Reajuste salarial: **não consta** no contrato (sujeito à CCT da categoria).
+
+---
+
+### 3–5. Multas / Rescisão / Responsabilidade
+Seguem as regras gerais da CLT; sem cláusulas especiais além da abaixo.
+
+---
+
+### 7. Mudança de controle
+
+**⚠ Risco 3.1 🔴 — Cláusula de estabilidade e indenização por mudança de controle societário**
+Esta é a cláusula de maior impacto financeiro direto para o comprador. A cláusula 6 estabelece:
+- **Garantia de emprego de 36 meses** contados da alteração do controle societário;
+- Se dispensada sem justa causa nesse período: **indenização de 24 salários** (= R$ 204.000,00) **acrescida das verbas rescisórias legais** (aviso prévio indenizado, FGTS + 40%, férias proporcionais, 13º proporcional — estimativa adicional de R$ 30.000–50.000, conforme tempo de serviço na data da dispensa).
+
+A cláusula foi pactuada antes da aquisição e, nos termos do CC art. 421-A, a alocação de riscos deve ser respeitada. O comprador herda essa obrigação ao adquirir as quotas.
+
+**Passivo contingente mínimo identificável: R$ 204.000,00 + verbas rescisórias**, exigível se a coordenadora for dispensada sem justa causa nos 36 meses seguintes ao fechamento.
+> Cláusula 6, p. 4.
+
+---
+
+### 8. Dado pessoal
+Nome da empregada consta no original — dado pessoal comum (não sensível). Não transcrito.
+
+---
+
+### 10. Foro
+**Não consta** (competência trabalhista definida pela CLT — Vara do Trabalho da localidade).
+
+---
+
+## DOCUMENTO 4 — CONTRATO DE TRABALHO — RECEPCIONISTA (p. 5)
+
+> **Dado pessoal:** o nome do empregado consta no original do documento. Não é transcrito neste relatório.
+
+### 1. Partes, objeto e prazo
+Admissão: 10/01/2024, prazo indeterminado (Cl. 1, p. 5). Função: recepção, agenda e cadastro de pacientes (Cl. 4, p. 5).
+
+---
+
+### 2. Salário
+R$ 2.300,00/mês (Cl. 2, p. 5). Reajuste: **não consta**.
+
+---
+
+### 3. Jornada — RISCO CRÍTICO
+
+**⚠ Risco 4.1 🔴 — Jornada ilegal e cláusula de horas extras inválida**
+A cláusula 3 prevê jornada de **12 horas diárias, de segunda a sábado** (6 dias/semana), das 7h às 19h, com 1 hora de intervalo — ou seja, **11 horas efetivas por dia × 6 dias = 66 horas líquidas semanais**.
+
+Isso contraria:
+- **CLT, art. 58**: limite de 8h diárias e 44h semanais;
+- **Súmula 444 do TST**: a jornada 12×36 é lícita apenas mediante acordo ou convenção coletiva, e pressupõe um dia de descanso a cada dois trabalhados — aqui não há folga semanal obrigatória adequada;
+- A cláusula dispõe que as horas extras "já [estão] remuneradas no salário ajustado" — prática denominada **"salário complessivo"**, expressamente vedada pela **Súmula 91 do TST** ("Nula é a cláusula contratual que fixa determinada importância ou percentagem para atender englobadamente vários direitos legais ou contratuais do trabalhador").
+
+**Passivo contingente estimado:** o empregado pode ajuizar reclamação trabalhista pleiteando horas extras das 8ª à 11ª hora diária com adicional de 50% (mínimo), mais **reflexos em DSR, férias + 1/3, 13º salário, FGTS + 40% e multa do art. 477 CLT**. Calculando conservadoramente 3 horas extras/dia × 6 dias × salário-hora de R$ 12,78 (base R$ 2.300/220h) × fator 1,5 × ~140 semanas desde a admissão até hoje, o passivo potencial supera **R$ 45.000,00**, sem contar reflexos e multas. Se o acordo coletivo não ratificar a jornada, o valor pode ser maior.
+
+O comprador assume esse passivo ao adquirir as quotas, pois a sociedade continua a mesma (responsabilidade da pessoa jurídica, não dos sócios).
+> Cláusula 3, p. 5. Acordo ou convenção coletiva de trabalho que autorizaria a jornada: **não consta no data room**.
+
+---
+
+### 6–7. Multa / Mudança de controle
+Multa convencional por dispensa: segue CLT. Cláusula de mudança de controle: **não consta** (ao contrário da coordenadora).
+
+---
+
+### 10. Foro
+**Não consta** (CLT define a competência).
+
+---
+
+## DOCUMENTO 5 — CONTRATO DE LICENÇA DE SOFTWARE DE PRONTUÁRIO ELETRÔNICO (pp. 6–7)
+
+### 1. Partes, objeto e prazo
+Contratada: Software-E Tecnologia Ltda. | Contratante: Clínica-B. Objeto: prontuário eletrônico e agenda em nuvem (Cl. 1, p. 6). Prazo: 12 meses, renovação automática (Cl. 5, p. 6).
+
+---
+
+### 2. Preço e reajuste
+Mensalidade: R$ 1.450,00 (Cl. 2, p. 6). Índice de reajuste: **não consta**. Limite de reajuste: **não consta**.
+
+---
+
+### 3–4. Multas / SLA
+SLA de 99% de disponibilidade mensal (Cl. 4, p. 6) — equivale a até ~7,3h de indisponibilidade/mês. **Penalidade por descumprimento do SLA: não consta.** Suporte apenas em horário comercial (Cl. 3, p. 6) — sem cobertura 24/7 para plantões médicos.
+
+---
+
+### 5. Portabilidade e lock-in dos dados
+**⚠ Risco 5.1 🟠 — Ausência de cláusula de portabilidade e migração**
+Não há previsão de exportação dos prontuários em formato aberto ou de migração assistida em caso de rescisão. A clínica pode ficar reféns do fornecedor para acessar histórico de milhares de pacientes.
+> Cláusula de portabilidade/migração de dados: **não consta**.
+
+---
+
+### 7. Mudança de controle
+**Não consta.**
+
+---
+
+### 9. Dados pessoais — RISCO CRÍTICO (LGPD)
+
+**⚠ Risco 5.2 🔴 — Cláusula de "propriedade" dos dados viola a LGPD**
+A cláusula 7 estabelece que "os dados inseridos e armazenados na plataforma **passam a ser de propriedade da CONTRATADA**, que poderá utilizá-los para **quaisquer fins, inclusive comerciais**, de forma anonimizada ou **não**".
+
+Os prontuários da clínica contêm **dados pessoais sensíveis de saúde** dos pacientes (LGPD, art. 5º, II). O tratamento desses dados para finalidade comercial pela Software-E é ilegal porque:
+- **LGPD, art. 6º, I** (princípio da finalidade): o tratamento deve ser para fins legítimos, específicos e informados ao titular;
+- **LGPD, art. 11, II, "d"**: dados de saúde só podem ser tratados sem consentimento quando "indispensável" para a tutela da saúde — finalidade comercial não se enquadra;
+- A expressão "de forma anonimizada ou **não**" admite expressamente o uso de dados identificados de pacientes para fins comerciais, o que configura violação grave.
+
+**Consequências para o comprador:**
+- A clínica é **controladora** dos dados dos pacientes (LGPD, art. 5º, VI); a Software-E atua como **operadora** (art. 5º, VII). A ANPD pode responsabilizar a clínica pelas infrações do operador (art. 42, § 1º, I);
+- Sanções: advertência, multa de até 2% do faturamento (limitada a R$ 50 milhões/infração), publicização da infração e suspensão do banco de dados (LGPD, art. 52);
+- Risco reputacional e de ações individuais dos titulares.
+
+**Recomendação:** exigir, como condição precedente ao fechamento, a renegociação desta cláusula para conformidade com a LGPD e a assinatura de DPA (Data Processing Agreement) adequado.
+> Cláusula 7, p. 6.
+
+---
+
+**⚠ Risco 5.3 🔴 — Dado pessoal sensível de saúde no Anexo I do data room**
+O Anexo I (p. 7) é um "exemplo de arquivo de exportação" enviado pela contratada na implantação. Ele contém, em texto claro, **dados pessoais sensíveis de saúde de uma paciente identificada**: nome completo, CPF, data de nascimento, diagnóstico psiquiátrico (código CID) e conduta terapêutica com medicação.
+
+Este dado **não será transcrito** neste relatório.
+
+Riscos identificados:
+- A presença desse arquivo no data room — compartilhado com o comprador e possivelmente com outros interessados — **pode configurar, por si só, uma violação de dados pessoais** (LGPD, art. 46 e 48), exigindo notificação à ANPD e à titular;
+- Revela que o sistema exporta prontuários com dados identificados, confirmando o risco da Cl. 7;
+- Diagnóstico de natureza psiquiátrica é dado sensível de saúde especialmente protegido (LGPD, art. 5º, II; CFM Resolução 1.605/2000).
+
+**Recomendação imediata:** notificar o encarregado de dados (DPO) da clínica; avaliar obrigação de notificação à ANPD (prazo de 2 dias úteis após ciência, conforme Regulamento ANPD de 2021); destruir cópias do Anexo I em poder do data room.
+> Anexo I, p. 7.
+
+---
+
+### 10. Foro
+Comarca-X (Cl. 8, p. 6).
+
+---
+
+## DOCUMENTO 6 — INSTRUMENTO PARTICULAR DE CESSÃO DE QUOTAS (2021) (p. 8)
+
+> **Dado pessoal:** nomes do cedente (sócio retirante) e da cessionária (sócia atual) constam no original. Não são transcritos neste relatório.
+
+### 1. Partes, objeto e valor
+Cessão de 5.000 quotas (50% do capital social) por R$ 250.000,00, à vista (Cl. 1 e 2, p. 8).
+
+---
+
+### 6. Garantias e ônus — RISCO CRÍTICO
+
+**⚠ Risco 6.1 🔴 — Penhor sobre 50% das quotas da clínica, possivelmente não quitado**
+A cláusula 4 registra que as quotas cedidas à sócia atual "**permanecem empenhadas em favor do credor do mútuo de R$ 300.000,00 celebrado pela sociedade em 2020**, até a sua integral quitação, o que a CESSIONÁRIA declara conhecer e aceitar".
+
+Riscos:
+- Se o mútuo ainda não foi quitado, o comprador estará adquirindo quotas **gravadas com penhor** (CC, arts. 1.451 e ss.);
+- Em caso de inadimplemento do mútuo, o credor pode excutir o penhor e adjudicar as quotas, esvaziando a participação do comprador;
+- O instrumento de cessão é de **2021**; não há no data room nenhuma certidão de quitação, baixa de penhor ou contrato de mútuo;
+- O mútuo (R$ 300.000,00 em 2020) pode ter encargos vencidos e correção monetária acumulada.
+
+**Recomendação:** exigir, como condição precedente ao fechamento: (a) o contrato de mútuo de 2020; (b) prova de quitação integral e baixa formal do penhor; ou (c) se ainda em vigor, retenção do valor total do mútuo em escrow com quitação no fechamento.
+> Cláusula 4, p. 8.
+
+---
+
+### 7. Mudança de controle, cessão e acordo de sócios
+
+**⚠ Risco 6.2 🔴 — Acordo de Sócios ausente do data room**
+A cláusula 3 determina que "as partes observarão o Acordo de Sócios de 15/03/2021, que **não integra este instrumento**". A nota do data room confirma: **"o Acordo de Sócios de 15/03/2021 não foi incluído neste data room"**.
+
+Riscos:
+- O Acordo pode conter direito de preferência na cessão de quotas — se não observado, a cessão ao comprador pode ser contestada pelos signatários do acordo;
+- Pode haver cláusulas de drag-along (obrigação de venda), tag-along (direito de venda conjunta), lock-up (vedação de transferência por período), ou não-competição;
+- Pode haver restrições específicas à mudança de controle que tornem a operação atual inadmissível sem anuência prévia.
+
+**Recomendação:** exigir a apresentação integral do Acordo de Sócios de 15/03/2021 antes de qualquer avanço na negociação. Sua ausência é um **bloqueador de due diligence**.
+> Cláusula 3, p. 8. Documento: **não incluído no data room**.
+
+---
+
+### 10. Foro
+Comarca-X (Cl. 5, p. 8).
+
+---
+
+## QUADRO-RESUMO DE RISCOS
+
+| # | Gravidade | Documento | Cláusula / Pág. | Risco |
+|---|-----------|-----------|-----------------|-------|
+| 1 | 🔴 Crítico | Doc. 6 | Cl. 4, p. 8 | Penhor sobre 50% das quotas — quitação não comprovada |
+| 2 | 🔴 Crítico | Doc. 6 | Cl. 3, p. 8 | Acordo de Sócios ausente do data room |
+| 3 | 🔴 Crítico | Doc. 5 | Cl. 7, p. 6 | Dados de saúde dos pacientes cedidos para uso comercial — LGPD |
+| 4 | 🔴 Crítico | Doc. 5 | Anexo I, p. 7 | Dado sensível de saúde de paciente identificada exposto no data room |
+| 5 | 🔴 Crítico | Doc. 4 | Cl. 3, p. 5 | Jornada ilegal (66h/semana) + salário complessivo inválido (Súmula 91 TST) |
+| 6 | 🔴 Crítico | Doc. 3 | Cl. 6, p. 4 | Garantia de emprego 36 meses + indenização de 24 salários por mudança de controle |
+| 7 | 🟠 Alto | Doc. 2 | Cl. 5, p. 3 | Reajuste unilateral de preços sem limite pelo fornecedor |
+| 8 | 🟠 Alto | Doc. 1 | Cl. 8, p. 1 | Renúncia a indenização por benfeitorias necessárias |
+| 9 | 🟠 Alto | Doc. 1 | Cl. 2 / Anexo II, pp. 1–2 | Prazo residual de ~15 meses + laudo de vistoria ausente |
+| 10 | 🟠 Alto | Doc. 5 | Cl. 5, p. 6 | Ausência de portabilidade de dados em rescisão (lock-in) |
+| 11 | 🟡 Médio | Doc. 1 | Cl. 6, p. 1 | Multa assimétrica — só para locatária |
+| 12 | 🟡 Médio | Doc. 2 | Cl. 6, p. 3 | Aviso de 30 dias insuficiente para substituir fornecedor de insumos |
+| 13 | 🟡 Médio | Doc. 2 | p. 3 | Data de início não consta — vigência incerta |
+| 14 | 🟡 Médio | Doc. 5 | Cl. 4, p. 6 | Sem penalidade por descumprimento do SLA de 99% |
+
+---
+
+## DOCUMENTOS E INFORMAÇÕES AUSENTES DO DATA ROOM
+*(exigir antes do fechamento)*
+
+| Item | Referência |
+|------|------------|
+| Acordo de Sócios de 15/03/2021 | Doc. 6, Cl. 3, p. 8 |
+| Contrato de mútuo de 2020 e prova de quitação do penhor sobre quotas | Doc. 6, Cl. 4, p. 8 |
+| Laudo de vistoria do imóvel (Anexo II da locação) | Doc. 1, p. 2 |
+| Convenção/Acordo Coletivo de Trabalho aplicável ao recepcionista | Doc. 4, Cl. 3, p. 5 |
+| DPA ou aditivo de LGPD com a Software-E | Doc. 5, Cl. 7, p. 6 |
+| Data de início do contrato de fornecimento | Doc. 2, p. 3 |
+
+---
+
+## RECOMENDAÇÕES PRIORITÁRIAS AO CLIENTE
+
+1. **Não fechar** sem a apresentação integral do Acordo de Sócios de 15/03/2021 e sem comprovação de quitação do mútuo e baixa do penhor sobre as quotas.
+2. **Provisionar** em cláusula de preço ou em conta escrow os passivos trabalhistas do recepcionista (mínimo R$ 45.000,00) e o passivo contingente da coordenadora (mínimo R$ 204.000,00 + verbas).
+3. **Condicionar o fechamento** à renegociação da Cl. 7 do contrato de software, com assinatura de DPA compatível com a LGPD, e à destruição controlada das cópias do Anexo I no data room.
+4. **Notificar imediatamente** o encarregado de dados (DPO) da clínica sobre o Anexo I (p. 7), avaliando a obrigação de comunicação à ANPD.
+5. **Exigir do locador** declaração de anuência à mudança de controle e negociar nova cláusula de renovação do contrato de locação, dado o prazo residual de 15 meses.
+6. **Incluir nas declarações e garantias** do contrato de compra e venda de quotas: (a) inexistência de passivos trabalhistas não declarados; (b) ausência de ônus sobre as quotas; (c) conformidade com a LGPD; (d) validade e vigência de todos os contratos materiais.
+
+[modelUsage: claude-haiku-5-5, claude-sonnet-4-6]
+
