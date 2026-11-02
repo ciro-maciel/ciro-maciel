@@ -91,6 +91,7 @@ const CLASSROOM = bookBySlug('ia-na-sala-de-aula')
 const ACCOUNTING = bookBySlug('ia-na-contabilidade')
 const LAW = bookBySlug('ia-na-advocacia')
 const BUILD = bookBySlug('construir-com-ia')
+const AGENTS = bookBySlug('feito-para-agentes')
 
 /*
  * THE RULE OF THE HEADER (30/10/2026). Each item lives in ONE place: the
@@ -170,6 +171,7 @@ export const MENUS = [
                         ...(kitOf(book.slug) ? { extra: { label: 'Kit online', to: book.kit.path } } : {}),
                     })),
                     { ...bookItem(BUILD, BUILD.forWhom), icon: IconRoute, where: undefined, ...(kitOf(BUILD.slug) ? { extra: { label: 'Kit online', to: BUILD.kit.path } } : {}) },
+                    { ...bookItem(AGENTS, AGENTS.forWhom), icon: IconPlugConnected, where: undefined, ...(kitOf(AGENTS.slug) ? { extra: { label: 'Kit online', to: AGENTS.kit.path } } : {}) },
                 ],
             },
         ],

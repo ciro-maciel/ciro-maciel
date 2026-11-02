@@ -24,8 +24,8 @@
  * "[retirado]". The data is the fictional bakery's; a scan found no key, no
  * local path and no real person.
  *
- * The book is not on sale yet: `open` and `preview` open this kit by its
- * address, with the stand-in book (data/kit-book.js).
+ * The book is in data/books.json since it went on sale on 02/11/2026 (ASIN
+ * B0HQ3XKG1H): the kit is the book's kit, no longer one opened by its address.
  */
 
 export const SYSTEM = {
@@ -782,18 +782,6 @@ export default {
     rulesTitle: 'Três regras antes de qualquer prompt',
     promptsLead: 'Os prompts dos capítulos, palavra por palavra, agrupados pelo passo. O que você preencheu em O seu produto já entra; o resto continua entre colchetes até você preencher. Confira cada resposta como o capítulo ensina.',
     notebook: false,
-    // The book is not on sale yet: the kit opens by its address (data/kit-book.js).
-    open: true,
-    preview: {
-        title: 'Feito para agentes',
-        subtitle: 'Como fazer o agente de IA do seu cliente usar o seu produto: servidor MCP, llms.txt e autorização',
-        volume: 11,
-        kit: { label: 'Kit online' },
-        seoKit: {
-            title: 'Kit online do Feito para agentes: os prompts, a trilha e os testes',
-            description: 'Os prompts do livro Feito para agentes, preenchidos uma vez com o seu produto, a trilha dos 13 passos até o agente do cliente operar o seu produto, e os testes do livro com as 120 conversas inteiras.',
-        },
-    },
     KIT,
     RULES,
     SYSTEM,

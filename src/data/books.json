@@ -368,5 +368,44 @@
             "detail": "Prompts, conferências no navegador e a comparação de fornecedores com a data",
             "path": "/books/construir-com-ia/kit"
         }
+    },
+    {
+        "slug": "feito-para-agentes",
+        "title": "Feito para agentes",
+        "subtitle": "Como fazer o agente de IA do seu cliente usar o seu produto: servidor MCP, llms.txt e autorização",
+        "author": "Ciro Cesar Maciel",
+        "volume": 11,
+        "level": 3,
+        "levelName": "Construir",
+        "hook": "O agente do seu cliente consegue usar o seu produto?",
+        "summary": "O cliente do próximo ano chega pelo agente dele: pede ao Claude ou ao Cursor que faça o trabalho no seu produto. O livro leva o seu produto, um passo por capítulo, de invisível a operável: o que o agente lê, as ferramentas que ele usa, os erros que ele entende, a autorização que ele consegue pedir, o que ele nunca pode fazer sozinho e o teste que prova, com o agente de verdade, que funciona.",
+        "thisVolume": "Este é o volume 11, do nível 3. Ele leva o seu produto de invisível para o agente do cliente a operado por ele: uma peça por capítulo, com o prompt pronto, a conferência feita com um agente de verdade, o que conferir em qualquer fornecedor e o passo no seu próprio produto, feito na estrutura que o autor usa e que o livro segue, com a data.",
+        "bullets": [
+            "Um passo por capítulo, no seu próprio produto",
+            "O teste com o agente de verdade, contado",
+            "O que conferir em qualquer fornecedor"
+        ],
+        "audience": "Para quem já constrói produto, o desenvolvedor que entrega mais com agente e o dono de um sistema pequeno, e quer que o produto seja escolhido e operado pelo agente do cliente.",
+        "chapters": [
+            "O cliente que chega pelo agente",
+            "O que o agente vê do seu produto",
+            "O llms.txt: escrever para quem lê sem olhos",
+            "Documentação como produto",
+            "O servidor MCP: ferramenta, recurso, descrição",
+            "Erros, limites e cotas que o agente entende",
+            "O produto que avisa o agente",
+            "A autorização que o agente consegue pedir",
+            "O login de uma interação",
+            "O que o agente nunca deve poder fazer",
+            "Testar com o agente de verdade",
+            "Preço e plano quando quem usa é o agente",
+            "O que ainda não se sabe, e quando chamar um programador"
+        ],
+        "cover": "/books/feito-para-agentes.jpg",
+        "kit": {
+            "label": "Kit online",
+            "detail": "Prompts, conferências com o agente e a comparação de fornecedores com a data",
+            "path": "/books/feito-para-agentes/kit"
+        }
     }
 ]

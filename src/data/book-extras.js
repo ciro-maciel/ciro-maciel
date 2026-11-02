@@ -154,6 +154,31 @@ export const BOOK_EXTRAS = {
             },
         },
     },
+    'feito-para-agentes': {
+        menuLine: 'O agente de IA do seu cliente usando o seu produto',
+        forWhom: 'Servidor MCP, llms.txt, autorização',
+        // ASIN B0HQ3XKG1H, approved on KDP on 02/11/2026; the product page answered the same day.
+        amazon: 'https://www.amazon.com.br/dp/B0HQ3XKG1H',
+        // A build kit like volume 10's, plus the tests the book ran, so the book page says what this one holds.
+        kitParts: [
+            'O seu produto preenchido uma vez, e os prompts do livro saem prontos para ele',
+            'A trilha dos treze passos, com o que conferir em cada um',
+            'Os testes do livro, com as conversas inteiras',
+            'O que você digita fica no seu navegador',
+        ],
+        // The book page from the book's KDP keywords (learning/feito-para-agentes/KDP.md); the kit's own, kept from
+        // when the kit opened before the book (01/11/2026).
+        seo: {
+            book: {
+                title: 'Feito para agentes: servidor MCP, llms.txt e autorização',
+                description: 'Livro e kit para quem tem um produto e quer que o agente de IA do cliente o use: servidor MCP, llms.txt, OAuth, escopo, erros, webhooks e segurança contra prompt injection.',
+            },
+            kit: {
+                title: 'Kit online do Feito para agentes: os prompts, a trilha e os testes',
+                description: 'Os prompts do livro Feito para agentes, preenchidos uma vez com o seu produto, a trilha dos 13 passos até o agente do cliente operar o seu produto, e os testes do livro com as 120 conversas inteiras.',
+            },
+        },
+    },
 }
 
 export const amazonSearch = book => `https://www.amazon.com.br/s?k=${encodeURIComponent(`${book.title} ${book.author}`)}&i=digital-text`

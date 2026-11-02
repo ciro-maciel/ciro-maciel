@@ -953,6 +953,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://ciromaciel.click/books/feito-para-agentes</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ciromaciel.click/books/feito-para-agentes.jpg</image:loc>
+      <image:title>Feito para agentes: Como fazer o agente de IA do seu cliente usar o seu produto: servidor MCP, llms.txt e autorização</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://ciromaciel.click/books/feito-para-agentes/kit</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>monthly</changefreq>
