@@ -420,7 +420,7 @@ export function DocumentPanel({ chapter, store }) {
         >
             <Stack gap={6}>
                 <Eyebrow>
-                    Capítulo {chapter.number} · {chapter.title}
+                    {chapter.label ?? `Capítulo ${chapter.number}`} · {chapter.title}
                 </Eyebrow>
                 <Text c="gray.9"
                     component="h3"
@@ -542,7 +542,7 @@ function Documents({ kit, store }) {
                 maw={760}
                 mb="xl"
             >
-                Os {chapters.length} documentos do livro, um por capítulo, com as mesmas palavras. Troque o que está entre os sinais de menor e maior. O que você escreve fica só neste navegador; copie ou baixe para guardar.
+                Os {chapters.length} documentos do livro, um por capítulo{chapters.some(chapter => chapter.label) ? ' e um por apêndice' : ''}, com as mesmas palavras. Troque o que está entre os sinais de menor e maior. O que você escreve fica só neste navegador; copie ou baixe para guardar.
             </Text>
 
             {/* A select on the phone, the list grouped by part from `md`. */}
@@ -553,7 +553,7 @@ function Documents({ kit, store }) {
                 label="Documento"
                 data={kit.parts.map(part => ({
                     group: part.title,
-                    items: part.chapters.map(chapter => ({ value: chapter.id, label: `${chapter.number}. ${chapter.document.name}` })),
+                    items: part.chapters.map(chapter => ({ value: chapter.id, label: `${chapter.label ?? `${chapter.number}.`} ${chapter.document.name}` })),
                 }))}
                 value={active.id}
                 onChange={value => value && setCurrent(value)}
@@ -626,7 +626,7 @@ function Documents({ kit, store }) {
                                                         fz="sm"
                                                         style={{ fontVariantNumeric: 'tabular-nums' }}
                                                     >
-                                                        {String(chapter.number).padStart(2, '0')}
+                                                        {chapter.label ? chapter.number : String(chapter.number).padStart(2, '0')}
                                                     </Text>
                                                     <Text
                                                         fw={600}
