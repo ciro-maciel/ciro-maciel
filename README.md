@@ -17,31 +17,3 @@ De graça também: [ferramentas](https://ciromaciel.click/tools?ref=github-profi
 [ciromaciel.click](https://ciromaciel.click/?ref=github-profile) · [YouTube](https://www.youtube.com/@ciro-maciel) · [Instagram](https://www.instagram.com/ciro.maciel)
 
 <sub>**In English.** I build tools and show how to use them: one person, a team of agents, five product lines live. Six native Mac apps, open source (MIT), signed and notarized: [Cleaner](https://github.com/ciro-maciel/cleaner), the Mac cleaner that shows you everything before it deletes anything; [Screenshots](https://github.com/ciro-maciel/screenshots); [Speech to Text](https://github.com/ciro-maciel/speech-to-text); [Assistant](https://github.com/ciro-maciel/voice-assistant), Claude Code by voice; [Windows](https://github.com/ciro-maciel/windows); [Text to Speech](https://github.com/ciro-maciel/text-to-speech). In English and Brazilian Portuguese.</sub>
-
----
-
-## Este repositório
-
-O código de [ciromaciel.click](https://ciromaciel.click/?ref=github-profile): as ferramentas grátis, os livros da série *O Novo Básico*, os apps abertos e as linhas de produto.
-
-### Como é feito
-
-React, Vite e Mantine sobre o design system da casa (`@ciromaciel/components-kit`). O app é uma
-página só, e o build escreve cada página também como HTML pronto, para buscadores e agentes lerem
-sem JavaScript (`scripts/`). O site publica `llms.txt`, um índice de busca e um MCP das ferramentas.
-
-```bash
-bun install
-bun dev        # http://localhost:5173
-bun run build  # dist/
-```
-
-O build completo lê outros repositórios do autor, que são privados: as ferramentas, os livros e as
-ilustrações licenciadas. Sem eles o site sobe, só que sem essas partes.
-
-### Licença
-
-- **O código** (`src/`, `scripts/`, `plugins/`, `tools/`, configuração): [Apache 2.0](LICENSE).
-- **O conteúdo** não é aberto, e todos os direitos ficam reservados ao autor: os textos, os livros
-  e os kits deles, as capas, as fotos e os retratos, as capturas dos produtos, a marca e o nome.
-  Use o código à vontade; o conteúdo, só com autorização.
