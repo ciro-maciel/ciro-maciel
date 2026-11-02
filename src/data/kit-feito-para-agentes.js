@@ -714,7 +714,7 @@ const PATH = [
 // o-que-ainda-nao-se-sabe.md, "Daqui em diante".
 const NEXT = [
     { title: 'Construir com IA, o volume 10', text: 'O caminho que vem antes deste: o sistema no ar, com login, dados e cobrança, para quem cria sem ser programador.', links: [L('O livro', '/books/construir-com-ia')] },
-    { title: 'A empresa de uma pessoa, o volume 12', text: 'Operar um negócio inteiro com agentes: a equipe, a memória, a escada de confiança e o que nenhum agente faz sozinho. Em revisão na Amazon.', links: [] },
+    { title: 'A empresa de uma pessoa, o volume 12', text: 'Operar um negócio inteiro com agentes: a equipe, a memória, a escada de confiança e o que nenhum agente faz sozinho.', links: [L('O livro', '/books/one-person-business')] },
     { title: 'Forward Deployed Engineer, o volume 14', text: 'Em estrutura: fazer disso a profissão.', links: [] },
     { title: 'O canal do autor', text: 'Os vídeos em que o autor mostra a construção.', links: [L('YouTube', 'https://www.youtube.com/@ciro-maciel')] },
 ]
