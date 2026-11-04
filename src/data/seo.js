@@ -154,15 +154,15 @@ export function kitTaskSeo(book, task) {
     // A build kit's prompt has no test result: it says what step it belongs to.
     if (!task.result) {
         return {
-            title: `${task.name}: o prompt do livro ${book.title}`,
-            description: clip(`O prompt do ${task.chap.toLowerCase()} do livro ${book.title}, pronto para preencher com o seu sistema e copiar, no passo em que ele entra.`),
+            title: `${task.name}: o prompt pronto para copiar`,
+            description: clip(`${task.name}: o prompt do ${task.chap.toLowerCase()} do livro ${book.title}, pronto para preencher com o seu sistema e copiar, no passo em que ele entra.`),
             url: `/books/${book.slug}/kit/${task.id}`,
             image: bookCard(book),
         }
     }
     return {
-        title: `${task.name}: o pedido de IA testado no livro`,
-        description: clip(`O pedido pronto do livro ${book.title}, para preencher e copiar. No teste do livro, ${task.result.charAt(0).toLowerCase()}${task.result.slice(1)}`),
+        title: `${task.name}: pedido de IA testado`,
+        description: clip(`${task.name}: no teste do livro, ${task.result.charAt(0).toLowerCase()}${task.result.slice(1)} O pedido pronto do livro ${book.title}, para preencher e copiar.`),
         url: `/books/${book.slug}/kit/${task.id}`,
         image: bookCard(book),
     }
@@ -171,7 +171,7 @@ export function kitTaskSeo(book, task) {
 /** One document of a profession kit, on its own page. `bookMeta` is the kit's own book block. */
 export function kitDocumentSeo(bookMeta, chapter, slug) {
     return {
-        title: `${chapter.document.name}: o modelo do livro ${bookMeta.title}`,
+        title: `${chapter.document.name}: modelo para preencher`,
         description: clip(`${chapter.purpose ?? chapter.question} O documento do capítulo ${chapter.number} do livro ${bookMeta.title}, para preencher no navegador e copiar.`),
         url: `/books/${slug}/kit/${chapter.id}`,
     }
