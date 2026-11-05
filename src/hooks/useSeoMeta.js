@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const BASE_URL = "https://ciromaciel.click";
 const DEFAULT_IMAGE = `${BASE_URL}/opengraph.webp`;
 
-export function useSeoMeta({ title, description, url, image, type = "website" }) {
+export function useSeoMeta({ title, description, url, image, type = "website", canonical }) {
   useEffect(() => {
     // The name joins the title only while the whole stays under 65 characters (scripts/seo-guard.js).
     const named = title ? `${title} — Ciro Cesar Maciel` : "Ciro Cesar Maciel";
@@ -23,12 +23,12 @@ export function useSeoMeta({ title, description, url, image, type = "website" })
     setMeta("name", "twitter:description", description || "");
     setMeta("name", "twitter:image", ogImage);
 
-    setLink("canonical", fullUrl);
+    setLink("canonical", canonical || fullUrl);
 
     return () => {
       document.title = "Ciro Cesar Maciel";
     };
-  }, [title, description, url, image, type]);
+  }, [title, description, url, image, type, canonical]);
 }
 
 function setMeta(attr, name, content) {

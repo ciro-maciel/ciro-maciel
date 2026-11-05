@@ -97,7 +97,8 @@ for (const item of ALTERNATIVES.items) ROUTES.push({ path: `${ALTERNATIVES.path}
 
 // The MCP connectors: /mcp and one page per connector.
 ROUTES.push({ path: MCP.path, changefreq: 'weekly', priority: '0.7' })
-for (const item of MCP.items) ROUTES.push({ path: `${MCP.path}/${item.id}`, changefreq: 'monthly', priority: '0.6' })
+// A connector page points its canonical at <id>.mcp.myagents.click (data/seo.js, mcpSeo), so it stays out of this sitemap.
+for (const item of MCP.items) if (!/\.mcp\.myagents\.click\/?$/.test(item.homepage ?? '')) ROUTES.push({ path: `${MCP.path}/${item.id}`, changefreq: 'monthly', priority: '0.6' })
 
 const registry = await readFile(join(ROOT, 'public', 'tools.json'), 'utf-8')
     .then(JSON.parse)
