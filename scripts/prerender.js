@@ -73,7 +73,7 @@ function render(shell, { seo, ld = [], body }) {
     const replacements = [
         [/<title>[^<]*<\/title>/, `<title>${escape(title)}</title>`],
         meta('name', 'description', seo.description),
-        [/(<link rel="canonical" href=")[^"]*(")/, `$1${escape(url)}$2`],
+        [/(<link rel="canonical" href=")[^"]*(")/, `$1${escape(seo.canonical ?? url)}$2`],
         meta('property', 'og:type', seo.type ?? 'website'),
         meta('property', 'og:url', url),
         meta('property', 'og:title', title),

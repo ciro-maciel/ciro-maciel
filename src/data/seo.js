@@ -254,7 +254,10 @@ export function mcpIndexSeo() {
 
 /** /mcp/<id>. */
 export function mcpSeo(item) {
-    return { title: `${item.title}: conector MCP`, description: clip(`${item.details.headline} ${item.details.lede}`), url: `${MCP.path}/${item.id}` }
+    // The connector's own page at <id>.mcp.myagents.click is the one that answers the search (05/11/2026):
+    // this page points the search engines there instead of competing with it for the same query.
+    const canonical = /^https:\/\/[a-z0-9-]+\.mcp\.myagents\.click\/?$/.test(item.homepage ?? '') ? item.homepage : undefined
+    return { title: `${item.title}: conector MCP`, description: clip(`${item.details.headline} ${item.details.lede}`), url: `${MCP.path}/${item.id}`, canonical }
 }
 
 /** A connector, as schema.org SoftwareApplication: what its page says, nothing more. */
