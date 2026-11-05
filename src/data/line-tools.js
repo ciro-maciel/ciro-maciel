@@ -9,6 +9,7 @@ export const LINE_TOOLS = [
         line: 'Infrastructure',
         tools: [
             { name: 'Qual é o meu IP', url: 'https://myinfrastructure.click/tools/my-ip', text: 'O seu IP público, a localização aproximada e o provedor, na hora.' },
+            { name: 'Whois de domínio', url: 'https://myinfrastructure.click/tools/whois', text: 'Se o domínio está registrado, quando vence, o registrador e o DNS, direto do registro.' },
             { name: 'Meu site está fora do ar?', url: 'https://myinfrastructure.click/tools/is-it-down', text: 'Status, tempo de resposta, HTTPS e redirecionamentos de qualquer site, verificados de fora da sua rede.' },
             { name: 'Página de status grátis', url: 'https://myinfrastructure.click/tools/status-page', text: 'Até cinco endereços verificados agora e desenhados como uma página de status pública.' },
             { name: 'Verificar SPF, DKIM e DMARC', url: 'https://myinfrastructure.click/tools/email-dns-check', text: 'Os registros que decidem se o seu e-mail chega na caixa de entrada, lidos do DNS público e explicados.' },
