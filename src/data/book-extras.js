@@ -75,8 +75,8 @@ export const BOOK_EXTRAS = {
                 description: 'E-book para vendedor, caixa, recepção e telemarketing: use IA para abordar, responder reclamação e fazer o pós-venda, e conheça seus direitos e os do cliente.',
             },
             kit: {
-                title: 'Kit do atendimento e das vendas: prompts e scripts',
-                description: 'Pedidos prontos para abordagem, script de telefone, reclamação e pós-venda, com o que conferir antes de mandar. Grátis para quem tem o livro.',
+                title: 'IA para vendas e atendimento: prompts e scripts testados',
+                description: 'Prompts testados para abordagem, script de telefone, reclamação e pós-venda, com o que conferir antes de mandar. Grátis para quem tem o livro.',
             },
         },
     },
@@ -92,8 +92,8 @@ export const BOOK_EXTRAS = {
                 description: 'E-book para professores da educação básica: use IA para planejar pela BNCC, adaptar atividades, corrigir e escrever relatórios, sem expor dados dos alunos.',
             },
             kit: {
-                title: 'Kit IA na sala de aula: prompts para professores',
-                description: 'Prompts para plano de aula, atividade adaptada, rubrica, parecer e comunicado aos pais, com o que conferir antes de usar. Grátis para quem tem o livro.',
+                title: 'IA para professores: prompts de plano de aula e parecer',
+                description: 'Prompts testados para plano de aula pela BNCC, atividade adaptada, rubrica, parecer e comunicado aos pais, prontos para copiar. Grátis para quem tem o livro.',
             },
         },
     },
@@ -109,8 +109,8 @@ export const BOOK_EXTRAS = {
                 description: 'E-book para contadores, técnicos e auxiliares: IA na conciliação, no Simples, na reforma e nos prazos, sem expor o cliente nem abrir mão da assinatura.',
             },
             kit: {
-                title: 'Kit IA na contabilidade: prompts para contadores',
-                description: 'Prompts para conciliação, fator R, reforma, prazos e e-mail ao cliente, com o que conferir antes de usar. Grátis para quem tem o livro.',
+                title: 'IA para contadores: prompts de conciliação, Simples e prazos',
+                description: 'Prompts testados para conciliação, fator R, reforma, prazos e e-mail ao cliente, prontos para copiar e conferir. Grátis para quem tem o livro.',
             },
         },
     },
@@ -119,12 +119,16 @@ export const BOOK_EXTRAS = {
         forWhom: 'Petição, jurisprudência, prazo, contrato, sigilo',
         // ASIN B0HP85G5RR, "À venda" on the KDP bookshelf on 25/10/2026.
         amazon: 'https://www.amazon.com.br/dp/B0HP85G5RR',
-        // The book page from the book's keyword research (books/ia-na-advocacia/research/palavras-chave.md §4.1);
-        // the kit keeps the default (data/seo.js, kitSeo), which describes what this kit holds.
+        // The book page from the book's keyword research (books/ia-na-advocacia/research/palavras-chave.md §4.1).
         seo: {
             book: {
                 title: 'IA na advocacia: petição, jurisprudência, contrato e sigilo',
                 description: 'E-book para advogados: IA na petição, na pesquisa, no contrato e no atendimento, com toda citação conferida e sem expor o cliente. Kit de prompts.',
+            },
+            // The kit leads with the search it shows up for ("prompts para advogados", 210/month, DataForSEO 05/11/2026).
+            kit: {
+                title: 'Prompts para advogados: petição, jurisprudência e prazos',
+                description: 'Prompts testados para petição, jurisprudência, prazo, contrato e atendimento, prontos para copiar, com o placar do teste. Grátis para quem tem o livro.',
             },
         },
     },
