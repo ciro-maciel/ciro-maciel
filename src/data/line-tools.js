@@ -49,6 +49,7 @@ export const LINE_TOOLS = [
             { name: 'Texto em slides', url: 'https://mymarketing.click/tools/text-to-slides', text: 'Os slides do seu texto, para apresentar em tela cheia ou salvar em PDF.' },
             { name: 'Calculadora de preço de venda', url: 'https://mymarketing.click/tools/price-calculator', text: 'O preço de venda pela margem que você quer, com taxas e impostos.' },
             { name: 'Foto no tamanho do Instagram', url: 'https://mymarketing.click/tools/instagram-image-resizer', text: 'A sua foto no tamanho do post, do story e do status, sem corte errado.' },
+            { name: 'Remover fundo de imagem', url: 'https://mymarketing.click/tools/remove-background', text: 'O fundo da foto sai em segundos, e o PNG transparente fica pronto para baixar.' },
         ],
     },
     {
