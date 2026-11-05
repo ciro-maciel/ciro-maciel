@@ -101,8 +101,8 @@ export function NewsletterBox({ background }) {
                             <Anchor
                                 component={Link}
                                 to="/legal/privacy"
-                                c="dark"
-                                fw={600}
+                                c="gray.9"
+                                fw={700}
                                 inherit
                             >
                                 Política de privacidade
