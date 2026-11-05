@@ -10,6 +10,7 @@ import '../tools.css'
 // Written by `build-tools.js registry` before every dev and build (predev, prebuild).
 import REGISTRY from '../../public/tools.json'
 import { NewsletterBox } from '../components/NewsletterBox'
+import { LINE_TOOLS } from '../data/line-tools'
 
 const LOCALE = 'pt-BR'
 
@@ -411,6 +412,75 @@ export function Tools() {
                                         />
                                     </Group>
                                 </a>
+                            ))}
+                        </SimpleGrid>
+                    </Box>
+
+                    {/* NAS LINHAS (05/11/2026): the free tools of each line, by name, so the
+                        pages the search engines already crawl here lead to them (data/line-tools.js). */}
+                    <Box
+                        id="nas-linhas"
+                        mt={{ base: 80, md: 112 }}
+                        style={{ scrollMarginTop: 120 }}
+                    >
+                        <Group
+                            justify="space-between"
+                            align="baseline"
+                            mb={40}
+                        >
+                            <Title
+                                order={2}
+                                fz={{ base: 24, md: 32 }}
+                            >
+                                Nas linhas
+                            </Title>
+                            <Text
+                                c="gray.5"
+                                fw={500}
+                            >
+                                Grátis, sem cadastro
+                            </Text>
+                        </Group>
+                        <SimpleGrid
+                            cols={{ base: 1, sm: 2, md: 3 }}
+                            spacing={48}
+                        >
+                            {LINE_TOOLS.map(group => (
+                                <Stack
+                                    key={group.line}
+                                    gap="lg"
+                                >
+                                    <Text
+                                        size="xs"
+                                        fw={800}
+                                        tt="uppercase"
+                                        lts="1.5px"
+                                        c="gray.5"
+                                    >
+                                        {group.line}
+                                    </Text>
+                                    {group.tools.map(tool => (
+                                        <a
+                                            key={tool.url}
+                                            href={tool.url}
+                                            style={{ color: 'inherit', textDecoration: 'none' }}
+                                        >
+                                            <Text
+                                                fw={700}
+                                                c="gray.9"
+                                            >
+                                                {tool.name}
+                                            </Text>
+                                            <Text
+                                                size="sm"
+                                                c="gray.6"
+                                                lh={1.6}
+                                            >
+                                                {tool.text}
+                                            </Text>
+                                        </a>
+                                    ))}
+                                </Stack>
                             ))}
                         </SimpleGrid>
                     </Box>

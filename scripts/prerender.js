@@ -38,6 +38,7 @@ import { PROMPTS } from '../src/data/prompts.js'
 import { RULES } from '../src/data/rules.js'
 import { AGENTS } from '../src/data/agents.js'
 import { ALTERNATIVES, alternativesByApp } from '../src/data/alternatives.js'
+import { LINE_TOOLS } from '../src/data/line-tools.js'
 import { MCP, mcpSiblings } from '../src/data/mcp.js'
 import { HERO, LINES, MCP_HOME, SHIFT, TOOLS } from '../src/data/site.js'
 
@@ -338,6 +339,9 @@ async function toolsPage() {
             `<h1>${escape(TOOLS.title)}</h1>`,
             `<p>${escape(TOOLS.description)}</p>`,
             list(tools.map(tool => `${link(`/tools/${tool.id}`, pt(tool.title))}: ${escape(pt(tool.description))}`)),
+            // The lines' free tools (data/line-tools.js), in the HTML a crawler reads before any script.
+            `<h2>Nas linhas</h2>`,
+            ...LINE_TOOLS.map(group => `<h3>${escape(group.line)}</h3>` + list(group.tools.map(tool => `${link(tool.url, tool.name)}: ${escape(tool.text)}`))),
         ].join(''),
     }
 }
