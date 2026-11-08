@@ -242,7 +242,8 @@ export const SHELF = {
     // 31/10/2026: the first half of the headline's promise ("o saber"), said as what the
     // reader fears losing (time on theory they never apply). The series name lives on /books.
     subtitle: 'O saber',
-    title: 'Do primeiro pedido ao sistema no ar.',
+    // 08/11/2026: level 4 went on sale (Forward Deployed Engineer), so the climb ends in the profession.
+    title: 'Do primeiro pedido à profissão.',
     description:
         'Quatro níveis e um livro por ofício, da série O Novo Básico. Você aprende fazendo: cada conversa com a IA no livro é real, e todo fato tem fonte.',
     cta: { label: 'Achar o livro do meu nível', to: '/books' },

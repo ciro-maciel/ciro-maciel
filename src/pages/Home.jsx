@@ -16,7 +16,8 @@ import '../books.css'
 
 // The shelf on the home since 31/10/2026: one book per moment (the steps above already send each
 // reader to theirs); the whole series is one click away, on /books.
-const HOME_BOOKS = BOOKS.filter(book => ['ia-no-dia-a-dia', 'ia-no-escritorio', 'ia-no-pequeno-negocio', 'construir-com-ia'].includes(book.slug))
+// One book per level, in level order (08/11/2026): the shelf shows the whole climb, from the first request to the profession.
+const HOME_BOOKS = BOOKS.filter(book => ['ia-no-dia-a-dia', 'ia-no-escritorio', 'construir-com-ia', 'forward-deployed-engineer'].includes(book.slug))
 
 /**
  * The before/after pair that opens the shift section.
