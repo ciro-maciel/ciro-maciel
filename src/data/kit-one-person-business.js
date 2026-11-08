@@ -101,7 +101,7 @@ const PRODUCTS = [
 ]
 
 const NEXT = [
-    { title: 'Do primeiro visitante ao cliente, o volume 13', text: 'O que vem depois deste: a vitrine, a captação e o relacionamento, montados com agentes.', links: [] },
+    { title: 'Do primeiro visitante ao cliente, o volume 13', text: 'O que vem depois deste: a vitrine, a captação e o relacionamento, montados com agentes.', links: [L('O livro', '/books/do-primeiro-visitante-ao-cliente')] },
     { title: 'Feito para agentes, o volume 11', text: 'Quando o agente do seu cliente é quem chega: o produto que a IA dos outros sabe operar.', links: [L('O livro', '/books/feito-para-agentes')] },
     { title: 'Construir com IA, o volume 10', text: 'O sistema no ar, com login, dados e cobrança, para quem cria sem ser programador.', links: [L('O livro', '/books/construir-com-ia')] },
     { title: 'O canal do autor', text: 'Os vídeos em que o autor mostra a construção.', links: [L('YouTube', 'https://www.youtube.com/@ciro-maciel')] },

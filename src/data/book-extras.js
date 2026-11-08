@@ -207,6 +207,54 @@ export const BOOK_EXTRAS = {
             },
         },
     },
+    'do-primeiro-visitante-ao-cliente': {
+        menuLine: 'A vitrine, a captação e o relacionamento, montados com agentes',
+        forWhom: 'Página, busca, lista, conversa e pós-venda',
+        // ASIN B0HQWZ5XGB, "À venda" on the KDP bookshelf on 08/11/2026.
+        amazon: 'https://www.amazon.com.br/dp/B0HQWZ5XGB',
+        // A build kit like volume 12, so the book page says what this one holds.
+        kitParts: [
+            'O seu negócio preenchido uma vez, e os prompts do livro saem prontos para ele',
+            'A trilha dos catorze passos, do primeiro visitante ao cliente que volta',
+            'Os modelos e os exemplos, prontos para adaptar',
+            'O que você digita fica no seu navegador',
+        ],
+        // The book page from the book's KDP keywords (learning/do-primeiro-visitante-ao-cliente/KDP.md).
+        seo: {
+            book: {
+                title: 'Do primeiro visitante ao cliente: marketing com agentes de IA',
+                description: 'Livro e kit para montar com agentes de IA o caminho do seu negócio: a página que diz o que você faz, o texto que a busca encontra, a newsletter, a conversa com quem chega e o pós-venda, medindo sem se enganar.',
+            },
+            kit: {
+                title: 'Kit online de Do primeiro visitante ao cliente: os prompts e a trilha',
+                description: 'Os prompts do livro Do primeiro visitante ao cliente, preenchidos uma vez com o seu negócio, a trilha dos 14 passos da vitrine ao relacionamento, e os modelos para adaptar.',
+            },
+        },
+    },
+    'forward-deployed-engineer': {
+        menuLine: 'A profissão de quem leva a IA do piloto à produção',
+        forWhom: 'Para engenheiros que querem trabalhar dentro do cliente',
+        // ASIN B0HQXC39TP, "À venda" on the KDP bookshelf on 08/11/2026.
+        amazon: 'https://www.amazon.com.br/dp/B0HQXC39TP',
+        // A profession kit (level 4): the documents of the chapters, ready to fill.
+        kitParts: [
+            'Os documentos de cada capítulo, prontos para preencher e copiar',
+            'Uma semana de exercícios, um por dia',
+            'Os recursos do livro, com fonte e data',
+            'O que você digita fica no seu navegador',
+        ],
+        // The book page from the book's KDP keywords (learning/forward-deployed-engineer/KDP.md).
+        seo: {
+            book: {
+                title: 'Forward Deployed Engineer: a carreira que leva a IA à produção',
+                description: 'Livro e kit sobre a profissão de Forward Deployed Engineer: o que o trabalho é de verdade, como ler as vagas, a descoberta no cliente, os evals, a passagem para produção e o processo seletivo.',
+            },
+            kit: {
+                title: 'Kit online de Forward Deployed Engineer: os documentos da profissão',
+                description: 'Os documentos do livro Forward Deployed Engineer, prontos para preencher: o teste das vagas, o mapa do mercado, o roteiro de descoberta e os outros, com os recursos e as fontes.',
+            },
+        },
+    },
 }
 
 export const amazonSearch = book => `https://www.amazon.com.br/s?k=${encodeURIComponent(`${book.title} ${book.author}`)}&i=digital-text`

@@ -32,7 +32,7 @@ import { fileURLToPath } from 'node:url'
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const BOOKS_DIR = resolve(process.env.BOOKS_DIR || join(ROOT, '..', 'learning'))
 
-const BOOKS = ['ia-no-dia-a-dia', 'ia-por-dentro', 'ia-no-escritorio', 'ia-no-primeiro-trabalho', 'ia-no-pequeno-negocio', 'ia-no-atendimento-e-nas-vendas', 'ia-na-sala-de-aula', 'ia-na-contabilidade', 'ia-na-advocacia', 'construir-com-ia', 'feito-para-agentes', 'one-person-business']
+const BOOKS = ['ia-no-dia-a-dia', 'ia-por-dentro', 'ia-no-escritorio', 'ia-no-primeiro-trabalho', 'ia-no-pequeno-negocio', 'ia-no-atendimento-e-nas-vendas', 'ia-na-sala-de-aula', 'ia-na-contabilidade', 'ia-na-advocacia', 'construir-com-ia', 'feito-para-agentes', 'one-person-business', 'do-primeiro-visitante-ao-cliente', 'forward-deployed-engineer']
 
 function fail(message) {
     console.error(`✗ sync-books: ${message}`)

@@ -62,6 +62,7 @@ import ADV from '../data/kit-ia-na-advocacia'
 import CCI from '../data/kit-construir-com-ia'
 import FPA from '../data/kit-feito-para-agentes'
 import OPB from '../data/kit-one-person-business'
+import DPV from '../data/kit-do-primeiro-visitante-ao-cliente'
 
 /**
  * /books/<slug>/kit — the online kit of a book, inside the site.
@@ -80,7 +81,7 @@ import OPB from '../data/kit-one-person-business'
 
 // One data module per book with a task kit (data/kit-<slug>.js): the parts
 // every kit has, plus `bands`, the sections only that book has.
-export const KITS = { 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB }
+export const KITS = { 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB, 'do-primeiro-visitante-ao-cliente': DPV }
 
 export const KitContext = createContext(ESC)
 const useKit = () => useContext(KitContext)

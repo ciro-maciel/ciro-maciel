@@ -447,5 +447,88 @@
             "detail": "Prompts, modelos e a trilha dos catorze passos",
             "path": "/books/one-person-business/kit"
         }
+    },
+    {
+        "slug": "do-primeiro-visitante-ao-cliente",
+        "title": "Do primeiro visitante ao cliente",
+        "subtitle": "Como montar, com agentes de IA, a vitrine, a captação e o relacionamento do seu negócio",
+        "author": "Ciro Cesar Maciel",
+        "volume": 13,
+        "level": 3,
+        "levelName": "Construir",
+        "hook": "Quem sabe que o seu negócio existe?",
+        "summary": "Um guia para montar, com agentes de IA, o caminho de quem ainda não conhece o seu negócio até quem já paga: a página que diz o que você faz, o texto que a busca encontra, o contato que a pessoa deixa, o preço, a conversa e o que medir. Continua o volume 12, que monta e opera o negócio. Cada capítulo prova o caminho com os registros reais das empresas do autor. Não promete venda nem faturamento.",
+        "thisVolume": "Este é o volume 13, do nível 3. Ele trata de fazer o negócio de uma pessoa vender: montar, com agentes de IA, o caminho de quem ainda não conhece o negócio até quem já paga, e cada capítulo se prova com os registros das empresas do autor, sem abrir nenhum número de resultado.",
+        "bullets": [
+            "A vitrine, a captação e o relacionamento, montados com agentes",
+            "O preço que sobe sozinho e o tempo que vai para vender",
+            "Cada caminho com os registros de uma operação real"
+        ],
+        "audience": "Para quem já tem um negócio no ar, ou quase, e quer montar o próprio caminho de venda sem agência e sem virar criador de conteúdo em tempo integral.",
+        "chapters": [
+            "O negócio no ar que ninguém conhece",
+            "Dez horas por semana",
+            "O preço que sobe sozinho",
+            "A página que diz o que você faz",
+            "O texto que a busca encontra",
+            "O texto de venda que a IA exagera",
+            "Dar antes de pedir",
+            "O link que diz de onde veio",
+            "A newsletter sem lista comprada",
+            "Conteúdo que não depende de você",
+            "A ficha da pessoa",
+            "A conversa, do primeiro contato ao pós-venda",
+            "Medir sem se enganar",
+            "O que o agente de venda nunca faz"
+        ],
+        "cover": "/books/do-primeiro-visitante-ao-cliente.jpg",
+        "kit": {
+            "label": "Kit online",
+            "detail": "Prompts, exemplos e a trilha dos catorze passos",
+            "path": "/books/do-primeiro-visitante-ao-cliente/kit"
+        }
+    },
+    {
+        "slug": "forward-deployed-engineer",
+        "title": "Forward Deployed Engineer",
+        "subtitle": "Como se tornar o engenheiro que leva a IA do piloto à produção",
+        "author": "Ciro Cesar Maciel",
+        "volume": 14,
+        "level": 4,
+        "levelName": "Profissão",
+        "hook": "FDE não é só consultoria com outro nome?",
+        "summary": "O guia em português da profissão que leva a IA do piloto à produção: o que é um Forward Deployed Engineer, por que surgiu agora, como é o trabalho fase a fase, o ofício técnico e o caminho para entrar — o que estudar, o processo seletivo e o mercado no Brasil. Cada afirmação com fonte e data.",
+        "thisVolume": "Este é o volume 14, do nível 4. É o guia da profissão que leva a IA do piloto à produção: o que é o papel, como é o trabalho, o ofício técnico e o caminho para entrar. Ele supõe experiência com software, implantação de sistemas ou pré-venda.",
+        "bullets": [
+            "O que é o papel e por que ele explodiu agora",
+            "O trabalho fase a fase e o ofício técnico",
+            "Como entrar, e o mercado no Brasil"
+        ],
+        "audience": "Para quem desenvolve software e quer chegar ao problema do cliente; para quem implanta sistemas e já vive a última milha sem o título; para quem faz pré-venda e quer construir o que demonstra; e para quem precisa montar um time de FDE.",
+        "chapters": [
+            "O que é um Forward Deployed Engineer",
+            "Por que agora",
+            "Consultoria com crachá?",
+            "Entrar — o escopo e a fatia fina",
+            "Descobrir — os substantivos e os verbos",
+            "Provar — o piloto que vira produção",
+            "Medir — eval é o contrato",
+            "Produção — o que quebra dentro do cliente",
+            "Sair — o caminho de volta",
+            "Integrar o que já existe",
+            "Agentes que o cliente aguenta",
+            "O agente de código como par",
+            "De onde vêm os FDEs",
+            "O que estudar",
+            "O processo seletivo",
+            "O mercado no Brasil",
+            "Depois do campo"
+        ],
+        "cover": "/books/forward-deployed-engineer.jpg",
+        "kit": {
+            "label": "Kit online",
+            "detail": "Documentos para preencher e levar ao cliente",
+            "path": "/books/forward-deployed-engineer/kit"
+        }
     }
 ]
