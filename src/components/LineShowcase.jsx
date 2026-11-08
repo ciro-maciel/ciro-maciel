@@ -79,8 +79,11 @@ export function LineShowcase() {
                     name is the small line under it. */}
                 <Stack
                     gap="md"
-                    maw={640}
+                    maw={720}
+                    mx="auto"
                     mb={48}
+                    align="center"
+                    ta="center"
                 >
                     <Text
                         fz={13}

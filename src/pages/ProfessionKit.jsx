@@ -209,6 +209,7 @@ function Triage({ store }) {
 
     return (
         <Section
+            ta="center"
             id="triagem"
             subtitle="Antes do agente"
             title="A triagem dos passos"
@@ -529,6 +530,7 @@ function Documents({ kit, store }) {
 
     return (
         <Section
+            ta="center"
             id="documentos"
             subtitle="Os documentos"
             title="Preencha aqui, leve para o cliente"
@@ -665,6 +667,7 @@ function Documents({ kit, store }) {
 function Resources({ kit }) {
     return (
         <Section
+            ta="center"
             id="recursos"
             subtitle="Para ir além"
             title="O que o livro indica, aberto e conferido"

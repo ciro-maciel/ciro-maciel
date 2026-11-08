@@ -561,14 +561,17 @@ export function Home() {
             >
                 <Container size="lg">
                     <Stack gap={56}>
-                        <Group
-                            justify="space-between"
-                            align="flex-end"
+                        {/* CENTERED (08/11/2026): every section title of the site sits on the
+                            middle axis, the CTA under the paragraph instead of beside it. */}
+                        <Stack
                             gap="xl"
+                            align="center"
                         >
                             <Stack
                                 gap="md"
-                                maw={640}
+                                maw={720}
+                                align="center"
+                                ta="center"
                             >
                                 <Text
                                     fz={13}
@@ -606,7 +609,7 @@ export function Home() {
                                 to={SHELF.cta.to}
                                 icon={<IconArrowRight size={20} />}
                             />
-                        </Group>
+                        </Stack>
                         {/* FOUR ACROSS FROM md (08/10/2026): with the cards
                             centred, four books in three columns left the
                             fourth alone in a row of its own. The 200px cover

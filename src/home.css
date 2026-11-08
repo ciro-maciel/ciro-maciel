@@ -257,3 +257,39 @@
     .line-tab-domain { display: none !important; }
     .line-panel > * { padding-top: 40px !important; }
 }
+
+/* THE STEPS' DRAWINGS (08/11/2026), the pattern of the line sites' /comece cards (StartCard):
+   licensed line art behind the text, at the bottom right, faint so the sentence reads first.
+   `contain`: transparent drawings, not photos. The only motion is the house's hover. */
+.start-card__art {
+    position: absolute;
+    right: -8%;
+    /* above the action line, so the link never sits on the drawing */
+    bottom: 72px;
+    width: 56%;
+    height: 42%;
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    opacity: 0.14;
+    pointer-events: none;
+    transition:
+        transform 0.4s ease,
+        opacity 0.25s ease;
+}
+
+@media (hover: hover) {
+    .start-card:hover .start-card__art {
+        transform: scale(1.06);
+        opacity: 0.26;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .start-card__art {
+        transition: none;
+    }
+    .start-card:hover .start-card__art {
+        transform: none;
+    }
+}

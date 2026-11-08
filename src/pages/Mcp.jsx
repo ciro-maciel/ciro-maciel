@@ -118,6 +118,9 @@ function SectionTitle({ eyebrow, title, text }) {
         <Stack
             gap="xs"
             maw={760}
+            mx="auto"
+            align="center"
+            ta="center"
         >
             {eyebrow && <Eyebrow>{eyebrow}</Eyebrow>}
             <Title

@@ -19,7 +19,11 @@ const ICONS = { server: IconServer, chart: IconChartBar, article: IconArticle, m
 
 /** A card that goes somewhere: a home anchor (`scrollTo`), a route (`to`) or another site (`href`). */
 function CardLink({ item, children }) {
-    const shared = { p: { base: 'lg', md: 'xl' }, style: { borderRight: LINE, borderBottom: LINE, textDecoration: 'none', color: 'inherit' } }
+    const shared = {
+        p: { base: 'lg', md: 'xl' },
+        className: item.image ? 'start-card' : undefined,
+        style: { borderRight: LINE, borderBottom: LINE, textDecoration: 'none', color: 'inherit', ...(item.image ? { position: 'relative', overflow: 'hidden' } : {}) },
+    }
     if (item.scrollTo)
         return (
             <Box
@@ -63,6 +67,8 @@ function Lead({ text }) {
             c="gray.6"
             mb={48}
             maw={720}
+            mx="auto"
+            ta="center"
             fz={{ base: 16, md: 18 }}
             lh={1.6}
         >
@@ -142,6 +148,7 @@ export function StartSteps() {
             subtitle={steps.subtitle}
             title={steps.title}
             background="white"
+            ta="center"
         >
             <Lead text={steps.description} />
             <SimpleGrid
@@ -154,9 +161,19 @@ export function StartSteps() {
                         key={item.eyebrow}
                         item={item}
                     >
+                        {item.image && (
+                            // The drawing behind the text, as in the line sites' /comece cards: line art with a
+                            // transparent ground, so `contain`, never `cover`; faint enough that the text reads first.
+                            <Box
+                                aria-hidden
+                                className="start-card__art"
+                                style={{ backgroundImage: `url("${encodeURI(item.image)}")` }}
+                            />
+                        )}
                         <Stack
                             gap="sm"
                             h="100%"
+                            pos="relative"
                         >
                             <Text
                                 fz={13}
@@ -216,6 +233,7 @@ export function StartProof() {
             subtitle={proof.subtitle}
             title={proof.title}
             background="gray"
+            ta="center"
         >
             <Lead text={proof.description} />
             <IconCards
@@ -234,6 +252,7 @@ export function StartFollow() {
             subtitle={follow.subtitle}
             title={follow.title}
             background="gray"
+            ta="center"
         >
             <Lead text={follow.description} />
             <IconCards

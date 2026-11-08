@@ -435,6 +435,7 @@ function Prompts() {
 
     return (
         <Section
+            ta="center"
             id="pedidos"
             subtitle="Os pedidos"
             title="Preencha, copie e confira"
@@ -559,6 +560,7 @@ function YourSystem() {
     const [system, setSystem] = usePersisted('system', {})
     return (
         <Section
+            ta="center"
             id="sistema"
             subtitle={`O seu ${thing}`}
             title={SYSTEM.title}
@@ -870,6 +872,7 @@ function Workbench() {
 
     return (
         <Section
+            ta="center"
             id="trilha"
             subtitle="A trilha"
             title={trailTitle}
@@ -1165,6 +1168,7 @@ function Templates() {
 
     return (
         <Section
+            ta="center"
             id="modelos"
             subtitle="Modelos"
             title={hasSheets ? 'Para colar na planilha ou no documento' : 'Para colar no documento'}
@@ -1220,6 +1224,7 @@ function Exercises() {
     const [counts, setCounts] = usePersisted('counts', {})
     return (
         <Section
+            ta="center"
             id="treinos"
             subtitle="Faça agora"
             title="Os treinos do livro, com o material pronto"
@@ -1329,6 +1334,7 @@ function Notebook() {
 
     return (
         <Section
+            ta="center"
             id="caderno"
             subtitle="A parte que só você escreve"
             title="Meu caderno de pedidos"

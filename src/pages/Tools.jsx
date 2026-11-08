@@ -230,9 +230,10 @@ export function Tools() {
                 py={{ base: 80, md: 120 }}
             >
                 <Container size="lg">
-                    <Group
-                        justify="space-between"
-                        align="baseline"
+                    <Stack
+                        gap={4}
+                        align="center"
+                        ta="center"
                         mb={40}
                     >
                         <Title
@@ -247,7 +248,7 @@ export function Tools() {
                         >
                             {count}
                         </Text>
-                    </Group>
+                    </Stack>
 
                     {visible.length === 0 && (
                         <Text
@@ -336,9 +337,10 @@ export function Tools() {
                         mt={{ base: 80, md: 112 }}
                         style={{ scrollMarginTop: 120 }}
                     >
-                        <Group
-                            justify="space-between"
-                            align="baseline"
+                        <Stack
+                            gap={4}
+                            align="center"
+                            ta="center"
                             mb={40}
                         >
                             <Title
@@ -353,7 +355,7 @@ export function Tools() {
                             >
                                 Chrome e VS Code
                             </Text>
-                        </Group>
+                        </Stack>
                         <SimpleGrid
                             cols={{ base: 1, sm: 2, md: 3 }}
                             spacing="xl"
@@ -423,9 +425,10 @@ export function Tools() {
                         mt={{ base: 80, md: 112 }}
                         style={{ scrollMarginTop: 120 }}
                     >
-                        <Group
-                            justify="space-between"
-                            align="baseline"
+                        <Stack
+                            gap={4}
+                            align="center"
+                            ta="center"
                             mb={40}
                         >
                             <Title
@@ -440,7 +443,7 @@ export function Tools() {
                             >
                                 Grátis, sem cadastro
                             </Text>
-                        </Group>
+                        </Stack>
                         <SimpleGrid
                             cols={{ base: 1, sm: 2, md: 3 }}
                             spacing={48}

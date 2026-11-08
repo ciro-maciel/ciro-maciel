@@ -301,11 +301,13 @@ export const START = {
         subtitle: 'Por onde começar',
         title: 'Em que degrau você está?',
         description: 'Cada um começa de um lugar. Escolha a frase que é sua: o próximo passo está embaixo dela.',
+        // Each step carries a drawing behind its text (08/11/2026), the pattern of the line sites'
+        // /comece cards (StartCard): licensed art synced from ciro-maciel/assets, never committed here.
         items: [
-            { eyebrow: 'Degrau 1', name: 'Estou começando a usar IA.', text: 'Pedir, conferir a resposta e proteger os seus dados: o primeiro passo, explicado do zero.', action: 'Começar pelo IA no dia a dia', to: '/books/ia-no-dia-a-dia' },
-            { eyebrow: 'Degrau 2', name: 'Quero usar IA no meu trabalho.', text: 'Um livro por ofício, com as tarefas do dia e o pedido testado: escritório, primeiro emprego, negócio, vendas, sala de aula, contabilidade e advocacia.', action: 'Achar o livro do meu ofício', to: '/books' },
-            { eyebrow: 'Degrau 3', name: 'Quero construir o meu próprio sistema.', text: 'Do protótipo ao sistema no ar, com login, dados e cobrança, um passo por capítulo.', action: 'Ver o Construir com IA', to: '/books/construir-com-ia' },
-            { eyebrow: 'Degrau 4', name: 'Já tenho algo no ar.', text: 'As peças para publicar, medir, atender e trazer gente, pelo seu agente ou pelo painel.', action: 'Ver as linhas', scrollTo: 'infrastructure' },
+            { eyebrow: 'Degrau 1', name: 'Estou começando a usar IA.', text: 'Pedir, conferir a resposta e proteger os seus dados: o primeiro passo, explicado do zero.', action: 'Começar pelo IA no dia a dia', to: '/books/ia-no-dia-a-dia', image: '/art/degrau-comecando.svg' },
+            { eyebrow: 'Degrau 2', name: 'Quero usar IA no meu trabalho.', text: 'Um livro por ofício, com as tarefas do dia e o pedido testado: escritório, primeiro emprego, negócio, vendas, sala de aula, contabilidade e advocacia.', action: 'Achar o livro do meu ofício', to: '/books', image: '/art/degrau-trabalho.svg' },
+            { eyebrow: 'Degrau 3', name: 'Quero construir o meu próprio sistema.', text: 'Do protótipo ao sistema no ar, com login, dados e cobrança, um passo por capítulo.', action: 'Ver o Construir com IA', to: '/books/construir-com-ia', image: '/art/degrau-construir.svg' },
+            { eyebrow: 'Degrau 4', name: 'Já tenho algo no ar.', text: 'As peças para publicar, medir, atender e trazer gente, pelo seu agente ou pelo painel.', action: 'Ver as linhas', scrollTo: 'infrastructure', image: '/art/degrau-no-ar.svg' },
         ],
     },
     proof: {
