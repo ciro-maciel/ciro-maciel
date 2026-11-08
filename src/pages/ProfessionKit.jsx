@@ -784,70 +784,101 @@ export function ProfessionKit() {
                 py={{ base: 80, md: 120 }}
             >
                 <Container size="lg">
-                    <Stack
-                        gap="xl"
-                        align="flex-start"
-                        maw={760}
+                    <Grid
+                        gutter={{ base: 32, md: 64 }}
+                        align="center"
                     >
-                        <Anchor
-                            component={Link}
-                            to={book ? bookPath : '/books'}
-                            c="gray.6"
-                            fz={13}
-                            fw={800}
-                            tt="uppercase"
-                            lts="1.5px"
-                            underline="never"
+                        <Grid.Col
+                            span={{ base: 12, md: book ? 8 : 12 }}
+                            order={{ base: 2, md: 1 }}
                         >
-                            <Group
-                                gap={6}
-                                component="span"
+                            <Stack
+                                gap="xl"
+                                align="flex-start"
+                                maw="100%"
+                                style={{ minWidth: 0 }}
                             >
-                                <IconArrowLeft size={16} />
-                                Kit online · {kit.book.title} · Volume {kit.book.volume}
-                            </Group>
-                        </Anchor>
-                        <Text c="gray.9"
-                            component="h1"
-                            m={0}
-                            fz={{ base: 30, sm: 42, md: 52 }}
-                            lh={1.15}
-                            fw={800}
-                            style={{ letterSpacing: '-0.02em', textWrap: 'balance' }}
-                        >
-                            O kit do {kit.book.title}
-                        </Text>
-                        <Text
-                            fz={{ base: 16, md: 18 }}
-                            c="dimmed"
-                            lh={1.6}
-                        >
-                            O guia de bolso de quem leva a IA para dentro de um cliente. Os documentos do livro, do escopo de uma página ao relatório de volta, para preencher aqui e levar ao cliente; a triagem dos passos antes de qualquer agente; uma primeira semana para começar; e os recursos que o livro indica, conferidos.
-                        </Text>
-                        <Group
-                            gap="lg"
-                            rowGap="xs"
-                        >
-                            {[`${kit.parts.flatMap(part => part.chapters).length} documentos para preencher`, 'A triagem dos passos', 'Fica só no seu navegador'].map(promise => (
-                                <Group
-                                    key={promise}
-                                    gap={6}
-                                    wrap="nowrap"
+                                <Anchor
+                                    component={Link}
+                                    to={book ? bookPath : '/books'}
+                                    c="gray.6"
+                                    fz={13}
+                                    fw={800}
+                                    tt="uppercase"
+                                    lts="1.5px"
+                                    underline="never"
                                 >
-                                    <IconCheck
-                                        size={18}
-                                        stroke={2.5}
-                                    />
-                                    <Text
-                                        size="sm"
-                                        fw={600}
+                                    <Group
+                                        gap={6}
+                                        component="span"
                                     >
-                                        {promise}
-                                    </Text>
+                                        <IconArrowLeft size={16} />
+                                        Kit online · {kit.book.title} · Volume {kit.book.volume}
+                                    </Group>
+                                </Anchor>
+                                <Text c="gray.9"
+                                    component="h1"
+                                    m={0}
+                                    fz={{ base: 30, sm: 42, md: 52 }}
+                                    lh={1.15}
+                                    fw={800}
+                                    style={{ letterSpacing: '-0.02em', textWrap: 'balance' }}
+                                >
+                                    O kit do {kit.book.title}
+                                </Text>
+                                <Text
+                                    fz={{ base: 16, md: 18 }}
+                                    c="dimmed"
+                                    lh={1.6}
+                                >
+                                    O guia de bolso de quem leva a IA para dentro de um cliente. Os documentos do livro, do escopo de uma página ao relatório de volta, para preencher aqui e levar ao cliente; a triagem dos passos antes de qualquer agente; uma primeira semana para começar; e os recursos que o livro indica, conferidos.
+                                </Text>
+                                <Group
+                                    gap="lg"
+                                    rowGap="xs"
+                                >
+                                    {[`${kit.parts.flatMap(part => part.chapters).length} documentos para preencher`, 'A triagem dos passos', 'Fica só no seu navegador'].map(promise => (
+                                        <Group
+                                            key={promise}
+                                            gap={6}
+                                            wrap="nowrap"
+                                        >
+                                            <IconCheck
+                                                size={18}
+                                                stroke={2.5}
+                                            />
+                                            <Text
+                                                size="sm"
+                                                fw={600}
+                                            >
+                                                {promise}
+                                            </Text>
+                                        </Group>
+                                    ))}
                                 </Group>
-                            ))}
-                        </Group>
-                    </Stack>
+                            </Stack>
+                        </Grid.Col>
+                        {book && (
+                            <Grid.Col
+                                span={{ base: 12, md: 4 }}
+                                order={{ base: 1, md: 2 }}
+                            >
+                                <Box
+                                    component={Link}
+                                    to={bookPath}
+                                    style={{ display: 'flex', justifyContent: 'center', lineHeight: 0 }}
+                                >
+                                    <img
+                                        src={book.cover}
+                                        alt={`Capa de ${book.title}`}
+                                        width="240"
+                                        height="384"
+                                        style={{ width: '100%', maxWidth: 200, height: 'auto', border: '1px solid var(--mantine-color-gray-2)' }}
+                                    />
+                                </Box>
+                            </Grid.Col>
+                        )}
+                    </Grid>
                 </Container>
             </Box>
 
