@@ -9,8 +9,8 @@
  * breaks something. What blocks them: "one more thing to configure" and "does it work?".
  * What they leave with: the stack installed in three commands and the first refusal on screen.
  *
- * Every fact here is true on 09/11/2026: 31 rules, 19 skills, 5 lessons of 10 minutes, MIT, macOS and
- * Linux verified, Windows built for and not yet verified, Phonon licenses as published.
+ * Every fact here is true on 09/11/2026: 32 rules, 20 skills, 5 lessons of 10 minutes, MIT, macOS verified, Linux and
+ * Windows built for and not yet verified, Phonon licenses as published.
  * The Pro videos are being recorded: the page says so, and says what arrives when.
  */
 
@@ -21,26 +21,26 @@ export const CCM_STACK = {
     art: '/art/ccm-stack.svg',
 
     seo: {
-        title: 'CCM Stack: o seu agente de código seguindo as suas regras',
+        title: 'CCM Stack: a stack universal que dá inteligência ao seu agente',
         description:
-            'Regras que o Claude Code não consegue ignorar, skills para o que pede julgamento, a voz que avisa quando o trabalho termina e um curso de cinco aulas de dez minutos. Grátis e aberto; o Pro traz as aulas em vídeo e a comunidade.',
+            'A inteligência para o seu agente de código trabalhar do jeito certo: as regras que ele não pula, o jeito certo de consertar, testar e construir, o caminho até o ar e a voz que avisa quando termina. Para Claude Code, Antigravity, Windsurf, Cursor, Codex, Gemini CLI e Copilot. Grátis e aberto.',
     },
 
     hero: {
-        subtitle: 'CCM Stack',
-        title: 'O seu agente concorda com cada regra. Depois quebra numa tarefa longa.',
+        subtitle: 'CCM Stack · a stack universal',
+        title: 'A inteligência para o seu agente trabalhar do jeito certo.',
         description:
-            'O CCM Stack recusa o erro antes de ele acontecer, ensina ao agente o que pede julgamento e fala em voz alta quando o trabalho termina. Para Claude Code, Antigravity, Windsurf, Cursor, Codex, Gemini CLI e Copilot, no Mac, no Linux e no Windows.',
-        note: 'Grátis e aberto, licença MIT. Três comandos, dois minutos.',
+            'O CCM Stack dá ao seu agente de código o que ele não traz sozinho: as regras que ele não consegue pular, o jeito certo de consertar, testar e construir, o caminho do seu computador até o ar e a voz que avisa quando o trabalho termina. Uma stack só, para Claude Code, Antigravity, Windsurf, Cursor, Codex, Gemini CLI e Copilot.',
+        note: 'Grátis e aberto, licença MIT. Funciona onde você já trabalha.',
     },
 
     problem: {
-        subtitle: 'Por que regra escrita não basta',
-        title: 'Texto é sugestão. Nada falha quando o agente pula uma linha.',
+        subtitle: 'O que falta ao agente',
+        title: 'Ele sabe programar. Não sabe trabalhar do seu jeito.',
         description:
-            'Você escreve "use bun" no CLAUDE.md e três sessões depois ele roda npm install. Corrige pela quarta vez e o arquivo já tem 400 linhas, que ele lê até onde alcança. O CCM Stack põe na máquina a regra que a máquina consegue conferir.',
+            'Ele concorda com cada regra que você escreve e quebra numa tarefa longa: você escreve "use bun" e três sessões depois ele roda npm install; corrige pela quarta vez e o CLAUDE.md já tem 400 linhas. A inteligência que falta não é de código, é de trabalho. O CCM Stack põe na máquina o que ela consegue conferir e ensina ao agente o resto.',
         before: {
-            title: 'Hoje',
+            title: 'O agente sozinho',
             items: [
                 'git add -A leva junto o trabalho de outra sessão',
                 'Um repositório privado vira público "para economizar minutos de CI"',
@@ -50,7 +50,7 @@ export const CCM_STACK = {
             ],
         },
         after: {
-            title: 'Com o CCM Stack',
+            title: 'O agente com o CCM Stack',
             items: [
                 'O comando é recusado, com o jeito certo na mesma mensagem',
                 'Mudar a visibilidade para público é recusado, sempre',
@@ -62,8 +62,8 @@ export const CCM_STACK = {
     },
 
     how: {
-        subtitle: 'Como funciona',
-        title: 'O que recusa, o que ensina e o que avisa.',
+        subtitle: 'A inteligência, por camada',
+        title: 'O que recusa, o que ensina, o que publica e o que avisa.',
         description:
             'Cada regra mora num arquivo só, o rules.json. O que a máquina consegue conferir vira hook; o que pede julgamento vira skill. Você vê cada regra, e o que a garante, com /ccm-stack:status.',
         items: [
@@ -91,20 +91,20 @@ export const CCM_STACK = {
     },
 
     proof: {
-        subtitle: 'O que você recebe, grátis',
-        title: 'Tudo aberto, para ler antes de instalar.',
+        subtitle: 'Tudo aberto, grátis',
+        title: 'Uma inteligência que você lê antes de instalar.',
         stats: [
-            { value: '31', label: 'regras, cada uma com o que a garante' },
-            { value: '19', label: 'skills, no formato aberto que as ferramentas de IA leem' },
+            { value: '32', label: 'regras, cada uma com o que a garante' },
+            { value: '20', label: 'skills, no formato aberto que as ferramentas de IA leem' },
             { value: '5', label: 'aulas de dez minutos; a primeira já deixa você usando' },
             { value: '0', label: 'dependências: Node 18 e mais nada' },
         ],
-        note: 'Verificado no macOS e no Linux. No Windows foi feito para funcionar e ainda não rodou numa máquina de verdade: o repositório diz isso com essas palavras.',
+        note: 'Verificado no macOS. No Linux e no Windows foi feito para funcionar e ainda não rodou numa máquina de verdade: o repositório diz isso com essas palavras.',
     },
 
     start: {
         subtitle: 'Como começar',
-        title: 'Três comandos. A primeira recusa em dois minutos.',
+        title: 'Três comandos, e o seu agente já trabalha do jeito certo.',
         steps: [
             {
                 title: 'Adicione e instale',
@@ -134,7 +134,7 @@ export const CCM_STACK = {
             description: 'O CCM Stack inteiro, para sempre.',
             priceText: 'Grátis',
             features: [
-                'As 31 regras, os hooks e as 19 skills',
+                'As 32 regras, os hooks e as 20 skills',
                 'A voz no fim da tarefa',
                 'As 5 aulas em texto, de dez minutos cada',
                 'macOS, Linux e Windows',
@@ -221,21 +221,21 @@ export const CCM_STACK = {
 
     closing: {
         subtitle: 'Comece agora',
-        title: 'Dê autonomia ao agente. Deixe as regras com a máquina.',
-        description: 'Três comandos no Claude Code, e a próxima vez que ele tentar o erro de sempre, a máquina responde por você.',
+        title: 'Dê ao seu agente a inteligência para trabalhar do jeito certo.',
+        description: 'Três comandos, e ele já recusa o erro de sempre, conserta com prova e põe o projeto no ar com um código do seu e-mail.',
         cta: { label: 'Ver no GitHub', href: 'https://github.com/ciro-maciel/ccm-stack' },
     },
 
     // The band on the home (pages/Home.jsx), between the books and the lines.
     home: {
         subtitle: 'CCM Stack',
-        title: 'O seu agente de código seguindo as suas regras.',
+        title: 'A stack universal que dá inteligência ao seu agente.',
         description:
-            'Regras que o Claude Code não consegue ignorar, skills para o que pede julgamento e a voz que avisa quando o trabalho termina. Aberto e grátis, com um curso de cinco aulas de dez minutos.',
+            'As regras que ele não pula, o jeito certo de consertar, testar e construir, e o caminho do seu computador até o ar. Aberto e grátis, com um curso de cinco aulas de dez minutos.',
         featuresList: [
             'Recusa o erro e diz o jeito certo na mesma mensagem',
-            'Copia cada arquivo antes de o agente mexer',
-            'Fala em voz alta quando a tarefa termina',
+            'Do computador ao ar com um código do seu e-mail',
+            'Claude Code, Antigravity, Windsurf, Cursor, Codex, Gemini CLI e Copilot',
         ],
         cta: { label: 'Conhecer o CCM Stack', href: '/ccm-stack' },
     },
