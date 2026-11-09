@@ -41,7 +41,7 @@ const withProductName = item => {
  * runs again (home.css, `.line-panel`). It slides in from the side of the tab
  * that was clicked, so moving right reads as moving right.
  */
-export function LineShowcase() {
+export function LineShowcase({ background = SECTION_BACKGROUNDS.gray } = {}) {
     const [active, setActive] = useState(0)
     const direction = useRef(1)
     const tabRefs = useRef([])
@@ -67,7 +67,7 @@ export function LineShowcase() {
     return (
         <Box
             id="infrastructure"
-            bg={SECTION_BACKGROUNDS.gray}
+            bg={background}
             className="line-showcase"
         >
             <Container
@@ -187,7 +187,7 @@ export function LineShowcase() {
                     imageAlt=""
                     mediaMaw={MEDIA_MAW}
                     cta={tab.cta}
-                    background={SECTION_BACKGROUNDS.gray}
+                    background={background}
                 />
             </div>
         </Box>

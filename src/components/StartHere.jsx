@@ -244,14 +244,14 @@ export function StartProof() {
     )
 }
 
-export function StartFollow() {
+export function StartFollow({ background = 'gray' } = {}) {
     const { follow } = START
     return (
         <Section
             id={follow.id}
             subtitle={follow.subtitle}
             title={follow.title}
-            background="gray"
+            background={background}
             ta="center"
         >
             <Lead text={follow.description} />

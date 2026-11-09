@@ -40,6 +40,7 @@ import { AGENTS } from '../src/data/agents.js'
 import { ALTERNATIVES, alternativesByApp } from '../src/data/alternatives.js'
 import { LINE_TOOLS } from '../src/data/line-tools.js'
 import { MCP, mcpSiblings } from '../src/data/mcp.js'
+import { CCM_STACK } from '../src/data/ccm-stack.js'
 import { HERO, LINES, MCP_HOME, SHIFT, TOOLS } from '../src/data/site.js'
 
 // The task kits, by book (pages/BookKit.jsx keeps the same map).
@@ -248,6 +249,36 @@ function alternativesIndexPage() {
     }
 }
 
+// /ccm-stack (pages/CcmStack.jsx): the same words the page shows, from data/ccm-stack.js.
+function ccmStackPage() {
+    const page = CCM_STACK
+    const seo = { title: page.seo.title, description: page.seo.description, url: page.path }
+    const { free, pro } = page.plans
+    return {
+        seo,
+        ld: [snippetLd(seo), breadcrumbLd([HOME_CRUMB, { name: 'CCM Stack', path: page.path }]), faqLd({ faq: page.faq.questions })],
+        body: [
+            `<p>${escape(page.hero.subtitle)}</p>`,
+            `<h1>${escape(page.hero.title)}</h1>`,
+            `<p>${escape(page.hero.description)}</p>`,
+            `<h2>${escape(page.problem.title)}</h2><p>${escape(page.problem.description)}</p>`,
+            `<h3>${escape(page.problem.before.title)}</h3>${list(page.problem.before.items.map(escape))}`,
+            `<h3>${escape(page.problem.after.title)}</h3>${list(page.problem.after.items.map(escape))}`,
+            `<h2>${escape(page.how.title)}</h2><p>${escape(page.how.description)}</p>`,
+            ...page.how.items.map(item => `<h3>${escape(item.title)}</h3><p>${escape(item.description)}</p>`),
+            `<h2>${escape(page.proof.title)}</h2>${list(page.proof.stats.map(stat => `${escape(stat.value)} ${escape(stat.label)}`))}<p>${escape(page.proof.note)}</p>`,
+            `<h2>${escape(page.start.title)}</h2>`,
+            ...page.start.steps.map(step => `<h3>${escape(step.title)}</h3><p>${escape(step.description)}</p><pre>${escape(step.code)}</pre>`),
+            `<h2>${escape(page.plans.title)}</h2><p>${escape(page.plans.description)}</p>`,
+            `<h3>${escape(free.name)}: ${escape(free.priceText)}</h3>${list(free.features.map(escape))}`,
+            `<h3>${escape(pro.name)}: R$ ${pro.priceDisplay.whole},${pro.priceDisplay.fraction}, ${escape(pro.period)}</h3>${list(pro.features.map(escape))}<p>${escape(pro.note)}</p>`,
+            `<h2>${escape(page.faq.title)}</h2>`,
+            ...page.faq.questions.map(entry => `<h3>${escape(entry.question)}</h3><p>${escape(entry.answer)}</p>`),
+            `<p>${link(page.repo, 'O CCM Stack no GitHub')}</p>`,
+        ].join(''),
+    }
+}
+
 // /mcp and /mcp/<id> (pages/Mcp.jsx).
 const MCP_CRUMB = { name: 'Conectores MCP', path: MCP.path }
 
@@ -396,6 +427,7 @@ for (const collection of [PROMPTS, RULES, AGENTS]) {
 }
 await write(ALTERNATIVES.path, render(shell, alternativesIndexPage()))
 for (const item of ALTERNATIVES.items) await write(`${ALTERNATIVES.path}/${item.slug}`, render(shell, alternativePage(item)))
+await write(CCM_STACK.path, render(shell, ccmStackPage()))
 await write(MCP.path, render(shell, mcpIndexPage()))
 for (const item of MCP.items) await write(`${MCP.path}/${item.id}`, render(shell, mcpPage(item)))
 await write('/tools', render(shell, await toolsPage()))

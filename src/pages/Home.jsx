@@ -9,6 +9,7 @@ import { LineShowcase } from '../components/LineShowcase'
 import '../home.css'
 import { SITE, HERO, SHIFT, PATH, SHELF, BUILD, TOOLS, MEDIA_MAW } from '../data/site'
 import { BOOKS } from '../data/catalog'
+import { CCM_STACK } from '../data/ccm-stack'
 import { BookCard } from '../components/BookCard'
 import { NewsletterBox } from '../components/NewsletterBox'
 import { StartFollow, StartProof, StartSteps } from '../components/StartHere'
@@ -636,7 +637,26 @@ export function Home() {
                 as outras linhas na mesma faixa cinza: quatro abas em cima, e a
                 escolhida troca o bloco embaixo. O Infrastructure abre
                 selecionado, com a copy de sempre (data/site.js). */}
-            <LineShowcase />
+            {/* CCM STACK (09/11/2026), in the middle of the home: after what he wrote and before
+                what he sells, the open stack that makes a coding agent follow the rules. GRAY after
+                the white shelf; the bands below it took the other tone so the run still alternates
+                (lines white, tools gray, follow white, letters gray, footer white by itself). */}
+            <FeatureSplit
+                id="ccm-stack"
+                subtitle={CCM_STACK.home.subtitle}
+                title={CCM_STACK.home.title}
+                descriptionFz={{ base: 17, md: 18 }}
+                description={CCM_STACK.home.description}
+                featuresList={CCM_STACK.home.featuresList}
+                image={CCM_STACK.art}
+                imageAlt=""
+                mediaMaw={MEDIA_MAW}
+                cta={CCM_STACK.home.cta}
+                reverse
+                background={SECTION_BACKGROUNDS.gray}
+            />
+
+            <LineShowcase background={SECTION_BACKGROUNDS.white} />
 
             {/* AS FERRAMENTAS, depois da peça que se compra: o que se usa de
                 graça. A arte é a mesma da página /tools.
@@ -662,7 +682,7 @@ export function Home() {
                 imageAlt=""
                 mediaMaw={MEDIA_MAW}
                 cta={TOOLS.home.cta}
-                background={SECTION_BACKGROUNDS.white}
+                background={SECTION_BACKGROUNDS.gray}
             />
 
             {/* The connectors left the home on 31/10/2026: they are the Agents tab above and the
@@ -675,8 +695,8 @@ export function Home() {
                 footer, so the bands keep alternating. */}
             {/* THE CLOSING (31/10/2026): the open channels (gray), then the letters (white); the
                 footer takes the other tone by itself (site-footer.css). */}
-            <StartFollow />
-            <NewsletterBox background={SECTION_BACKGROUNDS.white} />
+            <StartFollow background="white" />
+            <NewsletterBox background={SECTION_BACKGROUNDS.gray} />
         </>
     )
 }

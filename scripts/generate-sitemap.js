@@ -45,6 +45,7 @@ const BASE_URL = 'https://ciromaciel.click'
 
 const ROUTES = [
     { path: '/', changefreq: 'monthly', priority: '1.0' },
+    { path: '/ccm-stack', changefreq: 'monthly', priority: '0.9' },
     { path: '/branding', changefreq: 'yearly', priority: '0.5' },
     { path: '/design-system', changefreq: 'yearly', priority: '0.5' },
     { path: '/about', changefreq: 'yearly', priority: '0.5' },
