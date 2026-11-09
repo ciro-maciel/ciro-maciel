@@ -239,8 +239,12 @@ export function CcmStack() {
                 description={hero.description}
                 cta={{ label: 'Começar grátis', href: '#comecar', icon: <IconArrowRight size={18} /> }}
                 note={hero.note}
-                // CENTERED (09/11/2026), like every section title of the site: the kit's Hero is one
-                // centered column without media, so the art stays on the home band instead.
+                image={CCM_STACK.art}
+                mediaMaw={360}
+                // The hero keeps the art beside it (Ciro, 09/11/2026); every other title is centered.
+                // The kit's hero size breaks this title one word per line beside the art;
+                // the section-title size keeps it to five lines on a laptop.
+                titleFz="var(--fz-section-title)"
                 background="gray"
             />
 
