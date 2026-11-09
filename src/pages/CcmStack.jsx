@@ -1,6 +1,7 @@
 import { Box, Container, Grid, List, Paper, SimpleGrid, Stack, Text, ThemeIcon, Title } from '@mantine/core'
 import { CodeBlock, CTABanner, FAQ, FeaturesGrid, Hero, Pricing, SECTION_BACKGROUNDS, SectionHeader, StatsGrid } from '@ciromaciel/components-kit'
 import { IconArrowRight, IconBook, IconBrandGithub, IconCheck, IconShieldCheck, IconVolume, IconX, IconListCheck } from '@tabler/icons-react'
+import { useLocation } from 'react-router-dom'
 import { useSeoMeta } from '../hooks/useSeoMeta'
 import { NewsletterBox } from '../components/NewsletterBox'
 import { CCM_STACK } from '../data/ccm-stack'
@@ -169,9 +170,48 @@ function Start() {
     )
 }
 
+// Who comes back from the Mercado Pago checkout lands here with ?pro=pago|pendente|falhou:
+// the first thing they see is what happens now, above the hero.
+function PurchaseReturn() {
+    const { search } = useLocation()
+    const result = CCM_STACK.plans.pro.returns[new URLSearchParams(search).get('pro')]
+    if (!result) return null
+    return (
+        <Box
+            component="section"
+            aria-live="polite"
+            bg={SECTION_BACKGROUNDS.white}
+            py={{ base: 32, md: 40 }}
+            style={{ borderBottom: BORDER }}
+        >
+            <Container size="lg">
+                <Stack
+                    gap={6}
+                    maw={820}
+                >
+                    <Title
+                        order={2}
+                        fz={{ base: 22, md: 26 }}
+                        fw={900}
+                        c="gray.9"
+                    >
+                        {result.title}
+                    </Title>
+                    <Text
+                        fz={{ base: 15, md: 17 }}
+                        c="gray.6"
+                        lh={1.6}
+                    >
+                        {result.text}
+                    </Text>
+                </Stack>
+            </Container>
+        </Box>
+    )
+}
+
 function plansOf() {
     const { free, pro } = CCM_STACK.plans
-    const proCta = pro.isOnSale ? pro.cta : { label: pro.waiting.label, href: pro.waiting.href }
     return [
         { ...free, pricePrefix: null },
         {
@@ -180,8 +220,8 @@ function plansOf() {
             period: ` ${pro.period}`,
             highlight: true,
             highlightBadge: 'COM O CIRO',
-            cta: proCta,
-            note: pro.isOnSale ? pro.note : `${pro.note} ${pro.waiting.note}`,
+            cta: pro.cta,
+            note: pro.note,
         },
     ]
 }
@@ -192,6 +232,7 @@ export function CcmStack() {
 
     return (
         <>
+            <PurchaseReturn />
             <Hero
                 subtitle={hero.subtitle}
                 title={hero.title}

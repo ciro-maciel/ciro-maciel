@@ -154,15 +154,28 @@ export const CCM_STACK = {
                 'As regras novas na comunidade antes de entrarem no pacote',
                 'Acesso para sempre, sem mensalidade',
             ],
-            // The day the checkout exists: isOnSale true and cta.href its address. Until then the
-            // button says what is true, and takes the person to the letters, where the opening is announced.
-            isOnSale: false,
-            note: 'As aulas em vídeo estão sendo gravadas: quem comprar recebe cada uma assim que ela sai, e entra na comunidade no mesmo dia.',
-            cta: { label: 'Quero o Pro', href: null },
-            waiting: {
-                label: 'Avise-me quando abrir',
-                href: '#cartas',
-                note: 'A compra abre nos próximos dias, por Pix ou cartão, pelo mesmo preço. Deixe o seu e-mail nas Cartas do Ciro, logo abaixo, e saiba no dia.',
+            // The checkout: a Mercado Pago Checkout Pro link on the house account (CNPJ), Pix, card or
+            // boleto, created on 09/11/2026 (preference 3642293616-735e50f5…, no expiry). The buyer
+            // comes back to this page with ?pro=pago|pendente|falhou, and `returns` says what happens next.
+            isOnSale: true,
+            note: 'As aulas em vídeo estão sendo gravadas: quem compra recebe cada uma assim que ela sai, e entra na comunidade no mesmo dia.',
+            cta: {
+                label: 'Quero o Pro',
+                href: 'https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=3642293616-735e50f5-54c1-42e7-abdf-a0fae288ddd9',
+            },
+            returns: {
+                pago: {
+                    title: 'Pagamento aprovado. Bem-vindo ao Pro.',
+                    text: 'O Ciro recebe o aviso do Mercado Pago e manda, no mesmo dia, o convite da comunidade para o e-mail que você usou no pagamento. Cada aula em vídeo chega nesse e-mail assim que sai. Enquanto isso, comece pela aula 1, logo abaixo.',
+                },
+                pendente: {
+                    title: 'Pagamento em análise.',
+                    text: 'Pix e boleto levam um tempo para compensar. Assim que o Mercado Pago confirmar, o convite da comunidade chega no e-mail que você usou no pagamento.',
+                },
+                falhou: {
+                    title: 'O pagamento não foi concluído.',
+                    text: 'Nada foi cobrado. Você pode tentar de novo com outro cartão, ou pagar por Pix.',
+                },
             },
         },
     },
