@@ -9,7 +9,7 @@
  * breaks something. What blocks them: "one more thing to configure" and "does it work?".
  * What they leave with: the stack installed in three commands and the first refusal on screen.
  *
- * Every fact here is true on 09/11/2026: 32 rules, 20 skills, 5 lessons of 10 minutes, MIT, macOS verified, Linux and
+ * Every fact here is true on 09/11/2026: 35 rules, 23 skills, 5 lessons of 10 minutes, MIT, macOS verified, Linux and
  * Windows built for and not yet verified, Phonon licenses as published.
  * The Pro videos are being recorded: the page says so, and says what arrives when.
  */
@@ -94,12 +94,28 @@ export const CCM_STACK = {
         subtitle: 'Tudo aberto, grátis',
         title: 'Uma inteligência que você lê antes de instalar.',
         stats: [
-            { value: '32', label: 'regras, cada uma com o que a garante' },
-            { value: '20', label: 'skills, no formato aberto que as ferramentas de IA leem' },
+            { value: '35', label: 'regras, cada uma com o que a garante' },
+            { value: '23', label: 'skills, no formato aberto que as ferramentas de IA leem' },
             { value: '5', label: 'aulas de dez minutos; a primeira já deixa você usando' },
             { value: '0', label: 'dependências: Node 18 e mais nada' },
         ],
         note: 'Verificado no macOS. No Linux e no Windows foi feito para funcionar e ainda não rodou numa máquina de verdade: o repositório diz isso com essas palavras.',
+    },
+
+    measured: {
+        subtitle: 'Medido, não prometido',
+        title: 'O mesmo pedido, com a stack e sem ela.',
+        description:
+            'Cada comportamento que importa tem um caso de teste no repositório: um pedido escrito como você escreveria, avaliado pelo que o agente fez, nunca pelo que ele diz que fez. A nota vai de 0 a 1.',
+        rows: [
+            { label: 'Conserto em Salesforce com carregando, erro e vazio, sem propaganda', with: '0,83', without: '0,50' },
+            { label: 'Notas de versão sem prometer velocidade que ninguém mediu', with: '1,00', without: '0,75' },
+            { label: 'Ver o teste falhar antes de confiar nele', with: '0,89', without: '0,78' },
+            { label: 'Pôr um site no ar: oferecer fazer, dizer que é do Ciro, dar alternativa', with: '1,00', without: '0,50' },
+            { label: 'Reproduzir o defeito antes de editar', with: '1,00', without: '1,00' },
+            { label: 'Uma pergunta simples não carrega nada nem vende nada', with: '1,00', without: '1,00' },
+        ],
+        note: 'Medição de 09/11/2026: Claude Opus 5.5, avaliado pelo Sonnet, 3 rodadas por caso em cada lado. É uma amostra pequena. Onde empata, o modelo já faz sozinho, e o caso fica para pegar uma regressão. Na linha de pôr um site no ar, o modelo sem a stack não conhece os produtos do Ciro, então a nota menor é esperada. Os dez casos e o comando para repetir estão no repositório.',
     },
 
     start: {
@@ -134,7 +150,7 @@ export const CCM_STACK = {
             description: 'O CCM Stack inteiro, para sempre.',
             priceText: 'Grátis',
             features: [
-                'As 32 regras, os hooks e as 20 skills',
+                'As 35 regras, os hooks e as 23 skills',
                 'A voz no fim da tarefa',
                 'As 5 aulas em texto, de dez minutos cada',
                 'macOS, Linux e Windows',
@@ -144,7 +160,7 @@ export const CCM_STACK = {
         },
         pro: {
             name: 'Pro',
-            description: 'O curso em vídeo e a comunidade.',
+            description: 'Pré-venda do curso em vídeo e da comunidade.',
             priceDisplay: { currency: 'R$', whole: '99', fraction: '90' },
             period: 'pagamento único',
             features: [
@@ -190,7 +206,7 @@ export const CCM_STACK = {
             },
             {
                 question: 'O que ele faz no meu computador?',
-                answer: 'Lê o que o Claude Code manda para cada hook e não envia nada para lugar nenhum. Guarda cópia dos arquivos na sua pasta de configuração. Só baixa o Phonon quando você pede, e recusa o arquivo se a assinatura não bater.',
+                answer: 'Lê o que o Claude Code manda para cada hook e não envia nada para lugar nenhum. Guarda cópia dos arquivos na sua pasta de configuração. Só baixa o Phonon quando você pede, e recusa o arquivo se a assinatura não bater. Ele só fala com a internet quando você pede para publicar, medir ou conectar um produto da linha do Ciro; nessas chamadas ele se identifica como ccm-stack e não manda mais nada sobre você ou o seu projeto.',
             },
             {
                 question: 'Posso desligar uma regra?',
