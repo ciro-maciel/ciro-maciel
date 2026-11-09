@@ -1,6 +1,6 @@
 import { Box, Container, Grid, List, Paper, SimpleGrid, Stack, Text, ThemeIcon, Title } from '@mantine/core'
 import { CodeBlock, CTABanner, FAQ, FeaturesGrid, Hero, Pricing, SECTION_BACKGROUNDS, SectionHeader, StatsGrid } from '@ciromaciel/components-kit'
-import { IconArrowRight, IconBook, IconBrandGithub, IconCheck, IconShieldCheck, IconVolume, IconX, IconListCheck } from '@tabler/icons-react'
+import { IconArrowRight, IconBook, IconBrandGithub, IconCheck, IconShieldCheck, IconVolume, IconX, IconRocket } from '@tabler/icons-react'
 import { useLocation } from 'react-router-dom'
 import { useSeoMeta } from '../hooks/useSeoMeta'
 import { NewsletterBox } from '../components/NewsletterBox'
@@ -16,7 +16,7 @@ import { CCM_STACK } from '../data/ccm-stack'
  */
 
 const BORDER = '1px solid var(--mantine-color-gray-2)'
-const HOW_ICONS = [IconShieldCheck, IconBook, IconListCheck, IconVolume]
+const HOW_ICONS = [IconShieldCheck, IconBook, IconRocket, IconVolume]
 
 function BeforeAfter() {
     const { problem } = CCM_STACK

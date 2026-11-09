@@ -9,7 +9,7 @@
  * breaks something. What blocks them: "one more thing to configure" and "does it work?".
  * What they leave with: the stack installed in three commands and the first refusal on screen.
  *
- * Every fact here is true on 09/11/2026: 26 rules, 15 skills, 5 lessons of 10 minutes, MIT, macOS and
+ * Every fact here is true on 09/11/2026: 27 rules, 16 skills, 5 lessons of 10 minutes, MIT, macOS and
  * Linux verified, Windows built for and not yet verified, Phonon licenses as published.
  * The Pro videos are being recorded: the page says so, and says what arrives when.
  */
@@ -78,9 +78,9 @@ export const CCM_STACK = {
                     'Carregam quando a tarefa pede: consertar com prova, saber o que uma mudança quebra, escrever para quem vai ler, testar de um jeito que o defeito fique vermelho, desenhar webhooks e servidores MCP.',
             },
             {
-                title: 'Princípios em toda sessão',
+                title: 'Do computador ao ar',
                 description:
-                    'Entram sozinhos no começo de cada conversa, com o seu idioma e a sua voz. Você não edita o CLAUDE.md.',
+                    'A skill ship publica o seu projeto em um endereço com HTTPS, põe um monitor vigiando e prepara banco, pagamento ou e-mail só se o projeto usar. Você faz uma coisa: lê para o agente o código de 8 letras que chega no seu e-mail.',
             },
             {
                 title: 'A voz no fim da tarefa',
@@ -94,8 +94,8 @@ export const CCM_STACK = {
         subtitle: 'O que você recebe, grátis',
         title: 'Tudo aberto, para ler antes de instalar.',
         stats: [
-            { value: '26', label: 'regras, cada uma com o que a garante' },
-            { value: '15', label: 'skills para Claude Code (e editores que leem SKILL.md)' },
+            { value: '27', label: 'regras, cada uma com o que a garante' },
+            { value: '16', label: 'skills para Claude Code (e editores que leem SKILL.md)' },
             { value: '5', label: 'aulas de dez minutos; a primeira já deixa você usando' },
             { value: '0', label: 'dependências: Node 18 e mais nada' },
         ],
@@ -134,7 +134,7 @@ export const CCM_STACK = {
             description: 'O CCM Stack inteiro, para sempre.',
             priceText: 'Grátis',
             features: [
-                'As 26 regras, os hooks e as 15 skills',
+                'As 27 regras, os hooks e as 16 skills',
                 'A voz no fim da tarefa',
                 'As 5 aulas em texto, de dez minutos cada',
                 'macOS, Linux e Windows',
@@ -199,6 +199,10 @@ export const CCM_STACK = {
             {
                 question: 'A voz em português é grátis?',
                 answer: 'É, para uso não comercial: é a licença do modelo em português (CC BY-NC 4.0). Para uso no trabalho, o setup oferece a voz do próprio sistema, também grátis, ou a Fish Audio com a sua chave.',
+            },
+            {
+                question: 'Ele coloca meu projeto no ar?',
+                answer: 'Coloca. A skill ship usa a linha Infrastructure do Ciro: com o código de 8 letras que chega no seu e-mail, o agente cria a conta, publica o site em um endereço próprio com HTTPS e põe um monitor vigiando. Cada produto começa grátis, sem cartão e sem prazo; se algo pedir um plano, o agente para e diz qual.',
             },
             {
                 question: 'O que muda no Pro?',
