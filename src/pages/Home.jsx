@@ -1,11 +1,12 @@
 import { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Box, Button, Container, Grid, Group, Image, SimpleGrid, Stack, Text, ThemeIcon, Title } from '@mantine/core'
-import { CTAButton, FeatureSplit, SectionHeader, SECTION_BACKGROUNDS, scrollBehavior } from '@ciromaciel/components-kit'
+import { CTAButton, SectionHeader, SECTION_BACKGROUNDS, scrollBehavior } from '@ciromaciel/components-kit'
 import { IconArrowRight, IconCheck } from '@tabler/icons-react'
 import { useSeoMeta } from '../hooks/useSeoMeta'
 import { ShiftRail } from '../components/ShiftRail'
 import { LineShowcase } from '../components/LineShowcase'
+import { CenteredSplit } from '../components/CenteredSplit'
 import '../home.css'
 import { SITE, HERO, SHIFT, PATH, SHELF, BUILD, TOOLS, MEDIA_MAW } from '../data/site'
 import { BOOKS } from '../data/catalog'
@@ -641,7 +642,7 @@ export function Home() {
                 what he sells, the open stack that makes a coding agent follow the rules. GRAY after
                 the white shelf; the bands below it took the other tone so the run still alternates
                 (lines white, tools gray, follow white, letters gray, footer white by itself). */}
-            <FeatureSplit
+            <CenteredSplit
                 id="ccm-stack"
                 subtitle={CCM_STACK.home.subtitle}
                 title={CCM_STACK.home.title}
@@ -671,7 +672,7 @@ export function Home() {
                 O CTA é `href`, não `<Link>`: o FeatureSplit do kit repassa só
                 { label, href, ... } ao botão. A página /tools recarrega o app
                 ao chegar, o que num clique de saída da home não se nota. */}
-            <FeatureSplit
+            <CenteredSplit
                 id="ferramentas"
                 subtitle={TOOLS.home.subtitle}
                 title={TOOLS.home.title}

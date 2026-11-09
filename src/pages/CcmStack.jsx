@@ -239,11 +239,8 @@ export function CcmStack() {
                 description={hero.description}
                 cta={{ label: 'Começar grátis', href: '#comecar', icon: <IconArrowRight size={18} /> }}
                 note={hero.note}
-                image={CCM_STACK.art}
-                mediaMaw={360}
-                // The kit's hero size breaks this two-line title one word per line beside the art;
-                // the section-title size keeps it to five lines on a laptop.
-                titleFz="var(--fz-section-title)"
+                // CENTERED (09/11/2026), like every section title of the site: the kit's Hero is one
+                // centered column without media, so the art stays on the home band instead.
                 background="gray"
             />
 
@@ -260,6 +257,7 @@ export function CcmStack() {
                     visual: { type: 'icon-large', icon: HOW_ICONS[index] },
                 }))}
                 background="gray"
+                ta="center"
             />
 
             <StatsGrid
@@ -289,6 +287,7 @@ export function CcmStack() {
                 title={faq.title}
                 questions={faq.questions}
                 background="gray"
+                ta="center"
             />
 
             <CTABanner
