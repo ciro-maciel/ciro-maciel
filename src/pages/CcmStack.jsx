@@ -1,5 +1,5 @@
-import { Box, Container, Grid, List, Paper, SimpleGrid, Stack, Text, ThemeIcon, Title } from '@mantine/core'
-import { CodeBlock, CTABanner, FAQ, FeaturesGrid, Hero, Pricing, SECTION_BACKGROUNDS, SectionHeader, StatsGrid } from '@ciromaciel/components-kit'
+import { Box, Container, Grid, Image, List, Paper, SimpleGrid, Stack, Text, ThemeIcon, Title } from '@mantine/core'
+import { CodeBlock, CTABanner, CTAButton, FAQ, FeaturesGrid, Pricing, SECTION_BACKGROUNDS, SectionHeader, StatsGrid } from '@ciromaciel/components-kit'
 import { IconArrowRight, IconBook, IconBrandGithub, IconCheck, IconShieldCheck, IconVolume, IconX, IconRocket } from '@tabler/icons-react'
 import { useLocation } from 'react-router-dom'
 import { useSeoMeta } from '../hooks/useSeoMeta'
@@ -17,6 +17,95 @@ import { CCM_STACK } from '../data/ccm-stack'
 
 const BORDER = '1px solid var(--mantine-color-gray-2)'
 const HOW_ICONS = [IconShieldCheck, IconBook, IconRocket, IconVolume]
+
+// THE HERO (09/11/2026), drawn like the home's own hero instead of the kit's Hero: the kit centers
+// the button under a left-aligned text, which unbalanced the band. Here the eyebrow, the title, the
+// paragraph, the button and the note share one left edge, and the art is centered on the text's height.
+function CcmHero() {
+    const { hero } = CCM_STACK
+    return (
+        <Box
+            component="section"
+            bg={SECTION_BACKGROUNDS.gray}
+            py={{ base: 80, md: 120 }}
+        >
+            <Container size="lg">
+                <Grid
+                    gutter={{ base: 32, md: 64 }}
+                    align="center"
+                >
+                    <Grid.Col
+                        span={{ base: 12, md: 7 }}
+                        order={{ base: 2, md: 1 }}
+                    >
+                        <Stack
+                            gap="lg"
+                            align="flex-start"
+                            style={{ minWidth: 0 }}
+                        >
+                            <Text
+                                fz={13}
+                                fw={800}
+                                tt="uppercase"
+                                lts="1.5px"
+                                c="gray.5"
+                            >
+                                {hero.subtitle}
+                            </Text>
+                            <Text
+                                component="h1"
+                                m={0}
+                                c="gray.9"
+                                fz={{ base: 32, sm: 44, md: 54 }}
+                                lh={1.1}
+                                fw={900}
+                                style={{ letterSpacing: '-0.03em', textWrap: 'balance' }}
+                            >
+                                {hero.title}
+                            </Text>
+                            <Text
+                                fz={{ base: 16, md: 18 }}
+                                c="gray.6"
+                                lh={1.6}
+                                style={{ maxWidth: 'min(560px, 100%)' }}
+                            >
+                                {hero.description}
+                            </Text>
+                            <Stack
+                                gap="xs"
+                                align="flex-start"
+                                mt="xs"
+                            >
+                                <CTAButton
+                                    label="Começar grátis"
+                                    href="#comecar"
+                                    icon={<IconArrowRight size={18} />}
+                                />
+                                <Text
+                                    fz={13}
+                                    c="gray.5"
+                                >
+                                    {hero.note}
+                                </Text>
+                            </Stack>
+                        </Stack>
+                    </Grid.Col>
+                    <Grid.Col
+                        span={{ base: 12, md: 5 }}
+                        order={{ base: 1, md: 2 }}
+                    >
+                        <Image
+                            src={CCM_STACK.art}
+                            alt=""
+                            maw={{ base: 240, md: 420 }}
+                            mx="auto"
+                        />
+                    </Grid.Col>
+                </Grid>
+            </Container>
+        </Box>
+    )
+}
 
 function BeforeAfter() {
     const { problem } = CCM_STACK
@@ -233,20 +322,7 @@ export function CcmStack() {
     return (
         <>
             <PurchaseReturn />
-            <Hero
-                subtitle={hero.subtitle}
-                title={hero.title}
-                description={hero.description}
-                cta={{ label: 'Começar grátis', href: '#comecar', icon: <IconArrowRight size={18} /> }}
-                note={hero.note}
-                image={CCM_STACK.art}
-                mediaMaw={360}
-                // The hero keeps the art beside it (Ciro, 09/11/2026); every other title is centered.
-                // The kit's hero size breaks this title one word per line beside the art;
-                // the section-title size keeps it to five lines on a laptop.
-                titleFz="var(--fz-section-title)"
-                background="gray"
-            />
+            <CcmHero />
 
             <BeforeAfter />
 
