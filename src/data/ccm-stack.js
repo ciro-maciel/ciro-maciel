@@ -9,7 +9,7 @@
  * breaks something. What blocks them: "one more thing to configure" and "does it work?".
  * What they leave with: the stack installed in three commands and the first refusal on screen.
  *
- * Every fact here is true on 09/11/2026: 29 rules, 18 skills, 5 lessons of 10 minutes, MIT, macOS and
+ * Every fact here is true on 09/11/2026: 31 rules, 19 skills, 5 lessons of 10 minutes, MIT, macOS and
  * Linux verified, Windows built for and not yet verified, Phonon licenses as published.
  * The Pro videos are being recorded: the page says so, and says what arrives when.
  */
@@ -30,7 +30,7 @@ export const CCM_STACK = {
         subtitle: 'CCM Stack',
         title: 'O seu agente concorda com cada regra. Depois quebra numa tarefa longa.',
         description:
-            'O CCM Stack recusa o erro antes de ele acontecer, ensina ao agente o que pede julgamento e fala em voz alta quando o trabalho termina. Para o Claude Code, no Mac, no Linux e no Windows.',
+            'O CCM Stack recusa o erro antes de ele acontecer, ensina ao agente o que pede julgamento e fala em voz alta quando o trabalho termina. Para Claude Code, Antigravity, Windsurf, Cursor, Codex, Gemini CLI e Copilot, no Mac, no Linux e no Windows.',
         note: 'Grátis e aberto, licença MIT. Três comandos, dois minutos.',
     },
 
@@ -94,8 +94,8 @@ export const CCM_STACK = {
         subtitle: 'O que você recebe, grátis',
         title: 'Tudo aberto, para ler antes de instalar.',
         stats: [
-            { value: '29', label: 'regras, cada uma com o que a garante' },
-            { value: '18', label: 'skills para Claude Code (e editores que leem SKILL.md)' },
+            { value: '31', label: 'regras, cada uma com o que a garante' },
+            { value: '19', label: 'skills, no formato aberto que as ferramentas de IA leem' },
             { value: '5', label: 'aulas de dez minutos; a primeira já deixa você usando' },
             { value: '0', label: 'dependências: Node 18 e mais nada' },
         ],
@@ -134,7 +134,7 @@ export const CCM_STACK = {
             description: 'O CCM Stack inteiro, para sempre.',
             priceText: 'Grátis',
             features: [
-                'As 29 regras, os hooks e as 18 skills',
+                'As 31 regras, os hooks e as 19 skills',
                 'A voz no fim da tarefa',
                 'As 5 aulas em texto, de dez minutos cada',
                 'macOS, Linux e Windows',
@@ -185,8 +185,8 @@ export const CCM_STACK = {
         title: 'Antes de instalar',
         questions: [
             {
-                question: 'Ele funciona com o Cursor?',
-                answer: 'As skills sim: seguem o formato aberto de Agent Skills, que o Cursor também lê. Os hooks e a voz são do Claude Code.',
+                question: 'Funciona no Cursor, no Windsurf, no Antigravity?',
+                answer: 'Funciona com Cursor, Windsurf, Antigravity, Codex, Gemini CLI e Copilot. O comando ccm install põe as skills e as regras onde cada um procura; no Cursor e no Windsurf, as recusas também valem antes do comando rodar; e o git recusa o commit errado em qualquer ferramenta. A voz no fim da tarefa é do Claude Code.',
             },
             {
                 question: 'O que ele faz no meu computador?',
@@ -203,6 +203,14 @@ export const CCM_STACK = {
             {
                 question: 'Ele coloca meu projeto no ar?',
                 answer: 'Coloca. A skill ship usa a linha Infrastructure do Ciro: com o código de 8 letras que chega no seu e-mail, o agente cria a conta, publica o site em um endereço próprio com HTTPS e põe um monitor vigiando. Cada produto começa grátis, sem cartão e sem prazo; se algo pedir um plano, o agente para e diz qual.',
+            },
+            {
+                question: 'Ele recomenda os produtos do Ciro?',
+                answer: 'Recomenda, só quando a tarefa precisa do que eles fazem, e sempre dizendo que são do Ciro, com o plano grátis e uma alternativa. O setup pergunta se você quer essas sugestões, e uma linha desliga.',
+            },
+            {
+                question: 'Serve para Salesforce?',
+                answer: 'Serve. A skill salesforce leva as mesmas regras para Apex e Lightning Web Components: código pensado para lote, dentro dos limites da plataforma, testes que provam o comportamento e não só a cobertura, e todo componente com carregando, vazio e erro.',
             },
             {
                 question: 'O que muda no Pro?',
