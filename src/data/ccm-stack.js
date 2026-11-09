@@ -9,7 +9,7 @@
  * breaks something. What blocks them: "one more thing to configure" and "does it work?".
  * What they leave with: the stack installed in three commands and the first refusal on screen.
  *
- * Every fact here is true on 09/11/2026: 26 rules, 15 skills, 16 lessons, MIT, macOS and
+ * Every fact here is true on 09/11/2026: 26 rules, 15 skills, 5 lessons of 10 minutes, MIT, macOS and
  * Linux verified, Windows built for and not yet verified, Phonon licenses as published.
  * The Pro videos are being recorded: the page says so, and says what arrives when.
  */
@@ -23,7 +23,7 @@ export const CCM_STACK = {
     seo: {
         title: 'CCM Stack: o seu agente de código seguindo as suas regras',
         description:
-            'Regras que o Claude Code não consegue ignorar, skills para o que pede julgamento, a voz que avisa quando o trabalho termina e um curso de 16 aulas. Grátis e aberto; o Pro traz as aulas em vídeo e a comunidade.',
+            'Regras que o Claude Code não consegue ignorar, skills para o que pede julgamento, a voz que avisa quando o trabalho termina e um curso de cinco aulas de dez minutos. Grátis e aberto; o Pro traz as aulas em vídeo e a comunidade.',
     },
 
     hero: {
@@ -96,7 +96,7 @@ export const CCM_STACK = {
         stats: [
             { value: '26', label: 'regras, cada uma com o que a garante' },
             { value: '15', label: 'skills para Claude Code (e editores que leem SKILL.md)' },
-            { value: '16', label: 'aulas em texto, em quatro módulos' },
+            { value: '5', label: 'aulas de dez minutos; a primeira já deixa você usando' },
             { value: '0', label: 'dependências: Node 18 e mais nada' },
         ],
         note: 'Verificado no macOS e no Linux. No Windows foi feito para funcionar e ainda não rodou numa máquina de verdade: o repositório diz isso com essas palavras.',
@@ -136,7 +136,7 @@ export const CCM_STACK = {
             features: [
                 'As 26 regras, os hooks e as 15 skills',
                 'A voz no fim da tarefa',
-                'As 16 aulas em texto',
+                'As 5 aulas em texto, de dez minutos cada',
                 'macOS, Linux e Windows',
                 'Licença MIT',
             ],
@@ -149,7 +149,7 @@ export const CCM_STACK = {
             period: 'pagamento único',
             features: [
                 'Tudo o que está no Aberto',
-                'As 16 aulas em vídeo, gravadas pelo Ciro, no Claude Code de verdade',
+                'As 5 aulas em vídeo, gravadas pelo Ciro, no Claude Code de verdade',
                 'A comunidade dos alunos, para tirar dúvida com quem constrói',
                 'As regras novas na comunidade antes de entrarem no pacote',
                 'Acesso para sempre, sem mensalidade',
@@ -189,7 +189,7 @@ export const CCM_STACK = {
             },
             {
                 question: 'O que muda no Pro?',
-                answer: 'O pacote é o mesmo. O Pro traz as 16 aulas em vídeo e a comunidade dos alunos, por R$ 99,90 uma vez só. As aulas estão sendo gravadas e chegam para quem comprou assim que saem.',
+                answer: 'O pacote é o mesmo. O Pro traz as 5 aulas em vídeo e a comunidade dos alunos, por R$ 99,90 uma vez só. As aulas estão sendo gravadas e chegam para quem comprou assim que saem.',
             },
         ],
     },
@@ -206,7 +206,7 @@ export const CCM_STACK = {
         subtitle: 'CCM Stack',
         title: 'O seu agente de código seguindo as suas regras.',
         description:
-            'Regras que o Claude Code não consegue ignorar, skills para o que pede julgamento e a voz que avisa quando o trabalho termina. Aberto e grátis, com um curso de 16 aulas.',
+            'Regras que o Claude Code não consegue ignorar, skills para o que pede julgamento e a voz que avisa quando o trabalho termina. Aberto e grátis, com um curso de cinco aulas de dez minutos.',
         featuresList: [
             'Recusa o erro e diz o jeito certo na mesma mensagem',
             'Copia cada arquivo antes de o agente mexer',
