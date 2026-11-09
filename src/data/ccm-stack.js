@@ -9,7 +9,7 @@
  * breaks something. What blocks them: "one more thing to configure" and "does it work?".
  * What they leave with: the stack installed in three commands and the first refusal on screen.
  *
- * Every fact here is true on 09/11/2026: 27 rules, 16 skills, 5 lessons of 10 minutes, MIT, macOS and
+ * Every fact here is true on 09/11/2026: 29 rules, 18 skills, 5 lessons of 10 minutes, MIT, macOS and
  * Linux verified, Windows built for and not yet verified, Phonon licenses as published.
  * The Pro videos are being recorded: the page says so, and says what arrives when.
  */
@@ -80,7 +80,7 @@ export const CCM_STACK = {
             {
                 title: 'Do computador ao ar',
                 description:
-                    'A skill ship publica o seu projeto em um endereço com HTTPS, põe um monitor vigiando e prepara banco, pagamento ou e-mail só se o projeto usar. Você faz uma coisa: lê para o agente o código de 8 letras que chega no seu e-mail.',
+                    'A skill ship publica o seu projeto em um endereço com HTTPS, põe um monitor vigiando e prepara banco, pagamento ou e-mail só se o projeto usar. Depois mede as visitas e mostra onde está cada cliente, na própria conversa. Você faz uma coisa: lê para o agente o código de 8 letras que chega no seu e-mail.',
             },
             {
                 title: 'A voz no fim da tarefa',
@@ -94,8 +94,8 @@ export const CCM_STACK = {
         subtitle: 'O que você recebe, grátis',
         title: 'Tudo aberto, para ler antes de instalar.',
         stats: [
-            { value: '27', label: 'regras, cada uma com o que a garante' },
-            { value: '16', label: 'skills para Claude Code (e editores que leem SKILL.md)' },
+            { value: '29', label: 'regras, cada uma com o que a garante' },
+            { value: '18', label: 'skills para Claude Code (e editores que leem SKILL.md)' },
             { value: '5', label: 'aulas de dez minutos; a primeira já deixa você usando' },
             { value: '0', label: 'dependências: Node 18 e mais nada' },
         ],
@@ -134,7 +134,7 @@ export const CCM_STACK = {
             description: 'O CCM Stack inteiro, para sempre.',
             priceText: 'Grátis',
             features: [
-                'As 27 regras, os hooks e as 16 skills',
+                'As 29 regras, os hooks e as 18 skills',
                 'A voz no fim da tarefa',
                 'As 5 aulas em texto, de dez minutos cada',
                 'macOS, Linux e Windows',
