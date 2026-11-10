@@ -16,6 +16,7 @@ import { KitRedirect } from './pages/KitRedirect'
 import { KitItem } from './pages/KitItem'
 import { SnippetIndex, SnippetPage } from './pages/Snippet'
 import { AlternativesIndex, AlternativePage } from './pages/Alternatives'
+import { Awesome } from './pages/Awesome'
 import { McpIndex, McpPage } from './pages/Mcp'
 import { CcmStack } from './pages/CcmStack'
 import { PROMPTS } from './data/prompts'
@@ -163,6 +164,13 @@ export function App() {
                     <Route
                         path="/alternatives/:slug"
                         element={<AlternativePage />}
+                    />
+                    {/* THE AWESOME LISTS (10/11/2026): the founder's curated
+                        lists on GitHub, grouped by who they are for
+                        (pages/Awesome.jsx). */}
+                    <Route
+                        path="/awesome"
+                        element={<Awesome />}
                     />
                     {/* CCM STACK (09/11/2026): the open stack that makes a coding
                         agent follow the rules, and its Pro (pages/CcmStack.jsx). */}

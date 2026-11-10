@@ -34,6 +34,7 @@ import { PROMPTS } from '../src/data/prompts.js'
 import { RULES } from '../src/data/rules.js'
 import { AGENTS } from '../src/data/agents.js'
 import { ALTERNATIVES } from '../src/data/alternatives.js'
+import { AWESOME } from '../src/data/awesome.js'
 import { MCP } from '../src/data/mcp.js'
 
 // The task kits, by book (pages/BookKit.jsx keeps the same map).
@@ -95,6 +96,9 @@ for (const collection of [PROMPTS, RULES, AGENTS]) {
 // The alternatives: /alternatives and one page per paid Mac app.
 ROUTES.push({ path: ALTERNATIVES.path, changefreq: 'monthly', priority: '0.7' })
 for (const item of ALTERNATIVES.items) ROUTES.push({ path: `${ALTERNATIVES.path}/${item.slug}`, changefreq: 'monthly', priority: '0.6' })
+
+// The awesome lists: one page, the lists themselves live on GitHub.
+ROUTES.push({ path: AWESOME.path, changefreq: 'weekly', priority: '0.7' })
 
 // The MCP connectors: /mcp and one page per connector.
 ROUTES.push({ path: MCP.path, changefreq: 'weekly', priority: '0.7' })

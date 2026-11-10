@@ -15,6 +15,7 @@
 import BOOKS from './books.json'
 import { BOOK_EXTRAS, SERIES } from './book-extras.js'
 import { ALTERNATIVES } from './alternatives.js'
+import { AWESOME } from './awesome.js'
 import { MCP } from './mcp.js'
 
 export const SITE_URL = 'https://ciromaciel.click'
@@ -199,6 +200,13 @@ export function snippetLd(seo) {
         author: PERSON,
         isPartOf: { '@type': 'WebSite', name: AUTHOR, url: SITE_URL },
     }
+}
+
+// ─── The awesome lists (data/awesome.js) ──────────────────────────────────
+
+/** /awesome. */
+export function awesomeSeo() {
+    return { title: 'Listas awesome', description: clip(AWESOME.description), url: AWESOME.path }
 }
 
 // ─── The alternatives (data/alternatives.js) ──────────────────────────────

@@ -23,7 +23,7 @@ import { fileURLToPath } from 'node:url'
 
 import BOOKS from '../src/data/books.json'
 import { BOOK_EXTRAS, SERIES, amazonSearch } from '../src/data/book-extras.js'
-import { AUTHOR, SITE_URL, bookLd, bookSeo, booksSeo, breadcrumbLd, clip, kitLd, kitSeo, kitTaskSeo, seriesLd, snippetIndexSeo, snippetLd, snippetSeo, alternativeSeo, alternativesIndexSeo, appLd, faqLd, mcpIndexSeo, mcpSeo, mcpLd } from '../src/data/seo.js'
+import { AUTHOR, SITE_URL, bookLd, bookSeo, booksSeo, breadcrumbLd, clip, kitLd, kitSeo, kitTaskSeo, seriesLd, snippetIndexSeo, snippetLd, snippetSeo, alternativeSeo, alternativesIndexSeo, awesomeSeo, appLd, faqLd, mcpIndexSeo, mcpSeo, mcpLd } from '../src/data/seo.js'
 import ESC from '../src/data/kit-ia-no-escritorio.js'
 import EMP from '../src/data/kit-ia-no-primeiro-trabalho.js'
 import ATD from '../src/data/kit-ia-no-atendimento-e-nas-vendas.js'
@@ -38,6 +38,7 @@ import { PROMPTS } from '../src/data/prompts.js'
 import { RULES } from '../src/data/rules.js'
 import { AGENTS } from '../src/data/agents.js'
 import { ALTERNATIVES, alternativesByApp } from '../src/data/alternatives.js'
+import { AWESOME } from '../src/data/awesome.js'
 import { LINE_TOOLS } from '../src/data/line-tools.js'
 import { MCP, mcpSiblings } from '../src/data/mcp.js'
 import { CCM_STACK } from '../src/data/ccm-stack.js'
@@ -249,6 +250,22 @@ function alternativesIndexPage() {
     }
 }
 
+// /awesome (pages/Awesome.jsx).
+function awesomePage() {
+    const seo = awesomeSeo()
+    return {
+        seo,
+        ld: [snippetLd(seo), breadcrumbLd([HOME_CRUMB, { name: AWESOME.eyebrow, path: AWESOME.path }])],
+        body: [
+            `<p>${escape(AWESOME.eyebrow)}</p>`,
+            `<h1>${escape(AWESOME.title)}</h1>`,
+            `<p>${escape(AWESOME.description)}</p>`,
+            ...AWESOME.groups.map(group => `<h2>${escape(group.title)}</h2><p>${escape(group.line)}</p>${list(group.lists.map(item => `<a href="${item.url}?ref=site-awesome">${escape(item.title)}</a>: ${escape(item.description)}`))}`),
+            `<p>${escape(AWESOME.note)}</p>`,
+        ].join(''),
+    }
+}
+
 // /ccm-stack (pages/CcmStack.jsx): the same words the page shows, from data/ccm-stack.js.
 function ccmStackPage() {
     const page = CCM_STACK
@@ -428,6 +445,7 @@ for (const collection of [PROMPTS, RULES, AGENTS]) {
 }
 await write(ALTERNATIVES.path, render(shell, alternativesIndexPage()))
 for (const item of ALTERNATIVES.items) await write(`${ALTERNATIVES.path}/${item.slug}`, render(shell, alternativePage(item)))
+await write(AWESOME.path, render(shell, awesomePage()))
 await write(CCM_STACK.path, render(shell, ccmStackPage()))
 await write(MCP.path, render(shell, mcpIndexPage()))
 for (const item of MCP.items) await write(`${MCP.path}/${item.id}`, render(shell, mcpPage(item)))

@@ -29,7 +29,6 @@ export const LINE_TOOLS = [
             { name: 'Tirar foto de um vídeo', url: 'https://myoperations.click/tools/video-frame', text: 'Pare o vídeo no segundo certo e baixe o quadro em JPG ou PNG, para capa, miniatura ou post. Mostra duração e resolução.' },
             { name: 'Gravar a tela', url: 'https://myoperations.click/tools/screen-recorder', text: 'Grave a tela inteira, uma janela ou uma aba, com o microfone, e baixe o vídeo. Sem instalar nada e sem conta.' },
             { name: 'Transcrever vídeo em texto', url: 'https://myoperations.click/tools/transcribe-video', text: 'A fala do vídeo em texto, em português, com a legenda SRT pronta para baixar.' },
-            { name: 'Checklist online', url: 'https://myoperations.click/tools/checklist', text: 'Cole uma lista, um item por linha, e marque o que já fez. Fica salvo no navegador; copie ou imprima quando quiser.' },
             { name: 'Nome, descrição e regras para grupo', url: 'https://myoperations.click/tools/community-rules', text: 'Ideias de nome por tipo de grupo, a descrição e as regras prontas para colar no WhatsApp, Telegram ou Discord.' },
         ],
     },
