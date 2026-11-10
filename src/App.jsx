@@ -17,6 +17,7 @@ import { KitItem } from './pages/KitItem'
 import { SnippetIndex, SnippetPage } from './pages/Snippet'
 import { AlternativesIndex, AlternativePage } from './pages/Alternatives'
 import { Awesome } from './pages/Awesome'
+import { AwesomeList } from './pages/AwesomeList'
 import { McpIndex, McpPage } from './pages/Mcp'
 import { CcmStack } from './pages/CcmStack'
 import { PROMPTS } from './data/prompts'
@@ -171,6 +172,10 @@ export function App() {
                     <Route
                         path="/awesome"
                         element={<Awesome />}
+                    />
+                    <Route
+                        path="/awesome/:slug"
+                        element={<AwesomeList />}
                     />
                     {/* CCM STACK (09/11/2026): the open stack that makes a coding
                         agent follow the rules, and its Pro (pages/CcmStack.jsx). */}

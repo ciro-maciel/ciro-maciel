@@ -40,6 +40,7 @@ export const KIND_OF_PATH = [
     [/^\/agents\/[^/]+$/, 'agent'],
     [/^\/alternatives\/[^/]+$/, 'alternative'],
     [/^\/mcp\/[^/]+$/, 'mcp'],
+    [/^\/awesome\/[^/]+$/, 'awesome'],
     [/^\/legal\//, 'legal'],
 ]
 

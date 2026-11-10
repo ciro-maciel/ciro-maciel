@@ -197,6 +197,39 @@ Nos anos 1990, saber usar o computador virou linha obrigatória no currículo. O
 - Para quem é: Para quem já constrói produto, o desenvolvedor que entrega mais com agente e o dono de um sistema pequeno, e quer que o produto seja escolhido e operado pelo agente do cliente.
 - Capítulos: O cliente que chega pelo agente; O que o agente vê do seu produto; O llms.txt: escrever para quem lê sem olhos; Documentação como produto; O servidor MCP: ferramenta, recurso, descrição; Erros, limites e cotas que o agente entende; O produto que avisa o agente; A autorização que o agente consegue pedir; O login de uma interação; O que o agente nunca deve poder fazer; Testar com o agente de verdade; Preço e plano quando quem usa é o agente; O que ainda não se sabe, e quando chamar um programador.
 
+### A empresa de uma pessoa: One Person Business: como montar e operar um negócio inteiro com agentes de IA
+
+- Página: https://ciromaciel.click/books/one-person-business
+- Volume 12 de *O Novo Básico*, nível 3 (Construir). E-book, em português.
+- Na Amazon: https://www.amazon.com.br/dp/B0HQ58SJ6W
+- Kit online, aberto: https://ciromaciel.click/books/one-person-business/kit
+- A pergunta da capa: Dá para tocar um negócio de verdade sozinho — e por que agora?
+- Resumo: Um guia para montar e operar um negócio de uma pessoa só com agentes de IA: o que decidir antes, como montar a equipe que não existe e como operar sem quebrar. A venda é o volume 13. Cada capítulo prova o caminho com os registros reais de uma operação em andamento. Não promete faturamento.
+- Para quem é: Para quem constrói com IA, saiba programar ou não, e quer que aquilo vire negócio sem contratar uma equipe. Para quem quer montar um negócio que agentes operam, com uma pessoa só no comando.
+- Capítulos: Uma pessoa, mais de quinze produtos; O que eu não faço; Para quem, de verdade; O diferencial que o concorrente não assina; O que precisa existir embaixo; A equipe que não existe; A memória da equipe; A escada de confiança; O que nenhum agente faz sozinho; Relatório de agente não é verdade; Regra que não vira teste não existe; Vazio não é zero; Quando os sistemas discordam; O Brasil real.
+
+### Do primeiro visitante ao cliente: Como montar, com agentes de IA, a vitrine, a captação e o relacionamento do seu negócio
+
+- Página: https://ciromaciel.click/books/do-primeiro-visitante-ao-cliente
+- Volume 13 de *O Novo Básico*, nível 3 (Construir). E-book, em português.
+- Na Amazon: https://www.amazon.com.br/dp/B0HQWZ5XGB
+- Kit online, aberto: https://ciromaciel.click/books/do-primeiro-visitante-ao-cliente/kit
+- A pergunta da capa: Quem sabe que o seu negócio existe?
+- Resumo: Um guia para montar, com agentes de IA, o caminho de quem ainda não conhece o seu negócio até quem já paga: a página que diz o que você faz, o texto que a busca encontra, o contato que a pessoa deixa, o preço, a conversa e o que medir. Continua o volume 12, que monta e opera o negócio. Cada capítulo prova o caminho com os registros reais das empresas do autor. Não promete venda nem faturamento.
+- Para quem é: Para quem já tem um negócio no ar, ou quase, e quer montar o próprio caminho de venda sem agência e sem virar criador de conteúdo em tempo integral.
+- Capítulos: O negócio no ar que ninguém conhece; Dez horas por semana; O preço que sobe sozinho; A página que diz o que você faz; O texto que a busca encontra; O texto de venda que a IA exagera; Dar antes de pedir; O link que diz de onde veio; A newsletter sem lista comprada; Conteúdo que não depende de você; A ficha da pessoa; A conversa, do primeiro contato ao pós-venda; Medir sem se enganar; O que o agente de venda nunca faz.
+
+### Forward Deployed Engineer: Como se tornar o engenheiro que leva a IA do piloto à produção
+
+- Página: https://ciromaciel.click/books/forward-deployed-engineer
+- Volume 14 de *O Novo Básico*, nível 4 (Profissão). E-book, em português.
+- Na Amazon: https://www.amazon.com.br/dp/B0HQXC39TP
+- Kit online, aberto: https://ciromaciel.click/books/forward-deployed-engineer/kit
+- A pergunta da capa: FDE não é só consultoria com outro nome?
+- Resumo: O guia em português da profissão que leva a IA do piloto à produção: o que é um Forward Deployed Engineer, por que surgiu agora, como é o trabalho fase a fase, o ofício técnico e o caminho para entrar — o que estudar, o processo seletivo e o mercado no Brasil. Cada afirmação com fonte e data.
+- Para quem é: Para quem desenvolve software e quer chegar ao problema do cliente; para quem implanta sistemas e já vive a última milha sem o título; para quem faz pré-venda e quer construir o que demonstra; e para quem precisa montar um time de FDE.
+- Capítulos: O que é um Forward Deployed Engineer; Por que agora; Consultoria com crachá?; Entrar — o escopo e a fatia fina; Descobrir — os substantivos e os verbos; Provar — o piloto que vira produção; Medir — eval é o contrato; Produção — o que quebra dentro do cliente; Sair — o caminho de volta; Integrar o que já existe; Agentes que o cliente aguenta; O agente de código como par; De onde vêm os FDEs; O que estudar; O processo seletivo; O mercado no Brasil; Depois do campo.
+
 ## O kit online do IA no escritório
 
 https://ciromaciel.click/books/ia-no-escritorio/kit
@@ -284,6 +317,38 @@ https://ciromaciel.click/alternatives — Apps de Mac grátis, de código aberto
 - Assistant (https://ciromaciel.click/tools/voice-assistant, código em https://github.com/ciro-maciel/voice-assistant): O Claude Code por voz: diga o nome, peça em voz alta, e ele responde falando enquanto trabalha.
   - Alternativa ao VoiceMode: https://ciromaciel.click/alternatives/voicemode
 
+## Listas awesome
+
+https://ciromaciel.click/awesome — Dezenove listas abertas no GitHub: IA por profissão, Pix, nota fiscal, pagamentos, APIs brasileiras, agentes e livros. Cada uma em português, traduzida para mais 14 idiomas, com JSON e RSS para quem quiser ler por programa.
+
+### IA no trabalho
+
+- Awesome IA no trabalho (https://ciromaciel.click/awesome/awesome-ia-no-trabalho, repositório https://github.com/ciro-maciel/awesome-ia-no-trabalho): IA no trabalho, por profissão: assistentes, privacidade, normas e fontes oficiais para conferir o que a IA escreveu.
+- Awesome IA na advocacia (https://ciromaciel.click/awesome/awesome-ia-advocacia, repositório https://github.com/ciro-maciel/awesome-ia-advocacia): IA para advogados: assistentes, privacidade, normas sobre IA na advocacia e no Judiciário, e as fontes oficiais para conferir.
+- Awesome IA na contabilidade (https://ciromaciel.click/awesome/awesome-ia-contabilidade, repositório https://github.com/ciro-maciel/awesome-ia-contabilidade): IA para contadores: assistentes, privacidade, normas do CFC e as fontes da Receita, do eSocial e do Simples para conferir.
+- Awesome IA na sala de aula (https://ciromaciel.click/awesome/awesome-ia-sala-de-aula, repositório https://github.com/ciro-maciel/awesome-ia-sala-de-aula): IA para professores: assistentes, idade mínima e privacidade de cada um, e as normas da educação para conferir.
+- Awesome IA no atendimento e nas vendas (https://ciromaciel.click/awesome/awesome-ia-atendimento-e-vendas, repositório https://github.com/ciro-maciel/awesome-ia-atendimento-e-vendas): IA para quem atende e vende: assistentes, privacidade, direitos do consumidor e as regras do trabalho de quem está no balcão, no caixa e no telefone.
+- Awesome IA no escritório (https://ciromaciel.click/awesome/awesome-ia-escritorio, repositório https://github.com/ciro-maciel/awesome-ia-escritorio): IA para secretárias, assistentes e auxiliares administrativos: assistentes, privacidade, redação oficial e golpes que chegam por e-mail.
+- Awesome IA no pequeno negócio (https://ciromaciel.click/awesome/awesome-ia-pequeno-negocio, repositório https://github.com/ciro-maciel/awesome-ia-pequeno-negocio): IA para o MEI e o pequeno empresário: assistentes, privacidade, as regras do MEI e do Simples, do consumidor e da LGPD para quem é pequeno.
+- Awesome IA no primeiro trabalho (https://ciromaciel.click/awesome/awesome-ia-primeiro-trabalho, repositório https://github.com/ciro-maciel/awesome-ia-primeiro-trabalho): IA para quem está começando a trabalhar: assistentes, privacidade, onde procurar vaga, os direitos do primeiro emprego e os golpes da vaga falsa.
+
+### Para quem integra
+
+- Awesome Pix (https://ciromaciel.click/awesome/awesome-pix, repositório https://github.com/ciro-maciel/awesome-pix): Pix para quem integra: normas, APIs, SDKs, provedores e ferramentas, conferidos um a um.
+- Awesome NF-e (https://ciromaciel.click/awesome/awesome-nfe, repositório https://github.com/ciro-maciel/awesome-nfe): Nota fiscal eletrônica para quem integra: portais oficiais, bibliotecas por linguagem, APIs de emissão e servidores MCP.
+- Awesome pagamentos Brasil (https://ciromaciel.click/awesome/awesome-pagamentos-brasil, repositório https://github.com/ciro-maciel/awesome-pagamentos-brasil): Pagamentos no Brasil para quem integra: normas, gateways, adquirentes, boleto, assinatura, split e antifraude.
+- Awesome Open Finance Brasil (https://ciromaciel.click/awesome/awesome-open-finance-brasil, repositório https://github.com/ciro-maciel/awesome-open-finance-brasil): Open Finance e Open Insurance no Brasil: normas, especificações, dados abertos, agregadores e código aberto.
+- Awesome WhatsApp API (https://ciromaciel.click/awesome/awesome-whatsapp-api, repositório https://github.com/ciro-maciel/awesome-whatsapp-api): WhatsApp para quem integra: a API oficial da Meta, os provedores, as bibliotecas não oficiais e o risco de cada caminho.
+- Awesome APIs Brasil (https://ciromaciel.click/awesome/awesome-apis-brasil, repositório https://github.com/ciro-maciel/awesome-apis-brasil): APIs públicas brasileiras: CEP, CNPJ, Banco Central, IBGE, Legislativo, Judiciário, feriados e dados abertos.
+- Awesome MCP Brasil (https://ciromaciel.click/awesome/awesome-mcp-brasil, repositório https://github.com/ciro-maciel/awesome-mcp-brasil): Servidores MCP para serviços brasileiros: dados públicos, CNPJ, fiscal, jurídico, mercado financeiro, comércio e pagamentos.
+
+### Para quem constrói e aprende
+
+- Awesome empresa de uma pessoa (https://ciromaciel.click/awesome/awesome-empresa-de-uma-pessoa, repositório https://github.com/ciro-maciel/awesome-empresa-de-uma-pessoa): O que uma pessoa usa para tocar um negócio inteiro com agentes de IA: pôr no ar, cobrar, medir, divulgar e ser encontrada.
+- Awesome Claude Code BR (https://ciromaciel.click/awesome/awesome-claude-code-br, repositório https://github.com/ciro-maciel/awesome-claude-code-br): Claude Code em português: documentação, cursos, skills, regras, plugins e servidores MCP feitos no Brasil.
+- Awesome ferramentas online (https://ciromaciel.click/awesome/awesome-ferramentas-online, repositório https://github.com/ciro-maciel/awesome-ferramentas-online): Ferramentas grátis que abrem no navegador, sem instalar: imagem, PDF, texto, código, sites, e-mail, vídeo e vendas.
+- Awesome livros de IA (https://ciromaciel.click/awesome/awesome-livros-ia, repositório https://github.com/ciro-maciel/awesome-livros-ia): Livros sobre inteligência artificial em português: do primeiro uso à profissão, de quem constrói ao debate.
+
 ## Conectores MCP
 
 https://ciromaciel.click/mcp — 36 conectores MCP com login OAuth, prontos para o Assistant, o Claude e qualquer cliente MCP. O seu assistente lê os seus dados e, com a sua aprovação, age. Também em https://mcp.myagents.click.
@@ -366,7 +431,7 @@ linha, com o seu site e o seu próprio `llms.txt`. Os produtos e a
 documentação de cada uma moram lá; em caso de divergência, **o arquivo da linha
 vence este**.
 
-- [Operations](https://myoperations.click): Saiba o que acontece no que você colocou no ar. No ar: Analytics, Videos, Tasks. https://myoperations.click/llms.txt
+- [Operations](https://myoperations.click): Saiba o que acontece no que você colocou no ar. No ar: Analytics, Videos, Community. https://myoperations.click/llms.txt
 - [Customers](https://mycustomers.click): Saiba onde cada pessoa está. E o que fazer agora. No ar: People. https://mycustomers.click/llms.txt
 - [Marketing](https://mymarketing.click): Saiba o que trouxe cada pessoa, e fique com o contato dela. No ar: Forms, Links, Newsletter. https://mymarketing.click/llms.txt
 - [Agents](https://myagents.click): Um bot que faz o trabalho, e pede o seu sim antes do que não tem volta. No ar: Assistant, Connectors, Brain. https://myagents.click/llms.txt

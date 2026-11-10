@@ -204,6 +204,11 @@ export function snippetLd(seo) {
 
 // ─── The awesome lists (data/awesome.js) ──────────────────────────────────
 
+/** /awesome/<slug>: one list, from src/data/awesome-lists.json. */
+export function awesomeListSeo(list) {
+    return { title: list.title, description: clip(`${list.description} ${list.count} itens, cada um conferido.`), url: `${AWESOME.path}/${list.slug}` }
+}
+
 /** /awesome. */
 export function awesomeSeo() {
     return { title: 'Listas awesome', description: clip(AWESOME.description), url: AWESOME.path }

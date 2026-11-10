@@ -1,0 +1,2766 @@
+{
+  "awesome-ia-no-trabalho": {
+    "slug": "awesome-ia-no-trabalho",
+    "title": "Awesome IA no trabalho",
+    "description": "IA no trabalho, por profissão: assistentes, privacidade, normas e fontes oficiais para conferir o que a IA escreveu.",
+    "intro": "Para quem quer usar IA no trabalho sem expor cliente, aluno ou empresa e sem acreditar em tudo o que ela escreve. Esta é a porta: o que vale para todo mundo está aqui, e cada profissão tem a sua lista, com as normas e as fontes oficiais dela.",
+    "updated": "2026-11-10",
+    "count": 22,
+    "categories": [
+      {
+        "id": "por-profissao",
+        "title": "Por profissão",
+        "description": "Uma lista para cada ofício, com as normas e as fontes dele.",
+        "items": [
+          {
+            "name": "Awesome IA na advocacia",
+            "link": "https://go.mymarketing.click/iatrab-awesome-ia-na-advocacia",
+            "description": "IA para advogados: assistentes, privacidade, normas sobre IA na advocacia e no Judiciário, e as fontes oficiais para conferir.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Awesome IA na contabilidade",
+            "link": "https://go.mymarketing.click/iatrab-awesome-ia-na-contabilidade",
+            "description": "IA para contadores: assistentes, privacidade, normas do CFC e as fontes da Receita, do eSocial e do Simples para conferir.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Awesome IA na sala de aula",
+            "link": "https://go.mymarketing.click/iatrab-awesome-ia-na-sala-de-aula",
+            "description": "IA para professores: assistentes, idade mínima e privacidade de cada um, e as normas da educação para conferir.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Awesome IA no atendimento e nas vendas",
+            "link": "https://go.mymarketing.click/iatrab-awesome-ia-no-atendimento-e-nas-v",
+            "description": "IA para quem atende e vende: assistentes, privacidade, direitos do consumidor e as regras do trabalho de quem está no balcão, no caixa e no telefone.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Awesome IA no escritório",
+            "link": "https://go.mymarketing.click/iatrab-awesome-ia-no-escritorio",
+            "description": "IA para secretárias, assistentes e auxiliares administrativos: assistentes, privacidade, redação oficial e golpes que chegam por e-mail.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Awesome IA no pequeno negócio",
+            "link": "https://go.mymarketing.click/iatrab-awesome-ia-no-pequeno-negocio",
+            "description": "IA para o MEI e o pequeno empresário: assistentes, privacidade, as regras do MEI e do Simples, do consumidor e da LGPD para quem é pequeno.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Awesome IA no primeiro trabalho",
+            "link": "https://go.mymarketing.click/iatrab-awesome-ia-no-primeiro-trabalho",
+            "description": "IA para quem está começando a trabalhar: assistentes, privacidade, onde procurar vaga, os direitos do primeiro emprego e os golpes da vaga falsa.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "assistentes",
+        "title": "Assistentes de IA",
+        "description": "Os mais usados, em ordem alfabética. A ordem não é recomendação.",
+        "items": [
+          {
+            "name": "ChatGPT",
+            "link": "https://go.mymarketing.click/iatrab-chatgpt",
+            "description": "O assistente da OpenAI, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Claude",
+            "link": "https://go.mymarketing.click/iatrab-claude",
+            "description": "O assistente da Anthropic, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Copilot",
+            "link": "https://go.mymarketing.click/iatrab-copilot",
+            "description": "O assistente da Microsoft, também dentro do Windows e do Office.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Gemini",
+            "link": "https://go.mymarketing.click/iatrab-gemini",
+            "description": "O assistente do Google, também dentro do Gmail e do Google Docs.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "privacidade",
+        "title": "Privacidade nas IAs",
+        "description": "Onde desligar o uso das suas conversas para treinar o modelo.",
+        "items": [
+          {
+            "name": "Anthropic: onde mudar o treino",
+            "link": "https://go.mymarketing.click/iatrab-anthropic-onde-mudar-o-treino",
+            "description": "Como impedir que as suas conversas no Claude sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Google: atividade do Gemini",
+            "link": "https://go.mymarketing.click/iatrab-google-atividade-do-gemini",
+            "description": "Como desligar o histórico de atividade do Gemini e o que muda com isso.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Microsoft: controles de privacidade do Copilot",
+            "link": "https://go.mymarketing.click/iatrab-microsoft-controles-de-privacidad",
+            "description": "Onde ficam os controles de privacidade e de treino do Copilot.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenAI: controles de dados",
+            "link": "https://go.mymarketing.click/iatrab-openai-controles-de-dados",
+            "description": "Como impedir que as conversas no ChatGPT sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "WhatsApp: privacidade",
+            "link": "https://go.mymarketing.click/iatrab-whatsapp-privacidade",
+            "description": "O que o WhatsApp diz sobre privacidade, inclusive quando se conversa com a Meta AI.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "protecao-de-dados",
+        "title": "Proteção de dados",
+        "description": "A lei e a autoridade que valem para dados de pessoas.",
+        "items": [
+          {
+            "name": "LGPD",
+            "link": "https://go.mymarketing.click/iatrab-lgpd",
+            "description": "A Lei Geral de Proteção de Dados, no texto compilado do Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "ANPD",
+            "link": "https://go.mymarketing.click/iatrab-anpd",
+            "description": "A Autoridade Nacional de Proteção de Dados, com guias e regulamentos da LGPD.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "seguranca",
+        "title": "Segurança e golpes",
+        "description": "Para reconhecer o golpe antes de cair nele.",
+        "items": [
+          {
+            "name": "Cartilha de Segurança do CERT.br",
+            "link": "https://go.mymarketing.click/iatrab-cartilha-de-seguranca-do-cert-br",
+            "description": "O guia de segurança na internet do CERT.br, com fascículos sobre golpes, senhas e celulares.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "livros",
+        "title": "Livros",
+        "description": "A série O Novo Básico, do primeiro uso à profissão.",
+        "items": [
+          {
+            "name": "IA no dia a dia",
+            "link": "https://go.mymarketing.click/iatrab-ia-no-dia-a-dia",
+            "description": "O volume 1 da série O Novo Básico: o que todo mundo precisa saber de IA para trabalhar.",
+            "tags": [
+              "pago"
+            ],
+            "ours": true
+          },
+          {
+            "name": "IA por dentro",
+            "link": "https://go.mymarketing.click/iatrab-ia-por-dentro",
+            "description": "O volume 2 da série O Novo Básico: como funcionam as máquinas que conversam.",
+            "tags": [
+              "pago"
+            ],
+            "ours": true
+          },
+          {
+            "name": "O Novo Básico",
+            "link": "https://go.mymarketing.click/iatrab-o-novo-basico",
+            "description": "A série inteira, com um volume por profissão e os kits online abertos.",
+            "tags": [],
+            "ours": true
+          }
+        ]
+      }
+    ]
+  },
+  "awesome-ia-advocacia": {
+    "slug": "awesome-ia-advocacia",
+    "title": "Awesome IA na advocacia",
+    "description": "IA para advogados: assistentes, privacidade, normas sobre IA na advocacia e no Judiciário, e as fontes oficiais para conferir.",
+    "intro": "Para quem advoga e quer usar IA sem expor o cliente nem citar julgado que não existe. Junta os assistentes, os controles de privacidade, o que a OAB e o CNJ dizem sobre IA, e as fontes oficiais onde se confere lei, súmula e intimação.",
+    "updated": "2026-11-10",
+    "count": 28,
+    "categories": [
+      {
+        "id": "assistentes",
+        "title": "Assistentes de IA",
+        "description": "Os mais usados, em ordem alfabética. A ordem não é recomendação.",
+        "items": [
+          {
+            "name": "ChatGPT",
+            "link": "https://go.mymarketing.click/iaadv-chatgpt",
+            "description": "O assistente da OpenAI, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Claude",
+            "link": "https://go.mymarketing.click/iaadv-claude",
+            "description": "O assistente da Anthropic, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Copilot",
+            "link": "https://go.mymarketing.click/iaadv-copilot",
+            "description": "O assistente da Microsoft, também dentro do Windows e do Office.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Gemini",
+            "link": "https://go.mymarketing.click/iaadv-gemini",
+            "description": "O assistente do Google, também dentro do Gmail e do Google Docs.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "privacidade",
+        "title": "Privacidade nas IAs",
+        "description": "Onde desligar o uso das suas conversas para treinar o modelo.",
+        "items": [
+          {
+            "name": "Anthropic: onde mudar o treino",
+            "link": "https://go.mymarketing.click/iaadv-anthropic-onde-mudar-o-treino",
+            "description": "Como impedir que as suas conversas no Claude sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Google: atividade do Gemini",
+            "link": "https://go.mymarketing.click/iaadv-google-atividade-do-gemini",
+            "description": "Como desligar o histórico de atividade do Gemini e o que muda com isso.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Microsoft: controles de privacidade do Copilot",
+            "link": "https://go.mymarketing.click/iaadv-microsoft-controles-de-privacidade",
+            "description": "Onde ficam os controles de privacidade e de treino do Copilot.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenAI: controles de dados",
+            "link": "https://go.mymarketing.click/iaadv-openai-controles-de-dados",
+            "description": "Como impedir que as conversas no ChatGPT sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "WhatsApp: privacidade",
+            "link": "https://go.mymarketing.click/iaadv-whatsapp-privacidade",
+            "description": "O que o WhatsApp diz sobre privacidade, inclusive quando se conversa com a Meta AI.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "normas-ia",
+        "title": "Normas sobre IA na advocacia e no Judiciário",
+        "description": "O que a OAB, o CNJ e a ANPD já publicaram.",
+        "items": [
+          {
+            "name": "Código de Ética e Disciplina da OAB",
+            "link": "https://go.mymarketing.click/iaadv-codigo-de-etica-e-disciplina-da-oa",
+            "description": "O código que rege sigilo, publicidade e conduta do advogado.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Provimento 205/2021 da OAB",
+            "link": "https://go.mymarketing.click/iaadv-provimento-205-2021-da-oab",
+            "description": "As regras de publicidade e informação da advocacia.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Recomendação 001/2024 do CFOAB",
+            "link": "https://go.mymarketing.click/iaadv-recomendacao-001-2024-do-cfoab",
+            "description": "A recomendação do Conselho Federal da OAB sobre o uso de IA na advocacia.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Resolução CD/ANPD 19/2024",
+            "link": "https://go.mymarketing.click/iaadv-resolucao-cd-anpd-19-2024",
+            "description": "A transferência internacional de dados pessoais, que acontece ao colar dados num serviço de fora.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Resolução CNJ 615/2025",
+            "link": "https://go.mymarketing.click/iaadv-resolucao-cnj-615-2025",
+            "description": "As regras para o uso de IA no Poder Judiciário.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "fontes",
+        "title": "Fontes oficiais para conferir",
+        "description": "Onde se confere a lei, a súmula e a intimação antes de usar o que a IA escreveu.",
+        "items": [
+          {
+            "name": "Consolidação das Leis do Trabalho",
+            "link": "https://go.mymarketing.click/iaadv-consolidacao-das-leis-do-trabalho",
+            "description": "A CLT no Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Constituição Federal",
+            "link": "https://go.mymarketing.click/iaadv-constituicao-federal",
+            "description": "A Constituição compilada no Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Consulta do DJEN",
+            "link": "https://go.mymarketing.click/iaadv-consulta-do-djen",
+            "description": "A consulta pública ao Diário de Justiça Eletrônico Nacional, por nome e OAB.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Código Civil",
+            "link": "https://go.mymarketing.click/iaadv-codigo-civil",
+            "description": "O Código Civil compilado no Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Código de Defesa do Consumidor",
+            "link": "https://go.mymarketing.click/iaadv-codigo-de-defesa-do-consumidor",
+            "description": "O CDC compilado no Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Código de Processo Civil",
+            "link": "https://go.mymarketing.click/iaadv-codigo-de-processo-civil",
+            "description": "O CPC no Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Estatuto da Advocacia",
+            "link": "https://go.mymarketing.click/iaadv-estatuto-da-advocacia",
+            "description": "A Lei 8.906/1994 no Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Resolução CNJ 455/2022",
+            "link": "https://go.mymarketing.click/iaadv-resolucao-cnj-455-2022",
+            "description": "As regras do DJEN e do Domicílio Judicial Eletrônico.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Súmulas vinculantes do STF",
+            "link": "https://go.mymarketing.click/iaadv-sumulas-vinculantes-do-stf",
+            "description": "A consulta de súmulas vinculantes no portal do STF.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "alucinacoes",
+        "title": "Erros de IA em processos",
+        "description": "Para ver o risco antes de corrigir na própria peça.",
+        "items": [
+          {
+            "name": "AI Hallucination Cases",
+            "link": "https://go.mymarketing.click/iaadv-ai-hallucination-cases",
+            "description": "Um banco de decisões judiciais sobre peças com citações inventadas por IA, mantido por Damien Charlotin.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "protecao-de-dados",
+        "title": "Proteção de dados",
+        "description": "A lei e a autoridade que valem para os dados de clientes e alunos.",
+        "items": [
+          {
+            "name": "LGPD",
+            "link": "https://go.mymarketing.click/iaadv-lgpd",
+            "description": "A Lei Geral de Proteção de Dados, no texto compilado do Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "ANPD",
+            "link": "https://go.mymarketing.click/iaadv-anpd",
+            "description": "A Autoridade Nacional de Proteção de Dados, com guias e regulamentos da LGPD.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "livro",
+        "title": "Livro e kit",
+        "description": "O livro da série O Novo Básico para esta profissão.",
+        "items": [
+          {
+            "name": "IA na advocacia (livro)",
+            "link": "https://go.mymarketing.click/iaadv-ia-na-advocacia-livro",
+            "description": "O volume 9 da série O Novo Básico, com as tarefas da profissão feitas com IA de verdade e cada fato com fonte.",
+            "tags": [
+              "pago"
+            ],
+            "ours": true
+          },
+          {
+            "name": "IA na advocacia: o kit online",
+            "link": "https://go.mymarketing.click/iaadv-ia-na-advocacia-o-kit-online",
+            "description": "Os pedidos prontos, as listas do que conferir e as fontes do livro, abertos no site.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": true
+          }
+        ]
+      }
+    ]
+  },
+  "awesome-ia-contabilidade": {
+    "slug": "awesome-ia-contabilidade",
+    "title": "Awesome IA na contabilidade",
+    "description": "IA para contadores: assistentes, privacidade, normas do CFC e as fontes da Receita, do eSocial e do Simples para conferir.",
+    "intro": "Para quem trabalha em escritório de contabilidade ou no setor contábil e quer usar IA sem expor o cliente. Junta os assistentes, os controles de privacidade, as normas do CFC e as fontes oficiais onde se confere prazo, tabela e obrigação.",
+    "updated": "2026-11-10",
+    "count": 25,
+    "categories": [
+      {
+        "id": "assistentes",
+        "title": "Assistentes de IA",
+        "description": "Os mais usados, em ordem alfabética. A ordem não é recomendação.",
+        "items": [
+          {
+            "name": "ChatGPT",
+            "link": "https://go.mymarketing.click/iacont-chatgpt",
+            "description": "O assistente da OpenAI, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Claude",
+            "link": "https://go.mymarketing.click/iacont-claude",
+            "description": "O assistente da Anthropic, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Copilot",
+            "link": "https://go.mymarketing.click/iacont-copilot",
+            "description": "O assistente da Microsoft, também dentro do Windows e do Office.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Gemini",
+            "link": "https://go.mymarketing.click/iacont-gemini",
+            "description": "O assistente do Google, também dentro do Gmail e do Google Docs.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "privacidade",
+        "title": "Privacidade nas IAs",
+        "description": "Onde desligar o uso das suas conversas para treinar o modelo.",
+        "items": [
+          {
+            "name": "Anthropic: onde mudar o treino",
+            "link": "https://go.mymarketing.click/iacont-anthropic-onde-mudar-o-treino",
+            "description": "Como impedir que as suas conversas no Claude sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Google: atividade do Gemini",
+            "link": "https://go.mymarketing.click/iacont-google-atividade-do-gemini",
+            "description": "Como desligar o histórico de atividade do Gemini e o que muda com isso.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Microsoft: controles de privacidade do Copilot",
+            "link": "https://go.mymarketing.click/iacont-microsoft-controles-de-privacidad",
+            "description": "Onde ficam os controles de privacidade e de treino do Copilot.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenAI: controles de dados",
+            "link": "https://go.mymarketing.click/iacont-openai-controles-de-dados",
+            "description": "Como impedir que as conversas no ChatGPT sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "WhatsApp: privacidade",
+            "link": "https://go.mymarketing.click/iacont-whatsapp-privacidade",
+            "description": "O que o WhatsApp diz sobre privacidade, inclusive quando se conversa com a Meta AI.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "normas-cfc",
+        "title": "Normas da profissão",
+        "description": "O que o CFC publica e o que vale para quem guarda dados de clientes.",
+        "items": [
+          {
+            "name": "CFC e COAF",
+            "link": "https://go.mymarketing.click/iacont-cfc-e-coaf",
+            "description": "A página do CFC sobre as comunicações ao COAF.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "NBC PG 01, o Código de Ética",
+            "link": "https://go.mymarketing.click/iacont-nbc-pg-01-o-codigo-de-etica",
+            "description": "O Código de Ética Profissional do Contador.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Resolução CFC 1.640/2021",
+            "link": "https://go.mymarketing.click/iacont-resolucao-cfc-1-640-2021",
+            "description": "As regras do CFC sobre prevenção à lavagem de dinheiro para contadores.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "fontes",
+        "title": "Fontes oficiais para conferir",
+        "description": "Prazos, tabelas e obrigações, direto de quem os define.",
+        "items": [
+          {
+            "name": "Agenda Tributária",
+            "link": "https://go.mymarketing.click/iacont-agenda-tributaria",
+            "description": "Os prazos do mês, publicados pela Receita Federal.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Certificação digital no ITI",
+            "link": "https://go.mymarketing.click/iacont-certificacao-digital-no-iti",
+            "description": "As respostas do ITI sobre certificado digital.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Lei Complementar 123/2006",
+            "link": "https://go.mymarketing.click/iacont-lei-complementar-123-2006",
+            "description": "O Estatuto da Microempresa e o Simples Nacional.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Lei Complementar 214/2025",
+            "link": "https://go.mymarketing.click/iacont-lei-complementar-214-2025",
+            "description": "A lei da reforma tributária do consumo: IBS, CBS e Imposto Seletivo.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Manual de Orientação do eSocial",
+            "link": "https://go.mymarketing.click/iacont-manual-de-orientacao-do-esocial",
+            "description": "O manual do eSocial para folha e eventos trabalhistas.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "MEI: perguntas frequentes",
+            "link": "https://go.mymarketing.click/iacont-mei-perguntas-frequentes",
+            "description": "As respostas oficiais sobre o microempreendedor individual.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Procuração eletrônica no e-CAC",
+            "link": "https://go.mymarketing.click/iacont-procuracao-eletronica-no-e-cac",
+            "description": "Como o cliente dá procuração ao escritório sem entregar o certificado digital.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Tabelas do Imposto de Renda 2026",
+            "link": "https://go.mymarketing.click/iacont-tabelas-do-imposto-de-renda-2026",
+            "description": "As tabelas de IRPF do ano, na Receita Federal.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "golpes",
+        "title": "Golpes contra contadores",
+        "description": "O que já foi usado para enganar escritórios.",
+        "items": [
+          {
+            "name": "CFC: golpes com a Decore",
+            "link": "https://go.mymarketing.click/iacont-cfc-golpes-com-a-decore",
+            "description": "O alerta do CFC sobre golpes que usam a Decore contra contadores.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "protecao-de-dados",
+        "title": "Proteção de dados",
+        "description": "A lei e a autoridade que valem para os dados de clientes e alunos.",
+        "items": [
+          {
+            "name": "LGPD",
+            "link": "https://go.mymarketing.click/iacont-lgpd",
+            "description": "A Lei Geral de Proteção de Dados, no texto compilado do Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "ANPD",
+            "link": "https://go.mymarketing.click/iacont-anpd",
+            "description": "A Autoridade Nacional de Proteção de Dados, com guias e regulamentos da LGPD.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "livro",
+        "title": "Livro e kit",
+        "description": "O livro da série O Novo Básico para esta profissão.",
+        "items": [
+          {
+            "name": "IA na contabilidade (livro)",
+            "link": "https://go.mymarketing.click/iacont-ia-na-contabilidade-livro",
+            "description": "O volume 8 da série O Novo Básico, com as tarefas da profissão feitas com IA de verdade e cada fato com fonte.",
+            "tags": [
+              "pago"
+            ],
+            "ours": true
+          },
+          {
+            "name": "IA na contabilidade: o kit online",
+            "link": "https://go.mymarketing.click/iacont-ia-na-contabilidade-o-kit-online",
+            "description": "Os pedidos prontos, as listas do que conferir e as fontes do livro, abertos no site.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": true
+          }
+        ]
+      }
+    ]
+  },
+  "awesome-ia-sala-de-aula": {
+    "slug": "awesome-ia-sala-de-aula",
+    "title": "Awesome IA na sala de aula",
+    "description": "IA para professores: assistentes, idade mínima e privacidade de cada um, e as normas da educação para conferir.",
+    "intro": "Para professores da educação básica que querem usar IA no plano de aula, na correção e na atividade adaptada sem expor o aluno. Junta os assistentes, os termos de idade e privacidade de cada um, e as normas da educação onde se confere o que vale.",
+    "updated": "2026-11-10",
+    "count": 23,
+    "categories": [
+      {
+        "id": "assistentes",
+        "title": "Assistentes de IA",
+        "description": "Os mais usados, em ordem alfabética. A ordem não é recomendação.",
+        "items": [
+          {
+            "name": "ChatGPT",
+            "link": "https://go.mymarketing.click/iaaula-chatgpt",
+            "description": "O assistente da OpenAI, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Claude",
+            "link": "https://go.mymarketing.click/iaaula-claude",
+            "description": "O assistente da Anthropic, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Copilot",
+            "link": "https://go.mymarketing.click/iaaula-copilot",
+            "description": "O assistente da Microsoft, também dentro do Windows e do Office.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Gemini",
+            "link": "https://go.mymarketing.click/iaaula-gemini",
+            "description": "O assistente do Google, também dentro do Gmail e do Google Docs.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "privacidade",
+        "title": "Privacidade nas IAs",
+        "description": "Onde desligar o uso das suas conversas para treinar o modelo.",
+        "items": [
+          {
+            "name": "Anthropic: onde mudar o treino",
+            "link": "https://go.mymarketing.click/iaaula-anthropic-onde-mudar-o-treino",
+            "description": "Como impedir que as suas conversas no Claude sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Google: atividade do Gemini",
+            "link": "https://go.mymarketing.click/iaaula-google-atividade-do-gemini",
+            "description": "Como desligar o histórico de atividade do Gemini e o que muda com isso.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Microsoft: controles de privacidade do Copilot",
+            "link": "https://go.mymarketing.click/iaaula-microsoft-controles-de-privacidad",
+            "description": "Onde ficam os controles de privacidade e de treino do Copilot.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenAI: controles de dados",
+            "link": "https://go.mymarketing.click/iaaula-openai-controles-de-dados",
+            "description": "Como impedir que as conversas no ChatGPT sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "WhatsApp: privacidade",
+            "link": "https://go.mymarketing.click/iaaula-whatsapp-privacidade",
+            "description": "O que o WhatsApp diz sobre privacidade, inclusive quando se conversa com a Meta AI.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "termos",
+        "title": "Termos, idade e uso com alunos",
+        "description": "Antes de pedir que um aluno use uma IA, o que cada uma exige.",
+        "items": [
+          {
+            "name": "Gemini para crianças no Family Link",
+            "link": "https://go.mymarketing.click/iaaula-gemini-para-criancas-no-family-li",
+            "description": "Como o Gemini funciona em contas supervisionadas pela família.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Termos da conta pessoal da Anthropic",
+            "link": "https://go.mymarketing.click/iaaula-termos-da-conta-pessoal-da-anthro",
+            "description": "Os termos do Claude para pessoas, com a idade mínima.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Termos das IAs da Meta no Brasil",
+            "link": "https://go.mymarketing.click/iaaula-termos-das-ias-da-meta-no-brasil",
+            "description": "Os termos da Meta AI para quem está no Brasil.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Termos de uso da OpenAI",
+            "link": "https://go.mymarketing.click/iaaula-termos-de-uso-da-openai",
+            "description": "Os termos do ChatGPT, com a idade mínima.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Termos do Copilot",
+            "link": "https://go.mymarketing.click/iaaula-termos-do-copilot",
+            "description": "Os termos de uso do Copilot para pessoas.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "normas",
+        "title": "Normas da educação",
+        "description": "O que define o currículo, os direitos do aluno e o trabalho do professor.",
+        "items": [
+          {
+            "name": "BNCC",
+            "link": "https://go.mymarketing.click/iaaula-bncc",
+            "description": "A Base Nacional Comum Curricular, no documento do MEC.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "ECA",
+            "link": "https://go.mymarketing.click/iaaula-eca",
+            "description": "O Estatuto da Criança e do Adolescente.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "LDB",
+            "link": "https://go.mymarketing.click/iaaula-ldb",
+            "description": "A Lei de Diretrizes e Bases da Educação.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Lei Brasileira de Inclusão",
+            "link": "https://go.mymarketing.click/iaaula-lei-brasileira-de-inclusao",
+            "description": "O Estatuto da Pessoa com Deficiência, base da atividade adaptada.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Lei do piso do magistério",
+            "link": "https://go.mymarketing.click/iaaula-lei-do-piso-do-magisterio",
+            "description": "A Lei 11.738/2008, que institui o piso salarial do professor.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "protecao-de-dados",
+        "title": "Proteção de dados",
+        "description": "A lei e a autoridade que valem para os dados de clientes e alunos.",
+        "items": [
+          {
+            "name": "LGPD",
+            "link": "https://go.mymarketing.click/iaaula-lgpd",
+            "description": "A Lei Geral de Proteção de Dados, no texto compilado do Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "ANPD",
+            "link": "https://go.mymarketing.click/iaaula-anpd",
+            "description": "A Autoridade Nacional de Proteção de Dados, com guias e regulamentos da LGPD.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "livro",
+        "title": "Livro e kit",
+        "description": "O livro da série O Novo Básico para esta profissão.",
+        "items": [
+          {
+            "name": "IA na sala de aula (livro)",
+            "link": "https://go.mymarketing.click/iaaula-ia-na-sala-de-aula-livro",
+            "description": "O volume 7 da série O Novo Básico, com as tarefas da profissão feitas com IA de verdade e cada fato com fonte.",
+            "tags": [
+              "pago"
+            ],
+            "ours": true
+          },
+          {
+            "name": "IA na sala de aula: o kit online",
+            "link": "https://go.mymarketing.click/iaaula-ia-na-sala-de-aula-o-kit-online",
+            "description": "Os pedidos prontos, as listas do que conferir e as fontes do livro, abertos no site.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": true
+          }
+        ]
+      }
+    ]
+  },
+  "awesome-ia-atendimento-e-vendas": {
+    "slug": "awesome-ia-atendimento-e-vendas",
+    "title": "Awesome IA no atendimento e nas vendas",
+    "description": "IA para quem atende e vende: assistentes, privacidade, direitos do consumidor e as regras do trabalho de quem está no balcão, no caixa e no telefone.",
+    "intro": "Para vendedores, caixas, recepcionistas e operadores de telemarketing que querem usar IA no dia sem expor o cliente. Junta os assistentes, os controles de privacidade, as regras do atendimento ao consumidor e os direitos de quem atende.",
+    "updated": "2026-11-10",
+    "count": 24,
+    "categories": [
+      {
+        "id": "assistentes",
+        "title": "Assistentes de IA",
+        "description": "Os mais usados, em ordem alfabética. A ordem não é recomendação.",
+        "items": [
+          {
+            "name": "ChatGPT",
+            "link": "https://go.mymarketing.click/iavend-chatgpt",
+            "description": "O assistente da OpenAI, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Claude",
+            "link": "https://go.mymarketing.click/iavend-claude",
+            "description": "O assistente da Anthropic, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Copilot",
+            "link": "https://go.mymarketing.click/iavend-copilot",
+            "description": "O assistente da Microsoft, também dentro do Windows e do Office.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Gemini",
+            "link": "https://go.mymarketing.click/iavend-gemini",
+            "description": "O assistente do Google, também dentro do Gmail e do Google Docs.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "privacidade",
+        "title": "Privacidade nas IAs",
+        "description": "Onde desligar o uso das suas conversas para treinar o modelo.",
+        "items": [
+          {
+            "name": "Anthropic: onde mudar o treino",
+            "link": "https://go.mymarketing.click/iavend-anthropic-onde-mudar-o-treino",
+            "description": "Como impedir que as suas conversas no Claude sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Google: atividade do Gemini",
+            "link": "https://go.mymarketing.click/iavend-google-atividade-do-gemini",
+            "description": "Como desligar o histórico de atividade do Gemini e o que muda com isso.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Microsoft: controles de privacidade do Copilot",
+            "link": "https://go.mymarketing.click/iavend-microsoft-controles-de-privacidad",
+            "description": "Onde ficam os controles de privacidade e de treino do Copilot.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenAI: controles de dados",
+            "link": "https://go.mymarketing.click/iavend-openai-controles-de-dados",
+            "description": "Como impedir que as conversas no ChatGPT sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "WhatsApp: privacidade",
+            "link": "https://go.mymarketing.click/iavend-whatsapp-privacidade",
+            "description": "O que o WhatsApp diz sobre privacidade, inclusive quando se conversa com a Meta AI.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "consumidor",
+        "title": "Regras do atendimento ao consumidor",
+        "description": "O que o cliente tem direito de exigir.",
+        "items": [
+          {
+            "name": "Código de Defesa do Consumidor",
+            "link": "https://go.mymarketing.click/iavend-codigo-de-defesa-do-consumidor",
+            "description": "O CDC compilado no Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Decreto do comércio eletrônico",
+            "link": "https://go.mymarketing.click/iavend-decreto-do-comercio-eletronico",
+            "description": "O Decreto 7.962/2013, com as regras de quem vende pela internet.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Decreto do SAC",
+            "link": "https://go.mymarketing.click/iavend-decreto-do-sac",
+            "description": "O Decreto 11.034/2022, com as regras do serviço de atendimento ao consumidor.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Lei do atendimento prioritário",
+            "link": "https://go.mymarketing.click/iavend-lei-do-atendimento-prioritario",
+            "description": "A Lei 10.048/2000, sobre quem tem prioridade no atendimento.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Não Me Perturbe",
+            "link": "https://go.mymarketing.click/iavend-nao-me-perturbe",
+            "description": "O cadastro para bloquear ligações de telemarketing de operadoras e bancos.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Prefixo 0303 na Anatel",
+            "link": "https://go.mymarketing.click/iavend-prefixo-0303-na-anatel",
+            "description": "A regra que obriga o telemarketing ativo a ligar com o prefixo 0303.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "trabalho",
+        "title": "Direitos de quem atende",
+        "description": "As regras do trabalho no comércio e no telemarketing.",
+        "items": [
+          {
+            "name": "Lei do comerciário",
+            "link": "https://go.mymarketing.click/iavend-lei-do-comerciario",
+            "description": "A Lei 12.790/2013, que regula a profissão de comerciário.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Lei do vendedor",
+            "link": "https://go.mymarketing.click/iavend-lei-do-vendedor",
+            "description": "A Lei 3.207/1957, sobre vendedores, viajantes e pracistas.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "TST: cobrança de metas por WhatsApp",
+            "link": "https://go.mymarketing.click/iavend-tst-cobranca-de-metas-por-whatsap",
+            "description": "A decisão do TST sobre cobrança de metas fora do expediente.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "empresas",
+        "title": "IA nas contas da empresa",
+        "description": "Quando a empresa contrata a versão corporativa.",
+        "items": [
+          {
+            "name": "Copilot Chat da Microsoft",
+            "link": "https://go.mymarketing.click/iavend-copilot-chat-da-microsoft",
+            "description": "As proteções de dados do Copilot nas contas corporativas.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Gemini no Google Workspace",
+            "link": "https://go.mymarketing.click/iavend-gemini-no-google-workspace",
+            "description": "Como o Google trata os dados do Gemini nas contas de empresa.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "protecao-de-dados",
+        "title": "Proteção de dados",
+        "description": "A lei e a autoridade que valem para os dados de clientes e alunos.",
+        "items": [
+          {
+            "name": "LGPD",
+            "link": "https://go.mymarketing.click/iavend-lgpd",
+            "description": "A Lei Geral de Proteção de Dados, no texto compilado do Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "ANPD",
+            "link": "https://go.mymarketing.click/iavend-anpd",
+            "description": "A Autoridade Nacional de Proteção de Dados, com guias e regulamentos da LGPD.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "livro",
+        "title": "Livro e kit",
+        "description": "O livro da série O Novo Básico para esta profissão.",
+        "items": [
+          {
+            "name": "IA no atendimento e nas vendas (livro)",
+            "link": "https://go.mymarketing.click/iavend-ia-no-atendimento-e-nas-vendas-li",
+            "description": "O volume 6 da série O Novo Básico, com as tarefas da profissão feitas com IA de verdade e cada fato com fonte.",
+            "tags": [
+              "pago"
+            ],
+            "ours": true
+          },
+          {
+            "name": "IA no atendimento e nas vendas: o kit online",
+            "link": "https://go.mymarketing.click/iavend-ia-no-atendimento-e-nas-vendas-o",
+            "description": "Os pedidos prontos, as listas do que conferir e as fontes do livro, abertos no site.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": true
+          }
+        ]
+      }
+    ]
+  },
+  "awesome-ia-escritorio": {
+    "slug": "awesome-ia-escritorio",
+    "title": "Awesome IA no escritório",
+    "description": "IA para secretárias, assistentes e auxiliares administrativos: assistentes, privacidade, redação oficial e golpes que chegam por e-mail.",
+    "intro": "Para quem trabalha no administrativo e quer usar IA no e-mail, na ata e no documento sem expor a empresa. Junta os assistentes, os controles de privacidade, o padrão da redação oficial e os alertas contra golpes que chegam ao escritório.",
+    "updated": "2026-11-10",
+    "count": 19,
+    "categories": [
+      {
+        "id": "assistentes",
+        "title": "Assistentes de IA",
+        "description": "Os mais usados, em ordem alfabética. A ordem não é recomendação.",
+        "items": [
+          {
+            "name": "ChatGPT",
+            "link": "https://go.mymarketing.click/iaesc-chatgpt",
+            "description": "O assistente da OpenAI, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Claude",
+            "link": "https://go.mymarketing.click/iaesc-claude",
+            "description": "O assistente da Anthropic, com plano grátis e pagos.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Copilot",
+            "link": "https://go.mymarketing.click/iaesc-copilot",
+            "description": "O assistente da Microsoft, também dentro do Windows e do Office.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Gemini",
+            "link": "https://go.mymarketing.click/iaesc-gemini",
+            "description": "O assistente do Google, também dentro do Gmail e do Google Docs.",
+            "tags": [
+              "gratis",
+              "pago"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "privacidade",
+        "title": "Privacidade nas IAs",
+        "description": "Onde desligar o uso das suas conversas para treinar o modelo.",
+        "items": [
+          {
+            "name": "Anthropic: onde mudar o treino",
+            "link": "https://go.mymarketing.click/iaesc-anthropic-onde-mudar-o-treino",
+            "description": "Como impedir que as suas conversas no Claude sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Google: atividade do Gemini",
+            "link": "https://go.mymarketing.click/iaesc-google-atividade-do-gemini",
+            "description": "Como desligar o histórico de atividade do Gemini e o que muda com isso.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Microsoft: controles de privacidade do Copilot",
+            "link": "https://go.mymarketing.click/iaesc-microsoft-controles-de-privacidade",
+            "description": "Onde ficam os controles de privacidade e de treino do Copilot.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenAI: controles de dados",
+            "link": "https://go.mymarketing.click/iaesc-openai-controles-de-dados",
+            "description": "Como impedir que as conversas no ChatGPT sejam usadas para treinar o modelo.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "WhatsApp: privacidade",
+            "link": "https://go.mymarketing.click/iaesc-whatsapp-privacidade",
+            "description": "O que o WhatsApp diz sobre privacidade, inclusive quando se conversa com a Meta AI.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "redacao",
+        "title": "Redação e documentos",
+        "description": "O padrão que vale quando o documento é formal.",
+        "items": [
+          {
+            "name": "CBO, busca por código",
+            "link": "https://go.mymarketing.click/iaesc-cbo-busca-por-codigo",
+            "description": "A Classificação Brasileira de Ocupações, para conferir a descrição de um cargo.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Manual de Redação da Presidência da República",
+            "link": "https://go.mymarketing.click/iaesc-manual-de-redacao-da-presidencia-d",
+            "description": "O manual oficial de redação, referência para ofício, memorando e comunicação formal.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "golpes",
+        "title": "Golpes que chegam ao escritório",
+        "description": "Boleto falso, troca de conta e e-mail de fornecedor que não é dele.",
+        "items": [
+          {
+            "name": "CERT.br: fascículo golpes",
+            "link": "https://go.mymarketing.click/iaesc-cert-br-fasciculo-golpes",
+            "description": "O fascículo da Cartilha do CERT.br sobre golpes na internet.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "FBI IC3: fraude de e-mail corporativo",
+            "link": "https://go.mymarketing.click/iaesc-fbi-ic3-fraude-de-e-mail-corporati",
+            "description": "Como funciona a fraude do e-mail de fornecedor ou de chefe, descrita pelo FBI.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Febraban: alertas de golpes",
+            "link": "https://go.mymarketing.click/iaesc-febraban-alertas-de-golpes",
+            "description": "Os alertas da Febraban sobre golpes contra empresas e pessoas.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Ministério da Justiça: sofri um golpe",
+            "link": "https://go.mymarketing.click/iaesc-ministerio-da-justica-sofri-um-gol",
+            "description": "O que fazer depois de cair num golpe, segundo o Ministério da Justiça.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "protecao-de-dados",
+        "title": "Proteção de dados",
+        "description": "A lei e a autoridade que valem para os dados de clientes e alunos.",
+        "items": [
+          {
+            "name": "LGPD",
+            "link": "https://go.mymarketing.click/iaesc-lgpd",
+            "description": "A Lei Geral de Proteção de Dados, no texto compilado do Planalto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "ANPD",
+            "link": "https://go.mymarketing.click/iaesc-anpd",
+            "description": "A Autoridade Nacional de Proteção de Dados, com guias e regulamentos da LGPD.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "livro",
+        "title": "Livro e kit",
+        "description": "O livro da série O Novo Básico para esta profissão.",
+        "items": [
+          {
+            "name": "IA no escritório (livro)",
+            "link": "https://go.mymarketing.click/iaesc-ia-no-escritorio-livro",
+            "description": "O volume 3 da série O Novo Básico, com as tarefas da profissão feitas com IA de verdade e cada fato com fonte.",
+            "tags": [
+              "pago"
+            ],
+            "ours": true
+          },
+          {
+            "name": "IA no escritório: o kit online",
+            "link": "https://go.mymarketing.click/iaesc-ia-no-escritorio-o-kit-online",
+            "description": "Os pedidos prontos, as listas do que conferir e as fontes do livro, abertos no site.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": true
+          }
+        ]
+      }
+    ]
+  },
+  "awesome-pix": {
+    "slug": "awesome-pix",
+    "title": "Awesome Pix",
+    "description": "Pix para quem integra: normas, APIs, SDKs, provedores e ferramentas, conferidos um a um.",
+    "intro": "Para quem vai cobrar, receber ou conciliar Pix num sistema. Começa pelo que o Banco Central publica, passa pelos provedores que oferecem API e termina nas bibliotecas de código aberto que geram e leem o QR Code. Todo endereço foi aberto antes de entrar.",
+    "updated": "2026-11-10",
+    "count": 56,
+    "categories": [
+      {
+        "id": "normas",
+        "title": "Normas e documentação oficial",
+        "description": "O que vem do Banco Central, que define o Pix.",
+        "items": [
+          {
+            "name": "Pix no Banco Central",
+            "link": "https://go.mymarketing.click/pix-pix-no-banco-central",
+            "description": "A página oficial do Pix, com o que é, como funciona e os links para o resto.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Normas do Pix",
+            "link": "https://go.mymarketing.click/pix-normas-do-pix",
+            "description": "O regulamento, as resoluções e os manuais que regem o Pix.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Pix Automático",
+            "link": "https://go.mymarketing.click/pix-pix-automatico",
+            "description": "A modalidade para cobranças recorrentes autorizadas uma vez pelo pagador.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Participantes do Pix",
+            "link": "https://go.mymarketing.click/pix-participantes-do-pix",
+            "description": "A lista das instituições que oferecem Pix e em que modalidade.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Estatísticas do Pix",
+            "link": "https://go.mymarketing.click/pix-estatisticas-do-pix",
+            "description": "Os números oficiais de transações, valores e chaves.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Perguntas frequentes do Pix",
+            "link": "https://go.mymarketing.click/pix-perguntas-frequentes-do-pix",
+            "description": "As respostas do Banco Central para as dúvidas mais comuns de quem usa Pix.",
+            "tags": [
+              "oficial",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "especificacoes",
+        "title": "Especificações e APIs abertas",
+        "description": "Os contratos de API que o Banco Central publica no GitHub.",
+        "items": [
+          {
+            "name": "API Pix",
+            "link": "https://go.mymarketing.click/pix-api-pix",
+            "description": "A especificação OpenAPI da API Pix, a que os provedores implementam para cobrança e recebimento.",
+            "tags": [
+              "oficial",
+              "codigo-aberto",
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "API do DICT",
+            "link": "https://go.mymarketing.click/pix-api-do-dict",
+            "description": "A especificação da API do Diretório de Identificadores de Contas Transacionais, onde vivem as chaves Pix.",
+            "tags": [
+              "oficial",
+              "codigo-aberto",
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "DICT Quickstart",
+            "link": "https://go.mymarketing.click/pix-dict-quickstart",
+            "description": "Um guia de primeiros passos com a API do DICT.",
+            "tags": [
+              "oficial",
+              "codigo-aberto"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "provedores",
+        "title": "Provedores com API Pix",
+        "description": "Bancos, instituições de pagamento e plataformas com documentação pública para integrar Pix.",
+        "items": [
+          {
+            "name": "Adyen",
+            "link": "https://go.mymarketing.click/pix-adyen",
+            "description": "Pix como meio de pagamento na plataforma global da Adyen.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Asaas",
+            "link": "https://go.mymarketing.click/pix-asaas",
+            "description": "Documentação da API do Asaas, com cobranças por Pix, boleto e cartão.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Banco do Brasil",
+            "link": "https://go.mymarketing.click/pix-banco-do-brasil",
+            "description": "O portal de desenvolvedores do Banco do Brasil, com a API Pix.",
+            "tags": [
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Banco Inter",
+            "link": "https://go.mymarketing.click/pix-banco-inter",
+            "description": "O portal de desenvolvedores do Inter, com APIs de Pix e cobrança.",
+            "tags": [
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Bradesco",
+            "link": "https://go.mymarketing.click/pix-bradesco",
+            "description": "O portal de desenvolvedores do Bradesco, com APIs de Pix.",
+            "tags": [
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Celcoin",
+            "link": "https://go.mymarketing.click/pix-celcoin",
+            "description": "Infraestrutura de pagamentos com APIs de Pix para empresas que constroem produtos financeiros.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Cora",
+            "link": "https://go.mymarketing.click/pix-cora",
+            "description": "As APIs da Cora para cobrança e Pix na conta empresarial.",
+            "tags": [
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "dLocal",
+            "link": "https://go.mymarketing.click/pix-dlocal",
+            "description": "Pagamentos em mercados emergentes, com Pix entre os meios aceitos no Brasil.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "EBANX",
+            "link": "https://go.mymarketing.click/pix-ebanx",
+            "description": "Pagamentos locais na América Latina, com Pix para empresas de fora e de dentro do Brasil.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Efí",
+            "link": "https://go.mymarketing.click/pix-efi",
+            "description": "A documentação da API Pix da Efí, antiga Gerencianet, com cobrança, webhook e Pix Automático.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Itaú",
+            "link": "https://go.mymarketing.click/pix-itau",
+            "description": "O portal de desenvolvedores do Itaú, com APIs de Pix.",
+            "tags": [
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Iugu",
+            "link": "https://go.mymarketing.click/pix-iugu",
+            "description": "Documentação da API da Iugu, com cobranças e assinaturas que aceitam Pix.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Mercado Pago",
+            "link": "https://go.mymarketing.click/pix-mercado-pago",
+            "description": "Como receber Pix pelo Checkout API do Mercado Pago, com QR Code e copia e cola.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenPix",
+            "link": "https://go.mymarketing.click/pix-openpix",
+            "description": "A documentação da OpenPix, plataforma de cobranças por Pix com API, webhooks e plugins.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "PagBank",
+            "link": "https://go.mymarketing.click/pix-pagbank",
+            "description": "O portal de desenvolvedores do PagBank, com pedidos e cobranças por Pix.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Pagar.me",
+            "link": "https://go.mymarketing.click/pix-pagar-me",
+            "description": "Documentação da API do Pagar.me, com pagamentos por Pix, cartão e boleto.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Santander",
+            "link": "https://go.mymarketing.click/pix-santander",
+            "description": "O portal de desenvolvedores do Santander, com APIs de Pix.",
+            "tags": [
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Sicredi",
+            "link": "https://go.mymarketing.click/pix-sicredi",
+            "description": "O portal de desenvolvedores do Sicredi, com APIs de Pix e cobrança.",
+            "tags": [
+              "api"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Stripe",
+            "link": "https://go.mymarketing.click/pix-stripe",
+            "description": "Pix como meio de pagamento na Stripe, para quem já cobra por ela.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Transfeera",
+            "link": "https://go.mymarketing.click/pix-transfeera",
+            "description": "APIs de pagamento e recebimento por Pix, com conciliação.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Woovi",
+            "link": "https://go.mymarketing.click/pix-woovi",
+            "description": "A documentação da Woovi, com cobranças, assinaturas e webhooks por Pix.",
+            "tags": [
+              "api",
+              "pago"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "sdks-oficiais",
+        "title": "SDKs oficiais dos provedores",
+        "description": "Mantidos por quem oferece a API.",
+        "items": [
+          {
+            "name": "Efí SDK Node.js",
+            "link": "https://go.mymarketing.click/pix-efi-sdk-node-js",
+            "description": "SDK em Node.js para as APIs da Efí, com cobranças Pix por QR Code e copia e cola.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Efí SDK PHP",
+            "link": "https://go.mymarketing.click/pix-efi-sdk-php",
+            "description": "SDK em PHP para as APIs da Efí, com cobranças Pix por QR Code e copia e cola.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Gerencianet SDK Python",
+            "link": "https://go.mymarketing.click/pix-gerencianet-sdk-python",
+            "description": "SDK em Python para a API da Efí, publicado com o nome antigo Gerencianet.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Mercado Pago SDK .NET",
+            "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-net",
+            "description": "O SDK oficial do Mercado Pago para .NET.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Mercado Pago SDK Java",
+            "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-java",
+            "description": "O SDK oficial do Mercado Pago para Java.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Mercado Pago SDK Node.js",
+            "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-node-js",
+            "description": "O SDK oficial do Mercado Pago para Node.js.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Mercado Pago SDK PHP",
+            "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-php",
+            "description": "O SDK oficial do Mercado Pago para PHP.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Mercado Pago SDK Python",
+            "link": "https://go.mymarketing.click/pix-mercado-pago-sdk-python",
+            "description": "O SDK oficial do Mercado Pago para Python.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenPix Developers",
+            "link": "https://go.mymarketing.click/pix-openpix-developers",
+            "description": "O código da documentação da OpenPix, com exemplos de integração.",
+            "tags": [
+              "codigo-aberto"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Woovi Developers",
+            "link": "https://go.mymarketing.click/pix-woovi-developers",
+            "description": "O código da documentação da Woovi, com exemplos de integração.",
+            "tags": [
+              "codigo-aberto"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "bibliotecas",
+        "title": "Bibliotecas de código aberto",
+        "description": "Para gerar, ler e validar o BR Code (o conteúdo do QR Code e do copia e cola) sem depender de provedor.",
+        "items": [
+          {
+            "name": "brcode",
+            "link": "https://go.mymarketing.click/pix-brcode",
+            "description": "Leitor de BR Code do Pix em Rust.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "emv-qrcode",
+            "link": "https://go.mymarketing.click/pix-emv-qrcode",
+            "description": "Gerador e leitor de QR Code no padrão EMV em Java, o padrão que o BR Code segue.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "go-pix",
+            "link": "https://go.mymarketing.click/pix-go-pix",
+            "description": "Biblioteca em Go para gerar o Pix copia e cola e o QR Code.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "php_qrcode_pix",
+            "link": "https://go.mymarketing.click/pix-php-qrcode-pix",
+            "description": "Geração do QR Code do Pix em PHP.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "PHPay",
+            "link": "https://go.mymarketing.click/pix-phpay",
+            "description": "Biblioteca PHP para integrar vários provedores de pagamento com a mesma interface.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "pix-payload",
+            "link": "https://go.mymarketing.click/pix-pix-payload",
+            "description": "Pacote npm que gera o payload do Pix seguindo o padrão do Banco Central.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "pix-utils",
+            "link": "https://go.mymarketing.click/pix-pix-utils",
+            "description": "Ferramentas em TypeScript para ler, gerar e validar códigos Pix.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "PIX-BACEN-SDK-dotnet",
+            "link": "https://go.mymarketing.click/pix-pix-bacen-sdk-dotnet",
+            "description": "Os contratos da API Pix do Banco Central em .NET, gerados da especificação oficial.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "pypix",
+            "link": "https://go.mymarketing.click/pix-pypix",
+            "description": "Biblioteca em Python para gerar o BR Code e o QR Code do Pix.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "sdks-comunidade",
+        "title": "SDKs da comunidade",
+        "description": "Feitos por quem usa a API, não pelo provedor.",
+        "items": [
+          {
+            "name": "asaas (TypeScript)",
+            "link": "https://go.mymarketing.click/pix-asaas-typescript",
+            "description": "SDK em TypeScript que abstrai as chamadas mais usadas da API do Asaas.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "asaas-sdk (PHP)",
+            "link": "https://go.mymarketing.click/pix-asaas-sdk-php",
+            "description": "SDK em PHP para a API do Asaas.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "dados",
+        "title": "Dados e utilitários",
+        "description": "O que ajuda a validar e conciliar.",
+        "items": [
+          {
+            "name": "Bancos Brasileiros",
+            "link": "https://go.mymarketing.click/pix-bancos-brasileiros",
+            "description": "A lista dos bancos brasileiros com código, ISPB e nome, em vários formatos.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "ferramentas",
+        "title": "Ferramentas",
+        "description": "Para quem precisa gerar um Pix sem escrever código.",
+        "items": [
+          {
+            "name": "Gerador de QR Code Pix",
+            "link": "https://go.mymarketing.click/pix-gerador-de-qr-code-pix",
+            "description": "Gera QR Code, placa e link de Pix no navegador a partir da chave.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Infrastructure Payments",
+            "link": "https://go.mymarketing.click/pix-infrastructure-payments",
+            "description": "Cobrança avulsa por Pix e cartão pelo Mercado Pago da sua conta, com REST, SDK React e MCP.",
+            "tags": [
+              "api"
+            ],
+            "ours": true
+          },
+          {
+            "name": "Marketing Stores",
+            "link": "https://go.mymarketing.click/pix-marketing-stores",
+            "description": "Loja online com pagamento por Pix, com QR Code e copia e cola, e cartão direto no Mercado Pago do dono.",
+            "tags": [
+              "api"
+            ],
+            "ours": true
+          }
+        ]
+      },
+      {
+        "id": "outras-listas",
+        "title": "Outras listas e comunidades",
+        "description": "Quem já reuniu material sobre Pix antes.",
+        "items": [
+          {
+            "name": "awesome-pix (Woovi)",
+            "link": "https://go.mymarketing.click/pix-awesome-pix-woovi",
+            "description": "A primeira lista de recursos sobre Pix, mantida pela Woovi.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      }
+    ]
+  },
+  "awesome-mcp-brasil": {
+    "slug": "awesome-mcp-brasil",
+    "title": "Awesome MCP Brasil",
+    "description": "Servidores MCP para serviços brasileiros: dados públicos, CNPJ, fiscal, jurídico, mercado financeiro, comércio e pagamentos.",
+    "intro": "Para quem quer que o Claude, o Cursor ou outro agente de IA consulte e opere serviços do Brasil pelo Model Context Protocol. Cada item é um servidor MCP que existe hoje, com o código ou a documentação publicados. Projetos da comunidade não são oficiais, a menos que a etiqueta diga.",
+    "updated": "2026-11-10",
+    "count": 39,
+    "categories": [
+      {
+        "id": "dados-publicos",
+        "title": "Dados públicos e governo",
+        "description": "IBGE, Banco Central, Congresso e outras bases abertas.",
+        "items": [
+          {
+            "name": "bcb-br-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-bcb-br-mcp",
+            "description": "Dados do Banco Central para agentes: Selic, IPCA, câmbio e PIB.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "brasil-data-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-brasil-data-mcp",
+            "description": "Dados públicos brasileiros num servidor só: CNPJ, CEP, bancos, feriados, DDD, ISBN e indicadores econômicos.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "cvm-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-cvm-mcp",
+            "description": "Um servidor MCP para o repositório de dados abertos da CVM inteiro.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "ibge-br-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-ibge-br-mcp",
+            "description": "As APIs do IBGE para agentes: dados geográficos, demográficos e estatísticos.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "MCP Brasil",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-brasil",
+            "description": "Servidor MCP com 70 APIs públicas brasileiras.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "mcp-dados-br",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-dados-br",
+            "description": "Dados públicos do IBGE, do Banco Central, do INMET, da Câmara e do Senado.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "mcp-senado",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-senado",
+            "description": "Os dados abertos do Senado Federal para agentes: legislação, senadores e votações.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "senado-br-mcp-cloudflare",
+            "link": "https://go.mymarketing.click/mcpbr-senado-br-mcp-cloudflare",
+            "description": "Servidor MCP hospedado do Senado Federal, no Cloudflare Workers.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "empresas",
+        "title": "Empresas, CNPJ e compras públicas",
+        "description": "Consultar empresas e licitações.",
+        "items": [
+          {
+            "name": "Buscador de CNPJ",
+            "link": "https://go.mymarketing.click/mcpbr-buscador-de-cnpj",
+            "description": "Servidor MCP para consultar empresas pelo serviço Buscador de CNPJ.",
+            "tags": [
+              "codigo-aberto"
+            ],
+            "ours": false
+          },
+          {
+            "name": "CNPJ e CEP",
+            "link": "https://go.mymarketing.click/mcpbr-cnpj-e-cep",
+            "description": "Servidor MCP remoto com empresa pelo CNPJ, CEP, feriados, DDD, bancos, NCM, Selic, CDI e IPCA, e conferência de CPF e CNPJ.",
+            "tags": [
+              "gratis"
+            ],
+            "ours": true
+          },
+          {
+            "name": "cnpj-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-cnpj-mcp",
+            "description": "Consultas analíticas sobre a base aberta de CNPJ da Receita Federal, com DuckDB.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Licinexus MCP",
+            "link": "https://go.mymarketing.click/mcpbr-licinexus-mcp",
+            "description": "Dados de compras públicas do PNCP e da Receita Federal para agentes.",
+            "tags": [
+              "codigo-aberto"
+            ],
+            "ours": false
+          },
+          {
+            "name": "mcp-dadosbr",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-dadosbr",
+            "description": "Consulta de empresa pelo CNPJ e de endereço pelo CEP.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Radar CNPJ MCP",
+            "link": "https://go.mymarketing.click/mcpbr-radar-cnpj-mcp",
+            "description": "Encontra empresas brasileiras por CNAE e região, com dados abertos da Receita Federal.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "fiscal",
+        "title": "Fiscal e nota fiscal",
+        "description": "Impostos, documentos fiscais e obrigações.",
+        "items": [
+          {
+            "name": "MCP Fiscal Brasil",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-fiscal-brasil",
+            "description": "Servidor MCP fiscal: CNPJ, NF-e, NFS-e, CT-e, SPED, eSocial, Simples Nacional e a reforma tributária.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "MCP Server ACBrNFe",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-server-acbrnfe",
+            "description": "Geração e envio de NF-e com o componente ACBrNFe, em Delphi.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "juridico",
+        "title": "Jurídico e legislação",
+        "description": "Leis, processos e precedentes.",
+        "items": [
+          {
+            "name": "BNP API",
+            "link": "https://go.mymarketing.click/mcpbr-bnp-api",
+            "description": "Servidor MCP para o Banco Nacional de Precedentes do CNJ, com busca de precedentes vinculantes.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "br-eli-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-br-eli-mcp",
+            "description": "Legislação brasileira por oito APIs abertas sem chave: projetos e leis da Câmara e do Senado, DataJud e outras.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "brlaw_mcp_server",
+            "link": "https://go.mymarketing.click/mcpbr-brlaw-mcp-server",
+            "description": "Pesquisa sobre o direito brasileiro em fontes oficiais, feita por agentes.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "leis-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-leis-mcp",
+            "description": "Busca e cita a legislação brasileira no Claude e em outros assistentes.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "MCP Jurídico Brasil",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-juridico-brasil",
+            "description": "Plataforma jurídica modular por MCP, começando pelo acompanhamento processual.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "mercado-financeiro",
+        "title": "Mercado financeiro",
+        "description": "Bolsa, fundos e finanças abertas.",
+        "items": [
+          {
+            "name": "bolsai-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-bolsai-mcp",
+            "description": "Dados do mercado de ações brasileiro (B3, CVM e Banco Central) para agentes.",
+            "tags": [
+              "codigo-aberto"
+            ],
+            "ours": false
+          },
+          {
+            "name": "DataBolsa",
+            "link": "https://go.mymarketing.click/mcpbr-databolsa",
+            "description": "SDK em TypeScript, CLI e servidor MCP para a API de dados da bolsa brasileira do DataBolsa.",
+            "tags": [
+              "codigo-aberto",
+              "sdk"
+            ],
+            "ours": false
+          },
+          {
+            "name": "local-openfinance",
+            "link": "https://go.mymarketing.click/mcpbr-local-openfinance",
+            "description": "Sincroniza dados do Open Finance brasileiro num SQLite local para anotar gastos e gerar relatórios.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "OpenFinData",
+            "link": "https://go.mymarketing.click/mcpbr-openfindata",
+            "description": "Infraestrutura aberta para dados financeiros públicos do Brasil.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "agro",
+        "title": "Agronegócio",
+        "description": "Cotações e dados do campo.",
+        "items": [
+          {
+            "name": "agrobr-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-agrobr-mcp",
+            "description": "Dados agrícolas brasileiros: preços, safras, comércio, clima e desmatamento.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "MCP Agro Brasil",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-agro-brasil",
+            "description": "Cotações do agronegócio (boi, soja, milho, leite) e conversões de unidade.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "pagamentos",
+        "title": "Pagamentos e vendas digitais",
+        "description": "Cobrar, receber e acompanhar vendas.",
+        "items": [
+          {
+            "name": "Hotmart",
+            "link": "https://go.mymarketing.click/mcpbr-hotmart",
+            "description": "Servidor MCP remoto com vendas, assinaturas e comissões de afiliados da Hotmart; reembolso só com aprovação.",
+            "tags": [],
+            "ours": true
+          },
+          {
+            "name": "hotmart-mcp",
+            "link": "https://go.mymarketing.click/mcpbr-hotmart-mcp",
+            "description": "Servidor MCP para a API da Hotmart: vendas, assinaturas, clube, produtos e cupons.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Mercado Pago MCP Server",
+            "link": "https://go.mymarketing.click/mcpbr-mercado-pago-mcp-server",
+            "description": "O servidor MCP oficial do Mercado Pago, para consultar a documentação e integrar pagamentos pelo agente.",
+            "tags": [
+              "oficial"
+            ],
+            "ours": false
+          },
+          {
+            "name": "mcp-woovi-api",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-woovi-api",
+            "description": "Servidor MCP para a API da Woovi e OpenPix, de cobranças por Pix.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "comercio",
+        "title": "Comércio eletrônico e marketplaces",
+        "description": "Lojas, marketplaces e o comércio da América Latina.",
+        "items": [
+          {
+            "name": "MCP Dev LATAM",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-dev-latam",
+            "description": "Servidores MCP para o comércio na América Latina: Pix, NF-e, bancos, fiscal, logística e mensagens.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "mcp-mercado-livre",
+            "link": "https://go.mymarketing.click/mcpbr-mcp-mercado-livre",
+            "description": "Servidor MCP para interagir com a API do Mercado Livre.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "nuvemshop-mcp-server",
+            "link": "https://go.mymarketing.click/mcpbr-nuvemshop-mcp-server",
+            "description": "Servidor MCP para a API da Nuvemshop: produtos, pedidos e clientes.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "erp",
+        "title": "ERPs e gestão",
+        "description": "Os sistemas de gestão mais usados por empresas brasileiras.",
+        "items": [
+          {
+            "name": "bling-erp-mcp-server",
+            "link": "https://go.mymarketing.click/mcpbr-bling-erp-mcp-server",
+            "description": "Servidor MCP não oficial para o Bling ERP.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Conta Azul MCP",
+            "link": "https://go.mymarketing.click/mcpbr-conta-azul-mcp",
+            "description": "Conecta o ERP Conta Azul ao Claude, ao Cursor e a agentes: vendas, clientes e produtos.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          },
+          {
+            "name": "olist-mcp-server",
+            "link": "https://go.mymarketing.click/mcpbr-olist-mcp-server",
+            "description": "Servidor MCP para a API v3 do Olist ERP (Tiny), com ferramentas geradas da especificação OpenAPI.",
+            "tags": [
+              "codigo-aberto",
+              "gratis"
+            ],
+            "ours": false
+          }
+        ]
+      },
+      {
+        "id": "ecossistemas",
+        "title": "Coleções e ecossistemas",
+        "description": "Projetos que reúnem vários conectores brasileiros.",
+        "items": [
+          {
+            "name": "BridgeAPI",
+            "link": "https://go.mymarketing.click/mcpbr-bridgeapi",
+            "description": "Um ecossistema de conectores MCP para plataformas brasileiras, como WhatsApp e Hotmart.",
+            "tags": [
+              "codigo-aberto"
+            ],
+            "ours": false
+          },
+          {
+            "name": "Connectors (Agents)",
+            "link": "https://go.mymarketing.click/mcpbr-connectors-agents",
+            "description": "Catálogo de servidores MCP remotos com OAuth, entre eles CNPJ e CEP e Hotmart, para o Claude, o Cursor e outros clientes.",
+            "tags": [],
+            "ours": true
+          }
+        ]
+      }
+    ]
+  }
+}

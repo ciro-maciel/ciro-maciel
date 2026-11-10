@@ -99,6 +99,7 @@ for (const item of ALTERNATIVES.items) ROUTES.push({ path: `${ALTERNATIVES.path}
 
 // The awesome lists: one page, the lists themselves live on GitHub.
 ROUTES.push({ path: AWESOME.path, changefreq: 'weekly', priority: '0.7' })
+for (const slug of Object.keys(JSON.parse(await readFile(join(ROOT, 'src', 'data', 'awesome-lists.json'), 'utf-8')))) ROUTES.push({ path: `${AWESOME.path}/${slug}`, changefreq: 'weekly', priority: '0.6' })
 
 // The MCP connectors: /mcp and one page per connector.
 ROUTES.push({ path: MCP.path, changefreq: 'weekly', priority: '0.7' })

@@ -26,6 +26,7 @@ import { PROMPTS } from '../src/data/prompts.js'
 import { RULES } from '../src/data/rules.js'
 import { AGENTS } from '../src/data/agents.js'
 import { ALTERNATIVES, alternativesByApp } from '../src/data/alternatives.js'
+import { AWESOME } from '../src/data/awesome.js'
 import { MCP } from '../src/data/mcp.js'
 import { MCP_URL } from '../src/data/trust.js'
 
@@ -162,6 +163,12 @@ ${[PROMPTS, RULES, AGENTS].map(c => `- ${c.eyebrow}: ${URL}${c.path} — ${c.des
 ${URL}${ALTERNATIVES.path} — ${ALTERNATIVES.description}
 
 ${alternativesByApp().map(({ app, items }) => `- ${app.name} (${URL}${app.toolPath}, código em ${app.repo}): ${app.line}\n${items.map(i => `  - Alternativa ao ${i.competitor}: ${URL}${ALTERNATIVES.path}/${i.slug}`).join('\n')}`).join('\n')}
+
+## Listas awesome
+
+${URL}${AWESOME.path} — ${AWESOME.description}
+
+${AWESOME.groups.map(group => `### ${group.title}\n\n${group.lists.map(list => `- ${list.title} (${URL}${AWESOME.path}/${list.slug}, repositório ${list.url}): ${list.description}`).join('\n')}`).join('\n\n')}
 
 ## Conectores MCP
 

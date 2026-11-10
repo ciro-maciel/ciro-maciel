@@ -1,36 +1,20 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Anchor, Box, Button, Container, Group, SimpleGrid, Stack, Text, TextInput, Title } from '@mantine/core'
 import { CTABanner, FeaturesGrid, SECTION_BACKGROUNDS, StatsGrid } from '@ciromaciel/components-kit'
 import {
-    IconApi,
     IconArrowRight,
-    IconBooks,
     IconBraces,
     IconBrandGithub,
-    IconBrandWhatsapp,
-    IconBriefcase,
-    IconBuildingBank,
-    IconBuildingStore,
-    IconCalculator,
     IconCircleCheck,
-    IconClipboardText,
-    IconCreditCard,
     IconGitPullRequest,
-    IconHeadset,
     IconLanguage,
-    IconPlugConnected,
-    IconQrcode,
     IconRss,
-    IconReceipt,
-    IconScale,
-    IconSchool,
     IconSearch,
-    IconSeedling,
-    IconTerminal2,
-    IconTool,
-    IconUser,
 } from '@tabler/icons-react'
 import { useSeoMeta } from '../hooks/useSeoMeta'
+import { iconOfList } from '../components/awesome-icons'
+import AWESOME_LISTS from '../data/awesome-lists.json'
 import { AWESOME } from '../data/awesome'
 import { awesomeSeo } from '../data/seo'
 import { NewsletterBox } from '../components/NewsletterBox'
@@ -44,29 +28,6 @@ import { NewsletterBox } from '../components/NewsletterBox'
  */
 
 const BORDER = '1px solid var(--mantine-color-gray-2)'
-
-/** One Tabler icon per list, by slug. A new list without an icon falls back to the briefcase. */
-const LIST_ICONS = {
-    'awesome-ia-no-trabalho': IconBriefcase,
-    'awesome-ia-advocacia': IconScale,
-    'awesome-ia-contabilidade': IconCalculator,
-    'awesome-ia-sala-de-aula': IconSchool,
-    'awesome-ia-atendimento-e-vendas': IconHeadset,
-    'awesome-ia-escritorio': IconClipboardText,
-    'awesome-ia-pequeno-negocio': IconBuildingStore,
-    'awesome-ia-primeiro-trabalho': IconSeedling,
-    'awesome-pix': IconQrcode,
-    'awesome-nfe': IconReceipt,
-    'awesome-pagamentos-brasil': IconCreditCard,
-    'awesome-open-finance-brasil': IconBuildingBank,
-    'awesome-whatsapp-api': IconBrandWhatsapp,
-    'awesome-apis-brasil': IconApi,
-    'awesome-mcp-brasil': IconPlugConnected,
-    'awesome-empresa-de-uma-pessoa': IconUser,
-    'awesome-claude-code-br': IconTerminal2,
-    'awesome-ferramentas-online': IconTool,
-    'awesome-livros-ia': IconBooks,
-}
 
 const HOW_ICONS = {
     'circle-check': IconCircleCheck,
@@ -324,13 +285,13 @@ function Hero() {
 }
 
 function ListCard({ list }) {
-    const Icon = LIST_ICONS[list.slug] ?? IconBriefcase
+    const Icon = iconOfList(list.slug)
+    const data = AWESOME_LISTS[list.slug]
+    // A list with its data here opens its page on this site; one not built yet opens GitHub.
+    const target = data ? { component: Link, to: `${AWESOME.path}/${list.slug}` } : { component: 'a', href: `${list.url}?ref=site-awesome`, target: '_blank', rel: 'noopener' }
     return (
         <Box
-            component="a"
-            href={`${list.url}?ref=site-awesome`}
-            target="_blank"
-            rel="noopener"
+            {...target}
             p={{ base: 'lg', md: 'xl' }}
             bg="white"
             style={{ borderRight: BORDER, borderBottom: BORDER, textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', gap: 12 }}
@@ -374,7 +335,7 @@ function ListCard({ list }) {
                     fz={13}
                     c="gray.5"
                 >
-                    {list.slug}
+                    {data ? `${data.count} itens · 15 idiomas` : list.slug}
                 </Text>
                 <IconArrowRight
                     size={16}

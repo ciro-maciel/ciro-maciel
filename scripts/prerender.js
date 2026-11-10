@@ -23,7 +23,7 @@ import { fileURLToPath } from 'node:url'
 
 import BOOKS from '../src/data/books.json'
 import { BOOK_EXTRAS, SERIES, amazonSearch } from '../src/data/book-extras.js'
-import { AUTHOR, SITE_URL, bookLd, bookSeo, booksSeo, breadcrumbLd, clip, kitLd, kitSeo, kitTaskSeo, seriesLd, snippetIndexSeo, snippetLd, snippetSeo, alternativeSeo, alternativesIndexSeo, awesomeSeo, appLd, faqLd, mcpIndexSeo, mcpSeo, mcpLd } from '../src/data/seo.js'
+import { AUTHOR, SITE_URL, bookLd, bookSeo, booksSeo, breadcrumbLd, clip, kitLd, kitSeo, kitTaskSeo, seriesLd, snippetIndexSeo, snippetLd, snippetSeo, alternativeSeo, alternativesIndexSeo, awesomeSeo, awesomeListSeo, appLd, faqLd, mcpIndexSeo, mcpSeo, mcpLd } from '../src/data/seo.js'
 import ESC from '../src/data/kit-ia-no-escritorio.js'
 import EMP from '../src/data/kit-ia-no-primeiro-trabalho.js'
 import ATD from '../src/data/kit-ia-no-atendimento-e-nas-vendas.js'
@@ -39,6 +39,8 @@ import { RULES } from '../src/data/rules.js'
 import { AGENTS } from '../src/data/agents.js'
 import { ALTERNATIVES, alternativesByApp } from '../src/data/alternatives.js'
 import { AWESOME } from '../src/data/awesome.js'
+import { readFileSync as readAwesome } from 'node:fs'
+const AWESOME_LISTS = JSON.parse(readAwesome(new URL('../src/data/awesome-lists.json', import.meta.url), 'utf8'))
 import { LINE_TOOLS } from '../src/data/line-tools.js'
 import { MCP, mcpSiblings } from '../src/data/mcp.js'
 import { CCM_STACK } from '../src/data/ccm-stack.js'
@@ -268,6 +270,26 @@ function awesomePage() {
     }
 }
 
+// /awesome/<slug> (pages/AwesomeList.jsx): the list in Portuguese, every item through its short link.
+const AWESOME_TAGS = { oficial: 'oficial', 'codigo-aberto': 'código aberto', gratis: 'grátis', pago: 'pago', api: 'API', sdk: 'SDK' }
+function awesomeListPage(data) {
+    const seo = awesomeListSeo(data)
+    const entry = AWESOME.groups.flatMap(group => group.lists).find(item => item.slug === data.slug)
+    const tags = item => [item.ours ? 'do autor' : '', ...item.tags.map(tag => AWESOME_TAGS[tag] ?? tag)].filter(Boolean)
+    return {
+        seo,
+        ld: [snippetLd(seo), breadcrumbLd([HOME_CRUMB, { name: AWESOME.eyebrow, path: AWESOME.path }, { name: data.title, path: seo.url }])],
+        body: [
+            `<p>${escape(AWESOME.eyebrow)} · ${escape(entry?.kind ?? '')} · ${data.count} itens</p>`,
+            `<h1>${escape(data.title)}</h1>`,
+            `<p>${escape(data.intro || data.description)}</p>`,
+            `<p><a href="${entry?.url ?? ''}">Abrir no GitHub</a></p>`,
+            ...data.categories.map(category => `<h2 id="${category.id}">${escape(category.title)}</h2>${category.description ? `<p>${escape(category.description)}</p>` : ''}${list(category.items.map(item => `<a href="${item.link}">${escape(item.name)}</a>: ${escape(item.description)}${tags(item).length ? ` (${escape(tags(item).join(', '))})` : ''}`))}`),
+            `<p>${escape(AWESOME.note)}</p>`,
+        ].join(''),
+    }
+}
+
 // /ccm-stack (pages/CcmStack.jsx): the same words the page shows, from data/ccm-stack.js.
 function ccmStackPage() {
     const page = CCM_STACK
@@ -448,6 +470,7 @@ for (const collection of [PROMPTS, RULES, AGENTS]) {
 await write(ALTERNATIVES.path, render(shell, alternativesIndexPage()))
 for (const item of ALTERNATIVES.items) await write(`${ALTERNATIVES.path}/${item.slug}`, render(shell, alternativePage(item)))
 await write(AWESOME.path, render(shell, awesomePage()))
+for (const list of Object.values(AWESOME_LISTS)) await write(`${AWESOME.path}/${list.slug}`, render(shell, awesomeListPage(list)))
 await write(CCM_STACK.path, render(shell, ccmStackPage()))
 await write(MCP.path, render(shell, mcpIndexPage()))
 for (const item of MCP.items) await write(`${MCP.path}/${item.id}`, render(shell, mcpPage(item)))

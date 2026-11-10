@@ -1,0 +1,46 @@
+import {
+    IconApi,
+    IconBooks,
+    IconBrandWhatsapp,
+    IconBriefcase,
+    IconBuildingBank,
+    IconBuildingStore,
+    IconCalculator,
+    IconClipboardText,
+    IconCreditCard,
+    IconHeadset,
+    IconPlugConnected,
+    IconQrcode,
+    IconReceipt,
+    IconScale,
+    IconSchool,
+    IconSeedling,
+    IconTerminal2,
+    IconTool,
+    IconUser,
+} from '@tabler/icons-react'
+
+/** One Tabler icon per list, by slug. A new list without an icon falls back to the briefcase. */
+export const LIST_ICONS = {
+    'awesome-ia-no-trabalho': IconBriefcase,
+    'awesome-ia-advocacia': IconScale,
+    'awesome-ia-contabilidade': IconCalculator,
+    'awesome-ia-sala-de-aula': IconSchool,
+    'awesome-ia-atendimento-e-vendas': IconHeadset,
+    'awesome-ia-escritorio': IconClipboardText,
+    'awesome-ia-pequeno-negocio': IconBuildingStore,
+    'awesome-ia-primeiro-trabalho': IconSeedling,
+    'awesome-pix': IconQrcode,
+    'awesome-nfe': IconReceipt,
+    'awesome-pagamentos-brasil': IconCreditCard,
+    'awesome-open-finance-brasil': IconBuildingBank,
+    'awesome-whatsapp-api': IconBrandWhatsapp,
+    'awesome-apis-brasil': IconApi,
+    'awesome-mcp-brasil': IconPlugConnected,
+    'awesome-empresa-de-uma-pessoa': IconUser,
+    'awesome-claude-code-br': IconTerminal2,
+    'awesome-ferramentas-online': IconTool,
+    'awesome-livros-ia': IconBooks,
+}
+
+export const iconOfList = slug => LIST_ICONS[slug] ?? IconBriefcase

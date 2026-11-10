@@ -23,6 +23,7 @@ export const KINDS = {
     agent: { label: 'Agente', plural: 'Agentes' },
     tool: { label: 'Ferramenta', plural: 'Ferramentas' },
     alternative: { label: 'Alternativa', plural: 'Alternativas' },
+    awesome: { label: 'Lista', plural: 'Listas' },
     mcp: { label: 'Conector MCP', plural: 'Conectores MCP' },
     page: { label: 'Página', plural: 'Páginas' },
     legal: { label: 'Documento', plural: 'Documentos' },

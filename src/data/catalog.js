@@ -225,6 +225,7 @@ export const FOOTER_SECTIONS = [
             internal('Regras para o CLAUDE.md', '/rules'),
             internal('Agentes com cargo', '/agents'),
             internal('Alternativas para Mac', '/alternatives'),
+            internal('Listas awesome', '/awesome'),
         ],
     },
     {

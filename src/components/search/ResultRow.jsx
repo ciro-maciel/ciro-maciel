@@ -1,9 +1,9 @@
 import { Box, Group, Mark, Text, UnstyledButton } from '@mantine/core'
 import { Link } from 'react-router-dom'
-import { IconPlugConnected, IconBook, IconBooks, IconChecklist, IconFileText, IconPrompt, IconRobot, IconScale, IconTool, IconFileCode, IconArrowsExchange } from '@tabler/icons-react'
+import { IconPlugConnected, IconBook, IconBooks, IconChecklist, IconFileText, IconPrompt, IconRobot, IconScale, IconTool, IconFileCode, IconArrowsExchange, IconListCheck } from '@tabler/icons-react'
 import { KINDS, highlightParts } from '../../search/search'
 
-const KIND_ICONS = { book: IconBook, kit: IconBooks, task: IconChecklist, prompt: IconPrompt, rule: IconFileCode, agent: IconRobot, tool: IconTool, alternative: IconArrowsExchange, mcp: IconPlugConnected, page: IconFileText, legal: IconScale }
+const KIND_ICONS = { book: IconBook, kit: IconBooks, task: IconChecklist, prompt: IconPrompt, rule: IconFileCode, agent: IconRobot, tool: IconTool, alternative: IconArrowsExchange, mcp: IconPlugConnected, awesome: IconListCheck, page: IconFileText, legal: IconScale }
 
 // The text with the matched words marked, accent-insensitive
 export function Marked({ text, query }) {

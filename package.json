@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "predev": "bun scripts/sync-art.js && bun scripts/build-tools.js registry && bun scripts/build-mcp.js && bun scripts/generate-llms.js",
+    "predev": "bun scripts/sync-art.js && bun scripts/sync-awesome.js && bun scripts/build-tools.js registry && bun scripts/build-mcp.js && bun scripts/generate-llms.js",
     "dev": "vite",
-    "prebuild": "bun scripts/sync-art.js && bun scripts/build-tools.js registry && bun scripts/build-mcp.js && bun scripts/generate-llms.js && node scripts/generate-sitemap.js",
+    "prebuild": "bun scripts/sync-art.js && bun scripts/sync-awesome.js && bun scripts/build-tools.js registry && bun scripts/build-mcp.js && bun scripts/generate-llms.js && node scripts/generate-sitemap.js",
     "build": "vite build && vite build --ssr src/entry-server.jsx --outDir dist-ssr",
     "postbuild": "bun scripts/sync-footer.js && bun scripts/build-tools.js apps && bun scripts/prerender-tools.js && bun scripts/prerender-legal.js && bun scripts/prerender.js && bun scripts/agent-files.js && bun scripts/search-index.js && bun scripts/ssr.js && bun scripts/redirect-pages.js && bun scripts/sitemap-dates.js && bun scripts/seo-guard.js",
     "preview": "vite preview",
