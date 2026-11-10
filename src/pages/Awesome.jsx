@@ -7,6 +7,7 @@ import {
     IconBraces,
     IconBrandGithub,
     IconCircleCheck,
+    IconCoffee,
     IconGitPullRequest,
     IconLanguage,
     IconRss,
@@ -473,6 +474,34 @@ function Lists() {
                                     stroke={1.5}
                                 />
                                 {AWESOME.feed.label}
+                            </Group>
+                        </Anchor>
+                        <Anchor
+                            href={AWESOME.support.href}
+                            target="_blank"
+                            rel="noopener"
+                            c="gray.9"
+                            fw={700}
+                            fz="sm"
+                            underline="never"
+                        >
+                            <Group
+                                gap={6}
+                                component="span"
+                            >
+                                <IconCoffee
+                                    size={16}
+                                    stroke={1.5}
+                                />
+                                {AWESOME.support.label}
+                                <Text
+                                    component="span"
+                                    c="gray.5"
+                                    fw={500}
+                                    fz="sm"
+                                >
+                                    {AWESOME.support.note}
+                                </Text>
                             </Group>
                         </Anchor>
                         <Text

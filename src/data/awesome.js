@@ -22,6 +22,8 @@ export const AWESOME = {
         'Dezenove listas abertas no GitHub: IA por profissão, Pix, nota fiscal, pagamentos, APIs brasileiras, agentes e livros. Cada uma em português, traduzida para mais 14 idiomas, com JSON e RSS para quem quiser ler por programa.',
     note: 'As listas aceitam contribuição por pull request ou issue. O que o autor fez aparece marcado como "do autor"; a ordem dentro de cada seção é alfabética.',
     github: 'https://github.com/ciro-maciel?tab=repositories&q=awesome',
+    // A donation with an open amount, by Pix or card (Mercado Pago), through Links.
+    support: { label: 'Apoie com um café', href: 'https://go.mymarketing.click/apoie', note: 'Quem doa escolhe o valor, por Pix ou cartão.' },
     // Every list's Portuguese feed in one, joined once a day by awesome-kit (cron-awesome-feed.yml).
     feed: { label: 'Acompanhar todas pelo RSS', href: 'https://raw.githubusercontent.com/ciro-maciel/awesome-kit/main/feed/all.xml' },
 

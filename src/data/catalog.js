@@ -245,6 +245,8 @@ export const FOOTER_SECTIONS = [
             internal('Sobre', '/about'),
             external('Blog', SITE.blog),
             external('YouTube', SITE.youtube),
+            // A donation with an open amount, by Pix or card (Mercado Pago), through Links (10/11/2026).
+            external('Apoie com um café', 'https://go.mymarketing.click/apoie'),
             internal('Marca', '/branding'),
             internal('Design system', '/design-system'),
         ],

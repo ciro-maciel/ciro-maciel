@@ -1,7 +1,7 @@
 import { Anchor, Box, Button, Container, Group, SimpleGrid, Stack, Text, Title } from '@mantine/core'
 import { Link, useParams } from 'react-router-dom'
 import { CTABanner, SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
-import { IconArrowLeft, IconArrowRight, IconArrowUpRight, IconBrandGithub, IconRss } from '@tabler/icons-react'
+import { IconArrowLeft, IconArrowRight, IconArrowUpRight, IconBrandGithub, IconCoffee, IconRss } from '@tabler/icons-react'
 import { useSeoMeta } from '../hooks/use-seo-meta'
 import { AWESOME } from '../data/awesome'
 import { awesomeListSeo } from '../data/seo'
@@ -160,6 +160,23 @@ function Hero({ entry, list }) {
                             }
                         >
                             RSS
+                        </Button>
+                        <Button
+                            component="a"
+                            href={AWESOME.support.href}
+                            target="_blank"
+                            rel="noopener"
+                            radius={0}
+                            variant="default"
+                            size="md"
+                            leftSection={
+                                <IconCoffee
+                                    size={16}
+                                    stroke={1.5}
+                                />
+                            }
+                        >
+                            Apoie
                         </Button>
                     </Group>
                 </Stack>
