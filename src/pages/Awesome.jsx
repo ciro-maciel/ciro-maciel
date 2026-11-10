@@ -401,8 +401,6 @@ function Lists() {
                             onChange={event => setQuery(event.currentTarget.value)}
                             placeholder="Procure: Pix, contador, WhatsApp, livros..."
                             aria-label="Procurar uma lista"
-                            // The kit's TextInput drops the left padding (underline style); give it back for the icon.
-                            styles={{ input: { paddingLeft: 30 } }}
                             leftSection={
                                 <IconSearch
                                     size={18}

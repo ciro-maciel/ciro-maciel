@@ -613,8 +613,6 @@ export function McpIndex() {
                                 onChange={event => setQuery(event.currentTarget.value)}
                                 placeholder="Buscar: agenda, avaliações, deploy, newsletter…"
                                 aria-label="Buscar conectores"
-                                // The kit's TextInput drops the left padding (underline style); give it back for the icon.
-                                styles={{ input: { paddingLeft: 30 } }}
                                 radius={0}
                                 size="md"
                                 maw={520}
