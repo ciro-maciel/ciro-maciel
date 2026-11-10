@@ -262,6 +262,8 @@ function awesomePage() {
             `<p>${escape(AWESOME.description)}</p>`,
             ...AWESOME.groups.map(group => `<h2>${escape(group.title)}</h2><p>${escape(group.line)}</p>${list(group.lists.map(item => `<a href="${item.url}?ref=site-awesome">${escape(item.title)}</a>: ${escape(item.description)}`))}`),
             `<p>${escape(AWESOME.note)}</p>`,
+            `<h2>${escape(AWESOME.how.title)}</h2><p>${escape(AWESOME.how.description)}</p>${list(AWESOME.how.items.map(item => `<strong>${escape(item.title)}</strong>: ${escape(item.description)}`))}`,
+            `<h2>${escape(AWESOME.closing.title)}</h2><p>${escape(AWESOME.closing.description)}</p><p><a href="${AWESOME.closing.cta.href}">${escape(AWESOME.closing.cta.label)}</a></p>`,
         ].join(''),
     }
 }
