@@ -34,12 +34,9 @@ export const AWESOME = {
         languages: [
             { code: 'pt', label: 'Português' },
             { code: 'en', label: 'English' },
-            { code: 'es', label: 'Español' },
-            { code: 'zh', label: '中文' },
             { code: 'hi', label: 'हिन्दी' },
-            { code: 'ar', label: 'العربية' },
         ],
-        more: '+ 9 idiomas',
+        more: '+ 12 idiomas',
         items: [
             { name: 'Pix no Banco Central', description: 'A página oficial do Pix, com o que é, como funciona e os links para o resto.', tags: ['oficial', 'grátis'] },
             { name: 'emv-qrcode', description: 'Gerador e leitor de QR Code no padrão EMV, o padrão que o BR Code segue.', tags: ['código aberto'] },

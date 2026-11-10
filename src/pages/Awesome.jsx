@@ -101,7 +101,11 @@ function Preview() {
                 >
                     {preview.list}
                 </Text>
-                <Group gap={4}>
+                <Group
+                    gap={6}
+                    wrap="nowrap"
+                    align="center"
+                >
                     {preview.languages.map((language, index) => (
                         <img
                             key={language.code}
@@ -110,15 +114,16 @@ function Preview() {
                             // Flags and the badge's own gray: the kit's dark-mode invert of SVGs must not touch them.
                             data-keep-colors
                             height={22}
-                            style={{ display: 'block' }}
+                            style={{ display: 'block', flexShrink: 0 }}
                         />
                     ))}
                     <Text
                         component="span"
-                        fz={11}
+                        fz={12}
                         fw={700}
-                        px={4}
+                        pl={4}
                         c="gray.5"
+                        style={{ whiteSpace: 'nowrap' }}
                     >
                         {preview.more}
                     </Text>
