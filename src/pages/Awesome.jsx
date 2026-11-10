@@ -103,18 +103,13 @@ function Preview() {
                 </Text>
                 <Group gap={4}>
                     {preview.languages.map((language, index) => (
-                        <Text
-                            key={language}
-                            component="span"
-                            fz={11}
-                            fw={700}
-                            px={8}
-                            py={4}
-                            bg={index === 0 ? 'gray.9' : 'gray.1'}
-                            c={index === 0 ? 'white' : 'gray.7'}
-                        >
-                            {language}
-                        </Text>
+                        <img
+                            key={language.code}
+                            src={`${preview.badges}/${language.code}${index === 0 ? '-on' : ''}.svg`}
+                            alt={language.label}
+                            height={22}
+                            style={{ display: 'block' }}
+                        />
                     ))}
                     <Text
                         component="span"

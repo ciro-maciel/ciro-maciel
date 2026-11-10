@@ -29,7 +29,16 @@ export const AWESOME = {
     preview: {
         label: 'Como uma lista aparece',
         list: 'Awesome Pix',
-        languages: ['Português', 'English', 'Español', '中文', '日本語', 'العربية'],
+        // The same flag badges as the README's language row, drawn by awesome-kit (src/badges.js).
+        badges: 'https://raw.githubusercontent.com/ciro-maciel/awesome-kit/main/badges',
+        languages: [
+            { code: 'pt', label: 'Português' },
+            { code: 'en', label: 'English' },
+            { code: 'es', label: 'Español' },
+            { code: 'zh', label: '中文' },
+            { code: 'hi', label: 'हिन्दी' },
+            { code: 'ar', label: 'العربية' },
+        ],
         more: '+ 9 idiomas',
         items: [
             { name: 'Pix no Banco Central', description: 'A página oficial do Pix, com o que é, como funciona e os links para o resto.', tags: ['oficial', 'grátis'] },
