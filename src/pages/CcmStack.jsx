@@ -204,7 +204,7 @@ function Start() {
         <Box
             component="section"
             id="comecar"
-            bg={SECTION_BACKGROUNDS.white}
+            bg={SECTION_BACKGROUNDS.gray}
             py={{ base: 80, md: 120 }}
         >
             <Container size="lg">
@@ -253,108 +253,6 @@ function Start() {
                             </Grid.Col>
                         ))}
                     </Grid>
-                </Stack>
-            </Container>
-        </Box>
-    )
-}
-
-// MEASURED (09/11/2026): the eval suite of the repository, each case run with the stack and without
-// it. One row per case; the two numbers sit side by side on every width, so a phone reads the same
-// comparison as a desktop.
-function Measured() {
-    const { measured } = CCM_STACK
-    const score = (label, value, isStrong) => (
-        <Stack
-            gap={4}
-            align="flex-end"
-            miw={72}
-        >
-            <Text
-                fz={11}
-                fw={800}
-                tt="uppercase"
-                lts="1.5px"
-                c="gray.5"
-            >
-                {label}
-            </Text>
-            <Text
-                fz={{ base: 24, md: 28 }}
-                fw={900}
-                lts="-0.04em"
-                c={isStrong ? 'gray.9' : 'gray.5'}
-            >
-                {value}
-            </Text>
-        </Stack>
-    )
-    return (
-        <Box
-            component="section"
-            id="medido"
-            bg={SECTION_BACKGROUNDS.gray}
-            py={{ base: 80, md: 120 }}
-        >
-            <Container size="lg">
-                <Stack gap={48}>
-                    <Stack
-                        gap="md"
-                        align="center"
-                        ta="center"
-                        maw={860}
-                        mx="auto"
-                    >
-                        <SectionHeader
-                            subtitle={measured.subtitle}
-                            title={measured.title}
-                            ta="center"
-                        />
-                        <Text
-                            fz={{ base: 17, md: 18 }}
-                            c="gray.6"
-                            lh={1.6}
-                        >
-                            {measured.description}
-                        </Text>
-                    </Stack>
-                    <Stack
-                        gap={0}
-                        maw={860}
-                        w="100%"
-                        mx="auto"
-                        style={{ borderTop: BORDER }}
-                    >
-                        {measured.rows.map(row => (
-                            <Box
-                                key={row.label}
-                                py="lg"
-                                style={{ borderBottom: BORDER, display: 'flex', alignItems: 'center', gap: 16 }}
-                            >
-                                <Text
-                                    fz={{ base: 15, md: 17 }}
-                                    fw={700}
-                                    c="gray.9"
-                                    lh={1.4}
-                                    style={{ flex: 1 }}
-                                >
-                                    {row.label}
-                                </Text>
-                                {score('Com', row.with, true)}
-                                {score('Sem', row.without, false)}
-                            </Box>
-                        ))}
-                    </Stack>
-                    <Text
-                        fz={14}
-                        c="gray.6"
-                        lh={1.6}
-                        ta="center"
-                        maw={860}
-                        mx="auto"
-                    >
-                        {measured.note}
-                    </Text>
                 </Stack>
             </Container>
         </Box>
@@ -451,8 +349,6 @@ export function CcmStack() {
                 background="white"
             />
 
-            <Measured />
-
             <Start />
 
             <Pricing
@@ -462,7 +358,7 @@ export function CcmStack() {
                 description={plans.description}
                 billingOptions={[]}
                 plans={plansOf()}
-                background="gray"
+                background="white"
             />
 
             <FAQ
@@ -470,7 +366,7 @@ export function CcmStack() {
                 subtitle={faq.subtitle}
                 title={faq.title}
                 questions={faq.questions}
-                background="white"
+                background="gray"
                 ta="center"
             />
 
@@ -479,10 +375,10 @@ export function CcmStack() {
                 title={closing.title}
                 description={closing.description}
                 cta={{ ...closing.cta, icon: <IconBrandGithub size={18} />, target: '_blank' }}
-                background="gray"
+                background="white"
             />
 
-            <NewsletterBox background={SECTION_BACKGROUNDS.white} />
+            <NewsletterBox background={SECTION_BACKGROUNDS.gray} />
         </>
     )
 }

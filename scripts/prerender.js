@@ -308,7 +308,6 @@ function ccmStackPage() {
             `<h2>${escape(page.how.title)}</h2><p>${escape(page.how.description)}</p>`,
             ...page.how.items.map(item => `<h3>${escape(item.title)}</h3><p>${escape(item.description)}</p>`),
             `<h2>${escape(page.proof.title)}</h2>${list(page.proof.stats.map(stat => `${escape(stat.value)} ${escape(stat.label)}`))}<p>${escape(page.proof.note)}</p>`,
-            `<h2>${escape(page.measured.title)}</h2><p>${escape(page.measured.description)}</p>${list(page.measured.rows.map(row => `${escape(row.label)}: ${escape(row.with)} com o CCM Stack, ${escape(row.without)} sem`))}<p>${escape(page.measured.note)}</p>`,
             `<h2>${escape(page.start.title)}</h2>`,
             ...page.start.steps.map(step => `<h3>${escape(step.title)}</h3><p>${escape(step.description)}</p><pre>${escape(step.code)}</pre>`),
             `<h2>${escape(page.plans.title)}</h2><p>${escape(page.plans.description)}</p>`,
