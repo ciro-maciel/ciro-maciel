@@ -405,15 +405,14 @@ export const LINES = {
             need: 'Saber o que acontece',
             domain: 'myoperations.click',
             href: 'https://myoperations.click',
-            products: ['Analytics', 'Videos', 'Tasks'],
+            products: ['Analytics', 'Videos', 'Community'],
             subtitle: 'Operations é como você toca o que existe',
             sentence: 'Saiba o que acontece no que você colocou no ar.',
             description:
-                'De onde veio cada visita, até onde cada vídeo foi assistido, o que cada agente fez e o que ele espera de você. Sem cookie no navegador de quem visita, sem barra que finge duração e sem montar servidor para medir.',
+                'De onde veio cada visita e até onde cada vídeo foi assistido. Sem cookie no navegador de quem visita, sem barra que finge duração e sem montar servidor para medir.',
             featuresList: [
                 'Analytics: uma linha no <head>, e o tráfego do site aparece. Sem cookie, e nenhum identificador fica no navegador de quem visita.',
                 'Videos: a barra é sempre o tempo real. Entre quem se identificou, você sabe quem assistiu e até onde.',
-                'Tasks: os agentes trabalham aqui, e você decide o que é seu. Cada ferramenta tem uma regra, e o que só você decide vira um pedido.',
             ],
             image: '/images/sections/linha-operations.svg',
         },
