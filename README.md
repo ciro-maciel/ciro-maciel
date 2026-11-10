@@ -2,18 +2,14 @@
 
 **Construir é de todos. As ferramentas e o saber é que não eram.**
 
-Faço software há mais de **vinte anos**. Hoje construo, sozinho e com agentes, os blocos que uma ideia precisa para existir de verdade. São **cinco linhas de produtos no ar**; **21 ferramentas grátis**, **6 delas apps de Mac, todos de código aberto**; **10 livros publicados**. Tudo feito por **uma pessoa**. E eu mostro como usar.
+Faço software há mais de vinte anos. Hoje construo sozinho, com agentes, e abro o que uso.
 
-**As linhas.** [Infrastructure](https://myinfrastructure.click/?ref=github-profile), a infraestrutura que os agentes já sabem operar · [Operations](https://myoperations.click/?ref=github-profile), o que acontece no que você colocou no ar · [Customers](https://mycustomers.click/?ref=github-profile), onde cada pessoa está · [Marketing](https://mymarketing.click/?ref=github-profile), o que trouxe cada pessoa · [Agents](https://myagents.click/?ref=github-profile), a IA trabalhando nas suas ferramentas.
+- **[Listas awesome](https://ciromaciel.click/awesome?ref=github-profile)**: o que vale a pena sobre IA por profissão, Pix, NF-e, pagamentos e APIs brasileiras, em 15 idiomas.
+- **Apps de Mac**, grátis e abertos: [Cleaner](https://github.com/ciro-maciel/cleaner) · [Screenshots](https://github.com/ciro-maciel/screenshots) · [Speech to Text](https://github.com/ciro-maciel/speech-to-text) · [Text to Speech](https://github.com/ciro-maciel/text-to-speech) · [Windows](https://github.com/ciro-maciel/windows) · [Assistant](https://github.com/ciro-maciel/voice-assistant)
+- **Para o seu agente:** [CCM Stack](https://github.com/ciro-maciel/ccm-stack) · [regras](https://ciromaciel.click/rules?ref=github-profile) · [agentes com cargo](https://ciromaciel.click/agents?ref=github-profile) · [pedidos prontos](https://ciromaciel.click/prompts?ref=github-profile)
+- **[Livros](https://ciromaciel.click/books?ref=github-profile)**: O Novo Básico, um volume por profissão.
+- **As linhas:** [Infrastructure](https://myinfrastructure.click/?ref=github-profile) · [Operations](https://myoperations.click/?ref=github-profile) · [Customers](https://mycustomers.click/?ref=github-profile) · [Marketing](https://mymarketing.click/?ref=github-profile) · [Agents](https://myagents.click/?ref=github-profile)
 
-**Código aberto.** Seis apps nativos para Mac, grátis, MIT, assinados e notarizados pela Apple, em inglês e português: [Cleaner](https://github.com/ciro-maciel/cleaner), o limpador que mostra antes de apagar · [Screenshots](https://github.com/ciro-maciel/screenshots), captura, anotação e gravação de tela · [Speech to Text](https://github.com/ciro-maciel/speech-to-text), ditado por atalho com o Whisper no Mac · [Assistant](https://github.com/ciro-maciel/voice-assistant), o Claude Code por voz · [Windows](https://github.com/ciro-maciel/windows), janelas no lugar com um atalho · [Text to Speech](https://github.com/ciro-maciel/text-to-speech), selecione um texto e ouça.
+[Cartas do Ciro](https://ciromaciel.click/?ref=github-profile), toda semana · [Apoie com um café](https://go.mymarketing.click/apoie) · [YouTube](https://www.youtube.com/@ciro-maciel) · [Instagram](https://www.instagram.com/ciro.maciel)
 
-De graça também: [ferramentas](https://ciromaciel.click/tools?ref=github-profile), [extensões do VS Code](https://open-vsx.org/namespace/ciro-maciel) e os [livros](https://ciromaciel.click/books?ref=github-profile).
-
-**Como é operado.** Cada agente tem cargo, nível de confiança e uma métrica que diz se ele serve. Publicar, enviar mensagem e cobrar ficam com uma pessoa. Está aberto para copiar: [regras para o CLAUDE.md](https://ciromaciel.click/rules?ref=github-profile), [agentes com cargo](https://ciromaciel.click/agents?ref=github-profile) e [pedidos prontos](https://ciromaciel.click/prompts?ref=github-profile).
-
-**Toda semana, por e-mail:** [as Cartas do Ciro](https://ciromaciel.click/?ref=github-profile), o que estou construindo e aprendendo.
-
-[ciromaciel.click](https://ciromaciel.click/?ref=github-profile) · [YouTube](https://www.youtube.com/@ciro-maciel) · [Instagram](https://www.instagram.com/ciro.maciel)
-
-<sub>**In English.** I build tools and show how to use them: one person, a team of agents, five product lines live. Six native Mac apps, open source (MIT), signed and notarized: [Cleaner](https://github.com/ciro-maciel/cleaner), the Mac cleaner that shows you everything before it deletes anything; [Screenshots](https://github.com/ciro-maciel/screenshots); [Speech to Text](https://github.com/ciro-maciel/speech-to-text); [Assistant](https://github.com/ciro-maciel/voice-assistant), Claude Code by voice; [Windows](https://github.com/ciro-maciel/windows); [Text to Speech](https://github.com/ciro-maciel/text-to-speech). In English and Brazilian Portuguese.</sub>
+<sub>**In English.** One person and a team of agents, building in the open: curated awesome lists in 15 languages, six free open-source Mac apps, and a stack that makes coding agents follow the rules.</sub>
