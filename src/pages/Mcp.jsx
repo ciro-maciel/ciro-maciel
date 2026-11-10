@@ -39,7 +39,7 @@ import {
     IconWorldWww,
 } from '@tabler/icons-react'
 import { SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { MCP, mcpItem, mcpSiblings } from '../data/mcp'
 import { mcpIndexSeo, mcpSeo } from '../data/seo'
 import { NotFound } from './NotFound'

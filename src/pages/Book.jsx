@@ -2,7 +2,7 @@ import { Badge, Box, Button, Container, Grid, Group, List, SimpleGrid, Stack, Te
 import { Link, useParams } from 'react-router-dom'
 import { CTABanner, SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
 import { IconArrowRight, IconChecklist, IconExternalLink } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { bookSeo } from '../data/seo'
 import { BookCard } from '../components/BookCard'
 import { NotFound } from './NotFound'

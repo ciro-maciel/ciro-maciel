@@ -37,7 +37,7 @@ import {
     IconSearch,
     IconTrash,
 } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { NotFound } from './NotFound'
 import { bookBySlug } from '../data/catalog'
 import FDE from '../data/kit-forward-deployed-engineer.json'
@@ -631,7 +631,7 @@ function Documents({ kit, store }) {
                                                         {chapter.label ? chapter.number : String(chapter.number).padStart(2, '0')}
                                                     </Text>
                                                     <Text
-                                                        fw={600}
+                                                        fw={700}
                                                         fz="sm"
                                                         c="gray.9"
                                                     >
@@ -849,7 +849,7 @@ export function ProfessionKit() {
                                             />
                                             <Text
                                                 size="sm"
-                                                fw={600}
+                                                fw={700}
                                             >
                                                 {promise}
                                             </Text>

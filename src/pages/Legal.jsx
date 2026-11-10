@@ -3,7 +3,7 @@ import { LegalSecurity } from '@ciromaciel/components-kit'
 import { LegalDocument } from '../components/LegalDocument'
 import { PRIVACY, TERMS } from '../data/legal'
 
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { SITE } from '../data/site'
 
 /**

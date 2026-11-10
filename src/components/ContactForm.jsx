@@ -100,7 +100,7 @@ export function ContactForm({ form }) {
                                 component={Link}
                                 to="/legal/privacy"
                                 c="gray.9"
-                                fw={600}
+                                fw={700}
                                 inherit
                             >
                                 Política de privacidade

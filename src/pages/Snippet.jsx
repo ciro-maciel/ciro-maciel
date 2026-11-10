@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { useMediaQuery } from '@mantine/hooks'
 import { CTABanner, SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
 import { IconArrowLeft, IconArrowRight, IconCheck, IconCopy, IconDownload } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { snippetIndexSeo, snippetSeo } from '../data/seo'
 import { SITE } from '../data/site'
 import { NotFound } from './NotFound'
@@ -315,7 +315,7 @@ export function SnippetPage({ collection }) {
                                     component={Link}
                                     to={`${collection.path}/${entry.slug}`}
                                     c="gray.9"
-                                    fw={600}
+                                    fw={700}
                                     fz="sm"
                                 >
                                     {entry.label}

@@ -47,7 +47,7 @@ import {
     IconShieldCheck,
     IconTrash,
 } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { kitSeo } from '../data/seo'
 import { NotFound } from './NotFound'
 import { bookBySlug } from '../data/catalog'
@@ -525,7 +525,7 @@ function Prompts() {
                                                 {String(index + 1).padStart(2, '0')}
                                             </Text>
                                             <Text
-                                                fw={600}
+                                                fw={700}
                                                 fz="sm"
                                                 c="gray.9"
                                             >
@@ -776,7 +776,7 @@ function StepPanel({ index, done, setDone, go }) {
                                                 {index + 1}.{number + 1}
                                             </Text>
                                             <Text
-                                                fw={600}
+                                                fw={700}
                                                 c="gray.9"
                                             >
                                                 {task.name}
@@ -994,7 +994,7 @@ function Workbench() {
                                                 {String(at + 1).padStart(2, '0')}
                                             </Text>
                                             <Text
-                                                fw={600}
+                                                fw={700}
                                                 fz="sm"
                                                 c="gray.9"
                                             >
@@ -1641,7 +1641,7 @@ export function BookKit() {
                                             />
                                             <Text
                                                 size="sm"
-                                                fw={600}
+                                                fw={700}
                                             >
                                                 {promise}
                                             </Text>

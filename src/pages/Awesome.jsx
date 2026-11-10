@@ -12,7 +12,7 @@ import {
     IconRss,
     IconSearch,
 } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { iconOfList } from '../components/awesome-icons'
 import AWESOME_LISTS from '../data/awesome-lists.json'
 import { AWESOME } from '../data/awesome'

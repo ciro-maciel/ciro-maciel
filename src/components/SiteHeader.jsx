@@ -282,7 +282,7 @@ export function SiteHeader({ ctas = [] }) {
                             the wrapper, so crossing it does not close the menu. */}
                         <Box pt="xs">
                             <Paper
-                                shadow="md"
+
                                 radius="0"
                                 bg={SECTION_BACKGROUNDS.white}
                                 bd="1px solid var(--mantine-color-gray-2)"

@@ -4,10 +4,10 @@ import { Box, Button, Container, Divider, Group, Loader, Stack, Text, TextInput,
 import { SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
 import { IconSearch } from '@tabler/icons-react'
 import { KINDS } from '../search/search'
-import { useSiteSearch } from '../search/useSiteSearch'
+import { useSiteSearch } from '../search/use-site-search'
 import { ResultRow } from '../components/search/ResultRow'
 import { PAGE_INPUT_ID, Suggestions } from '../components/search/SiteSearch'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 
 /**
  * /search — every result, with a filter per kind. The header's window shows

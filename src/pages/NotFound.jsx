@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { CTABanner } from '@ciromaciel/components-kit'
 import { IconArrowLeft } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 
 export function NotFound() {
     useSeoMeta({

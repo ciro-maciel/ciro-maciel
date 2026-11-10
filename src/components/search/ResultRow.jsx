@@ -12,7 +12,7 @@ export function Marked({ text, query }) {
         part.isMatch ? (
             <Mark
                 key={i}
-                color="yellow"
+                color="gray"
                 // Dark text on the yellow in both themes: the inherited light text vanished on it in dark mode
                 style={{ color: 'var(--mantine-color-dark-9)', padding: 0 }}
             >
@@ -73,7 +73,7 @@ export function ResultRow({ result, query, isCompact = false, isActive = false, 
                 >
                     <Text
                         fz={isCompact ? 14 : 16}
-                        fw={600}
+                        fw={700}
                         lineClamp={2}
                     >
                         <Marked

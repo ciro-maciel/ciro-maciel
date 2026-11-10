@@ -1,7 +1,7 @@
 import { Box, Container, Grid, Group, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core'
 import { SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
 import { IconCheck } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { booksSeo } from '../data/seo'
 import { BookCard } from '../components/BookCard'
 import { BOOKS, LEVELS, SERIES } from '../data/catalog'
@@ -81,7 +81,7 @@ export function Books() {
                                             />
                                             <Text
                                                 size="sm"
-                                                fw={600}
+                                                fw={700}
                                             >
                                                 {promise}
                                             </Text>

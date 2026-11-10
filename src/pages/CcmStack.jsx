@@ -2,7 +2,7 @@ import { Box, Container, Grid, Image, List, Paper, SimpleGrid, Stack, Text, Them
 import { CodeBlock, CTABanner, CTAButton, FAQ, FeaturesGrid, Pricing, SECTION_BACKGROUNDS, SectionHeader, StatsGrid } from '@ciromaciel/components-kit'
 import { IconArrowRight, IconBook, IconBrandGithub, IconCheck, IconShieldCheck, IconVolume, IconX, IconRocket } from '@tabler/icons-react'
 import { useLocation } from 'react-router-dom'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { NewsletterBox } from '../components/NewsletterBox'
 import { CCM_STACK } from '../data/ccm-stack'
 

@@ -2,7 +2,7 @@ import { Anchor, Box, Container, Group, Paper, SimpleGrid, Stack, Text } from '@
 import { Link, useParams } from 'react-router-dom'
 import { CTABanner, SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { kitDocumentSeo, kitTaskSeo } from '../data/seo'
 import { bookBySlug } from '../data/catalog'
 import { standInBook } from '../data/kit-book'
@@ -110,7 +110,7 @@ function OtherItems({ items, kitPath, label }) {
                             component={Link}
                             to={`${kitPath}/${item.id}`}
                             c="gray.9"
-                            fw={600}
+                            fw={700}
                             fz="sm"
                         >
                             {item.name}

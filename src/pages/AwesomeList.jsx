@@ -2,7 +2,7 @@ import { Anchor, Box, Button, Container, Group, SimpleGrid, Stack, Text, Title }
 import { Link, useParams } from 'react-router-dom'
 import { CTABanner, SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
 import { IconArrowLeft, IconArrowRight, IconArrowUpRight, IconBrandGithub, IconRss } from '@tabler/icons-react'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { AWESOME } from '../data/awesome'
 import { awesomeListSeo } from '../data/seo'
 import { iconOfList } from '../components/awesome-icons'

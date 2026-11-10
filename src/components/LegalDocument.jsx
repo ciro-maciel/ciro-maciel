@@ -47,7 +47,7 @@ function Linked({ text }) {
                 key={i}
                 href={part.href}
                 c="gray.9"
-                fw={600}
+                fw={700}
                 style={{ overflowWrap: 'anywhere' }}
                 {...(part.isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
             >

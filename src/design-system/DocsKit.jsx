@@ -381,7 +381,7 @@ export function Callout({ title, children, tone = 'neutral' }) {
  * como ser visto — que é justamente o ponto do degrau 0.
  */
 export function Swatch({ hex, token, role, usage, count }) {
-    const [hovered, setHovered] = useState(false)
+    const [isHovered, setIsHovered] = useState(false)
     const needsBorder = ['#FFFFFF', '#F9FAFB', '#F3F4F6'].includes(hex)
 
     return (
@@ -392,8 +392,8 @@ export function Swatch({ hex, token, role, usage, count }) {
             {({ copied, copy }) => (
                 <Box
                     onClick={copy}
-                    onMouseEnter={() => setHovered(true)}
-                    onMouseLeave={() => setHovered(false)}
+                    onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
                     style={{ cursor: 'pointer' }}
                 >
                     <Box
@@ -403,7 +403,7 @@ export function Swatch({ hex, token, role, usage, count }) {
                         style={{
                             border: needsBorder ? '1px solid var(--mantine-color-gray-2)' : 'none',
                             transition: 'transform 0.2s ease',
-                            transform: hovered ? 'translateY(-2px)' : 'none',
+                            transform: isHovered ? 'translateY(-2px)' : 'none',
                         }}
                     >
                         {copied && (

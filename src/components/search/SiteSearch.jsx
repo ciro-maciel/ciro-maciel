@@ -4,7 +4,7 @@ import { ActionIcon, Box, Button, Group, Kbd, Loader, Modal, ScrollArea, Stack, 
 import { useMediaQuery } from '@mantine/hooks'
 import { IconArrowRight, IconSearch } from '@tabler/icons-react'
 import { SUGGESTIONS, searchPagePath } from '../../search/search'
-import { loadIndex, useSiteSearch } from '../../search/useSiteSearch'
+import { loadIndex, useSiteSearch } from '../../search/use-site-search'
 import { ResultRow } from './ResultRow'
 
 const LIST_LIMIT = 8

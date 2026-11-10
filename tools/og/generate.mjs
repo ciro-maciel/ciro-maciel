@@ -323,14 +323,14 @@ function main() {
     const tmp = join(HERE, '.build')
     mkdirSync(tmp, { recursive: true })
 
-    let failed = false
+    let isFailed = false
 
     for (const key of keys) {
         const cfg = CARDS[key]
 
         const over = checkOverflow(key, cfg, tmp)
         if (over.length) {
-            failed = true
+            isFailed = true
             for (const o of over) {
                 console.error(`${key.padEnd(9)} ERRO  linha ${o.line} da tagline tem ${o.width}px (máx ${SAFE_WIDTH}px) — passaria por baixo do avatar`)
             }
@@ -357,7 +357,7 @@ function main() {
     }
 
     rmSync(tmp, { recursive: true, force: true })
-    if (failed) process.exit(1)
+    if (isFailed) process.exit(1)
 }
 
 main()

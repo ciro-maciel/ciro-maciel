@@ -1,6 +1,6 @@
 import { ContactForm } from '../components/ContactForm'
 import { LegalDocument } from '../components/LegalDocument'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 
 /**
  * /about and /contact (src/data/trust.js), drawn like the /legal documents so

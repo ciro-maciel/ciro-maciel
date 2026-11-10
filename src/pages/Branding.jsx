@@ -1,7 +1,7 @@
 import { Badge, Box, Card, Container, Divider, Grid, Group, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core'
 import { Logotype } from '@ciromaciel/components-kit'
 
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { BRANDING } from '../data/branding'
 
 /**
@@ -48,7 +48,7 @@ export function Branding() {
                             variant="outline"
                             color="gray"
                             size="lg"
-                            radius="sm"
+
                         >
                             Ativos da marca
                         </Badge>
@@ -317,7 +317,7 @@ export function Branding() {
                                     <Box
                                         style={{
                                             position: 'relative',
-                                            borderRadius: '8px',
+                                            borderRadius: '0',
                                             overflow: 'hidden',
                                         }}
                                     >
@@ -439,7 +439,7 @@ function ColorCard({ color, label, hex, use }) {
         <Card
             p={0}
             bd="1px solid gray.2"
-            radius="md"
+
             bg="white"
             style={{ overflow: 'hidden' }}
         >
@@ -453,7 +453,7 @@ function ColorCard({ color, label, hex, use }) {
             />
             <Box p="md">
                 <Text
-                    fw={600}
+                    fw={700}
                     size="sm"
                 >
                     {label}

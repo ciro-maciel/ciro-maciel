@@ -56,7 +56,7 @@ import {
 import { ALIASES, COMPONENTS, PITFALLS, PRIMITIVES, RECIPES, SETUP } from '../design-system/api.js'
 import { Callout, CodeBlock, DoDont, DoDontCard, DocSection, SpecRow, SubHead, Swatch } from '../design-system/DocsKit.jsx'
 import { DocsNav } from '../design-system/DocsNav.jsx'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 
 /**
  * useSpecOrigin — a origem de onde esta página está sendo servida.

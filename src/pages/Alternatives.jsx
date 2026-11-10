@@ -2,7 +2,7 @@ import { Anchor, Box, Button, Container, Group, SimpleGrid, Stack, Table, Text, 
 import { Link, useParams } from 'react-router-dom'
 import { IconArrowLeft, IconArrowRight, IconBrandGithub, IconDownload } from '@tabler/icons-react'
 import { SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
-import { useSeoMeta } from '../hooks/useSeoMeta'
+import { useSeoMeta } from '../hooks/use-seo-meta'
 import { ALTERNATIVES, alternativesByApp } from '../data/alternatives'
 import { alternativeSeo, alternativesIndexSeo } from '../data/seo'
 import { NotFound } from './NotFound'
@@ -383,7 +383,7 @@ export function AlternativePage() {
                                         component={Link}
                                         to={`${ALTERNATIVES.path}/${entry.slug}`}
                                         c="gray.9"
-                                        fw={600}
+                                        fw={700}
                                         fz="sm"
                                     >
                                         {`Alternativa ao ${entry.competitor}`}
