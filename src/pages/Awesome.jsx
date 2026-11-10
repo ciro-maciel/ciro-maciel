@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Box, Button, Container, Group, SimpleGrid, Stack, Text, TextInput, Title } from '@mantine/core'
+import { Anchor, Box, Button, Container, Group, SimpleGrid, Stack, Text, TextInput, Title } from '@mantine/core'
 import { CTABanner, FeaturesGrid, SECTION_BACKGROUNDS, StatsGrid } from '@ciromaciel/components-kit'
 import {
     IconApi,
@@ -20,6 +20,7 @@ import {
     IconLanguage,
     IconPlugConnected,
     IconQrcode,
+    IconRss,
     IconReceipt,
     IconScale,
     IconSchool,
@@ -492,13 +493,35 @@ function Lists() {
                             Nenhuma lista com “{query}”. Tente outra palavra, ou sugira o tema numa issue.
                         </Text>
                     )}
-                    <Text
-                        size="sm"
-                        c="gray.5"
-                        maw={720}
-                    >
-                        {AWESOME.note}
-                    </Text>
+                    <Stack gap="sm">
+                        <Anchor
+                            href={AWESOME.feed.href}
+                            target="_blank"
+                            rel="noopener"
+                            c="gray.9"
+                            fw={700}
+                            fz="sm"
+                            underline="never"
+                        >
+                            <Group
+                                gap={6}
+                                component="span"
+                            >
+                                <IconRss
+                                    size={16}
+                                    stroke={1.5}
+                                />
+                                {AWESOME.feed.label}
+                            </Group>
+                        </Anchor>
+                        <Text
+                            size="sm"
+                            c="gray.5"
+                            maw={720}
+                        >
+                            {AWESOME.note}
+                        </Text>
+                    </Stack>
                 </Stack>
             </Container>
         </Box>
