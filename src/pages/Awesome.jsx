@@ -107,6 +107,8 @@ function Preview() {
                             key={language.code}
                             src={`${preview.badges}/${language.code}${index === 0 ? '-on' : ''}.svg`}
                             alt={language.label}
+                            // Flags and the badge's own gray: the kit's dark-mode invert of SVGs must not touch them.
+                            data-keep-colors
                             height={22}
                             style={{ display: 'block' }}
                         />
