@@ -154,18 +154,19 @@ export const CCM_STACK = {
                 'As regras novas na comunidade antes de entrarem no pacote',
                 'Acesso para sempre, sem mensalidade',
             ],
-            // The checkout, since 11/11/2026: the course CCM Stack inside the community Construindo com
-            // IA (Operations Community), sold once for R$ 99,90 at the house's Mercado Pago (CNPJ), Pix
-            // or card. The person joins the community (open, one click), opens the course and pays
-            // there; the lessons open as soon as the payment is confirmed, with no invite by hand.
+            // The checkout, since 11/11/2026: the Community's public buy page for the course CCM Stack
+            // (community Construindo com IA), sold once for R$ 99,90 through the community's Payments
+            // project, which holds the house's Mercado Pago (CNPJ), Pix or card. Only the e-mail is
+            // asked; the course stays on it, an e-mail brings the buyer in, and signing in with that
+            // e-mail opens the lessons, with no invite by hand.
             // `returns` stays for whoever comes back from the old Checkout Pro link (preference
             // 3642293616-735e50f5…, 09/11/2026), still valid at Mercado Pago.
             isOnSale: true,
-            note: 'Você entra na comunidade com o seu e-mail, abre o curso CCM Stack e paga ali, por Pix ou cartão. As aulas abrem assim que o pagamento é confirmado, e a primeira é grátis para você ver antes. As aulas em vídeo estão sendo gravadas e chegam no curso assim que saem.',
+            note: 'Você paga com o seu e-mail, por Pix ou cartão, sem criar conta antes. Assim que o pagamento é confirmado, chega um e-mail com o link do curso; entre com o mesmo e-mail e as aulas abrem. As aulas em vídeo estão sendo gravadas e chegam no curso assim que saem.',
             cta: {
                 label: 'Quero o Pro',
-                // `course` takes whoever joins straight to the course (the CCM Stack course's id).
-                href: 'https://community.dashboard.myoperations.click/c/construindo-com-ia?course=9c75232a-42fc-4ee0-8696-2ec39a8463f2',
+                // The Community's buy page for the CCM Stack course (its id).
+                href: 'https://community.dashboard.myoperations.click/buy/9c75232a-42fc-4ee0-8696-2ec39a8463f2',
             },
             returns: {
                 pago: {
@@ -218,7 +219,7 @@ export const CCM_STACK = {
             },
             {
                 question: 'O que muda no Pro?',
-                answer: 'O pacote é o mesmo. O Pro traz as 5 aulas em vídeo e a comunidade dos alunos, por R$ 99,90 uma vez só, por Pix ou cartão, dentro da comunidade. As aulas estão sendo gravadas e entram no curso assim que saem.',
+                answer: 'O pacote é o mesmo. O Pro traz as 5 aulas em vídeo e a comunidade dos alunos, por R$ 99,90 uma vez só, por Pix ou cartão, só com o seu e-mail. As aulas estão sendo gravadas e entram no curso assim que saem.',
             },
         ],
     },
