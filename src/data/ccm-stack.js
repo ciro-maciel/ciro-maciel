@@ -164,7 +164,8 @@ export const CCM_STACK = {
             note: 'Você entra na comunidade com o seu e-mail, abre o curso CCM Stack e paga ali, por Pix ou cartão. As aulas abrem assim que o pagamento é confirmado, e a primeira é grátis para você ver antes. As aulas em vídeo estão sendo gravadas e chegam no curso assim que saem.',
             cta: {
                 label: 'Quero o Pro',
-                href: 'https://community.dashboard.myoperations.click/c/construindo-com-ia',
+                // `course` takes whoever joins straight to the course (the CCM Stack course's id).
+                href: 'https://community.dashboard.myoperations.click/c/construindo-com-ia?course=9c75232a-42fc-4ee0-8696-2ec39a8463f2',
             },
             returns: {
                 pago: {
