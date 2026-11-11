@@ -154,23 +154,26 @@ export const CCM_STACK = {
                 'As regras novas na comunidade antes de entrarem no pacote',
                 'Acesso para sempre, sem mensalidade',
             ],
-            // The checkout: a Mercado Pago Checkout Pro link on the house account (CNPJ), Pix, card or
-            // boleto, created on 09/11/2026 (preference 3642293616-735e50f5…, no expiry). The buyer
-            // comes back to this page with ?pro=pago|pendente|falhou, and `returns` says what happens next.
+            // The checkout, since 11/11/2026: the course CCM Stack inside the community Construindo com
+            // IA (Operations Community), sold once for R$ 99,90 at the house's Mercado Pago (CNPJ), Pix
+            // or card. The person joins the community (open, one click), opens the course and pays
+            // there; the lessons open as soon as the payment is confirmed, with no invite by hand.
+            // `returns` stays for whoever comes back from the old Checkout Pro link (preference
+            // 3642293616-735e50f5…, 09/11/2026), still valid at Mercado Pago.
             isOnSale: true,
-            note: 'As aulas em vídeo estão sendo gravadas: quem compra recebe cada uma assim que ela sai, e entra na comunidade no mesmo dia.',
+            note: 'Você entra na comunidade com o seu e-mail, abre o curso CCM Stack e paga ali, por Pix ou cartão. As aulas abrem assim que o pagamento é confirmado, e a primeira é grátis para você ver antes. As aulas em vídeo estão sendo gravadas e chegam no curso assim que saem.',
             cta: {
                 label: 'Quero o Pro',
-                href: 'https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=3642293616-735e50f5-54c1-42e7-abdf-a0fae288ddd9',
+                href: 'https://community.dashboard.myoperations.click/c/construindo-com-ia',
             },
             returns: {
                 pago: {
                     title: 'Pagamento aprovado. Bem-vindo ao Pro.',
-                    text: 'O Ciro recebe o aviso do Mercado Pago e manda, no mesmo dia, o convite da comunidade para o e-mail que você usou no pagamento. Cada aula em vídeo chega nesse e-mail assim que sai. Enquanto isso, comece pela aula 1, logo abaixo.',
+                    text: 'O Ciro recebe o aviso do Mercado Pago e libera, no mesmo dia, o curso na comunidade para o e-mail que você usou no pagamento. Cada aula em vídeo entra no curso assim que sai. Enquanto isso, comece pela aula 1, logo abaixo.',
                 },
                 pendente: {
                     title: 'Pagamento em análise.',
-                    text: 'Pix e boleto levam um tempo para compensar. Assim que o Mercado Pago confirmar, o convite da comunidade chega no e-mail que você usou no pagamento.',
+                    text: 'Pix e boleto levam um tempo para compensar. Assim que o Mercado Pago confirmar, o curso é liberado na comunidade para o e-mail que você usou no pagamento.',
                 },
                 falhou: {
                     title: 'O pagamento não foi concluído.',
@@ -214,7 +217,7 @@ export const CCM_STACK = {
             },
             {
                 question: 'O que muda no Pro?',
-                answer: 'O pacote é o mesmo. O Pro traz as 5 aulas em vídeo e a comunidade dos alunos, por R$ 99,90 uma vez só. As aulas estão sendo gravadas e chegam para quem comprou assim que saem.',
+                answer: 'O pacote é o mesmo. O Pro traz as 5 aulas em vídeo e a comunidade dos alunos, por R$ 99,90 uma vez só, por Pix ou cartão, dentro da comunidade. As aulas estão sendo gravadas e entram no curso assim que saem.',
             },
         ],
     },
