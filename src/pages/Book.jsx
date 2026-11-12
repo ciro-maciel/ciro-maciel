@@ -1,12 +1,13 @@
-import { Badge, Box, Button, Container, Grid, Group, List, SimpleGrid, Stack, Text, Title } from '@mantine/core'
+import { Anchor, Badge, Box, Button, Container, Grid, Group, List, SimpleGrid, Stack, Text, Title } from '@mantine/core'
 import { Link, useParams } from 'react-router-dom'
 import { CTABanner, SECTION_BACKGROUNDS } from '@ciromaciel/components-kit'
-import { IconArrowRight, IconChecklist, IconExternalLink } from '@tabler/icons-react'
+import { IconArrowRight, IconChecklist, IconExternalLink, IconListCheck } from '@tabler/icons-react'
 import { useSeoMeta } from '../hooks/use-seo-meta'
 import { bookSeo } from '../data/seo'
 import { BookCard } from '../components/BookCard'
 import { NotFound } from './NotFound'
 import { BOOKS, SERIES, bookBySlug } from '../data/catalog'
+import { AWESOME, listOfBook } from '../data/awesome'
 import '../books.css'
 
 /**
@@ -177,6 +178,27 @@ export function Book() {
                                         </Button>
                                     )}
                                 </Group>
+                                {listOfBook(book.slug) && (
+                                    <Anchor
+                                        component={Link}
+                                        to={`${AWESOME.path}/${listOfBook(book.slug).slug}`}
+                                        c="gray.7"
+                                        fz="sm"
+                                        fw={700}
+                                        underline="never"
+                                    >
+                                        <Group
+                                            gap={6}
+                                            component="span"
+                                        >
+                                            <IconListCheck
+                                                size={16}
+                                                stroke={1.5}
+                                            />
+                                            As fontes e ferramentas do livro, sempre atualizadas: {listOfBook(book.slug).title}
+                                        </Group>
+                                    </Anchor>
+                                )}
                             </Stack>
                         </Grid.Col>
                     </Grid>

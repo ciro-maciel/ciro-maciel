@@ -38,7 +38,7 @@ import { PROMPTS } from '../src/data/prompts.js'
 import { RULES } from '../src/data/rules.js'
 import { AGENTS } from '../src/data/agents.js'
 import { ALTERNATIVES, alternativesByApp } from '../src/data/alternatives.js'
-import { AWESOME } from '../src/data/awesome.js'
+import { AWESOME, listOfBook } from '../src/data/awesome.js'
 import { readFileSync as readAwesome } from 'node:fs'
 const AWESOME_LISTS = JSON.parse(readAwesome(new URL('../src/data/awesome-lists.json', import.meta.url), 'utf8'))
 import { LINE_TOOLS } from '../src/data/line-tools.js'
@@ -144,6 +144,7 @@ function bookPage(book) {
             `<p><strong>${escape(book.hook)}</strong></p>`,
             `<p>${escape(book.summary)}</p>`,
             `<p>${link(storeOf(book), 'Ver na Amazon')}${book.kit ? ` · ${link(book.kit.path, 'Abrir o kit online')}` : ''}</p>`,
+            listOfBook(book.slug) ? `<p>${link(`${AWESOME.path}/${listOfBook(book.slug).slug}`, `As fontes e ferramentas do livro, sempre atualizadas: ${listOfBook(book.slug).title}`)}</p>` : '',
             `<h2>Para quem é</h2><p>${escape(book.audience)}</p>`,
             `<h2>O que você leva</h2>${list(book.bullets.map(escape))}`,
             `<h2>O que tem dentro</h2><p>${escape(book.thisVolume)}</p><ol>${book.chapters.map(chapter => `<li>${escape(chapter)}</li>`).join('')}</ol>`,

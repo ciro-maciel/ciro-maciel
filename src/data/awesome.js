@@ -123,3 +123,20 @@ export const AWESOME = {
 
 /** Every list, in page order. */
 export const awesomeLists = () => AWESOME.groups.flatMap(group => group.lists)
+
+/** The list that goes with each book: its sources and tools, kept current after the book is printed. */
+export const BOOK_LISTS = {
+    'ia-no-dia-a-dia': 'awesome-ia-no-trabalho',
+    'ia-por-dentro': 'awesome-ia-no-trabalho',
+    'ia-no-escritorio': 'awesome-ia-escritorio',
+    'ia-no-primeiro-trabalho': 'awesome-ia-primeiro-trabalho',
+    'ia-no-pequeno-negocio': 'awesome-ia-pequeno-negocio',
+    'ia-no-atendimento-e-nas-vendas': 'awesome-ia-atendimento-e-vendas',
+    'ia-na-sala-de-aula': 'awesome-ia-sala-de-aula',
+    'ia-na-contabilidade': 'awesome-ia-contabilidade',
+    'ia-na-advocacia': 'awesome-ia-advocacia',
+    'one-person-business': 'awesome-empresa-de-uma-pessoa',
+}
+
+/** The list of a book, or null. */
+export const listOfBook = slug => awesomeLists().find(list => list.slug === BOOK_LISTS[slug]) ?? null
