@@ -255,6 +255,30 @@ export const BOOK_EXTRAS = {
             },
         },
     },
+    'forward-deployed-marketer': {
+        menuLine: 'A profissão de quem leva a IA do piloto à operação de marketing',
+        forWhom: 'Para quem trabalha com marketing e quer instalar a IA no time',
+        // ASIN B0HRSB9P1C, "À venda" on the KDP bookshelf on 15/11/2026.
+        amazon: 'https://www.amazon.com.br/dp/B0HRSB9P1C',
+        // A profession kit (level 4), like volume 14: the documents of the chapters, ready to fill.
+        kitParts: [
+            'Os 19 documentos do livro, do diagnóstico ao repasse, prontos para preencher e copiar',
+            'Uma semana de exercícios, um por dia',
+            'Os recursos do livro, com fonte e data',
+            'O que você digita fica no seu navegador',
+        ],
+        // The book page from the book's KDP keywords (learning/forward-deployed-marketer/KDP.md).
+        seo: {
+            book: {
+                title: 'Forward Deployed Marketer: a profissão que leva a IA ao marketing',
+                description: 'Livro e kit sobre a profissão de Forward Deployed Marketer: entrar pela restrição real, descobrir o trabalho do time, construir a fatia fina, medir sem atribuição inventada, LGPD e aprovação, e o mercado no Brasil.',
+            },
+            kit: {
+                title: 'Kit online de Forward Deployed Marketer: os documentos da profissão',
+                description: 'Os documentos do livro Forward Deployed Marketer, prontos para preencher: o escopo de uma página, o mapa das tarefas, a ficha da fatia fina, o plano de medida e os outros, com os recursos e as fontes.',
+            },
+        },
+    },
 }
 
 export const amazonSearch = book => `https://www.amazon.com.br/s?k=${encodeURIComponent(`${book.title} ${book.author}`)}&i=digital-text`

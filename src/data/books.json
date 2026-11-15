@@ -530,5 +530,50 @@
             "detail": "Documentos para preencher e levar ao cliente",
             "path": "/books/forward-deployed-engineer/kit"
         }
+    },
+    {
+        "slug": "forward-deployed-marketer",
+        "title": "Forward Deployed Marketer",
+        "subtitle": "Como se tornar quem leva a IA do piloto à operação de marketing",
+        "author": "Ciro Cesar Maciel",
+        "volume": 15,
+        "level": 4,
+        "levelName": "Profissão",
+        "hook": "Quem faz o time de marketing usar a IA que comprou?",
+        "summary": "O guia em português da profissão que leva a IA do piloto à operação de marketing: o que é um Forward Deployed Marketer, por que surgiu agora, como é o trabalho fase a fase, o ofício técnico e o caminho para entrar. Cada afirmação com fonte e data.",
+        "thisVolume": "Este é o volume 15, do nível 4. É o guia da profissão que leva a IA do piloto à operação de marketing: o que é o papel, como é o trabalho, o ofício técnico e o caminho para entrar. Ele anda ao lado do volume 14, o Forward Deployed Engineer, e supõe experiência com marketing ou com a tecnologia que o marketing usa.",
+        "bullets": [
+            "O que é o papel e por que ele surgiu agora",
+            "O trabalho fase a fase e o ofício técnico",
+            "Como entrar, e o mercado no Brasil"
+        ],
+        "audience": "Para quem trabalha com marketing e já usa IA todo dia; para quem cuida de CRM, automação e dados de marketing; para quem vem do lado técnico de crescimento e vendas; e para quem precisa montar esse papel no time.",
+        "chapters": [
+            "O que é um Forward Deployed Marketer",
+            "Por que agora",
+            "Entre o FDE, o GTM engineer e a agência",
+            "Entrar: a restrição real, não o briefing",
+            "Descobrir: o trabalho de cada marketer, tarefa a tarefa",
+            "Construir a fatia fina: o primeiro agente que tira trabalho de verdade",
+            "Medir: o conteúdo, a voz e o número, sem atribuição inventada",
+            "Instalar: dados, aprovação, marca e lei",
+            "Transferir: o time que opera sem você",
+            "Provar: a implantação que vira caso",
+            "Os dados do marketing: eventos, CRM, consentimento e integração",
+            "Agentes de conteúdo que a marca aguenta",
+            "Agentes de operação: campanha, segmentação, relatório e atendimento",
+            "O agente de código para quem não é engenheiro",
+            "De onde vêm os FDMs",
+            "O que estudar",
+            "O processo seletivo e o portfólio",
+            "O mercado no Brasil",
+            "Depois do campo"
+        ],
+        "cover": "/books/forward-deployed-marketer.jpg",
+        "kit": {
+            "label": "Kit online",
+            "detail": "Documentos para preencher e levar ao time",
+            "path": "/books/forward-deployed-marketer/kit"
+        }
     }
 ]
