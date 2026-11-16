@@ -20,8 +20,8 @@ export const LEGAL_UPDATED = '8 de outubro de 2026'
 
 export const PRIVACY = {
     title: 'Privacidade',
-    // The contact form section (13/10/2026); the terms keep LEGAL_UPDATED.
-    updated: '14 de outubro de 2026',
+    // The letters moved to LinkedIn (16/11/2026); the terms keep LEGAL_UPDATED.
+    updated: '16 de novembro de 2026',
     subtitle: `Como ${SITE.url.replace('https://', '')}, as ferramentas e os assistentes de IA tratam os seus dados`,
     intro: [
         'Esta política diz o que acontece com os seus dados quando você visita este site, usa as ferramentas gratuitas, usa as ferramentas pelo seu assistente de IA (como o Gerador de favicon no ChatGPT) ou entra numa ferramenta com conta. Ela descreve o que o código faz, sem promessa a mais.',
@@ -51,12 +51,11 @@ export const PRIVACY = {
         },
         {
             icon: 'mail',
-            title: 'Cartas por e-mail',
+            title: 'Cartas do Ciro',
             body: [
-                'A página inicial, a de ferramentas e a de livros têm uma caixa para receber as Cartas do Ciro. Ela roda no Newsletter, o produto de cartas da linha Marketing, hospedado na Cloudflare, instalado aqui como qualquer cliente instala. As cartas saem pelo Messages, o produto de e-mail do Infrastructure, sobre a Amazon SES.',
-                'Quando você assina, guardamos o seu e-mail e a prova do consentimento: o texto que você marcou, a versão dele, a página e as horas do pedido e da confirmação, e o seu endereço IP transformado num código com uma chave secreta. A caixa nunca vem marcada, e você só passa a receber depois de confirmar pelo e-mail que chega na hora.',
-                'Em cada carta, contamos quem clica nos links. A abertura não é medida.',
-                'Toda carta traz o link para sair na hora, sem login. Para apagar o seu e-mail e a prova do consentimento, fale comigo pelo WhatsApp.',
+                'Desde 16 de novembro de 2026 as Cartas do Ciro saem no LinkedIn, como uma newsletter de lá. A caixa das cartas neste site é só um link para a página da newsletter: daqui não sai nenhum dado seu.',
+                'Quem assina pelo LinkedIn é tratado pelo próprio LinkedIn, pela política de privacidade dele: é ele que avisa de cada edição e que oferece o botão para deixar de assinar.',
+                'Até essa data, as cartas eram por e-mail, pelo Newsletter, o produto de cartas da linha Marketing. Quem assinou por e-mail continua na lista, com a prova do consentimento que deu, e não recebe mais envios por ela. Para apagar o seu e-mail e essa prova, fale comigo pelo WhatsApp.',
             ],
         },
         {
@@ -136,12 +135,12 @@ export const PRIVACY = {
             body: [
                 'Não vendemos, alugamos nem repassamos dados para publicidade. Recebem dados só os serviços que fazem as ferramentas funcionarem, cada um na sua parte:',
                 [
-                    'Cloudflare: hospeda o login, o servidor MCP, a análise de visitas, o formulário de contato, as cartas e os arquivos, e envia o e-mail com o código de entrada.',
+                    'Cloudflare: hospeda o login, o servidor MCP, a análise de visitas, o formulário de contato, a lista antiga das cartas e os arquivos, e envia o e-mail com o código de entrada.',
                     'Fly.io: hospeda o servidor das ferramentas e o armazenamento das contas.',
                     'Google Fonts, jsDelivr, IMG.LY e Hugging Face: entregam fontes, emojis e modelos de IA ao seu navegador ou aplicativo.',
                     'Microsoft: gera as vozes do Texto em voz.',
                     'OpenRouter e os modelos que ela serve (Google Gemini, DeepSeek): o texto e as legendas enviados para a IA.',
-                    'Amazon SES: envia os resumos do Acompanhar notícias e as Cartas do Ciro.',
+                    'Amazon SES: envia os resumos do Acompanhar notícias.',
                     'Stripe: cobra os planos pagos.',
                 ],
                 'Essas plataformas guardam os próprios registros técnicos (por exemplo, logs de acesso), pelo prazo das políticas delas. Não temos esse prazo em nosso controle.',
@@ -154,7 +153,7 @@ export const PRIVACY = {
                 [
                     'Visitas ao site e chamadas pelo assistente: 90 dias, apagados automaticamente.',
                     'Mensagens do formulário de contato: até você pedir para apagar. Envios barrados como robô: 30 dias.',
-                    'Assinatura das cartas: o e-mail e a prova do consentimento ficam enquanto a lista existir, até você pedir para apagar; sair da lista para os envios na hora.',
+                    'Assinatura das cartas por e-mail, de antes de 16/11/2026: o e-mail e a prova do consentimento ficam enquanto a lista existir, até você pedir para apagar.',
                     'Áudio do Texto em voz pelo assistente: 7 dias.',
                     'Contagem de chamadas por IP: cerca de um minuto, só em memória.',
                     'Conteúdo das ferramentas sem conta: não é guardado.',

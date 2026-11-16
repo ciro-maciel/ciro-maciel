@@ -1,33 +1,13 @@
-import { useEffect } from 'react'
-import { Anchor, Box, Container, Group, Stack, Text, ThemeIcon } from '@mantine/core'
-import { IconMailOpened } from '@tabler/icons-react'
-import { Link } from 'react-router-dom'
+import { Box, Button, Container, Group, Stack, Text, ThemeIcon } from '@mantine/core'
+import { IconArrowRight, IconMailOpened } from '@tabler/icons-react'
 
 /**
- * "Cartas do Ciro": the subscribe box of Marketing Newsletter, installed the
- * way any customer installs it — one script that defines
- * <newsletter-subscribe>, the list's slug, and this site in the list's
- * allowed domains. The consent box never comes ticked, and nobody receives a
- * letter before confirming by e-mail (double opt-in, in the product).
- *
- * The prerender writes the empty element; the script is added after
- * hydration, once per page, so server and browser render the same markup.
- * The consent text and the list's name live in the Newsletter panel.
+ * "Cartas do Ciro": since 16/11/2026 the letters live on LinkedIn, as a newsletter there (Ciro: "as cartas do
+ * Ciro agora vão começar a ser do LinkedIn"). The box no longer collects an e-mail: it sends the reader to the
+ * newsletter's page, where LinkedIn's own Subscribe button sends each edition by notification and e-mail.
+ * Until then it was the Marketing Newsletter embed (list `cartas`), which stays untouched in that product.
  */
-export const NEWSLETTER_EMBED_URL = 'https://newsletter.worker.mymarketing.click/subscribe.js'
-const SCRIPT_ID = 'newsletter-subscribe-script'
-const LIST_SLUG = 'cartas'
-
-function useNewsletterEmbed() {
-    useEffect(() => {
-        if (typeof window === 'undefined' || window.customElements?.get('newsletter-subscribe') || document.getElementById(SCRIPT_ID)) return
-        const script = document.createElement('script')
-        script.id = SCRIPT_ID
-        script.src = NEWSLETTER_EMBED_URL
-        script.defer = true
-        document.body.appendChild(script)
-    }, [])
-}
+export const NEWSLETTER_URL = 'https://www.linkedin.com/newsletters/cartas-do-ciro-7527692289108992000/'
 
 /*
  * `background` is one of the kit's SECTION_BACKGROUNDS, like every band of the
@@ -35,7 +15,6 @@ function useNewsletterEmbed() {
  * is a third tone (#1a2127), between the two the bands alternate.
  */
 export function NewsletterBox({ background }) {
-    useNewsletterEmbed()
     return (
         <Box
             component="section"
@@ -83,31 +62,27 @@ export function NewsletterBox({ background }) {
                             lh={1.8}
                             c="gray.8"
                         >
-                            O que estou construindo e aprendendo, por e-mail. Você só começa a receber depois de confirmar pelo e-mail que chega na hora.
+                            Toda segunda, a semana em IA vista por quem constrói todo dia: o que as pessoas da Anthropic, da OpenAI e quem programa com agentes mostraram, testaram e mediram, com quem disse e o link para o post.
                         </Text>
-                        <Box
-                            p={{ base: 'md', sm: 'xl' }}
-                            bg="gray.0"
-                            style={{ border: '1px solid var(--mantine-color-gray-2)' }}
-                        >
-                            <newsletter-subscribe list={LIST_SLUG} />
+                        <Box>
+                            <Button
+                                component="a"
+                                href={NEWSLETTER_URL}
+                                target="_blank"
+                                rel="noopener"
+                                size="lg"
+                                rightSection={<IconArrowRight size={20} />}
+                                w={{ base: '100%', sm: 'auto' }}
+                            >
+                                Assinar no LinkedIn
+                            </Button>
                         </Box>
                         <Text
                             size="sm"
                             c="gray.6"
                             lh={1.7}
                         >
-                            Toda carta traz o link para sair na hora.{' '}
-                            <Anchor
-                                component={Link}
-                                to="/legal/privacy"
-                                c="gray.9"
-                                fw={700}
-                                inherit
-                            >
-                                Política de privacidade
-                            </Anchor>
-                            .
+                            A carta sai no LinkedIn: quem assina recebe cada edição por notificação e por e-mail, e sai quando quiser, pela própria página da newsletter.
                         </Text>
                     </Stack>
                 </Group>

@@ -320,7 +320,6 @@ export const START = {
             { name: 'Este site', text: 'Publicado pelo Hoster, da linha Infrastructure.', icon: 'server', href: 'https://myinfrastructure.click/products/hoster' },
             { name: 'As visitas', text: 'Medidas pelo Analytics, da linha Operations, sem cookie.', icon: 'chart', href: 'https://myoperations.click/products/analytics' },
             { name: 'O blog', text: 'Publicado no Blogs, da linha Marketing.', icon: 'article', href: 'https://mymarketing.click/products/blogs' },
-            { name: 'As cartas', text: 'Enviadas pela Newsletter, da linha Marketing, só para quem confirmou.', icon: 'mail', href: 'https://mymarketing.click/products/newsletter' },
             { name: 'O contato', text: 'Recebido pelo Forms, da linha Marketing.', icon: 'forms', href: 'https://mymarketing.click/products/forms' },
             { name: 'Os agentes', text: 'Trabalham comigo no Assistant, da linha Agents, e pedem o meu sim antes do que não tem volta.', icon: 'robot', href: 'https://myagents.click/products/assistant' },
         ],
@@ -329,7 +328,7 @@ export const START = {
         id: 'acompanhe',
         subtitle: 'Acompanhe',
         title: 'Veja enquanto eu construo.',
-        description: 'O que eu aprendo construindo sai primeiro nestes canais, aberto. As cartas, logo abaixo, levam o resumo ao seu e-mail.',
+        description: 'O que eu aprendo construindo sai primeiro nestes canais, aberto. As cartas, logo abaixo, chegam toda segunda pelo LinkedIn.',
         items: [
             { name: 'Blog', text: 'Os textos longos, com o caminho inteiro.', icon: 'article', href: SITE.blog },
             { name: 'YouTube', text: 'A coisa funcionando na tela, do começo ao fim.', icon: 'youtube', href: SITE.youtube },
