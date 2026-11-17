@@ -351,7 +351,7 @@ https://ciromaciel.click/awesome — Dezenove listas abertas no GitHub: IA por p
 
 ## Conectores MCP
 
-https://ciromaciel.click/mcp — 36 conectores MCP com login OAuth, prontos para o Assistant, o Claude e qualquer cliente MCP. O seu assistente lê os seus dados e, com a sua aprovação, age. Também em https://mcp.myagents.click.
+https://ciromaciel.click/mcp — Os conectores MCP do Ciro, com login OAuth, prontos para o Assistant, o Claude e qualquer cliente MCP. O seu assistente lê os seus dados e, com a sua aprovação, age. Também em https://mcp.myagents.click.
 
 - Os serviços que você já usa:
   - Google Search Console (https://search-console.mcp.myagents.click/mcp): Cliques, impressões e posição do seu site na Busca do Google. Página: https://ciromaciel.click/mcp/search-console
