@@ -66,3 +66,16 @@ export const LINE_TOOLS = [
         ],
     },
 ]
+
+/**
+ * The same tools in English (18/11/2026), one page per line, plus the connectors directory: the English
+ * pages are new and only a sitemap pointed at them, so this page, which Google already crawls, links them.
+ */
+export const LINE_TOOLS_EN = [
+    { name: 'Infrastructure tools', url: 'https://myinfrastructure.click/en/tools' },
+    { name: 'Operations tools', url: 'https://myoperations.click/en/tools' },
+    { name: 'Customers tools', url: 'https://mycustomers.click/en/tools' },
+    { name: 'Marketing tools', url: 'https://mymarketing.click/en/tools' },
+    { name: 'Agents tools', url: 'https://myagents.click/en/tools' },
+    { name: 'MCP connectors', url: 'https://mcp.myagents.click/en' },
+]

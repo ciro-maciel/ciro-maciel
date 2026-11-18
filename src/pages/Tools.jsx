@@ -10,7 +10,7 @@ import '../tools.css'
 // Written by `build-tools.js registry` before every dev and build (predev, prebuild).
 import REGISTRY from '../../public/tools.json'
 import { NewsletterBox } from '../components/NewsletterBox'
-import { LINE_TOOLS } from '../data/line-tools'
+import { LINE_TOOLS, LINE_TOOLS_EN } from '../data/line-tools'
 
 const LOCALE = 'pt-BR'
 
@@ -486,6 +486,36 @@ export function Tools() {
                                 </Stack>
                             ))}
                         </SimpleGrid>
+                        <Group
+                            justify="center"
+                            gap="lg"
+                            mt={48}
+                            lang="en"
+                        >
+                            <Text
+                                size="sm"
+                                fw={700}
+                                c="gray.5"
+                            >
+                                In English
+                            </Text>
+                            {LINE_TOOLS_EN.map(page => (
+                                <a
+                                    key={page.url}
+                                    href={page.url}
+                                    hrefLang="en"
+                                    style={{ color: 'inherit', textDecoration: 'none' }}
+                                >
+                                    <Text
+                                        size="sm"
+                                        fw={700}
+                                        c="gray.9"
+                                    >
+                                        {page.name}
+                                    </Text>
+                                </a>
+                            ))}
+                        </Group>
                     </Box>
                 </Container>
             </Box>
