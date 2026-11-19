@@ -29,6 +29,8 @@ import ADV from '../src/data/kit-ia-na-advocacia.js'
 import NEG from '../src/data/kit-ia-no-pequeno-negocio.js'
 import CCI from '../src/data/kit-construir-com-ia.js'
 import FPA from '../src/data/kit-feito-para-agentes.js'
+import OPB from '../src/data/kit-one-person-business.js'
+import DPV from '../src/data/kit-do-primeiro-visitante-ao-cliente.js'
 import { standInBook } from '../src/data/kit-book.js'
 import { PROMPTS } from '../src/data/prompts.js'
 import { RULES } from '../src/data/rules.js'
@@ -38,7 +40,7 @@ import { AWESOME } from '../src/data/awesome.js'
 import { MCP } from '../src/data/mcp.js'
 
 // The task kits, by book (pages/BookKit.jsx keeps the same map).
-const KITS = { 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA }
+const KITS = { 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB, 'do-primeiro-visitante-ao-cliente': DPV }
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')

@@ -21,7 +21,7 @@
  * products, with the words the chapters use. The book says "more than fifteen
  * products" and never lists them: only the ones a chapter names are here.
  */
-import { TASKS, TRAIL, TEMPLATES } from './kit-one-person-business.gerado'
+import { TASKS, TRAIL, TEMPLATES } from './kit-one-person-business.gerado.js'
 
 export { TASKS, TRAIL, TEMPLATES }
 

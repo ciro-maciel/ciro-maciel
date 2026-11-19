@@ -25,7 +25,7 @@
  * manager/brand/product-truth*.md when the chapters were written). No price,
  * no count: those change and live on each product's page.
  */
-import { TASKS, TRAIL, TEMPLATES } from './kit-do-primeiro-visitante-ao-cliente.gerado'
+import { TASKS, TRAIL, TEMPLATES } from './kit-do-primeiro-visitante-ao-cliente.gerado.js'
 
 export { TASKS, TRAIL, TEMPLATES }
 
