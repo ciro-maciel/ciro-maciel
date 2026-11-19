@@ -62,6 +62,16 @@ export const PRIVACY = {
         },
         {
             icon: 'mail',
+            title: 'Aviso das ferramentas e dos apps',
+            body: [
+                'As páginas das ferramentas grátis e dos apps do Mac têm a caixa "Avise-me", que pede o seu primeiro nome e o seu e-mail. Ela roda no Forms, como o formulário de contato, e guarda o mesmo: o que você escreveu, a página e de onde você chegou.',
+                'O e-mail de confirmação e os avisos saem pelo Messages, do endereço livros@ciromaciel.click, a mesma conta dos guias dos livros.',
+                'O nome, o e-mail e a página também vão para o People, o produto de clientes da linha Customers, onde fica a lista de quem usa as ferramentas. Ela serve só para avisar quando sai uma ferramenta nova ou uma versão nova.',
+                'A caixa de consentimento nunca vem marcada. Para sair, responda qualquer e-mail. Para apagar tudo, peça pelo WhatsApp (link abaixo).',
+            ],
+        },
+        {
+            icon: 'mail',
             title: 'Cartas do Ciro',
             body: [
                 'Desde 16 de novembro de 2026 as Cartas do Ciro saem no LinkedIn, como uma newsletter de lá. A caixa das cartas neste site é só um link para a página da newsletter: daqui não sai nenhum dado seu.',
