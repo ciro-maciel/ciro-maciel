@@ -4,6 +4,8 @@ import { CodeBlock, CTAButton, FAQ, SECTION_BACKGROUNDS, SectionHeader } from '@
 import { IconArrowRight, IconCheck, IconKey, IconSparkles } from '@tabler/icons-react'
 import { Link, useLocation, useParams } from 'react-router-dom'
 import { NotFound } from './NotFound'
+import { LANDINGS } from '../data/vscode-landings'
+import { VscodeLanding } from './VscodeLanding'
 import { useSeoMeta } from '../hooks/use-seo-meta'
 import { VSCODE } from '../data/vscode'
 
@@ -57,7 +59,7 @@ const formatPrice = plan => {
 }
 
 /** The Pro plans from Payments, by productId: `{ status, plans, isLive }`. */
-function usePlans() {
+export function usePlans() {
     const [state, setState] = useState({ status: 'loading', plans: {}, isLive: false })
     useEffect(() => {
         const { apiUrl, publicKey, gatewayId } = VSCODE.payments
@@ -190,7 +192,7 @@ function Hero() {
 
 // Who comes back from Stripe lands here with ?subscribed=<id> and #key=<key>: the first thing
 // they see is the key and what to do with it.
-function PurchaseReturn() {
+export function PurchaseReturn() {
     const { search, hash } = useLocation()
     const extensionId = new URLSearchParams(search).get('subscribed')
     const extension = VSCODE.extensions.find(item => item.id === extensionId)
@@ -377,7 +379,7 @@ function Bullets({ items, isStrong = false }) {
     )
 }
 
-function ProBox({ extension, catalog }) {
+export function ProBox({ extension, catalog }) {
     const [error, setError] = useState(null)
     const [isOpening, setIsOpening] = useState(false)
     const plan = catalog.plans[extension.productId]
@@ -661,7 +663,8 @@ export function VscodeExtension() {
     const { id } = useParams()
     const extension = VSCODE.extensions.find((e) => e.id === id)
     const catalog = usePlans()
-    useSeoMeta(extension ? { title: `${extension.name} for VS Code`, description: extension.summary, url: extension.path } : { title: VSCODE.seo.title, description: VSCODE.seo.description, url: VSCODE.path })
+    const landing = extension ? LANDINGS[extension.id] : null
+    useSeoMeta(landing ? { ...landing.seo, url: extension.path } : extension ? { title: `${extension.name} for VS Code`, description: extension.summary, url: extension.path } : { title: VSCODE.seo.title, description: VSCODE.seo.description, url: VSCODE.path })
     useEffect(() => {
         const previous = document.documentElement.lang
         document.documentElement.lang = 'en'
@@ -670,6 +673,13 @@ export function VscodeExtension() {
         }
     }, [])
     if (!extension) return <NotFound />
+    // The ones on sale have a full sales page (data/vscode-landings.js); the others keep the short page
+    if (landing) return (
+        <>
+            <PurchaseReturn />
+            <VscodeLanding extension={extension} landing={landing} catalog={catalog} />
+        </>
+    )
     return (
         <>
             <PurchaseReturn />

@@ -51,6 +51,7 @@ import { MCP, mcpSiblings } from '../src/data/mcp.js'
 import { CCM_STACK } from '../src/data/ccm-stack.js'
 import { VSCODE } from '../src/data/vscode.js'
 import { ASSISTANT_NAVIGATION } from '../src/data/assistant-navigation.js'
+import { LANDINGS } from '../src/data/vscode-landings.js'
 import { HERO, LINES, MCP_HOME, SHIFT, TOOLS } from '../src/data/site.js'
 
 // The task kits, by book (pages/BookKit.jsx keeps the same map).
@@ -355,6 +356,25 @@ function vscodePage() {
 // /vscode/<id> (pages/Vscode.jsx, VscodeExtension): one page per extension, the same words as its row on /vscode.
 function vscodeExtensionPage(e) {
     const page = VSCODE
+    const l = LANDINGS[e.id]
+    if (l) {
+        const seo = { title: l.seo.title, description: l.seo.description, url: e.path }
+        return {
+            seo,
+            ld: [snippetLd(seo), breadcrumbLd([HOME_CRUMB, { name: 'VS Code extensions', path: page.path }, { name: e.name, path: e.path }]), faqLd({ faq: l.faq.map(([question, answer]) => ({ question, answer })) })],
+            body: [
+                `<p>${escape(l.hero.eyebrow)}</p>`, `<h1>${escape(l.hero.title)}</h1>`, `<p>${escape(l.hero.lead)}</p>`,
+                `<p>${link(e.marketplace, 'Install free')} · ${link(e.openVsx, 'Open VSX')}</p>`,
+                `<h2>${escape(l.problem.title)}</h2>${l.problem.text.map(t => `<p>${escape(t)}</p>`).join('')}`,
+                `<h2>${escape(l.steps.title)}</h2>${list(l.steps.items.map(([t, x]) => `<strong>${escape(t)}</strong>: ${escape(x)}`))}`,
+                ...l.showcase.map(s => `<h3>${escape(s.title)}</h3><p>${escape(s.text)}</p>${s.input ? `<pre><code>${escape(s.input)}</code></pre>` : ''}${s.output ? `<pre><code>${escape(s.output)}</code></pre>` : ''}`),
+                `<h2>${escape(l.features.title)}</h2>${list(l.features.items.map(([t, x]) => `<strong>${escape(t)}</strong>: ${escape(x)}`))}`,
+                `<h2>Free and Pro</h2><h3>Free</h3>${list(l.pricing.free.map(escape))}<h3>Pro, a monthly plan in US dollars</h3>${list([...l.pricing.pro, `${page.model}, up to ${page.dailyRequests} AI requests a day`].map(escape))}`,
+                `<h2>Questions</h2>${l.faq.map(([q, a]) => `<h3>${escape(q)}</h3><p>${escape(a)}</p>`).join('')}`,
+                `<p>${link(page.path, `All ${page.extensions.length} extensions`)}</p>`,
+            ].join(''),
+        }
+    }
     const seo = { title: `${e.name} for VS Code`, description: e.summary, url: e.path }
     return {
         seo,
