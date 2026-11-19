@@ -351,6 +351,26 @@ function vscodePage() {
     }
 }
 
+// /vscode/<id> (pages/Vscode.jsx, VscodeExtension): one page per extension, the same words as its row on /vscode.
+function vscodeExtensionPage(e) {
+    const page = VSCODE
+    const seo = { title: `${e.name} for VS Code`, description: e.summary, url: e.path }
+    return {
+        seo,
+        ld: [snippetLd(seo), breadcrumbLd([HOME_CRUMB, { name: 'VS Code extensions', path: page.path }, { name: e.name, path: e.path }])],
+        body: [
+            `<p>VS Code extension</p>`,
+            `<h1>${escape(e.name)}</h1>`,
+            `<p>${escape(e.summary)}</p>`,
+            `<h2>Free</h2>${list(e.free.map(escape))}`,
+            e.pro ? `<h2>Pro, a monthly plan in US dollars</h2>${list([...e.pro, `${page.model}, up to ${page.dailyRequests} AI requests a day`].map(escape))}` : e.freeOnly ? `<p>${escape(e.freeOnly)}</p>` : '',
+            `<p>${link(e.openVsx, 'Install from Open VSX')} · ${link(e.marketplace, 'VS Code Marketplace')}</p>`,
+            e.next ? `<h2>Next step</h2><p>${escape(e.next.text)}</p><p>${link(e.next.href, e.next.label)}</p>` : '',
+            `<p>${link(page.path, `All ${page.extensions.length} extensions`)}</p>`,
+        ].join(''),
+    }
+}
+
 // /mcp and /mcp/<id> (pages/Mcp.jsx).
 const MCP_CRUMB = { name: 'Conectores MCP', path: MCP.path }
 
@@ -522,6 +542,7 @@ await write(AWESOME.path, render(shell, awesomePage()))
 for (const list of Object.values(AWESOME_LISTS)) await write(`${AWESOME.path}/${list.slug}`, render(shell, awesomeListPage(list)))
 await write(CCM_STACK.path, render(shell, ccmStackPage()))
 await write(VSCODE.path, render(shell, vscodePage()))
+for (const e of VSCODE.extensions) await write(e.path, render(shell, vscodeExtensionPage(e)))
 await write(MCP.path, render(shell, mcpIndexPage()))
 for (const item of MCP.items) await write(`${MCP.path}/${item.id}`, render(shell, mcpPage(item)))
 await write('/tools', render(shell, await toolsPage()))

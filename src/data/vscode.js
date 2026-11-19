@@ -75,6 +75,7 @@ export const VSCODE = {
     extensions: [
         {
             id: 'stack-trace-triage',
+            next: { text: 'The trace came from production? Monitors watches your site, confirms an incident before it alerts you, and gives you a status page.', label: 'Monitors, free for one monitor', href: 'https://myinfrastructure.click/en/products/monitors' },
             name: 'Stack Trace Triage',
             summary: 'Paste a stack trace and get the root cause: it opens the files in the frames first.',
             image: image('stack-trace-triage', 'diagnosis-from-selection.png'),
@@ -84,6 +85,7 @@ export const VSCODE = {
         },
         {
             id: 'sqlite-editor',
+            next: { text: 'When the app needs its data online, Storage keeps collections and files with no migration and no cloud credentials.', label: 'Storage, free to start', href: 'https://myinfrastructure.click/en/products/storage' },
             name: 'SQLite Editor',
             summary: 'Open a .db file, edit it like a spreadsheet and ask it questions in plain English.',
             image: image('sqlite-editor', 'ask-in-plain-english.png'),
@@ -93,6 +95,7 @@ export const VSCODE = {
         },
         {
             id: 'database',
+            next: { text: 'Need a database for a new app without running a server? Storage keeps collections and files, reached by people and agents alike.', label: 'Storage, free to start', href: 'https://myinfrastructure.click/en/products/storage' },
             name: 'Database Studio',
             summary: 'PostgreSQL, MySQL, SQLite and Redis in the side bar, found from your .env files.',
             image: image('database', 'data-grid.png'),
@@ -101,6 +104,7 @@ export const VSCODE = {
         },
         {
             id: 'commit-generator',
+            next: { text: 'Want every commit in Conventional Commits without thinking about it? CCM Stack makes your coding agent follow that rule and others, and refuses what breaks them.', label: 'CCM Stack, open source', href: '/ccm-stack' },
             name: 'Commit Generator',
             summary: 'One click in Source Control and your staged diff becomes a Conventional Commit.',
             image: image('commit-generator', 'source-control-commit.png'),
@@ -133,6 +137,7 @@ export const VSCODE = {
         },
         {
             id: 'env-var-detective',
+            next: { text: 'Shipping the app? Hoster publishes it with HTTPS and its environment variables, from the CLI or from your agent.', label: 'Hoster, free for one site', href: 'https://myinfrastructure.click/en/products/hoster' },
             name: 'Env Var Detective',
             summary: 'Finds every environment variable your code reads and checks it against your .env files.',
             image: image('env-var-detective', 'sidebar-by-status.png'),
@@ -166,7 +171,7 @@ export const VSCODE = {
             free: ['Sessions by client, project and ticket', 'CSV and JSON export; everything stays on your machine'],
             freeOnly: 'Free, and local only: no account, no network.',
         },
-    ].map(extension => ({ ...extension, openVsx: openVsx(extension.id), marketplace: marketplace(extension.id), productId: extension.pro ? `vscode-${extension.id}` : null })),
+    ].map(extension => ({ ...extension, path: `/vscode/${extension.id}`, openVsx: openVsx(extension.id), marketplace: marketplace(extension.id), productId: extension.pro ? `vscode-${extension.id}` : null })),
 
     returned: {
         title: 'Payment confirmed. Here is your license key.',

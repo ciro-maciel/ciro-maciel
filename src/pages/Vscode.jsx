@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react'
 import { Anchor, Badge, Box, Container, Grid, Group, Image, List, Paper, SimpleGrid, Stack, Text, ThemeIcon, Title } from '@mantine/core'
 import { CodeBlock, CTAButton, FAQ, SECTION_BACKGROUNDS, SectionHeader } from '@ciromaciel/components-kit'
 import { IconArrowRight, IconCheck, IconKey, IconSparkles } from '@tabler/icons-react'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
+import { NotFound } from './NotFound'
 import { useSeoMeta } from '../hooks/use-seo-meta'
 import { VSCODE } from '../data/vscode'
 
@@ -464,7 +465,7 @@ function ProBox({ extension, catalog }) {
     )
 }
 
-function ExtensionRow({ extension, catalog, index }) {
+function ExtensionRow({ extension, catalog, index, isPage = false }) {
     // The rows start gray below the white band of How, and alternate from there.
     const isGray = index % 2 === 0
     return (
@@ -483,13 +484,22 @@ function ExtensionRow({ extension, catalog, index }) {
                     <Grid.Col span={{ base: 12, md: 6 }}>
                         <Stack gap="md">
                             <Title
-                                order={2}
-                                fz={{ base: 26, md: 34 }}
+                                order={isPage ? 1 : 2}
+                                fz={isPage ? { base: 34, md: 48 } : { base: 26, md: 34 }}
                                 fw={900}
                                 c="gray.9"
                                 style={{ letterSpacing: '-0.02em' }}
                             >
-                                {extension.name}
+                                {isPage ? extension.name : (
+                                    <Anchor
+                                        component={Link}
+                                        to={extension.path}
+                                        c="gray.9"
+                                        underline="hover"
+                                    >
+                                        {extension.name}
+                                    </Anchor>
+                                )}
                             </Title>
                             <Text
                                 fz={{ base: 16, md: 17 }}
@@ -537,7 +547,15 @@ function ExtensionRow({ extension, catalog, index }) {
                                     extension={extension}
                                     catalog={catalog}
                                 />
-                            ) : extension.freeOnly ? (
+                            ) : null}
+                            {isPage && extension.next ? (
+                                <Stack gap={6} pt="sm" style={{ borderTop: BORDER }}>
+                                    <Text fz={13} fw={800} tt="uppercase" lts="1.5px" c="gray.5">Next step</Text>
+                                    <Text fz={15} c="gray.6" lh={1.6}>{extension.next.text}</Text>
+                                    <Anchor href={extension.next.href} fz={14} fw={700} c="gray.9">{extension.next.label}</Anchor>
+                                </Stack>
+                            ) : null}
+                            {extension.pro ? null : extension.freeOnly ? (
                                 <Text
                                     fz={14}
                                     c="gray.5"
@@ -630,6 +648,38 @@ export function Vscode() {
                 background={(VSCODE.extensions.length - 1) % 2 === 0 ? 'white' : 'gray'}
                 ta="center"
             />
+        </>
+    )
+}
+
+/**
+ * /vscode/<id> (19/11/2026): one page per extension, so each one has its own address, its own search and its own
+ * measure (the product kit of the Manager Dashboard). The same row as the list, with the name as the page title,
+ * the Pro box where it is on sale, and the honest next step to the product of the lines that solves the next problem.
+ */
+export function VscodeExtension() {
+    const { id } = useParams()
+    const extension = VSCODE.extensions.find((e) => e.id === id)
+    const catalog = usePlans()
+    useSeoMeta(extension ? { title: `${extension.name} for VS Code`, description: extension.summary, url: extension.path } : { title: VSCODE.seo.title, description: VSCODE.seo.description, url: VSCODE.path })
+    useEffect(() => {
+        const previous = document.documentElement.lang
+        document.documentElement.lang = 'en'
+        return () => {
+            document.documentElement.lang = previous
+        }
+    }, [])
+    if (!extension) return <NotFound />
+    return (
+        <>
+            <PurchaseReturn />
+            <ExtensionRow extension={extension} catalog={catalog} index={1} isPage />
+            {extension.pro ? <How /> : null}
+            <Box bg={SECTION_BACKGROUNDS.gray} py={{ base: 40, md: 56 }}>
+                <Container size="lg">
+                    <Anchor component={Link} to={VSCODE.path} fz={14} fw={700} c="gray.9">All {VSCODE.extensions.length} extensions</Anchor>
+                </Container>
+            </Box>
         </>
     )
 }
