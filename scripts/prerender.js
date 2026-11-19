@@ -46,6 +46,7 @@ const AWESOME_LISTS = JSON.parse(readAwesome(new URL('../src/data/awesome-lists.
 import { LINE_TOOLS } from '../src/data/line-tools.js'
 import { MCP, mcpSiblings } from '../src/data/mcp.js'
 import { CCM_STACK } from '../src/data/ccm-stack.js'
+import { VSCODE } from '../src/data/vscode.js'
 import { HERO, LINES, MCP_HOME, SHIFT, TOOLS } from '../src/data/site.js'
 
 // The task kits, by book (pages/BookKit.jsx keeps the same map).
@@ -323,6 +324,27 @@ function ccmStackPage() {
     }
 }
 
+// /vscode (pages/Vscode.jsx): the same words, from data/vscode.js. The price is not here: the page
+// reads it from Payments, so the crawler reads that Pro is a monthly plan in US dollars.
+function vscodePage() {
+    const page = VSCODE
+    const seo = { title: page.seo.title, description: page.seo.description, url: page.path }
+    return {
+        seo,
+        ld: [snippetLd(seo), breadcrumbLd([HOME_CRUMB, { name: 'VS Code extensions', path: page.path }]), faqLd({ faq: page.faq })],
+        body: [
+            `<p>${escape(page.hero.eyebrow)}</p>`,
+            `<h1>${escape(page.hero.title)}</h1>`,
+            `<p>${escape(page.hero.description)}</p>`,
+            `<h2>${escape(page.how.title)}</h2>`,
+            ...page.how.items.map(item => `<h3>${escape(item.title)}</h3><p>${escape(item.description)}</p>`),
+            ...page.extensions.map(e => `<h2 id="${e.id}">${escape(e.name)}</h2><p>${escape(e.summary)}</p><h3>Free</h3>${list(e.free.map(escape))}${e.pro ? `<h3>Pro, a monthly plan in US dollars</h3>${list([...e.pro, `${page.model}, up to ${page.dailyRequests} AI requests a day`].map(escape))}` : `<p>${escape(e.freeOnly)}</p>`}<p>${link(e.openVsx, 'Install from Open VSX')} · ${link(e.marketplace, 'VS Code Marketplace')}</p>`),
+            `<h2>Questions</h2>`,
+            ...page.faq.map(entry => `<h3>${escape(entry.question)}</h3><p>${escape(entry.answer)}</p>`),
+        ].join(''),
+    }
+}
+
 // /mcp and /mcp/<id> (pages/Mcp.jsx).
 const MCP_CRUMB = { name: 'Conectores MCP', path: MCP.path }
 
@@ -474,6 +496,7 @@ for (const item of ALTERNATIVES.items) await write(`${ALTERNATIVES.path}/${item.
 await write(AWESOME.path, render(shell, awesomePage()))
 for (const list of Object.values(AWESOME_LISTS)) await write(`${AWESOME.path}/${list.slug}`, render(shell, awesomeListPage(list)))
 await write(CCM_STACK.path, render(shell, ccmStackPage()))
+await write(VSCODE.path, render(shell, vscodePage()))
 await write(MCP.path, render(shell, mcpIndexPage()))
 for (const item of MCP.items) await write(`${MCP.path}/${item.id}`, render(shell, mcpPage(item)))
 await write('/tools', render(shell, await toolsPage()))

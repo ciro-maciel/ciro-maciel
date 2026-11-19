@@ -121,7 +121,7 @@ export const MENUS = [
                     { name: 'As ferramentas', description: 'Abrem no navegador, a maioria sem cadastro', icon: IconTool, to: '/tools' },
                     { name: 'CCM Stack', description: 'A inteligência para o seu agente trabalhar certo', icon: IconStack2, to: '/ccm-stack' },
                     { name: 'Para o Chrome', description: 'History e Pomodoro, na Chrome Web Store', icon: IconBrandChrome, to: '/tools', state: { scrollTo: 'extensoes' } },
-                    { name: 'Para o VS Code', description: 'Banco de dados, commit, erros e APIs no editor', icon: IconCode, to: '/tools', state: { scrollTo: 'extensoes' } },
+                    { name: 'Para o VS Code', description: 'Banco de dados, commit, erros e APIs no editor', icon: IconCode, to: '/vscode' },
                     { name: 'Speech to Text', description: 'Segure uma tecla, fale e solte, no seu computador', icon: IconMicrophone, href: '/tools/speech-to-text' },
                     { name: 'Conectores MCP', description: 'O seu assistente de IA usando Google, Apple e mais', icon: IconPlugConnected, to: '/mcp' },
                     { name: 'Pedidos prontos', description: 'Um pedido por página, com o teste ao lado', icon: IconPrompt, to: '/prompts' },

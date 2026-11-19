@@ -20,6 +20,7 @@ import { Awesome } from './pages/Awesome'
 import { AwesomeList } from './pages/AwesomeList'
 import { McpIndex, McpPage } from './pages/Mcp'
 import { CcmStack } from './pages/CcmStack'
+import { Vscode } from './pages/Vscode'
 import { PROMPTS } from './data/prompts'
 import { RULES } from './data/rules'
 import { AGENTS } from './data/agents'
@@ -182,6 +183,12 @@ export function App() {
                     <Route
                         path="/ccm-stack"
                         element={<CcmStack />}
+                    />
+                    {/* THE VS CODE EXTENSIONS (19/11/2026), in English: what each does
+                        free and the Pro plan of the eight that use AI (pages/Vscode.jsx). */}
+                    <Route
+                        path="/vscode"
+                        element={<Vscode />}
                     />
                     {/* THE MCP CONNECTORS (21/10/2026): what an MCP connector
                         is, and one page per connector, from the catalog of
