@@ -14,6 +14,7 @@ import { BookKit } from './pages/BookKit'
 import { PROFESSION_KITS, ProfessionKit } from './pages/ProfessionKit'
 import { KitRedirect } from './pages/KitRedirect'
 import { KitItem } from './pages/KitItem'
+import { Guide } from './pages/Guide'
 import { SnippetIndex, SnippetPage } from './pages/Snippet'
 import { AlternativesIndex, AlternativePage } from './pages/Alternatives'
 import { Awesome } from './pages/Awesome'
@@ -137,6 +138,13 @@ export function App() {
                     <Route
                         path="/books/:slug/kit/:item"
                         element={<KitItem />}
+                    />
+                    {/* THE FREE GUIDES OF A BOOK (19/11/2026): ten pages of one idea,
+                        given for an e-mail through Marketing Forms (pages/Guide.jsx,
+                        data/guides.js). */}
+                    <Route
+                        path="/books/:slug/guides/:guide"
+                        element={<Guide />}
                     />
                     {/* THE MICRO-LEADS (03/10/2026): ready prompts,
                         rules for an agent's CLAUDE.md and agents with a

@@ -62,9 +62,43 @@ export const LEVELS = {
     4: { name: 'Profissão', color: '#86303D' },
 }
 
+/*
+ * THE SHORT NAME OF EACH BOOK IN ITS SHORT LINKS (19/11/2026, the books' sales plan,
+ * manager/gtm/docs/2026-11-19-ESTRATEGIA-DE-VENDAS-DOS-LIVROS.md §2). One Marketing Links link per door per
+ * book, so every click to the Amazon becomes a number even though the Amazon never says who bought:
+ *   go.mymarketing.click/amz-kit-<short>   the kit's Amazon buttons (campaign kit-amazon)
+ *   go.mymarketing.click/seo-kit-<short>   a page of this site pointing to the kit (campaign seo-kits)
+ *   go.mymarketing.click/par-<short>       the kit, in what a partner of the trade shares (campaign parceiros)
+ *   go.mymarketing.click/amz-guia-<short>  the last page of a free guide (PDF) to the Amazon (campaign guia-amazon)
+ *   go.mymarketing.click/li-…              LinkedIn, created on 16/11
+ * The links live in the Links panel of the house account; this map only names them.
+ */
+export const LINK_NAMES = {
+    'ia-no-dia-a-dia': 'dia-a-dia',
+    'ia-por-dentro': 'por-dentro',
+    'ia-no-escritorio': 'escritorio',
+    'ia-no-primeiro-trabalho': 'primeiro-trabalho',
+    'ia-no-pequeno-negocio': 'pequeno-negocio',
+    'ia-no-atendimento-e-nas-vendas': 'atendimento',
+    'ia-na-sala-de-aula': 'sala-de-aula',
+    'ia-na-contabilidade': 'contabilidade',
+    'ia-na-advocacia': 'advocacia',
+    'construir-com-ia': 'construir',
+    'feito-para-agentes': 'agentes',
+    'one-person-business': 'empresa',
+    'do-primeiro-visitante-ao-cliente': 'visitante',
+    'forward-deployed-engineer': 'fde',
+    'forward-deployed-marketer': 'fdm',
+}
+
+export const shortLink = (door, slug) => (LINK_NAMES[slug] ? `https://go.mymarketing.click/${door}-${LINK_NAMES[slug]}` : null)
+
 export const BOOKS = BOOKS_DATA.map(book => {
     const extras = BOOK_EXTRAS[book.slug] ?? {}
-    return { ...book, ...extras, store: extras.amazon ?? amazonSearch(book), levelColor: LEVELS[book.level].color }
+    const store = extras.amazon ?? amazonSearch(book)
+    // The kit's Amazon buttons go through the book's amz-kit link; a book not yet on the store keeps the search.
+    const kitStore = extras.amazon && shortLink('amz-kit', book.slug) ? shortLink('amz-kit', book.slug) : store
+    return { ...book, ...extras, store, kitStore, levelColor: LEVELS[book.level].color }
 })
 
 export const bookBySlug = slug => BOOKS.find(book => book.slug === slug)

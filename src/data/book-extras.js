@@ -14,12 +14,38 @@ export const BOOK_EXTRAS = {
         forWhom: 'Para quem quer usar bem, no trabalho e em casa',
         // Live on Amazon.com.br (ASIN B0HLLC1WDP), given by the founder on 01/10/2026.
         amazon: 'https://www.amazon.com.br/dp/B0HLLC1WDP',
+        // The kit lives on the site (data/kit-ia-no-dia-a-dia.js); the book.yml
+        // does not print it, so the button and the banner come from here.
+        kit: { label: 'Kit online', detail: 'Pedidos prontos, o roteiro contra golpe e as configurações com a data', path: '/books/ia-no-dia-a-dia/kit' },
+        kitParts: [
+            'Os pedidos do livro para preencher e copiar, com o que conferir em cada um',
+            'Os dez pedidos para usar amanhã, cada um com o que o teste mostrou',
+            'Modelos para colar, o roteiro contra golpe e as configurações das IAs com a data',
+            'Os exercícios de cada capítulo, e um caderno para os pedidos que funcionaram',
+        ],
     },
     'ia-por-dentro': {
         menuLine: 'Como funcionam as máquinas que conversam',
         forWhom: 'Para entender o que acontece do outro lado',
         // Live on Amazon.com.br (ASIN B0HLRYRWBF), given by the founder on 02/10/2026.
         amazon: 'https://www.amazon.com.br/dp/B0HLRYRWBF',
+        // The kit lives on the site (data/kit-ia-por-dentro.js); the book.yml
+        // does not print it. A book of experiments, not of prompts, so the
+        // book page says what this kit holds.
+        kit: { label: 'Kit online', detail: 'Os experimentos de cada capítulo, o glossário e os endereços com a data', path: '/books/ia-por-dentro/kit' },
+        // The default kit title speaks of prompts and spreadsheet models; this kit holds experiments.
+        seo: {
+            kit: {
+                title: 'Kit online do IA por dentro: os experimentos e o glossário',
+                description: 'Os experimentos do livro IA por dentro, um por capítulo, com o pedido pronto para copiar, o que observar e, quando o livro mostra, o que ele viu.',
+            },
+        },
+        kitParts: [
+            'O experimento de cada capítulo, com o pedido pronto para copiar e o que observar',
+            'O que o livro viu, quando mostra a resposta',
+            'A sua própria prova, as dez coisas que mudam e o glossário',
+            'Os endereços dos experimentos, conferidos com a data',
+        ],
     },
     'ia-no-escritorio': {
         menuLine: 'Dez tarefas do ofício, com o pedido testado',
@@ -92,8 +118,9 @@ export const BOOK_EXTRAS = {
                 description: 'E-book para professores da educação básica: use IA para planejar pela BNCC, adaptar atividades, corrigir e escrever relatórios, sem expor dados dos alunos.',
             },
             kit: {
-                title: 'IA para professores: prompts de plano de aula e parecer',
-                description: 'Prompts testados para plano de aula pela BNCC, atividade adaptada, rubrica, parecer e comunicado aos pais, prontos para copiar. Grátis para quem tem o livro.',
+                // Test T004 (19/11/2026), as in the advocacia kit.
+                title: 'IA para professores: 12 prompts grátis, do plano ao parecer',
+                description: '12 prompts prontos para copiar: plano de aula pela BNCC, atividade adaptada, prova, correção de redação, parecer e comunicado aos pais. Grátis.',
             },
         },
     },
@@ -109,8 +136,9 @@ export const BOOK_EXTRAS = {
                 description: 'E-book para contadores, técnicos e auxiliares: IA na conciliação, no Simples, na reforma e nos prazos, sem expor o cliente nem abrir mão da assinatura.',
             },
             kit: {
-                title: 'IA para contadores: prompts de conciliação, Simples e prazos',
-                description: 'Prompts testados para conciliação, fator R, reforma, prazos e e-mail ao cliente, prontos para copiar e conferir. Grátis para quem tem o livro.',
+                // Test T004 (19/11/2026), as in the advocacia kit.
+                title: 'IA para contadores: 14 prompts grátis, testados, para copiar',
+                description: '14 prompts prontos para copiar: conciliação bancária, Simples, folha, nota fiscal com IBS e CBS, carta da Receita e IR, com o que conferir. Grátis.',
             },
         },
     },
@@ -127,8 +155,10 @@ export const BOOK_EXTRAS = {
             },
             // The kit leads with the search it shows up for ("prompts para advogados", 210/month, DataForSEO 05/11/2026).
             kit: {
-                title: 'Prompts para advogados: petição, jurisprudência e prazos',
-                description: 'Prompts testados para petição, jurisprudência, prazo, contrato e atendimento, prontos para copiar, com o placar do teste. Grátis para quem tem o livro.',
+                // Test T004 (19/11/2026): the title says how many prompts there are and that they are free;
+                // "grátis para quem tem o livro" read as if the kit needed the book.
+                title: '19 prompts para advogados, testados e grátis: petição e prazos',
+                description: '19 prompts prontos para copiar: jurisprudência com os acórdãos colados, petição, contestação, apelação, prazos e contrato, com o teste de cada um. Grátis.',
             },
         },
     },

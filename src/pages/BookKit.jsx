@@ -52,6 +52,7 @@ import { kitSeo } from '../data/seo'
 import { NotFound } from './NotFound'
 import { bookBySlug } from '../data/catalog'
 import { bookHome, standInBook } from '../data/kit-book'
+import { GuideBand } from '../components/GuideBand'
 import ESC from '../data/kit-ia-no-escritorio'
 import EMP from '../data/kit-ia-no-primeiro-trabalho'
 import NEG from '../data/kit-ia-no-pequeno-negocio'
@@ -63,6 +64,8 @@ import CCI from '../data/kit-construir-com-ia'
 import FPA from '../data/kit-feito-para-agentes'
 import OPB from '../data/kit-one-person-business'
 import DPV from '../data/kit-do-primeiro-visitante-ao-cliente'
+import DIA from '../data/kit-ia-no-dia-a-dia'
+import IPD from '../data/kit-ia-por-dentro'
 
 /**
  * /books/<slug>/kit — the online kit of a book, inside the site.
@@ -81,7 +84,7 @@ import DPV from '../data/kit-do-primeiro-visitante-ao-cliente'
 
 // One data module per book with a task kit (data/kit-<slug>.js): the parts
 // every kit has, plus `bands`, the sections only that book has.
-export const KITS = { 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB, 'do-primeiro-visitante-ao-cliente': DPV }
+export const KITS = { 'ia-no-dia-a-dia': DIA, 'ia-por-dentro': IPD, 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB, 'do-primeiro-visitante-ao-cliente': DPV }
 
 export const KitContext = createContext(ESC)
 const useKit = () => useContext(KitContext)
@@ -213,7 +216,7 @@ function PromptPreview({ task, values, withAdd }) {
 }
 
 export function TaskPanel({ task }) {
-    const { testedNote, workAI, noun = 'pedido', thing = 'sistema', SYSTEM } = useKit()
+    const { testedNote, workAI, noun = 'pedido', thing = 'sistema', SYSTEM, hideEmptyInputs, resultLabel = 'No teste do livro' } = useKit()
     // On the kit page, each task links to its own page (pages/KitItem.jsx);
     // on that page, `item` is in the route and the link would point to itself.
     const { slug, item } = useParams()
@@ -229,6 +232,9 @@ export function TaskPanel({ task }) {
     const filled = systemFields.length ? { ...task, fields: [...task.fields, ...systemFields] } : task
     const taskTicks = ticks[task.id] ?? {}
     const withAdd = Boolean(adds[task.id])
+    // A kit that opts in (volume 2) drops the inputs column of a task with
+    // nothing to fill, instead of showing a disabled "Limpar os campos".
+    const hasInputs = !hideEmptyInputs || task.fields.length > 0 || systemFields.length > 0 || Boolean(task.add)
 
     const setField = (key, value) => setAllValues(prev => ({ ...prev, [task.id]: { ...(prev[task.id] ?? {}), [key]: value } }))
 
@@ -256,6 +262,7 @@ export function TaskPanel({ task }) {
                 </Stack>
 
                 <Grid gutter={{ base: 'xl', md: 40 }}>
+                    {hasInputs && (
                     <Grid.Col span={{ base: 12, lg: 5 }}>
                         <Stack gap="md">
                             {systemFields.length > 0 && (
@@ -314,7 +321,8 @@ export function TaskPanel({ task }) {
                             </Box>
                         </Stack>
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, lg: 7 }}>
+                    )}
+                    <Grid.Col span={{ base: 12, lg: hasInputs ? 7 : 12 }}>
                         <Stack gap="sm">
                             <Group
                                 justify="space-between"
@@ -406,7 +414,7 @@ export function TaskPanel({ task }) {
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 6 }}>
                             <Stack gap="sm">
-                                <Eyebrow>No teste do livro</Eyebrow>
+                                <Eyebrow>{resultLabel}</Eyebrow>
                                 <Text c="gray.7">{task.result}</Text>
                                 <Text
                                     size="sm"
@@ -430,7 +438,7 @@ export function TaskPanel({ task }) {
 }
 
 function Prompts() {
-    const { TASKS, testedOn, promptsNote } = useKit()
+    const { TASKS, testedOn, promptsNote, promptsLead, promptsSubtitle = 'Os pedidos', promptsTitle = 'Preencha, copie e confira', taskLabel = 'Tarefa', tasksLabel = 'Tarefas' } = useKit()
     const [current, setCurrent] = usePersisted('task', TASKS[0].id)
     const active = TASKS.find(task => task.id === current) ?? TASKS[0]
 
@@ -438,8 +446,8 @@ function Prompts() {
         <Section
             ta="center"
             id="pedidos"
-            subtitle="Os pedidos"
-            title="Preencha, copie e confira"
+            subtitle={promptsSubtitle}
+            title={promptsTitle}
             background="gray"
             maw={900}
         >
@@ -450,7 +458,8 @@ function Prompts() {
                 maw={760}
                 mb="xl"
             >
-                Um pedido por tarefa, na forma testada em {testedOn}. Preencha os campos e copie o pedido pronto; o que você não preencher continua entre colchetes.{promptsNote ? ` ${promptsNote}` : ''}
+                {/* A kit whose prompts are not all tested forms (volume 2's experiments) says so in its own words. */}
+                {promptsLead ?? `Um pedido por tarefa, na forma testada em ${testedOn}. Preencha os campos e copie o pedido pronto; o que você não preencher continua entre colchetes.`}{promptsNote ? ` ${promptsNote}` : ''}
             </Text>
 
             {/* A select on the phone, the vertical tabs from `md`: eleven
@@ -459,7 +468,7 @@ function Prompts() {
                 hiddenFrom="md"
                 mb="md"
                 radius={0}
-                label="Tarefa"
+                label={taskLabel}
                 data={TASKS.map(task => ({ value: task.id, label: `${task.name} · ${task.chap}` }))}
                 value={active.id}
                 onChange={value => value && setCurrent(value)}
@@ -490,7 +499,7 @@ function Prompts() {
                             m={0}
                             p={0}
                             role="tablist"
-                            aria-label="Tarefas"
+                            aria-label={tasksLabel}
                             style={{ listStyle: 'none' }}
                         >
                             {TASKS.map((task, index) => {
@@ -1221,14 +1230,14 @@ function Templates() {
 // ─── The exercises and the notebook ─────────────────────────────────────
 
 function Exercises() {
-    const { EXERCISES, exercisesNote } = useKit()
+    const { EXERCISES, exercisesNote, exercisesTitle, exercisesLead } = useKit()
     const [counts, setCounts] = usePersisted('counts', {})
     return (
         <Section
             ta="center"
             id="treinos"
             subtitle="Faça agora"
-            title="Os treinos do livro, com o material pronto"
+            title={exercisesTitle ?? 'Os treinos do livro, com o material pronto'}
             background="gray"
             maw={900}
         >
@@ -1239,7 +1248,8 @@ function Exercises() {
                 maw={760}
                 mb="xl"
             >
-                Cada treino usa material inventado, cabe em quinze minutos e termina numa contagem. Anote a sua: ela fica guardada só neste navegador.{exercisesNote ? ` ${exercisesNote}` : ''}
+                {/* A book whose exercises use the reader's own material (volume 1) says so in its own words. */}
+                {exercisesLead ?? 'Cada treino usa material inventado, cabe em quinze minutos e termina numa contagem. Anote a sua: ela fica guardada só neste navegador.'}{exercisesNote ? ` ${exercisesNote}` : ''}
             </Text>
             <SimpleGrid
                 cols={{ base: 1, md: 2 }}
@@ -1315,6 +1325,8 @@ function Exercises() {
 }
 
 function Notebook() {
+    // "The ten things" are volume 3's list; a book without it names what to keep out.
+    const { notebookNote = 'Não guarde aqui nada das dez coisas.' } = useKit()
     const [entries, setEntries] = usePersisted('notebook', [])
     const [task, setTask] = useState('')
     const [prompt, setPrompt] = useState('')
@@ -1349,7 +1361,7 @@ function Notebook() {
                 maw={760}
                 mb="xl"
             >
-                Guarde aqui os pedidos que funcionaram no seu trabalho, com o que conferir em cada um. O caderno fica só neste navegador, neste aparelho: ninguém mais vê, e ele some se os dados do navegador forem apagados. Para guardar de vez, copie tudo e cole num documento seu. Não guarde aqui nada das dez coisas.
+                Guarde aqui os pedidos que funcionaram no seu trabalho, com o que conferir em cada um. O caderno fica só neste navegador, neste aparelho: ninguém mais vê, e ele some se os dados do navegador forem apagados. Para guardar de vez, copie tudo e cole num documento seu. {notebookNote}
             </Text>
             <Grid gutter="xl">
                 <Grid.Col span={{ base: 12, md: 5 }}>
@@ -1679,6 +1691,8 @@ export function BookKit() {
                 </Container>
             </Box>
 
+            <GuideBand book={book} />
+
             <Callout
                 id="comece"
                 subtitle="Comece aqui"
@@ -1691,10 +1705,11 @@ export function BookKit() {
 
             <KitBody />
 
+            {/* Volume 2 has no law or setting to check: its sources are the addresses of its kit. */}
             <CriteriaList
                 id="fontes"
-                subtitle="Onde conferir o que a IA não sabe"
-                title="As fontes oficiais"
+                subtitle={kit.sourcesSubtitle ?? 'Onde conferir o que a IA não sabe'}
+                title={kit.sourcesTitle ?? 'As fontes oficiais'}
                 items={SOURCES.map(source => ({
                     criterion: source.title,
                     value: source.text,
@@ -1717,7 +1732,7 @@ export function BookKit() {
                 title={`Este kit acompanha o livro ${book.title}`}
                 description={`${UPDATES[0].text} Feito com o auxílio de inteligência artificial; revisado e aprovado por humanos.`}
                 cta={{ label: book.isOnSale === false ? 'Ver os livros' : 'Ver o livro', href: bookPath, icon: <IconArrowLeft size={20} />, size: 'lg' }}
-                secondaryCta={book.store ? { label: 'Ver na Amazon', href: book.store, target: '_blank', icon: <IconExternalLink size={20} />, size: 'lg' } : undefined}
+                secondaryCta={book.store ? { label: 'Ver na Amazon', href: book.kitStore ?? book.store, target: '_blank', icon: <IconExternalLink size={20} />, size: 'lg' } : undefined}
                 background="white"
             />
         </KitContext.Provider>

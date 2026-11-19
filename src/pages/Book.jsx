@@ -5,6 +5,7 @@ import { IconArrowRight, IconChecklist, IconExternalLink, IconListCheck } from '
 import { useSeoMeta } from '../hooks/use-seo-meta'
 import { bookSeo } from '../data/seo'
 import { BookCard } from '../components/BookCard'
+import { GuideBand } from '../components/GuideBand'
 import { NotFound } from './NotFound'
 import { BOOKS, SERIES, bookBySlug } from '../data/catalog'
 import { AWESOME, listOfBook } from '../data/awesome'
@@ -293,6 +294,14 @@ export function Book() {
                     </Grid>
                 </Container>
             </Box>
+
+            {/* THE FREE GUIDES (19/11/2026) close the gray band of the chapters, so the white kit banner
+                below still alternates: a guide is one chapter's idea, whole, for an e-mail
+                (components/GuideBand.jsx). */}
+            <GuideBand
+                book={book}
+                from="livro"
+            />
 
             {/* THE KIT: the kit's CTABanner, the band the site already uses
                 (the 404). A dark band drawn for this page was refused by the

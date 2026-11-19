@@ -20,6 +20,7 @@ import {
     Textarea,
     UnstyledButton,
 } from '@mantine/core'
+import { GuideBand } from '../components/GuideBand'
 import { CTABanner, Section, SECTION_BACKGROUNDS, Steps } from '@ciromaciel/components-kit'
 import {
     IconArrowLeft,
@@ -895,6 +896,8 @@ export function ProfessionKit() {
                 </Container>
             </Box>
 
+            {book && <GuideBand book={book} />}
+
             {engagement && (
                 <Steps
                     id="engajamento"
@@ -938,6 +941,7 @@ export function ProfessionKit() {
                 title={`Este kit acompanha o livro ${kit.book.title}`}
                 description={`${kit.book.subtitle}. Os documentos saem do livro, palavra por palavra. Feito com o auxílio de inteligência artificial; revisado e aprovado por humanos.`}
                 cta={{ label: book ? 'Ver o livro' : 'Ver a série', href: book ? bookPath : '/books', icon: <IconArrowLeft size={20} />, size: 'lg' }}
+                secondaryCta={book?.store ? { label: 'Ver na Amazon', href: book.kitStore ?? book.store, target: '_blank', icon: <IconExternalLink size={20} />, size: 'lg' } : undefined}
                 background="white"
             />
         </>

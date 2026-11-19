@@ -31,7 +31,11 @@ import CCI from '../src/data/kit-construir-com-ia.js'
 import FPA from '../src/data/kit-feito-para-agentes.js'
 import OPB from '../src/data/kit-one-person-business.js'
 import DPV from '../src/data/kit-do-primeiro-visitante-ao-cliente.js'
+import DIA from '../src/data/kit-ia-no-dia-a-dia.js'
+import IPD from '../src/data/kit-ia-por-dentro.js'
+import { BOOK_EXTRAS } from '../src/data/book-extras.js'
 import { standInBook } from '../src/data/kit-book.js'
+import { GUIDES, guidePath } from '../src/data/guides.js'
 import { PROMPTS } from '../src/data/prompts.js'
 import { RULES } from '../src/data/rules.js'
 import { AGENTS } from '../src/data/agents.js'
@@ -40,7 +44,7 @@ import { AWESOME } from '../src/data/awesome.js'
 import { MCP } from '../src/data/mcp.js'
 
 // The task kits, by book (pages/BookKit.jsx keeps the same map).
-const KITS = { 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB, 'do-primeiro-visitante-ao-cliente': DPV }
+const KITS = { 'ia-no-dia-a-dia': DIA, 'ia-por-dentro': IPD, 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB, 'do-primeiro-visitante-ao-cliente': DPV }
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
@@ -67,6 +71,8 @@ const ROUTES = [
 // The books and their online kits (src/data/books.json, from sync-books.js).
 const books = await readFile(join(ROOT, 'src', 'data', 'books.json'), 'utf-8')
     .then(JSON.parse)
+    // A kit the book.yml does not print (volumes 1 and 2) comes from BOOK_EXTRAS, as in data/catalog.js.
+    .then(list => list.map(book => ({ ...book, kit: book.kit ?? BOOK_EXTRAS[book.slug]?.kit ?? null })))
     .catch(() => [])
 ROUTES.push({ path: '/books', changefreq: 'monthly', priority: '0.8' })
 for (const book of books) {
@@ -80,6 +86,9 @@ for (const book of books) {
         ROUTES.push({ path: `${book.kit.path}/${task.id}`, changefreq: 'monthly', priority: '0.6' })
     }
 }
+
+// The free guides of the books on sale (data/guides.js, pages/Guide.jsx).
+for (const guide of GUIDES) if (books.some(book => book.slug === guide.book)) ROUTES.push({ path: guidePath(guide), changefreq: 'monthly', priority: '0.7' })
 
 // The kits open by their address before their book is on sale (data/kit-book.js):
 // the kit and its tasks, never a book page.

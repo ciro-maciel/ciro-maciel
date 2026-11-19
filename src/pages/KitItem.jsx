@@ -133,7 +133,7 @@ function TaskItem({ slug, kit, book, task }) {
                 backTo={kitPath}
                 backLabel={`Kit online · ${book.title}`}
                 title={kitTaskSeo(book, task).title}
-                lead={isBuild ? `O prompt do ${task.chap.toLowerCase()} do livro ${book.title}, pronto para preencher com o seu ${kit.thing ?? 'sistema'} e copiar. Confira a resposta como o capítulo ensina.` : `O pedido do livro ${book.title} para esta tarefa, pronto para preencher e copiar, com o que conferir na resposta e o que o teste do livro mostrou.`}
+                lead={isBuild ? `O prompt do ${task.chap.toLowerCase()} do livro ${book.title}, pronto para preencher com o seu ${kit.thing ?? 'sistema'} e copiar. Confira a resposta como o capítulo ensina.` : (kit.itemLead ?? `O pedido do livro ${book.title} para esta tarefa, pronto para preencher e copiar, com o que conferir na resposta e o que o teste do livro mostrou.`)}
                 note={isBuild ? undefined : kit.testedNote}
             />
             <Container
@@ -155,14 +155,14 @@ function TaskItem({ slug, kit, book, task }) {
                 no onClick, so the click on the book is read on the wrapper. */}
             <Box
                 onClickCapture={event => {
-                    if (event.target.closest?.('a')?.href === book.store) trackKit(`book:${slug}/${task.id}`)
+                    if (event.target.closest?.('a')?.href === (book.kitStore ?? book.store)) trackKit(`book:${slug}/${task.id}`)
                 }}
             >
                 <CTABanner
                     subtitle={task.chap}
                     title={`${isBuild ? 'Este prompt' : 'Este pedido'} é do livro ${book.title}`}
-                    description={isBuild ? 'O livro mostra o passo inteiro: por que cada prompt é escrito assim, o que conferir no fim e o que fazer quando a resposta vem errada.' : 'O livro mostra por que cada pedido é escrito assim, o teste de cada um com o que deu certo e o que deu errado, e as outras tarefas do seu ofício.'}
-                    cta={{ label: 'Ver o livro na Amazon', href: book.store, target: '_blank', icon: <IconArrowRight size={20} />, size: 'lg' }}
+                    description={isBuild ? 'O livro mostra o passo inteiro: por que cada prompt é escrito assim, o que conferir no fim e o que fazer quando a resposta vem errada.' : (kit.bridgeText ?? 'O livro mostra por que cada pedido é escrito assim, o teste de cada um com o que deu certo e o que deu errado, e as outras tarefas do seu ofício.')}
+                    cta={{ label: 'Ver o livro na Amazon', href: book.kitStore ?? book.store, target: '_blank', icon: <IconArrowRight size={20} />, size: 'lg' }}
                     secondaryCta={{ label: 'Abrir o kit inteiro', href: kitPath, size: 'lg' }}
                     background="gray"
                 />

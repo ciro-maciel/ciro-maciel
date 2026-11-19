@@ -20,8 +20,8 @@ export const LEGAL_UPDATED = '8 de outubro de 2026'
 
 export const PRIVACY = {
     title: 'Privacidade',
-    // The letters moved to LinkedIn (16/11/2026); the terms keep LEGAL_UPDATED.
-    updated: '16 de novembro de 2026',
+    // The free guides of the books (19/11/2026); the terms keep LEGAL_UPDATED.
+    updated: '19 de novembro de 2026',
     subtitle: `Como ${SITE.url.replace('https://', '')}, as ferramentas e os assistentes de IA tratam os seus dados`,
     intro: [
         'Esta política diz o que acontece com os seus dados quando você visita este site, usa as ferramentas gratuitas, usa as ferramentas pelo seu assistente de IA (como o Gerador de favicon no ChatGPT) ou entra numa ferramenta com conta. Ela descreve o que o código faz, sem promessa a mais.',
@@ -47,6 +47,17 @@ export const PRIVACY = {
                 'O nome e o e-mail servem para responder a você. A caixa de novidades por e-mail é opcional e nunca vem marcada; se você marcar, guardamos a prova: o texto que você viu, a versão dele e a hora.',
                 'Contra robôs, um envio rápido demais ou repetido demais é barrado e guardado por 30 dias, para uma pessoa conferir se era gente.',
                 'O que você enviou fica guardado até você pedir para apagar. A exclusão é feita por uma pessoa e tira a resposta e a prova do consentimento; fica só um registro sem nada que identifique você.',
+            ],
+        },
+        {
+            icon: 'mail',
+            title: 'Guias gratuitos dos livros',
+            body: [
+                'Cada guia gratuito em PDF dos livros tem um formulário que pede o seu primeiro nome e o seu e-mail. Ele roda no Forms, como o formulário de contato, e guarda o mesmo: o que você escreveu, a página, a campanha do link (se houver), o navegador declarado e o IP transformado num código.',
+                'O e-mail com o link do guia sai pelo Messages, o produto de e-mail da linha Infrastructure, que envia pela Amazon SES, do endereço livros@ciromaciel.click.',
+                'O nome, o e-mail, o guia que você pediu e de onde você chegou também vão para o People, o produto de clientes da linha Customers, onde fica a lista de quem lê os livros. É por ela que sei quais guias e quais caminhos trazem leitores.',
+                'A caixa para receber os próximos guias é opcional e nunca vem marcada. Sem ela, você recebe só o guia que pediu. Se marcar, guardamos a prova: o texto que você viu, a versão dele e a hora.',
+                'Tudo isso fica guardado até você pedir para apagar, pelo WhatsApp (link abaixo).',
             ],
         },
         {
@@ -135,12 +146,12 @@ export const PRIVACY = {
             body: [
                 'Não vendemos, alugamos nem repassamos dados para publicidade. Recebem dados só os serviços que fazem as ferramentas funcionarem, cada um na sua parte:',
                 [
-                    'Cloudflare: hospeda o login, o servidor MCP, a análise de visitas, o formulário de contato, a lista antiga das cartas e os arquivos, e envia o e-mail com o código de entrada.',
+                    'Cloudflare: hospeda o login, o servidor MCP, a análise de visitas, o formulário de contato e os dos guias, a lista de leitores, a lista antiga das cartas e os arquivos, e envia o e-mail com o código de entrada.',
                     'Fly.io: hospeda o servidor das ferramentas e o armazenamento das contas.',
                     'Google Fonts, jsDelivr, IMG.LY e Hugging Face: entregam fontes, emojis e modelos de IA ao seu navegador ou aplicativo.',
                     'Microsoft: gera as vozes do Texto em voz.',
                     'OpenRouter e os modelos que ela serve (Google Gemini, DeepSeek): o texto e as legendas enviados para a IA.',
-                    'Amazon SES: envia os resumos do Acompanhar notícias.',
+                    'Amazon SES: envia os resumos do Acompanhar notícias e o e-mail com o link de cada guia.',
                     'Stripe: cobra os planos pagos.',
                 ],
                 'Essas plataformas guardam os próprios registros técnicos (por exemplo, logs de acesso), pelo prazo das políticas delas. Não temos esse prazo em nosso controle.',
@@ -153,6 +164,7 @@ export const PRIVACY = {
                 [
                     'Visitas ao site e chamadas pelo assistente: 90 dias, apagados automaticamente.',
                     'Mensagens do formulário de contato: até você pedir para apagar. Envios barrados como robô: 30 dias.',
+                    'Pedidos dos guias gratuitos e a lista de leitores: até você pedir para apagar.',
                     'Assinatura das cartas por e-mail, de antes de 16/11/2026: o e-mail e a prova do consentimento ficam enquanto a lista existir, até você pedir para apagar.',
                     'Áudio do Texto em voz pelo assistente: 7 dias.',
                     'Contagem de chamadas por IP: cerca de um minuto, só em memória.',
@@ -168,7 +180,7 @@ export const PRIVACY = {
                 'A LGPD garante a você confirmar se tratamos seus dados, acessá-los, corrigi-los, levá-los para outro serviço e pedir que sejam apagados.',
                 [
                     'No History e no Feeds, a sua conta tem "Exportar dados" e "Apagar tudo", que apagam os dados de verdade.',
-                    'Para apagar a conta de login, os dados do Acompanhar notícias, o que você enviou pelo formulário de contato, a sua assinatura das cartas ou para qualquer outro pedido, fale comigo pelo WhatsApp (link abaixo). Quem responde é uma pessoa.',
+                    'Para apagar a conta de login, os dados do Acompanhar notícias, o que você enviou pelo formulário de contato ou pelo de um guia, a sua assinatura das cartas ou para qualquer outro pedido, fale comigo pelo WhatsApp (link abaixo). Quem responde é uma pessoa.',
                 ],
                 'Os registros de visitas e de chamadas não têm nada que identifique você: o código muda todo dia e não guardamos o IP. Por isso não há como achá-los por pessoa, e eles são apagados sozinhos em 90 dias.',
             ],

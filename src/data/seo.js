@@ -81,6 +81,16 @@ export function kitSeo(book) {
     }
 }
 
+/** A free guide of a book (data/guides.js): its own title and description, its first page as the image. */
+export function guideSeo(guide) {
+    return {
+        title: guide.seo.title,
+        description: clip(guide.seo.description),
+        url: `/books/${guide.book}/guides/${guide.slug}`,
+        image: `${SITE_URL}/guides/${guide.slug}.jpg`,
+    }
+}
+
 // ─── JSON-LD ──────────────────────────────────────────────────────────────
 
 export function breadcrumbLd(items) {
@@ -152,6 +162,15 @@ export function kitLd(book) {
 
 /** One task of a task kit, on its own page: /books/<slug>/kit/<task>. */
 export function kitTaskSeo(book, task) {
+    // A kit whose items are not tested requests (volume 2's experiments) gives each task its own words.
+    if (task.seo) {
+        return {
+            title: task.seo.title,
+            description: clip(task.seo.description),
+            url: `/books/${book.slug}/kit/${task.id}`,
+            image: bookCard(book),
+        }
+    }
     // A build kit's prompt has no test result: it says what step it belongs to.
     if (!task.result) {
         return {

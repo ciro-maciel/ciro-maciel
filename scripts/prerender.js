@@ -21,9 +21,10 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import BOOKS from '../src/data/books.json'
+import BOOKS_JSON from '../src/data/books.json'
 import { BOOK_EXTRAS, SERIES, amazonSearch } from '../src/data/book-extras.js'
-import { AUTHOR, SITE_URL, bookLd, bookSeo, booksSeo, breadcrumbLd, clip, kitLd, kitSeo, kitTaskSeo, seriesLd, snippetIndexSeo, snippetLd, snippetSeo, alternativeSeo, alternativesIndexSeo, awesomeSeo, awesomeListSeo, appLd, faqLd, mcpIndexSeo, mcpSeo, mcpLd } from '../src/data/seo.js'
+import { GUIDES, guidePath } from '../src/data/guides.js'
+import { AUTHOR, SITE_URL, guideSeo, bookLd, bookSeo, booksSeo, breadcrumbLd, clip, kitLd, kitSeo, kitTaskSeo, seriesLd, snippetIndexSeo, snippetLd, snippetSeo, alternativeSeo, alternativesIndexSeo, awesomeSeo, awesomeListSeo, appLd, faqLd, mcpIndexSeo, mcpSeo, mcpLd } from '../src/data/seo.js'
 import ESC from '../src/data/kit-ia-no-escritorio.js'
 import EMP from '../src/data/kit-ia-no-primeiro-trabalho.js'
 import ATD from '../src/data/kit-ia-no-atendimento-e-nas-vendas.js'
@@ -35,6 +36,8 @@ import CCI from '../src/data/kit-construir-com-ia.js'
 import FPA from '../src/data/kit-feito-para-agentes.js'
 import OPB from '../src/data/kit-one-person-business.js'
 import DPV from '../src/data/kit-do-primeiro-visitante-ao-cliente.js'
+import DIA from '../src/data/kit-ia-no-dia-a-dia.js'
+import IPD from '../src/data/kit-ia-por-dentro.js'
 import { bookHome, standInBook } from '../src/data/kit-book.js'
 import { PROMPTS } from '../src/data/prompts.js'
 import { RULES } from '../src/data/rules.js'
@@ -50,7 +53,10 @@ import { VSCODE } from '../src/data/vscode.js'
 import { HERO, LINES, MCP_HOME, SHIFT, TOOLS } from '../src/data/site.js'
 
 // The task kits, by book (pages/BookKit.jsx keeps the same map).
-const KITS = { 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB, 'do-primeiro-visitante-ao-cliente': DPV }
+// A kit the book.yml does not print (volumes 1 and 2) comes from BOOK_EXTRAS,
+// as in data/catalog.js, so its pages are written like the others.
+const BOOKS = BOOKS_JSON.map(book => ({ ...book, kit: book.kit ?? BOOK_EXTRAS[book.slug]?.kit ?? null }))
+const KITS = { 'ia-no-dia-a-dia': DIA, 'ia-por-dentro': IPD, 'ia-no-escritorio': ESC, 'ia-no-primeiro-trabalho': EMP, 'ia-no-pequeno-negocio': NEG, 'ia-no-atendimento-e-nas-vendas': ATD, 'ia-na-sala-de-aula': SAL, 'ia-na-contabilidade': CTB, 'ia-na-advocacia': ADV, 'construir-com-ia': CCI, 'feito-para-agentes': FPA, 'one-person-business': OPB, 'do-primeiro-visitante-ao-cliente': DPV }
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DIST = join(ROOT, 'dist')
@@ -181,7 +187,7 @@ function kitPage(book) {
 
 // One task of a kit on its own page (pages/KitItem.jsx).
 function kitTaskPage(book, task) {
-    const { TASKS, testedNote, TRAIL, noun = 'pedido' } = KITS[book.slug]
+    const { TASKS, testedNote, TRAIL, noun = 'pedido', resultLabel = 'No teste do livro', itemLead } = KITS[book.slug]
     const seo = kitTaskSeo(book, task)
     const kitPath = `/books/${book.slug}/kit`
     // A build kit (TRAIL) has no test result and lists the prompts of the same step.
@@ -192,8 +198,8 @@ function kitTaskPage(book, task) {
         body: [
             `<p>${link(kitPath, `Kit online · ${book.title}`)}</p>`,
             `<h1>${escape(seo.title)}</h1>`,
-            `<p>O ${noun} do livro ${escape(book.title)} para esta tarefa, pronto para preencher e copiar.</p>`,
-            task.result ? `<h2>No teste do livro</h2><p>${escape(task.result)}</p><p>${escape(testedNote)}</p>` : '',
+            `<p>${escape(itemLead ?? `O ${noun} do livro ${book.title} para esta tarefa, pronto para preencher e copiar.`)}</p>`,
+            task.result ? `<h2>${escape(resultLabel)}</h2><p>${escape(task.result)}</p><p>${escape(testedNote)}</p>` : '',
             `<h2>O ${noun}</h2><pre>${escape(task.add ? `${task.tpl}\n\n${task.add}` : task.tpl)}</pre>`,
             task.fields.length ? `<h2>O que preencher</h2>${list(task.fields.map(field => `${escape(field.label)}${field.hint ? `: ${escape(field.hint)}` : ''}`))}` : '',
             task.checks.length ? `<h2>Confira</h2>${list(task.checks.map(escape))}` : '',
@@ -464,6 +470,24 @@ function homePage(shell) {
     return shell.replace('</head>', `${scripts}\n</head>`).replace('<div id="root"></div>', `<div id="root">${main(page.body)}</div>`)
 }
 
+/** A free guide of a book (pages/Guide.jsx): what it is, the ten pages, and the form, which only the browser shows. */
+function guidePage(guide) {
+    const book = BOOKS.find(item => item.slug === guide.book)
+    return {
+        seo: guideSeo(guide),
+        ld: [breadcrumbLd([HOME_CRUMB, BOOKS_CRUMB, { name: book.title, path: `/books/${book.slug}` }, { name: guide.title, path: guidePath(guide) }])],
+        body: [
+            `<p>${link(`/books/${book.slug}`, `Do livro ${book.title} · Volume ${book.volume}`)}</p>`,
+            `<h1>${escape(guide.title)}</h1>`,
+            `<p><strong>${escape(guide.promise)}</strong></p>`,
+            `<p>${escape(guide.tension)}</p>`,
+            `<p>Guia gratuito em PDF, dez páginas. ${escape(guide.forWhom)}</p>`,
+            `<h2>O que tem dentro</h2>${list([guide.promise, ...guide.pages, 'O que o livro ensina a seguir, e as fontes de cada fato'].map(escape))}`,
+            `<p>O guia foi feito a partir do livro ${link(`/books/${book.slug}`, book.title)}, de ${escape(AUTHOR)}.</p>`,
+        ].join(''),
+    }
+}
+
 // ─── Write ────────────────────────────────────────────────────────────────
 
 const shell = await readFile(join(DIST, 'index.html'), 'utf8')
@@ -487,6 +511,7 @@ for (const [slug, kit] of Object.entries(KITS)) {
     await write(book.kit.path, render(shell, kitPage(book)))
     for (const task of kit.TASKS) await write(`${book.kit.path}/${task.id}`, render(shell, kitTaskPage(book, task)))
 }
+for (const guide of GUIDES) if (BOOKS.some(book => book.slug === guide.book)) await write(guidePath(guide), render(shell, guidePage(guide)))
 for (const collection of [PROMPTS, RULES, AGENTS]) {
     await write(collection.path, render(shell, snippetIndexPage(collection)))
     for (const item of collection.items) await write(`${collection.path}/${item.slug}`, render(shell, snippetPage(collection, item)))

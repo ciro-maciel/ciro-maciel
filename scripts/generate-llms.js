@@ -19,6 +19,7 @@ import { fileURLToPath } from 'node:url'
 
 import BOOKS from '../src/data/books.json'
 import { BOOK_EXTRAS, SERIES } from '../src/data/book-extras.js'
+import { guidePath, guidesOfBook } from '../src/data/guides.js'
 import { EXTENSIONS } from '../src/data/extensions.js'
 import { TASKS, TEMPLATES, EXERCISES } from '../src/data/kit-ia-no-escritorio.js'
 import { LINES, SITE } from '../src/data/site.js'
@@ -42,7 +43,9 @@ function book(b) {
         `- Volume ${b.volume} de *${SERIES.name}*, nível ${b.level} (${b.levelName}). E-book, em português.`,
         // No store line until the book is live: nothing here says "em breve".
         amazon ? `- Na Amazon: ${amazon}` : null,
-        b.kit ? `- Kit online, aberto: ${URL}${b.kit.path}` : null,
+        // Volumes 1 and 2 have a kit the book.yml does not print (BOOK_EXTRAS), as in data/catalog.js.
+        (b.kit ?? BOOK_EXTRAS[b.slug]?.kit) ? `- Kit online, aberto: ${URL}${(b.kit ?? BOOK_EXTRAS[b.slug].kit).path}` : null,
+        ...guidesOfBook(b.slug).map(guide => `- Guia gratuito em PDF, dez páginas, enviado por e-mail: ${guide.title}, ${URL}${guidePath(guide)}`),
         `- A pergunta da capa: ${b.hook}`,
         `- Resumo: ${b.summary}`,
         `- Para quem é: ${b.audience}`,

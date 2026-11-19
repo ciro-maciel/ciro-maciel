@@ -19,15 +19,18 @@ import { Link } from 'react-router-dom'
 export const FORMS_EMBED_URL = 'https://forms.worker.mymarketing.click/embed.js'
 const SCRIPT_ID = 'forms-embed-script'
 
-function useFormsEmbed() {
+/** Loads the embed once per page, after hydration; `isNeeded` false skips it (a page showing no form). */
+export function useFormsEmbed(isNeeded = true) {
     useEffect(() => {
-        if (typeof window === 'undefined' || window.customElements?.get('forms-embed') || document.getElementById(SCRIPT_ID)) return
+        if (!isNeeded || typeof window === 'undefined' || window.customElements?.get('forms-embed') || document.getElementById(SCRIPT_ID)) return
+        // A guide page the form just sent back (?recebido=1) shows no form.
+        if (new URLSearchParams(window.location.search).get('recebido') === '1') return
         const script = document.createElement('script')
         script.id = SCRIPT_ID
         script.src = FORMS_EMBED_URL
         script.defer = true
         document.body.appendChild(script)
-    }, [])
+    }, [isNeeded])
 }
 
 export function ContactForm({ form }) {
