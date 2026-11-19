@@ -369,7 +369,7 @@ function vscodeExtensionPage(e) {
                 `<h2>${escape(l.steps.title)}</h2>${list(l.steps.items.map(([t, x]) => `<strong>${escape(t)}</strong>: ${escape(x)}`))}`,
                 ...l.showcase.map(s => `<h3>${escape(s.title)}</h3><p>${escape(s.text)}</p>${s.input ? `<pre><code>${escape(s.input)}</code></pre>` : ''}${s.output ? `<pre><code>${escape(s.output)}</code></pre>` : ''}`),
                 `<h2>${escape(l.features.title)}</h2>${list(l.features.items.map(([t, x]) => `<strong>${escape(t)}</strong>: ${escape(x)}`))}`,
-                `<h2>Free and Pro</h2><h3>Free</h3>${list(l.pricing.free.map(escape))}<h3>Pro, a monthly plan in US dollars</h3>${list([...l.pricing.pro, `${page.model}, up to ${page.dailyRequests} AI requests a day`].map(escape))}`,
+                l.pricing.pro ? `<h2>Free and Pro</h2><h3>Free</h3>${list(l.pricing.free.map(escape))}<h3>Pro, a monthly plan in US dollars</h3>${list([...l.pricing.pro, `${page.model}, up to ${page.dailyRequests} AI requests a day`].map(escape))}` : `<h2>Price</h2><p>${escape(l.pricing.freeNote || 'Free.')}</p>${list(l.pricing.free.map(escape))}${l.next ? `<p>${escape(l.next.text)} ${link(l.next.href, l.next.label)}</p>` : ''}`,
                 `<h2>Questions</h2>${l.faq.map(([q, a]) => `<h3>${escape(q)}</h3><p>${escape(a)}</p>`).join('')}`,
                 `<p>${link(page.path, `All ${page.extensions.length} extensions`)}</p>`,
             ].join(''),

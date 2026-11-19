@@ -44,9 +44,11 @@ function Doors({ extension }) {
         <Stack gap="xs" align="flex-start">
             <Group gap="md">
                 <CTAButton label="Install free" href={extension.marketplace} target="_blank" icon={<IconArrowRight size={18} />} />
-                <Anchor href="#pricing" fz={15} fw={800} c="gray.9" underline="always">
-                    Or get Pro, with the AI included
-                </Anchor>
+                {extension.pro ? (
+                    <Anchor href="#pricing" fz={15} fw={800} c="gray.9" underline="always">
+                        Or get Pro, with the AI included
+                    </Anchor>
+                ) : null}
             </Group>
             <Text fz={13} c="gray.5">
                 VS Code Marketplace ·{' '}
@@ -236,10 +238,12 @@ export function VscodeLanding({ extension, landing, catalog }) {
             <Band background={showcase.length % 2 === 0 ? 'white' : 'gray'} id="pricing">
                 <Stack gap={40}>
                     <Stack gap="sm" maw={760}>
-                        <Eyebrow>Free and Pro</Eyebrow>
-                        <H2>Free does everything. Pro skips the AI account.</H2>
+                        <Eyebrow>{extension.pro ? 'Free and Pro' : 'Price'}</Eyebrow>
+                        <H2>{extension.pro ? 'Free does everything. Pro skips the AI account.' : 'Free. No account, no trial, no nag screen.'}</H2>
                         <Text fz={17} c="gray.6" lh={1.7}>
-                            The free version keeps every feature, with your own OpenRouter key. Pro is for when you would rather not create one more account and paste one more key: the AI comes included.
+                            {extension.pro
+                                ? 'The free version keeps every feature, with your own OpenRouter key. Pro is for when you would rather not create one more account and paste one more key: the AI comes included.'
+                                : pricing.freeNote || 'Every feature is free. Where it uses AI, it uses your own OpenRouter key: you pick the model and pay the model, per token, with no subscription to me.'}
                         </Text>
                     </Stack>
                     <Grid gutter="xl">
@@ -259,11 +263,21 @@ export function VscodeLanding({ extension, landing, catalog }) {
                                 <CTAButton label="Install free" href={extension.marketplace} target="_blank" icon={<IconArrowRight size={18} />} />
                             </Stack>
                         </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 6 }}>
-                            <Stack gap="md">
-                                <ProBox extension={{ ...extension, pro: pricing.pro }} catalog={catalog} />
-                            </Stack>
-                        </Grid.Col>
+                        {extension.pro ? (
+                            <Grid.Col span={{ base: 12, md: 6 }}>
+                                <Stack gap="md">
+                                    <ProBox extension={{ ...extension, pro: pricing.pro }} catalog={catalog} />
+                                </Stack>
+                            </Grid.Col>
+                        ) : landing.next ? (
+                            <Grid.Col span={{ base: 12, md: 6 }}>
+                                <Stack gap="sm" p="lg" h="100%" style={{ border: BORDER }} bg={SECTION_BACKGROUNDS.white}>
+                                    <Eyebrow>When you need the next thing</Eyebrow>
+                                    <Text fz={16} c="gray.6" lh={1.7}>{landing.next.text}</Text>
+                                    <Anchor href={landing.next.href} fz={15} fw={800} c="gray.9" underline="always">{landing.next.label}</Anchor>
+                                </Stack>
+                            </Grid.Col>
+                        ) : null}
                     </Grid>
                 </Stack>
             </Band>
@@ -280,7 +294,7 @@ export function VscodeLanding({ extension, landing, catalog }) {
             {/* The doors again, and the rest of the family */}
             <Band background={showcase.length % 2 === 0 ? 'white' : 'gray'}>
                 <Stack gap="lg" align="center" ta="center">
-                    <H2 ta="center">Try it on the next {extension.id === 'sqlite-editor' ? '.db file you open' : 'error you hit'}.</H2>
+                    <H2 ta="center">{landing.closing}</H2>
                     <Doors extension={extension} />
                     <Anchor component={Link} to={VSCODE.path} fz={14} fw={700} c="gray.9">
                         All {VSCODE.extensions.length} extensions
