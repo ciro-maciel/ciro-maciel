@@ -22,6 +22,7 @@ import { AwesomeList } from './pages/AwesomeList'
 import { McpIndex, McpPage } from './pages/Mcp'
 import { CcmStack } from './pages/CcmStack'
 import { Vscode, VscodeExtension } from './pages/Vscode'
+import { AssistantNavigation } from './pages/AssistantNavigation'
 import { PROMPTS } from './data/prompts'
 import { RULES } from './data/rules'
 import { AGENTS } from './data/agents'
@@ -201,6 +202,11 @@ export function App() {
                     <Route
                         path="/vscode/:id"
                         element={<VscodeExtension />}
+                    />
+                    {/* ASSISTANT NAVIGATION (19/11/2026): the open-source project's own page, in English. */}
+                    <Route
+                        path="/assistant-navigation"
+                        element={<AssistantNavigation />}
                     />
                     {/* THE MCP CONNECTORS (21/10/2026): what an MCP connector
                         is, and one page per connector, from the catalog of

@@ -49,7 +49,8 @@ function searchText(tool) {
 const INSTALLABLE = [
     { id: 'history', name: 'History', description: 'Ache qualquer página que você já leu, por uma frase que você lembra.', where: STORES.chrome, href: '/tools/history' },
     { id: 'pomodoro', name: 'Pomodoro', description: 'Timer Pomodoro no painel lateral do Chrome, com as tarefas e os sites que distraem.', where: STORES.chrome, href: '/tools/pomodoro' },
-    ...EXTENSIONS.map(extension => ({ ...extension, where: STORES[extension.store], external: true })),
+    // Since 19/11/2026 each VS Code extension has its own page here (/vscode/<id>), with the store links in it
+    ...EXTENSIONS.map(extension => ({ ...extension, where: 'VS Code', external: !extension.href.startsWith('/') })),
 ]
 
 export function Tools() {

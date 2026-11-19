@@ -50,6 +50,7 @@ import { LINE_TOOLS } from '../src/data/line-tools.js'
 import { MCP, mcpSiblings } from '../src/data/mcp.js'
 import { CCM_STACK } from '../src/data/ccm-stack.js'
 import { VSCODE } from '../src/data/vscode.js'
+import { ASSISTANT_NAVIGATION } from '../src/data/assistant-navigation.js'
 import { HERO, LINES, MCP_HOME, SHIFT, TOOLS } from '../src/data/site.js'
 
 // The task kits, by book (pages/BookKit.jsx keeps the same map).
@@ -371,6 +372,26 @@ function vscodeExtensionPage(e) {
     }
 }
 
+// /assistant-navigation (pages/AssistantNavigation.jsx): the same words, from data/assistant-navigation.js.
+function assistantNavigationPage() {
+    const page = ASSISTANT_NAVIGATION
+    const seo = { title: page.seo.title, description: page.seo.description, url: page.path }
+    return {
+        seo,
+        ld: [snippetLd(seo), breadcrumbLd([HOME_CRUMB, { name: 'Assistant Navigation', path: page.path }])],
+        body: [
+            `<p>${escape(page.hero.eyebrow)}</p>`,
+            `<h1>${escape(page.hero.title)}</h1>`,
+            `<p>${escape(page.hero.description)}</p>`,
+            `<h2>${escape(page.why.title)}</h2><p>${escape(page.why.text)}</p>${list(page.why.items.map(escape))}`,
+            `<h2>${escape(page.install.title)}</h2>${list(page.install.steps.map(escape))}<pre><code>${escape(page.install.command)}</code></pre><p>${escape(page.install.note)}</p>`,
+            `<h2>${escape(page.tools.title)}</h2>${list(page.tools.items.map(([n, w, r]) => `${escape(n)}: ${escape(w)} (${r})`))}<p>${escape(page.tools.note)}</p>`,
+            `<h2>Next step</h2><p>${escape(page.next.text)}</p><p>${link(page.next.href, page.next.label)}</p>`,
+            `<p>${link(page.repo, 'The code on GitHub')}</p>`,
+        ].join(''),
+    }
+}
+
 // /mcp and /mcp/<id> (pages/Mcp.jsx).
 const MCP_CRUMB = { name: 'Conectores MCP', path: MCP.path }
 
@@ -543,6 +564,7 @@ for (const list of Object.values(AWESOME_LISTS)) await write(`${AWESOME.path}/${
 await write(CCM_STACK.path, render(shell, ccmStackPage()))
 await write(VSCODE.path, render(shell, vscodePage()))
 for (const e of VSCODE.extensions) await write(e.path, render(shell, vscodeExtensionPage(e)))
+await write(ASSISTANT_NAVIGATION.path, render(shell, assistantNavigationPage()))
 await write(MCP.path, render(shell, mcpIndexPage()))
 for (const item of MCP.items) await write(`${MCP.path}/${item.id}`, render(shell, mcpPage(item)))
 await write('/tools', render(shell, await toolsPage()))

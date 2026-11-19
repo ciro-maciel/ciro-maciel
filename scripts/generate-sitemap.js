@@ -54,6 +54,7 @@ const ROUTES = [
     { path: '/', changefreq: 'monthly', priority: '1.0' },
     { path: '/ccm-stack', changefreq: 'monthly', priority: '0.9' },
     { path: '/vscode', changefreq: 'monthly', priority: '0.8' },
+    { path: '/assistant-navigation', changefreq: 'monthly', priority: '0.7' },
     { path: '/vscode/stack-trace-triage', changefreq: 'monthly', priority: '0.7' },
     { path: '/vscode/sqlite-editor', changefreq: 'monthly', priority: '0.7' },
     { path: '/vscode/database', changefreq: 'monthly', priority: '0.7' },
