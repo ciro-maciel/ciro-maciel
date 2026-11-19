@@ -185,7 +185,7 @@ export function App() {
                         element={<CcmStack />}
                     />
                     {/* THE VS CODE EXTENSIONS (19/11/2026), in English: what each does
-                        free and the Pro plan of the eight that use AI (pages/Vscode.jsx). */}
+                        free and the Pro plan of the ones on sale (pages/Vscode.jsx). */}
                     <Route
                         path="/vscode"
                         element={<Vscode />}

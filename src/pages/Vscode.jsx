@@ -7,8 +7,8 @@ import { useSeoMeta } from '../hooks/use-seo-meta'
 import { VSCODE } from '../data/vscode'
 
 /**
- * /vscode (19/11/2026): the VS Code extensions, what each does free, and the Pro plan of the eight
- * that use AI. In English: the people who install them read English.
+ * /vscode (19/11/2026): the VS Code extensions, what each does free, and the Pro plan of the ones
+ * on sale (Stack Trace Triage and SQLite Editor since 19/11/2026). In English: the people who install them read English.
  *
  * The price is read from Payments at load time (the catalog of VSCODE.payments.gatewayId), never
  * written here: one source, infrastructure/payments/scripts/specs/vscode-pro.json. While the plans
@@ -537,14 +537,14 @@ function ExtensionRow({ extension, catalog, index }) {
                                     extension={extension}
                                     catalog={catalog}
                                 />
-                            ) : (
+                            ) : extension.freeOnly ? (
                                 <Text
                                     fz={14}
                                     c="gray.5"
                                 >
                                     {extension.freeOnly}
                                 </Text>
-                            )}
+                            ) : null}
                         </Stack>
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6 }}>

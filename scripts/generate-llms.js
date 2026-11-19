@@ -187,7 +187,7 @@ Para o VS Code, na Open VSX (instalam também no Cursor, no VSCodium e no Windsu
 
 ${EXTENSIONS.map(e => `- ${e.name}: ${e.description} ${e.href}`).join('\n')}
 
-Todas estão em ${URL}/vscode (em inglês), com o que cada uma faz de graça. As oito que usam IA têm também um plano Pro mensal em dólares, com a IA incluída (Claude Haiku 5.5, até 50 pedidos por dia por extensão), sem chave da OpenRouter; o grátis continua como está. Em 19/11/2026 o checkout do Pro está em modo de teste.
+Todas estão em ${URL}/vscode (em inglês), com o que cada uma faz de graça. Stack Trace Triage e SQLite Editor têm também um plano Pro de US$ 3 por mês, com a IA incluída (Claude Haiku 5.5, até 50 pedidos por dia por extensão), sem chave da OpenRouter; o grátis continua como está. As outras extensões de IA são só grátis por enquanto.
 
 ## Infrastructure
 

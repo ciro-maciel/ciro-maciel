@@ -338,7 +338,7 @@ function vscodePage() {
             `<p>${escape(page.hero.description)}</p>`,
             `<h2>${escape(page.how.title)}</h2>`,
             ...page.how.items.map(item => `<h3>${escape(item.title)}</h3><p>${escape(item.description)}</p>`),
-            ...page.extensions.map(e => `<h2 id="${e.id}">${escape(e.name)}</h2><p>${escape(e.summary)}</p><h3>Free</h3>${list(e.free.map(escape))}${e.pro ? `<h3>Pro, a monthly plan in US dollars</h3>${list([...e.pro, `${page.model}, up to ${page.dailyRequests} AI requests a day`].map(escape))}` : `<p>${escape(e.freeOnly)}</p>`}<p>${link(e.openVsx, 'Install from Open VSX')} · ${link(e.marketplace, 'VS Code Marketplace')}</p>`),
+            ...page.extensions.map(e => `<h2 id="${e.id}">${escape(e.name)}</h2><p>${escape(e.summary)}</p><h3>Free</h3>${list(e.free.map(escape))}${e.pro ? `<h3>Pro, a monthly plan in US dollars</h3>${list([...e.pro, `${page.model}, up to ${page.dailyRequests} AI requests a day`].map(escape))}` : e.freeOnly ? `<p>${escape(e.freeOnly)}</p>` : ''}<p>${link(e.openVsx, 'Install from Open VSX')} · ${link(e.marketplace, 'VS Code Marketplace')}</p>`),
             `<h2>Questions</h2>`,
             ...page.faq.map(entry => `<h3>${escape(entry.question)}</h3><p>${escape(entry.answer)}</p>`),
         ].join(''),

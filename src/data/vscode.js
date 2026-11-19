@@ -9,8 +9,9 @@
  *
  * Every fact here was read from each extension's README and manifest on 19/11/2026. THE PRICE IS
  * NOT HERE: the page reads it from Payments (project Tools), whose single source is
- * infrastructure/payments/scripts/specs/vscode-pro.json. Until Ciro confirms the price, the plans
- * exist only on the test gateway and the page says the checkout is in test mode.
+ * infrastructure/payments/scripts/specs/vscode-pro.json. Pro is sold only where an extension has
+ * `pro` below: Stack Trace Triage and SQLite Editor since 19/11/2026. The other six AI extensions
+ * show their free version only until Ciro opens their Pro.
  */
 
 const openVsx = id => `https://open-vsx.org/extension/ciro-maciel/ciro-maciel-${id}`
@@ -21,12 +22,12 @@ export const VSCODE = {
     path: '/vscode',
 
     // Payments (project Tools). The public key and the gateway are public values: the checkout
-    // reads the catalog with them. TEST gateway until the price is confirmed; the live one is
-    // cdc89a9a-9d91-4a9d-b327-4d8f2c95d7a3.
+    // reads the catalog with them. The LIVE gateway since 19/11/2026 (Ciro approved US$ 3 for two
+    // extensions); the test one, f58d52bc-eef2-4698-b88f-f6033dd5fb6b, holds all eight for later.
     payments: {
         apiUrl: 'https://payments.worker.myinfrastructure.click',
         publicKey: 'pk_6b83b40b9135d318331df91a0ccb4d698017b4c7c311b2f2f50ecbbdeef5153d',
-        gatewayId: 'f58d52bc-eef2-4698-b88f-f6033dd5fb6b',
+        gatewayId: 'cdc89a9a-9d91-4a9d-b327-4d8f2c95d7a3',
     },
 
     // What the license server allows a day (applications/apps/vscode-pro/manager, LIVE_DAILY_REQUESTS).
@@ -42,7 +43,7 @@ export const VSCODE = {
         eyebrow: 'VS Code extensions',
         title: 'The AI in your editor, without one more account.',
         description:
-            'Eleven extensions I built for my own work: a database studio, a SQLite editor, a commit writer, a stack trace reader and more. Every one is free and stays free. The eight that use AI also have a Pro plan: the AI is included, so you skip the OpenRouter sign-up and the key.',
+            'Eleven extensions I built for my own work: a database studio, a SQLite editor, a commit writer, a stack trace reader and more. Every one is free and stays free. Stack Trace Triage and SQLite Editor also have a Pro plan: the AI is included, so you skip the OpenRouter sign-up and the key.',
         note: 'For VS Code, Cursor, VSCodium and Windsurf.',
         image: image('stack-trace-triage', 'triage-from-terminal.png'),
         alt: 'Stack Trace Triage in VS Code: a trace copied from the terminal and its diagnosis with the root cause and the fix',
@@ -65,20 +66,21 @@ export const VSCODE = {
             {
                 title: 'One key, any editor',
                 description:
-                    'After the payment you get a license key. Paste it with "Enter Pro License Key" in the command palette. The same key carries every extension you subscribe to.',
+                    'After the payment you get a license key. Paste it with "Enter Pro License Key" in the command palette. The same key carries both extensions if you subscribe to both.',
             },
         ],
     },
 
+    // The two with Pro first: they are the ones on sale.
     extensions: [
         {
-            id: 'database',
-            name: 'Database Studio',
-            summary: 'PostgreSQL, MySQL, SQLite and Redis in the side bar, found from your .env files.',
-            image: image('database', 'data-grid.png'),
-            alt: 'Database Studio: the connections side bar and an orders table in the editable data grid',
-            free: ['Connections read from your .env files', 'An editable grid with commit and revert', 'Production connections marked and confirmed', 'Ask AI for SQL with your OpenRouter key'],
-            pro: ['Ask AI for SQL and query explanations with no OpenRouter key'],
+            id: 'stack-trace-triage',
+            name: 'Stack Trace Triage',
+            summary: 'Paste a stack trace and get the root cause: it opens the files in the frames first.',
+            image: image('stack-trace-triage', 'diagnosis-from-selection.png'),
+            alt: 'Stack Trace Triage: a diagnosis with root cause and fix for a selected trace',
+            free: ['Node, Python, Java, Go, Rust, Ruby and PHP traces', 'From the editor, a log file or the clipboard'],
+            pro: ['Diagnoses with no OpenRouter key'],
         },
         {
             id: 'sqlite-editor',
@@ -90,22 +92,20 @@ export const VSCODE = {
             pro: ['Every AI feature with no OpenRouter key'],
         },
         {
+            id: 'database',
+            name: 'Database Studio',
+            summary: 'PostgreSQL, MySQL, SQLite and Redis in the side bar, found from your .env files.',
+            image: image('database', 'data-grid.png'),
+            alt: 'Database Studio: the connections side bar and an orders table in the editable data grid',
+            free: ['Connections read from your .env files', 'An editable grid with commit and revert', 'Production connections marked and confirmed', 'Ask AI for SQL with your OpenRouter key'],
+        },
+        {
             id: 'commit-generator',
             name: 'Commit Generator',
             summary: 'One click in Source Control and your staged diff becomes a Conventional Commit.',
             image: image('commit-generator', 'source-control-commit.png'),
             alt: 'Commit Generator: a generated Conventional Commit in the Source Control input box',
             free: ['Conventional Commits or plain messages, in any language', 'Any OpenRouter model, with its price shown before you pick'],
-            pro: ['Commit messages with no OpenRouter key'],
-        },
-        {
-            id: 'stack-trace-triage',
-            name: 'Stack Trace Triage',
-            summary: 'Paste a stack trace and get the root cause: it opens the files in the frames first.',
-            image: image('stack-trace-triage', 'diagnosis-from-selection.png'),
-            alt: 'Stack Trace Triage: a diagnosis with root cause and fix for a selected trace',
-            free: ['Node, Python, Java, Go, Rust, Ruby and PHP traces', 'From the editor, a log file or the clipboard'],
-            pro: ['Diagnoses with no OpenRouter key'],
         },
         {
             id: 'regex-whisperer',
@@ -114,7 +114,6 @@ export const VSCODE = {
             image: image('regex-whisperer', 'build-result-local-validation.png'),
             alt: 'Regex Whisperer: a regex built from a description and checked against examples',
             free: ['Explain and build, seven regex flavors', 'JavaScript patterns checked locally against the examples'],
-            pro: ['Explain and build with no OpenRouter key'],
         },
         {
             id: 'error-message-humanizer',
@@ -123,7 +122,6 @@ export const VSCODE = {
             image: image('error-message-humanizer', 'rewrite-proposal.png'),
             alt: 'Error Message Humanizer: a proposed rewrite of an error message with Apply and Show diff',
             free: ['A lightbulb on every error site, in eight languages', 'Four tones; nothing changes until you apply'],
-            pro: ['Rewrites with no OpenRouter key'],
         },
         {
             id: 'todo-hunter',
@@ -132,7 +130,6 @@ export const VSCODE = {
             image: image('todo-hunter', 'proposed-change-diff.png'),
             alt: 'TODO Hunter: a proposed implementation shown as a diff before it is applied',
             free: ['Every TODO, FIXME, XXX and HACK in a side bar', 'Resolve with AI, with a diff before any change'],
-            pro: ['Resolve with no OpenRouter key'],
         },
         {
             id: 'env-var-detective',
@@ -141,7 +138,6 @@ export const VSCODE = {
             image: image('env-var-detective', 'sidebar-by-status.png'),
             alt: 'Env Var Detective: variables grouped as undocumented, inconsistent, orphaned and documented',
             free: ['Local scan in 14 languages, grouped by status', 'AI-written .env.example entries with your OpenRouter key'],
-            pro: ['.env.example entries with no OpenRouter key'],
         },
         {
             id: 'rest-studio',
@@ -185,7 +181,7 @@ export const VSCODE = {
         },
         {
             question: 'What does Pro send, and where?',
-            answer: 'The same text the free version sends to OpenRouter: the diff, the trace, the selected code or the schema the feature needs, never your whole project. It goes to my server, which checks the license and passes it to Anthropic for Claude Haiku 5.5. My server does not keep it.',
+            answer: 'The same text the free version sends to OpenRouter: the stack trace with the code around its frames, or the table names, columns and sample rows the SQLite feature needs, never your whole project. It goes to my server, which checks the license and passes it to Anthropic for Claude Haiku 5.5. My server does not keep it.',
         },
         {
             question: 'I already have an OpenRouter key. Do I need Pro?',
