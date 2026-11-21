@@ -252,6 +252,32 @@ export function SnippetPage({ collection }) {
                         >
                             {item.code}
                         </Code>
+                        {item.kit && (
+                            <Stack
+                                gap={4}
+                                pt="xs"
+                            >
+                                <Text
+                                    fw={700}
+                                    c="gray.9"
+                                >
+                                    {item.kit.title}
+                                </Text>
+                                <Text
+                                    c="gray.7"
+                                    lh={1.7}
+                                >
+                                    {item.kit.description}
+                                </Text>
+                                <Anchor
+                                    href={item.kit.href}
+                                    c="gray.9"
+                                    fw={700}
+                                >
+                                    {item.kit.label}
+                                </Anchor>
+                            </Stack>
+                        )}
                     </Stack>
 
                     <Grid gutter={{ base: 'xl', md: 48 }}>

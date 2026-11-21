@@ -41,6 +41,15 @@ export const BOOK_SALES = {
     to: '/books/ia-no-atendimento-e-nas-vendas',
 }
 
+// The book's online kit, by the measured short link (campaign seo-kits in Links): the page with the most search
+// impressions of the five (SEO da casa, 20/11/2026) led only to the book, never to the kit.
+export const KIT_SALES = {
+    title: 'Preencha este pedido no kit do livro, no capítulo 2',
+    description: 'O kit do livro abre no site, sem cadastro: este pedido com os campos para você preencher, os outros pedidos testados do livro e o que conferir em cada resposta.',
+    label: 'Abrir o kit',
+    href: 'https://go.mymarketing.click/seo-kit-atendimento',
+}
+
 // The book's own words (como-este-livro-foi-feito.md), for the pages on rights.
 const ARCHIVE_CAVEAT = 'A pesquisa do livro foi feita em período eleitoral: as páginas do governo que pediram login naquele dia, entre elas as do Ministério do Trabalho, foram lidas em cópias guardadas pelo Internet Archive, e estão marcadas para serem reabertas ao vivo depois de 25 de outubro de 2026, quando termina o período eleitoral.'
 
@@ -61,6 +70,7 @@ export const PENDING_PROMPTS_SALES = [
         ],
         test: 'No teste do livro (Claude Sonnet 4.6, 06/10/2026, um tênis de corrida com três fatos: o preço, a numeração que tem na loja e a troca), o pedido de primeira trouxe 21 afirmações fora dos fatos nas 3 respostas, e a urgência inventada, "os números somem rápido", em 2 de 3. Com este pedido, sobrou 1 nas 3 ("Posso separar pra você?") e a urgência sumiu: 0 de 3. Na versão para a senhora de idade, 0 contra 20. O [confirmar] veio de 3 a 6 vezes por roteiro.',
         source: 'Livro IA no atendimento e nas vendas, capítulo "Abordar sem prometer o que a loja não dá".',
+        kit: KIT_SALES,
         cta: BOOK_SALES,
     },
     {
